@@ -1,0 +1,2180 @@
+{
+    "score": {
+        "BLEU": 0.0,
+        "B4": 0.37071117023086075,
+        "F1": 45.304928459546254,
+        "RL": 52.467026378896875,
+        "JGA": 0.36231884057971014,
+        "SLOT_ACC": 12.19758064516129,
+        "ppl": 12.608998820202823
+    },
+    "generation": [
+        {
+            "meta": [
+                [
+                    "restaurant-food=portuguese"
+                ],
+                [
+                    "restaurant-food=turkish"
+                ],
+                [
+                    "restaurant-food=moderate"
+                ],
+                [
+                    "restaurant-food=moderate"
+                ],
+                [
+                    "bye"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "restaurant-food": "portuguese"
+                },
+                {
+                    "restaurant-food": "turkish"
+                },
+                {
+                    "restaurant-food": "moderate"
+                },
+                {
+                    "restaurant-food": "moderate"
+                },
+                {
+                    "restaurant-food": "moderate"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "restaurant-food=british"
+                ],
+                [
+                    "restaurant-food=west"
+                ],
+                [
+                    "graffiti=graffiti-west"
+                ],
+                [
+                    "restaurant-food=british"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "restaurant-food": "british"
+                },
+                {
+                    "restaurant-food": "west"
+                },
+                {
+                    "restaurant-food": "west",
+                    "graffiti": "graffiti-west"
+                },
+                {
+                    "restaurant-food": "british",
+                    "graffiti": "graffiti-west"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "restaurant-food=cheap"
+                ],
+                [
+                    "restaurant-food=goldenhouse"
+                ],
+                [
+                    "None"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "restaurant-food": "cheap"
+                },
+                {
+                    "restaurant-food": "goldenhouse"
+                },
+                {
+                    "restaurant-food": "goldenhouse"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "restaurant-food=centre"
+                ],
+                [
+                    "restaurant-food=centre"
+                ],
+                [
+                    "None"
+                ],
+                [
+                    "None"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "restaurant-food": "centre"
+                },
+                {
+                    "restaurant-food": "centre"
+                },
+                {
+                    "restaurant-food": "centre"
+                },
+                {
+                    "restaurant-food": "centre"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "restaurant-food=west"
+                ],
+                [
+                    "restaurant-food=indian"
+                ],
+                [
+                    "restaurant-food=riceboat"
+                ],
+                [
+                    "None"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "restaurant-food": "west"
+                },
+                {
+                    "restaurant-food": "indian"
+                },
+                {
+                    "restaurant-food": "riceboat"
+                },
+                {
+                    "restaurant-food": "riceboat"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "restaurant-food=indian"
+                ],
+                [
+                    "restaurant-food=indian"
+                ],
+                [
+                    "None"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "restaurant-food": "indian"
+                },
+                {
+                    "restaurant-food": "indian"
+                },
+                {
+                    "restaurant-food": "indian"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "restaurant-food=centre"
+                ],
+                [
+                    "restaurant-food=lebanese"
+                ],
+                [
+                    "restaurant-food=lebanese"
+                ],
+                [
+                    "restaurant-food=lebanese"
+                ],
+                [
+                    "None"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "restaurant-food": "centre"
+                },
+                {
+                    "restaurant-food": "lebanese"
+                },
+                {
+                    "restaurant-food": "lebanese"
+                },
+                {
+                    "restaurant-food": "lebanese"
+                },
+                {
+                    "restaurant-food": "lebanese"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "restaurant-food=european"
+                ],
+                [
+                    "restaurant-food=european"
+                ],
+                [
+                    "restaurant-food=chinese"
+                ],
+                [
+                    "restaurant-food=chinese"
+                ],
+                [
+                    "restaurant-food=chinese"
+                ],
+                [
+                    "restaurant-food=chinese"
+                ],
+                [
+                    "restaurant-food=chinese"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "restaurant-food": "european"
+                },
+                {
+                    "restaurant-food": "european"
+                },
+                {
+                    "restaurant-food": "chinese"
+                },
+                {
+                    "restaurant-food": "chinese"
+                },
+                {
+                    "restaurant-food": "chinese"
+                },
+                {
+                    "restaurant-food": "chinese"
+                },
+                {
+                    "restaurant-food": "chinese"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "restaurant-food=british"
+                ],
+                [
+                    "restaurant-food=british"
+                ],
+                [
+                    "restaurant-food=italian"
+                ],
+                [
+                    "restaurant-food=british"
+                ],
+                [
+                    "restaurant-food=british"
+                ],
+                [
+                    "none"
+                ],
+                [
+                    "none"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "restaurant-food": "british"
+                },
+                {
+                    "restaurant-food": "british"
+                },
+                {
+                    "restaurant-food": "italian"
+                },
+                {
+                    "restaurant-food": "british"
+                },
+                {
+                    "restaurant-food": "british"
+                },
+                {
+                    "restaurant-food": "british"
+                },
+                {
+                    "restaurant-food": "british"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "restaurant-food=centre"
+                ],
+                [
+                    "restaurant-food=italian"
+                ],
+                [
+                    "restaurant-food=stazione"
+                ],
+                [
+                    "restaurant-food=italian"
+                ],
+                [
+                    "restaurant-food=italian"
+                ],
+                [
+                    "restaurant-food=italian"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "restaurant-food": "centre"
+                },
+                {
+                    "restaurant-food": "italian"
+                },
+                {
+                    "restaurant-food": "stazione"
+                },
+                {
+                    "restaurant-food": "italian"
+                },
+                {
+                    "restaurant-food": "italian"
+                },
+                {
+                    "restaurant-food": "italian"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "restaurant-food=indian"
+                ],
+                [
+                    "restaurant-food=west"
+                ],
+                [
+                    "restaurant-food=indian"
+                ],
+                [
+                    "None"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "restaurant-food": "indian"
+                },
+                {
+                    "restaurant-food": "west"
+                },
+                {
+                    "restaurant-food": "indian"
+                },
+                {
+                    "restaurant-food": "indian"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "restaurant-food=chinese"
+                ],
+                [
+                    "restaurant-food=chinese"
+                ],
+                [
+                    "None"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "restaurant-food": "chinese"
+                },
+                {
+                    "restaurant-food": "chinese"
+                },
+                {
+                    "restaurant-food": "chinese"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "restaurant-food=international"
+                ],
+                [
+                    "restaurant-food=moderate"
+                ],
+                [
+                    "restaurant-food=varsity"
+                ],
+                [
+                    "None"
+                ],
+                [
+                    "None"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "restaurant-food": "international"
+                },
+                {
+                    "restaurant-food": "moderate"
+                },
+                {
+                    "restaurant-food": "varsity"
+                },
+                {
+                    "restaurant-food": "varsity"
+                },
+                {
+                    "restaurant-food": "varsity"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "restaurant-food=east"
+                ],
+                [
+                    "restaurant-food=british"
+                ],
+                [
+                    "restaurant-food=british"
+                ],
+                [
+                    "restaurant-food=british"
+                ],
+                [
+                    "none"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "restaurant-food": "east"
+                },
+                {
+                    "restaurant-food": "british"
+                },
+                {
+                    "restaurant-food": "british"
+                },
+                {
+                    "restaurant-food": "british"
+                },
+                {
+                    "restaurant-food": "british"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "restaurant-food=south-side"
+                ],
+                [
+                    "restaurant-food=south-side"
+                ],
+                [
+                    "None"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "restaurant-food": "south-side"
+                },
+                {
+                    "restaurant-food": "south-side"
+                },
+                {
+                    "restaurant-food": "south-side"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "restaurant-food=british"
+                ],
+                [
+                    "restaurant-food=expensive"
+                ],
+                [
+                    "restaurant-food=fitzbillies"
+                ],
+                [
+                    "restaurant-food=fitzbillies"
+                ],
+                [
+                    "none"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "restaurant-food": "british"
+                },
+                {
+                    "restaurant-food": "expensive"
+                },
+                {
+                    "restaurant-food": "fitzbillies"
+                },
+                {
+                    "restaurant-food": "fitzbillies"
+                },
+                {
+                    "restaurant-food": "fitzbillies"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "restaurant-food=european"
+                ],
+                [
+                    "restaurant-food=vegetarian"
+                ],
+                [
+                    "restaurant-food=turkish"
+                ],
+                [
+                    "restaurant-food=turkish"
+                ],
+                [
+                    "restaurant-food=turkish"
+                ],
+                [
+                    "restaurant-food=turkish"
+                ],
+                [
+                    "restaurant-food=turkish"
+                ],
+                [
+                    "restaurant-food=turkish"
+                ],
+                [
+                    "restaurant-food=turkish"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "restaurant-food": "european"
+                },
+                {
+                    "restaurant-food": "vegetarian"
+                },
+                {
+                    "restaurant-food": "turkish"
+                },
+                {
+                    "restaurant-food": "turkish"
+                },
+                {
+                    "restaurant-food": "turkish"
+                },
+                {
+                    "restaurant-food": "turkish"
+                },
+                {
+                    "restaurant-food": "turkish"
+                },
+                {
+                    "restaurant-food": "turkish"
+                },
+                {
+                    "restaurant-food": "turkish"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "restaurant-food=northindian"
+                ],
+                [
+                    "restaurant-food=chinese"
+                ],
+                [
+                    "restaurant-food=chinese"
+                ],
+                [
+                    "restaurant-food=chinese"
+                ],
+                [
+                    "restaurant-food=chinese"
+                ],
+                [
+                    "restaurant-food=chinese"
+                ],
+                [
+                    "none"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "restaurant-food": "northindian"
+                },
+                {
+                    "restaurant-food": "chinese"
+                },
+                {
+                    "restaurant-food": "chinese"
+                },
+                {
+                    "restaurant-food": "chinese"
+                },
+                {
+                    "restaurant-food": "chinese"
+                },
+                {
+                    "restaurant-food": "chinese"
+                },
+                {
+                    "restaurant-food": "chinese"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "restaurant-food=italian"
+                ],
+                [
+                    "restaurant-food=italian"
+                ],
+                [
+                    "restaurant-food=italian"
+                ],
+                [
+                    "restaurant-food=italian"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "restaurant-food": "italian"
+                },
+                {
+                    "restaurant-food": "italian"
+                },
+                {
+                    "restaurant-food": "italian"
+                },
+                {
+                    "restaurant-food": "italian"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "restaurant-food=centre"
+                ],
+                [
+                    "restaurant-food=centre"
+                ],
+                [
+                    "restaurant-food=centre"
+                ],
+                [
+                    "None"
+                ],
+                [
+                    "None"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "restaurant-food": "centre"
+                },
+                {
+                    "restaurant-food": "centre"
+                },
+                {
+                    "restaurant-food": "centre"
+                },
+                {
+                    "restaurant-food": "centre"
+                },
+                {
+                    "restaurant-food": "centre"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "restaurant-food=north"
+                ],
+                [
+                    "restaurant-food=cheap"
+                ],
+                [
+                    "none"
+                ],
+                [
+                    "restaurant-food=north"
+                ],
+                [
+                    "none"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "restaurant-food": "north"
+                },
+                {
+                    "restaurant-food": "cheap"
+                },
+                {
+                    "restaurant-food": "cheap"
+                },
+                {
+                    "restaurant-food": "north"
+                },
+                {
+                    "restaurant-food": "north"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "restaurant-food=la-margherita"
+                ],
+                [
+                    "None"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "restaurant-food": "la-margherita"
+                },
+                {
+                    "restaurant-food": "la-margherita"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "restaurant-food=chinese"
+                ],
+                [
+                    "restaurant-food=expensive"
+                ],
+                [
+                    "restaurant-food=hk fusion"
+                ],
+                [
+                    "None"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "restaurant-food": "chinese"
+                },
+                {
+                    "restaurant-food": "expensive"
+                },
+                {
+                    "restaurant-food": "hk fusion"
+                },
+                {
+                    "restaurant-food": "hk fusion"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "restaurant-food=chinese"
+                ],
+                [
+                    "restaurant-food=chinese"
+                ],
+                [
+                    "restaurant-food=chinese"
+                ],
+                [
+                    "restaurant-food=chinese"
+                ],
+                [
+                    "restaurant-food=chinese"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "restaurant-food": "chinese"
+                },
+                {
+                    "restaurant-food": "chinese"
+                },
+                {
+                    "restaurant-food": "chinese"
+                },
+                {
+                    "restaurant-food": "chinese"
+                },
+                {
+                    "restaurant-food": "chinese"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "restaurant-food=expensive"
+                ],
+                [
+                    "restaurant-food=expensive"
+                ],
+                [
+                    "restaurant-food=african"
+                ],
+                [
+                    "restaurant-food=african"
+                ],
+                [
+                    "None"
+                ],
+                [
+                    "None"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "restaurant-food": "expensive"
+                },
+                {
+                    "restaurant-food": "expensive"
+                },
+                {
+                    "restaurant-food": "african"
+                },
+                {
+                    "restaurant-food": "african"
+                },
+                {
+                    "restaurant-food": "african"
+                },
+                {
+                    "restaurant-food": "african"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "restaurant-food=indian"
+                ],
+                [
+                    "restaurant-food=indian"
+                ],
+                [
+                    "restaurant-food=indian"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "restaurant-food": "indian"
+                },
+                {
+                    "restaurant-food": "indian"
+                },
+                {
+                    "restaurant-food": "indian"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "restaurant-food=mexican"
+                ],
+                [
+                    "restaurant-food=mexican"
+                ],
+                [
+                    "restaurant-food=mexican"
+                ],
+                [
+                    "None"
+                ],
+                [
+                    "None"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "restaurant-food": "mexican"
+                },
+                {
+                    "restaurant-food": "mexican"
+                },
+                {
+                    "restaurant-food": "mexican"
+                },
+                {
+                    "restaurant-food": "mexican"
+                },
+                {
+                    "restaurant-food": "mexican"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "restaurant-food=alimentum"
+                ],
+                [
+                    "None"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "restaurant-food": "alimentum"
+                },
+                {
+                    "restaurant-food": "alimentum"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "molecular-gastronomy-food=molecular-gastronomy-food-area=centre"
+                ],
+                [
+                    "gastropubs=international"
+                ],
+                [
+                    "gastropub=international"
+                ],
+                [
+                    "gastropub-address=the-cow-pizza-kitchen-bar-in-the-centre"
+                ],
+                [
+                    "none"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "molecular-gastronomy-food": "molecular-gastronomy-food-area"
+                },
+                {
+                    "molecular-gastronomy-food": "molecular-gastronomy-food-area",
+                    "gastropubs": "international"
+                },
+                {
+                    "molecular-gastronomy-food": "molecular-gastronomy-food-area",
+                    "gastropubs": "international",
+                    "gastropub": "international"
+                },
+                {
+                    "molecular-gastronomy-food": "molecular-gastronomy-food-area",
+                    "gastropubs": "international",
+                    "gastropub": "international",
+                    "gastropub-address": "the-cow-pizza-kitchen-bar-in-the-centre"
+                },
+                {
+                    "molecular-gastronomy-food": "molecular-gastronomy-food-area",
+                    "gastropubs": "international",
+                    "gastropub": "international",
+                    "gastropub-address": "the-cow-pizza-kitchen-bar-in-the-centre"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "restaurant-food=indian"
+                ],
+                [
+                    "restaurant-food=indian"
+                ],
+                [
+                    "restaurant-food=indian"
+                ],
+                [
+                    "None"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "restaurant-food": "indian"
+                },
+                {
+                    "restaurant-food": "indian"
+                },
+                {
+                    "restaurant-food": "indian"
+                },
+                {
+                    "restaurant-food": "indian"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "restaurant-food=african"
+                ],
+                [
+                    "restaurant-food=asian"
+                ],
+                [
+                    "restaurant-food=asian"
+                ],
+                [
+                    "None"
+                ],
+                [
+                    "None"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "restaurant-food": "african"
+                },
+                {
+                    "restaurant-food": "asian"
+                },
+                {
+                    "restaurant-food": "asian"
+                },
+                {
+                    "restaurant-food": "asian"
+                },
+                {
+                    "restaurant-food": "asian"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "restaurant-food=asian"
+                ],
+                [
+                    "restaurant-food=asian"
+                ],
+                [
+                    "restaurant-food=asian"
+                ],
+                [
+                    "restaurant-food=asian"
+                ],
+                [
+                    "restaurant-food=asian"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "restaurant-food": "asian"
+                },
+                {
+                    "restaurant-food": "asian"
+                },
+                {
+                    "restaurant-food": "asian"
+                },
+                {
+                    "restaurant-food": "asian"
+                },
+                {
+                    "restaurant-food": "asian"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "restaurant-food=south"
+                ],
+                [
+                    "restaurant-food=chinese"
+                ],
+                [
+                    "restaurant-food=chinese"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "restaurant-food": "south"
+                },
+                {
+                    "restaurant-food": "chinese"
+                },
+                {
+                    "restaurant-food": "chinese"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "restaurant-food=italian"
+                ],
+                [
+                    "None"
+                ],
+                [
+                    "restaurant-food=center"
+                ],
+                [
+                    "restaurant-food=don pasquale"
+                ],
+                [
+                    "None"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "restaurant-food": "italian"
+                },
+                {
+                    "restaurant-food": "italian"
+                },
+                {
+                    "restaurant-food": "center"
+                },
+                {
+                    "restaurant-food": "don pasquale"
+                },
+                {
+                    "restaurant-food": "don pasquale"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "restaurant-food=bangkokcity"
+                ],
+                [
+                    "restaurant-food=bangkokcity"
+                ],
+                [
+                    "restaurant-food=bangkokcity"
+                ],
+                [
+                    "restaurant-food=bangkokcity"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "restaurant-food": "bangkokcity"
+                },
+                {
+                    "restaurant-food": "bangkokcity"
+                },
+                {
+                    "restaurant-food": "bangkokcity"
+                },
+                {
+                    "restaurant-food": "bangkokcity"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "restaurant-food=saigon"
+                ],
+                [
+                    "restaurant-food=saigon"
+                ],
+                [
+                    "restaurant-food=saigon"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "restaurant-food": "saigon"
+                },
+                {
+                    "restaurant-food": "saigon"
+                },
+                {
+                    "restaurant-food": "saigon"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "restaurant-food=indian"
+                ],
+                [
+                    "restaurant-food=west"
+                ],
+                [
+                    "restaurant-food=west"
+                ],
+                [
+                    "bye!"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "restaurant-food": "indian"
+                },
+                {
+                    "restaurant-food": "west"
+                },
+                {
+                    "restaurant-food": "west"
+                },
+                {
+                    "restaurant-food": "west"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "restaurant-food=spanish"
+                ],
+                [
+                    "restaurant-food=centre"
+                ],
+                [
+                    "restaurant-food=spanish"
+                ],
+                [
+                    "restaurant-food=spanish"
+                ],
+                [
+                    "none"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "restaurant-food": "spanish"
+                },
+                {
+                    "restaurant-food": "centre"
+                },
+                {
+                    "restaurant-food": "spanish"
+                },
+                {
+                    "restaurant-food": "spanish"
+                },
+                {
+                    "restaurant-food": "spanish"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "restaurant-food=south"
+                ],
+                [
+                    "restaurant-food=north"
+                ],
+                [
+                    "restaurant-food=south"
+                ],
+                [
+                    "restaurant-food=south"
+                ],
+                [
+                    "restaurant-food=south"
+                ],
+                [
+                    "none"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "restaurant-food": "south"
+                },
+                {
+                    "restaurant-food": "north"
+                },
+                {
+                    "restaurant-food": "south"
+                },
+                {
+                    "restaurant-food": "south"
+                },
+                {
+                    "restaurant-food": "south"
+                },
+                {
+                    "restaurant-food": "south"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "restaurant-food=british"
+                ],
+                [
+                    "restaurant-food=oak"
+                ],
+                [
+                    "restaurant-food=british"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "restaurant-food": "british"
+                },
+                {
+                    "restaurant-food": "oak"
+                },
+                {
+                    "restaurant-food": "british"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "restaurant-food=grub"
+                ],
+                [
+                    "restaurant-food=traditional"
+                ],
+                [
+                    "restaurant-food=lebanese"
+                ],
+                [
+                    "restaurant-food=lebanese"
+                ],
+                [
+                    "restaurant-food=lebanese"
+                ],
+                [
+                    "restaurant-food=lebanese"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "restaurant-food": "grub"
+                },
+                {
+                    "restaurant-food": "traditional"
+                },
+                {
+                    "restaurant-food": "lebanese"
+                },
+                {
+                    "restaurant-food": "lebanese"
+                },
+                {
+                    "restaurant-food": "lebanese"
+                },
+                {
+                    "restaurant-food": "lebanese"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "restaurant-food=french"
+                ],
+                [
+                    "restaurant-food=french"
+                ],
+                [
+                    "None"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "restaurant-food": "french"
+                },
+                {
+                    "restaurant-food": "french"
+                },
+                {
+                    "restaurant-food": "french"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "restaurant-food=european"
+                ],
+                [
+                    "restaurant-food=european"
+                ],
+                [
+                    "restaurant-food=european"
+                ],
+                [
+                    "restaurant-food=european"
+                ],
+                [
+                    "restaurant-food=european"
+                ],
+                [
+                    "restaurant-food=european"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "restaurant-food": "european"
+                },
+                {
+                    "restaurant-food": "european"
+                },
+                {
+                    "restaurant-food": "european"
+                },
+                {
+                    "restaurant-food": "european"
+                },
+                {
+                    "restaurant-food": "european"
+                },
+                {
+                    "restaurant-food": "european"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "restaurant-food=venetian"
+                ],
+                [
+                    "restaurant-food=chinese"
+                ],
+                [
+                    "restaurant-food=expensive"
+                ],
+                [
+                    "restaurant-food=expensive"
+                ],
+                [
+                    "restaurant-food=expensive"
+                ],
+                [
+                    "restaurant-food=expensive"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "restaurant-food": "venetian"
+                },
+                {
+                    "restaurant-food": "chinese"
+                },
+                {
+                    "restaurant-food": "expensive"
+                },
+                {
+                    "restaurant-food": "expensive"
+                },
+                {
+                    "restaurant-food": "expensive"
+                },
+                {
+                    "restaurant-food": "expensive"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "restaurant-food=saigoncity"
+                ],
+                [
+                    "restaurant-food=saigoncity"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "restaurant-food": "saigoncity"
+                },
+                {
+                    "restaurant-food": "saigoncity"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "restaurant-food=european"
+                ],
+                [
+                    "restaurant-food=european"
+                ],
+                [
+                    "restaurant-food=european"
+                ],
+                [
+                    "None"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "restaurant-food": "european"
+                },
+                {
+                    "restaurant-food": "european"
+                },
+                {
+                    "restaurant-food": "european"
+                },
+                {
+                    "restaurant-food": "european"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "restaurant-food=expensive"
+                ],
+                [
+                    "restaurant-food=expensive"
+                ],
+                [
+                    "restaurant-food=expensive"
+                ],
+                [
+                    "restaurant-food=expensive"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "restaurant-food": "expensive"
+                },
+                {
+                    "restaurant-food": "expensive"
+                },
+                {
+                    "restaurant-food": "expensive"
+                },
+                {
+                    "restaurant-food": "expensive"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "restaurant-food=mexican"
+                ],
+                [
+                    "restaurant-food=indian"
+                ],
+                [
+                    "restaurant-food=indian"
+                ],
+                [
+                    "restaurant-food=indian"
+                ],
+                [
+                    "restaurant-food=indian"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "restaurant-food": "mexican"
+                },
+                {
+                    "restaurant-food": "indian"
+                },
+                {
+                    "restaurant-food": "indian"
+                },
+                {
+                    "restaurant-food": "indian"
+                },
+                {
+                    "restaurant-food": "indian"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "restaurant-food=cheap"
+                ],
+                [
+                    "restaurant-food=creative"
+                ],
+                [
+                    "restaurant-food=indian"
+                ],
+                [
+                    "restaurant-food=indian"
+                ],
+                [
+                    "restaurant-food=indian"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "restaurant-food": "cheap"
+                },
+                {
+                    "restaurant-food": "creative"
+                },
+                {
+                    "restaurant-food": "indian"
+                },
+                {
+                    "restaurant-food": "indian"
+                },
+                {
+                    "restaurant-food": "indian"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "restaurant-food=afghaniterranean"
+                ],
+                [
+                    "restaurant-food=afghaniterranean"
+                ],
+                [
+                    "restaurant-food=indian"
+                ],
+                [
+                    "restaurant-food=maharajahtandoori"
+                ],
+                [
+                    "none"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "restaurant-food": "afghaniterranean"
+                },
+                {
+                    "restaurant-food": "afghaniterranean"
+                },
+                {
+                    "restaurant-food": "indian"
+                },
+                {
+                    "restaurant-food": "maharajahtandoori"
+                },
+                {
+                    "restaurant-food": "maharajahtandoori"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "restaurant-food=canapes-area=east"
+                ],
+                [
+                    "None"
+                ],
+                [
+                    "restaurant-food=italian-area=east"
+                ],
+                [
+                    "restaurant-food=italian-area=east"
+                ],
+                [
+                    "restaurant-food=italian-area=east"
+                ],
+                [
+                    "None"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "restaurant-food": "canapes-area"
+                },
+                {
+                    "restaurant-food": "canapes-area"
+                },
+                {
+                    "restaurant-food": "italian-area"
+                },
+                {
+                    "restaurant-food": "italian-area"
+                },
+                {
+                    "restaurant-food": "italian-area"
+                },
+                {
+                    "restaurant-food": "italian-area"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "restaurant-food=chinese"
+                ],
+                [
+                    "restaurant-food=chinese"
+                ],
+                [
+                    "restaurant-food=chinese"
+                ],
+                [
+                    "None"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "restaurant-food": "chinese"
+                },
+                {
+                    "restaurant-food": "chinese"
+                },
+                {
+                    "restaurant-food": "chinese"
+                },
+                {
+                    "restaurant-food": "chinese"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "restaurant-food=african"
+                ],
+                [
+                    "restaurant-food=african"
+                ],
+                [
+                    "none"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "restaurant-food": "african"
+                },
+                {
+                    "restaurant-food": "african"
+                },
+                {
+                    "restaurant-food": "african"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "restaurant-food=indiahouse-area=indiahouse"
+                ],
+                [
+                    "restaurant-food=indiahouse-area=indiahouse"
+                ],
+                [
+                    "restaurant-food=indiahouse-area=indiahouse"
+                ],
+                [
+                    "restaurant-food=indiahouse-area=indiahouse"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "restaurant-food": "indiahouse-area"
+                },
+                {
+                    "restaurant-food": "indiahouse-area"
+                },
+                {
+                    "restaurant-food": "indiahouse-area"
+                },
+                {
+                    "restaurant-food": "indiahouse-area"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "restaurant-food=european"
+                ],
+                [
+                    "restaurant-food=european"
+                ],
+                [
+                    "restaurant-food=european"
+                ],
+                [
+                    "restaurant-food=european"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "restaurant-food": "european"
+                },
+                {
+                    "restaurant-food": "european"
+                },
+                {
+                    "restaurant-food": "european"
+                },
+                {
+                    "restaurant-food": "european"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "restaurant-food=british cuisine"
+                ],
+                [
+                    "restaurant-food=west"
+                ],
+                [
+                    "restaurant-food=british cuisine"
+                ],
+                [
+                    "restaurant-food=british cuisine"
+                ],
+                [
+                    "None"
+                ],
+                [
+                    "None"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "restaurant-food": "british cuisine"
+                },
+                {
+                    "restaurant-food": "west"
+                },
+                {
+                    "restaurant-food": "british cuisine"
+                },
+                {
+                    "restaurant-food": "british cuisine"
+                },
+                {
+                    "restaurant-food": "british cuisine"
+                },
+                {
+                    "restaurant-food": "british cuisine"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "restaurant-food=cheap"
+                ],
+                [
+                    "restaurant-food=chinese"
+                ],
+                [
+                    "restaurant-food=chinese"
+                ],
+                [
+                    "restaurant-food=cheap"
+                ],
+                [
+                    "restaurant-food=cheap"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "restaurant-food": "cheap"
+                },
+                {
+                    "restaurant-food": "chinese"
+                },
+                {
+                    "restaurant-food": "chinese"
+                },
+                {
+                    "restaurant-food": "cheap"
+                },
+                {
+                    "restaurant-food": "cheap"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "restaurant-food=indian"
+                ],
+                [
+                    "restaurant-food=indian"
+                ],
+                [
+                    "restaurant-food=indian"
+                ],
+                [
+                    "none"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "restaurant-food": "indian"
+                },
+                {
+                    "restaurant-food": "indian"
+                },
+                {
+                    "restaurant-food": "indian"
+                },
+                {
+                    "restaurant-food": "indian"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "restaurant-food=asian"
+                ],
+                [
+                    "restaurant-food=asian"
+                ],
+                [
+                    "restaurant-food=asian"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "restaurant-food": "asian"
+                },
+                {
+                    "restaurant-food": "asian"
+                },
+                {
+                    "restaurant-food": "asian"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "restaurant-food=centre"
+                ],
+                [
+                    "restaurant-food=middle eastern"
+                ],
+                [
+                    "restaurant-food=middle eastern"
+                ],
+                [
+                    "restaurant-food=expensive"
+                ],
+                [
+                    "restaurant-food=mediterranean"
+                ],
+                [
+                    "restaurant-food=saturday"
+                ],
+                [
+                    "restaurant-food=saturday"
+                ],
+                [
+                    "restaurant-food=middle eastern"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "restaurant-food": "centre"
+                },
+                {
+                    "restaurant-food": "middle eastern"
+                },
+                {
+                    "restaurant-food": "middle eastern"
+                },
+                {
+                    "restaurant-food": "expensive"
+                },
+                {
+                    "restaurant-food": "mediterranean"
+                },
+                {
+                    "restaurant-food": "saturday"
+                },
+                {
+                    "restaurant-food": "saturday"
+                },
+                {
+                    "restaurant-food": "middle eastern"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "restaurant-food=chinesefood"
+                ],
+                [
+                    "restaurant-food=moderate"
+                ],
+                [
+                    "None"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "restaurant-food": "chinesefood"
+                },
+                {
+                    "restaurant-food": "moderate"
+                },
+                {
+                    "restaurant-food": "moderate"
+                }
+            ]
+        }
+    ]
+}

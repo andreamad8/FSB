@@ -1,0 +1,3126 @@
+{
+    "score": {
+        "BLEU": 1.51,
+        "B4": 0.3667451945111127,
+        "F1": 29.313190772189575,
+        "RL": 32.992038566268256,
+        "JGA": 0.26595744680851063,
+        "SLOT_ACC": 5.941845764854614,
+        "ppl": 15.693477768407261
+    },
+    "generation": [
+        {
+            "meta": [
+                [
+                    "guesthouse-price=moderate"
+                ],
+                [
+                    "3 star rating=no"
+                ],
+                [
+                    "4 star guesthouse=yes"
+                ],
+                [
+                    "4 star guesthouse=yes"
+                ],
+                [
+                    "1 night=yes"
+                ],
+                [
+                    "Thank you for your time."
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "guesthouse-price": "moderate"
+                },
+                {
+                    "guesthouse-price": "moderate",
+                    "3 star rating": "no"
+                },
+                {
+                    "guesthouse-price": "moderate",
+                    "3 star rating": "no",
+                    "4 star guesthouse": "yes"
+                },
+                {
+                    "guesthouse-price": "moderate",
+                    "3 star rating": "no",
+                    "4 star guesthouse": "yes"
+                },
+                {
+                    "guesthouse-price": "moderate",
+                    "3 star rating": "no",
+                    "4 star guesthouse": "yes",
+                    "1 night": "yes"
+                },
+                {
+                    "guesthouse-price": "moderate",
+                    "3 star rating": "no",
+                    "4 star guesthouse": "yes",
+                    "1 night": "yes"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "city centre north bed and breakfast=yes"
+                ],
+                [
+                    "guesthouse-for-1-person=yes"
+                ],
+                [
+                    "guesthouse-for-5-nights=yes"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "city centre north bed and breakfast": "yes"
+                },
+                {
+                    "city centre north bed and breakfast": "yes",
+                    "guesthouse-for-1-person": "yes"
+                },
+                {
+                    "city centre north bed and breakfast": "yes",
+                    "guesthouse-for-1-person": "yes",
+                    "guesthouse-for-5-nights": "yes"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "and-b-guest-house=yes"
+                ],
+                [
+                    "and-b-guest-house=0.0.0.0"
+                ],
+                [
+                    "none"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "and-b-guest-house": "yes"
+                },
+                {
+                    "and-b-guest-house": "0.0.0.0"
+                },
+                {
+                    "and-b-guest-house": "0.0.0.0"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "guesthouse-parking=yes"
+                ],
+                [
+                    "guesthouse-parking=expensive"
+                ],
+                [
+                    "guesthouse-parking=cheap"
+                ],
+                [
+                    "guesthouse-parking=cheap"
+                ],
+                [
+                    "guesthouse-parking=cheap"
+                ],
+                [
+                    "none"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "guesthouse-parking": "yes"
+                },
+                {
+                    "guesthouse-parking": "expensive"
+                },
+                {
+                    "guesthouse-parking": "cheap"
+                },
+                {
+                    "guesthouse-parking": "cheap"
+                },
+                {
+                    "guesthouse-parking": "cheap"
+                },
+                {
+                    "guesthouse-parking": "cheap"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "no, i am looking for a hotel that has free wifi."
+                ],
+                [
+                    "hotel-stars=3stars"
+                ],
+                [
+                    "hotel-stars=3stars"
+                ],
+                [
+                    "hotel-stars=3stars"
+                ],
+                [
+                    "hotel-stars=3stars"
+                ],
+                [
+                    "hotel-stars=3stars"
+                ],
+                [
+                    "hotel-stars=3stars"
+                ],
+                [
+                    "hotel-stars=3stars"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {},
+                {
+                    "hotel-stars": "3stars"
+                },
+                {
+                    "hotel-stars": "3stars"
+                },
+                {
+                    "hotel-stars": "3stars"
+                },
+                {
+                    "hotel-stars": "3stars"
+                },
+                {
+                    "hotel-stars": "3stars"
+                },
+                {
+                    "hotel-stars": "3stars"
+                },
+                {
+                    "hotel-stars": "3stars"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "hotel-stars=3"
+                ],
+                [
+                    "hotel-free-wifi=yes"
+                ],
+                [
+                    "hotel-free-wifi=yes"
+                ],
+                [
+                    "hotel-moderate-price=yes"
+                ],
+                [
+                    "none"
+                ],
+                [
+                    "hamilton-lodge=3"
+                ],
+                [
+                    "hamilton-lodge=01223365664"
+                ],
+                [
+                    "Thank you for your time."
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "hotel-stars": "3"
+                },
+                {
+                    "hotel-stars": "3",
+                    "hotel-free-wifi": "yes"
+                },
+                {
+                    "hotel-stars": "3",
+                    "hotel-free-wifi": "yes"
+                },
+                {
+                    "hotel-stars": "3",
+                    "hotel-free-wifi": "yes",
+                    "hotel-moderate-price": "yes"
+                },
+                {
+                    "hotel-stars": "3",
+                    "hotel-free-wifi": "yes",
+                    "hotel-moderate-price": "yes"
+                },
+                {
+                    "hotel-stars": "3",
+                    "hotel-free-wifi": "yes",
+                    "hotel-moderate-price": "yes",
+                    "hamilton-lodge": "3"
+                },
+                {
+                    "hotel-stars": "3",
+                    "hotel-free-wifi": "yes",
+                    "hotel-moderate-price": "yes",
+                    "hamilton-lodge": "01223365664"
+                },
+                {
+                    "hotel-stars": "3",
+                    "hotel-free-wifi": "yes",
+                    "hotel-moderate-price": "yes",
+                    "hamilton-lodge": "01223365664"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "hotel-parking=yes"
+                ],
+                [
+                    "guesthouse-parking=yes"
+                ],
+                [
+                    "guesthouse-parking=yes"
+                ],
+                [
+                    "guesthouse-parking=yes"
+                ],
+                [
+                    "none"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "hotel-parking": "yes"
+                },
+                {
+                    "hotel-parking": "yes",
+                    "guesthouse-parking": "yes"
+                },
+                {
+                    "hotel-parking": "yes",
+                    "guesthouse-parking": "yes"
+                },
+                {
+                    "hotel-parking": "yes",
+                    "guesthouse-parking": "yes"
+                },
+                {
+                    "hotel-parking": "yes",
+                    "guesthouse-parking": "yes"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "hotel-parking=yes"
+                ],
+                [
+                    "hotel-parking=yes"
+                ],
+                [
+                    "hotel-parking=yes"
+                ],
+                [
+                    "hotel-parking=yes"
+                ],
+                [
+                    "hotel-parking=yes"
+                ],
+                [
+                    "hotel-parking=yes"
+                ],
+                [
+                    "none"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "hotel-parking": "yes"
+                },
+                {
+                    "hotel-parking": "yes"
+                },
+                {
+                    "hotel-parking": "yes"
+                },
+                {
+                    "hotel-parking": "yes"
+                },
+                {
+                    "hotel-parking": "yes"
+                },
+                {
+                    "hotel-parking": "yes"
+                },
+                {
+                    "hotel-parking": "yes"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "hotel-price=4stars"
+                ],
+                [
+                    "hotel-price=4stars"
+                ],
+                [
+                    "hotel-price=4stars"
+                ],
+                [
+                    "hotel-price=4stars"
+                ],
+                [
+                    "hotel-free-wifi=yes"
+                ],
+                [
+                    "hotel-star-rating=4stars"
+                ],
+                [
+                    "hotel-star-rating=4stars"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "hotel-price": "4stars"
+                },
+                {
+                    "hotel-price": "4stars"
+                },
+                {
+                    "hotel-price": "4stars"
+                },
+                {
+                    "hotel-price": "4stars"
+                },
+                {
+                    "hotel-price": "4stars",
+                    "hotel-free-wifi": "yes"
+                },
+                {
+                    "hotel-price": "4stars",
+                    "hotel-free-wifi": "yes",
+                    "hotel-star-rating": "4stars"
+                },
+                {
+                    "hotel-price": "4stars",
+                    "hotel-free-wifi": "yes",
+                    "hotel-star-rating": "4stars"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "hotel-parking=yes"
+                ],
+                [
+                    "hotel-parking=yes"
+                ],
+                [
+                    "hotel-parking=yes"
+                ],
+                [
+                    "hotel-parking=yes"
+                ],
+                [
+                    "hotel-parking=yes"
+                ],
+                [
+                    "hotel-parking=yes"
+                ],
+                [
+                    "hotel-parking=yes"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "hotel-parking": "yes"
+                },
+                {
+                    "hotel-parking": "yes"
+                },
+                {
+                    "hotel-parking": "yes"
+                },
+                {
+                    "hotel-parking": "yes"
+                },
+                {
+                    "hotel-parking": "yes"
+                },
+                {
+                    "hotel-parking": "yes"
+                },
+                {
+                    "hotel-parking": "yes"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "hotel-s=yes"
+                ],
+                [
+                    "hotel-type=hotel"
+                ],
+                [
+                    "hotel-type=hotel"
+                ],
+                [
+                    "hotel-type=hotel"
+                ],
+                [
+                    "none"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "hotel-s": "yes"
+                },
+                {
+                    "hotel-s": "yes",
+                    "hotel-type": "hotel"
+                },
+                {
+                    "hotel-s": "yes",
+                    "hotel-type": "hotel"
+                },
+                {
+                    "hotel-s": "yes",
+                    "hotel-type": "hotel"
+                },
+                {
+                    "hotel-s": "yes",
+                    "hotel-type": "hotel"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "hotel-parking=yes"
+                ],
+                [
+                    "hotel-parking=yes"
+                ],
+                [
+                    "hotel-parking=yes"
+                ],
+                [
+                    "none"
+                ],
+                [
+                    "none"
+                ],
+                [
+                    "none"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "hotel-parking": "yes"
+                },
+                {
+                    "hotel-parking": "yes"
+                },
+                {
+                    "hotel-parking": "yes"
+                },
+                {
+                    "hotel-parking": "yes"
+                },
+                {
+                    "hotel-parking": "yes"
+                },
+                {
+                    "hotel-parking": "yes"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "none"
+                ],
+                [
+                    "hotel-wifi=yes"
+                ],
+                [
+                    "hotel-room-on-wednesday=yes"
+                ],
+                [
+                    "hotel-address=11xdm9cc"
+                ],
+                [
+                    "none"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {},
+                {
+                    "hotel-wifi": "yes"
+                },
+                {
+                    "hotel-wifi": "yes",
+                    "hotel-room-on-wednesday": "yes"
+                },
+                {
+                    "hotel-wifi": "yes",
+                    "hotel-room-on-wednesday": "yes",
+                    "hotel-address": "11xdm9cc"
+                },
+                {
+                    "hotel-wifi": "yes",
+                    "hotel-room-on-wednesday": "yes",
+                    "hotel-address": "11xdm9cc"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "5 starts hotel-free-wifi=yes"
+                ],
+                [
+                    "4 stars hotel-expensive-type=hotel"
+                ],
+                [
+                    "4 stars hotel-4-stars=yes"
+                ],
+                [
+                    "4 nights hotel-4-days=yes"
+                ],
+                [
+                    "3 people hotel-3-people=yes"
+                ],
+                [
+                    "sunday arrival=yes"
+                ],
+                [
+                    "3 nights hotel-3-days=yes"
+                ],
+                [
+                    "4 stars hotel-4-stars=yes"
+                ],
+                [
+                    "none"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "5 starts hotel-free-wifi": "yes"
+                },
+                {
+                    "5 starts hotel-free-wifi": "yes",
+                    "4 stars hotel-expensive-type": "hotel"
+                },
+                {
+                    "5 starts hotel-free-wifi": "yes",
+                    "4 stars hotel-expensive-type": "hotel",
+                    "4 stars hotel-4-stars": "yes"
+                },
+                {
+                    "5 starts hotel-free-wifi": "yes",
+                    "4 stars hotel-expensive-type": "hotel",
+                    "4 stars hotel-4-stars": "yes",
+                    "4 nights hotel-4-days": "yes"
+                },
+                {
+                    "5 starts hotel-free-wifi": "yes",
+                    "4 stars hotel-expensive-type": "hotel",
+                    "4 stars hotel-4-stars": "yes",
+                    "4 nights hotel-4-days": "yes",
+                    "3 people hotel-3-people": "yes"
+                },
+                {
+                    "5 starts hotel-free-wifi": "yes",
+                    "4 stars hotel-expensive-type": "hotel",
+                    "4 stars hotel-4-stars": "yes",
+                    "4 nights hotel-4-days": "yes",
+                    "3 people hotel-3-people": "yes",
+                    "sunday arrival": "yes"
+                },
+                {
+                    "5 starts hotel-free-wifi": "yes",
+                    "4 stars hotel-expensive-type": "hotel",
+                    "4 stars hotel-4-stars": "yes",
+                    "4 nights hotel-4-days": "yes",
+                    "3 people hotel-3-people": "yes",
+                    "sunday arrival": "yes",
+                    "3 nights hotel-3-days": "yes"
+                },
+                {
+                    "5 starts hotel-free-wifi": "yes",
+                    "4 stars hotel-expensive-type": "hotel",
+                    "4 stars hotel-4-stars": "yes",
+                    "4 nights hotel-4-days": "yes",
+                    "3 people hotel-3-people": "yes",
+                    "sunday arrival": "yes",
+                    "3 nights hotel-3-days": "yes"
+                },
+                {
+                    "5 starts hotel-free-wifi": "yes",
+                    "4 stars hotel-expensive-type": "hotel",
+                    "4 stars hotel-4-stars": "yes",
+                    "4 nights hotel-4-days": "yes",
+                    "3 people hotel-3-people": "yes",
+                    "sunday arrival": "yes",
+                    "3 nights hotel-3-days": "yes"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "hotel-parking=yes"
+                ],
+                [
+                    "hotel-parking=yes"
+                ],
+                [
+                    "hotel-parking=yes"
+                ],
+                [
+                    "hotel-parking=yes"
+                ],
+                [
+                    "hotel-parking=yes"
+                ],
+                [
+                    "hotel-parking=yes"
+                ],
+                [
+                    "hotel-parking=yes"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "hotel-parking": "yes"
+                },
+                {
+                    "hotel-parking": "yes"
+                },
+                {
+                    "hotel-parking": "yes"
+                },
+                {
+                    "hotel-parking": "yes"
+                },
+                {
+                    "hotel-parking": "yes"
+                },
+                {
+                    "hotel-parking": "yes"
+                },
+                {
+                    "hotel-parking": "yes"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "4 stars = 4 stars = 4 stars = 4 stars = 4 stars = 4 stars = 4 stars = 4 stars = 4 stars = 4 stars = 4 stars = 4 stars = 4 stars = 4 stars = 4 stars = 4 stars = 4 stars"
+                ],
+                [
+                    "4 stars = 4 stars = 4 stars = 4 stars = 4 stars = 4 stars = 4 stars = 4 stars = 4 stars = 4 stars = 4 stars = 4 stars = 4 stars = 4 stars = 4 stars = 4 stars = 4 stars"
+                ],
+                [
+                    "4 stars = 4 stars = 4 stars = 4 stars = 4 stars = 4 stars = 4 stars = 4 stars = 4 stars = 4 stars = 4 stars = 4 stars = 4 stars = 4 stars = 4 stars = 4 stars = 4 stars"
+                ],
+                [
+                    "archway house=4 stars = 4 stars = 4 stars = 4 stars = 4 stars = 4 stars = 4 stars = 4 stars = 4 stars = 4 stars = 4 stars = 4 stars = 4 stars = 4 stars = 4 stars = 4"
+                ],
+                [
+                    "archway house=52 gilbert road"
+                ],
+                [
+                    "archway house=52 gilbert road"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "4 stars ": " 4 stars "
+                },
+                {
+                    "4 stars ": " 4 stars "
+                },
+                {
+                    "4 stars ": " 4 stars "
+                },
+                {
+                    "4 stars ": " 4 stars ",
+                    "archway house": "4 stars "
+                },
+                {
+                    "4 stars ": " 4 stars ",
+                    "archway house": "52 gilbert road"
+                },
+                {
+                    "4 stars ": " 4 stars ",
+                    "archway house": "52 gilbert road"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "none"
+                ],
+                [
+                    "hotel-parking=yes"
+                ],
+                [
+                    "hotel-parking=yes"
+                ],
+                [
+                    "hotel-parking=yes"
+                ],
+                [
+                    "hotel-parking=yes"
+                ],
+                [
+                    "hotel-parking=yes"
+                ],
+                [
+                    "hotel-parking=yes"
+                ],
+                [
+                    "hotel-parking=yes"
+                ],
+                [
+                    "hotel-parking=yes"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {},
+                {
+                    "hotel-parking": "yes"
+                },
+                {
+                    "hotel-parking": "yes"
+                },
+                {
+                    "hotel-parking": "yes"
+                },
+                {
+                    "hotel-parking": "yes"
+                },
+                {
+                    "hotel-parking": "yes"
+                },
+                {
+                    "hotel-parking": "yes"
+                },
+                {
+                    "hotel-parking": "yes"
+                },
+                {
+                    "hotel-parking": "yes"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "hotel-wifi=yes"
+                ],
+                [
+                    "guesthouse-type=hotel"
+                ],
+                [
+                    "guesthouse-type=hotel"
+                ],
+                [
+                    "guesthouse-type=hotel"
+                ],
+                [
+                    "el-shaddai-phone-number=0-8-5-5-5-5-5-5-5-5-5-5-5-5-5-5-5-5-5-5-"
+                ],
+                [
+                    "none"
+                ],
+                [
+                    "bye"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "hotel-wifi": "yes"
+                },
+                {
+                    "hotel-wifi": "yes",
+                    "guesthouse-type": "hotel"
+                },
+                {
+                    "hotel-wifi": "yes",
+                    "guesthouse-type": "hotel"
+                },
+                {
+                    "hotel-wifi": "yes",
+                    "guesthouse-type": "hotel"
+                },
+                {
+                    "hotel-wifi": "yes",
+                    "guesthouse-type": "hotel",
+                    "el-shaddai-phone-number": "0-8-5-5-5-5-5-5-5-5-5-5-5-5-5-5-5-5-5-5-"
+                },
+                {
+                    "hotel-wifi": "yes",
+                    "guesthouse-type": "hotel",
+                    "el-shaddai-phone-number": "0-8-5-5-5-5-5-5-5-5-5-5-5-5-5-5-5-5-5-5-"
+                },
+                {
+                    "hotel-wifi": "yes",
+                    "guesthouse-type": "hotel",
+                    "el-shaddai-phone-number": "0-8-5-5-5-5-5-5-5-5-5-5-5-5-5-5-5-5-5-5-"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "hotel-parking=yes"
+                ],
+                [
+                    "hotel-stars=4resenthotel-type=hotel"
+                ],
+                [
+                    "hotel-parking=yes"
+                ],
+                [
+                    "hotel-parking=yes"
+                ],
+                [
+                    "hotel-parking=yes"
+                ],
+                [
+                    "hotel-parking=yes"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "hotel-parking": "yes"
+                },
+                {
+                    "hotel-parking": "yes",
+                    "hotel-stars": "4resenthotel-type"
+                },
+                {
+                    "hotel-parking": "yes",
+                    "hotel-stars": "4resenthotel-type"
+                },
+                {
+                    "hotel-parking": "yes",
+                    "hotel-stars": "4resenthotel-type"
+                },
+                {
+                    "hotel-parking": "yes",
+                    "hotel-stars": "4resenthotel-type"
+                },
+                {
+                    "hotel-parking": "yes",
+                    "hotel-stars": "4resenthotel-type"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "none"
+                ],
+                [
+                    "guesthouse-parking=yes"
+                ],
+                [
+                    "none"
+                ],
+                [
+                    "hotel-stars=4resenthotel-type=hotel"
+                ],
+                [
+                    "hotel-parking=yes"
+                ],
+                [
+                    "none"
+                ],
+                [
+                    "none"
+                ],
+                [
+                    "hotel-parking=yes"
+                ],
+                [
+                    "hotel-parking=yes"
+                ],
+                [
+                    "none"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {},
+                {
+                    "guesthouse-parking": "yes"
+                },
+                {
+                    "guesthouse-parking": "yes"
+                },
+                {
+                    "guesthouse-parking": "yes",
+                    "hotel-stars": "4resenthotel-type"
+                },
+                {
+                    "guesthouse-parking": "yes",
+                    "hotel-stars": "4resenthotel-type",
+                    "hotel-parking": "yes"
+                },
+                {
+                    "guesthouse-parking": "yes",
+                    "hotel-stars": "4resenthotel-type",
+                    "hotel-parking": "yes"
+                },
+                {
+                    "guesthouse-parking": "yes",
+                    "hotel-stars": "4resenthotel-type",
+                    "hotel-parking": "yes"
+                },
+                {
+                    "guesthouse-parking": "yes",
+                    "hotel-stars": "4resenthotel-type",
+                    "hotel-parking": "yes"
+                },
+                {
+                    "guesthouse-parking": "yes",
+                    "hotel-stars": "4resenthotel-type",
+                    "hotel-parking": "yes"
+                },
+                {
+                    "guesthouse-parking": "yes",
+                    "hotel-stars": "4resenthotel-type",
+                    "hotel-parking": "yes"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "none"
+                ],
+                [
+                    "bye"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {},
+                {}
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "guesthouse-stars=3"
+                ],
+                [
+                    "guesthouse-free-wifi=yes"
+                ],
+                [
+                    "hamilton-lodge=yes"
+                ],
+                [
+                    "guesthouse-6-people=yes"
+                ],
+                [
+                    "guesthouse-6-people=yes"
+                ],
+                [
+                    "guesthouse-free-wifi=yes"
+                ],
+                [
+                    "guesthouse-free-wifi=yes"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "guesthouse-stars": "3"
+                },
+                {
+                    "guesthouse-stars": "3",
+                    "guesthouse-free-wifi": "yes"
+                },
+                {
+                    "guesthouse-stars": "3",
+                    "guesthouse-free-wifi": "yes",
+                    "hamilton-lodge": "yes"
+                },
+                {
+                    "guesthouse-stars": "3",
+                    "guesthouse-free-wifi": "yes",
+                    "hamilton-lodge": "yes",
+                    "guesthouse-6-people": "yes"
+                },
+                {
+                    "guesthouse-stars": "3",
+                    "guesthouse-free-wifi": "yes",
+                    "hamilton-lodge": "yes",
+                    "guesthouse-6-people": "yes"
+                },
+                {
+                    "guesthouse-stars": "3",
+                    "guesthouse-free-wifi": "yes",
+                    "hamilton-lodge": "yes",
+                    "guesthouse-6-people": "yes"
+                },
+                {
+                    "guesthouse-stars": "3",
+                    "guesthouse-free-wifi": "yes",
+                    "hamilton-lodge": "yes",
+                    "guesthouse-6-people": "yes"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "lensfield=yes"
+                ],
+                [
+                    "lensfield-hotel=7-3-5357-5357-5357-5357-5357-5357-5357-5357-5357-5357-5357-5357-5357-5"
+                ],
+                [
+                    "none"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "lensfield": "yes"
+                },
+                {
+                    "lensfield": "yes",
+                    "lensfield-hotel": "7-3-5357-5357-5357-5357-5357-5357-5357-5357-5357-5357-5357-5357-5357-5"
+                },
+                {
+                    "lensfield": "yes",
+                    "lensfield-hotel": "7-3-5357-5357-5357-5357-5357-5357-5357-5357-5357-5357-5357-5357-5357-5"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "hotel-free-wifi=yes"
+                ],
+                [
+                    "hotel-free-parking=yes"
+                ],
+                [
+                    "hotel-free-parking=yes"
+                ],
+                [
+                    "none"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "hotel-free-wifi": "yes"
+                },
+                {
+                    "hotel-free-wifi": "yes",
+                    "hotel-free-parking": "yes"
+                },
+                {
+                    "hotel-free-wifi": "yes",
+                    "hotel-free-parking": "yes"
+                },
+                {
+                    "hotel-free-wifi": "yes",
+                    "hotel-free-parking": "yes"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "hotel-parking=yes"
+                ],
+                [
+                    "hotel-parking=yes"
+                ],
+                [
+                    "hotel-parking=yes"
+                ],
+                [
+                    "hotel-parking=yes"
+                ],
+                [
+                    "none"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "hotel-parking": "yes"
+                },
+                {
+                    "hotel-parking": "yes"
+                },
+                {
+                    "hotel-parking": "yes"
+                },
+                {
+                    "hotel-parking": "yes"
+                },
+                {
+                    "hotel-parking": "yes"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "hotel-type=hotel"
+                ],
+                [
+                    "hotel-parking=yes"
+                ],
+                [
+                    "hotel-parking=yes"
+                ],
+                [
+                    "hotel-stars=4resenthotel-type=hotel"
+                ],
+                [
+                    "hotel-parking=yes"
+                ],
+                [
+                    "none"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "hotel-type": "hotel"
+                },
+                {
+                    "hotel-type": "hotel",
+                    "hotel-parking": "yes"
+                },
+                {
+                    "hotel-type": "hotel",
+                    "hotel-parking": "yes"
+                },
+                {
+                    "hotel-type": "hotel",
+                    "hotel-parking": "yes",
+                    "hotel-stars": "4resenthotel-type"
+                },
+                {
+                    "hotel-type": "hotel",
+                    "hotel-parking": "yes",
+                    "hotel-stars": "4resenthotel-type"
+                },
+                {
+                    "hotel-type": "hotel",
+                    "hotel-parking": "yes",
+                    "hotel-stars": "4resenthotel-type"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "free parking=yes"
+                ],
+                [
+                    "moderate-ly-priced=yes"
+                ],
+                [
+                    "internet=yes"
+                ],
+                [
+                    "phone-number=yes"
+                ],
+                [
+                    "thank you for your time."
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "free parking": "yes"
+                },
+                {
+                    "free parking": "yes",
+                    "moderate-ly-priced": "yes"
+                },
+                {
+                    "free parking": "yes",
+                    "moderate-ly-priced": "yes",
+                    "internet": "yes"
+                },
+                {
+                    "free parking": "yes",
+                    "moderate-ly-priced": "yes",
+                    "internet": "yes",
+                    "phone-number": "yes"
+                },
+                {
+                    "free parking": "yes",
+                    "moderate-ly-priced": "yes",
+                    "internet": "yes",
+                    "phone-number": "yes"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "room-search=yes"
+                ],
+                [
+                    "guesthouse-parking=yes"
+                ],
+                [
+                    "1-hotel-parking=yes"
+                ],
+                [
+                    "acorn-reservation=yes"
+                ],
+                [
+                    "bye bye"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "room-search": "yes"
+                },
+                {
+                    "room-search": "yes",
+                    "guesthouse-parking": "yes"
+                },
+                {
+                    "room-search": "yes",
+                    "guesthouse-parking": "yes",
+                    "1-hotel-parking": "yes"
+                },
+                {
+                    "room-search": "yes",
+                    "guesthouse-parking": "yes",
+                    "1-hotel-parking": "yes",
+                    "acorn-reservation": "yes"
+                },
+                {
+                    "room-search": "yes",
+                    "guesthouse-parking": "yes",
+                    "1-hotel-parking": "yes",
+                    "acorn-reservation": "yes"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "type=hotel"
+                ],
+                [
+                    "type=hotel"
+                ],
+                [
+                    "type=hotel"
+                ],
+                [
+                    "type=hotel"
+                ],
+                [
+                    "type=hotel"
+                ],
+                [
+                    "type=hotel"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "type": "hotel"
+                },
+                {
+                    "type": "hotel"
+                },
+                {
+                    "type": "hotel"
+                },
+                {
+                    "type": "hotel"
+                },
+                {
+                    "type": "hotel"
+                },
+                {
+                    "type": "hotel"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "hotel-parking=yes"
+                ],
+                [
+                    "hotel-parking=yes"
+                ],
+                [
+                    "hotel-parking=yes"
+                ],
+                [
+                    "hotel-parking=yes"
+                ],
+                [
+                    "hotel-parking=yes"
+                ],
+                [
+                    "hotel-parking=yes"
+                ],
+                [
+                    "none"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "hotel-parking": "yes"
+                },
+                {
+                    "hotel-parking": "yes"
+                },
+                {
+                    "hotel-parking": "yes"
+                },
+                {
+                    "hotel-parking": "yes"
+                },
+                {
+                    "hotel-parking": "yes"
+                },
+                {
+                    "hotel-parking": "yes"
+                },
+                {
+                    "hotel-parking": "yes"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "warkworth house=yes"
+                ],
+                [
+                    "warkworth house=yes"
+                ],
+                [
+                    "warkworth house=yes"
+                ],
+                [
+                    "warkworth house=yes"
+                ],
+                [
+                    "warkworth house=yes"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "warkworth house": "yes"
+                },
+                {
+                    "warkworth house": "yes"
+                },
+                {
+                    "warkworth house": "yes"
+                },
+                {
+                    "warkworth house": "yes"
+                },
+                {
+                    "warkworth house": "yes"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "hotel-stars=2"
+                ],
+                [
+                    "lovell lodge=2"
+                ],
+                [
+                    "ashley-hotel=2"
+                ],
+                [
+                    "ashley-hotel=2"
+                ],
+                [
+                    "none"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "hotel-stars": "2"
+                },
+                {
+                    "hotel-stars": "2",
+                    "lovell lodge": "2"
+                },
+                {
+                    "hotel-stars": "2",
+                    "lovell lodge": "2",
+                    "ashley-hotel": "2"
+                },
+                {
+                    "hotel-stars": "2",
+                    "lovell lodge": "2",
+                    "ashley-hotel": "2"
+                },
+                {
+                    "hotel-stars": "2",
+                    "lovell lodge": "2",
+                    "ashley-hotel": "2"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "no, i have not."
+                ],
+                [
+                    "price range=4 stars to 5 stars"
+                ],
+                [
+                    "Thank you for your interest in the huntingdon marriott."
+                ],
+                [
+                    "Thank you for your interest in the huntingdon marriott."
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {},
+                {
+                    "price range": "4 stars to 5 stars"
+                },
+                {
+                    "price range": "4 stars to 5 stars"
+                },
+                {
+                    "price range": "4 stars to 5 stars"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "hotel-wifi=yes"
+                ],
+                [
+                    "guesthouse-type=expensive"
+                ],
+                [
+                    "guesthouse-wifi=yes"
+                ],
+                [
+                    "guesthouse-type=expensive"
+                ],
+                [
+                    "guesthouse-type=expensive"
+                ],
+                [
+                    "guesthouse-type=expensive"
+                ],
+                [
+                    "guesthouse-type=expensive"
+                ],
+                [
+                    "guesthouse-type=expensive"
+                ],
+                [
+                    "guesthouse-type=expensive"
+                ],
+                [
+                    "guesthouse-type=expensive"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "hotel-wifi": "yes"
+                },
+                {
+                    "hotel-wifi": "yes",
+                    "guesthouse-type": "expensive"
+                },
+                {
+                    "hotel-wifi": "yes",
+                    "guesthouse-type": "expensive",
+                    "guesthouse-wifi": "yes"
+                },
+                {
+                    "hotel-wifi": "yes",
+                    "guesthouse-type": "expensive",
+                    "guesthouse-wifi": "yes"
+                },
+                {
+                    "hotel-wifi": "yes",
+                    "guesthouse-type": "expensive",
+                    "guesthouse-wifi": "yes"
+                },
+                {
+                    "hotel-wifi": "yes",
+                    "guesthouse-type": "expensive",
+                    "guesthouse-wifi": "yes"
+                },
+                {
+                    "hotel-wifi": "yes",
+                    "guesthouse-type": "expensive",
+                    "guesthouse-wifi": "yes"
+                },
+                {
+                    "hotel-wifi": "yes",
+                    "guesthouse-type": "expensive",
+                    "guesthouse-wifi": "yes"
+                },
+                {
+                    "hotel-wifi": "yes",
+                    "guesthouse-type": "expensive",
+                    "guesthouse-wifi": "yes"
+                },
+                {
+                    "hotel-wifi": "yes",
+                    "guesthouse-type": "expensive",
+                    "guesthouse-wifi": "yes"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "hotel-free-wifi=yes"
+                ],
+                [
+                    "hotel-parking=yes"
+                ],
+                [
+                    "lovell-lodge=yes"
+                ],
+                [
+                    "lovell-lodge=yes"
+                ],
+                [
+                    "lovell-lodge=yes"
+                ],
+                [
+                    "lovell-lodge=yes"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "hotel-free-wifi": "yes"
+                },
+                {
+                    "hotel-free-wifi": "yes",
+                    "hotel-parking": "yes"
+                },
+                {
+                    "hotel-free-wifi": "yes",
+                    "hotel-parking": "yes",
+                    "lovell-lodge": "yes"
+                },
+                {
+                    "hotel-free-wifi": "yes",
+                    "hotel-parking": "yes",
+                    "lovell-lodge": "yes"
+                },
+                {
+                    "hotel-free-wifi": "yes",
+                    "hotel-parking": "yes",
+                    "lovell-lodge": "yes"
+                },
+                {
+                    "hotel-free-wifi": "yes",
+                    "hotel-parking": "yes",
+                    "lovell-lodge": "yes"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "hotel-parking=yes"
+                ],
+                [
+                    "hotel-parking=yes"
+                ],
+                [
+                    "phone-number=huntingdonmarriott"
+                ],
+                [
+                    "none"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "hotel-parking": "yes"
+                },
+                {
+                    "hotel-parking": "yes"
+                },
+                {
+                    "hotel-parking": "yes",
+                    "phone-number": "huntingdonmarriott"
+                },
+                {
+                    "hotel-parking": "yes",
+                    "phone-number": "huntingdonmarriott"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "3 star hotel-s=free wifi"
+                ],
+                [
+                    "3 star hotel-s=free wifi"
+                ],
+                [
+                    "5 star hotel-s=free wifi"
+                ],
+                [
+                    "5 star hotel-s=free wifi"
+                ],
+                [
+                    "5 star hotel-s=free wifi"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "3 star hotel-s": "free wifi"
+                },
+                {
+                    "3 star hotel-s": "free wifi"
+                },
+                {
+                    "3 star hotel-s": "free wifi",
+                    "5 star hotel-s": "free wifi"
+                },
+                {
+                    "3 star hotel-s": "free wifi",
+                    "5 star hotel-s": "free wifi"
+                },
+                {
+                    "3 star hotel-s": "free wifi",
+                    "5 star hotel-s": "free wifi"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "hotel-parking=yes"
+                ],
+                [
+                    "guesthouse-parking=yes"
+                ],
+                [
+                    "guesthouse-parking=yes"
+                ],
+                [
+                    "guesthouse-parking=yes"
+                ],
+                [
+                    "guesthouse-parking=yes"
+                ],
+                [
+                    "guesthouse-parking=yes"
+                ],
+                [
+                    "guesthouse-parking=yes"
+                ],
+                [
+                    "guesthouse-parking=yes"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "hotel-parking": "yes"
+                },
+                {
+                    "hotel-parking": "yes",
+                    "guesthouse-parking": "yes"
+                },
+                {
+                    "hotel-parking": "yes",
+                    "guesthouse-parking": "yes"
+                },
+                {
+                    "hotel-parking": "yes",
+                    "guesthouse-parking": "yes"
+                },
+                {
+                    "hotel-parking": "yes",
+                    "guesthouse-parking": "yes"
+                },
+                {
+                    "hotel-parking": "yes",
+                    "guesthouse-parking": "yes"
+                },
+                {
+                    "hotel-parking": "yes",
+                    "guesthouse-parking": "yes"
+                },
+                {
+                    "hotel-parking": "yes",
+                    "guesthouse-parking": "yes"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "free-wifi=yes"
+                ],
+                [
+                    "guest house=yes"
+                ],
+                [
+                    "gonville-hotel=yes"
+                ],
+                [
+                    "gonville-hotel=3"
+                ],
+                [
+                    "gonville-hotel=2"
+                ],
+                [
+                    "gonville-hotel=1"
+                ],
+                [
+                    "bye!"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "free-wifi": "yes"
+                },
+                {
+                    "free-wifi": "yes",
+                    "guest house": "yes"
+                },
+                {
+                    "free-wifi": "yes",
+                    "guest house": "yes",
+                    "gonville-hotel": "yes"
+                },
+                {
+                    "free-wifi": "yes",
+                    "guest house": "yes",
+                    "gonville-hotel": "3"
+                },
+                {
+                    "free-wifi": "yes",
+                    "guest house": "yes",
+                    "gonville-hotel": "2"
+                },
+                {
+                    "free-wifi": "yes",
+                    "guest house": "yes",
+                    "gonville-hotel": "1"
+                },
+                {
+                    "free-wifi": "yes",
+                    "guest house": "yes",
+                    "gonville-hotel": "1"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "warkworth house=yes"
+                ],
+                [
+                    "book-it-for-3-people-and-5-days=yes"
+                ],
+                [
+                    "book-it-for-friday=yes"
+                ],
+                [
+                    "bye"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "warkworth house": "yes"
+                },
+                {
+                    "warkworth house": "yes",
+                    "book-it-for-3-people-and-5-days": "yes"
+                },
+                {
+                    "warkworth house": "yes",
+                    "book-it-for-3-people-and-5-days": "yes",
+                    "book-it-for-friday": "yes"
+                },
+                {
+                    "warkworth house": "yes",
+                    "book-it-for-3-people-and-5-days": "yes",
+                    "book-it-for-friday": "yes"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "hotel-parking=yes"
+                ],
+                [
+                    "hotel-parking=yes"
+                ],
+                [
+                    "hotel-parking=yes"
+                ],
+                [
+                    "hotel-parking=yes"
+                ],
+                [
+                    "hotel-parking=yes"
+                ],
+                [
+                    "hotel-parking=yes"
+                ],
+                [
+                    "hotel-parking=yes"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "hotel-parking": "yes"
+                },
+                {
+                    "hotel-parking": "yes"
+                },
+                {
+                    "hotel-parking": "yes"
+                },
+                {
+                    "hotel-parking": "yes"
+                },
+                {
+                    "hotel-parking": "yes"
+                },
+                {
+                    "hotel-parking": "yes"
+                },
+                {
+                    "hotel-parking": "yes"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "hotel-hotel=yes"
+                ],
+                [
+                    "hotel-hotel=yes"
+                ],
+                [
+                    "none"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "hotel-hotel": "yes"
+                },
+                {
+                    "hotel-hotel": "yes"
+                },
+                {
+                    "hotel-hotel": "yes"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "hotel-parking=yes"
+                ],
+                [
+                    "hotel-free-wifi=yes"
+                ],
+                [
+                    "hotel-reference=yes"
+                ],
+                [
+                    "none"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "hotel-parking": "yes"
+                },
+                {
+                    "hotel-parking": "yes",
+                    "hotel-free-wifi": "yes"
+                },
+                {
+                    "hotel-parking": "yes",
+                    "hotel-free-wifi": "yes",
+                    "hotel-reference": "yes"
+                },
+                {
+                    "hotel-parking": "yes",
+                    "hotel-free-wifi": "yes",
+                    "hotel-reference": "yes"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "none"
+                ],
+                [
+                    "guesthouse=yes"
+                ],
+                [
+                    "guesthouse=yes"
+                ],
+                [
+                    "none"
+                ],
+                [
+                    "none"
+                ],
+                [
+                    "none"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {},
+                {
+                    "guesthouse": "yes"
+                },
+                {
+                    "guesthouse": "yes"
+                },
+                {
+                    "guesthouse": "yes"
+                },
+                {
+                    "guesthouse": "yes"
+                },
+                {
+                    "guesthouse": "yes"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "north side=yes"
+                ],
+                [
+                    "1 star=no"
+                ],
+                [
+                    "price range=0-1 star"
+                ],
+                [
+                    "none"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "north side": "yes"
+                },
+                {
+                    "north side": "yes",
+                    "1 star": "no"
+                },
+                {
+                    "north side": "yes",
+                    "1 star": "no",
+                    "price range": "0-1 star"
+                },
+                {
+                    "north side": "yes",
+                    "1 star": "no",
+                    "price range": "0-1 star"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "4 star hotel-parking=yes"
+                ],
+                [
+                    "hotel-parking=yes"
+                ],
+                [
+                    "hotel-parking=yes"
+                ],
+                [
+                    "hotel-parking=yes"
+                ],
+                [
+                    "hotel-parking=yes"
+                ],
+                [
+                    "hotel-parking=yes"
+                ],
+                [
+                    "hotel-parking=yes"
+                ],
+                [
+                    "hotel-parking=yes"
+                ],
+                [
+                    "hotel-parking=yes"
+                ],
+                [
+                    "hotel-parking=yes"
+                ],
+                [
+                    "hotel-parking=yes"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "4 star hotel-parking": "yes"
+                },
+                {
+                    "4 star hotel-parking": "yes",
+                    "hotel-parking": "yes"
+                },
+                {
+                    "4 star hotel-parking": "yes",
+                    "hotel-parking": "yes"
+                },
+                {
+                    "4 star hotel-parking": "yes",
+                    "hotel-parking": "yes"
+                },
+                {
+                    "4 star hotel-parking": "yes",
+                    "hotel-parking": "yes"
+                },
+                {
+                    "4 star hotel-parking": "yes",
+                    "hotel-parking": "yes"
+                },
+                {
+                    "4 star hotel-parking": "yes",
+                    "hotel-parking": "yes"
+                },
+                {
+                    "4 star hotel-parking": "yes",
+                    "hotel-parking": "yes"
+                },
+                {
+                    "4 star hotel-parking": "yes",
+                    "hotel-parking": "yes"
+                },
+                {
+                    "4 star hotel-parking": "yes",
+                    "hotel-parking": "yes"
+                },
+                {
+                    "4 star hotel-parking": "yes",
+                    "hotel-parking": "yes"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "none"
+                ],
+                [
+                    "guesthouse-parking=yes"
+                ],
+                [
+                    "guesthouse-parking=yes"
+                ],
+                [
+                    "guesthouse-parking=yes"
+                ],
+                [
+                    "guesthouse-parking=yes"
+                ],
+                [
+                    "none"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {},
+                {
+                    "guesthouse-parking": "yes"
+                },
+                {
+                    "guesthouse-parking": "yes"
+                },
+                {
+                    "guesthouse-parking": "yes"
+                },
+                {
+                    "guesthouse-parking": "yes"
+                },
+                {
+                    "guesthouse-parking": "yes"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "free parking=yes"
+                ],
+                [
+                    "guesthouse-parking=yes"
+                ],
+                [
+                    "guesthouse-parking=yes"
+                ],
+                [
+                    "none"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "free parking": "yes"
+                },
+                {
+                    "free parking": "yes",
+                    "guesthouse-parking": "yes"
+                },
+                {
+                    "free parking": "yes",
+                    "guesthouse-parking": "yes"
+                },
+                {
+                    "free parking": "yes",
+                    "guesthouse-parking": "yes"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "hotel-stars=0"
+                ],
+                [
+                    "cityroomz=0"
+                ],
+                [
+                    "hotel-stars=0"
+                ],
+                [
+                    "hotel-stars=0"
+                ],
+                [
+                    "hotel-stars=0"
+                ],
+                [
+                    "hotel-stars=0"
+                ],
+                [
+                    "hotel-stars=0"
+                ],
+                [
+                    "hotel-stars=0"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "hotel-stars": "0"
+                },
+                {
+                    "hotel-stars": "0",
+                    "cityroomz": "0"
+                },
+                {
+                    "hotel-stars": "0",
+                    "cityroomz": "0"
+                },
+                {
+                    "hotel-stars": "0",
+                    "cityroomz": "0"
+                },
+                {
+                    "hotel-stars": "0",
+                    "cityroomz": "0"
+                },
+                {
+                    "hotel-stars": "0",
+                    "cityroomz": "0"
+                },
+                {
+                    "hotel-stars": "0",
+                    "cityroomz": "0"
+                },
+                {
+                    "hotel-stars": "0",
+                    "cityroomz": "0"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "yes"
+                ],
+                [
+                    "moderate-price=yes"
+                ],
+                [
+                    "no"
+                ],
+                [
+                    "north-hotel=yes"
+                ],
+                [
+                    "apha-milton=yes"
+                ],
+                [
+                    "4 nights=yes"
+                ],
+                [
+                    "yes"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {},
+                {
+                    "moderate-price": "yes"
+                },
+                {
+                    "moderate-price": "yes"
+                },
+                {
+                    "moderate-price": "yes",
+                    "north-hotel": "yes"
+                },
+                {
+                    "moderate-price": "yes",
+                    "north-hotel": "yes",
+                    "apha-milton": "yes"
+                },
+                {
+                    "moderate-price": "yes",
+                    "north-hotel": "yes",
+                    "apha-milton": "yes",
+                    "4 nights": "yes"
+                },
+                {
+                    "moderate-price": "yes",
+                    "north-hotel": "yes",
+                    "apha-milton": "yes",
+                    "4 nights": "yes"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "guesthouse-free-wifi=yes"
+                ],
+                [
+                    "guesthouse-parking=yes"
+                ],
+                [
+                    "guesthouse-free-wifi=yes"
+                ],
+                [
+                    "none"
+                ],
+                [
+                    "none"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "guesthouse-free-wifi": "yes"
+                },
+                {
+                    "guesthouse-free-wifi": "yes",
+                    "guesthouse-parking": "yes"
+                },
+                {
+                    "guesthouse-free-wifi": "yes",
+                    "guesthouse-parking": "yes"
+                },
+                {
+                    "guesthouse-free-wifi": "yes",
+                    "guesthouse-parking": "yes"
+                },
+                {
+                    "guesthouse-free-wifi": "yes",
+                    "guesthouse-parking": "yes"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "type=hotel"
+                ],
+                [
+                    "type=hotel"
+                ],
+                [
+                    "type=hotel"
+                ],
+                [
+                    "type=hotel"
+                ],
+                [
+                    "type=hotel"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "type": "hotel"
+                },
+                {
+                    "type": "hotel"
+                },
+                {
+                    "type": "hotel"
+                },
+                {
+                    "type": "hotel"
+                },
+                {
+                    "type": "hotel"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "guesthouse-parking=yes"
+                ],
+                [
+                    "east=yes"
+                ],
+                [
+                    "1=free parking"
+                ],
+                [
+                    "none"
+                ],
+                [
+                    "none"
+                ],
+                [
+                    "none"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "guesthouse-parking": "yes"
+                },
+                {
+                    "guesthouse-parking": "yes",
+                    "east": "yes"
+                },
+                {
+                    "guesthouse-parking": "yes",
+                    "east": "yes",
+                    "1": "free parking"
+                },
+                {
+                    "guesthouse-parking": "yes",
+                    "east": "yes",
+                    "1": "free parking"
+                },
+                {
+                    "guesthouse-parking": "yes",
+                    "east": "yes",
+                    "1": "free parking"
+                },
+                {
+                    "guesthouse-parking": "yes",
+                    "east": "yes",
+                    "1": "free parking"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "guesthouse-parking=yes"
+                ],
+                [
+                    "guesthouse-star=4"
+                ],
+                [
+                    "guesthouse-star=4"
+                ],
+                [
+                    "guesthouse-star=4"
+                ],
+                [
+                    "Thank you for your interest in the huntingdon marriott."
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "guesthouse-parking": "yes"
+                },
+                {
+                    "guesthouse-parking": "yes",
+                    "guesthouse-star": "4"
+                },
+                {
+                    "guesthouse-parking": "yes",
+                    "guesthouse-star": "4"
+                },
+                {
+                    "guesthouse-parking": "yes",
+                    "guesthouse-star": "4"
+                },
+                {
+                    "guesthouse-parking": "yes",
+                    "guesthouse-star": "4"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "none"
+                ],
+                [
+                    "moderate=3 stars"
+                ],
+                [
+                    "yes, we have free internet and parking"
+                ],
+                [
+                    "hamilton lodge=yes"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {},
+                {
+                    "moderate": "3 stars"
+                },
+                {
+                    "moderate": "3 stars"
+                },
+                {
+                    "moderate": "3 stars",
+                    "hamilton lodge": "yes"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "el shaddai=yes"
+                ],
+                [
+                    "yes"
+                ],
+                [
+                    "yes"
+                ],
+                [
+                    "Thank you for your time."
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "el shaddai": "yes"
+                },
+                {
+                    "el shaddai": "yes"
+                },
+                {
+                    "el shaddai": "yes"
+                },
+                {
+                    "el shaddai": "yes"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "huntingdon marriott-hotel-price=4stars"
+                ],
+                [
+                    "huntingdon marriott-hotel-parking=yes"
+                ],
+                [
+                    "huntingdon marriott-hotel-parking=yes"
+                ],
+                [
+                    "huntingdon marriott-hotel-parking=yes"
+                ],
+                [
+                    "huntingdon marriott-hotel-parking=yes"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "huntingdon marriott-hotel-price": "4stars"
+                },
+                {
+                    "huntingdon marriott-hotel-price": "4stars",
+                    "huntingdon marriott-hotel-parking": "yes"
+                },
+                {
+                    "huntingdon marriott-hotel-price": "4stars",
+                    "huntingdon marriott-hotel-parking": "yes"
+                },
+                {
+                    "huntingdon marriott-hotel-price": "4stars",
+                    "huntingdon marriott-hotel-parking": "yes"
+                },
+                {
+                    "huntingdon marriott-hotel-price": "4stars",
+                    "huntingdon marriott-hotel-parking": "yes"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "free-wifi=yes"
+                ],
+                [
+                    "nothing cheap."
+                ],
+                [
+                    "hotel-parking=yes"
+                ],
+                [
+                    "hotel-parking=yes"
+                ],
+                [
+                    "none"
+                ],
+                [
+                    "hotel-parking=yes"
+                ],
+                [
+                    "hotel-parking=yes"
+                ],
+                [
+                    "hotel-parking=yes"
+                ],
+                [
+                    "hotel-parking=yes"
+                ],
+                [
+                    "none"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "free-wifi": "yes"
+                },
+                {
+                    "free-wifi": "yes"
+                },
+                {
+                    "free-wifi": "yes",
+                    "hotel-parking": "yes"
+                },
+                {
+                    "free-wifi": "yes",
+                    "hotel-parking": "yes"
+                },
+                {
+                    "free-wifi": "yes",
+                    "hotel-parking": "yes"
+                },
+                {
+                    "free-wifi": "yes",
+                    "hotel-parking": "yes"
+                },
+                {
+                    "free-wifi": "yes",
+                    "hotel-parking": "yes"
+                },
+                {
+                    "free-wifi": "yes",
+                    "hotel-parking": "yes"
+                },
+                {
+                    "free-wifi": "yes",
+                    "hotel-parking": "yes"
+                },
+                {
+                    "free-wifi": "yes",
+                    "hotel-parking": "yes"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "bridge-house=yes"
+                ],
+                [
+                    "bridge-house=yes"
+                ],
+                [
+                    "bridge-house=yes"
+                ],
+                [
+                    "none"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "bridge-house": "yes"
+                },
+                {
+                    "bridge-house": "yes"
+                },
+                {
+                    "bridge-house": "yes"
+                },
+                {
+                    "bridge-house": "yes"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "hotel-hotel-type=hotel"
+                ],
+                [
+                    "hotel-hotel-type=hotel"
+                ],
+                [
+                    "none"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "hotel-hotel-type": "hotel"
+                },
+                {
+                    "hotel-hotel-type": "hotel"
+                },
+                {
+                    "hotel-hotel-type": "hotel"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "4 star guesthouses=yes"
+                ],
+                [
+                    "guesthouse-parking=yes"
+                ],
+                [
+                    "rosa s bed and breakfast=yes"
+                ],
+                [
+                    "none"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "4 star guesthouses": "yes"
+                },
+                {
+                    "4 star guesthouses": "yes",
+                    "guesthouse-parking": "yes"
+                },
+                {
+                    "4 star guesthouses": "yes",
+                    "guesthouse-parking": "yes",
+                    "rosa s bed and breakfast": "yes"
+                },
+                {
+                    "4 star guesthouses": "yes",
+                    "guesthouse-parking": "yes",
+                    "rosa s bed and breakfast": "yes"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "room-price=4stars"
+                ],
+                [
+                    "room-parking=yes"
+                ],
+                [
+                    "room-price=4stars"
+                ],
+                [
+                    "room-internet=yes"
+                ],
+                [
+                    "room-price=4stars"
+                ],
+                [
+                    "room-price=4stars"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "room-price": "4stars"
+                },
+                {
+                    "room-price": "4stars",
+                    "room-parking": "yes"
+                },
+                {
+                    "room-price": "4stars",
+                    "room-parking": "yes"
+                },
+                {
+                    "room-price": "4stars",
+                    "room-parking": "yes",
+                    "room-internet": "yes"
+                },
+                {
+                    "room-price": "4stars",
+                    "room-parking": "yes",
+                    "room-internet": "yes"
+                },
+                {
+                    "room-price": "4stars",
+                    "room-parking": "yes",
+                    "room-internet": "yes"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "free-wifi=yes"
+                ],
+                [
+                    "moderate-price=4stars"
+                ],
+                [
+                    "east=north"
+                ],
+                [
+                    "and-b-guesthouse=4stars"
+                ],
+                [
+                    "sunday=yes"
+                ],
+                [
+                    "no, i am not able to accommodate you for that time frame."
+                ],
+                [
+                    "acorn-guesthouse=4stars"
+                ],
+                [
+                    "2 nights=yes"
+                ],
+                [
+                    "3cry3ddp=4stars"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "free-wifi": "yes"
+                },
+                {
+                    "free-wifi": "yes",
+                    "moderate-price": "4stars"
+                },
+                {
+                    "free-wifi": "yes",
+                    "moderate-price": "4stars",
+                    "east": "north"
+                },
+                {
+                    "free-wifi": "yes",
+                    "moderate-price": "4stars",
+                    "east": "north",
+                    "and-b-guesthouse": "4stars"
+                },
+                {
+                    "free-wifi": "yes",
+                    "moderate-price": "4stars",
+                    "east": "north",
+                    "and-b-guesthouse": "4stars",
+                    "sunday": "yes"
+                },
+                {
+                    "free-wifi": "yes",
+                    "moderate-price": "4stars",
+                    "east": "north",
+                    "and-b-guesthouse": "4stars",
+                    "sunday": "yes"
+                },
+                {
+                    "free-wifi": "yes",
+                    "moderate-price": "4stars",
+                    "east": "north",
+                    "and-b-guesthouse": "4stars",
+                    "sunday": "yes",
+                    "acorn-guesthouse": "4stars"
+                },
+                {
+                    "free-wifi": "yes",
+                    "moderate-price": "4stars",
+                    "east": "north",
+                    "and-b-guesthouse": "4stars",
+                    "sunday": "yes",
+                    "acorn-guesthouse": "4stars",
+                    "2 nights": "yes"
+                },
+                {
+                    "free-wifi": "yes",
+                    "moderate-price": "4stars",
+                    "east": "north",
+                    "and-b-guesthouse": "4stars",
+                    "sunday": "yes",
+                    "acorn-guesthouse": "4stars",
+                    "2 nights": "yes",
+                    "3cry3ddp": "4stars"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "cheap-place=yes"
+                ],
+                [
+                    "center-of-town=yes"
+                ],
+                [
+                    "guesthouse-wi fi=yes"
+                ],
+                [
+                    "none"
+                ],
+                [
+                    "none"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "cheap-place": "yes"
+                },
+                {
+                    "cheap-place": "yes",
+                    "center-of-town": "yes"
+                },
+                {
+                    "cheap-place": "yes",
+                    "center-of-town": "yes",
+                    "guesthouse-wi fi": "yes"
+                },
+                {
+                    "cheap-place": "yes",
+                    "center-of-town": "yes",
+                    "guesthouse-wi fi": "yes"
+                },
+                {
+                    "cheap-place": "yes",
+                    "center-of-town": "yes",
+                    "guesthouse-wi fi": "yes"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "hotel-free-wifi=yes"
+                ],
+                [
+                    "guesthouse-price=$1,000"
+                ],
+                [
+                    "moderate-price=yes"
+                ],
+                [
+                    "guesthouse-free-wifi=yes"
+                ],
+                [
+                    "bye"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "hotel-free-wifi": "yes"
+                },
+                {
+                    "hotel-free-wifi": "yes",
+                    "guesthouse-price": "$1,000"
+                },
+                {
+                    "hotel-free-wifi": "yes",
+                    "guesthouse-price": "$1,000",
+                    "moderate-price": "yes"
+                },
+                {
+                    "hotel-free-wifi": "yes",
+                    "guesthouse-price": "$1,000",
+                    "moderate-price": "yes",
+                    "guesthouse-free-wifi": "yes"
+                },
+                {
+                    "hotel-free-wifi": "yes",
+                    "guesthouse-price": "$1,000",
+                    "moderate-price": "yes",
+                    "guesthouse-free-wifi": "yes"
+                }
+            ]
+        }
+    ]
+}

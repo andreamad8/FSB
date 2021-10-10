@@ -1,0 +1,2848 @@
+{
+    "score": {
+        "B4": 23.196944109983605,
+        "F1": 75.95160652977478,
+        "RL": 71.56370308348725,
+        "JGA": 18.84057971014493,
+        "SLOT_ACC": 63.00403225806451,
+        "ppl": 3.6412922735667865
+    },
+    "generation": [
+        {
+            "meta": [
+                [
+                    "restaurant-food=portuguese\trestaurant-area=cambridge"
+                ],
+                [
+                    "restaurant-food=turkish\trestaurant-pricerange=moderate"
+                ],
+                [
+                    "restaurant-food=moderate\trestaurant-pricerange=moderate"
+                ],
+                [
+                    "restaurant-book_time=monday\trestaurant-book_people=1\trestaurant-book_day=monday"
+                ],
+                [
+                    "None"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "restaurant-food": "portuguese",
+                    "restaurant-area": "cambridge"
+                },
+                {
+                    "restaurant-food": "turkish",
+                    "restaurant-area": "cambridge",
+                    "restaurant-pricerange": "moderate"
+                },
+                {
+                    "restaurant-food": "moderate",
+                    "restaurant-area": "cambridge",
+                    "restaurant-pricerange": "moderate"
+                },
+                {
+                    "restaurant-food": "moderate",
+                    "restaurant-area": "cambridge",
+                    "restaurant-pricerange": "moderate",
+                    "restaurant-book time": "monday",
+                    "restaurant-book people": "1",
+                    "restaurant-book day": "monday"
+                },
+                {
+                    "restaurant-food": "moderate",
+                    "restaurant-area": "cambridge",
+                    "restaurant-pricerange": "moderate",
+                    "restaurant-book time": "monday",
+                    "restaurant-book people": "1",
+                    "restaurant-book day": "monday"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "restaurant-food=british\trestaurant-area=town"
+                ],
+                [
+                    "restaurant-food=british\trestaurant-area=west"
+                ],
+                [
+                    "None"
+                ],
+                [
+                    "None"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "restaurant-food": "british",
+                    "restaurant-area": "town"
+                },
+                {
+                    "restaurant-food": "british",
+                    "restaurant-area": "west"
+                },
+                {
+                    "restaurant-food": "british",
+                    "restaurant-area": "west"
+                },
+                {
+                    "restaurant-food": "british",
+                    "restaurant-area": "west"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "restaurant-food=cheap\trestaurant-area=centre"
+                ],
+                [
+                    "None"
+                ],
+                [
+                    "None"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "restaurant-food": "cheap",
+                    "restaurant-area": "centre"
+                },
+                {
+                    "restaurant-food": "cheap",
+                    "restaurant-area": "centre"
+                },
+                {
+                    "restaurant-food": "cheap",
+                    "restaurant-area": "centre"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "restaurant-food=centre\trestaurant-area=centre"
+                ],
+                [
+                    "restaurant-food=5\trestaurant-book_time=13:45\trestaurant-name=sala thong"
+                ],
+                [
+                    "None"
+                ],
+                [
+                    "None"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "restaurant-food": "centre",
+                    "restaurant-area": "centre"
+                },
+                {
+                    "restaurant-food": "5",
+                    "restaurant-area": "centre",
+                    "restaurant-book time": "13:45",
+                    "restaurant-name": "sala thong"
+                },
+                {
+                    "restaurant-food": "5",
+                    "restaurant-area": "centre",
+                    "restaurant-book time": "13:45",
+                    "restaurant-name": "sala thong"
+                },
+                {
+                    "restaurant-food": "5",
+                    "restaurant-area": "centre",
+                    "restaurant-book time": "13:45",
+                    "restaurant-name": "sala thong"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "restaurant-food=expensive\trestaurant-pricerange=expensive"
+                ],
+                [
+                    "restaurant-food=indian\trestaurant-pricerange=indian"
+                ],
+                [
+                    "restaurant-book_time=11:45\trestaurant-book_people=1\trestaurant-book_day=monday"
+                ],
+                [
+                    "None"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "restaurant-food": "expensive",
+                    "restaurant-pricerange": "expensive"
+                },
+                {
+                    "restaurant-food": "indian",
+                    "restaurant-pricerange": "indian"
+                },
+                {
+                    "restaurant-food": "indian",
+                    "restaurant-pricerange": "indian",
+                    "restaurant-book time": "11:45",
+                    "restaurant-book people": "1",
+                    "restaurant-book day": "monday"
+                },
+                {
+                    "restaurant-food": "indian",
+                    "restaurant-pricerange": "indian",
+                    "restaurant-book time": "11:45",
+                    "restaurant-book people": "1",
+                    "restaurant-book day": "monday"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "restaurant-food=indian\trestaurant-area=north"
+                ],
+                [
+                    "None"
+                ],
+                [
+                    "None"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "restaurant-food": "indian",
+                    "restaurant-area": "north"
+                },
+                {
+                    "restaurant-food": "indian",
+                    "restaurant-area": "north"
+                },
+                {
+                    "restaurant-food": "indian",
+                    "restaurant-area": "north"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "restaurant-food=moderate\trestaurant-pricerange=moderate"
+                ],
+                [
+                    "restaurant-food=lebanese\trestaurant-pricerange=moderate"
+                ],
+                [
+                    "restaurant-book_people=7\trestaurant-book_time=7:00\trestaurant-name=ali baba"
+                ],
+                [
+                    "restaurant-book_address=59 hills road city centre\trestaurant-book_time=7:00\trestaurant-name=ali baba"
+                ],
+                [
+                    "None"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "restaurant-food": "moderate",
+                    "restaurant-pricerange": "moderate"
+                },
+                {
+                    "restaurant-food": "lebanese",
+                    "restaurant-pricerange": "moderate"
+                },
+                {
+                    "restaurant-food": "lebanese",
+                    "restaurant-pricerange": "moderate",
+                    "restaurant-book people": "7",
+                    "restaurant-book time": "7:00",
+                    "restaurant-name": "ali baba"
+                },
+                {
+                    "restaurant-food": "lebanese",
+                    "restaurant-pricerange": "moderate",
+                    "restaurant-book people": "7",
+                    "restaurant-book time": "7:00",
+                    "restaurant-name": "ali baba",
+                    "restaurant-book address": "59 hills road city centre"
+                },
+                {
+                    "restaurant-food": "lebanese",
+                    "restaurant-pricerange": "moderate",
+                    "restaurant-book people": "7",
+                    "restaurant-book time": "7:00",
+                    "restaurant-name": "ali baba",
+                    "restaurant-book address": "59 hills road city centre"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "restaurant-food=eastern european\trestaurant-area=south"
+                ],
+                [
+                    "restaurant-food=eastern european\trestaurant-pricerange=expensive"
+                ],
+                [
+                    "restaurant-food=chinese\trestaurant-area=south"
+                ],
+                [
+                    "restaurant-book_people=2\trestaurant-book_time=1:00\trestaurant-name=peking restaurant"
+                ],
+                [
+                    "restaurant-book_day=saturday\trestaurant-book_time=11:45\trestaurant-name=peking restaurant"
+                ],
+                [
+                    "None"
+                ],
+                [
+                    "None"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "restaurant-food": "eastern european",
+                    "restaurant-area": "south"
+                },
+                {
+                    "restaurant-food": "eastern european",
+                    "restaurant-area": "south",
+                    "restaurant-pricerange": "expensive"
+                },
+                {
+                    "restaurant-food": "chinese",
+                    "restaurant-area": "south",
+                    "restaurant-pricerange": "expensive"
+                },
+                {
+                    "restaurant-food": "chinese",
+                    "restaurant-area": "south",
+                    "restaurant-pricerange": "expensive",
+                    "restaurant-book people": "2",
+                    "restaurant-book time": "1:00",
+                    "restaurant-name": "peking restaurant"
+                },
+                {
+                    "restaurant-food": "chinese",
+                    "restaurant-area": "south",
+                    "restaurant-pricerange": "expensive",
+                    "restaurant-book people": "2",
+                    "restaurant-book time": "11:45",
+                    "restaurant-name": "peking restaurant",
+                    "restaurant-book day": "saturday"
+                },
+                {
+                    "restaurant-food": "chinese",
+                    "restaurant-area": "south",
+                    "restaurant-pricerange": "expensive",
+                    "restaurant-book people": "2",
+                    "restaurant-book time": "11:45",
+                    "restaurant-name": "peking restaurant",
+                    "restaurant-book day": "saturday"
+                },
+                {
+                    "restaurant-food": "chinese",
+                    "restaurant-area": "south",
+                    "restaurant-pricerange": "expensive",
+                    "restaurant-book people": "2",
+                    "restaurant-book time": "11:45",
+                    "restaurant-name": "peking restaurant",
+                    "restaurant-book day": "saturday"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "restaurant-food=british\trestaurant-area=centre"
+                ],
+                [
+                    "restaurant-book_people=5\trestaurant-book_time=14:00\trestaurant-name=british"
+                ],
+                [
+                    "restaurant-book_people=italian\trestaurant-book_time=italian\trestaurant-name=italian"
+                ],
+                [
+                    "restaurant-book_people=italian\trestaurant-book_time=italian\trestaurant-name=italian"
+                ],
+                [
+                    "restaurant-book_people=5\trestaurant-book_time=13:00\trestaurant-name=cambridge chop house"
+                ],
+                [
+                    "None"
+                ],
+                [
+                    "None"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "restaurant-food": "british",
+                    "restaurant-area": "centre"
+                },
+                {
+                    "restaurant-food": "british",
+                    "restaurant-area": "centre",
+                    "restaurant-book people": "5",
+                    "restaurant-book time": "14:00",
+                    "restaurant-name": "british"
+                },
+                {
+                    "restaurant-food": "british",
+                    "restaurant-area": "centre",
+                    "restaurant-book people": "italian",
+                    "restaurant-book time": "italian",
+                    "restaurant-name": "italian"
+                },
+                {
+                    "restaurant-food": "british",
+                    "restaurant-area": "centre",
+                    "restaurant-book people": "italian",
+                    "restaurant-book time": "italian",
+                    "restaurant-name": "italian"
+                },
+                {
+                    "restaurant-food": "british",
+                    "restaurant-area": "centre",
+                    "restaurant-book people": "5",
+                    "restaurant-book time": "13:00",
+                    "restaurant-name": "cambridge chop house"
+                },
+                {
+                    "restaurant-food": "british",
+                    "restaurant-area": "centre",
+                    "restaurant-book people": "5",
+                    "restaurant-book time": "13:00",
+                    "restaurant-name": "cambridge chop house"
+                },
+                {
+                    "restaurant-food": "british",
+                    "restaurant-area": "centre",
+                    "restaurant-book people": "5",
+                    "restaurant-book time": "13:00",
+                    "restaurant-name": "cambridge chop house"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "restaurant-food=centre\trestaurant-area=centre"
+                ],
+                [
+                    "restaurant-food=italian"
+                ],
+                [
+                    "restaurant-book_time=saturday\trestaurant-book_people=1\trestaurant-book_day=saturday"
+                ],
+                [
+                    "None"
+                ],
+                [
+                    "None"
+                ],
+                [
+                    "None"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "restaurant-food": "centre",
+                    "restaurant-area": "centre"
+                },
+                {
+                    "restaurant-food": "italian",
+                    "restaurant-area": "centre"
+                },
+                {
+                    "restaurant-food": "italian",
+                    "restaurant-area": "centre",
+                    "restaurant-book time": "saturday",
+                    "restaurant-book people": "1",
+                    "restaurant-book day": "saturday"
+                },
+                {
+                    "restaurant-food": "italian",
+                    "restaurant-area": "centre",
+                    "restaurant-book time": "saturday",
+                    "restaurant-book people": "1",
+                    "restaurant-book day": "saturday"
+                },
+                {
+                    "restaurant-food": "italian",
+                    "restaurant-area": "centre",
+                    "restaurant-book time": "saturday",
+                    "restaurant-book people": "1",
+                    "restaurant-book day": "saturday"
+                },
+                {
+                    "restaurant-food": "italian",
+                    "restaurant-area": "centre",
+                    "restaurant-book time": "saturday",
+                    "restaurant-book people": "1",
+                    "restaurant-book day": "saturday"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "restaurant-food=indian\trestaurant-area=town"
+                ],
+                [
+                    "restaurant-food=indian\trestaurant-area=west"
+                ],
+                [
+                    "restaurant-book_people=1\trestaurant-book_time=19:15\trestaurant-name=tandoori palace"
+                ],
+                [
+                    "None"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "restaurant-food": "indian",
+                    "restaurant-area": "town"
+                },
+                {
+                    "restaurant-food": "indian",
+                    "restaurant-area": "west"
+                },
+                {
+                    "restaurant-food": "indian",
+                    "restaurant-area": "west",
+                    "restaurant-book people": "1",
+                    "restaurant-book time": "19:15",
+                    "restaurant-name": "tandoori palace"
+                },
+                {
+                    "restaurant-food": "indian",
+                    "restaurant-area": "west",
+                    "restaurant-book people": "1",
+                    "restaurant-book time": "19:15",
+                    "restaurant-name": "tandoori palace"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "restaurant-food=chinese\trestaurant-area=east"
+                ],
+                [
+                    "restaurant-book_time=19:30\trestaurant-book_people=1\trestaurant-book_day=monday"
+                ],
+                [
+                    "None"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "restaurant-food": "chinese",
+                    "restaurant-area": "east"
+                },
+                {
+                    "restaurant-food": "chinese",
+                    "restaurant-area": "east",
+                    "restaurant-book time": "19:30",
+                    "restaurant-book people": "1",
+                    "restaurant-book day": "monday"
+                },
+                {
+                    "restaurant-food": "chinese",
+                    "restaurant-area": "east",
+                    "restaurant-book time": "19:30",
+                    "restaurant-book people": "1",
+                    "restaurant-book day": "monday"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "restaurant-food=international\trestaurant-area=centre"
+                ],
+                [
+                    "restaurant-food=moderate\trestaurant-pricerange=moderate"
+                ],
+                [
+                    "None"
+                ],
+                [
+                    "None"
+                ],
+                [
+                    "None"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "restaurant-food": "international",
+                    "restaurant-area": "centre"
+                },
+                {
+                    "restaurant-food": "moderate",
+                    "restaurant-area": "centre",
+                    "restaurant-pricerange": "moderate"
+                },
+                {
+                    "restaurant-food": "moderate",
+                    "restaurant-area": "centre",
+                    "restaurant-pricerange": "moderate"
+                },
+                {
+                    "restaurant-food": "moderate",
+                    "restaurant-area": "centre",
+                    "restaurant-pricerange": "moderate"
+                },
+                {
+                    "restaurant-food": "moderate",
+                    "restaurant-area": "centre",
+                    "restaurant-pricerange": "moderate"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "restaurant-food=expensive\trestaurant-pricerange=expensive"
+                ],
+                [
+                    "None"
+                ],
+                [
+                    "None"
+                ],
+                [
+                    "None"
+                ],
+                [
+                    "None"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "restaurant-food": "expensive",
+                    "restaurant-pricerange": "expensive"
+                },
+                {
+                    "restaurant-food": "expensive",
+                    "restaurant-pricerange": "expensive"
+                },
+                {
+                    "restaurant-food": "expensive",
+                    "restaurant-pricerange": "expensive"
+                },
+                {
+                    "restaurant-food": "expensive",
+                    "restaurant-pricerange": "expensive"
+                },
+                {
+                    "restaurant-food": "expensive",
+                    "restaurant-pricerange": "expensive"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "restaurant-food=south side\trestaurant-pricerange=expensive"
+                ],
+                [
+                    "None"
+                ],
+                [
+                    "None"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "restaurant-food": "south side",
+                    "restaurant-pricerange": "expensive"
+                },
+                {
+                    "restaurant-food": "south side",
+                    "restaurant-pricerange": "expensive"
+                },
+                {
+                    "restaurant-food": "south side",
+                    "restaurant-pricerange": "expensive"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "restaurant-food=british\trestaurant-area=centre"
+                ],
+                [
+                    "restaurant-food=expensive"
+                ],
+                [
+                    "restaurant-book_people=8\trestaurant-book_time=12:00\trestaurant-name=fitzbillies restaurant"
+                ],
+                [
+                    "restaurant-book_day=11:00\trestaurant-book_time=11:00\trestaurant-name=fitzbillies restaurant"
+                ],
+                [
+                    "None"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "restaurant-food": "british",
+                    "restaurant-area": "centre"
+                },
+                {
+                    "restaurant-food": "expensive",
+                    "restaurant-area": "centre"
+                },
+                {
+                    "restaurant-food": "expensive",
+                    "restaurant-area": "centre",
+                    "restaurant-book people": "8",
+                    "restaurant-book time": "12:00",
+                    "restaurant-name": "fitzbillies restaurant"
+                },
+                {
+                    "restaurant-food": "expensive",
+                    "restaurant-area": "centre",
+                    "restaurant-book people": "8",
+                    "restaurant-book time": "11:00",
+                    "restaurant-name": "fitzbillies restaurant",
+                    "restaurant-book day": "11:00"
+                },
+                {
+                    "restaurant-food": "expensive",
+                    "restaurant-area": "centre",
+                    "restaurant-book people": "8",
+                    "restaurant-book time": "11:00",
+                    "restaurant-name": "fitzbillies restaurant",
+                    "restaurant-book day": "11:00"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "restaurant-food=centre\trestaurant-pricerange=expensive"
+                ],
+                [
+                    "restaurant-food=vegetarian\trestaurant-pricerange=expensive"
+                ],
+                [
+                    "restaurant-food=turkish\trestaurant-pricerange=expensive"
+                ],
+                [
+                    "restaurant-book_time=monday\trestaurant-book_people=4\trestaurant-book_day=monday"
+                ],
+                [
+                    "restaurant-book_time=saturday\trestaurant-book_people=4\trestaurant-book_day=saturday"
+                ],
+                [
+                    "restaurant-book_time=turkish\trestaurant-book_people=4\trestaurant-book_day=monday"
+                ],
+                [
+                    "restaurant-book_time=turkish\trestaurant-book_people=4\trestaurant-book_day=monday"
+                ],
+                [
+                    "restaurant-book_time=saturday\trestaurant-book_people=4\trestaurant-book_day=saturday"
+                ],
+                [
+                    "None"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "restaurant-food": "centre",
+                    "restaurant-pricerange": "expensive"
+                },
+                {
+                    "restaurant-food": "vegetarian",
+                    "restaurant-pricerange": "expensive"
+                },
+                {
+                    "restaurant-food": "turkish",
+                    "restaurant-pricerange": "expensive"
+                },
+                {
+                    "restaurant-food": "turkish",
+                    "restaurant-pricerange": "expensive",
+                    "restaurant-book time": "monday",
+                    "restaurant-book people": "4",
+                    "restaurant-book day": "monday"
+                },
+                {
+                    "restaurant-food": "turkish",
+                    "restaurant-pricerange": "expensive",
+                    "restaurant-book time": "saturday",
+                    "restaurant-book people": "4",
+                    "restaurant-book day": "saturday"
+                },
+                {
+                    "restaurant-food": "turkish",
+                    "restaurant-pricerange": "expensive",
+                    "restaurant-book time": "turkish",
+                    "restaurant-book people": "4",
+                    "restaurant-book day": "monday"
+                },
+                {
+                    "restaurant-food": "turkish",
+                    "restaurant-pricerange": "expensive",
+                    "restaurant-book time": "turkish",
+                    "restaurant-book people": "4",
+                    "restaurant-book day": "monday"
+                },
+                {
+                    "restaurant-food": "turkish",
+                    "restaurant-pricerange": "expensive",
+                    "restaurant-book time": "saturday",
+                    "restaurant-book people": "4",
+                    "restaurant-book day": "saturday"
+                },
+                {
+                    "restaurant-food": "turkish",
+                    "restaurant-pricerange": "expensive",
+                    "restaurant-book time": "saturday",
+                    "restaurant-book people": "4",
+                    "restaurant-book day": "saturday"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "restaurant-food=north indian\trestaurant-area=centre"
+                ],
+                [
+                    "restaurant-food=chinese\trestaurant-area=centre"
+                ],
+                [
+                    "restaurant-book_time=sunday\trestaurant-book_people=2\trestaurant-book_day=sunday"
+                ],
+                [
+                    "restaurant-book_price=high\trestaurant-book_price=high"
+                ],
+                [
+                    "restaurant-book_people=2\trestaurant-book_time=13:30\trestaurant-book_day=sunday"
+                ],
+                [
+                    "restaurant-book_time=12:30\trestaurant-book_people=2\trestaurant-book_day=sunday"
+                ],
+                [
+                    "None"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "restaurant-food": "north indian",
+                    "restaurant-area": "centre"
+                },
+                {
+                    "restaurant-food": "chinese",
+                    "restaurant-area": "centre"
+                },
+                {
+                    "restaurant-food": "chinese",
+                    "restaurant-area": "centre",
+                    "restaurant-book time": "sunday",
+                    "restaurant-book people": "2",
+                    "restaurant-book day": "sunday"
+                },
+                {
+                    "restaurant-food": "chinese",
+                    "restaurant-area": "centre",
+                    "restaurant-book time": "sunday",
+                    "restaurant-book people": "2",
+                    "restaurant-book day": "sunday",
+                    "restaurant-book price": "high"
+                },
+                {
+                    "restaurant-food": "chinese",
+                    "restaurant-area": "centre",
+                    "restaurant-book time": "13:30",
+                    "restaurant-book people": "2",
+                    "restaurant-book day": "sunday",
+                    "restaurant-book price": "high"
+                },
+                {
+                    "restaurant-food": "chinese",
+                    "restaurant-area": "centre",
+                    "restaurant-book time": "12:30",
+                    "restaurant-book people": "2",
+                    "restaurant-book day": "sunday",
+                    "restaurant-book price": "high"
+                },
+                {
+                    "restaurant-food": "chinese",
+                    "restaurant-area": "centre",
+                    "restaurant-book time": "12:30",
+                    "restaurant-book people": "2",
+                    "restaurant-book day": "sunday",
+                    "restaurant-book price": "high"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "restaurant-food=italian\trestaurant-area=south"
+                ],
+                [
+                    "restaurant-book_people=7\trestaurant-book_time=14:00\trestaurant-name=frankie and bennys"
+                ],
+                [
+                    "restaurant-book_time=13:00"
+                ],
+                [
+                    "None"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "restaurant-food": "italian",
+                    "restaurant-area": "south"
+                },
+                {
+                    "restaurant-food": "italian",
+                    "restaurant-area": "south",
+                    "restaurant-book people": "7",
+                    "restaurant-book time": "14:00",
+                    "restaurant-name": "frankie and bennys"
+                },
+                {
+                    "restaurant-food": "italian",
+                    "restaurant-area": "south",
+                    "restaurant-book people": "7",
+                    "restaurant-book time": "13:00",
+                    "restaurant-name": "frankie and bennys"
+                },
+                {
+                    "restaurant-food": "italian",
+                    "restaurant-area": "south",
+                    "restaurant-book people": "7",
+                    "restaurant-book time": "13:00",
+                    "restaurant-name": "frankie and bennys"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "restaurant-food=centre\trestaurant-area=town"
+                ],
+                [
+                    "restaurant-book_people=4\trestaurant-book_time=20:00\trestaurant-name=yippee noodle bar"
+                ],
+                [
+                    "restaurant-book_time=19:00"
+                ],
+                [
+                    "None"
+                ],
+                [
+                    "None"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "restaurant-food": "centre",
+                    "restaurant-area": "town"
+                },
+                {
+                    "restaurant-food": "centre",
+                    "restaurant-area": "town",
+                    "restaurant-book people": "4",
+                    "restaurant-book time": "20:00",
+                    "restaurant-name": "yippee noodle bar"
+                },
+                {
+                    "restaurant-food": "centre",
+                    "restaurant-area": "town",
+                    "restaurant-book people": "4",
+                    "restaurant-book time": "19:00",
+                    "restaurant-name": "yippee noodle bar"
+                },
+                {
+                    "restaurant-food": "centre",
+                    "restaurant-area": "town",
+                    "restaurant-book people": "4",
+                    "restaurant-book time": "19:00",
+                    "restaurant-name": "yippee noodle bar"
+                },
+                {
+                    "restaurant-food": "centre",
+                    "restaurant-area": "town",
+                    "restaurant-book people": "4",
+                    "restaurant-book time": "19:00",
+                    "restaurant-name": "yippee noodle bar"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "restaurant-food=italian\trestaurant-area=north"
+                ],
+                [
+                    "restaurant-price=cheap\trestaurant-price_min=20\trestaurant-price_max=100"
+                ],
+                [
+                    "None"
+                ],
+                [
+                    "None"
+                ],
+                [
+                    "None"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "restaurant-food": "italian",
+                    "restaurant-area": "north"
+                },
+                {
+                    "restaurant-food": "italian",
+                    "restaurant-area": "north",
+                    "restaurant-price": "cheap",
+                    "restaurant-price min": "20",
+                    "restaurant-price max": "100"
+                },
+                {
+                    "restaurant-food": "italian",
+                    "restaurant-area": "north",
+                    "restaurant-price": "cheap",
+                    "restaurant-price min": "20",
+                    "restaurant-price max": "100"
+                },
+                {
+                    "restaurant-food": "italian",
+                    "restaurant-area": "north",
+                    "restaurant-price": "cheap",
+                    "restaurant-price min": "20",
+                    "restaurant-price max": "100"
+                },
+                {
+                    "restaurant-food": "italian",
+                    "restaurant-area": "north",
+                    "restaurant-price": "cheap",
+                    "restaurant-price min": "20",
+                    "restaurant-price max": "100"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "restaurant-food=la margherita\trestaurant-area=west"
+                ],
+                [
+                    "None"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "restaurant-food": "la margherita",
+                    "restaurant-area": "west"
+                },
+                {
+                    "restaurant-food": "la margherita",
+                    "restaurant-area": "west"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "restaurant-food=chinese\trestaurant-area=centre"
+                ],
+                [
+                    "restaurant-food=expensive\trestaurant-pricerange=expensive"
+                ],
+                [
+                    "restaurant-book_people=3\trestaurant-book_time=15:45\trestaurant-name=hk fusion"
+                ],
+                [
+                    "None"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "restaurant-food": "chinese",
+                    "restaurant-area": "centre"
+                },
+                {
+                    "restaurant-food": "expensive",
+                    "restaurant-area": "centre",
+                    "restaurant-pricerange": "expensive"
+                },
+                {
+                    "restaurant-food": "expensive",
+                    "restaurant-area": "centre",
+                    "restaurant-pricerange": "expensive",
+                    "restaurant-book people": "3",
+                    "restaurant-book time": "15:45",
+                    "restaurant-name": "hk fusion"
+                },
+                {
+                    "restaurant-food": "expensive",
+                    "restaurant-area": "centre",
+                    "restaurant-pricerange": "expensive",
+                    "restaurant-book people": "3",
+                    "restaurant-book time": "15:45",
+                    "restaurant-name": "hk fusion"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "restaurant-food=chinese\trestaurant-pricerange=expensive"
+                ],
+                [
+                    "None"
+                ],
+                [
+                    "None"
+                ],
+                [
+                    "restaurant-book_number=yu garden"
+                ],
+                [
+                    "None"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "restaurant-food": "chinese",
+                    "restaurant-pricerange": "expensive"
+                },
+                {
+                    "restaurant-food": "chinese",
+                    "restaurant-pricerange": "expensive"
+                },
+                {
+                    "restaurant-food": "chinese",
+                    "restaurant-pricerange": "expensive"
+                },
+                {
+                    "restaurant-food": "chinese",
+                    "restaurant-pricerange": "expensive",
+                    "restaurant-book number": "yu garden"
+                },
+                {
+                    "restaurant-food": "chinese",
+                    "restaurant-pricerange": "expensive",
+                    "restaurant-book number": "yu garden"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "restaurant-food=expensive\trestaurant-area=centre"
+                ],
+                [
+                    "None"
+                ],
+                [
+                    "restaurant-book_people=8\trestaurant-book_time=15:30\trestaurant-name=bedouin"
+                ],
+                [
+                    "None"
+                ],
+                [
+                    "None"
+                ],
+                [
+                    "None"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "restaurant-food": "expensive",
+                    "restaurant-area": "centre"
+                },
+                {
+                    "restaurant-food": "expensive",
+                    "restaurant-area": "centre"
+                },
+                {
+                    "restaurant-food": "expensive",
+                    "restaurant-area": "centre",
+                    "restaurant-book people": "8",
+                    "restaurant-book time": "15:30",
+                    "restaurant-name": "bedouin"
+                },
+                {
+                    "restaurant-food": "expensive",
+                    "restaurant-area": "centre",
+                    "restaurant-book people": "8",
+                    "restaurant-book time": "15:30",
+                    "restaurant-name": "bedouin"
+                },
+                {
+                    "restaurant-food": "expensive",
+                    "restaurant-area": "centre",
+                    "restaurant-book people": "8",
+                    "restaurant-book time": "15:30",
+                    "restaurant-name": "bedouin"
+                },
+                {
+                    "restaurant-food": "expensive",
+                    "restaurant-area": "centre",
+                    "restaurant-book people": "8",
+                    "restaurant-book time": "15:30",
+                    "restaurant-name": "bedouin"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "restaurant-food=indian\trestaurant-pricerange=moderate"
+                ],
+                [
+                    "restaurant-book_people=7\trestaurant-book_time=19:30\trestaurant-name=head the curry prince"
+                ],
+                [
+                    "None"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "restaurant-food": "indian",
+                    "restaurant-pricerange": "moderate"
+                },
+                {
+                    "restaurant-food": "indian",
+                    "restaurant-pricerange": "moderate",
+                    "restaurant-book people": "7",
+                    "restaurant-book time": "19:30",
+                    "restaurant-name": "head the curry prince"
+                },
+                {
+                    "restaurant-food": "indian",
+                    "restaurant-pricerange": "moderate",
+                    "restaurant-book people": "7",
+                    "restaurant-book time": "19:30",
+                    "restaurant-name": "head the curry prince"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "restaurant-food=mexican\trestaurant-pricerange=expensive"
+                ],
+                [
+                    "restaurant-food=mexican"
+                ],
+                [
+                    "restaurant-book_day=wednesday"
+                ],
+                [
+                    "None"
+                ],
+                [
+                    "None"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "restaurant-food": "mexican",
+                    "restaurant-pricerange": "expensive"
+                },
+                {
+                    "restaurant-food": "mexican",
+                    "restaurant-pricerange": "expensive"
+                },
+                {
+                    "restaurant-food": "mexican",
+                    "restaurant-pricerange": "expensive",
+                    "restaurant-book day": "wednesday"
+                },
+                {
+                    "restaurant-food": "mexican",
+                    "restaurant-pricerange": "expensive",
+                    "restaurant-book day": "wednesday"
+                },
+                {
+                    "restaurant-food": "mexican",
+                    "restaurant-pricerange": "expensive",
+                    "restaurant-book day": "wednesday"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "restaurant-name=alimentum\trestaurant-area=north"
+                ],
+                [
+                    "None"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "restaurant-name": "alimentum",
+                    "restaurant-area": "north"
+                },
+                {
+                    "restaurant-name": "alimentum",
+                    "restaurant-area": "north"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "restaurant-food=molecular gastronomy\trestaurant-area=centre"
+                ],
+                [
+                    "restaurant-food=gastropubs\trestaurant-pricerange=moderate"
+                ],
+                [
+                    "restaurant-food=gastropub\trestaurant-pricerange=moderate"
+                ],
+                [
+                    "restaurant-address=cow pizza kitchen\trestaurant-pricerange=moderate"
+                ],
+                [
+                    "None"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "restaurant-food": "molecular gastronomy",
+                    "restaurant-area": "centre"
+                },
+                {
+                    "restaurant-food": "gastropubs",
+                    "restaurant-area": "centre",
+                    "restaurant-pricerange": "moderate"
+                },
+                {
+                    "restaurant-food": "gastropub",
+                    "restaurant-area": "centre",
+                    "restaurant-pricerange": "moderate"
+                },
+                {
+                    "restaurant-food": "gastropub",
+                    "restaurant-area": "centre",
+                    "restaurant-pricerange": "moderate",
+                    "restaurant-address": "cow pizza kitchen"
+                },
+                {
+                    "restaurant-food": "gastropub",
+                    "restaurant-area": "centre",
+                    "restaurant-pricerange": "moderate",
+                    "restaurant-address": "cow pizza kitchen"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "restaurant-food=indian\trestaurant-area=centre"
+                ],
+                [
+                    "restaurant-food=cheap\trestaurant-pricerange=cheap"
+                ],
+                [
+                    "restaurant-book_people=7\trestaurant-book_time=12:15\trestaurant-name=gandhi"
+                ],
+                [
+                    "None"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "restaurant-food": "indian",
+                    "restaurant-area": "centre"
+                },
+                {
+                    "restaurant-food": "cheap",
+                    "restaurant-area": "centre",
+                    "restaurant-pricerange": "cheap"
+                },
+                {
+                    "restaurant-food": "cheap",
+                    "restaurant-area": "centre",
+                    "restaurant-pricerange": "cheap",
+                    "restaurant-book people": "7",
+                    "restaurant-book time": "12:15",
+                    "restaurant-name": "gandhi"
+                },
+                {
+                    "restaurant-food": "cheap",
+                    "restaurant-area": "centre",
+                    "restaurant-pricerange": "cheap",
+                    "restaurant-book people": "7",
+                    "restaurant-book time": "12:15",
+                    "restaurant-name": "gandhi"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "restaurant-food=african\trestaurant-pricerange=moderate"
+                ],
+                [
+                    "restaurant-food=asian"
+                ],
+                [
+                    "restaurant-book_time=13:45\trestaurant-book_people=6\trestaurant-book_day=friday"
+                ],
+                [
+                    "None"
+                ],
+                [
+                    "None"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "restaurant-food": "african",
+                    "restaurant-pricerange": "moderate"
+                },
+                {
+                    "restaurant-food": "asian",
+                    "restaurant-pricerange": "moderate"
+                },
+                {
+                    "restaurant-food": "asian",
+                    "restaurant-pricerange": "moderate",
+                    "restaurant-book time": "13:45",
+                    "restaurant-book people": "6",
+                    "restaurant-book day": "friday"
+                },
+                {
+                    "restaurant-food": "asian",
+                    "restaurant-pricerange": "moderate",
+                    "restaurant-book time": "13:45",
+                    "restaurant-book people": "6",
+                    "restaurant-book day": "friday"
+                },
+                {
+                    "restaurant-food": "asian",
+                    "restaurant-pricerange": "moderate",
+                    "restaurant-book time": "13:45",
+                    "restaurant-book people": "6",
+                    "restaurant-book day": "friday"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "restaurant-food=asian oriental\trestaurant-area=center"
+                ],
+                [
+                    "restaurant-food=moderate\trestaurant-pricerange=moderate"
+                ],
+                [
+                    "restaurant-book_people=4\trestaurant-book_time=saturday"
+                ],
+                [
+                    "restaurant-book_time=16:30"
+                ],
+                [
+                    "None"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "restaurant-food": "asian oriental",
+                    "restaurant-area": "center"
+                },
+                {
+                    "restaurant-food": "moderate",
+                    "restaurant-area": "center",
+                    "restaurant-pricerange": "moderate"
+                },
+                {
+                    "restaurant-food": "moderate",
+                    "restaurant-area": "center",
+                    "restaurant-pricerange": "moderate",
+                    "restaurant-book people": "4",
+                    "restaurant-book time": "saturday"
+                },
+                {
+                    "restaurant-food": "moderate",
+                    "restaurant-area": "center",
+                    "restaurant-pricerange": "moderate",
+                    "restaurant-book people": "4",
+                    "restaurant-book time": "16:30"
+                },
+                {
+                    "restaurant-food": "moderate",
+                    "restaurant-area": "center",
+                    "restaurant-pricerange": "moderate",
+                    "restaurant-book people": "4",
+                    "restaurant-book time": "16:30"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "restaurant-food=expensive\trestaurant-pricerange=expensive"
+                ],
+                [
+                    "None"
+                ],
+                [
+                    "None"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "restaurant-food": "expensive",
+                    "restaurant-pricerange": "expensive"
+                },
+                {
+                    "restaurant-food": "expensive",
+                    "restaurant-pricerange": "expensive"
+                },
+                {
+                    "restaurant-food": "expensive",
+                    "restaurant-pricerange": "expensive"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "restaurant-food=italian\trestaurant-pricerange=expensive"
+                ],
+                [
+                    "None"
+                ],
+                [
+                    "None"
+                ],
+                [
+                    "restaurant-book_postcode=01234\trestaurant-book_time=11:15\trestaurant-name=don pasquale"
+                ],
+                [
+                    "None"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "restaurant-food": "italian",
+                    "restaurant-pricerange": "expensive"
+                },
+                {
+                    "restaurant-food": "italian",
+                    "restaurant-pricerange": "expensive"
+                },
+                {
+                    "restaurant-food": "italian",
+                    "restaurant-pricerange": "expensive"
+                },
+                {
+                    "restaurant-food": "italian",
+                    "restaurant-pricerange": "expensive",
+                    "restaurant-book postcode": "01234",
+                    "restaurant-book time": "11:15",
+                    "restaurant-name": "don pasquale"
+                },
+                {
+                    "restaurant-food": "italian",
+                    "restaurant-pricerange": "expensive",
+                    "restaurant-book postcode": "01234",
+                    "restaurant-book time": "11:15",
+                    "restaurant-name": "don pasquale"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "restaurant-food=bangkok\trestaurant-area=city"
+                ],
+                [
+                    "restaurant-book_people=5\trestaurant-book_time=14:15\trestaurant-name=bangkok city"
+                ],
+                [
+                    "restaurant-book_time=13:15"
+                ],
+                [
+                    "None"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "restaurant-food": "bangkok",
+                    "restaurant-area": "city"
+                },
+                {
+                    "restaurant-food": "bangkok",
+                    "restaurant-area": "city",
+                    "restaurant-book people": "5",
+                    "restaurant-book time": "14:15",
+                    "restaurant-name": "bangkok city"
+                },
+                {
+                    "restaurant-food": "bangkok",
+                    "restaurant-area": "city",
+                    "restaurant-book people": "5",
+                    "restaurant-book time": "13:15",
+                    "restaurant-name": "bangkok city"
+                },
+                {
+                    "restaurant-food": "bangkok",
+                    "restaurant-area": "city",
+                    "restaurant-book people": "5",
+                    "restaurant-book time": "13:15",
+                    "restaurant-name": "bangkok city"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "restaurant-food=sao-paulo\trestaurant-area=sao-paulo"
+                ],
+                [
+                    "restaurant-book_people=5\trestaurant-book_time=19:45\trestaurant-name=sala thong"
+                ],
+                [
+                    "None"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "restaurant-food": "sao-paulo",
+                    "restaurant-area": "sao-paulo"
+                },
+                {
+                    "restaurant-food": "sao-paulo",
+                    "restaurant-area": "sao-paulo",
+                    "restaurant-book people": "5",
+                    "restaurant-book time": "19:45",
+                    "restaurant-name": "sala thong"
+                },
+                {
+                    "restaurant-food": "sao-paulo",
+                    "restaurant-area": "sao-paulo",
+                    "restaurant-book people": "5",
+                    "restaurant-book time": "19:45",
+                    "restaurant-name": "sala thong"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "restaurant-food=indian\trestaurant-pricerange=expensive"
+                ],
+                [
+                    "restaurant-food=western\trestaurant-area=west"
+                ],
+                [
+                    "None"
+                ],
+                [
+                    "None"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "restaurant-food": "indian",
+                    "restaurant-pricerange": "expensive"
+                },
+                {
+                    "restaurant-food": "western",
+                    "restaurant-pricerange": "expensive",
+                    "restaurant-area": "west"
+                },
+                {
+                    "restaurant-food": "western",
+                    "restaurant-pricerange": "expensive",
+                    "restaurant-area": "west"
+                },
+                {
+                    "restaurant-food": "western",
+                    "restaurant-pricerange": "expensive",
+                    "restaurant-area": "west"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "restaurant-food=spanish\trestaurant-pricerange=cheap"
+                ],
+                [
+                    "restaurant-food=centre\trestaurant-area=centre"
+                ],
+                [
+                    "restaurant-book_people=7\trestaurant-book_time=11:45\trestaurant-name=la raza"
+                ],
+                [
+                    "restaurant-food=city\trestaurant-area=city"
+                ],
+                [
+                    "None"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "restaurant-food": "spanish",
+                    "restaurant-pricerange": "cheap"
+                },
+                {
+                    "restaurant-food": "centre",
+                    "restaurant-pricerange": "cheap",
+                    "restaurant-area": "centre"
+                },
+                {
+                    "restaurant-food": "centre",
+                    "restaurant-pricerange": "cheap",
+                    "restaurant-area": "centre",
+                    "restaurant-book people": "7",
+                    "restaurant-book time": "11:45",
+                    "restaurant-name": "la raza"
+                },
+                {
+                    "restaurant-food": "city",
+                    "restaurant-pricerange": "cheap",
+                    "restaurant-area": "city",
+                    "restaurant-book people": "7",
+                    "restaurant-book time": "11:45",
+                    "restaurant-name": "la raza"
+                },
+                {
+                    "restaurant-food": "city",
+                    "restaurant-pricerange": "cheap",
+                    "restaurant-area": "city",
+                    "restaurant-book people": "7",
+                    "restaurant-book time": "11:45",
+                    "restaurant-name": "la raza"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "restaurant-food=expensive\trestaurant-area=south"
+                ],
+                [
+                    "restaurant-food=north"
+                ],
+                [
+                    "restaurant-book_people=5\trestaurant-book_time=18:00\trestaurant-name=sala thong"
+                ],
+                [
+                    "restaurant-book_day=saturday"
+                ],
+                [
+                    "None"
+                ],
+                [
+                    "None"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "restaurant-food": "expensive",
+                    "restaurant-area": "south"
+                },
+                {
+                    "restaurant-food": "north",
+                    "restaurant-area": "south"
+                },
+                {
+                    "restaurant-food": "north",
+                    "restaurant-area": "south",
+                    "restaurant-book people": "5",
+                    "restaurant-book time": "18:00",
+                    "restaurant-name": "sala thong"
+                },
+                {
+                    "restaurant-food": "north",
+                    "restaurant-area": "south",
+                    "restaurant-book people": "5",
+                    "restaurant-book time": "18:00",
+                    "restaurant-name": "sala thong",
+                    "restaurant-book day": "saturday"
+                },
+                {
+                    "restaurant-food": "north",
+                    "restaurant-area": "south",
+                    "restaurant-book people": "5",
+                    "restaurant-book time": "18:00",
+                    "restaurant-name": "sala thong",
+                    "restaurant-book day": "saturday"
+                },
+                {
+                    "restaurant-food": "north",
+                    "restaurant-area": "south",
+                    "restaurant-book people": "5",
+                    "restaurant-book time": "18:00",
+                    "restaurant-name": "sala thong",
+                    "restaurant-book day": "saturday"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "restaurant-food=british\trestaurant-pricerange=moderate"
+                ],
+                [
+                    "restaurant-book_people=6\trestaurant-book_time=18:30\trestaurant-name=oak bistro"
+                ],
+                [
+                    "None"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "restaurant-food": "british",
+                    "restaurant-pricerange": "moderate"
+                },
+                {
+                    "restaurant-food": "british",
+                    "restaurant-pricerange": "moderate",
+                    "restaurant-book people": "6",
+                    "restaurant-book time": "18:30",
+                    "restaurant-name": "oak bistro"
+                },
+                {
+                    "restaurant-food": "british",
+                    "restaurant-pricerange": "moderate",
+                    "restaurant-book people": "6",
+                    "restaurant-book time": "18:30",
+                    "restaurant-name": "oak bistro"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "restaurant-food=grub\trestaurant-area=north"
+                ],
+                [
+                    "None"
+                ],
+                [
+                    "restaurant-food=lebanese"
+                ],
+                [
+                    "restaurant-book_time=wednesday\trestaurant-book_people=2\trestaurant-book_day=wednesday"
+                ],
+                [
+                    "restaurant-book_time=11:00"
+                ],
+                [
+                    "None"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "restaurant-food": "grub",
+                    "restaurant-area": "north"
+                },
+                {
+                    "restaurant-food": "grub",
+                    "restaurant-area": "north"
+                },
+                {
+                    "restaurant-food": "lebanese",
+                    "restaurant-area": "north"
+                },
+                {
+                    "restaurant-food": "lebanese",
+                    "restaurant-area": "north",
+                    "restaurant-book time": "wednesday",
+                    "restaurant-book people": "2",
+                    "restaurant-book day": "wednesday"
+                },
+                {
+                    "restaurant-food": "lebanese",
+                    "restaurant-area": "north",
+                    "restaurant-book time": "11:00",
+                    "restaurant-book people": "2",
+                    "restaurant-book day": "wednesday"
+                },
+                {
+                    "restaurant-food": "lebanese",
+                    "restaurant-area": "north",
+                    "restaurant-book time": "11:00",
+                    "restaurant-book people": "2",
+                    "restaurant-book day": "wednesday"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "restaurant-food=french\trestaurant-area=north"
+                ],
+                [
+                    "None"
+                ],
+                [
+                    "None"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "restaurant-food": "french",
+                    "restaurant-area": "north"
+                },
+                {
+                    "restaurant-food": "french",
+                    "restaurant-area": "north"
+                },
+                {
+                    "restaurant-food": "french",
+                    "restaurant-area": "north"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "restaurant-food=moderate\trestaurant-pricerange=east"
+                ],
+                [
+                    "restaurant-food=italian\trestaurant-pricerange=east"
+                ],
+                [
+                    "restaurant-food=italian\trestaurant-pricerange=east"
+                ],
+                [
+                    "restaurant-book_time=monday"
+                ],
+                [
+                    "restaurant-book_time=12:15"
+                ],
+                [
+                    "None"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "restaurant-food": "moderate",
+                    "restaurant-pricerange": "east"
+                },
+                {
+                    "restaurant-food": "italian",
+                    "restaurant-pricerange": "east"
+                },
+                {
+                    "restaurant-food": "italian",
+                    "restaurant-pricerange": "east"
+                },
+                {
+                    "restaurant-food": "italian",
+                    "restaurant-pricerange": "east",
+                    "restaurant-book time": "monday"
+                },
+                {
+                    "restaurant-food": "italian",
+                    "restaurant-pricerange": "east",
+                    "restaurant-book time": "12:15"
+                },
+                {
+                    "restaurant-food": "italian",
+                    "restaurant-pricerange": "east",
+                    "restaurant-book time": "12:15"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "restaurant-food=venetian\trestaurant-area=centre"
+                ],
+                [
+                    "restaurant-food=chinese\trestaurant-area=centre"
+                ],
+                [
+                    "restaurant-price=expensive\trestaurant-area=centre"
+                ],
+                [
+                    "restaurant-book_people=4\trestaurant-book_time=12:00\trestaurant-name=ugly duckling"
+                ],
+                [
+                    "None"
+                ],
+                [
+                    "None"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "restaurant-food": "venetian",
+                    "restaurant-area": "centre"
+                },
+                {
+                    "restaurant-food": "chinese",
+                    "restaurant-area": "centre"
+                },
+                {
+                    "restaurant-food": "chinese",
+                    "restaurant-area": "centre",
+                    "restaurant-price": "expensive"
+                },
+                {
+                    "restaurant-food": "chinese",
+                    "restaurant-area": "centre",
+                    "restaurant-price": "expensive",
+                    "restaurant-book people": "4",
+                    "restaurant-book time": "12:00",
+                    "restaurant-name": "ugly duckling"
+                },
+                {
+                    "restaurant-food": "chinese",
+                    "restaurant-area": "centre",
+                    "restaurant-price": "expensive",
+                    "restaurant-book people": "4",
+                    "restaurant-book time": "12:00",
+                    "restaurant-name": "ugly duckling"
+                },
+                {
+                    "restaurant-food": "chinese",
+                    "restaurant-area": "centre",
+                    "restaurant-price": "expensive",
+                    "restaurant-book people": "4",
+                    "restaurant-book time": "12:00",
+                    "restaurant-name": "ugly duckling"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "restaurant-food=sao-ngo\trestaurant-area=sao-ngo"
+                ],
+                [
+                    "None"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "restaurant-food": "sao-ngo",
+                    "restaurant-area": "sao-ngo"
+                },
+                {
+                    "restaurant-food": "sao-ngo",
+                    "restaurant-area": "sao-ngo"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "restaurant-food=italian\trestaurant-pricerange=expensive"
+                ],
+                [
+                    "None"
+                ],
+                [
+                    "restaurant-book_time=11:15"
+                ],
+                [
+                    "None"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "restaurant-food": "italian",
+                    "restaurant-pricerange": "expensive"
+                },
+                {
+                    "restaurant-food": "italian",
+                    "restaurant-pricerange": "expensive"
+                },
+                {
+                    "restaurant-food": "italian",
+                    "restaurant-pricerange": "expensive",
+                    "restaurant-book time": "11:15"
+                },
+                {
+                    "restaurant-food": "italian",
+                    "restaurant-pricerange": "expensive",
+                    "restaurant-book time": "11:15"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "restaurant-food=expensive\trestaurant-area=city centre"
+                ],
+                [
+                    "None"
+                ],
+                [
+                    "None"
+                ],
+                [
+                    "None"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "restaurant-food": "expensive",
+                    "restaurant-area": "city centre"
+                },
+                {
+                    "restaurant-food": "expensive",
+                    "restaurant-area": "city centre"
+                },
+                {
+                    "restaurant-food": "expensive",
+                    "restaurant-area": "city centre"
+                },
+                {
+                    "restaurant-food": "expensive",
+                    "restaurant-area": "city centre"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "restaurant-food=mexican\trestaurant-area=centre"
+                ],
+                [
+                    "restaurant-food=indian"
+                ],
+                [
+                    "restaurant-book_people=7\trestaurant-book_time=11:15\trestaurant-name=curry garden"
+                ],
+                [
+                    "restaurant-book_people=7\trestaurant-book_time=11:15\trestaurant-name=curry garden"
+                ],
+                [
+                    "None"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "restaurant-food": "mexican",
+                    "restaurant-area": "centre"
+                },
+                {
+                    "restaurant-food": "indian",
+                    "restaurant-area": "centre"
+                },
+                {
+                    "restaurant-food": "indian",
+                    "restaurant-area": "centre",
+                    "restaurant-book people": "7",
+                    "restaurant-book time": "11:15",
+                    "restaurant-name": "curry garden"
+                },
+                {
+                    "restaurant-food": "indian",
+                    "restaurant-area": "centre",
+                    "restaurant-book people": "7",
+                    "restaurant-book time": "11:15",
+                    "restaurant-name": "curry garden"
+                },
+                {
+                    "restaurant-food": "indian",
+                    "restaurant-area": "centre",
+                    "restaurant-book people": "7",
+                    "restaurant-book time": "11:15",
+                    "restaurant-name": "curry garden"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "restaurant-food=cheap\trestaurant-area=town"
+                ],
+                [
+                    "restaurant-food=creative"
+                ],
+                [
+                    "restaurant-food=indian"
+                ],
+                [
+                    "restaurant-book_people=4\trestaurant-book_time=wednesday\trestaurant-name=kohinoor"
+                ],
+                [
+                    "restaurant-book_time=17:30"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "restaurant-food": "cheap",
+                    "restaurant-area": "town"
+                },
+                {
+                    "restaurant-food": "creative",
+                    "restaurant-area": "town"
+                },
+                {
+                    "restaurant-food": "indian",
+                    "restaurant-area": "town"
+                },
+                {
+                    "restaurant-food": "indian",
+                    "restaurant-area": "town",
+                    "restaurant-book people": "4",
+                    "restaurant-book time": "wednesday",
+                    "restaurant-name": "kohinoor"
+                },
+                {
+                    "restaurant-food": "indian",
+                    "restaurant-area": "town",
+                    "restaurant-book people": "4",
+                    "restaurant-book time": "17:30",
+                    "restaurant-name": "kohinoor"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "restaurant-food=afghan\trestaurant-area=west"
+                ],
+                [
+                    "None"
+                ],
+                [
+                    "None"
+                ],
+                [
+                    "restaurant-postcode=maharajah tandoori"
+                ],
+                [
+                    "None"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "restaurant-food": "afghan",
+                    "restaurant-area": "west"
+                },
+                {
+                    "restaurant-food": "afghan",
+                    "restaurant-area": "west"
+                },
+                {
+                    "restaurant-food": "afghan",
+                    "restaurant-area": "west"
+                },
+                {
+                    "restaurant-food": "afghan",
+                    "restaurant-area": "west",
+                    "restaurant-postcode": "maharajah tandoori"
+                },
+                {
+                    "restaurant-food": "afghan",
+                    "restaurant-area": "west",
+                    "restaurant-postcode": "maharajah tandoori"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "restaurant-food=canapes\trestaurant-area=east"
+                ],
+                [
+                    "None"
+                ],
+                [
+                    "restaurant-food=italian"
+                ],
+                [
+                    "restaurant-book_time=16:15\trestaurant-book_people=6\trestaurant-book_day=saturday"
+                ],
+                [
+                    "restaurant-book_time=15:15\trestaurant-book_people=15\trestaurant-book_day=saturday"
+                ],
+                [
+                    "None"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "restaurant-food": "canapes",
+                    "restaurant-area": "east"
+                },
+                {
+                    "restaurant-food": "canapes",
+                    "restaurant-area": "east"
+                },
+                {
+                    "restaurant-food": "italian",
+                    "restaurant-area": "east"
+                },
+                {
+                    "restaurant-food": "italian",
+                    "restaurant-area": "east",
+                    "restaurant-book time": "16:15",
+                    "restaurant-book people": "6",
+                    "restaurant-book day": "saturday"
+                },
+                {
+                    "restaurant-food": "italian",
+                    "restaurant-area": "east",
+                    "restaurant-book time": "15:15",
+                    "restaurant-book people": "15",
+                    "restaurant-book day": "saturday"
+                },
+                {
+                    "restaurant-food": "italian",
+                    "restaurant-area": "east",
+                    "restaurant-book time": "15:15",
+                    "restaurant-book people": "15",
+                    "restaurant-book day": "saturday"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "restaurant-food=cheap chinese\trestaurant-pricerange=cheap"
+                ],
+                [
+                    "None"
+                ],
+                [
+                    "None"
+                ],
+                [
+                    "None"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "restaurant-food": "cheap chinese",
+                    "restaurant-pricerange": "cheap"
+                },
+                {
+                    "restaurant-food": "cheap chinese",
+                    "restaurant-pricerange": "cheap"
+                },
+                {
+                    "restaurant-food": "cheap chinese",
+                    "restaurant-pricerange": "cheap"
+                },
+                {
+                    "restaurant-food": "cheap chinese",
+                    "restaurant-pricerange": "cheap"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "restaurant-food=african\trestaurant-pricerange=expensive"
+                ],
+                [
+                    "None"
+                ],
+                [
+                    "None"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "restaurant-food": "african",
+                    "restaurant-pricerange": "expensive"
+                },
+                {
+                    "restaurant-food": "african",
+                    "restaurant-pricerange": "expensive"
+                },
+                {
+                    "restaurant-food": "african",
+                    "restaurant-pricerange": "expensive"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "restaurant-food=india house\trestaurant-area=north"
+                ],
+                [
+                    "restaurant-book_people=4\trestaurant-book_time=16:30\trestaurant-name=india house"
+                ],
+                [
+                    "None"
+                ],
+                [
+                    "None"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "restaurant-food": "india house",
+                    "restaurant-area": "north"
+                },
+                {
+                    "restaurant-food": "india house",
+                    "restaurant-area": "north",
+                    "restaurant-book people": "4",
+                    "restaurant-book time": "16:30",
+                    "restaurant-name": "india house"
+                },
+                {
+                    "restaurant-food": "india house",
+                    "restaurant-area": "north",
+                    "restaurant-book people": "4",
+                    "restaurant-book time": "16:30",
+                    "restaurant-name": "india house"
+                },
+                {
+                    "restaurant-food": "india house",
+                    "restaurant-area": "north",
+                    "restaurant-book people": "4",
+                    "restaurant-book time": "16:30",
+                    "restaurant-name": "india house"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "restaurant-food=european\trestaurant-pricerange=moderate"
+                ],
+                [
+                    "None"
+                ],
+                [
+                    "restaurant-book_people=6\trestaurant-book_time=19:15\trestaurant-name=de luca cucina"
+                ],
+                [
+                    "None"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "restaurant-food": "european",
+                    "restaurant-pricerange": "moderate"
+                },
+                {
+                    "restaurant-food": "european",
+                    "restaurant-pricerange": "moderate"
+                },
+                {
+                    "restaurant-food": "european",
+                    "restaurant-pricerange": "moderate",
+                    "restaurant-book people": "6",
+                    "restaurant-book time": "19:15",
+                    "restaurant-name": "de luca cucina"
+                },
+                {
+                    "restaurant-food": "european",
+                    "restaurant-pricerange": "moderate",
+                    "restaurant-book people": "6",
+                    "restaurant-book time": "19:15",
+                    "restaurant-name": "de luca cucina"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "restaurant-food=british\trestaurant-area=north"
+                ],
+                [
+                    "restaurant-food=western\trestaurant-area=west"
+                ],
+                [
+                    "restaurant-food=british\trestaurant-area=centre"
+                ],
+                [
+                    "restaurant-book_people=6\trestaurant-book_time=19:30\trestaurant-name=17"
+                ],
+                [
+                    "None"
+                ],
+                [
+                    "None"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "restaurant-food": "british",
+                    "restaurant-area": "north"
+                },
+                {
+                    "restaurant-food": "western",
+                    "restaurant-area": "west"
+                },
+                {
+                    "restaurant-food": "british",
+                    "restaurant-area": "centre"
+                },
+                {
+                    "restaurant-food": "british",
+                    "restaurant-area": "centre",
+                    "restaurant-book people": "6",
+                    "restaurant-book time": "19:30",
+                    "restaurant-name": "17"
+                },
+                {
+                    "restaurant-food": "british",
+                    "restaurant-area": "centre",
+                    "restaurant-book people": "6",
+                    "restaurant-book time": "19:30",
+                    "restaurant-name": "17"
+                },
+                {
+                    "restaurant-food": "british",
+                    "restaurant-area": "centre",
+                    "restaurant-book people": "6",
+                    "restaurant-book time": "19:30",
+                    "restaurant-name": "17"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "restaurant-food=cheap\trestaurant-area=centre"
+                ],
+                [
+                    "restaurant-food=chinese\trestaurant-area=centre"
+                ],
+                [
+                    "None"
+                ],
+                [
+                    "None"
+                ],
+                [
+                    "None"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "restaurant-food": "cheap",
+                    "restaurant-area": "centre"
+                },
+                {
+                    "restaurant-food": "chinese",
+                    "restaurant-area": "centre"
+                },
+                {
+                    "restaurant-food": "chinese",
+                    "restaurant-area": "centre"
+                },
+                {
+                    "restaurant-food": "chinese",
+                    "restaurant-area": "centre"
+                },
+                {
+                    "restaurant-food": "chinese",
+                    "restaurant-area": "centre"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "restaurant-food=indian\trestaurant-pricerange=expensive"
+                ],
+                [
+                    "None"
+                ],
+                [
+                    "None"
+                ],
+                [
+                    "None"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "restaurant-food": "indian",
+                    "restaurant-pricerange": "expensive"
+                },
+                {
+                    "restaurant-food": "indian",
+                    "restaurant-pricerange": "expensive"
+                },
+                {
+                    "restaurant-food": "indian",
+                    "restaurant-pricerange": "expensive"
+                },
+                {
+                    "restaurant-food": "indian",
+                    "restaurant-pricerange": "expensive"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "restaurant-food=asian\trestaurant-pricerange=cheap"
+                ],
+                [
+                    "None"
+                ],
+                [
+                    "None"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "restaurant-food": "asian",
+                    "restaurant-pricerange": "cheap"
+                },
+                {
+                    "restaurant-food": "asian",
+                    "restaurant-pricerange": "cheap"
+                },
+                {
+                    "restaurant-food": "asian",
+                    "restaurant-pricerange": "cheap"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "restaurant-food=centre\trestaurant-area=centre"
+                ],
+                [
+                    "restaurant-food=middle eastern\trestaurant-area=centre"
+                ],
+                [
+                    "restaurant-food=mediterranean\trestaurant-area=centre"
+                ],
+                [
+                    "restaurant-price_range=expensive\trestaurant-area=centre"
+                ],
+                [
+                    "restaurant-book_people=2\trestaurant-book_time=11:30\trestaurant-name=la mimosa"
+                ],
+                [
+                    "restaurant-book_day=saturday\trestaurant-book_time=15:00\trestaurant-name=shiraz"
+                ],
+                [
+                    "None"
+                ],
+                [
+                    "None"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "restaurant-food": "centre",
+                    "restaurant-area": "centre"
+                },
+                {
+                    "restaurant-food": "middle eastern",
+                    "restaurant-area": "centre"
+                },
+                {
+                    "restaurant-food": "mediterranean",
+                    "restaurant-area": "centre"
+                },
+                {
+                    "restaurant-food": "mediterranean",
+                    "restaurant-area": "centre",
+                    "restaurant-price range": "expensive"
+                },
+                {
+                    "restaurant-food": "mediterranean",
+                    "restaurant-area": "centre",
+                    "restaurant-price range": "expensive",
+                    "restaurant-book people": "2",
+                    "restaurant-book time": "11:30",
+                    "restaurant-name": "la mimosa"
+                },
+                {
+                    "restaurant-food": "mediterranean",
+                    "restaurant-area": "centre",
+                    "restaurant-price range": "expensive",
+                    "restaurant-book people": "2",
+                    "restaurant-book time": "15:00",
+                    "restaurant-name": "shiraz",
+                    "restaurant-book day": "saturday"
+                },
+                {
+                    "restaurant-food": "mediterranean",
+                    "restaurant-area": "centre",
+                    "restaurant-price range": "expensive",
+                    "restaurant-book people": "2",
+                    "restaurant-book time": "15:00",
+                    "restaurant-name": "shiraz",
+                    "restaurant-book day": "saturday"
+                },
+                {
+                    "restaurant-food": "mediterranean",
+                    "restaurant-area": "centre",
+                    "restaurant-price range": "expensive",
+                    "restaurant-book people": "2",
+                    "restaurant-book time": "15:00",
+                    "restaurant-name": "shiraz",
+                    "restaurant-book day": "saturday"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "restaurant-food=chinese\trestaurant-area=centre"
+                ],
+                [
+                    "None"
+                ],
+                [
+                    "None"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "restaurant-food": "chinese",
+                    "restaurant-area": "centre"
+                },
+                {
+                    "restaurant-food": "chinese",
+                    "restaurant-area": "centre"
+                },
+                {
+                    "restaurant-food": "chinese",
+                    "restaurant-area": "centre"
+                }
+            ]
+        }
+    ]
+}

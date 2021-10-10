@@ -1,0 +1,1986 @@
+{
+    "score": {
+        "B4": 0.0001508823802290177,
+        "F1": 30.487642678144965,
+        "RL": 31.1602059012131,
+        "JGA": 0.0,
+        "SLOT_ACC": 0.0,
+        "ppl": 9.950757684311062
+    },
+    "generation": [
+        {
+            "meta": [
+                [
+                    "none"
+                ],
+                [
+                    "none"
+                ],
+                [
+                    "none"
+                ],
+                [
+                    "ok"
+                ],
+                [
+                    "bye bye"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {},
+                {},
+                {},
+                {},
+                {}
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "none"
+                ],
+                [
+                    "west"
+                ],
+                [
+                    "yes"
+                ],
+                [
+                    "ok. bye bye"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {},
+                {},
+                {},
+                {}
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "none"
+                ],
+                [
+                    "golden house-address=china-china-china-postcode=1234-1234-1234-1234-1234-1234-1234-1234-1234-1234-1234-"
+                ],
+                [
+                    "none"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {},
+                {
+                    "golden house-address": "china-china-china-postcode"
+                },
+                {
+                    "golden house-address": "china-china-china-postcode"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "restaurant-food=chineseimurarestaurant-pricerange=moderate"
+                ],
+                [
+                    "restaurant-food=chineseimuraarestaurant-pricerange=5"
+                ],
+                [
+                    "restaurant-food=chineseimuraarestaurant-pricerange=5"
+                ],
+                [
+                    "restaurant-food=chineseimuraarestaurant-pricerange=5"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "restaurant-food": "chineseimurarestaurant-pricerange"
+                },
+                {
+                    "restaurant-food": "chineseimuraarestaurant-pricerange"
+                },
+                {
+                    "restaurant-food": "chineseimuraarestaurant-pricerange"
+                },
+                {
+                    "restaurant-food": "chineseimuraarestaurant-pricerange"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "none"
+                ],
+                [
+                    "indian food=chineseimurarestaurant-pricerange=cheap"
+                ],
+                [
+                    "rice boat=chineseimurarestaurant-pricerange=cheap"
+                ],
+                [
+                    "none"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {},
+                {
+                    "indian food": "chineseimurarestaurant-pricerange"
+                },
+                {
+                    "indian food": "chineseimurarestaurant-pricerange",
+                    "rice boat": "chineseimurarestaurant-pricerange"
+                },
+                {
+                    "indian food": "chineseimurarestaurant-pricerange",
+                    "rice boat": "chineseimurarestaurant-pricerange"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "indian=indian restaurant=indian restaurant-north=indian restaurant-north"
+                ],
+                [
+                    "indian=indian restaurant=indian restaurant-north=indian restaurant-north"
+                ],
+                [
+                    "indian=indian restaurant=indian restaurant-north=indian restaurant-north"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "indian": "indian restaurant"
+                },
+                {
+                    "indian": "indian restaurant"
+                },
+                {
+                    "indian": "indian restaurant"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "none"
+                ],
+                [
+                    "none"
+                ],
+                [
+                    "none"
+                ],
+                [
+                    "none"
+                ],
+                [
+                    "none"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {},
+                {},
+                {},
+                {},
+                {}
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "none"
+                ],
+                [
+                    "expensive eastern european restaurant=expensive eastern european restaurant-pricerange=expensive eastern european restaurant"
+                ],
+                [
+                    "chinese restaurant=chinese restaurant-pricerange=chinese restaurant"
+                ],
+                [
+                    "peking restaurant=peking restaurant-pricerange=peking restaurant"
+                ],
+                [
+                    "Saturday at 11:45=Saturday at 11:45-pricerange=Saturday at 11:45-cheap"
+                ],
+                [
+                    "yes, the reference number is on the back of the reservation card."
+                ],
+                [
+                    "yes, we will be happy to assist you with any further questions you may have."
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {},
+                {
+                    "expensive eastern european restaurant": "expensive eastern european restaurant-pricerange"
+                },
+                {
+                    "expensive eastern european restaurant": "expensive eastern european restaurant-pricerange",
+                    "chinese restaurant": "chinese restaurant-pricerange"
+                },
+                {
+                    "expensive eastern european restaurant": "expensive eastern european restaurant-pricerange",
+                    "chinese restaurant": "chinese restaurant-pricerange",
+                    "peking restaurant": "peking restaurant-pricerange"
+                },
+                {
+                    "expensive eastern european restaurant": "expensive eastern european restaurant-pricerange",
+                    "chinese restaurant": "chinese restaurant-pricerange",
+                    "peking restaurant": "peking restaurant-pricerange",
+                    "Saturday at 11:45": "Saturday at 11:45-pricerange"
+                },
+                {
+                    "expensive eastern european restaurant": "expensive eastern european restaurant-pricerange",
+                    "chinese restaurant": "chinese restaurant-pricerange",
+                    "peking restaurant": "peking restaurant-pricerange",
+                    "Saturday at 11:45": "Saturday at 11:45-pricerange"
+                },
+                {
+                    "expensive eastern european restaurant": "expensive eastern european restaurant-pricerange",
+                    "chinese restaurant": "chinese restaurant-pricerange",
+                    "peking restaurant": "peking restaurant-pricerange",
+                    "Saturday at 11:45": "Saturday at 11:45-pricerange"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "none"
+                ],
+                [
+                    "none"
+                ],
+                [
+                    "none"
+                ],
+                [
+                    "none"
+                ],
+                [
+                    "none"
+                ],
+                [
+                    "none"
+                ],
+                [
+                    "none"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {}
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "none"
+                ],
+                [
+                    "Italian"
+                ],
+                [
+                    "yes"
+                ],
+                [
+                    "yes i will send you the information to your e mail"
+                ],
+                [
+                    "yes i will send you the information to your e mail"
+                ],
+                [
+                    "yes i will send you the information to your e mail"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {}
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "none"
+                ],
+                [
+                    "west"
+                ],
+                [
+                    "1 person"
+                ],
+                [
+                    "none"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {},
+                {},
+                {},
+                {}
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "none"
+                ],
+                [
+                    "yes"
+                ],
+                [
+                    "Thank you for your business."
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {},
+                {},
+                {}
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "none"
+                ],
+                [
+                    "none"
+                ],
+                [
+                    "none"
+                ],
+                [
+                    "none"
+                ],
+                [
+                    "none"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {},
+                {},
+                {},
+                {},
+                {}
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "east=expensive"
+                ],
+                [
+                    "british=expensive"
+                ],
+                [
+                    "14:00=Wed"
+                ],
+                [
+                    "yes, they do"
+                ],
+                [
+                    "bye bye"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "east": "expensive"
+                },
+                {
+                    "east": "expensive",
+                    "british": "expensive"
+                },
+                {
+                    "east": "expensive",
+                    "british": "expensive",
+                    "14:00": "Wed"
+                },
+                {
+                    "east": "expensive",
+                    "british": "expensive",
+                    "14:00": "Wed"
+                },
+                {
+                    "east": "expensive",
+                    "british": "expensive",
+                    "14:00": "Wed"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "restaurant-food=expensive"
+                ],
+                [
+                    "restaurant-food=expensive"
+                ],
+                [
+                    "None"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "restaurant-food": "expensive"
+                },
+                {
+                    "restaurant-food": "expensive"
+                },
+                {
+                    "restaurant-food": "expensive"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "none"
+                ],
+                [
+                    "expensive=cheap"
+                ],
+                [
+                    "fitzbillies=cheap"
+                ],
+                [
+                    "11:00=cheap"
+                ],
+                [
+                    "bye bye"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {},
+                {
+                    "expensive": "cheap"
+                },
+                {
+                    "expensive": "cheap",
+                    "fitzbillies": "cheap"
+                },
+                {
+                    "expensive": "cheap",
+                    "fitzbillies": "cheap",
+                    "11:00": "cheap"
+                },
+                {
+                    "expensive": "cheap",
+                    "fitzbillies": "cheap",
+                    "11:00": "cheap"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "restaurant-food=cheap"
+                ],
+                [
+                    "vegetarian=vegetarian-restaurant=vegetarian-restaurant-pricerange=cheap"
+                ],
+                [
+                    "restaurant-food=expensive-turkish-food=expensive-turkish-food-pricerange=expensive"
+                ],
+                [
+                    "restaurant-food=monday-cheap=cheap-monday-cheap-pricerange=cheap"
+                ],
+                [
+                    "restaurant-food=saturday-cheap=cheap-saturday-cheap-pricerange=cheap"
+                ],
+                [
+                    "restaurant-food=cheap=cheap-expensive-turkish-food=cheap"
+                ],
+                [
+                    "restaurant-food=cheap=cheap-cheap-cheap-cheap-cheap-cheap-cheap-cheap-cheap-cheap-cheap-cheap-cheap-cheap-che"
+                ],
+                [
+                    "restaurant-food=cheap=cheap-cheap-cheap-cheap-cheap-cheap-cheap-cheap-cheap-cheap-cheap-cheap-cheap-cheap-che"
+                ],
+                [
+                    "restaurant-food=cheap=cheap-cheap-cheap-cheap-cheap-cheap-cheap-cheap-cheap-cheap-cheap-cheap-cheap-cheap-che"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "restaurant-food": "cheap"
+                },
+                {
+                    "restaurant-food": "cheap",
+                    "vegetarian": "vegetarian-restaurant"
+                },
+                {
+                    "restaurant-food": "expensive-turkish-food",
+                    "vegetarian": "vegetarian-restaurant"
+                },
+                {
+                    "restaurant-food": "monday-cheap",
+                    "vegetarian": "vegetarian-restaurant"
+                },
+                {
+                    "restaurant-food": "saturday-cheap",
+                    "vegetarian": "vegetarian-restaurant"
+                },
+                {
+                    "restaurant-food": "cheap",
+                    "vegetarian": "vegetarian-restaurant"
+                },
+                {
+                    "restaurant-food": "cheap",
+                    "vegetarian": "vegetarian-restaurant"
+                },
+                {
+                    "restaurant-food": "cheap",
+                    "vegetarian": "vegetarian-restaurant"
+                },
+                {
+                    "restaurant-food": "cheap",
+                    "vegetarian": "vegetarian-restaurant"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "north indian food=north indian cuisine=north indian cuisine=north indian cuisine=north indian cuisine=north indian cuisine=north indian cuisine=north indian cuisine=north indian cuisine=north indian cuisine="
+                ],
+                [
+                    "chinese=chinese cuisine=chinese cuisine=chinese cuisine=chinese cuisine=chinese cuisine=chinese cuisine=chinese cuisine=chinese cuisine=chinese cuisine=chinese cuisine=chinese cuisine=chinese cuisine"
+                ],
+                [
+                    "sunday=sunday=sunday=sunday=sunday=sunday=sunday=sunday=sunday=sunday=sunday=sunday=sunday"
+                ],
+                [
+                    "price range=price range=price range=price range=price range=price range=price range=price range=price range=price range=price range=price range=price range=price range=price range=price range=price range"
+                ],
+                [
+                    "yes"
+                ],
+                [
+                    "yes"
+                ],
+                [
+                    "bye bye bye bye bye bye bye bye bye bye bye bye bye bye bye bye bye bye bye bye bye bye bye bye bye bye bye bye bye bye bye bye bye bye bye bye bye bye bye bye bye bye bye bye bye bye bye bye bye bye"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "north indian food": "north indian cuisine"
+                },
+                {
+                    "north indian food": "north indian cuisine",
+                    "chinese": "chinese cuisine"
+                },
+                {
+                    "north indian food": "north indian cuisine",
+                    "chinese": "chinese cuisine",
+                    "sunday": "sunday"
+                },
+                {
+                    "north indian food": "north indian cuisine",
+                    "chinese": "chinese cuisine",
+                    "sunday": "sunday",
+                    "price range": "price range"
+                },
+                {
+                    "north indian food": "north indian cuisine",
+                    "chinese": "chinese cuisine",
+                    "sunday": "sunday",
+                    "price range": "price range"
+                },
+                {
+                    "north indian food": "north indian cuisine",
+                    "chinese": "chinese cuisine",
+                    "sunday": "sunday",
+                    "price range": "price range"
+                },
+                {
+                    "north indian food": "north indian cuisine",
+                    "chinese": "chinese cuisine",
+                    "sunday": "sunday",
+                    "price range": "price range"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "none"
+                ],
+                [
+                    "pizza hut cherry hinton=cheap"
+                ],
+                [
+                    "pizza hut cherry hinton=cheap"
+                ],
+                [
+                    "none"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {},
+                {
+                    "pizza hut cherry hinton": "cheap"
+                },
+                {
+                    "pizza hut cherry hinton": "cheap"
+                },
+                {
+                    "pizza hut cherry hinton": "cheap"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "none"
+                ],
+                [
+                    "yes"
+                ],
+                [
+                    "yes"
+                ],
+                [
+                    "bye bye"
+                ],
+                [
+                    "bye bye"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {},
+                {},
+                {},
+                {},
+                {}
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "restaurant-food=italianrecipe=north"
+                ],
+                [
+                    "restaurant-food=cheap"
+                ],
+                [
+                    "phone-number=cheap"
+                ],
+                [
+                    "None"
+                ],
+                [
+                    "None"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "restaurant-food": "italianrecipe"
+                },
+                {
+                    "restaurant-food": "cheap"
+                },
+                {
+                    "restaurant-food": "cheap",
+                    "phone-number": "cheap"
+                },
+                {
+                    "restaurant-food": "cheap",
+                    "phone-number": "cheap"
+                },
+                {
+                    "restaurant-food": "cheap",
+                    "phone-number": "cheap"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "la margherita=la margherita=la margherita=la margherita=la margherita=la margherita=la margherita=la margherita=la margherita=la margherita="
+                ],
+                [
+                    "la margherita=la margherita=la margherita=la margherita=la margherita=la margherita=la margherita=la margherita=la margherita=la margherita="
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "la margherita": "la margherita"
+                },
+                {
+                    "la margherita": "la margherita"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "none"
+                ],
+                [
+                    "expensive"
+                ],
+                [
+                    "hk fusion=hk fusion-cheap=cheap"
+                ],
+                [
+                    "none"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {},
+                {},
+                {
+                    "hk fusion": "hk fusion-cheap"
+                },
+                {
+                    "hk fusion": "hk fusion-cheap"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "restaurant-food=chineseimurarestaurant-pricerange=expensive"
+                ],
+                [
+                    "restaurant-food=chineseimurarestaurant-pricerange=cheap"
+                ],
+                [
+                    "restaurant-food=chineseimurarestaurant-pricerange=cheap"
+                ],
+                [
+                    "restaurant-food=chineseimurarestaurant-pricerange=cheap"
+                ],
+                [
+                    "None"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "restaurant-food": "chineseimurarestaurant-pricerange"
+                },
+                {
+                    "restaurant-food": "chineseimurarestaurant-pricerange"
+                },
+                {
+                    "restaurant-food": "chineseimurarestaurant-pricerange"
+                },
+                {
+                    "restaurant-food": "chineseimurarestaurant-pricerange"
+                },
+                {
+                    "restaurant-food": "chineseimurarestaurant-pricerange"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "none"
+                ],
+                [
+                    "none"
+                ],
+                [
+                    "none"
+                ],
+                [
+                    "yes"
+                ],
+                [
+                    "none"
+                ],
+                [
+                    "none"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {}
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "indianfood=indianrestaurant-pricerange=moderate"
+                ],
+                [
+                    "curry prince=curryprince=restaurant-food=indianrestaurant-pricerange=moderate"
+                ],
+                [
+                    "curry prince=curryprince=restaurant-food=indianrestaurant-pricerange=moderate"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "indianfood": "indianrestaurant-pricerange"
+                },
+                {
+                    "indianfood": "indianrestaurant-pricerange",
+                    "curry prince": "curryprince"
+                },
+                {
+                    "indianfood": "indianrestaurant-pricerange",
+                    "curry prince": "curryprince"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "none"
+                ],
+                [
+                    "none"
+                ],
+                [
+                    "none"
+                ],
+                [
+                    "none"
+                ],
+                [
+                    "none"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {},
+                {},
+                {},
+                {},
+                {}
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "restaurant-food=alimentum-restaurant=restaurant-alimentum"
+                ],
+                [
+                    "None"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "restaurant-food": "alimentum-restaurant"
+                },
+                {
+                    "restaurant-food": "alimentum-restaurant"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "Molecular gastronomy=food=food-food=food-food=food-food=food-food=food-food=food-food=food-food=food-food=food-food=food-food=food-food"
+                ],
+                [
+                    "gastropubs=food=food-food=food-food=food-food=food-food=food-food=food-food=food-food=food-food=food-food=food-food=food-food="
+                ],
+                [
+                    "yes"
+                ],
+                [
+                    "http://www.cowpizza.com/"
+                ],
+                [
+                    "Thank you for your business."
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "Molecular gastronomy": "food"
+                },
+                {
+                    "Molecular gastronomy": "food",
+                    "gastropubs": "food"
+                },
+                {
+                    "Molecular gastronomy": "food",
+                    "gastropubs": "food"
+                },
+                {
+                    "Molecular gastronomy": "food",
+                    "gastropubs": "food"
+                },
+                {
+                    "Molecular gastronomy": "food",
+                    "gastropubs": "food"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "indian=indian restaurant=indian restaurant-centre=indian restaurant"
+                ],
+                [
+                    "indian=indian restaurant=indian restaurant-cheap=cheap"
+                ],
+                [
+                    "indian=indian restaurant=indian restaurant-cheap=cheap"
+                ],
+                [
+                    "indian=indian restaurant=indian restaurant-cheap=cheap"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "indian": "indian restaurant"
+                },
+                {
+                    "indian": "indian restaurant"
+                },
+                {
+                    "indian": "indian restaurant"
+                },
+                {
+                    "indian": "indian restaurant"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "none"
+                ],
+                [
+                    "none"
+                ],
+                [
+                    "yes"
+                ],
+                [
+                    "none"
+                ],
+                [
+                    "none"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {},
+                {},
+                {},
+                {},
+                {}
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "none"
+                ],
+                [
+                    "none"
+                ],
+                [
+                    "none"
+                ],
+                [
+                    "none"
+                ],
+                [
+                    "none"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {},
+                {},
+                {},
+                {},
+                {}
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "expensive=south=expensive"
+                ],
+                [
+                    "chinese=chinese=chinese=chinese=chinese=chinese=chinese=chinese=chinese=chinese=chinese=chinese=chinese=chinese=chinese=chinese=chinese"
+                ],
+                [
+                    "none"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "expensive": "south"
+                },
+                {
+                    "expensive": "south",
+                    "chinese": "chinese"
+                },
+                {
+                    "expensive": "south",
+                    "chinese": "chinese"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "none"
+                ],
+                [
+                    "1=cheap"
+                ],
+                [
+                    "center=cheap"
+                ],
+                [
+                    "postcode=0"
+                ],
+                [
+                    "none"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {},
+                {
+                    "1": "cheap"
+                },
+                {
+                    "1": "cheap",
+                    "center": "cheap"
+                },
+                {
+                    "1": "cheap",
+                    "center": "cheap",
+                    "postcode": "0"
+                },
+                {
+                    "1": "cheap",
+                    "center": "cheap",
+                    "postcode": "0"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "restaurant-food=bangkok city=cheap"
+                ],
+                [
+                    "restaurant-food=bangkok city=cheap"
+                ],
+                [
+                    "restaurant-food=bangkok city=cheap"
+                ],
+                [
+                    "None"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "restaurant-food": "bangkok city"
+                },
+                {
+                    "restaurant-food": "bangkok city"
+                },
+                {
+                    "restaurant-food": "bangkok city"
+                },
+                {
+                    "restaurant-food": "bangkok city"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "saigon city=sai-gong-city=sai-gong-city-cheap"
+                ],
+                [
+                    "5 people=5 people-cheap"
+                ],
+                [
+                    "None"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "saigon city": "sai-gong-city"
+                },
+                {
+                    "saigon city": "sai-gong-city",
+                    "5 people": "5 people-cheap"
+                },
+                {
+                    "saigon city": "sai-gong-city",
+                    "5 people": "5 people-cheap"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "none"
+                ],
+                [
+                    "west side of town=cheap"
+                ],
+                [
+                    "chesterton=cheap"
+                ],
+                [
+                    "bye!"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {},
+                {
+                    "west side of town": "cheap"
+                },
+                {
+                    "west side of town": "cheap",
+                    "chesterton": "cheap"
+                },
+                {
+                    "west side of town": "cheap",
+                    "chesterton": "cheap"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "none"
+                ],
+                [
+                    "none"
+                ],
+                [
+                    "no"
+                ],
+                [
+                    "none"
+                ],
+                [
+                    "bye bye"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {},
+                {},
+                {},
+                {},
+                {}
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "restaurant-food=expensive"
+                ],
+                [
+                    "restaurant-food=expensive"
+                ],
+                [
+                    "restaurant-food=expensive"
+                ],
+                [
+                    "restaurant-food=expensive"
+                ],
+                [
+                    "restaurant-food=expensive"
+                ],
+                [
+                    "None"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "restaurant-food": "expensive"
+                },
+                {
+                    "restaurant-food": "expensive"
+                },
+                {
+                    "restaurant-food": "expensive"
+                },
+                {
+                    "restaurant-food": "expensive"
+                },
+                {
+                    "restaurant-food": "expensive"
+                },
+                {
+                    "restaurant-food": "expensive"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "restaurant-food=britishfood=moderate"
+                ],
+                [
+                    "None"
+                ],
+                [
+                    "None"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "restaurant-food": "britishfood"
+                },
+                {
+                    "restaurant-food": "britishfood"
+                },
+                {
+                    "restaurant-food": "britishfood"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "none"
+                ],
+                [
+                    "none"
+                ],
+                [
+                    "none"
+                ],
+                [
+                    "none"
+                ],
+                [
+                    "none"
+                ],
+                [
+                    "none"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {}
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "french=french=north end"
+                ],
+                [
+                    "2 two=north end=north end"
+                ],
+                [
+                    "2 two=north end=north end"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "french": "french"
+                },
+                {
+                    "french": "french",
+                    "2 two": "north end"
+                },
+                {
+                    "french": "french",
+                    "2 two": "north end"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "restaurant-food=moderate-price-restaurant=east"
+                ],
+                [
+                    "restaurant-food=italian-food=restaurant=east"
+                ],
+                [
+                    "none"
+                ],
+                [
+                    "yes"
+                ],
+                [
+                    "ok"
+                ],
+                [
+                    "ok"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "restaurant-food": "moderate-price-restaurant"
+                },
+                {
+                    "restaurant-food": "italian-food"
+                },
+                {
+                    "restaurant-food": "italian-food"
+                },
+                {
+                    "restaurant-food": "italian-food"
+                },
+                {
+                    "restaurant-food": "italian-food"
+                },
+                {
+                    "restaurant-food": "italian-food"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "venetian=food=venetian-food=venetian-food-pricerange=cheap"
+                ],
+                [
+                    "none"
+                ],
+                [
+                    "none"
+                ],
+                [
+                    "none"
+                ],
+                [
+                    "none"
+                ],
+                [
+                    "none"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "venetian": "food"
+                },
+                {
+                    "venetian": "food"
+                },
+                {
+                    "venetian": "food"
+                },
+                {
+                    "venetian": "food"
+                },
+                {
+                    "venetian": "food"
+                },
+                {
+                    "venetian": "food"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "restaurant-food=chineseimurarestaurant-pricerange=cheap"
+                ],
+                [
+                    "None"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "restaurant-food": "chineseimurarestaurant-pricerange"
+                },
+                {
+                    "restaurant-food": "chineseimurarestaurant-pricerange"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "restaurant-food=italianrecipe=expensive"
+                ],
+                [
+                    "none"
+                ],
+                [
+                    "yes"
+                ],
+                [
+                    "bye bye"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "restaurant-food": "italianrecipe"
+                },
+                {
+                    "restaurant-food": "italianrecipe"
+                },
+                {
+                    "restaurant-food": "italianrecipe"
+                },
+                {
+                    "restaurant-food": "italianrecipe"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "none"
+                ],
+                [
+                    "i can give you the postcode of the restaurant but i can not give you the name of the restaurant"
+                ],
+                [
+                    "I can give you the name of the restaurant but i can not give you the postcode"
+                ],
+                [
+                    "I can give you the name of the restaurant but i can not give you the postcode"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {},
+                {},
+                {},
+                {}
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "none"
+                ],
+                [
+                    "none"
+                ],
+                [
+                    "none"
+                ],
+                [
+                    "none"
+                ],
+                [
+                    "none"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {},
+                {},
+                {},
+                {},
+                {}
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "none"
+                ],
+                [
+                    "none"
+                ],
+                [
+                    "none"
+                ],
+                [
+                    "none"
+                ],
+                [
+                    "none"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {},
+                {},
+                {},
+                {},
+                {}
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "none"
+                ],
+                [
+                    "none"
+                ],
+                [
+                    "none"
+                ],
+                [
+                    "none"
+                ],
+                [
+                    "none"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {},
+                {},
+                {},
+                {},
+                {}
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "none"
+                ],
+                [
+                    "none"
+                ],
+                [
+                    "none"
+                ],
+                [
+                    "none"
+                ],
+                [
+                    "none"
+                ],
+                [
+                    "none"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {}
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "none"
+                ],
+                [
+                    "charlie chan is located in the centre and it is cheap! would you like me to book it for you?"
+                ],
+                [
+                    "the postcode is 020-721-8500. the area is the centre of town. what day and time would you like to book? how many people?"
+                ],
+                [
+                    "charlie chan is located in the centre and it is cheap! would you like me to book it for you?"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {},
+                {},
+                {},
+                {}
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "none"
+                ],
+                [
+                    "none"
+                ],
+                [
+                    "none"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {},
+                {},
+                {}
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "india house=india house-restaurant=india house-restaurant-pricerange=india house-restaurant-pricerange-cheap"
+                ],
+                [
+                    "india house=india house-restaurant=india house-restaurant-pricerange=india house-restaurant-pricerange-cheap"
+                ],
+                [
+                    "india house=india house-restaurant=india house-restaurant-pricerange=india house-restaurant-pricerange-cheap"
+                ],
+                [
+                    "india house=india house-restaurant=india house-restaurant-pricerange=india house-restaurant-pricerange-cheap"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "india house": "india house-restaurant"
+                },
+                {
+                    "india house": "india house-restaurant"
+                },
+                {
+                    "india house": "india house-restaurant"
+                },
+                {
+                    "india house": "india house-restaurant"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "restaurant-food=moderneuropeanfood=moderate"
+                ],
+                [
+                    "none"
+                ],
+                [
+                    "yes"
+                ],
+                [
+                    "none"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "restaurant-food": "moderneuropeanfood"
+                },
+                {
+                    "restaurant-food": "moderneuropeanfood"
+                },
+                {
+                    "restaurant-food": "moderneuropeanfood"
+                },
+                {
+                    "restaurant-food": "moderneuropeanfood"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "none"
+                ],
+                [
+                    "none"
+                ],
+                [
+                    "none"
+                ],
+                [
+                    "17-cheap=cheap"
+                ],
+                [
+                    "none"
+                ],
+                [
+                    "none"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {},
+                {},
+                {},
+                {
+                    "17-cheap": "cheap"
+                },
+                {
+                    "17-cheap": "cheap"
+                },
+                {
+                    "17-cheap": "cheap"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "none"
+                ],
+                [
+                    "none"
+                ],
+                [
+                    "none"
+                ],
+                [
+                    "none"
+                ],
+                [
+                    "none"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {},
+                {},
+                {},
+                {},
+                {}
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "restaurant-food=indianrecipe=expensive"
+                ],
+                [
+                    "None"
+                ],
+                [
+                    "None"
+                ],
+                [
+                    "None"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "restaurant-food": "indianrecipe"
+                },
+                {
+                    "restaurant-food": "indianrecipe"
+                },
+                {
+                    "restaurant-food": "indianrecipe"
+                },
+                {
+                    "restaurant-food": "indianrecipe"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "none"
+                ],
+                [
+                    "1 place -s=1 person and 1 place -s=2 people"
+                ],
+                [
+                    "none"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {},
+                {
+                    "1 place -s": "1 person and 1 place -s"
+                },
+                {
+                    "1 place -s": "1 person and 1 place -s"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "centre=cheap"
+                ],
+                [
+                    "none"
+                ],
+                [
+                    "none"
+                ],
+                [
+                    "expensive=cheap"
+                ],
+                [
+                    "expensive=cheap"
+                ],
+                [
+                    "expensive=cheap"
+                ],
+                [
+                    "expensive=cheap"
+                ],
+                [
+                    "none"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "centre": "cheap"
+                },
+                {
+                    "centre": "cheap"
+                },
+                {
+                    "centre": "cheap"
+                },
+                {
+                    "centre": "cheap",
+                    "expensive": "cheap"
+                },
+                {
+                    "centre": "cheap",
+                    "expensive": "cheap"
+                },
+                {
+                    "centre": "cheap",
+                    "expensive": "cheap"
+                },
+                {
+                    "centre": "cheap",
+                    "expensive": "cheap"
+                },
+                {
+                    "centre": "cheap",
+                    "expensive": "cheap"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "none"
+                ],
+                [
+                    "none"
+                ],
+                [
+                    "none"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {},
+                {},
+                {}
+            ]
+        }
+    ]
+}

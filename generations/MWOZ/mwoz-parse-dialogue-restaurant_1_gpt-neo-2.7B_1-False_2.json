@@ -1,0 +1,2270 @@
+{
+    "score": {
+        "B4": 4.966162281571212,
+        "F1": 42.724701322219644,
+        "RL": 43.79114889906257,
+        "JGA": 3.985507246376811,
+        "SLOT_ACC": 17.540322580645164,
+        "ppl": 3.2746579850842634
+    },
+    "generation": [
+        {
+            "meta": [
+                [
+                    "none"
+                ],
+                [
+                    "none"
+                ],
+                [
+                    "none"
+                ],
+                [
+                    "none"
+                ],
+                [
+                    "bye"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {},
+                {},
+                {},
+                {},
+                {}
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "None"
+                ],
+                [
+                    "west"
+                ],
+                [
+                    "graffiti-address=west-postcode=01234"
+                ],
+                [
+                    "none"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {},
+                {},
+                {
+                    "graffiti-address": "west-postcode"
+                },
+                {
+                    "graffiti-address": "west-postcode"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "cheap=cheap"
+                ],
+                [
+                    "golden house=golden house"
+                ],
+                [
+                    "none"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "cheap": "cheap"
+                },
+                {
+                    "cheap": "cheap",
+                    "golden house": "golden house"
+                },
+                {
+                    "cheap": "cheap",
+                    "golden house": "golden house"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "restaurant-location=centre"
+                ],
+                [
+                    "restaurant-type=chinese\trestaurant-price=1345"
+                ],
+                [
+                    "none"
+                ],
+                [
+                    "none"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "restaurant-location": "centre"
+                },
+                {
+                    "restaurant-location": "centre",
+                    "restaurant-type": "chinese",
+                    "restaurant-price": "1345"
+                },
+                {
+                    "restaurant-location": "centre",
+                    "restaurant-type": "chinese",
+                    "restaurant-price": "1345"
+                },
+                {
+                    "restaurant-location": "centre",
+                    "restaurant-type": "chinese",
+                    "restaurant-price": "1345"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "west=cheap"
+                ],
+                [
+                    "indian=chicken tikka masala"
+                ],
+                [
+                    "1=11:45"
+                ],
+                [
+                    "none"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "west": "cheap"
+                },
+                {
+                    "west": "cheap",
+                    "indian": "chicken tikka masala"
+                },
+                {
+                    "west": "cheap",
+                    "indian": "chicken tikka masala",
+                    "1": "11:45"
+                },
+                {
+                    "west": "cheap",
+                    "indian": "chicken tikka masala",
+                    "1": "11:45"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "indian=indian"
+                ],
+                [
+                    "moderate=moderate"
+                ],
+                [
+                    "none"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "indian": "indian"
+                },
+                {
+                    "indian": "indian",
+                    "moderate": "moderate"
+                },
+                {
+                    "indian": "indian",
+                    "moderate": "moderate"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "restaurant-food=chinese\trestaurant-pricerange=moderate"
+                ],
+                [
+                    "none"
+                ],
+                [
+                    "none"
+                ],
+                [
+                    "none"
+                ],
+                [
+                    "none"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "restaurant-food": "chinese",
+                    "restaurant-pricerange": "moderate"
+                },
+                {
+                    "restaurant-food": "chinese",
+                    "restaurant-pricerange": "moderate"
+                },
+                {
+                    "restaurant-food": "chinese",
+                    "restaurant-pricerange": "moderate"
+                },
+                {
+                    "restaurant-food": "chinese",
+                    "restaurant-pricerange": "moderate"
+                },
+                {
+                    "restaurant-food": "chinese",
+                    "restaurant-pricerange": "moderate"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "eastern european type restaurant?"
+                ],
+                [
+                    "eastern european type restaurant?"
+                ],
+                [
+                    "chinese restaurant?"
+                ],
+                [
+                    "peking restaurant?"
+                ],
+                [
+                    "peking restaurant?"
+                ],
+                [
+                    "peking restaurant?"
+                ],
+                [
+                    "peking restaurant?"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {}
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "restaurant-food=british\trestaurant-pricerange=cheap"
+                ],
+                [
+                    "restaurant-food=british\trestaurant-pricerange=cheap"
+                ],
+                [
+                    "restaurant-food=italian\trestaurant-pricerange=cheap"
+                ],
+                [
+                    "restaurant-food=british\trestaurant-pricerange=cheap"
+                ],
+                [
+                    "restaurant-food=british\trestaurant-pricerange=cheap"
+                ],
+                [
+                    "None"
+                ],
+                [
+                    "None"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "restaurant-food": "british",
+                    "restaurant-pricerange": "cheap"
+                },
+                {
+                    "restaurant-food": "british",
+                    "restaurant-pricerange": "cheap"
+                },
+                {
+                    "restaurant-food": "italian",
+                    "restaurant-pricerange": "cheap"
+                },
+                {
+                    "restaurant-food": "british",
+                    "restaurant-pricerange": "cheap"
+                },
+                {
+                    "restaurant-food": "british",
+                    "restaurant-pricerange": "cheap"
+                },
+                {
+                    "restaurant-food": "british",
+                    "restaurant-pricerange": "cheap"
+                },
+                {
+                    "restaurant-food": "british",
+                    "restaurant-pricerange": "cheap"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "restaurant-food=chinese\trestaurant-pricerange=cheap"
+                ],
+                [
+                    "Italian food=italian\trestaurant-food=italian"
+                ],
+                [
+                    "restaurant-food=italian\trestaurant-pricerange=cheap"
+                ],
+                [
+                    "None"
+                ],
+                [
+                    "None"
+                ],
+                [
+                    "None"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "restaurant-food": "chinese",
+                    "restaurant-pricerange": "cheap"
+                },
+                {
+                    "restaurant-food": "italian",
+                    "restaurant-pricerange": "cheap",
+                    "Italian food": "italian"
+                },
+                {
+                    "restaurant-food": "italian",
+                    "restaurant-pricerange": "cheap",
+                    "Italian food": "italian"
+                },
+                {
+                    "restaurant-food": "italian",
+                    "restaurant-pricerange": "cheap",
+                    "Italian food": "italian"
+                },
+                {
+                    "restaurant-food": "italian",
+                    "restaurant-pricerange": "cheap",
+                    "Italian food": "italian"
+                },
+                {
+                    "restaurant-food": "italian",
+                    "restaurant-pricerange": "cheap",
+                    "Italian food": "italian"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "indian=high end"
+                ],
+                [
+                    "west=indian"
+                ],
+                [
+                    "west=indian"
+                ],
+                [
+                    "west=indian"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "indian": "high end"
+                },
+                {
+                    "indian": "high end",
+                    "west": "indian"
+                },
+                {
+                    "indian": "high end",
+                    "west": "indian"
+                },
+                {
+                    "indian": "high end",
+                    "west": "indian"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "none"
+                ],
+                [
+                    "yes"
+                ],
+                [
+                    "none"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {},
+                {},
+                {}
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "none"
+                ],
+                [
+                    "moderate"
+                ],
+                [
+                    "yes"
+                ],
+                [
+                    "yes"
+                ],
+                [
+                    "yes"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {},
+                {},
+                {},
+                {},
+                {}
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "restaurant-food=chinese\trestaurant-pricerange=expensive"
+                ],
+                [
+                    "None"
+                ],
+                [
+                    "None"
+                ],
+                [
+                    "None"
+                ],
+                [
+                    "None"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "restaurant-food": "chinese",
+                    "restaurant-pricerange": "expensive"
+                },
+                {
+                    "restaurant-food": "chinese",
+                    "restaurant-pricerange": "expensive"
+                },
+                {
+                    "restaurant-food": "chinese",
+                    "restaurant-pricerange": "expensive"
+                },
+                {
+                    "restaurant-food": "chinese",
+                    "restaurant-pricerange": "expensive"
+                },
+                {
+                    "restaurant-food": "chinese",
+                    "restaurant-pricerange": "expensive"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "restaurant-food=chinese\trestaurant-pricerange=expensive"
+                ],
+                [
+                    "restaurant-food=chinese\trestaurant-pricerange=expensive"
+                ],
+                [
+                    "None"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "restaurant-food": "chinese",
+                    "restaurant-pricerange": "expensive"
+                },
+                {
+                    "restaurant-food": "chinese",
+                    "restaurant-pricerange": "expensive"
+                },
+                {
+                    "restaurant-food": "chinese",
+                    "restaurant-pricerange": "expensive"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "None"
+                ],
+                [
+                    "None"
+                ],
+                [
+                    "None"
+                ],
+                [
+                    "None"
+                ],
+                [
+                    "None"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {},
+                {},
+                {},
+                {},
+                {}
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "restaurant-food=chinese\trestaurant-pricerange=expensive"
+                ],
+                [
+                    "none"
+                ],
+                [
+                    "none"
+                ],
+                [
+                    "none"
+                ],
+                [
+                    "none"
+                ],
+                [
+                    "none"
+                ],
+                [
+                    "none"
+                ],
+                [
+                    "none"
+                ],
+                [
+                    "none"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "restaurant-food": "chinese",
+                    "restaurant-pricerange": "expensive"
+                },
+                {
+                    "restaurant-food": "chinese",
+                    "restaurant-pricerange": "expensive"
+                },
+                {
+                    "restaurant-food": "chinese",
+                    "restaurant-pricerange": "expensive"
+                },
+                {
+                    "restaurant-food": "chinese",
+                    "restaurant-pricerange": "expensive"
+                },
+                {
+                    "restaurant-food": "chinese",
+                    "restaurant-pricerange": "expensive"
+                },
+                {
+                    "restaurant-food": "chinese",
+                    "restaurant-pricerange": "expensive"
+                },
+                {
+                    "restaurant-food": "chinese",
+                    "restaurant-pricerange": "expensive"
+                },
+                {
+                    "restaurant-food": "chinese",
+                    "restaurant-pricerange": "expensive"
+                },
+                {
+                    "restaurant-food": "chinese",
+                    "restaurant-pricerange": "expensive"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "restaurant-food=north-indian\trestaurant-pricerange=cheap"
+                ],
+                [
+                    "chinese-food=chinese\trestaurant-pricerange=cheap"
+                ],
+                [
+                    "sunday=sunday\trestaurant-pricerange=cheap"
+                ],
+                [
+                    "none"
+                ],
+                [
+                    "none"
+                ],
+                [
+                    "none"
+                ],
+                [
+                    "bye"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "restaurant-food": "north-indian",
+                    "restaurant-pricerange": "cheap"
+                },
+                {
+                    "restaurant-food": "north-indian",
+                    "restaurant-pricerange": "cheap",
+                    "chinese-food": "chinese"
+                },
+                {
+                    "restaurant-food": "north-indian",
+                    "restaurant-pricerange": "cheap",
+                    "chinese-food": "chinese",
+                    "sunday": "sunday"
+                },
+                {
+                    "restaurant-food": "north-indian",
+                    "restaurant-pricerange": "cheap",
+                    "chinese-food": "chinese",
+                    "sunday": "sunday"
+                },
+                {
+                    "restaurant-food": "north-indian",
+                    "restaurant-pricerange": "cheap",
+                    "chinese-food": "chinese",
+                    "sunday": "sunday"
+                },
+                {
+                    "restaurant-food": "north-indian",
+                    "restaurant-pricerange": "cheap",
+                    "chinese-food": "chinese",
+                    "sunday": "sunday"
+                },
+                {
+                    "restaurant-food": "north-indian",
+                    "restaurant-pricerange": "cheap",
+                    "chinese-food": "chinese",
+                    "sunday": "sunday"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "restaurant-food=italian\trestaurant-pricerange=south"
+                ],
+                [
+                    "frankie and bennys is a great choice! would you like a reservation and"
+                ],
+                [
+                    "frankie and bennys is a great choice! would you like a reservation and"
+                ],
+                [
+                    "frankie and bennys is a great choice! would you like a reservation and"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "restaurant-food": "italian",
+                    "restaurant-pricerange": "south"
+                },
+                {
+                    "restaurant-food": "italian",
+                    "restaurant-pricerange": "south"
+                },
+                {
+                    "restaurant-food": "italian",
+                    "restaurant-pricerange": "south"
+                },
+                {
+                    "restaurant-food": "italian",
+                    "restaurant-pricerange": "south"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "restaurant-pricerange=modest"
+                ],
+                [
+                    "restaurant-pricerange=modest"
+                ],
+                [
+                    "restaurant-pricerange=modest"
+                ],
+                [
+                    "restaurant-pricerange=modest"
+                ],
+                [
+                    "restaurant-pricerange=modest"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "restaurant-pricerange": "modest"
+                },
+                {
+                    "restaurant-pricerange": "modest"
+                },
+                {
+                    "restaurant-pricerange": "modest"
+                },
+                {
+                    "restaurant-pricerange": "modest"
+                },
+                {
+                    "restaurant-pricerange": "modest"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "restaurant-food=italian\trestaurant-pricerange=north"
+                ],
+                [
+                    "None"
+                ],
+                [
+                    "None"
+                ],
+                [
+                    "None"
+                ],
+                [
+                    "None"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "restaurant-food": "italian",
+                    "restaurant-pricerange": "north"
+                },
+                {
+                    "restaurant-food": "italian",
+                    "restaurant-pricerange": "north"
+                },
+                {
+                    "restaurant-food": "italian",
+                    "restaurant-pricerange": "north"
+                },
+                {
+                    "restaurant-food": "italian",
+                    "restaurant-pricerange": "north"
+                },
+                {
+                    "restaurant-food": "italian",
+                    "restaurant-pricerange": "north"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "la margherita=restaurant"
+                ],
+                [
+                    "la margherita=restaurant"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "la margherita": "restaurant"
+                },
+                {
+                    "la margherita": "restaurant"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "restaurant-food=chinese\trestaurant-pricerange=cheap"
+                ],
+                [
+                    "restaurant-food=chinese\trestaurant-pricerange=expensive"
+                ],
+                [
+                    "restaurant-food=chinese\trestaurant-pricerange=expensive"
+                ],
+                [
+                    "none"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "restaurant-food": "chinese",
+                    "restaurant-pricerange": "cheap"
+                },
+                {
+                    "restaurant-food": "chinese",
+                    "restaurant-pricerange": "expensive"
+                },
+                {
+                    "restaurant-food": "chinese",
+                    "restaurant-pricerange": "expensive"
+                },
+                {
+                    "restaurant-food": "chinese",
+                    "restaurant-pricerange": "expensive"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "restaurant-pricerange=expensive"
+                ],
+                [
+                    "None"
+                ],
+                [
+                    "None"
+                ],
+                [
+                    "None"
+                ],
+                [
+                    "None"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "restaurant-pricerange": "expensive"
+                },
+                {
+                    "restaurant-pricerange": "expensive"
+                },
+                {
+                    "restaurant-pricerange": "expensive"
+                },
+                {
+                    "restaurant-pricerange": "expensive"
+                },
+                {
+                    "restaurant-pricerange": "expensive"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "restaurant-pricerange=expensive"
+                ],
+                [
+                    "none"
+                ],
+                [
+                    "none"
+                ],
+                [
+                    "none"
+                ],
+                [
+                    "none"
+                ],
+                [
+                    "none"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "restaurant-pricerange": "expensive"
+                },
+                {
+                    "restaurant-pricerange": "expensive"
+                },
+                {
+                    "restaurant-pricerange": "expensive"
+                },
+                {
+                    "restaurant-pricerange": "expensive"
+                },
+                {
+                    "restaurant-pricerange": "expensive"
+                },
+                {
+                    "restaurant-pricerange": "expensive"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "restaurant-food=indian\trestaurant-pricerange=moderate"
+                ],
+                [
+                    "restaurant-food=indian\trestaurant-pricerange=moderate"
+                ],
+                [
+                    "None"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "restaurant-food": "indian",
+                    "restaurant-pricerange": "moderate"
+                },
+                {
+                    "restaurant-food": "indian",
+                    "restaurant-pricerange": "moderate"
+                },
+                {
+                    "restaurant-food": "indian",
+                    "restaurant-pricerange": "moderate"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "restaurant-food=mexican\trestaurant-pricerange=expensive"
+                ],
+                [
+                    "None"
+                ],
+                [
+                    "None"
+                ],
+                [
+                    "None"
+                ],
+                [
+                    "None"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "restaurant-food": "mexican",
+                    "restaurant-pricerange": "expensive"
+                },
+                {
+                    "restaurant-food": "mexican",
+                    "restaurant-pricerange": "expensive"
+                },
+                {
+                    "restaurant-food": "mexican",
+                    "restaurant-pricerange": "expensive"
+                },
+                {
+                    "restaurant-food": "mexican",
+                    "restaurant-pricerange": "expensive"
+                },
+                {
+                    "restaurant-food": "mexican",
+                    "restaurant-pricerange": "expensive"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "restaurant-name=alimentum"
+                ],
+                [
+                    "None"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "restaurant-name": "alimentum"
+                },
+                {
+                    "restaurant-name": "alimentum"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "None"
+                ],
+                [
+                    "None"
+                ],
+                [
+                    "None"
+                ],
+                [
+                    "None"
+                ],
+                [
+                    "None"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {},
+                {},
+                {},
+                {},
+                {}
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "indian=indian"
+                ],
+                [
+                    "indian=cheap"
+                ],
+                [
+                    "indian=gandhi"
+                ],
+                [
+                    "indian=gandhi"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "indian": "indian"
+                },
+                {
+                    "indian": "cheap"
+                },
+                {
+                    "indian": "gandhi"
+                },
+                {
+                    "indian": "gandhi"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "restaurant-food=african\trestaurant-pricerange=moderate"
+                ],
+                [
+                    "restaurant-food=asian\trestaurant-pricerange=moderate"
+                ],
+                [
+                    "restaurant-food=asian\trestaurant-pricerange=moderate"
+                ],
+                [
+                    "None"
+                ],
+                [
+                    "None"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "restaurant-food": "african",
+                    "restaurant-pricerange": "moderate"
+                },
+                {
+                    "restaurant-food": "asian",
+                    "restaurant-pricerange": "moderate"
+                },
+                {
+                    "restaurant-food": "asian",
+                    "restaurant-pricerange": "moderate"
+                },
+                {
+                    "restaurant-food": "asian",
+                    "restaurant-pricerange": "moderate"
+                },
+                {
+                    "restaurant-food": "asian",
+                    "restaurant-pricerange": "moderate"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "none"
+                ],
+                [
+                    "none"
+                ],
+                [
+                    "none"
+                ],
+                [
+                    "none"
+                ],
+                [
+                    "none"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {},
+                {},
+                {},
+                {},
+                {}
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "south=expensive"
+                ],
+                [
+                    "chinese=expensive"
+                ],
+                [
+                    "none"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "south": "expensive"
+                },
+                {
+                    "south": "expensive",
+                    "chinese": "expensive"
+                },
+                {
+                    "south": "expensive",
+                    "chinese": "expensive"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "restaurant-food=italian\trestaurant-pricerange=expensive"
+                ],
+                [
+                    "None"
+                ],
+                [
+                    "None"
+                ],
+                [
+                    "postcode=03905"
+                ],
+                [
+                    "None"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "restaurant-food": "italian",
+                    "restaurant-pricerange": "expensive"
+                },
+                {
+                    "restaurant-food": "italian",
+                    "restaurant-pricerange": "expensive"
+                },
+                {
+                    "restaurant-food": "italian",
+                    "restaurant-pricerange": "expensive"
+                },
+                {
+                    "restaurant-food": "italian",
+                    "restaurant-pricerange": "expensive",
+                    "postcode": "03905"
+                },
+                {
+                    "restaurant-food": "italian",
+                    "restaurant-pricerange": "expensive",
+                    "postcode": "03905"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "bangkok city=chinese\trestaurant=chinese"
+                ],
+                [
+                    "bangkok city=chinese\trestaurant=chinese"
+                ],
+                [
+                    "bangkok city=chinese\trestaurant=chinese"
+                ],
+                [
+                    "bangkok city=chinese\trestaurant=chinese"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "bangkok city": "chinese",
+                    "restaurant": "chinese"
+                },
+                {
+                    "bangkok city": "chinese",
+                    "restaurant": "chinese"
+                },
+                {
+                    "bangkok city": "chinese",
+                    "restaurant": "chinese"
+                },
+                {
+                    "bangkok city": "chinese",
+                    "restaurant": "chinese"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "saigon city is a great place to visit."
+                ],
+                [
+                    "ok."
+                ],
+                [
+                    "you are welcome."
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {},
+                {},
+                {}
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "none"
+                ],
+                [
+                    "west side of town?"
+                ],
+                [
+                    "ok, i will call you back."
+                ],
+                [
+                    "bye!"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {},
+                {},
+                {},
+                {}
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "spanish=cheap"
+                ],
+                [
+                    "centre=centre"
+                ],
+                [
+                    "yes"
+                ],
+                [
+                    "yes"
+                ],
+                [
+                    "bye"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "spanish": "cheap"
+                },
+                {
+                    "spanish": "cheap",
+                    "centre": "centre"
+                },
+                {
+                    "spanish": "cheap",
+                    "centre": "centre"
+                },
+                {
+                    "spanish": "cheap",
+                    "centre": "centre"
+                },
+                {
+                    "spanish": "cheap",
+                    "centre": "centre"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "south of town?"
+                ],
+                [
+                    "north of town?"
+                ],
+                [
+                    "yes"
+                ],
+                [
+                    "yes"
+                ],
+                [
+                    "yes"
+                ],
+                [
+                    "thank you for your time."
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {}
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "restaurant-food=british\trestaurant-pricerange=moderate"
+                ],
+                [
+                    "None"
+                ],
+                [
+                    "None"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "restaurant-food": "british",
+                    "restaurant-pricerange": "moderate"
+                },
+                {
+                    "restaurant-food": "british",
+                    "restaurant-pricerange": "moderate"
+                },
+                {
+                    "restaurant-food": "british",
+                    "restaurant-pricerange": "moderate"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "grub=chinese"
+                ],
+                [
+                    "traditional=chinese"
+                ],
+                [
+                    "lebanese=chinese"
+                ],
+                [
+                    "wednesday=chinese"
+                ],
+                [
+                    "11:00=chinese"
+                ],
+                [
+                    "bye"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "grub": "chinese"
+                },
+                {
+                    "grub": "chinese",
+                    "traditional": "chinese"
+                },
+                {
+                    "grub": "chinese",
+                    "traditional": "chinese",
+                    "lebanese": "chinese"
+                },
+                {
+                    "grub": "chinese",
+                    "traditional": "chinese",
+                    "lebanese": "chinese",
+                    "wednesday": "chinese"
+                },
+                {
+                    "grub": "chinese",
+                    "traditional": "chinese",
+                    "lebanese": "chinese",
+                    "wednesday": "chinese",
+                    "11:00": "chinese"
+                },
+                {
+                    "grub": "chinese",
+                    "traditional": "chinese",
+                    "lebanese": "chinese",
+                    "wednesday": "chinese",
+                    "11:00": "chinese"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "french-restaurant=north-end"
+                ],
+                [
+                    "french-restaurant-address=2-two-north-end"
+                ],
+                [
+                    "french-restaurant-address=22-chesterton-road-chesterton"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "french-restaurant": "north-end"
+                },
+                {
+                    "french-restaurant": "north-end",
+                    "french-restaurant-address": "2-two-north-end"
+                },
+                {
+                    "french-restaurant": "north-end",
+                    "french-restaurant-address": "22-chesterton-road-chesterton"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "restaurant-pricerange=moderate"
+                ],
+                [
+                    "restaurant-food=italian"
+                ],
+                [
+                    "none"
+                ],
+                [
+                    "yes"
+                ],
+                [
+                    "none"
+                ],
+                [
+                    "none"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "restaurant-pricerange": "moderate"
+                },
+                {
+                    "restaurant-pricerange": "moderate",
+                    "restaurant-food": "italian"
+                },
+                {
+                    "restaurant-pricerange": "moderate",
+                    "restaurant-food": "italian"
+                },
+                {
+                    "restaurant-pricerange": "moderate",
+                    "restaurant-food": "italian"
+                },
+                {
+                    "restaurant-pricerange": "moderate",
+                    "restaurant-food": "italian"
+                },
+                {
+                    "restaurant-pricerange": "moderate",
+                    "restaurant-food": "italian"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "restaurant-food=venetian\trestaurant-pricerange=centre"
+                ],
+                [
+                    "none"
+                ],
+                [
+                    "none"
+                ],
+                [
+                    "none"
+                ],
+                [
+                    "none"
+                ],
+                [
+                    "none"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "restaurant-food": "venetian",
+                    "restaurant-pricerange": "centre"
+                },
+                {
+                    "restaurant-food": "venetian",
+                    "restaurant-pricerange": "centre"
+                },
+                {
+                    "restaurant-food": "venetian",
+                    "restaurant-pricerange": "centre"
+                },
+                {
+                    "restaurant-food": "venetian",
+                    "restaurant-pricerange": "centre"
+                },
+                {
+                    "restaurant-food": "venetian",
+                    "restaurant-pricerange": "centre"
+                },
+                {
+                    "restaurant-food": "venetian",
+                    "restaurant-pricerange": "centre"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "saigon city is a very famous restaurant in the city."
+                ],
+                [
+                    "saigon city is a very famous restaurant in the city."
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {},
+                {}
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "restaurant-food=italian\trestaurant-pricerange=expensive"
+                ],
+                [
+                    "none"
+                ],
+                [
+                    "yes"
+                ],
+                [
+                    "none"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "restaurant-food": "italian",
+                    "restaurant-pricerange": "expensive"
+                },
+                {
+                    "restaurant-food": "italian",
+                    "restaurant-pricerange": "expensive"
+                },
+                {
+                    "restaurant-food": "italian",
+                    "restaurant-pricerange": "expensive"
+                },
+                {
+                    "restaurant-food": "italian",
+                    "restaurant-pricerange": "expensive"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "none"
+                ],
+                [
+                    "i can do that."
+                ],
+                [
+                    "i will get back to you."
+                ],
+                [
+                    "i will get back to you."
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {},
+                {},
+                {},
+                {}
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "restaurant-food=mexican\trestaurant-pricerange=cheap"
+                ],
+                [
+                    "restaurant-food=indian\trestaurant-pricerange=cheap"
+                ],
+                [
+                    "restaurant-address=postcode\trestaurant-number=number"
+                ],
+                [
+                    "restaurant-address=postcode\trestaurant-number=number"
+                ],
+                [
+                    "restaurant-address=postcode\trestaurant-number=number"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "restaurant-food": "mexican",
+                    "restaurant-pricerange": "cheap"
+                },
+                {
+                    "restaurant-food": "indian",
+                    "restaurant-pricerange": "cheap"
+                },
+                {
+                    "restaurant-food": "indian",
+                    "restaurant-pricerange": "cheap",
+                    "restaurant-address": "postcode",
+                    "restaurant-number": "number"
+                },
+                {
+                    "restaurant-food": "indian",
+                    "restaurant-pricerange": "cheap",
+                    "restaurant-address": "postcode",
+                    "restaurant-number": "number"
+                },
+                {
+                    "restaurant-food": "indian",
+                    "restaurant-pricerange": "cheap",
+                    "restaurant-address": "postcode",
+                    "restaurant-number": "number"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "restaurant-pricerange=cheap"
+                ],
+                [
+                    "restaurant-food=creative"
+                ],
+                [
+                    "restaurant-food=indian"
+                ],
+                [
+                    "restaurant-time=wednesday"
+                ],
+                [
+                    "restaurant-time=wednesday"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "restaurant-pricerange": "cheap"
+                },
+                {
+                    "restaurant-pricerange": "cheap",
+                    "restaurant-food": "creative"
+                },
+                {
+                    "restaurant-pricerange": "cheap",
+                    "restaurant-food": "indian"
+                },
+                {
+                    "restaurant-pricerange": "cheap",
+                    "restaurant-food": "indian",
+                    "restaurant-time": "wednesday"
+                },
+                {
+                    "restaurant-pricerange": "cheap",
+                    "restaurant-food": "indian",
+                    "restaurant-time": "wednesday"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "afghan=restaurant"
+                ],
+                [
+                    "None"
+                ],
+                [
+                    "None"
+                ],
+                [
+                    "None"
+                ],
+                [
+                    "None"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "afghan": "restaurant"
+                },
+                {
+                    "afghan": "restaurant"
+                },
+                {
+                    "afghan": "restaurant"
+                },
+                {
+                    "afghan": "restaurant"
+                },
+                {
+                    "afghan": "restaurant"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "restaurant-food=canapes\trestaurant-pricerange=east"
+                ],
+                [
+                    "None"
+                ],
+                [
+                    "None"
+                ],
+                [
+                    "None"
+                ],
+                [
+                    "None"
+                ],
+                [
+                    "None"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "restaurant-food": "canapes",
+                    "restaurant-pricerange": "east"
+                },
+                {
+                    "restaurant-food": "canapes",
+                    "restaurant-pricerange": "east"
+                },
+                {
+                    "restaurant-food": "canapes",
+                    "restaurant-pricerange": "east"
+                },
+                {
+                    "restaurant-food": "canapes",
+                    "restaurant-pricerange": "east"
+                },
+                {
+                    "restaurant-food": "canapes",
+                    "restaurant-pricerange": "east"
+                },
+                {
+                    "restaurant-food": "canapes",
+                    "restaurant-pricerange": "east"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "restaurant-food=chinese\trestaurant-pricerange=cheap"
+                ],
+                [
+                    "restaurant-address=chinese-restaurant-address"
+                ],
+                [
+                    "postcode=80000\tarea=city centre"
+                ],
+                [
+                    "none"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "restaurant-food": "chinese",
+                    "restaurant-pricerange": "cheap"
+                },
+                {
+                    "restaurant-food": "chinese",
+                    "restaurant-pricerange": "cheap",
+                    "restaurant-address": "chinese-restaurant-address"
+                },
+                {
+                    "restaurant-food": "chinese",
+                    "restaurant-pricerange": "cheap",
+                    "restaurant-address": "chinese-restaurant-address",
+                    "postcode": "80000",
+                    "area": "city centre"
+                },
+                {
+                    "restaurant-food": "chinese",
+                    "restaurant-pricerange": "cheap",
+                    "restaurant-address": "chinese-restaurant-address",
+                    "postcode": "80000",
+                    "area": "city centre"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "None"
+                ],
+                [
+                    "None"
+                ],
+                [
+                    "None"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {},
+                {},
+                {}
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "india house=indian\trestaurant-name=indian"
+                ],
+                [
+                    "india house=indian\trestaurant-name=indian"
+                ],
+                [
+                    "india house=indian\trestaurant-name=indian"
+                ],
+                [
+                    "india house=indian\trestaurant-name=indian"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "india house": "indian",
+                    "restaurant-name": "indian"
+                },
+                {
+                    "india house": "indian",
+                    "restaurant-name": "indian"
+                },
+                {
+                    "india house": "indian",
+                    "restaurant-name": "indian"
+                },
+                {
+                    "india house": "indian",
+                    "restaurant-name": "indian"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "restaurant-food=european\trestaurant-pricerange=moderate"
+                ],
+                [
+                    "none"
+                ],
+                [
+                    "yes"
+                ],
+                [
+                    "none"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "restaurant-food": "european",
+                    "restaurant-pricerange": "moderate"
+                },
+                {
+                    "restaurant-food": "european",
+                    "restaurant-pricerange": "moderate"
+                },
+                {
+                    "restaurant-food": "european",
+                    "restaurant-pricerange": "moderate"
+                },
+                {
+                    "restaurant-food": "european",
+                    "restaurant-pricerange": "moderate"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "restaurant-food=british\trestaurant-pricerange=cheap"
+                ],
+                [
+                    "west=indian\trestaurant-pricerange=cheap"
+                ],
+                [
+                    "west=indian\trestaurant-pricerange=moderate"
+                ],
+                [
+                    "west=indian\trestaurant-pricerange=moderate"
+                ],
+                [
+                    "west=indian\trestaurant-pricerange=moderate"
+                ],
+                [
+                    "west=indian\trestaurant-pricerange=moderate"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "restaurant-food": "british",
+                    "restaurant-pricerange": "cheap"
+                },
+                {
+                    "restaurant-food": "british",
+                    "restaurant-pricerange": "cheap",
+                    "west": "indian"
+                },
+                {
+                    "restaurant-food": "british",
+                    "restaurant-pricerange": "moderate",
+                    "west": "indian"
+                },
+                {
+                    "restaurant-food": "british",
+                    "restaurant-pricerange": "moderate",
+                    "west": "indian"
+                },
+                {
+                    "restaurant-food": "british",
+                    "restaurant-pricerange": "moderate",
+                    "west": "indian"
+                },
+                {
+                    "restaurant-food": "british",
+                    "restaurant-pricerange": "moderate",
+                    "west": "indian"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "restaurant-food=chinese\trestaurant-pricerange=cheap"
+                ],
+                [
+                    "restaurant-food=chinese\trestaurant-pricerange=cheap"
+                ],
+                [
+                    "restaurant-food=chinese\trestaurant-pricerange=cheap"
+                ],
+                [
+                    "restaurant-food=chinese\trestaurant-pricerange=cheap"
+                ],
+                [
+                    "restaurant-food=chinese\trestaurant-pricerange=cheap"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "restaurant-food": "chinese",
+                    "restaurant-pricerange": "cheap"
+                },
+                {
+                    "restaurant-food": "chinese",
+                    "restaurant-pricerange": "cheap"
+                },
+                {
+                    "restaurant-food": "chinese",
+                    "restaurant-pricerange": "cheap"
+                },
+                {
+                    "restaurant-food": "chinese",
+                    "restaurant-pricerange": "cheap"
+                },
+                {
+                    "restaurant-food": "chinese",
+                    "restaurant-pricerange": "cheap"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "restaurant-food=indian\trestaurant-pricerange=expensive"
+                ],
+                [
+                    "None"
+                ],
+                [
+                    "None"
+                ],
+                [
+                    "None"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "restaurant-food": "indian",
+                    "restaurant-pricerange": "expensive"
+                },
+                {
+                    "restaurant-food": "indian",
+                    "restaurant-pricerange": "expensive"
+                },
+                {
+                    "restaurant-food": "indian",
+                    "restaurant-pricerange": "expensive"
+                },
+                {
+                    "restaurant-food": "indian",
+                    "restaurant-pricerange": "expensive"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "i am sorry, i am not sure what you are looking for."
+                ],
+                [
+                    "i am sorry, i am not sure what you are looking for."
+                ],
+                [
+                    "i am sorry, i am not sure what you are looking for."
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {},
+                {},
+                {}
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "restaurant-food=chinese\trestaurant-pricerange=cheap"
+                ],
+                [
+                    "none"
+                ],
+                [
+                    "none"
+                ],
+                [
+                    "none"
+                ],
+                [
+                    "none"
+                ],
+                [
+                    "none"
+                ],
+                [
+                    "none"
+                ],
+                [
+                    "none"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "restaurant-food": "chinese",
+                    "restaurant-pricerange": "cheap"
+                },
+                {
+                    "restaurant-food": "chinese",
+                    "restaurant-pricerange": "cheap"
+                },
+                {
+                    "restaurant-food": "chinese",
+                    "restaurant-pricerange": "cheap"
+                },
+                {
+                    "restaurant-food": "chinese",
+                    "restaurant-pricerange": "cheap"
+                },
+                {
+                    "restaurant-food": "chinese",
+                    "restaurant-pricerange": "cheap"
+                },
+                {
+                    "restaurant-food": "chinese",
+                    "restaurant-pricerange": "cheap"
+                },
+                {
+                    "restaurant-food": "chinese",
+                    "restaurant-pricerange": "cheap"
+                },
+                {
+                    "restaurant-food": "chinese",
+                    "restaurant-pricerange": "cheap"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "restaurant-food=chinese\trestaurant-pricerange=cheap"
+                ],
+                [
+                    "moderate"
+                ],
+                [
+                    "none"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "restaurant-food": "chinese",
+                    "restaurant-pricerange": "cheap"
+                },
+                {
+                    "restaurant-food": "chinese",
+                    "restaurant-pricerange": "cheap"
+                },
+                {
+                    "restaurant-food": "chinese",
+                    "restaurant-pricerange": "cheap"
+                }
+            ]
+        }
+    ]
+}

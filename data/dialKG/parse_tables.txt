@@ -1,0 +1,60 @@
+PATH1
+generations/dialKG-parse
+gpt-neo-2.7B 5
+gpt-neo-1.3B 5
+gpt-j-hf 5
+gpt-neo-2.7B 2
+gpt-neo-1.3B 2
+gpt-neo-2.7B 1
+gpt-neo-1.3B 1
+gpt-j-hf 1
+\begin{tabular}{rrrrrrrr}
+\hline
+   Shots &   124M &   355M &   774M &   1.5B &   1.3B &   2.7B &   6B \\
+\hline
+       5 &    -   &    -   &    -   &    -   &   4.54 &   6.09 & 5.49 \\
+       2 &    -   &    -   &    -   &    -   &   4.08 &   6.87 & 5.75 \\
+       1 &    -   &    -   &    -   &    -   &   2.57 &   3.87 & 6.10 \\
+\hline
+\end{tabular}
+TGT ACC
+generations/dialKG-parse
+gpt-neo-2.7B 5
+gpt-neo-1.3B 5
+gpt-j-hf 5
+gpt-neo-2.7B 2
+gpt-neo-1.3B 2
+gpt-neo-2.7B 1
+gpt-neo-1.3B 1
+gpt-j-hf 1
+\begin{tabular}{rrrrrrrr}
+\hline
+   Shots &   124M &   355M &   774M &   1.5B &   1.3B &   2.7B &   6B \\
+\hline
+       5 &    -   &    -   &    -   &    -   &   5.10 &   6.80 & 6.38 \\
+       2 &    -   &    -   &    -   &    -   &   4.87 &   8.38 & 6.16 \\
+       1 &    -   &    -   &    -   &    -   &   2.84 &   4.27 & 7.02 \\
+\hline
+\end{tabular}
+B4
+F1
+RL
+PPL
+generations/dialKG-parse
+gpt-neo-2.7B 5
+gpt-neo-1.3B 5
+gpt-j-hf 5
+gpt-neo-2.7B 2
+gpt-neo-1.3B 2
+gpt-neo-2.7B 1
+gpt-neo-1.3B 1
+gpt-j-hf 1
+\begin{tabular}{rrrrrrrr}
+\hline
+   Shots &   124M &   355M &   774M &   1.5B &   1.3B &   2.7B &     6B \\
+\hline
+       5 &    -   &    -   &    -   &    -   &  56.74 &  45.73 &  7 -   \\
+       2 &    -   &    -   &    -   &    -   &  80.22 &  55.76 &  75.58 \\
+       1 &    -   &    -   &    -   &    -   & 140.19 & 126.19 & 106.28 \\
+\hline
+\end{tabular}

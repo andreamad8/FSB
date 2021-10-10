@@ -1,0 +1,3103 @@
+{
+    "score": {
+        "BLEU": 0.0,
+        "B4": 0.38079575129539006,
+        "F1": 41.07864071145436,
+        "RL": 47.131519274376416,
+        "JGA": 0.5319148936170213,
+        "SLOT_ACC": 13.02149178255373,
+        "ppl": 8.172383844934387
+    },
+    "generation": [
+        {
+            "meta": [
+                [
+                    "hotel-pricerange=moderate"
+                ],
+                [
+                    "hotel-type=guesthouse"
+                ],
+                [
+                    "hotel-book_day=tuesday"
+                ],
+                [
+                    "hotel-type=guesthouse"
+                ],
+                [
+                    "hotel-type=guesthouse"
+                ],
+                [
+                    "None"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "hotel-pricerange": "moderate"
+                },
+                {
+                    "hotel-pricerange": "moderate",
+                    "hotel-type": "guesthouse"
+                },
+                {
+                    "hotel-pricerange": "moderate",
+                    "hotel-type": "guesthouse",
+                    "hotel-book day": "tuesday"
+                },
+                {
+                    "hotel-pricerange": "moderate",
+                    "hotel-type": "guesthouse",
+                    "hotel-book day": "tuesday"
+                },
+                {
+                    "hotel-pricerange": "moderate",
+                    "hotel-type": "guesthouse",
+                    "hotel-book day": "tuesday"
+                },
+                {
+                    "hotel-pricerange": "moderate",
+                    "hotel-type": "guesthouse",
+                    "hotel-book day": "tuesday"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "city-centre=north"
+                ],
+                [
+                    "hotel-type=guesthouse"
+                ],
+                [
+                    "None"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "city-centre": "north"
+                },
+                {
+                    "city-centre": "north",
+                    "hotel-type": "guesthouse"
+                },
+                {
+                    "city-centre": "north",
+                    "hotel-type": "guesthouse"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "hotel-type=guesthouse"
+                ],
+                [
+                    "hotel-pricerange=moderate"
+                ],
+                [
+                    "None"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "hotel-type": "guesthouse"
+                },
+                {
+                    "hotel-type": "guesthouse",
+                    "hotel-pricerange": "moderate"
+                },
+                {
+                    "hotel-type": "guesthouse",
+                    "hotel-pricerange": "moderate"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "hotel-parking=yes"
+                ],
+                [
+                    "hotel-pricerange=expensive"
+                ],
+                [
+                    "hotel-type=guesthouse"
+                ],
+                [
+                    "hotel-pricerange=free"
+                ],
+                [
+                    "hotel-book_day=tuesday"
+                ],
+                [
+                    "None"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "hotel-parking": "yes"
+                },
+                {
+                    "hotel-parking": "yes",
+                    "hotel-pricerange": "expensive"
+                },
+                {
+                    "hotel-parking": "yes",
+                    "hotel-pricerange": "expensive",
+                    "hotel-type": "guesthouse"
+                },
+                {
+                    "hotel-parking": "yes",
+                    "hotel-pricerange": "free",
+                    "hotel-type": "guesthouse"
+                },
+                {
+                    "hotel-parking": "yes",
+                    "hotel-pricerange": "free",
+                    "hotel-type": "guesthouse",
+                    "hotel-book day": "tuesday"
+                },
+                {
+                    "hotel-parking": "yes",
+                    "hotel-pricerange": "free",
+                    "hotel-type": "guesthouse",
+                    "hotel-book day": "tuesday"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "wifi=yes"
+                ],
+                [
+                    "wifi=no"
+                ],
+                [
+                    "wifi=moderate"
+                ],
+                [
+                    "wifi=moderate"
+                ],
+                [
+                    "wifi=no"
+                ],
+                [
+                    "wifi=no"
+                ],
+                [
+                    "wifi=no"
+                ],
+                [
+                    "wifi=no"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "wifi": "yes"
+                },
+                {
+                    "wifi": "no"
+                },
+                {
+                    "wifi": "moderate"
+                },
+                {
+                    "wifi": "moderate"
+                },
+                {
+                    "wifi": "no"
+                },
+                {
+                    "wifi": "no"
+                },
+                {
+                    "wifi": "no"
+                },
+                {
+                    "wifi": "no"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "hotel-rating=3"
+                ],
+                [
+                    "hotel-free_wifi=yes"
+                ],
+                [
+                    "hotel-book_day=tuesday"
+                ],
+                [
+                    "moderate_price_range=yes"
+                ],
+                [
+                    "guesthouse=yes"
+                ],
+                [
+                    "hamilton_lodge=hamilton"
+                ],
+                [
+                    "address=hamilton"
+                ],
+                [
+                    "None"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "hotel-rating": "3"
+                },
+                {
+                    "hotel-rating": "3",
+                    "hotel-free wifi": "yes"
+                },
+                {
+                    "hotel-rating": "3",
+                    "hotel-free wifi": "yes",
+                    "hotel-book day": "tuesday"
+                },
+                {
+                    "hotel-rating": "3",
+                    "hotel-free wifi": "yes",
+                    "hotel-book day": "tuesday",
+                    "moderate price range": "yes"
+                },
+                {
+                    "hotel-rating": "3",
+                    "hotel-free wifi": "yes",
+                    "hotel-book day": "tuesday",
+                    "moderate price range": "yes",
+                    "guesthouse": "yes"
+                },
+                {
+                    "hotel-rating": "3",
+                    "hotel-free wifi": "yes",
+                    "hotel-book day": "tuesday",
+                    "moderate price range": "yes",
+                    "guesthouse": "yes",
+                    "hamilton lodge": "hamilton"
+                },
+                {
+                    "hotel-rating": "3",
+                    "hotel-free wifi": "yes",
+                    "hotel-book day": "tuesday",
+                    "moderate price range": "yes",
+                    "guesthouse": "yes",
+                    "hamilton lodge": "hamilton",
+                    "address": "hamilton"
+                },
+                {
+                    "hotel-rating": "3",
+                    "hotel-free wifi": "yes",
+                    "hotel-book day": "tuesday",
+                    "moderate price range": "yes",
+                    "guesthouse": "yes",
+                    "hamilton lodge": "hamilton",
+                    "address": "hamilton"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "hotel-parking=yes"
+                ],
+                [
+                    "hotel-type=guesthouse"
+                ],
+                [
+                    "hotel-pricerange=low"
+                ],
+                [
+                    "hotel-type=guesthouse"
+                ],
+                [
+                    "None"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "hotel-parking": "yes"
+                },
+                {
+                    "hotel-parking": "yes",
+                    "hotel-type": "guesthouse"
+                },
+                {
+                    "hotel-parking": "yes",
+                    "hotel-type": "guesthouse",
+                    "hotel-pricerange": "low"
+                },
+                {
+                    "hotel-parking": "yes",
+                    "hotel-type": "guesthouse",
+                    "hotel-pricerange": "low"
+                },
+                {
+                    "hotel-parking": "yes",
+                    "hotel-type": "guesthouse",
+                    "hotel-pricerange": "low"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "hotel-pricerange=moderate"
+                ],
+                [
+                    "hotel-pricerange=moderate"
+                ],
+                [
+                    "hotel-pricerange=moderate"
+                ],
+                [
+                    "hotel-pricerange=moderate"
+                ],
+                [
+                    "hotel-pricerange=moderate"
+                ],
+                [
+                    "hotel-pricerange=moderate"
+                ],
+                [
+                    "None"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "hotel-pricerange": "moderate"
+                },
+                {
+                    "hotel-pricerange": "moderate"
+                },
+                {
+                    "hotel-pricerange": "moderate"
+                },
+                {
+                    "hotel-pricerange": "moderate"
+                },
+                {
+                    "hotel-pricerange": "moderate"
+                },
+                {
+                    "hotel-pricerange": "moderate"
+                },
+                {
+                    "hotel-pricerange": "moderate"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "hotel-type=hotel"
+                ],
+                [
+                    "hotel-pricerange=low"
+                ],
+                [
+                    "hotel-pricerange=low"
+                ],
+                [
+                    "hotel-pricerange=low"
+                ],
+                [
+                    "hotel-type=guesthouse"
+                ],
+                [
+                    "hotel-pricerange=star"
+                ],
+                [
+                    "None"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "hotel-type": "hotel"
+                },
+                {
+                    "hotel-type": "hotel",
+                    "hotel-pricerange": "low"
+                },
+                {
+                    "hotel-type": "hotel",
+                    "hotel-pricerange": "low"
+                },
+                {
+                    "hotel-type": "hotel",
+                    "hotel-pricerange": "low"
+                },
+                {
+                    "hotel-type": "guesthouse",
+                    "hotel-pricerange": "low"
+                },
+                {
+                    "hotel-type": "guesthouse",
+                    "hotel-pricerange": "star"
+                },
+                {
+                    "hotel-type": "guesthouse",
+                    "hotel-pricerange": "star"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "hotel-type=hotel"
+                ],
+                [
+                    "hotel-pricerange=moderate"
+                ],
+                [
+                    "hotel-type=guesthouse"
+                ],
+                [
+                    "hotel-type=guesthouse"
+                ],
+                [
+                    "hotel-type=guesthouse"
+                ],
+                [
+                    "hotel-pricerange=reference"
+                ],
+                [
+                    "None"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "hotel-type": "hotel"
+                },
+                {
+                    "hotel-type": "hotel",
+                    "hotel-pricerange": "moderate"
+                },
+                {
+                    "hotel-type": "guesthouse",
+                    "hotel-pricerange": "moderate"
+                },
+                {
+                    "hotel-type": "guesthouse",
+                    "hotel-pricerange": "moderate"
+                },
+                {
+                    "hotel-type": "guesthouse",
+                    "hotel-pricerange": "moderate"
+                },
+                {
+                    "hotel-type": "guesthouse",
+                    "hotel-pricerange": "reference"
+                },
+                {
+                    "hotel-type": "guesthouse",
+                    "hotel-pricerange": "reference"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "hotel-free_wifi=yes"
+                ],
+                [
+                    "hotel-type=guesthouse"
+                ],
+                [
+                    "hotel-type=guesthouse"
+                ],
+                [
+                    "hotel-type=guesthouse"
+                ],
+                [
+                    "None"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "hotel-free wifi": "yes"
+                },
+                {
+                    "hotel-free wifi": "yes",
+                    "hotel-type": "guesthouse"
+                },
+                {
+                    "hotel-free wifi": "yes",
+                    "hotel-type": "guesthouse"
+                },
+                {
+                    "hotel-free wifi": "yes",
+                    "hotel-type": "guesthouse"
+                },
+                {
+                    "hotel-free wifi": "yes",
+                    "hotel-type": "guesthouse"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "hotel-type=guesthouse"
+                ],
+                [
+                    "hotel-type=guesthouse"
+                ],
+                [
+                    "hotel-type=guesthouse"
+                ],
+                [
+                    "hotel-book_day=tuesday"
+                ],
+                [
+                    "hotel-type=guesthouse"
+                ],
+                [
+                    "None"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "hotel-type": "guesthouse"
+                },
+                {
+                    "hotel-type": "guesthouse"
+                },
+                {
+                    "hotel-type": "guesthouse"
+                },
+                {
+                    "hotel-type": "guesthouse",
+                    "hotel-book day": "tuesday"
+                },
+                {
+                    "hotel-type": "guesthouse",
+                    "hotel-book day": "tuesday"
+                },
+                {
+                    "hotel-type": "guesthouse",
+                    "hotel-book day": "tuesday"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "hotel-type=guesthouse"
+                ],
+                [
+                    "hotel-type=guesthouse"
+                ],
+                [
+                    "hotel-type=guesthouse"
+                ],
+                [
+                    "hotel-type=guesthouse"
+                ],
+                [
+                    "None"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "hotel-type": "guesthouse"
+                },
+                {
+                    "hotel-type": "guesthouse"
+                },
+                {
+                    "hotel-type": "guesthouse"
+                },
+                {
+                    "hotel-type": "guesthouse"
+                },
+                {
+                    "hotel-type": "guesthouse"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "hotel-type=guesthouse"
+                ],
+                [
+                    "hotel-type=guesthouse"
+                ],
+                [
+                    "hotel-type=guesthouse"
+                ],
+                [
+                    "hotel-type=guesthouse"
+                ],
+                [
+                    "hotel-type=guesthouse"
+                ],
+                [
+                    "hotel-type=guesthouse"
+                ],
+                [
+                    "hotel-type=guesthouse"
+                ],
+                [
+                    "hotel-type=guesthouse"
+                ],
+                [
+                    "None"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "hotel-type": "guesthouse"
+                },
+                {
+                    "hotel-type": "guesthouse"
+                },
+                {
+                    "hotel-type": "guesthouse"
+                },
+                {
+                    "hotel-type": "guesthouse"
+                },
+                {
+                    "hotel-type": "guesthouse"
+                },
+                {
+                    "hotel-type": "guesthouse"
+                },
+                {
+                    "hotel-type": "guesthouse"
+                },
+                {
+                    "hotel-type": "guesthouse"
+                },
+                {
+                    "hotel-type": "guesthouse"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "hotel-free_parking=yes"
+                ],
+                [
+                    "hotel-type=free_parking"
+                ],
+                [
+                    "hotel-type=free_parking"
+                ],
+                [
+                    "hotel-type=free_parking"
+                ],
+                [
+                    "hotel-type=free_parking"
+                ],
+                [
+                    "hotel-type=free_parking"
+                ],
+                [
+                    "None"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "hotel-free parking": "yes"
+                },
+                {
+                    "hotel-free parking": "yes",
+                    "hotel-type": "free_parking"
+                },
+                {
+                    "hotel-free parking": "yes",
+                    "hotel-type": "free_parking"
+                },
+                {
+                    "hotel-free parking": "yes",
+                    "hotel-type": "free_parking"
+                },
+                {
+                    "hotel-free parking": "yes",
+                    "hotel-type": "free_parking"
+                },
+                {
+                    "hotel-free parking": "yes",
+                    "hotel-type": "free_parking"
+                },
+                {
+                    "hotel-free parking": "yes",
+                    "hotel-type": "free_parking"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "hotel-type=guesthouse"
+                ],
+                [
+                    "hotel-pricerange=free"
+                ],
+                [
+                    "hotel-type=guesthouse"
+                ],
+                [
+                    "hotel-type=guesthouse"
+                ],
+                [
+                    "hotel-pricerange=north"
+                ],
+                [
+                    "None"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "hotel-type": "guesthouse"
+                },
+                {
+                    "hotel-type": "guesthouse",
+                    "hotel-pricerange": "free"
+                },
+                {
+                    "hotel-type": "guesthouse",
+                    "hotel-pricerange": "free"
+                },
+                {
+                    "hotel-type": "guesthouse",
+                    "hotel-pricerange": "free"
+                },
+                {
+                    "hotel-type": "guesthouse",
+                    "hotel-pricerange": "north"
+                },
+                {
+                    "hotel-type": "guesthouse",
+                    "hotel-pricerange": "north"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "hotel-type=guesthouse"
+                ],
+                [
+                    "hotel-type=guesthouse"
+                ],
+                [
+                    "hotel-type=guesthouse"
+                ],
+                [
+                    "hotel-type=guesthouse"
+                ],
+                [
+                    "hotel-type=guesthouse"
+                ],
+                [
+                    "hotel-type=guesthouse"
+                ],
+                [
+                    "hotel-type=guesthouse"
+                ],
+                [
+                    "hotel-type=guesthouse"
+                ],
+                [
+                    "None"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "hotel-type": "guesthouse"
+                },
+                {
+                    "hotel-type": "guesthouse"
+                },
+                {
+                    "hotel-type": "guesthouse"
+                },
+                {
+                    "hotel-type": "guesthouse"
+                },
+                {
+                    "hotel-type": "guesthouse"
+                },
+                {
+                    "hotel-type": "guesthouse"
+                },
+                {
+                    "hotel-type": "guesthouse"
+                },
+                {
+                    "hotel-type": "guesthouse"
+                },
+                {
+                    "hotel-type": "guesthouse"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "hotel-free_wifi=yes"
+                ],
+                [
+                    "hotel-type=guesthouse"
+                ],
+                [
+                    "hotel-pricerange=low"
+                ],
+                [
+                    "hotel-type=guesthouse"
+                ],
+                [
+                    "hotel-pricerange=no"
+                ],
+                [
+                    "None"
+                ],
+                [
+                    "None"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "hotel-free wifi": "yes"
+                },
+                {
+                    "hotel-free wifi": "yes",
+                    "hotel-type": "guesthouse"
+                },
+                {
+                    "hotel-free wifi": "yes",
+                    "hotel-type": "guesthouse",
+                    "hotel-pricerange": "low"
+                },
+                {
+                    "hotel-free wifi": "yes",
+                    "hotel-type": "guesthouse",
+                    "hotel-pricerange": "low"
+                },
+                {
+                    "hotel-free wifi": "yes",
+                    "hotel-type": "guesthouse",
+                    "hotel-pricerange": "no"
+                },
+                {
+                    "hotel-free wifi": "yes",
+                    "hotel-type": "guesthouse",
+                    "hotel-pricerange": "no"
+                },
+                {
+                    "hotel-free wifi": "yes",
+                    "hotel-type": "guesthouse",
+                    "hotel-pricerange": "no"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "hotel-type=hotel"
+                ],
+                [
+                    "hotel-type=expensive"
+                ],
+                [
+                    "hotel-type=guesthouse"
+                ],
+                [
+                    "hotel-type=guesthouse"
+                ],
+                [
+                    "hotel-type=guesthouse"
+                ],
+                [
+                    "None"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "hotel-type": "hotel"
+                },
+                {
+                    "hotel-type": "expensive"
+                },
+                {
+                    "hotel-type": "guesthouse"
+                },
+                {
+                    "hotel-type": "guesthouse"
+                },
+                {
+                    "hotel-type": "guesthouse"
+                },
+                {
+                    "hotel-type": "guesthouse"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "hotel-pricerange=free"
+                ],
+                [
+                    "hotel-type=guesthouse"
+                ],
+                [
+                    "hotel-type=guesthouse"
+                ],
+                [
+                    "hotel-type=guesthouse"
+                ],
+                [
+                    "hotel-type=guesthouse"
+                ],
+                [
+                    "hotel-type=guesthouse"
+                ],
+                [
+                    "hotel-type=guesthouse"
+                ],
+                [
+                    "hotel-type=guesthouse"
+                ],
+                [
+                    "hotel-type=guesthouse"
+                ],
+                [
+                    "None"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "hotel-pricerange": "free"
+                },
+                {
+                    "hotel-pricerange": "free",
+                    "hotel-type": "guesthouse"
+                },
+                {
+                    "hotel-pricerange": "free",
+                    "hotel-type": "guesthouse"
+                },
+                {
+                    "hotel-pricerange": "free",
+                    "hotel-type": "guesthouse"
+                },
+                {
+                    "hotel-pricerange": "free",
+                    "hotel-type": "guesthouse"
+                },
+                {
+                    "hotel-pricerange": "free",
+                    "hotel-type": "guesthouse"
+                },
+                {
+                    "hotel-pricerange": "free",
+                    "hotel-type": "guesthouse"
+                },
+                {
+                    "hotel-pricerange": "free",
+                    "hotel-type": "guesthouse"
+                },
+                {
+                    "hotel-pricerange": "free",
+                    "hotel-type": "guesthouse"
+                },
+                {
+                    "hotel-pricerange": "free",
+                    "hotel-type": "guesthouse"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "alpha-milton-guesthouse=milton"
+                ],
+                [
+                    "Goodbye"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "alpha-milton-guesthouse": "milton"
+                },
+                {
+                    "alpha-milton-guesthouse": "milton"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "hotel-rating=3"
+                ],
+                [
+                    "hotel-type=guesthouse"
+                ],
+                [
+                    "hamilton-hotel-type=guesthouse"
+                ],
+                [
+                    "hamilton-hotel-type=guesthouse"
+                ],
+                [
+                    "hamilton-hotel-type=guesthouse"
+                ],
+                [
+                    "hamilton-hotel-type=guesthouse"
+                ],
+                [
+                    "hamilton-hotel-type=guesthouse"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "hotel-rating": "3"
+                },
+                {
+                    "hotel-rating": "3",
+                    "hotel-type": "guesthouse"
+                },
+                {
+                    "hotel-rating": "3",
+                    "hotel-type": "guesthouse",
+                    "hamilton-hotel-type": "guesthouse"
+                },
+                {
+                    "hotel-rating": "3",
+                    "hotel-type": "guesthouse",
+                    "hamilton-hotel-type": "guesthouse"
+                },
+                {
+                    "hotel-rating": "3",
+                    "hotel-type": "guesthouse",
+                    "hamilton-hotel-type": "guesthouse"
+                },
+                {
+                    "hotel-rating": "3",
+                    "hotel-type": "guesthouse",
+                    "hamilton-hotel-type": "guesthouse"
+                },
+                {
+                    "hotel-rating": "3",
+                    "hotel-type": "guesthouse",
+                    "hamilton-hotel-type": "guesthouse"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "hotel-type=lensfield hotel-pricerange=lensfield hotel-pricerange-type=lensfield hotel-pricerange-pricerange-type=lensfield hotel-pricerange-pricer"
+                ],
+                [
+                    "hotel-pricerange=lensfield hotel-pricerange-type=lensfield hotel-pricerange-type=lensfield hotel-pricerange-pricerange-type=lensfield hotel-pricer"
+                ],
+                [
+                    "None"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "hotel-type": "lensfield hotel-pricerange"
+                },
+                {
+                    "hotel-type": "lensfield hotel-pricerange",
+                    "hotel-pricerange": "lensfield hotel-pricerange-type"
+                },
+                {
+                    "hotel-type": "lensfield hotel-pricerange",
+                    "hotel-pricerange": "lensfield hotel-pricerange-type"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "hotel-type=guesthouse"
+                ],
+                [
+                    "hotel-pricerange=free"
+                ],
+                [
+                    "hotel-type=guesthouse"
+                ],
+                [
+                    "None"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "hotel-type": "guesthouse"
+                },
+                {
+                    "hotel-type": "guesthouse",
+                    "hotel-pricerange": "free"
+                },
+                {
+                    "hotel-type": "guesthouse",
+                    "hotel-pricerange": "free"
+                },
+                {
+                    "hotel-type": "guesthouse",
+                    "hotel-pricerange": "free"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "hotel-type=moderate"
+                ],
+                [
+                    "hotel-type=moderate"
+                ],
+                [
+                    "hotel-type=parking"
+                ],
+                [
+                    "hotel-type=parking"
+                ],
+                [
+                    "None"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "hotel-type": "moderate"
+                },
+                {
+                    "hotel-type": "moderate"
+                },
+                {
+                    "hotel-type": "parking"
+                },
+                {
+                    "hotel-type": "parking"
+                },
+                {
+                    "hotel-type": "parking"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "hotel-type=guesthouse"
+                ],
+                [
+                    "hotel-pricerange=free"
+                ],
+                [
+                    "hotel-type=guesthouse"
+                ],
+                [
+                    "hotel-pricerange=star"
+                ],
+                [
+                    "hotel-pricerange=4"
+                ],
+                [
+                    "None"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "hotel-type": "guesthouse"
+                },
+                {
+                    "hotel-type": "guesthouse",
+                    "hotel-pricerange": "free"
+                },
+                {
+                    "hotel-type": "guesthouse",
+                    "hotel-pricerange": "free"
+                },
+                {
+                    "hotel-type": "guesthouse",
+                    "hotel-pricerange": "star"
+                },
+                {
+                    "hotel-type": "guesthouse",
+                    "hotel-pricerange": "4"
+                },
+                {
+                    "hotel-type": "guesthouse",
+                    "hotel-pricerange": "4"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "hotel-parking=yes"
+                ],
+                [
+                    "hotel-type=guesthouse"
+                ],
+                [
+                    "hotel-type=guesthouse"
+                ],
+                [
+                    "hotel-pricerange=free"
+                ],
+                [
+                    "None"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "hotel-parking": "yes"
+                },
+                {
+                    "hotel-parking": "yes",
+                    "hotel-type": "guesthouse"
+                },
+                {
+                    "hotel-parking": "yes",
+                    "hotel-type": "guesthouse"
+                },
+                {
+                    "hotel-parking": "yes",
+                    "hotel-type": "guesthouse",
+                    "hotel-pricerange": "free"
+                },
+                {
+                    "hotel-parking": "yes",
+                    "hotel-type": "guesthouse",
+                    "hotel-pricerange": "free"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "hotel-type=guesthouse"
+                ],
+                [
+                    "hotel-type=guesthouse"
+                ],
+                [
+                    "hotel-type=guesthouse"
+                ],
+                [
+                    "hotel-type=guesthouse"
+                ],
+                [
+                    "None"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "hotel-type": "guesthouse"
+                },
+                {
+                    "hotel-type": "guesthouse"
+                },
+                {
+                    "hotel-type": "guesthouse"
+                },
+                {
+                    "hotel-type": "guesthouse"
+                },
+                {
+                    "hotel-type": "guesthouse"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "hotel-type=guesthouse"
+                ],
+                [
+                    "hotel-type=guesthouse"
+                ],
+                [
+                    "hotel-type=guesthouse"
+                ],
+                [
+                    "hotel-type=guesthouse"
+                ],
+                [
+                    "hotel-type=guesthouse"
+                ],
+                [
+                    "None"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "hotel-type": "guesthouse"
+                },
+                {
+                    "hotel-type": "guesthouse"
+                },
+                {
+                    "hotel-type": "guesthouse"
+                },
+                {
+                    "hotel-type": "guesthouse"
+                },
+                {
+                    "hotel-type": "guesthouse"
+                },
+                {
+                    "hotel-type": "guesthouse"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "hotel-type=hotel"
+                ],
+                [
+                    "hotel-pricerange=free"
+                ],
+                [
+                    "hotel-pricerange=postcode"
+                ],
+                [
+                    "hotel-type=guesthouse"
+                ],
+                [
+                    "hotel-pricerange=free"
+                ],
+                [
+                    "None"
+                ],
+                [
+                    "None"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "hotel-type": "hotel"
+                },
+                {
+                    "hotel-type": "hotel",
+                    "hotel-pricerange": "free"
+                },
+                {
+                    "hotel-type": "hotel",
+                    "hotel-pricerange": "postcode"
+                },
+                {
+                    "hotel-type": "guesthouse",
+                    "hotel-pricerange": "postcode"
+                },
+                {
+                    "hotel-type": "guesthouse",
+                    "hotel-pricerange": "free"
+                },
+                {
+                    "hotel-type": "guesthouse",
+                    "hotel-pricerange": "free"
+                },
+                {
+                    "hotel-type": "guesthouse",
+                    "hotel-pricerange": "free"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "hotel-type=warkworth hotel-pricerange=warkworth"
+                ],
+                [
+                    "hotel-pricerange=warkworth"
+                ],
+                [
+                    "hotel-type=warkworth hotel-pricerange=warkworth"
+                ],
+                [
+                    "hotel-type=warkworth hotel-pricerange=warkworth"
+                ],
+                [
+                    "None"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "hotel-type": "warkworth hotel-pricerange"
+                },
+                {
+                    "hotel-type": "warkworth hotel-pricerange",
+                    "hotel-pricerange": "warkworth"
+                },
+                {
+                    "hotel-type": "warkworth hotel-pricerange",
+                    "hotel-pricerange": "warkworth"
+                },
+                {
+                    "hotel-type": "warkworth hotel-pricerange",
+                    "hotel-pricerange": "warkworth"
+                },
+                {
+                    "hotel-type": "warkworth hotel-pricerange",
+                    "hotel-pricerange": "warkworth"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "hotel-type=hotel"
+                ],
+                [
+                    "hotel-pricerange=moderate"
+                ],
+                [
+                    "hotel-pricerange=address"
+                ],
+                [
+                    "hotel-pricerange=address"
+                ],
+                [
+                    "None"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "hotel-type": "hotel"
+                },
+                {
+                    "hotel-type": "hotel",
+                    "hotel-pricerange": "moderate"
+                },
+                {
+                    "hotel-type": "hotel",
+                    "hotel-pricerange": "address"
+                },
+                {
+                    "hotel-type": "hotel",
+                    "hotel-pricerange": "address"
+                },
+                {
+                    "hotel-type": "hotel",
+                    "hotel-pricerange": "address"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "warkworth-house=warkworth-house"
+                ],
+                [
+                    "warkworkth-house-price=5"
+                ],
+                [
+                    "None"
+                ],
+                [
+                    "None"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "warkworth-house": "warkworth-house"
+                },
+                {
+                    "warkworth-house": "warkworth-house",
+                    "warkworkth-house-price": "5"
+                },
+                {
+                    "warkworth-house": "warkworth-house",
+                    "warkworkth-house-price": "5"
+                },
+                {
+                    "warkworth-house": "warkworth-house",
+                    "warkworkth-house-price": "5"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "hotel-free_wifi=yes"
+                ],
+                [
+                    "hotel-type=guesthouse"
+                ],
+                [
+                    "hotel-type=guesthouse"
+                ],
+                [
+                    "hotel-type=guesthouse"
+                ],
+                [
+                    "hotel-type=guesthouse"
+                ],
+                [
+                    "hotel-type=guesthouse"
+                ],
+                [
+                    "hotel-type=guesthouse"
+                ],
+                [
+                    "hotel-type=guesthouse"
+                ],
+                [
+                    "hotel-type=guesthouse"
+                ],
+                [
+                    "None"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "hotel-free wifi": "yes"
+                },
+                {
+                    "hotel-free wifi": "yes",
+                    "hotel-type": "guesthouse"
+                },
+                {
+                    "hotel-free wifi": "yes",
+                    "hotel-type": "guesthouse"
+                },
+                {
+                    "hotel-free wifi": "yes",
+                    "hotel-type": "guesthouse"
+                },
+                {
+                    "hotel-free wifi": "yes",
+                    "hotel-type": "guesthouse"
+                },
+                {
+                    "hotel-free wifi": "yes",
+                    "hotel-type": "guesthouse"
+                },
+                {
+                    "hotel-free wifi": "yes",
+                    "hotel-type": "guesthouse"
+                },
+                {
+                    "hotel-free wifi": "yes",
+                    "hotel-type": "guesthouse"
+                },
+                {
+                    "hotel-free wifi": "yes",
+                    "hotel-type": "guesthouse"
+                },
+                {
+                    "hotel-free wifi": "yes",
+                    "hotel-type": "guesthouse"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "hotel-type=hotel"
+                ],
+                [
+                    "hotel-pricerange=moderate"
+                ],
+                [
+                    "hotel-type=lovell-lodge"
+                ],
+                [
+                    "hotel-type=lovell-lodge"
+                ],
+                [
+                    "None"
+                ],
+                [
+                    "None"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "hotel-type": "hotel"
+                },
+                {
+                    "hotel-type": "hotel",
+                    "hotel-pricerange": "moderate"
+                },
+                {
+                    "hotel-type": "lovell-lodge",
+                    "hotel-pricerange": "moderate"
+                },
+                {
+                    "hotel-type": "lovell-lodge",
+                    "hotel-pricerange": "moderate"
+                },
+                {
+                    "hotel-type": "lovell-lodge",
+                    "hotel-pricerange": "moderate"
+                },
+                {
+                    "hotel-type": "lovell-lodge",
+                    "hotel-pricerange": "moderate"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "hotel-parking=yes"
+                ],
+                [
+                    "hotel-type=guesthouse"
+                ],
+                [
+                    "hotel-pricerange=free"
+                ],
+                [
+                    "None"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "hotel-parking": "yes"
+                },
+                {
+                    "hotel-parking": "yes",
+                    "hotel-type": "guesthouse"
+                },
+                {
+                    "hotel-parking": "yes",
+                    "hotel-type": "guesthouse",
+                    "hotel-pricerange": "free"
+                },
+                {
+                    "hotel-parking": "yes",
+                    "hotel-type": "guesthouse",
+                    "hotel-pricerange": "free"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "hotel-info=info"
+                ],
+                [
+                    "hotel-info=info"
+                ],
+                [
+                    "hotel-info=info"
+                ],
+                [
+                    "hotel-info=info"
+                ],
+                [
+                    "None"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "hotel-info": "info"
+                },
+                {
+                    "hotel-info": "info"
+                },
+                {
+                    "hotel-info": "info"
+                },
+                {
+                    "hotel-info": "info"
+                },
+                {
+                    "hotel-info": "info"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "hotel-type=hotel"
+                ],
+                [
+                    "hotel-type=guesthouse"
+                ],
+                [
+                    "hotel-pricerange=moderate"
+                ],
+                [
+                    "hotel-type=guesthouse"
+                ],
+                [
+                    "hotel-type=guesthouse"
+                ],
+                [
+                    "hotel-type=guesthouse"
+                ],
+                [
+                    "hotel-type=guesthouse"
+                ],
+                [
+                    "None"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "hotel-type": "hotel"
+                },
+                {
+                    "hotel-type": "guesthouse"
+                },
+                {
+                    "hotel-type": "guesthouse",
+                    "hotel-pricerange": "moderate"
+                },
+                {
+                    "hotel-type": "guesthouse",
+                    "hotel-pricerange": "moderate"
+                },
+                {
+                    "hotel-type": "guesthouse",
+                    "hotel-pricerange": "moderate"
+                },
+                {
+                    "hotel-type": "guesthouse",
+                    "hotel-pricerange": "moderate"
+                },
+                {
+                    "hotel-type": "guesthouse",
+                    "hotel-pricerange": "moderate"
+                },
+                {
+                    "hotel-type": "guesthouse",
+                    "hotel-pricerange": "moderate"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "hotel-free-wifi=yes"
+                ],
+                [
+                    "hotel-price_range=yes"
+                ],
+                [
+                    "hotel-book_day=tuesday"
+                ],
+                [
+                    "hotel-book_day=tuesday"
+                ],
+                [
+                    "hotel-book_day=tuesday"
+                ],
+                [
+                    "hotel-book_day=tuesday"
+                ],
+                [
+                    "None"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "hotel-free-wifi": "yes"
+                },
+                {
+                    "hotel-free-wifi": "yes",
+                    "hotel-price range": "yes"
+                },
+                {
+                    "hotel-free-wifi": "yes",
+                    "hotel-price range": "yes",
+                    "hotel-book day": "tuesday"
+                },
+                {
+                    "hotel-free-wifi": "yes",
+                    "hotel-price range": "yes",
+                    "hotel-book day": "tuesday"
+                },
+                {
+                    "hotel-free-wifi": "yes",
+                    "hotel-price range": "yes",
+                    "hotel-book day": "tuesday"
+                },
+                {
+                    "hotel-free-wifi": "yes",
+                    "hotel-price range": "yes",
+                    "hotel-book day": "tuesday"
+                },
+                {
+                    "hotel-free-wifi": "yes",
+                    "hotel-price range": "yes",
+                    "hotel-book day": "tuesday"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "warkworth-house=warkworth-house"
+                ],
+                [
+                    "book_people=3"
+                ],
+                [
+                    "book_people=5"
+                ],
+                [
+                    "Goodbye"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "warkworth-house": "warkworth-house"
+                },
+                {
+                    "warkworth-house": "warkworth-house",
+                    "book people": "3"
+                },
+                {
+                    "warkworth-house": "warkworth-house",
+                    "book people": "5"
+                },
+                {
+                    "warkworth-house": "warkworth-house",
+                    "book people": "5"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "hotel-type=guesthouse"
+                ],
+                [
+                    "hotel-pricerange=moderate"
+                ],
+                [
+                    "hotel-type=guesthouse"
+                ],
+                [
+                    "None"
+                ],
+                [
+                    "hotel-type=guesthouse"
+                ],
+                [
+                    "None"
+                ],
+                [
+                    "None"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "hotel-type": "guesthouse"
+                },
+                {
+                    "hotel-type": "guesthouse",
+                    "hotel-pricerange": "moderate"
+                },
+                {
+                    "hotel-type": "guesthouse",
+                    "hotel-pricerange": "moderate"
+                },
+                {
+                    "hotel-type": "guesthouse",
+                    "hotel-pricerange": "moderate"
+                },
+                {
+                    "hotel-type": "guesthouse",
+                    "hotel-pricerange": "moderate"
+                },
+                {
+                    "hotel-type": "guesthouse",
+                    "hotel-pricerange": "moderate"
+                },
+                {
+                    "hotel-type": "guesthouse",
+                    "hotel-pricerange": "moderate"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "hotel-type=guesthouse arbury-lodge-guesthouse=arbury"
+                ],
+                [
+                    "hotel-type=guesthouse arbury-lodge-stay=arbury"
+                ],
+                [
+                    "None"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "hotel-type": "guesthouse arbury-lodge-guesthouse"
+                },
+                {
+                    "hotel-type": "guesthouse arbury-lodge-stay"
+                },
+                {
+                    "hotel-type": "guesthouse arbury-lodge-stay"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "hotel-type=guesthouse"
+                ],
+                [
+                    "hotel-pricerange=free"
+                ],
+                [
+                    "hotel-pricerange=free"
+                ],
+                [
+                    "None"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "hotel-type": "guesthouse"
+                },
+                {
+                    "hotel-type": "guesthouse",
+                    "hotel-pricerange": "free"
+                },
+                {
+                    "hotel-type": "guesthouse",
+                    "hotel-pricerange": "free"
+                },
+                {
+                    "hotel-type": "guesthouse",
+                    "hotel-pricerange": "free"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "hotel-type=guesthouse"
+                ],
+                [
+                    "hotel-type=guesthouse"
+                ],
+                [
+                    "hotel-type=guesthouse"
+                ],
+                [
+                    "hotel-book_day=tuesday"
+                ],
+                [
+                    "None"
+                ],
+                [
+                    "None"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "hotel-type": "guesthouse"
+                },
+                {
+                    "hotel-type": "guesthouse"
+                },
+                {
+                    "hotel-type": "guesthouse"
+                },
+                {
+                    "hotel-type": "guesthouse",
+                    "hotel-book day": "tuesday"
+                },
+                {
+                    "hotel-type": "guesthouse",
+                    "hotel-book day": "tuesday"
+                },
+                {
+                    "hotel-type": "guesthouse",
+                    "hotel-book day": "tuesday"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "hotel-type=guesthouse"
+                ],
+                [
+                    "hotel-type=guesthouse"
+                ],
+                [
+                    "hotel-pricerange=low"
+                ],
+                [
+                    "None"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "hotel-type": "guesthouse"
+                },
+                {
+                    "hotel-type": "guesthouse"
+                },
+                {
+                    "hotel-type": "guesthouse",
+                    "hotel-pricerange": "low"
+                },
+                {
+                    "hotel-type": "guesthouse",
+                    "hotel-pricerange": "low"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "hotel-type=4star"
+                ],
+                [
+                    "hotel-type=guesthouse"
+                ],
+                [
+                    "hotel-type=centre"
+                ],
+                [
+                    "hotel-type=room"
+                ],
+                [
+                    "hotel-type=party"
+                ],
+                [
+                    "hotel-type=day"
+                ],
+                [
+                    "hotel-type=avaible"
+                ],
+                [
+                    "hotel-type=night"
+                ],
+                [
+                    "hotel-type=stay"
+                ],
+                [
+                    "hotel-type=party"
+                ],
+                [
+                    "None"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "hotel-type": "4star"
+                },
+                {
+                    "hotel-type": "guesthouse"
+                },
+                {
+                    "hotel-type": "centre"
+                },
+                {
+                    "hotel-type": "room"
+                },
+                {
+                    "hotel-type": "party"
+                },
+                {
+                    "hotel-type": "day"
+                },
+                {
+                    "hotel-type": "avaible"
+                },
+                {
+                    "hotel-type": "night"
+                },
+                {
+                    "hotel-type": "stay"
+                },
+                {
+                    "hotel-type": "party"
+                },
+                {
+                    "hotel-type": "party"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "hotel-pricerange=moderate"
+                ],
+                [
+                    "hotel-type=guesthouse"
+                ],
+                [
+                    "hotel-pricerange=moderate"
+                ],
+                [
+                    "hotel-type=guesthouse"
+                ],
+                [
+                    "hotel-type=guesthouse"
+                ],
+                [
+                    "None"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "hotel-pricerange": "moderate"
+                },
+                {
+                    "hotel-pricerange": "moderate",
+                    "hotel-type": "guesthouse"
+                },
+                {
+                    "hotel-pricerange": "moderate",
+                    "hotel-type": "guesthouse"
+                },
+                {
+                    "hotel-pricerange": "moderate",
+                    "hotel-type": "guesthouse"
+                },
+                {
+                    "hotel-pricerange": "moderate",
+                    "hotel-type": "guesthouse"
+                },
+                {
+                    "hotel-pricerange": "moderate",
+                    "hotel-type": "guesthouse"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "hotel-parking=yes"
+                ],
+                [
+                    "hotel-type=guesthouse"
+                ],
+                [
+                    "hotel-pricerange=expensive"
+                ],
+                [
+                    "None"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "hotel-parking": "yes"
+                },
+                {
+                    "hotel-parking": "yes",
+                    "hotel-type": "guesthouse"
+                },
+                {
+                    "hotel-parking": "yes",
+                    "hotel-type": "guesthouse",
+                    "hotel-pricerange": "expensive"
+                },
+                {
+                    "hotel-parking": "yes",
+                    "hotel-type": "guesthouse",
+                    "hotel-pricerange": "expensive"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "hotel-rating=0"
+                ],
+                [
+                    "cityroomz=0"
+                ],
+                [
+                    "hotel-book_day=friday"
+                ],
+                [
+                    "hotel-book_day=1"
+                ],
+                [
+                    "hotel-book_day=friday"
+                ],
+                [
+                    "hotel-book_day=saturday"
+                ],
+                [
+                    "None"
+                ],
+                [
+                    "None"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "hotel-rating": "0"
+                },
+                {
+                    "hotel-rating": "0",
+                    "cityroomz": "0"
+                },
+                {
+                    "hotel-rating": "0",
+                    "cityroomz": "0",
+                    "hotel-book day": "friday"
+                },
+                {
+                    "hotel-rating": "0",
+                    "cityroomz": "0",
+                    "hotel-book day": "1"
+                },
+                {
+                    "hotel-rating": "0",
+                    "cityroomz": "0",
+                    "hotel-book day": "friday"
+                },
+                {
+                    "hotel-rating": "0",
+                    "cityroomz": "0",
+                    "hotel-book day": "saturday"
+                },
+                {
+                    "hotel-rating": "0",
+                    "cityroomz": "0",
+                    "hotel-book day": "saturday"
+                },
+                {
+                    "hotel-rating": "0",
+                    "cityroomz": "0",
+                    "hotel-book day": "saturday"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "hotel-pricerange=yes"
+                ],
+                [
+                    "hotel-type=guesthouse"
+                ],
+                [
+                    "hotel-pricerange=moderate"
+                ],
+                [
+                    "hotel-type=guesthouse"
+                ],
+                [
+                    "hotel-type=guesthouse"
+                ],
+                [
+                    "hotel-type=guesthouse"
+                ],
+                [
+                    "None"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "hotel-pricerange": "yes"
+                },
+                {
+                    "hotel-pricerange": "yes",
+                    "hotel-type": "guesthouse"
+                },
+                {
+                    "hotel-pricerange": "moderate",
+                    "hotel-type": "guesthouse"
+                },
+                {
+                    "hotel-pricerange": "moderate",
+                    "hotel-type": "guesthouse"
+                },
+                {
+                    "hotel-pricerange": "moderate",
+                    "hotel-type": "guesthouse"
+                },
+                {
+                    "hotel-pricerange": "moderate",
+                    "hotel-type": "guesthouse"
+                },
+                {
+                    "hotel-pricerange": "moderate",
+                    "hotel-type": "guesthouse"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "guesthouse=free wifi"
+                ],
+                [
+                    "guesthouse-parking=free wifi"
+                ],
+                [
+                    "guesthouse-type=guesthouse"
+                ],
+                [
+                    "None"
+                ],
+                [
+                    "None"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "guesthouse": "free wifi"
+                },
+                {
+                    "guesthouse": "free wifi",
+                    "guesthouse-parking": "free wifi"
+                },
+                {
+                    "guesthouse": "free wifi",
+                    "guesthouse-parking": "free wifi",
+                    "guesthouse-type": "guesthouse"
+                },
+                {
+                    "guesthouse": "free wifi",
+                    "guesthouse-parking": "free wifi",
+                    "guesthouse-type": "guesthouse"
+                },
+                {
+                    "guesthouse": "free wifi",
+                    "guesthouse-parking": "free wifi",
+                    "guesthouse-type": "guesthouse"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "hotel-type=guesthouse"
+                ],
+                [
+                    "hotel-pricerange=4 star"
+                ],
+                [
+                    "hotel-pricerange=4 star"
+                ],
+                [
+                    "hotel-pricerange=acorn"
+                ],
+                [
+                    "None"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "hotel-type": "guesthouse"
+                },
+                {
+                    "hotel-type": "guesthouse",
+                    "hotel-pricerange": "4 star"
+                },
+                {
+                    "hotel-type": "guesthouse",
+                    "hotel-pricerange": "4 star"
+                },
+                {
+                    "hotel-type": "guesthouse",
+                    "hotel-pricerange": "acorn"
+                },
+                {
+                    "hotel-type": "guesthouse",
+                    "hotel-pricerange": "acorn"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "hotel-type=guesthouse"
+                ],
+                [
+                    "hotel-type=guesthouse"
+                ],
+                [
+                    "hotel-type=guesthouse"
+                ],
+                [
+                    "hotel-type=guesthouse"
+                ],
+                [
+                    "None"
+                ],
+                [
+                    "None"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "hotel-type": "guesthouse"
+                },
+                {
+                    "hotel-type": "guesthouse"
+                },
+                {
+                    "hotel-type": "guesthouse"
+                },
+                {
+                    "hotel-type": "guesthouse"
+                },
+                {
+                    "hotel-type": "guesthouse"
+                },
+                {
+                    "hotel-type": "guesthouse"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "hotel-parking=yes"
+                ],
+                [
+                    "hotel-type=guesthouse"
+                ],
+                [
+                    "hotel-type=guesthouse"
+                ],
+                [
+                    "hotel-type=guesthouse"
+                ],
+                [
+                    "None"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "hotel-parking": "yes"
+                },
+                {
+                    "hotel-parking": "yes",
+                    "hotel-type": "guesthouse"
+                },
+                {
+                    "hotel-parking": "yes",
+                    "hotel-type": "guesthouse"
+                },
+                {
+                    "hotel-parking": "yes",
+                    "hotel-type": "guesthouse"
+                },
+                {
+                    "hotel-parking": "yes",
+                    "hotel-type": "guesthouse"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "hotel-pricerange=3star"
+                ],
+                [
+                    "hotel-type=guesthouse"
+                ],
+                [
+                    "hotel-pricerange=free"
+                ],
+                [
+                    "None"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "hotel-pricerange": "3star"
+                },
+                {
+                    "hotel-pricerange": "3star",
+                    "hotel-type": "guesthouse"
+                },
+                {
+                    "hotel-pricerange": "free",
+                    "hotel-type": "guesthouse"
+                },
+                {
+                    "hotel-pricerange": "free",
+                    "hotel-type": "guesthouse"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "hotel-type=el-shaddai"
+                ],
+                [
+                    "hotel-type=el-shaddai"
+                ],
+                [
+                    "hotel-type=el-shaddai"
+                ],
+                [
+                    "None"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "hotel-type": "el-shaddai"
+                },
+                {
+                    "hotel-type": "el-shaddai"
+                },
+                {
+                    "hotel-type": "el-shaddai"
+                },
+                {
+                    "hotel-type": "el-shaddai"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "hotel-type=guesthouse"
+                ],
+                [
+                    "hotel-type=guesthouse"
+                ],
+                [
+                    "hotel-type=guesthouse"
+                ],
+                [
+                    "hotel-type=guesthouse"
+                ],
+                [
+                    "None"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "hotel-type": "guesthouse"
+                },
+                {
+                    "hotel-type": "guesthouse"
+                },
+                {
+                    "hotel-type": "guesthouse"
+                },
+                {
+                    "hotel-type": "guesthouse"
+                },
+                {
+                    "hotel-type": "guesthouse"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "free wi fi=yes"
+                ],
+                [
+                    "cheap wi fi=yes"
+                ],
+                [
+                    "free wi fi=yes"
+                ],
+                [
+                    "free wi fi=yes"
+                ],
+                [
+                    "free wi fi=yes"
+                ],
+                [
+                    "free wi fi=yes"
+                ],
+                [
+                    "free wi fi=yes"
+                ],
+                [
+                    "free wi fi=yes"
+                ],
+                [
+                    "free wi fi=yes"
+                ],
+                [
+                    "None"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "free wi fi": "yes"
+                },
+                {
+                    "free wi fi": "yes",
+                    "cheap wi fi": "yes"
+                },
+                {
+                    "free wi fi": "yes",
+                    "cheap wi fi": "yes"
+                },
+                {
+                    "free wi fi": "yes",
+                    "cheap wi fi": "yes"
+                },
+                {
+                    "free wi fi": "yes",
+                    "cheap wi fi": "yes"
+                },
+                {
+                    "free wi fi": "yes",
+                    "cheap wi fi": "yes"
+                },
+                {
+                    "free wi fi": "yes",
+                    "cheap wi fi": "yes"
+                },
+                {
+                    "free wi fi": "yes",
+                    "cheap wi fi": "yes"
+                },
+                {
+                    "free wi fi": "yes",
+                    "cheap wi fi": "yes"
+                },
+                {
+                    "free wi fi": "yes",
+                    "cheap wi fi": "yes"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "hotel-type=bridge guesthouse"
+                ],
+                [
+                    "hotel-type=bridge guesthouse"
+                ],
+                [
+                    "hotel-type=bridge guesthouse"
+                ],
+                [
+                    "None"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "hotel-type": "bridge guesthouse"
+                },
+                {
+                    "hotel-type": "bridge guesthouse"
+                },
+                {
+                    "hotel-type": "bridge guesthouse"
+                },
+                {
+                    "hotel-type": "bridge guesthouse"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "hotel-type=guesthouse"
+                ],
+                [
+                    "hotel-book_day=monday"
+                ],
+                [
+                    "None"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "hotel-type": "guesthouse"
+                },
+                {
+                    "hotel-type": "guesthouse",
+                    "hotel-book day": "monday"
+                },
+                {
+                    "hotel-type": "guesthouse",
+                    "hotel-book day": "monday"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "guesthouse=4star"
+                ],
+                [
+                    "guesthouse=south"
+                ],
+                [
+                    "rosa-bed-and-breakfast=3"
+                ],
+                [
+                    "None"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "guesthouse": "4star"
+                },
+                {
+                    "guesthouse": "south"
+                },
+                {
+                    "guesthouse": "south",
+                    "rosa-bed-and-breakfast": "3"
+                },
+                {
+                    "guesthouse": "south",
+                    "rosa-bed-and-breakfast": "3"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "hotel-type=guesthouse"
+                ],
+                [
+                    "hotel-type=guesthouse"
+                ],
+                [
+                    "hotel-type=guesthouse"
+                ],
+                [
+                    "hotel-type=guesthouse"
+                ],
+                [
+                    "None"
+                ],
+                [
+                    "None"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "hotel-type": "guesthouse"
+                },
+                {
+                    "hotel-type": "guesthouse"
+                },
+                {
+                    "hotel-type": "guesthouse"
+                },
+                {
+                    "hotel-type": "guesthouse"
+                },
+                {
+                    "hotel-type": "guesthouse"
+                },
+                {
+                    "hotel-type": "guesthouse"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "hotel-free-wifi=yes"
+                ],
+                [
+                    "hotel-type=moderate"
+                ],
+                [
+                    "hotel-pricerange=moderate"
+                ],
+                [
+                    "hotel-book_day=tuesday"
+                ],
+                [
+                    "hotel-type=guesthouse"
+                ],
+                [
+                    "hotel-pricerange=moderate"
+                ],
+                [
+                    "hotel-book_day=tuesday"
+                ],
+                [
+                    "hotel-type=guesthouse"
+                ],
+                [
+                    "None"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "hotel-free-wifi": "yes"
+                },
+                {
+                    "hotel-free-wifi": "yes",
+                    "hotel-type": "moderate"
+                },
+                {
+                    "hotel-free-wifi": "yes",
+                    "hotel-type": "moderate",
+                    "hotel-pricerange": "moderate"
+                },
+                {
+                    "hotel-free-wifi": "yes",
+                    "hotel-type": "moderate",
+                    "hotel-pricerange": "moderate",
+                    "hotel-book day": "tuesday"
+                },
+                {
+                    "hotel-free-wifi": "yes",
+                    "hotel-type": "guesthouse",
+                    "hotel-pricerange": "moderate",
+                    "hotel-book day": "tuesday"
+                },
+                {
+                    "hotel-free-wifi": "yes",
+                    "hotel-type": "guesthouse",
+                    "hotel-pricerange": "moderate",
+                    "hotel-book day": "tuesday"
+                },
+                {
+                    "hotel-free-wifi": "yes",
+                    "hotel-type": "guesthouse",
+                    "hotel-pricerange": "moderate",
+                    "hotel-book day": "tuesday"
+                },
+                {
+                    "hotel-free-wifi": "yes",
+                    "hotel-type": "guesthouse",
+                    "hotel-pricerange": "moderate",
+                    "hotel-book day": "tuesday"
+                },
+                {
+                    "hotel-free-wifi": "yes",
+                    "hotel-type": "guesthouse",
+                    "hotel-pricerange": "moderate",
+                    "hotel-book day": "tuesday"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "cheap=yes"
+                ],
+                [
+                    "center=yes"
+                ],
+                [
+                    "wi fi=yes"
+                ],
+                [
+                    "room=yes"
+                ],
+                [
+                    "None"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "cheap": "yes"
+                },
+                {
+                    "cheap": "yes",
+                    "center": "yes"
+                },
+                {
+                    "cheap": "yes",
+                    "center": "yes",
+                    "wi fi": "yes"
+                },
+                {
+                    "cheap": "yes",
+                    "center": "yes",
+                    "wi fi": "yes",
+                    "room": "yes"
+                },
+                {
+                    "cheap": "yes",
+                    "center": "yes",
+                    "wi fi": "yes",
+                    "room": "yes"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "hotel-free-wifi=yes"
+                ],
+                [
+                    "hotel-pricerange=expensive"
+                ],
+                [
+                    "hotel-type=guesthouse"
+                ],
+                [
+                    "hotel-pricerange=moderate"
+                ],
+                [
+                    "None"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "hotel-free-wifi": "yes"
+                },
+                {
+                    "hotel-free-wifi": "yes",
+                    "hotel-pricerange": "expensive"
+                },
+                {
+                    "hotel-free-wifi": "yes",
+                    "hotel-pricerange": "expensive",
+                    "hotel-type": "guesthouse"
+                },
+                {
+                    "hotel-free-wifi": "yes",
+                    "hotel-pricerange": "moderate",
+                    "hotel-type": "guesthouse"
+                },
+                {
+                    "hotel-free-wifi": "yes",
+                    "hotel-pricerange": "moderate",
+                    "hotel-type": "guesthouse"
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,402 @@
+[
+    {
+        "meta": [
+            [
+                "attraction-type=museum\tattraction-area=centre"
+            ],
+            [],
+            [],
+            []
+        ],
+        "dialogue": [
+            [
+                "are there museums in the town centre ?",
+                "yes , there are 11 museums in the centre of town . what other information would you like ?"
+            ],
+            [
+                "can you recommend 1 and give me their address and postcode ?",
+                "i definitely recommend the williams art and antiques . it s free to get in . they are located on gwydir street , no . 5 dale s brewery . the postcode is cb12lj ."
+            ],
+            [
+                "thanks so much , that sounds perfect .",
+                "is there anything else i can help you with today ?"
+            ],
+            [
+                "no , i think that covers everything . thanks so much for your help .",
+                "none"
+            ]
+        ],
+        "state": [
+            "none",
+            "attraction-type=museum\tattraction-area=centre",
+            "attraction-type=museum\tattraction-area=centre",
+            "attraction-type=museum\tattraction-area=centre",
+            "attraction-type=museum\tattraction-area=centre"
+        ],
+        "dial_id": "SNG1069.json"
+    },
+    {
+        "meta": [
+            [
+                "attraction-area=centre"
+            ],
+            [
+                "attraction-type=college"
+            ],
+            [],
+            []
+        ],
+        "dialogue": [
+            [
+                "what attractions do you have in town , preferably near the centre ?",
+                "we have 44 attractions in the centre , colleges , architecture , museums"
+            ],
+            [
+                "can you recommend a college in the centre and tell me the entrance fee ?",
+                "there are 13 colleges in the centre of town with entrance fees ranging from free to 2 pounds 50 . do you have a preference on entry price ?"
+            ],
+            [
+                "which is your favorite ? and what is its entrance fee ?",
+                "my favorite is christ s college and there is no entrance fee ."
+            ],
+            [
+                "great , that s all i need . thank you !",
+                "none"
+            ]
+        ],
+        "state": [
+            "none",
+            "attraction-area=centre",
+            "attraction-type=college\tattraction-area=centre",
+            "attraction-type=college\tattraction-area=centre",
+            "attraction-type=college\tattraction-area=centre"
+        ],
+        "dial_id": "SNG1071.json"
+    },
+    {
+        "meta": [
+            [
+                "attraction-type=museum\tattraction-area=centre"
+            ],
+            [],
+            []
+        ],
+        "dialogue": [
+            [
+                "i want to find a museum in the centre of town please .",
+                "castle galleries is a museum in the center of town , entry is free , would you like more details ?"
+            ],
+            [
+                "yes , please . may have i have phone number and postcode ?",
+                "yes , the phone number is 01223307402 and the postcode is cb23bj . can i help with anything else today ?"
+            ],
+            [
+                "nope , that s it . thank you !",
+                "none"
+            ]
+        ],
+        "state": [
+            "none",
+            "attraction-type=museum\tattraction-area=centre",
+            "attraction-type=museum\tattraction-area=centre",
+            "attraction-type=museum\tattraction-area=centre"
+        ],
+        "dial_id": "SNG1055.json"
+    },
+    {
+        "meta": [
+            [
+                "attraction-type=college\tattraction-area=west"
+            ],
+            [],
+            []
+        ],
+        "dialogue": [
+            [
+                "i am looking for a college in the west part of town to visit .",
+                "magdalene and churchill college and clare hall all fit your requirement -s and entrance here is free . is there a specific college you would like to see ?"
+            ],
+            [
+                "i think i would like to visit both churchill and magdalene colleges . may i have their telephone numbers please ?",
+                "the phone number for churchill college is 01223336233 , and the phone number for magdalene college is 01223332138 . can i help you with anything else today ?"
+            ],
+            [
+                "no , thank you . good day .",
+                "none"
+            ]
+        ],
+        "state": [
+            "none",
+            "attraction-type=college\tattraction-area=west",
+            "attraction-type=college\tattraction-area=west",
+            "attraction-type=college\tattraction-area=west"
+        ],
+        "dial_id": "SNG1142.json"
+    },
+    {
+        "meta": [
+            [
+                "attraction-name=the cambridge corn exchange"
+            ],
+            [],
+            []
+        ],
+        "dialogue": [
+            [
+                "i would like information on the cambridge corn exchange",
+                "the cambridge corn exchange is a theatre in the centre area . i would be happy to book tickets for you ."
+            ],
+            [
+                "no thanks , i just need their phone number , please .",
+                "the phone number for the cambridge corn exchange is 01223357851 . is there anything else i can help you with today ?"
+            ],
+            [
+                "no that is all i need today . thank you very much .",
+                "none"
+            ]
+        ],
+        "state": [
+            "none",
+            "attraction-name=the cambridge corn exchange",
+            "attraction-name=the cambridge corn exchange",
+            "attraction-name=the cambridge corn exchange"
+        ],
+        "dial_id": "SNG1125.json"
+    },
+    {
+        "meta": [
+            [
+                "attraction-type=architecture"
+            ],
+            [],
+            [],
+            [
+                "attraction-name=old schools"
+            ],
+            []
+        ],
+        "dialogue": [
+            [
+                "could you help me find a place to go ? i would like to find some architecture .",
+                "yes i have 5 architecture sites in the centre 4 are churches and 1 is old schools . would you like information on any of them ?"
+            ],
+            [
+                "what is the postcode for your recommended 1 ? you choose .",
+                "old schools is a great place for architecture . it s free to get in . it s located on trinity lane and their postcode is cb21tt ."
+            ],
+            [
+                "that sounds perfect . thank you very much !",
+                "is there anything else i could help you with today ?"
+            ],
+            [
+                "no that will be all for now .",
+                "no problem . glad to help ."
+            ],
+            [
+                "thank you very much .",
+                "none"
+            ]
+        ],
+        "state": [
+            "none",
+            "attraction-type=architecture",
+            "attraction-type=architecture",
+            "attraction-type=architecture",
+            "attraction-type=architecture\tattraction-name=old schools",
+            "attraction-type=architecture\tattraction-name=old schools"
+        ],
+        "dial_id": "SNG1122.json"
+    },
+    {
+        "meta": [
+            [
+                "attraction-type=cinema"
+            ],
+            [],
+            [
+                "attraction-area=south"
+            ],
+            [],
+            []
+        ],
+        "dialogue": [
+            [
+                "can you find me a cinema in town that i can go to ?",
+                "yes , what part of town would you like ? there are cinemas in the south and centre of town ."
+            ],
+            [
+                "either area is fine . can you pick 1 for me and let me know their address ?",
+                "the cineworld cinema is in the south area of town and the address is cambridge leisure park , clifton way . is there anything else i can help you with today ?"
+            ],
+            [
+                "do you know the entrance fee ?",
+                "i am sorry , the entrance fee for cineworld cinema is not available . is there anything else you need ?"
+            ],
+            [
+                "yes , can you tell me their address please ?",
+                "cineworld cinema is located at cambridge leisure park , clifton way , cb17dy . can i help with anything else today ?"
+            ],
+            [
+                "so that would be all . thanks .",
+                "none"
+            ]
+        ],
+        "state": [
+            "none",
+            "attraction-type=cinema",
+            "attraction-type=cinema",
+            "attraction-type=cinema\tattraction-area=south",
+            "attraction-type=cinema\tattraction-area=south",
+            "attraction-type=cinema\tattraction-area=south"
+        ],
+        "dial_id": "SNG1119.json"
+    },
+    {
+        "meta": [
+            [
+                "attraction-type=entertainment\tattraction-area=centre"
+            ],
+            [
+                "attraction-type=theatre"
+            ],
+            [],
+            []
+        ],
+        "dialogue": [
+            [
+                "i am looking for some entertainment in the center of town .",
+                "i am very sorry there are no results for entertainment in the centre area , would you like to try another area or different attraction ?"
+            ],
+            [
+                "how about a theatre ?",
+                "there are 4 theatres located in the centre of town . how does cambridge arts theatre sound ?"
+            ],
+            [
+                "that sounds good , what s the phone number ?",
+                "the phone number for the cambridge arts theatre is 01223503333 . can i offer you any other information today ?"
+            ],
+            [
+                "thank you , that s all i need right now . bye .",
+                "none"
+            ]
+        ],
+        "state": [
+            "none",
+            "attraction-type=entertainment\tattraction-area=centre",
+            "attraction-type=theatre\tattraction-area=centre",
+            "attraction-type=theatre\tattraction-area=centre",
+            "attraction-type=theatre\tattraction-area=centre"
+        ],
+        "dial_id": "SNG1143.json"
+    },
+    {
+        "meta": [
+            [
+                "attraction-type=entertainment\tattraction-area=centre"
+            ],
+            [
+                "attraction-type=college"
+            ],
+            [],
+            [],
+            []
+        ],
+        "dialogue": [
+            [
+                "are there any entertainment spots in the town centre ?",
+                "nothing specifically marked entertainment , although we do offer quite a lot to do , from theatres to parks ."
+            ],
+            [
+                "do you have any colleges in the centre area ?",
+                "you are in luck . there are 13 . i would recommend visiting downing college on saint andrew s street . entrance is free . would that work for you ?"
+            ],
+            [
+                "that sounds perfect . can you tell me their address and postcode , please ?",
+                "yes , their post code is cb21dq and the address is on regent street ."
+            ],
+            [
+                "great , thank you !",
+                "no problem . is that all you needed today ?"
+            ],
+            [
+                "it is . thanks again .",
+                "none"
+            ]
+        ],
+        "state": [
+            "none",
+            "attraction-type=entertainment\tattraction-area=centre",
+            "attraction-type=college\tattraction-area=centre",
+            "attraction-type=college\tattraction-area=centre",
+            "attraction-type=college\tattraction-area=centre",
+            "attraction-type=college\tattraction-area=centre"
+        ],
+        "dial_id": "SNG1085.json"
+    },
+    {
+        "meta": [
+            [
+                "attraction-type=park\tattraction-area=east"
+            ],
+            [],
+            []
+        ],
+        "dialogue": [
+            [
+                "hi , i am looking to visit a park in the east part of town , do you have any recommendations ?",
+                "yes , there is cherry hinton water play . would you like more information ?"
+            ],
+            [
+                "yes please . i would love the phone number .",
+                "the phone number for cherry hinton water play is 01223446100 . is there anything else i can help you with today ?"
+            ],
+            [
+                "no , i just need the phone number . thanks so much . have a good day .",
+                "none"
+            ]
+        ],
+        "state": [
+            "none",
+            "attraction-type=park\tattraction-area=east",
+            "attraction-type=park\tattraction-area=east",
+            "attraction-type=park\tattraction-area=east"
+        ],
+        "dial_id": "SNG1106.json"
+    },
+    {
+        "meta": [
+            [
+                "attraction-type=college\tattraction-area=centre"
+            ],
+            [],
+            [],
+            []
+        ],
+        "dialogue": [
+            [
+                "i want to tour a college in the centre of town . what s available ?",
+                "i have several different options available . did you want 1 with free entrance ?"
+            ],
+            [
+                "entrance fee is not an issue .",
+                "christ s college is free to enter"
+            ],
+            [
+                "can i have the postcode and address for that college ?",
+                "yes , it s located at saint andrew s street , postcode cb23bu . is there any other information you need ?"
+            ],
+            [
+                "no , that s it . thanks .",
+                "none"
+            ]
+        ],
+        "state": [
+            "none",
+            "attraction-type=college\tattraction-area=centre",
+            "attraction-type=college\tattraction-area=centre",
+            "attraction-type=college\tattraction-area=centre",
+            "attraction-type=college\tattraction-area=centre"
+        ],
+        "dial_id": "SNG1121.json"
+    }
+]

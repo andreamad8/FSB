@@ -1,0 +1,1922 @@
+[
+    {
+        "meta": [
+            [
+                "taxi-destination=pizza hut fen ditton\ttaxi-departure=saint john s college"
+            ],
+            [
+                "taxi-leaveat=17:15"
+            ],
+            [],
+            []
+        ],
+        "dialogue": [
+            [
+                "i would like a taxi from saint john s college to pizza hut fen ditton .",
+                "what time do you want to leave and what time do you want to arrive by ?"
+            ],
+            [
+                "i want to leave after 17:15 .",
+                "booking completed ! your taxi will be blue honda contact number is 07218068540"
+            ],
+            [
+                "thank you for all the help ! i appreciate it .",
+                "you are welcome . is there anything else i can help you with today ?"
+            ],
+            [
+                "no , i am all set . have a nice day . bye .",
+                "none"
+            ]
+        ],
+        "state": [
+            "none",
+            "taxi-destination=pizza hut fen ditton\ttaxi-departure=saint john s college",
+            "taxi-leaveat=17:15\ttaxi-destination=pizza hut fen ditton\ttaxi-departure=saint john s college",
+            "taxi-leaveat=17:15\ttaxi-destination=pizza hut fen ditton\ttaxi-departure=saint john s college",
+            "taxi-leaveat=17:15\ttaxi-destination=pizza hut fen ditton\ttaxi-departure=saint john s college"
+        ],
+        "dial_id": "SNG0073.json"
+    },
+    {
+        "meta": [
+            [
+                "taxi-leaveat=09:00"
+            ],
+            [
+                "taxi-destination=mumford theatre\ttaxi-departure=wagamama\ttaxi-arriveby=09:00\ttaxi-leaveat=09:00"
+            ]
+        ],
+        "dialogue": [
+            [
+                "i need to book a taxi to arrive by 09:00 .",
+                "okay , and where do you want to be picked up from and what is your destination ?"
+            ],
+            [
+                "i need to be picked up from wagamama and i am headed to the mumford theatre .",
+                "none"
+            ]
+        ],
+        "state": [
+            "none",
+            "taxi-leaveat=09:00",
+            "taxi-destination=mumford theatre\ttaxi-departure=wagamama\ttaxi-arriveby=09:00"
+        ],
+        "dial_id": "SNG0085.json"
+    },
+    {
+        "meta": [
+            [
+                "taxi-destination=don pasquale pizzeria\ttaxi-departure=regency gallery"
+            ],
+            [
+                "taxi-arriveby=20:00"
+            ],
+            []
+        ],
+        "dialogue": [
+            [
+                "i need a taxi to pick me up at regency gallery and take me to don pasquale pizzeria .",
+                "what time would you like to arrive there by ?"
+            ],
+            [
+                "i would like to arrive by 20:00 .",
+                "okay , you are all set . be on the look out for a blue tesla . you can reach the taxi at 07814723348 . can i do anything more for you ?"
+            ],
+            [
+                "no , that s all . thanks , goodbye .",
+                "none"
+            ]
+        ],
+        "state": [
+            "none",
+            "taxi-destination=don pasquale pizzeria\ttaxi-departure=regency gallery",
+            "taxi-destination=don pasquale pizzeria\ttaxi-departure=regency gallery\ttaxi-arriveby=20:00",
+            "taxi-destination=don pasquale pizzeria\ttaxi-departure=regency gallery\ttaxi-arriveby=20:00"
+        ],
+        "dial_id": "SNG02153.json"
+    },
+    {
+        "meta": [
+            [
+                "taxi-leaveat=14:45\ttaxi-departure=lan hong house"
+            ],
+            [
+                "taxi-destination=leicester train station"
+            ],
+            []
+        ],
+        "dialogue": [
+            [
+                "i need a taxi at ian hong house to leave by 14:45 .",
+                "okay , what is your destination ?"
+            ],
+            [
+                "i want to go to the leicester train station .",
+                "have you in a white honda , 07040297067 is the phone number ."
+            ],
+            [
+                "thanks for the quick response .",
+                "none"
+            ]
+        ],
+        "state": [
+            "none",
+            "taxi-leaveat=14:45\ttaxi-departure=lan hong house",
+            "taxi-leaveat=14:45\ttaxi-destination=leicester train station\ttaxi-departure=lan hong house",
+            "taxi-leaveat=14:45\ttaxi-destination=leicester train station\ttaxi-departure=lan hong house"
+        ],
+        "dial_id": "SNG01270.json"
+    },
+    {
+        "meta": [
+            [
+                "taxi-leaveat=01:45\ttaxi-destination=pipasha restaurant"
+            ],
+            [
+                "taxi-departure=ballare"
+            ]
+        ],
+        "dialogue": [
+            [
+                "i need a taxi to take me to pipasha restaurant to leave after 01:45 .",
+                "from where will you be picked up ?"
+            ],
+            [
+                "from the ballare .",
+                "none"
+            ]
+        ],
+        "state": [
+            "none",
+            "taxi-leaveat=01:45\ttaxi-destination=pipasha restaurant",
+            "taxi-leaveat=01:45\ttaxi-destination=pipasha restaurant\ttaxi-departure=ballare"
+        ],
+        "dial_id": "SNG01679.json"
+    },
+    {
+        "meta": [
+            [
+                "taxi-departure=yu garden\ttaxi-arriveby=14:30"
+            ],
+            [
+                "taxi-destination=holy trinity church"
+            ],
+            []
+        ],
+        "dialogue": [
+            [
+                "i am looking for a taxi from yu garden arriving by 14:30",
+                "i'll need a destination to give them before i can book that for you ."
+            ],
+            [
+                "i would be going to holy trinity church . i'll need the car type and contact number as well .",
+                "the car that is reserved for you is a grey toyota , and the contact number is 07997985529 . can i do anything else for you ?"
+            ],
+            [
+                "nope thats all thank you",
+                "none"
+            ]
+        ],
+        "state": [
+            "none",
+            "taxi-departure=yu garden\ttaxi-arriveby=14:30",
+            "taxi-destination=holy trinity church\ttaxi-departure=yu garden\ttaxi-arriveby=14:30",
+            "taxi-destination=holy trinity church\ttaxi-departure=yu garden\ttaxi-arriveby=14:30"
+        ],
+        "dial_id": "SNG0006.json"
+    },
+    {
+        "meta": [
+            [
+                "taxi-destination=mic\ttaxi-arriveby=12:45"
+            ],
+            [
+                "taxi-destination=michaelhouse cafe\ttaxi-departure=williams art and antiques"
+            ],
+            [],
+            []
+        ],
+        "dialogue": [
+            [
+                "i need to get to michaelhouse cafe by 12:45 . can you help me ?",
+                "i can , would you like to take a taxi and from where ?"
+            ],
+            [
+                "yes , a taxi would be great . and i want to depart from williams art and antiques",
+                "i have you booked in a grey volkswagen , 07828883795 is their number ."
+            ],
+            [
+                "that will be just fine , thank you .",
+                "can i help you with anything else ?"
+            ],
+            [
+                "no . everything is great . thank you .",
+                "none"
+            ]
+        ],
+        "state": [
+            "none",
+            "taxi-destination=mic\ttaxi-arriveby=12:45",
+            "taxi-destination=michaelhouse cafe\ttaxi-departure=williams art and antiques\ttaxi-arriveby=12:45",
+            "taxi-destination=michaelhouse cafe\ttaxi-departure=williams art and antiques\ttaxi-arriveby=12:45",
+            "taxi-destination=michaelhouse cafe\ttaxi-departure=williams art and antiques\ttaxi-arriveby=12:45"
+        ],
+        "dial_id": "SNG01940.json"
+    },
+    {
+        "meta": [
+            [
+                "taxi-destination=cineworld cinema\ttaxi-departure=gonville hotel"
+            ],
+            [
+                "taxi-arriveby=15:45"
+            ],
+            [],
+            []
+        ],
+        "dialogue": [
+            [
+                "i would like to book a taxi to take me to cineworld cinema from gonville hotel",
+                "what time frame would you like this to happen in ?"
+            ],
+            [
+                "i would need to arrive by 15:45 please .",
+                "booking completed ! booked car type : yellow toyota contact number : 07598718295"
+            ],
+            [
+                "ok thanks , that s all i need !",
+                "can i do anything else for you today ?"
+            ],
+            [
+                "that s it , thank you",
+                "none"
+            ]
+        ],
+        "state": [
+            "none",
+            "taxi-destination=cineworld cinema\ttaxi-departure=gonville hotel",
+            "taxi-destination=cineworld cinema\ttaxi-departure=gonville hotel\ttaxi-arriveby=15:45",
+            "taxi-destination=cineworld cinema\ttaxi-departure=gonville hotel\ttaxi-arriveby=15:45",
+            "taxi-destination=cineworld cinema\ttaxi-departure=gonville hotel\ttaxi-arriveby=15:45"
+        ],
+        "dial_id": "SNG01835.json"
+    },
+    {
+        "meta": [
+            [
+                "taxi-departure=dojo noodle bar"
+            ],
+            [
+                "taxi-arriveby=12:15"
+            ],
+            [
+                "taxi-destination=rosa s bed and breakfast"
+            ],
+            []
+        ],
+        "dialogue": [
+            [
+                "can you arrange for a taxi to pick me up at dojo noodle bar ?",
+                "sure . when do you want to leave ?"
+            ],
+            [
+                "i actually need to arrive by 12:15 .",
+                "you got it . can you tell me your destination please ?"
+            ],
+            [
+                "i am going to rosa s bed and breakfast .",
+                "you are all set with a red bmw . the driver s number is 07207233794 . can i help you with something else ?"
+            ],
+            [
+                "that should be all , thanks .",
+                "none"
+            ]
+        ],
+        "state": [
+            "none",
+            "taxi-departure=dojo noodle bar",
+            "taxi-departure=dojo noodle bar\ttaxi-arriveby=12:15",
+            "taxi-destination=rosa s bed and breakfast\ttaxi-departure=dojo noodle bar\ttaxi-arriveby=12:15",
+            "taxi-destination=rosa s bed and breakfast\ttaxi-departure=dojo noodle bar\ttaxi-arriveby=12:15"
+        ],
+        "dial_id": "SNG01752.json"
+    },
+    {
+        "meta": [
+            [
+                "taxi-destination=nandos"
+            ],
+            [
+                "taxi-departure=riverboat georgina"
+            ],
+            [
+                "taxi-leaveat=09:45"
+            ],
+            []
+        ],
+        "dialogue": [
+            [
+                "please help me book a taxi to nandos",
+                "sure . what is your departure site ?"
+            ],
+            [
+                "i am leaving from riverboat georgina .",
+                "okay , and what time would you like to leave or arrive by ?"
+            ],
+            [
+                "i would like to leave after 09:45 .",
+                "okay i have a yellow lexus with the contact number 07014284224 ."
+            ],
+            [
+                "thank you that is all i need .",
+                "none"
+            ]
+        ],
+        "state": [
+            "none",
+            "taxi-destination=nandos",
+            "taxi-destination=nandos\ttaxi-departure=riverboat georgina",
+            "taxi-leaveat=09:45\ttaxi-destination=nandos\ttaxi-departure=riverboat georgina",
+            "taxi-leaveat=09:45\ttaxi-destination=nandos\ttaxi-departure=riverboat georgina"
+        ],
+        "dial_id": "SNG01819.json"
+    },
+    {
+        "meta": [
+            [
+                "taxi-arriveby=20:00"
+            ],
+            [
+                "taxi-departure=clare college"
+            ],
+            [
+                "taxi-destination=parkside police station"
+            ],
+            []
+        ],
+        "dialogue": [
+            [
+                "i need a taxi arriving by 20:00 .",
+                "okay , what is your departure site ?"
+            ],
+            [
+                "i am leaving from clare college .",
+                "and where will you be headed to ?"
+            ],
+            [
+                "i need to get to the parkside police station . my boyfriend got himself arrested , again !",
+                "oh dear ! i am sorry to hear that . i have booked a blue bmw for you . the number is 07860072749"
+            ],
+            [
+                "great , thanks for the help .",
+                "none"
+            ]
+        ],
+        "state": [
+            "none",
+            "taxi-arriveby=20:00",
+            "taxi-departure=clare college\ttaxi-arriveby=20:00",
+            "taxi-destination=parkside police station\ttaxi-departure=clare college\ttaxi-arriveby=20:00",
+            "taxi-destination=parkside police station\ttaxi-departure=clare college\ttaxi-arriveby=20:00"
+        ],
+        "dial_id": "SNG02315.json"
+    },
+    {
+        "meta": [
+            [
+                "taxi-leaveat=22:45\ttaxi-destination=zizzi cambridge\ttaxi-departure=new england"
+            ],
+            [
+                "taxi-departure=saint johns chop house"
+            ],
+            [],
+            [],
+            []
+        ],
+        "dialogue": [
+            [
+                "can you help me get to zizzi cambridge after 22:45 ?",
+                "sure ! what is your departure site ?"
+            ],
+            [
+                "saint johns chop shop house .",
+                "okay you are all set with a red bmw"
+            ],
+            [
+                "that is great . is there a contact number available ?",
+                "the contact number is 07934564095 ."
+            ],
+            [
+                "great , thanks so much for your help !",
+                "is there anything else i can help you with , such as finding a restaurant or an attraction ?"
+            ],
+            [
+                "that is all , thanks",
+                "none"
+            ]
+        ],
+        "state": [
+            "none",
+            "taxi-leaveat=22:45\ttaxi-destination=zizzi cambridge\ttaxi-departure=new england",
+            "taxi-leaveat=22:45\ttaxi-destination=zizzi cambridge\ttaxi-departure=saint johns chop house",
+            "taxi-leaveat=22:45\ttaxi-destination=zizzi cambridge\ttaxi-departure=saint johns chop house",
+            "taxi-leaveat=22:45\ttaxi-destination=zizzi cambridge\ttaxi-departure=saint johns chop house",
+            "taxi-leaveat=22:45\ttaxi-destination=zizzi cambridge\ttaxi-departure=saint johns chop house"
+        ],
+        "dial_id": "SNG02205.json"
+    },
+    {
+        "meta": [
+            [
+                "taxi-destination=mahal of cambridge"
+            ],
+            [
+                "taxi-leaveat=02:30"
+            ],
+            [
+                "taxi-departure=jesus green outdoor pool"
+            ],
+            [],
+            []
+        ],
+        "dialogue": [
+            [
+                "i need a taxi to go to mahal of cambridge",
+                "i can help with that . did you have a specific time in mind ?"
+            ],
+            [
+                "yes , i would like to leave after 2:30 please .",
+                "where would you like to depart from ?"
+            ],
+            [
+                "i am departing from jesus green outdoor pool .",
+                "your taxi is booked . it is a white volkswagen ."
+            ],
+            [
+                "what is the contact number for the taxi ?",
+                "the contact number is 07829671088 . can i help you with anything else today ?"
+            ],
+            [
+                "thanks that s all for today .",
+                "none"
+            ]
+        ],
+        "state": [
+            "none",
+            "taxi-destination=mahal of cambridge",
+            "taxi-leaveat=02:30\ttaxi-destination=mahal of cambridge",
+            "taxi-leaveat=02:30\ttaxi-destination=mahal of cambridge\ttaxi-departure=jesus green outdoor pool",
+            "taxi-leaveat=02:30\ttaxi-destination=mahal of cambridge\ttaxi-departure=jesus green outdoor pool",
+            "taxi-leaveat=02:30\ttaxi-destination=mahal of cambridge\ttaxi-departure=jesus green outdoor pool"
+        ],
+        "dial_id": "SNG02240.json"
+    },
+    {
+        "meta": [
+            [],
+            [],
+            [
+                "taxi-destination=the oak bistro\ttaxi-departure=sheep s green and lammas land park fen causeway\ttaxi-arriveby=16:45"
+            ],
+            []
+        ],
+        "dialogue": [
+            [
+                "yes , hello . i would like to book a taxi to what i believe is a restaurant .",
+                "sure , i can do that . do you know the name of the restaurant ? also , when would you like to be picked up and arrive by ?"
+            ],
+            [
+                "yes , oak bistro and will depart from sheep s green and lammas land park fen causeway .",
+                "ok great , i will also need to know what your preferences are for your pick up and arrival times to book your taxi ."
+            ],
+            [
+                "i would like to arrive by 16:45 . i will need a contact number and car type as well .",
+                "i have that booked , a red ford and the contact info is 07756177529"
+            ],
+            [
+                "great ! that s all for today . goodbye !",
+                "none"
+            ]
+        ],
+        "state": [
+            "none",
+            "",
+            "",
+            "taxi-destination=the oak bistro\ttaxi-departure=sheep s green and lammas land park fen causeway\ttaxi-arriveby=16:45",
+            "taxi-destination=the oak bistro\ttaxi-departure=sheep s green and lammas land park fen causeway\ttaxi-arriveby=16:45"
+        ],
+        "dial_id": "SNG0005.json"
+    },
+    {
+        "meta": [
+            [
+                "taxi-destination=cambridge museum of technology"
+            ],
+            [
+                "taxi-departure=rice boat"
+            ],
+            [
+                "taxi-leaveat=300"
+            ]
+        ],
+        "dialogue": [
+            [
+                "help me get a taxi to the cambridge museum of technology please",
+                "sure . what is your departure site ?"
+            ],
+            [
+                "i'll be departing from rice boat",
+                "okay . can you give me a time that you would prefer to leave after or arrive by ?"
+            ],
+            [
+                "have the taxi leave after 13:45 please",
+                "none"
+            ]
+        ],
+        "state": [
+            "none",
+            "taxi-destination=cambridge museum of technology",
+            "taxi-destination=cambridge museum of technology\ttaxi-departure=rice boat",
+            "taxi-leaveat=300\ttaxi-destination=cambridge museum of technology\ttaxi-departure=rice boat"
+        ],
+        "dial_id": "SNG01775.json"
+    },
+    {
+        "meta": [
+            [
+                "taxi-destination=saigon city\ttaxi-arriveby=11:00"
+            ],
+            [
+                "taxi-departure=lovell lodge"
+            ]
+        ],
+        "dialogue": [
+            [
+                "i need a taxi to go to saigon city and arrive by 11:00",
+                "where will you leave from ?"
+            ],
+            [
+                "i will be departing from from lovell lodge .",
+                "none"
+            ]
+        ],
+        "state": [
+            "none",
+            "taxi-destination=saigon city\ttaxi-arriveby=11:00",
+            "taxi-destination=saigon city\ttaxi-departure=lovell lodge\ttaxi-arriveby=11:00"
+        ],
+        "dial_id": "SNG01366.json"
+    },
+    {
+        "meta": [
+            [
+                "taxi-departure=golden wok"
+            ],
+            [
+                "taxi-leaveat=17:30"
+            ],
+            [
+                "taxi-destination=holy trinity church"
+            ],
+            [],
+            []
+        ],
+        "dialogue": [
+            [
+                "i need a taxi departing from golden wok .",
+                "ok , what time do you want to leave by ?"
+            ],
+            [
+                "i would like to leave after 17:30 .",
+                "where is your destination ?"
+            ],
+            [
+                "i am going to holy trinity church .",
+                "alright , i have a yellow skoda for you and the contact number is 07866277583 ."
+            ],
+            [
+                "i will look for the yellow skoda after 17:30 . thanks for all your help .",
+                "you are welcome . is there anything else i can help you with today ?"
+            ],
+            [
+                "not really . am good to go",
+                "none"
+            ]
+        ],
+        "state": [
+            "none",
+            "taxi-departure=golden wok",
+            "taxi-leaveat=17:30\ttaxi-departure=golden wok",
+            "taxi-leaveat=17:30\ttaxi-destination=holy trinity church\ttaxi-departure=golden wok",
+            "taxi-leaveat=17:30\ttaxi-destination=holy trinity church\ttaxi-departure=golden wok",
+            "taxi-leaveat=17:30\ttaxi-destination=holy trinity church\ttaxi-departure=golden wok"
+        ],
+        "dial_id": "SNG02006.json"
+    },
+    {
+        "meta": [
+            [],
+            [
+                "taxi-arriveby=12:45"
+            ],
+            [
+                "taxi-departure=cambridge and county folk museum"
+            ],
+            [
+                "taxi-destination=trinity college"
+            ]
+        ],
+        "dialogue": [
+            [
+                "i need to book a taxi plese",
+                "what time will you be arriving to your destination please ."
+            ],
+            [
+                "i want to arrive by 12:45 .",
+                "what is your departure site ?"
+            ],
+            [
+                "i am leaving from camgridge and county folk museum .",
+                "what is your destination ?"
+            ],
+            [
+                "i am going to trinity college .",
+                "none"
+            ]
+        ],
+        "state": [
+            "none",
+            "",
+            "taxi-arriveby=12:45",
+            "taxi-departure=cambridge and county folk museum\ttaxi-arriveby=12:45",
+            "taxi-destination=trinity college\ttaxi-departure=cambridge and county folk museum\ttaxi-arriveby=12:45"
+        ],
+        "dial_id": "SNG02018.json"
+    },
+    {
+        "meta": [
+            [
+                "taxi-departure=the missing sock\ttaxi-arriveby=08:30"
+            ],
+            [
+                "taxi-destination=el shaddai"
+            ],
+            [],
+            []
+        ],
+        "dialogue": [
+            [
+                "i need a taxi from the missing sock and i need to get to my destination by 08:30 . can you help ?",
+                "i can help you with that . where are you going ?"
+            ],
+            [
+                "i am going to el shaddai",
+                "okay your booking is complete . be on the lookout for a white volkswagen"
+            ],
+            [
+                "i will also need the contact number please .",
+                "their contact number is 07053289961 . do you need any further assistance ?"
+            ],
+            [
+                "no , thank you !",
+                "none"
+            ]
+        ],
+        "state": [
+            "none",
+            "taxi-departure=the missing sock\ttaxi-arriveby=08:30",
+            "taxi-destination=el shaddai\ttaxi-departure=the missing sock\ttaxi-arriveby=08:30",
+            "taxi-destination=el shaddai\ttaxi-departure=the missing sock\ttaxi-arriveby=08:30",
+            "taxi-destination=el shaddai\ttaxi-departure=the missing sock\ttaxi-arriveby=08:30"
+        ],
+        "dial_id": "SNG01919.json"
+    },
+    {
+        "meta": [
+            [
+                "taxi-destination=hobsons house\ttaxi-departure=ballare"
+            ],
+            [
+                "taxi-arriveby=17:45"
+            ],
+            []
+        ],
+        "dialogue": [
+            [
+                "i am at ballare . i need a taxi to take me to hobsons house .",
+                "sure ! when do you want to leave ?"
+            ],
+            [
+                "i need to get there by 17:45 .",
+                "booking completed ! booked car type : yellow honda contact number : 07660102698"
+            ],
+            [
+                "thank you so much for your help , that s all i needed today .",
+                "none"
+            ]
+        ],
+        "state": [
+            "none",
+            "taxi-destination=hobsons house\ttaxi-departure=ballare",
+            "taxi-destination=hobsons house\ttaxi-departure=ballare\ttaxi-arriveby=17:45",
+            "taxi-destination=hobsons house\ttaxi-departure=ballare\ttaxi-arriveby=17:45"
+        ],
+        "dial_id": "SNG02202.json"
+    },
+    {
+        "meta": [
+            [
+                "taxi-destination=ruskin gallery"
+            ],
+            [
+                "taxi-leaveat=07:15\ttaxi-departure=saffron brasserie"
+            ],
+            []
+        ],
+        "dialogue": [
+            [
+                "i would like a taxi to take me to ruskin gallery",
+                "sure ! what is your departure site ?"
+            ],
+            [
+                "i will depart from saffron brasserie at 7:15 . what is the car type and contact number so i know who and where you will pick me up ?",
+                "booking completed ! a grey ford will be picking you up . the contact number is 07689877132 ."
+            ],
+            [
+                "that is all i needed , thank you .",
+                "none"
+            ]
+        ],
+        "state": [
+            "none",
+            "taxi-destination=ruskin gallery",
+            "taxi-leaveat=07:15\ttaxi-destination=ruskin gallery\ttaxi-departure=saffron brasserie",
+            "taxi-leaveat=07:15\ttaxi-destination=ruskin gallery\ttaxi-departure=saffron brasserie"
+        ],
+        "dial_id": "SNG01634.json"
+    },
+    {
+        "meta": [
+            [
+                "taxi-destination=huntingdon marriott hotel\ttaxi-departure=funky fun house"
+            ],
+            [
+                "taxi-leaveat=09:15"
+            ],
+            [],
+            []
+        ],
+        "dialogue": [
+            [
+                "i need to book a taxi to pick me up at funky fun house to go to huntingdon marriott hotel .",
+                "what time would you like to leave ?"
+            ],
+            [
+                "i prefer to leave after 09:15",
+                "booking is complete , a black ford will be picking you up . the contact number is 07635853272 . thank you ! ."
+            ],
+            [
+                "great , thanks for your help !",
+                "i can also recommend restaurant -s and book trains . are you interested ?"
+            ],
+            [
+                "not at this time . thanks , though . goodbye .",
+                "none"
+            ]
+        ],
+        "state": [
+            "none",
+            "taxi-destination=huntingdon marriott hotel\ttaxi-departure=funky fun house",
+            "taxi-leaveat=09:15\ttaxi-destination=huntingdon marriott hotel\ttaxi-departure=funky fun house",
+            "taxi-leaveat=09:15\ttaxi-destination=huntingdon marriott hotel\ttaxi-departure=funky fun house",
+            "taxi-leaveat=09:15\ttaxi-destination=huntingdon marriott hotel\ttaxi-departure=funky fun house"
+        ],
+        "dial_id": "SNG02342.json"
+    },
+    {
+        "meta": [
+            [
+                "taxi-destination=the cambridge punter\ttaxi-arriveby=17:30"
+            ],
+            [],
+            [
+                "taxi-departure=city stop restaurant"
+            ],
+            [],
+            []
+        ],
+        "dialogue": [
+            [
+                "i need a taxi to arrive by 17:30 at the cambridge punte .",
+                "i would be happy to help with your request . did you mean the cambridge punter ? where will you be departing from ?"
+            ],
+            [
+                "yes , the cambridge punter and i will be departing from the city stop restaurant .",
+                "ok , what is your departure site ?"
+            ],
+            [
+                "as i said , i am departing from the city stop restaurant .",
+                "alright , i have a grey lexus and the contact number is 07807857780 ."
+            ],
+            [
+                "thank you so much for you help .",
+                "you are welcome . may i help with any other bookings ?"
+            ],
+            [
+                "no , there is nothing else . bye bye .",
+                "none"
+            ]
+        ],
+        "state": [
+            "none",
+            "taxi-destination=the cambridge punter\ttaxi-arriveby=17:30",
+            "taxi-destination=the cambridge punter\ttaxi-arriveby=17:30",
+            "taxi-destination=the cambridge punter\ttaxi-departure=city stop restaurant\ttaxi-arriveby=17:30",
+            "taxi-destination=the cambridge punter\ttaxi-departure=city stop restaurant\ttaxi-arriveby=17:30",
+            "taxi-destination=the cambridge punter\ttaxi-departure=city stop restaurant\ttaxi-arriveby=17:30"
+        ],
+        "dial_id": "SNG01153.json"
+    },
+    {
+        "meta": [
+            [
+                "taxi-leaveat=05:30"
+            ],
+            [
+                "taxi-destination=don pasquale pizzeria\ttaxi-departure=the lensfield hotel\trestaurant-name=dif"
+            ],
+            []
+        ],
+        "dialogue": [
+            [
+                "i need a taxi today . i'll want to leave after 05:30",
+                "i would be happy to help with your request , first i'll need to know where you will need picked up from ."
+            ],
+            [
+                "oh i am sorry , i need to be picked up at the lensfield hotel , heading to don pasquale pizzeria .",
+                "i booked your car for you . they will be driving a white toyota and their contact number is 07910293411 ."
+            ],
+            [
+                "great , thanks for your help !",
+                "none"
+            ]
+        ],
+        "state": [
+            "none",
+            "taxi-leaveat=05:30",
+            "taxi-leaveat=05:30\ttaxi-destination=don pasquale pizzeria\ttaxi-departure=the lensfield hotel\trestaurant-name=dif",
+            "taxi-leaveat=05:30\ttaxi-destination=don pasquale pizzeria\ttaxi-departure=the lensfield hotel\trestaurant-name=dif"
+        ],
+        "dial_id": "SNG01503.json"
+    },
+    {
+        "meta": [
+            [
+                "taxi-leaveat=11:00\ttaxi-destination=little saint mary s church"
+            ],
+            [
+                "taxi-departure=avalon"
+            ],
+            [
+                "attraction-name=little saint mary s church"
+            ],
+            [],
+            []
+        ],
+        "dialogue": [
+            [
+                "i would like to book a taxi to go to little saint mary s church after 11:00 .",
+                "can you tell me where the taxi will pick you up and when you want to arrive by ?"
+            ],
+            [
+                "i will be departing from avalon .",
+                "okay , i have booked a red volvo taxi for you to pick you up from avalon . the contact number is 07604053685 . is there anything else i can help you with today ?"
+            ],
+            [
+                "what time will it arrive ?",
+                "that really depends on traffic and route , you would have to call the taxi company to find out estimated drive times ."
+            ],
+            [
+                "thank you . i have all the information i need .",
+                "is there anything else i can help you with ?"
+            ],
+            [
+                "no that was everything . thank you !",
+                "none"
+            ]
+        ],
+        "state": [
+            "none",
+            "taxi-leaveat=11:00\ttaxi-destination=little saint mary s church",
+            "taxi-leaveat=11:00\ttaxi-destination=little saint mary s church\ttaxi-departure=avalon",
+            "taxi-leaveat=11:00\ttaxi-destination=little saint mary s church\ttaxi-departure=avalon\tattraction-name=little saint mary s church",
+            "taxi-leaveat=11:00\ttaxi-destination=little saint mary s church\ttaxi-departure=avalon\tattraction-name=little saint mary s church",
+            "taxi-leaveat=11:00\ttaxi-destination=little saint mary s church\ttaxi-departure=avalon\tattraction-name=little saint mary s church"
+        ],
+        "dial_id": "SNG0004.json"
+    },
+    {
+        "meta": [
+            [
+                "taxi-destination=da vinci pizzeria\ttaxi-departure=tandoori palace"
+            ],
+            [
+                "taxi-leaveat=22:15"
+            ],
+            [],
+            []
+        ],
+        "dialogue": [
+            [
+                "i need to schedule a taxi to da vinci pizzeria from tandoori palace .",
+                "ok , what time do you want to leave by ?"
+            ],
+            [
+                "i would like to leave after 22:15 .",
+                "booking completed ! a blue volvo will be picking you up , the contact number is: 07185148788 ."
+            ],
+            [
+                "ok thank you !",
+                "you are welcome , do you need any further assistance ?"
+            ],
+            [
+                "i do not thank you .",
+                "none"
+            ]
+        ],
+        "state": [
+            "none",
+            "taxi-destination=da vinci pizzeria\ttaxi-departure=tandoori palace",
+            "taxi-leaveat=22:15\ttaxi-destination=da vinci pizzeria\ttaxi-departure=tandoori palace",
+            "taxi-leaveat=22:15\ttaxi-destination=da vinci pizzeria\ttaxi-departure=tandoori palace",
+            "taxi-leaveat=22:15\ttaxi-destination=da vinci pizzeria\ttaxi-departure=tandoori palace"
+        ],
+        "dial_id": "SNG01492.json"
+    },
+    {
+        "meta": [
+            [
+                "taxi-leaveat=03:30\ttaxi-destination=royal standard"
+            ],
+            [
+                "taxi-departure=tenpin"
+            ],
+            []
+        ],
+        "dialogue": [
+            [
+                "i would like to book a taxi to royal standard , leaving after 03:30",
+                "okay and what will your destination be ?"
+            ],
+            [
+                "i will be going to the royal standard , leaving from the tenpin .",
+                "great ! look for a grey volkswagen . the contact number is 07183817206 . may i help with anything else ?"
+            ],
+            [
+                "no , that'll be it . thank you .",
+                "none"
+            ]
+        ],
+        "state": [
+            "none",
+            "taxi-leaveat=03:30\ttaxi-destination=royal standard",
+            "taxi-leaveat=03:30\ttaxi-destination=royal standard\ttaxi-departure=tenpin",
+            "taxi-leaveat=03:30\ttaxi-destination=royal standard\ttaxi-departure=tenpin"
+        ],
+        "dial_id": "SNG0098.json"
+    },
+    {
+        "meta": [
+            [
+                "taxi-leaveat=13:45\ttaxi-departure=royal spice"
+            ],
+            [
+                "taxi-destination=kirkwood house"
+            ],
+            []
+        ],
+        "dialogue": [
+            [
+                "can you book a taxi for 13:45 from the royal spice .",
+                "okay , what is your destination ?"
+            ],
+            [
+                "i am going to kirkwood house .",
+                "your car is a grey volvo , contact number is 07541606356 ."
+            ],
+            [
+                "thank you very much !",
+                "none"
+            ]
+        ],
+        "state": [
+            "none",
+            "taxi-leaveat=13:45\ttaxi-departure=royal spice",
+            "taxi-leaveat=13:45\ttaxi-destination=kirkwood house\ttaxi-departure=royal spice",
+            "taxi-leaveat=13:45\ttaxi-destination=kirkwood house\ttaxi-departure=royal spice"
+        ],
+        "dial_id": "SNG01907.json"
+    },
+    {
+        "meta": [
+            [
+                "taxi-departure=cambridge arts theatre"
+            ],
+            [
+                "taxi-leaveat=09:30\ttaxi-destination=restaurant 17"
+            ],
+            []
+        ],
+        "dialogue": [
+            [
+                "please reserve for me a taxi that will pick me up at cambridge arts theatre after 09:30",
+                "and where will you be going ?"
+            ],
+            [
+                "i am going to restaurant 17 .",
+                "your booking is complete , a black audi will be picking you up ."
+            ],
+            [
+                "thank you . i need the contact number , as well .",
+                "none"
+            ]
+        ],
+        "state": [
+            "none",
+            "taxi-departure=cambridge arts theatre",
+            "taxi-leaveat=09:30\ttaxi-destination=restaurant 17\ttaxi-departure=cambridge arts theatre",
+            "taxi-leaveat=09:30\ttaxi-destination=restaurant 17\ttaxi-departure=cambridge arts theatre"
+        ],
+        "dial_id": "SNG01542.json"
+    },
+    {
+        "meta": [
+            [
+                "taxi-destination=stevenage train station\ttaxi-departure=gourmet burger kitchen"
+            ],
+            [
+                "taxi-arriveby=02:15"
+            ],
+            []
+        ],
+        "dialogue": [
+            [
+                "i would like to book a taxi to the stevenage train station leaving gourmet burger kitchen .",
+                "sure . when would you like to leave the burger kitchen ?"
+            ],
+            [
+                "it does not matter as long as i arrive by 02:15 .",
+                "alright , i have a yellow tesla picking you up , the contact number for the taxi is 07013106336"
+            ],
+            [
+                "thank you for your help . that is everything i need .",
+                "none"
+            ]
+        ],
+        "state": [
+            "none",
+            "taxi-destination=stevenage train station\ttaxi-departure=gourmet burger kitchen",
+            "taxi-destination=stevenage train station\ttaxi-departure=gourmet burger kitchen\ttaxi-arriveby=02:15",
+            "taxi-destination=stevenage train station\ttaxi-departure=gourmet burger kitchen\ttaxi-arriveby=02:15"
+        ],
+        "dial_id": "SNG0099.json"
+    },
+    {
+        "meta": [
+            [
+                "taxi-departure=grafton hotel restaurant"
+            ],
+            [
+                "taxi-leaveat=16:45"
+            ],
+            [
+                "taxi-destination=jinling noodle bar"
+            ],
+            []
+        ],
+        "dialogue": [
+            [
+                "i need a taxi please . i'll be departing from grafton hotel restaurant",
+                "sure ! when would you like to arrive ?"
+            ],
+            [
+                "i need to leave after 16:45 .",
+                "may i ask your destination ?"
+            ],
+            [
+                "i would like to get to the jinling noodle bar .",
+                "perfect ! your booking has been completed . you will be picked up by a grey honda . the contact number is 07364310487 . is there anything else i can help you with ?"
+            ],
+            [
+                "nope , that'll do for now . thank you !",
+                "none"
+            ]
+        ],
+        "state": [
+            "none",
+            "taxi-departure=grafton hotel restaurant",
+            "taxi-leaveat=16:45\ttaxi-departure=grafton hotel restaurant",
+            "taxi-leaveat=16:45\ttaxi-destination=jinling noodle bar\ttaxi-departure=grafton hotel restaurant",
+            "taxi-leaveat=16:45\ttaxi-destination=jinling noodle bar\ttaxi-departure=grafton hotel restaurant"
+        ],
+        "dial_id": "SNG01937.json"
+    },
+    {
+        "meta": [
+            [
+                "taxi-destination=whale of a time\ttaxi-departure=arbury lodge guesthouse"
+            ],
+            [
+                "taxi-leaveat=13:00"
+            ],
+            [],
+            []
+        ],
+        "dialogue": [
+            [
+                "i need a cab . i am at arbury lodge guesthouse and want to go to whale of a time .",
+                "what time do you need to leave or arrive ?"
+            ],
+            [
+                "i would like to leave after 13:00",
+                "ok , i just completed booking your taxi . it will be a grey honda and the number is 07839041101 . is there anything else i can help you with ?"
+            ],
+            [
+                "no , that s all i need . thank you !",
+                "ok , enjoy your stay in cambridge ."
+            ],
+            [
+                "thank you ! i am sure i will have a fantastic time . you have a great day as well .",
+                "none"
+            ]
+        ],
+        "state": [
+            "none",
+            "taxi-destination=whale of a time\ttaxi-departure=arbury lodge guesthouse",
+            "taxi-leaveat=13:00\ttaxi-destination=whale of a time\ttaxi-departure=arbury lodge guesthouse",
+            "taxi-leaveat=13:00\ttaxi-destination=whale of a time\ttaxi-departure=arbury lodge guesthouse",
+            "taxi-leaveat=13:00\ttaxi-destination=whale of a time\ttaxi-departure=arbury lodge guesthouse"
+        ],
+        "dial_id": "SNG0081.json"
+    },
+    {
+        "meta": [
+            [
+                "taxi-leaveat=16:45\ttaxi-destination=parkside police station"
+            ],
+            [
+                "taxi-departure=parkside police station\ttaxi-destination=parkside police station"
+            ],
+            [
+                "taxi-destination=stansted airport train station"
+            ],
+            [],
+            []
+        ],
+        "dialogue": [
+            [
+                "i need a taxi to arrive by 16:45 to take me to the parkside police station .",
+                "where would you like the taxi to pick you up ?"
+            ],
+            [
+                "i actually need to be picked up from the parkside police station . sorry about taht .",
+                "that s okay . where is your destination ?"
+            ],
+            [
+                "i am wanting to go to stansted airport train station .",
+                "your taxi booking is a yellow volkswagen with the contact number of 07339912841 ."
+            ],
+            [
+                "that s all i need thanks",
+                "are you sure there s nothing else i can assist you with today ?"
+            ],
+            [
+                "no , i am good for today . thank you .",
+                "none"
+            ]
+        ],
+        "state": [
+            "none",
+            "taxi-leaveat=16:45\ttaxi-destination=parkside police station",
+            "taxi-leaveat=16:45\ttaxi-departure=parkside police station",
+            "taxi-leaveat=16:45\ttaxi-destination=stansted airport train station\ttaxi-departure=parkside police station",
+            "taxi-leaveat=16:45\ttaxi-destination=stansted airport train station\ttaxi-departure=parkside police station",
+            "taxi-leaveat=16:45\ttaxi-destination=stansted airport train station\ttaxi-departure=parkside police station"
+        ],
+        "dial_id": "SNG01673.json"
+    },
+    {
+        "meta": [
+            [
+                "taxi-departure=the missing sock"
+            ],
+            [],
+            [
+                "taxi-leaveat=17:15\ttaxi-destination=the lucky star"
+            ],
+            [],
+            []
+        ],
+        "dialogue": [
+            [
+                "i am looking to book a taxi that will leave from the missing sock",
+                "what is your destination ?"
+            ],
+            [
+                "i need to get to the lucky star please .",
+                "ok , what time do you want to leave ?"
+            ],
+            [
+                "i would like to leave after 17:15 . i also need the car type and contact number",
+                "i have you in a blue audi , contact is 07804429006 ."
+            ],
+            [
+                "thank you that is all i need .",
+                "thank you for contacting us have a nice day ."
+            ],
+            [
+                "thank you i do not need anything else .",
+                "none"
+            ]
+        ],
+        "state": [
+            "none",
+            "taxi-departure=the missing sock",
+            "taxi-departure=the missing sock",
+            "taxi-leaveat=17:15\ttaxi-destination=the lucky star\ttaxi-departure=the missing sock",
+            "taxi-leaveat=17:15\ttaxi-destination=the lucky star\ttaxi-departure=the missing sock",
+            "taxi-leaveat=17:15\ttaxi-destination=the lucky star\ttaxi-departure=the missing sock"
+        ],
+        "dial_id": "SNG01155.json"
+    },
+    {
+        "meta": [
+            [
+                "taxi-destination=hughes hall"
+            ],
+            [
+                "taxi-leaveat=15:15"
+            ],
+            [
+                "taxi-departure=arbury lodge guesthouse"
+            ],
+            []
+        ],
+        "dialogue": [
+            [
+                "get me a taxi to hughes hall please",
+                "when will you be leaving ?"
+            ],
+            [
+                "i would like to leave after 15:15 .",
+                "i would be happy to help ! where are you coming from ?"
+            ],
+            [
+                "i am coming from arbury lodge guesthouse .",
+                "i have a red audi with contact number 07384817213 booked for you ."
+            ],
+            [
+                "great , thanks so much ! bye !",
+                "none"
+            ]
+        ],
+        "state": [
+            "none",
+            "taxi-destination=hughes hall",
+            "taxi-leaveat=15:15\ttaxi-destination=hughes hall",
+            "taxi-leaveat=15:15\ttaxi-destination=hughes hall\ttaxi-departure=arbury lodge guesthouse",
+            "taxi-leaveat=15:15\ttaxi-destination=hughes hall\ttaxi-departure=arbury lodge guesthouse"
+        ],
+        "dial_id": "SNG01403.json"
+    },
+    {
+        "meta": [
+            [
+                "taxi-destination=cafe jello gallery"
+            ],
+            [
+                "taxi-leaveat=12:30\ttaxi-departure=cafe jello gallery\ttaxi-destination=cafe jello gallery"
+            ],
+            [
+                "taxi-destination=the junction"
+            ],
+            []
+        ],
+        "dialogue": [
+            [
+                "i would like a taxi to the cafe jello gallery please .",
+                "i would be happy to help you with that . i will need to know where you are departing from and what time you would like picked up ."
+            ],
+            [
+                "i would like to picked up from cafe jello gallery after 12:30 .",
+                "i am sorry . it seems like your destination and departure site are the same . could you clarify where you would like to go and where you would like to be picked up from ?"
+            ],
+            [
+                "so sorry , i want to leave cafe jello gallery after 12:30 going to the junction .",
+                "that s no problem . i book a white skoda for you , picking you up at 12:30 . the contact # is 07258655313 . can i assist you further ?"
+            ],
+            [
+                "great , thank you . that s everything that i needed !",
+                "none"
+            ]
+        ],
+        "state": [
+            "none",
+            "taxi-destination=cafe jello gallery",
+            "taxi-leaveat=12:30\ttaxi-departure=cafe jello gallery",
+            "taxi-leaveat=12:30\ttaxi-destination=the junction\ttaxi-departure=cafe jello gallery",
+            "taxi-leaveat=12:30\ttaxi-destination=the junction\ttaxi-departure=cafe jello gallery"
+        ],
+        "dial_id": "SNG0078.json"
+    },
+    {
+        "meta": [
+            [
+                "taxi-destination=yippee noodle bar\ttaxi-arriveby=09:45"
+            ],
+            [
+                "taxi-departure=rajmahal"
+            ],
+            []
+        ],
+        "dialogue": [
+            [
+                "i need a taxi to take me to yippee noodle bar by 9:45",
+                "absolutely , where will the taxi be picking you up from today ?"
+            ],
+            [
+                "the rajmahal please",
+                "all right , a blue skoda will come for you . should you need to contact them , the number is 07714291108 ."
+            ],
+            [
+                "thank you ! goodbye !",
+                "none"
+            ]
+        ],
+        "state": [
+            "none",
+            "taxi-destination=yippee noodle bar\ttaxi-arriveby=09:45",
+            "taxi-destination=yippee noodle bar\ttaxi-departure=rajmahal\ttaxi-arriveby=09:45",
+            "taxi-destination=yippee noodle bar\ttaxi-departure=rajmahal\ttaxi-arriveby=09:45"
+        ],
+        "dial_id": "SNG0016.json"
+    },
+    {
+        "meta": [
+            [],
+            [
+                "taxi-departure=pizza express fen ditton"
+            ],
+            [
+                "taxi-destination=sidney sussex college\ttaxi-arriveby=12:45"
+            ],
+            []
+        ],
+        "dialogue": [
+            [
+                "help me reserve a taxi please",
+                "okay , what is your departure site ?"
+            ],
+            [
+                "i will be leaving from pizza express fen ditton",
+                "okay . can i get a time that you would like to leave after or arrive by ?"
+            ],
+            [
+                "i would like to arrive at the sidney sussex college by 12:45 , please .",
+                "great , you will be picked up in a white toyota , the contact number is 07519220407 . is there anything else i can do for you ?"
+            ],
+            [
+                "that s all i need for today . i appreciate your help . goodbye .",
+                "none"
+            ]
+        ],
+        "state": [
+            "none",
+            "",
+            "taxi-departure=pizza express fen ditton",
+            "taxi-destination=sidney sussex college\ttaxi-departure=pizza express fen ditton\ttaxi-arriveby=12:45",
+            "taxi-destination=sidney sussex college\ttaxi-departure=pizza express fen ditton\ttaxi-arriveby=12:45"
+        ],
+        "dial_id": "SNG01272.json"
+    },
+    {
+        "meta": [
+            [
+                "taxi-departure=la raza"
+            ],
+            [
+                "taxi-leaveat=11:45"
+            ],
+            [
+                "taxi-destination=restaurant 17"
+            ],
+            []
+        ],
+        "dialogue": [
+            [
+                "i need a taxi . i'll be departing from la raza .",
+                "i can help you with that . when do you need to leave ?"
+            ],
+            [
+                "i would like to leave after 11:45 please .",
+                "where will you be going ?"
+            ],
+            [
+                "i'll be going to restaurant 17 .",
+                "i have booked for you a black volkswagen , the contact number is 07552762364 . is there anything else i can help you with ?"
+            ],
+            [
+                "no , thats it . thank you !",
+                "none"
+            ]
+        ],
+        "state": [
+            "none",
+            "taxi-departure=la raza",
+            "taxi-leaveat=11:45\ttaxi-departure=la raza",
+            "taxi-leaveat=11:45\ttaxi-destination=restaurant 17\ttaxi-departure=la raza",
+            "taxi-leaveat=11:45\ttaxi-destination=restaurant 17\ttaxi-departure=la raza"
+        ],
+        "dial_id": "SNG01367.json"
+    },
+    {
+        "meta": [
+            [
+                "taxi-destination=meghna"
+            ],
+            [
+                "taxi-leaveat=07:15\ttaxi-departure=yippee noodle bar"
+            ],
+            []
+        ],
+        "dialogue": [
+            [
+                "i need a taxi to go to meghna .",
+                "and when would you like to leave or arrive ?"
+            ],
+            [
+                "i want the taxi at 7:15 p . m . leaving the yippee noodle bar .",
+                "okay , you are booked . the car is a white audi and the contact number is 07213939140"
+            ],
+            [
+                "that is all i need , thank you have a good 1 .",
+                "none"
+            ]
+        ],
+        "state": [
+            "none",
+            "taxi-destination=meghna",
+            "taxi-leaveat=07:15\ttaxi-destination=meghna\ttaxi-departure=yippee noodle bar",
+            "taxi-leaveat=07:15\ttaxi-destination=meghna\ttaxi-departure=yippee noodle bar"
+        ],
+        "dial_id": "SNG02198.json"
+    },
+    {
+        "meta": [
+            [],
+            [
+                "taxi-departure=riverside brasserie"
+            ],
+            [
+                "taxi-arriveby=18:15"
+            ],
+            [
+                "taxi-destination=shanghai family restaurant"
+            ],
+            []
+        ],
+        "dialogue": [
+            [
+                "please help me make a taxi reservation",
+                "sure ! where is your departure site ?"
+            ],
+            [
+                "i want to depart from the riverside brasserie .",
+                "i can help you with that . when do you need to leave ?"
+            ],
+            [
+                "it does not matter , just so i arrive by 18:15 .",
+                "i can help you with that . where are you going ?"
+            ],
+            [
+                "i want to go to the shanghai family restaurant . and i need the car type and contact number please .",
+                "okay , i have a black bmw for you with the contact number 07678946250 . is there anything else you need today ?"
+            ],
+            [
+                "no that is all . thanks .",
+                "none"
+            ]
+        ],
+        "state": [
+            "none",
+            "",
+            "taxi-departure=riverside brasserie",
+            "taxi-departure=riverside brasserie\ttaxi-arriveby=18:15",
+            "taxi-destination=shanghai family restaurant\ttaxi-departure=riverside brasserie\ttaxi-arriveby=18:15",
+            "taxi-destination=shanghai family restaurant\ttaxi-departure=riverside brasserie\ttaxi-arriveby=18:15"
+        ],
+        "dial_id": "SNG01359.json"
+    },
+    {
+        "meta": [
+            [
+                "taxi-leaveat=12:15\ttaxi-departure=golden house"
+            ],
+            [
+                "taxi-destination=soul tree nightclub"
+            ],
+            []
+        ],
+        "dialogue": [
+            [
+                "hi , i am looking for a taxi . i need to leave from golden house at 12:15 .",
+                "sure , can i have the destination for your taxi please ?"
+            ],
+            [
+                "i am headed to the soul tree nightclub .",
+                "i have booked a taxi for you . it is a blue ford and the contact number is 07710275202 . is there anything else i can help you with today ?"
+            ],
+            [
+                "no , you have been very helpful . thank you .",
+                "none"
+            ]
+        ],
+        "state": [
+            "none",
+            "taxi-leaveat=12:15\ttaxi-departure=golden house",
+            "taxi-leaveat=12:15\ttaxi-destination=soul tree nightclub\ttaxi-departure=golden house",
+            "taxi-leaveat=12:15\ttaxi-destination=soul tree nightclub\ttaxi-departure=golden house"
+        ],
+        "dial_id": "SNG0095.json"
+    },
+    {
+        "meta": [
+            [],
+            [
+                "taxi-destination=restaurant 2 two\ttaxi-arriveby=05:15"
+            ],
+            [
+                "taxi-departure=williams art and antiques"
+            ],
+            [],
+            []
+        ],
+        "dialogue": [
+            [
+                "i need a taxi , please .",
+                "i would be happy to assist you today . i'll need a little bit of information from you let s start with what time you would like to leave and arrive ?"
+            ],
+            [
+                "i need to get to restaurant 2 two by 5:15",
+                "ok , i need a little bit more information , where will your taxi be departing from ?"
+            ],
+            [
+                "i want to be picked up at williams art and antiques .",
+                "your taxi is booked: a blue volvo with the contact number of 07690471186 ."
+            ],
+            [
+                "i look forward to the ride . thank you .",
+                "you are welcome . is there anything else i can do for you today ?"
+            ],
+            [
+                "no , that will be all . thanks very much .",
+                "none"
+            ]
+        ],
+        "state": [
+            "none",
+            "",
+            "taxi-destination=restaurant 2 two\ttaxi-arriveby=05:15",
+            "taxi-destination=restaurant 2 two\ttaxi-departure=williams art and antiques\ttaxi-arriveby=05:15",
+            "taxi-destination=restaurant 2 two\ttaxi-departure=williams art and antiques\ttaxi-arriveby=05:15",
+            "taxi-destination=restaurant 2 two\ttaxi-departure=williams art and antiques\ttaxi-arriveby=05:15"
+        ],
+        "dial_id": "SNG01924.json"
+    },
+    {
+        "meta": [
+            [
+                "taxi-destination=saint catharine s college\ttaxi-departure=a and b guest house"
+            ],
+            [
+                "taxi-arriveby=06:00"
+            ],
+            []
+        ],
+        "dialogue": [
+            [
+                "hi , i would like to book a taxi from a and b guest house to saint catherine s college .",
+                "in order to book you a taxi i will need to know either when you would like to leave or arrive by ?"
+            ],
+            [
+                "i would like to arrive by 06:00 , please .",
+                "alright , i got you booked . the car will be a blue skoda and the contact number is 07914819489 . anything else i can help you with ?"
+            ],
+            [
+                "that will be all , thanks !",
+                "none"
+            ]
+        ],
+        "state": [
+            "none",
+            "taxi-destination=saint catharine s college\ttaxi-departure=a and b guest house",
+            "taxi-destination=saint catharine s college\ttaxi-departure=a and b guest house\ttaxi-arriveby=06:00",
+            "taxi-destination=saint catharine s college\ttaxi-departure=a and b guest house\ttaxi-arriveby=06:00"
+        ],
+        "dial_id": "SNG0008.json"
+    },
+    {
+        "meta": [
+            [
+                "taxi-leaveat=10:45\ttaxi-departure=ashley hotel"
+            ],
+            [
+                "taxi-destination=restaurant 2 two"
+            ],
+            [],
+            []
+        ],
+        "dialogue": [
+            [
+                "i need a taxi to pick me up at ashley hotel to leave after 10:45 .",
+                "where would you like to go to ?"
+            ],
+            [
+                "i need to get to restaurant 2 two",
+                "booking completed ! is there anything else i can help you with today ? booked car type : blue bmw contact number : 07083779802"
+            ],
+            [
+                "thanks ! that would be all .",
+                "i can also help you with attractions and trains , if you are interested ."
+            ],
+            [
+                "no , that will be all . goodbye .",
+                "none"
+            ]
+        ],
+        "state": [
+            "none",
+            "taxi-leaveat=10:45\ttaxi-departure=ashley hotel",
+            "taxi-leaveat=10:45\ttaxi-destination=restaurant 2 two\ttaxi-departure=ashley hotel",
+            "taxi-leaveat=10:45\ttaxi-destination=restaurant 2 two\ttaxi-departure=ashley hotel",
+            "taxi-leaveat=10:45\ttaxi-destination=restaurant 2 two\ttaxi-departure=ashley hotel"
+        ],
+        "dial_id": "SNG01332.json"
+    },
+    {
+        "meta": [
+            [
+                "taxi-leaveat=16:15\ttaxi-destination=avalon"
+            ],
+            [
+                "taxi-departure=parkside pools"
+            ],
+            []
+        ],
+        "dialogue": [
+            [
+                "i need a taxi . i am going to avalon and i need to leave after 16:15",
+                "i will need to know where you need to be picked up ?"
+            ],
+            [
+                "i will be at parkside pools .",
+                "alright i have a red lexus picking you up at parkside pools at 16:15 . the contact number for the taxi is 07332430116 ."
+            ],
+            [
+                "great that will be everything thanks .",
+                "none"
+            ]
+        ],
+        "state": [
+            "none",
+            "taxi-leaveat=16:15\ttaxi-destination=avalon",
+            "taxi-leaveat=16:15\ttaxi-destination=avalon\ttaxi-departure=parkside pools",
+            "taxi-leaveat=16:15\ttaxi-destination=avalon\ttaxi-departure=parkside pools"
+        ],
+        "dial_id": "SNG0055.json"
+    },
+    {
+        "meta": [
+            [
+                "taxi-leaveat=1\ttaxi-destination=christ s college\ttaxi-departure=city stop restaurant"
+            ],
+            [
+                "taxi-leaveat=14:15"
+            ],
+            [],
+            []
+        ],
+        "dialogue": [
+            [
+                "i want to book a taxi going to christ s college departing from city stop restaurant please .",
+                "when would you like to arrive by ?"
+            ],
+            [
+                "does not matter , but i need to leave after 14:15",
+                "i was able to book you a black volkswagen for 14:15 , the contact number is 07944381295 ."
+            ],
+            [
+                "thank you very much .",
+                "will there be anything else today , or have i answered all your questions ?"
+            ],
+            [
+                "that s all i needed , thanks so much for your help .",
+                "none"
+            ]
+        ],
+        "state": [
+            "none",
+            "taxi-leaveat=1\ttaxi-destination=christ s college\ttaxi-departure=city stop restaurant",
+            "taxi-leaveat=14:15\ttaxi-destination=christ s college\ttaxi-departure=city stop restaurant",
+            "taxi-leaveat=14:15\ttaxi-destination=christ s college\ttaxi-departure=city stop restaurant",
+            "taxi-leaveat=14:15\ttaxi-destination=christ s college\ttaxi-departure=city stop restaurant"
+        ],
+        "dial_id": "SNG0007.json"
+    },
+    {
+        "meta": [
+            [
+                "taxi-destination=de luca cucina and bar\ttaxi-departure=avalon"
+            ],
+            [
+                "taxi-arriveby=07:30"
+            ],
+            []
+        ],
+        "dialogue": [
+            [
+                "can you book me a taxi from avalon to de luca cucina and bar ?",
+                "easy enough . what time would you like to leave by as well as arrive to ?"
+            ],
+            [
+                "i would like to arrive at de luca by 07:30 . it does not matter when i leave .",
+                "i booked that for you . the car will be a white honda and the contact number is 07804995392 ."
+            ],
+            [
+                "thank you very much for you help today .",
+                "none"
+            ]
+        ],
+        "state": [
+            "none",
+            "taxi-destination=de luca cucina and bar\ttaxi-departure=avalon",
+            "taxi-destination=de luca cucina and bar\ttaxi-departure=avalon\ttaxi-arriveby=07:30",
+            "taxi-destination=de luca cucina and bar\ttaxi-departure=avalon\ttaxi-arriveby=07:30"
+        ],
+        "dial_id": "SNG0069.json"
+    },
+    {
+        "meta": [
+            [
+                "taxi-leaveat=04:30\ttaxi-departure=pizza hut city centre"
+            ],
+            [
+                "taxi-destination=gonville hotel"
+            ],
+            []
+        ],
+        "dialogue": [
+            [
+                "i need to be picked up from pizza hut city centre after 04:30",
+                "where will you be heading to ?"
+            ],
+            [
+                "i am headed to gonville hotel .",
+                "great . your booking is complete . a yellow ford will pick you up and can be reached by dialing 07017220129"
+            ],
+            [
+                "thanks . that takes care of everything for me . bye !",
+                "none"
+            ]
+        ],
+        "state": [
+            "none",
+            "taxi-leaveat=04:30\ttaxi-departure=pizza hut city centre",
+            "taxi-leaveat=04:30\ttaxi-destination=gonville hotel\ttaxi-departure=pizza hut city centre",
+            "taxi-leaveat=04:30\ttaxi-destination=gonville hotel\ttaxi-departure=pizza hut city centre"
+        ],
+        "dial_id": "SNG01873.json"
+    },
+    {
+        "meta": [
+            [
+                "taxi-departure=the gandhi"
+            ],
+            [
+                "taxi-destination=broxbourne train station\ttaxi-arriveby=02:00"
+            ],
+            [],
+            []
+        ],
+        "dialogue": [
+            [
+                "i need to book a tax departing from gandhi .",
+                "what is your destination and when would you like to depart ?"
+            ],
+            [
+                "i am going to broxbourne train station and i need to arrive by 02:00",
+                "i have you in a red lexus , 07595414661 is the number to call if you need to speak to them ."
+            ],
+            [
+                "wonderful , thanks for your help .",
+                "my pleasure . do you need any other assistance while in town ?"
+            ],
+            [
+                "no thank you .",
+                "none"
+            ]
+        ],
+        "state": [
+            "none",
+            "taxi-departure=the gandhi",
+            "taxi-destination=broxbourne train station\ttaxi-departure=the gandhi\ttaxi-arriveby=02:00",
+            "taxi-destination=broxbourne train station\ttaxi-departure=the gandhi\ttaxi-arriveby=02:00",
+            "taxi-destination=broxbourne train station\ttaxi-departure=the gandhi\ttaxi-arriveby=02:00"
+        ],
+        "dial_id": "SNG02207.json"
+    },
+    {
+        "meta": [
+            [
+                "taxi-destination=scott polar museum"
+            ],
+            [
+                "taxi-leaveat=03:00"
+            ],
+            [
+                "taxi-departure=london kings cross train station"
+            ],
+            [],
+            []
+        ],
+        "dialogue": [
+            [
+                "i would like to book a taxi to the scott polar museum",
+                "i would be happy to help . what time do you want to leave and and or arrive by ?"
+            ],
+            [
+                "300 will be best pick up time thank you",
+                "what is your departure site ?"
+            ],
+            [
+                "i will be picked up from london kings cross train station . i'll also need a contact phone number and a car type to expect .",
+                "okay i have a grey lexus and the contact number is 07089138985 . anything else i can do for you ?"
+            ],
+            [
+                "that s all i needed help with today . thanks !",
+                "i need a taxi to the scott polar museum ."
+            ],
+            [
+                "thank you , goodbye .",
+                "none"
+            ]
+        ],
+        "state": [
+            "none",
+            "taxi-destination=scott polar museum",
+            "taxi-leaveat=03:00\ttaxi-destination=scott polar museum",
+            "taxi-leaveat=03:00\ttaxi-destination=scott polar museum\ttaxi-departure=london kings cross train station",
+            "taxi-leaveat=03:00\ttaxi-destination=scott polar museum\ttaxi-departure=london kings cross train station",
+            "taxi-leaveat=03:00\ttaxi-destination=scott polar museum\ttaxi-departure=london kings cross train station"
+        ],
+        "dial_id": "SNG02319.json"
+    },
+    {
+        "meta": [
+            [
+                "taxi-leaveat=11:00\ttaxi-destination=arbury lodge guesthouse"
+            ],
+            [
+                "taxi-departure=the gardenia"
+            ],
+            [],
+            []
+        ],
+        "dialogue": [
+            [
+                "i would like to book a taxi to leave after 11:00 going to arbury lodge guesthouse .",
+                "where are you departing from ?"
+            ],
+            [
+                "from the gardenia",
+                "all right , a red skoda will pick you up . the contact number is 07278222346 ."
+            ],
+            [
+                "great ! thank you for your help !",
+                "you are welcome ! what else can i do for you ?"
+            ],
+            [
+                "no that will be all for today . thank you !",
+                "none"
+            ]
+        ],
+        "state": [
+            "none",
+            "taxi-leaveat=11:00\ttaxi-destination=arbury lodge guesthouse",
+            "taxi-leaveat=11:00\ttaxi-destination=arbury lodge guesthouse\ttaxi-departure=the gardenia",
+            "taxi-leaveat=11:00\ttaxi-destination=arbury lodge guesthouse\ttaxi-departure=the gardenia",
+            "taxi-leaveat=11:00\ttaxi-destination=arbury lodge guesthouse\ttaxi-departure=the gardenia"
+        ],
+        "dial_id": "SNG0061.json"
+    }
+]

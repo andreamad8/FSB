@@ -1,0 +1,2660 @@
+[
+    {
+        "meta": [
+            [
+                "hotel-stars=3\thotel-internet=yes"
+            ],
+            [],
+            [
+                "hotel-book_day=monday\thotel-book_people=3\thotel-book_stay=2"
+            ],
+            []
+        ],
+        "dialogue": [
+            [
+                "hello , i am trying to find a place to stay that has free wifi and 3 stars . do you have anything like that ?",
+                "i have 5 results that match your criteria , do you have a certain area of town you would like to stay in or a price range you are looking for ?"
+            ],
+            [
+                "are any of them a hotel ? i do not want a guesthouse .",
+                "yes there are 2 hotel -s . 1 in the centre and 1 in the south . any preference ?"
+            ],
+            [
+                "no preference , i need it for 2 nights starting from monday for 3 people , and i need a reference number please .",
+                "ok , you are booked into the gonville hotel , located in the center of town on gonville place . the reference number is g6fao56j ."
+            ],
+            [
+                "that is great , i am so excited . thanks for you help . bye .",
+                "none"
+            ]
+        ],
+        "state": [
+            "none",
+            "hotel-stars=3\thotel-internet=yes",
+            "hotel-stars=3\thotel-internet=yes",
+            "hotel-book_day=monday\thotel-book_people=3\thotel-book_stay=2\thotel-stars=3\thotel-internet=yes",
+            "hotel-book_day=monday\thotel-book_people=3\thotel-book_stay=2\thotel-stars=3\thotel-internet=yes"
+        ],
+        "dial_id": "SNG1046.json"
+    },
+    {
+        "meta": [
+            [
+                "hotel-area=east"
+            ],
+            [
+                "hotel-pricerange=expensive\thotel-type=guesthouse"
+            ],
+            [
+                "hotel-pricerange=cheap"
+            ],
+            [],
+            [
+                "hotel-name=allenbell"
+            ],
+            [],
+            []
+        ],
+        "dialogue": [
+            [
+                "hi . i will be attending a conference in the eastern part of town and wondered if you could help me find an available room .",
+                "there are several guesthouses and 1 hotel in the east part of town . what price range are you looking for ?"
+            ],
+            [
+                "i prefer a guesthouse . do you have any expensive ones ?",
+                "i do not have anything in the east that matches your request . would you like to change the area or the type of accomodations ?"
+            ],
+            [
+                "how about a hotel in the cheap price range ?",
+                "i have 3 guesthouses that match your criteria . everton house , autumn house , and allenbell . does any of these interest you ?"
+            ],
+            [
+                "which 1 would you recommend ?",
+                "everyone seems to enjoy the allenbell ."
+            ],
+            [
+                "that sounds alright . do they have free parking ?",
+                "yes , they do . would you like to book a room ?"
+            ],
+            [
+                "i do not need a room right now , but does the allenbell have free wifi ? and what s their postcode ?",
+                "yes , they have free wifi . their postcode is cb13js ."
+            ],
+            [
+                "thanks so much for your help .",
+                "none"
+            ]
+        ],
+        "state": [
+            "none",
+            "hotel-area=east",
+            "hotel-area=east\thotel-pricerange=expensive\thotel-type=guesthouse",
+            "hotel-area=east\thotel-pricerange=cheap\thotel-type=guesthouse",
+            "hotel-area=east\thotel-pricerange=cheap\thotel-type=guesthouse",
+            "hotel-name=allenbell\thotel-area=east\thotel-pricerange=cheap\thotel-type=guesthouse",
+            "hotel-name=allenbell\thotel-area=east\thotel-pricerange=cheap\thotel-type=guesthouse",
+            "hotel-name=allenbell\thotel-area=east\thotel-pricerange=cheap\thotel-type=guesthouse"
+        ],
+        "dial_id": "SNG0907.json"
+    },
+    {
+        "meta": [
+            [
+                "hotel-pricerange=cheap\thotel-internet=yes\thotel-type=hotel"
+            ],
+            [
+                "hotel-name=the cambridge belfry"
+            ],
+            [
+                "hotel-book_day=friday\thotel-book_people=1\thotel-book_stay=2"
+            ],
+            [
+                "hotel-book_stay=1"
+            ],
+            []
+        ],
+        "dialogue": [
+            [
+                "i am looking for a place to stay . the hotel should include free wifi and should be in the cheap price range",
+                "i have the cambridge belfry , located in the west , cheap and has wifi . would you like me to make a reservation for you ?"
+            ],
+            [
+                "no , just need to make sure it include -s free parking .",
+                "it does include free parking ."
+            ],
+            [
+                "okay , i need to book it for 1 person , 2 nights starting friday .",
+                "booking was not successful . perhaps another day or shorter stay ?"
+            ],
+            [
+                "how about for 1 night ?",
+                "booking was successful . reference number is : rhwj0f1y ."
+            ],
+            [
+                "thanks for your help have a great day .",
+                "none"
+            ]
+        ],
+        "state": [
+            "none",
+            "hotel-pricerange=cheap\thotel-internet=yes\thotel-type=hotel",
+            "hotel-name=the cambridge belfry\thotel-pricerange=cheap\thotel-internet=yes\thotel-type=hotel",
+            "hotel-book_day=friday\thotel-book_people=1\thotel-book_stay=2\thotel-name=the cambridge belfry\thotel-pricerange=cheap\thotel-internet=yes\thotel-type=hotel",
+            "hotel-book_day=friday\thotel-book_people=1\thotel-book_stay=1\thotel-name=the cambridge belfry\thotel-pricerange=cheap\thotel-internet=yes\thotel-type=hotel",
+            "hotel-book_day=friday\thotel-book_people=1\thotel-book_stay=1\thotel-name=the cambridge belfry\thotel-pricerange=cheap\thotel-internet=yes\thotel-type=hotel"
+        ],
+        "dial_id": "SNG01297.json"
+    },
+    {
+        "meta": [
+            [
+                "hotel-parking=yes\thotel-type=hotel"
+            ],
+            [
+                "hotel-pricerange=moderate"
+            ],
+            [],
+            [
+                "hotel-type=guesthouse\thotel-stars=4"
+            ],
+            [
+                "hotel-type=guesthouse"
+            ],
+            [
+                "hotel-book_day=wednesday\thotel-book_people=4\thotel-book_stay=4"
+            ],
+            []
+        ],
+        "dialogue": [
+            [
+                "i am looking for a hotel with free parking .",
+                "we have 8 hotel -s offer free parking . did you have a price range in mind ? or an area of town you want to stay in ?"
+            ],
+            [
+                "area does not matter , but i would like to keep the price moderate .",
+                "both the ashley hotel and lovell lodge offer free parking and are moderate -ly priced . they are also both on the north end of town . do either of these sound good ?"
+            ],
+            [
+                "do either of them have a 4 star rating ?",
+                "i am sorry , but they are both 2 star hotel -s . would you like to change your preferences ?"
+            ],
+            [
+                "i would like a 4 star hotel in the moderate price range . i do need free parking .",
+                "we have a number of 4 star guesthouses with free parking , but no hotel -s ."
+            ],
+            [
+                "i think that should be fine . can i book 1 for wednesday for 4 nights ? there will be 4 of us .",
+                "there are 9 location -s to choose from that meet your criteria . they are in various parts of the city . would you prefer to stay in the north , south , or east ?"
+            ],
+            [
+                "it does not matter to me .",
+                "i have booked you at kirkwood house . reference number: a40vc3l5 . anything else you need ?"
+            ],
+            [
+                "no that will be all , thanks !",
+                "none"
+            ]
+        ],
+        "state": [
+            "none",
+            "hotel-parking=yes\thotel-type=hotel",
+            "hotel-parking=yes\thotel-pricerange=moderate\thotel-type=hotel",
+            "hotel-parking=yes\thotel-pricerange=moderate\thotel-type=hotel",
+            "hotel-parking=yes\thotel-pricerange=moderate\thotel-stars=4\thotel-type=guesthouse",
+            "hotel-parking=yes\thotel-pricerange=moderate\thotel-stars=4",
+            "hotel-book_day=wednesday\thotel-book_people=4\thotel-book_stay=4\thotel-parking=yes\thotel-pricerange=moderate\thotel-stars=4",
+            "hotel-book_day=wednesday\thotel-book_people=4\thotel-book_stay=4\thotel-parking=yes\thotel-pricerange=moderate\thotel-stars=4"
+        ],
+        "dial_id": "SNG0910.json"
+    },
+    {
+        "meta": [
+            [
+                "hotel-name=huntingdon marriott hotel"
+            ],
+            [
+                "hotel-book_day=saturday\thotel-book_people=6\thotel-book_stay=5"
+            ],
+            [
+                "hotel-book_stay=1"
+            ],
+            []
+        ],
+        "dialogue": [
+            [
+                "yes , can you give me the information on the huntingdon marriott hotel ?",
+                "absolutely . it is an expensive hotel located in the west part of town . it has 4 starts and include -s free wifi and parking . would you like help booking a room ?"
+            ],
+            [
+                "yes please , i need a reservation for 6 people for 5 nights starting on saturday .",
+                "sorry , there are not enough rooms available for that time period . perhaps a different day or a shorter stay might yield better results ."
+            ],
+            [
+                "how about for 1 night ? if that works , i'll need a reference number of course .",
+                "booking was successful . your reference number is : oo8qda62 ."
+            ],
+            [
+                "thank you so much . goodbye .",
+                "none"
+            ]
+        ],
+        "state": [
+            "none",
+            "hotel-name=huntingdon marriott hotel",
+            "hotel-book_day=saturday\thotel-book_people=6\thotel-book_stay=5\thotel-name=huntingdon marriott hotel",
+            "hotel-book_day=saturday\thotel-book_people=6\thotel-book_stay=1\thotel-name=huntingdon marriott hotel",
+            "hotel-book_day=saturday\thotel-book_people=6\thotel-book_stay=1\thotel-name=huntingdon marriott hotel"
+        ],
+        "dial_id": "SNG1002.json"
+    },
+    {
+        "meta": [
+            [
+                "hotel-area=east\thotel-parking=yes"
+            ],
+            [],
+            [
+                "hotel-book_day=monday\thotel-book_people=5\thotel-book_stay=3\thotel-pricerange=dontcare\thotel-internet=yes\thotel-type=guesthouse"
+            ],
+            []
+        ],
+        "dialogue": [
+            [
+                "i need to find a place to stay in the east part of town with free parking .",
+                "there are 6 place -s to stay in the east part of town with free parking . do you have a preferred price range ?"
+            ],
+            [
+                "i do not have a preferred price . i am looking for any sort of guesthouse there and absolutely require wifi access .",
+                "the allenbell is on the east side of town , is a guesthouse type , and has parking and wifi . would you like me to book it ?"
+            ],
+            [
+                "yes , please book it for 5 people and 3 nights , starting from monday .",
+                "booking was successful . your reference number is : 7nwczep1 ."
+            ],
+            [
+                "that is all , thank you",
+                "none"
+            ]
+        ],
+        "state": [
+            "none",
+            "hotel-area=east\thotel-parking=yes",
+            "hotel-area=east\thotel-parking=yes",
+            "hotel-book_day=monday\thotel-book_people=5\thotel-book_stay=3\thotel-area=east\thotel-parking=yes\thotel-pricerange=dontcare\thotel-internet=yes\thotel-type=guesthouse",
+            "hotel-book_day=monday\thotel-book_people=5\thotel-book_stay=3\thotel-area=east\thotel-parking=yes\thotel-pricerange=dontcare\thotel-internet=yes\thotel-type=guesthouse"
+        ],
+        "dial_id": "SNG0752.json"
+    },
+    {
+        "meta": [
+            [
+                "hotel-area=north"
+            ],
+            [
+                "hotel-pricerange=moderate\thotel-internet=yes"
+            ],
+            [],
+            [
+                "hotel-type=hotel"
+            ],
+            [
+                "hotel-book_day=sunday\thotel-book_people=3\thotel-book_stay=4"
+            ],
+            []
+        ],
+        "dialogue": [
+            [
+                "hello . can you help me find a hotel in the north of town ?",
+                "i have 2 hotel -s in the north , would you like to book 1 ?"
+            ],
+            [
+                "are either of them moderate -ly priced ? do they include free wifi ?",
+                "we have 2 hotel -s and 8 guesthouses that match your needs . do you have additional requirement -s ?"
+            ],
+            [
+                "could you book me into 1 of the 2 hotel -s please .",
+                "how about the ashley hotel ? how many people in your party ?"
+            ],
+            [
+                "but i am not sure from what you said is the ashley priced moderate -ly , and do they have free wifi ? we are 3 people and we'd like to stay 4 nights .",
+                "ashley hotel is moderate -ly priced and has free wifi . what night would you like to begin your stay ?"
+            ],
+            [
+                "i would like it to start sunday .",
+                "you have your reservation at the ashley , reference number bof076g4 ."
+            ],
+            [
+                "thanks so much for your help . bye .",
+                "none"
+            ]
+        ],
+        "state": [
+            "none",
+            "hotel-area=north",
+            "hotel-area=north\thotel-pricerange=moderate\thotel-internet=yes",
+            "hotel-area=north\thotel-pricerange=moderate\thotel-internet=yes",
+            "hotel-area=north\thotel-pricerange=moderate\thotel-internet=yes\thotel-type=hotel",
+            "hotel-book_day=sunday\thotel-book_people=3\thotel-book_stay=4\thotel-area=north\thotel-pricerange=moderate\thotel-internet=yes\thotel-type=hotel",
+            "hotel-book_day=sunday\thotel-book_people=3\thotel-book_stay=4\thotel-area=north\thotel-pricerange=moderate\thotel-internet=yes\thotel-type=hotel"
+        ],
+        "dial_id": "SNG0783.json"
+    },
+    {
+        "meta": [
+            [
+                "hotel-parking=yes\thotel-internet=yes"
+            ],
+            [
+                "hotel-pricerange=moderate\thotel-type=hotel"
+            ],
+            [],
+            [],
+            []
+        ],
+        "dialogue": [
+            [
+                "hello ! i need a place to bed down for the night that offers free parking and wifi . can you help me ?",
+                "yes , i can help . do you have a price range and part of town in mind ?"
+            ],
+            [
+                "i would like a moderate priced hotel in any part of town please .",
+                "there are 2 hotel -s in the north area with moderate price -s . ashley hotel and lovell lodge . both are 2 stars , would you me to book you for either 1 ?"
+            ],
+            [
+                "yes , please book the ashley hotel .",
+                "certainly . what day would you like to stay ?"
+            ],
+            [
+                "on second thought , i am not ready to book yet . could you give me the address and phone number of the ashley hotel ?",
+                "they are located at 74 chesterton road . their number is 01223350059 ."
+            ],
+            [
+                "thank you for your help . if i need anything else , i will certainly call again .",
+                "none"
+            ]
+        ],
+        "state": [
+            "none",
+            "hotel-parking=yes\thotel-internet=yes",
+            "hotel-parking=yes\thotel-pricerange=moderate\thotel-internet=yes\thotel-type=hotel",
+            "hotel-parking=yes\thotel-pricerange=moderate\thotel-internet=yes\thotel-type=hotel",
+            "hotel-parking=yes\thotel-pricerange=moderate\thotel-internet=yes\thotel-type=hotel",
+            "hotel-parking=yes\thotel-pricerange=moderate\thotel-internet=yes\thotel-type=hotel"
+        ],
+        "dial_id": "SNG0921.json"
+    },
+    {
+        "meta": [
+            [
+                "hotel-area=east\thotel-internet=yes"
+            ],
+            [
+                "hotel-pricerange=cheap"
+            ],
+            [],
+            [
+                "hotel-name=autumn house"
+            ],
+            [
+                "hotel-parking=yes\thotel-type=guesthouse"
+            ],
+            []
+        ],
+        "dialogue": [
+            [
+                "hi , i am looking for a place to stay with free wifi in the east part of town .",
+                "there are 6 guesthouses and 1 hotel that match your request . would you like to add additional preferences to narrow your search ?"
+            ],
+            [
+                "preferably something on the cheap -er side .",
+                "i have 3 guesthouses that meet your needs , would you like to book 1 of them ?"
+            ],
+            [
+                "do any of the 3 have parking ?",
+                "yes , all 3 have free parking . i personally recommend the autumn house ."
+            ],
+            [
+                "okay , could you tell me the address for that guesthouse ?",
+                "sure . it s located on 710 newmarket road . anything else ?"
+            ],
+            [
+                "thank you . how many stars does the autumn house have ?",
+                "the autumn house has 4 stars . do you want me to book a room for you ?"
+            ],
+            [
+                "no , that s okay . thanks for your help . bye !",
+                "none"
+            ]
+        ],
+        "state": [
+            "none",
+            "hotel-area=east\thotel-internet=yes",
+            "hotel-area=east\thotel-pricerange=cheap\thotel-internet=yes",
+            "hotel-area=east\thotel-pricerange=cheap\thotel-internet=yes",
+            "hotel-name=autumn house\thotel-area=east\thotel-pricerange=cheap\thotel-internet=yes",
+            "hotel-name=autumn house\thotel-area=east\thotel-parking=yes\thotel-pricerange=cheap\thotel-internet=yes\thotel-type=guesthouse",
+            "hotel-name=autumn house\thotel-area=east\thotel-parking=yes\thotel-pricerange=cheap\thotel-internet=yes\thotel-type=guesthouse"
+        ],
+        "dial_id": "SNG0896.json"
+    },
+    {
+        "meta": [
+            [
+                "hotel-name=express by holiday inn cambridge"
+            ],
+            []
+        ],
+        "dialogue": [
+            [
+                "do you have information on the express by holiday inn cambridge ?",
+                "i do , indeed ! it is located in the east , is a 2 star hotel , and has both free internet and parking ."
+            ],
+            [
+                "okay . thanks a lot . that s all i need right now .",
+                "none"
+            ]
+        ],
+        "state": [
+            "none",
+            "hotel-name=express by holiday inn cambridge",
+            "hotel-name=express by holiday inn cambridge"
+        ],
+        "dial_id": "SNG0996.json"
+    },
+    {
+        "meta": [
+            [
+                "hotel-area=west\thotel-internet=yes"
+            ],
+            [
+                "hotel-parking=yes\thotel-pricerange=dontcare"
+            ],
+            [
+                "hotel-type=hotel"
+            ],
+            [
+                "hotel-name=huntingdon marriott hotel"
+            ],
+            []
+        ],
+        "dialogue": [
+            [
+                "i need a place to stay on the west side of town , and i definitely need free wifi .",
+                "i will be more than happy to help you find 1 . do you prefer a certain price range ?"
+            ],
+            [
+                "price does not really matter , but i would like it to include internet and parking please .",
+                "i have 2 hotel -s and 2 guesthouses in the west area with wifi and parking . do you have a preference ?"
+            ],
+            [
+                "a hotel , please .",
+                "we have two: huntingdon marriott hotel , and the cambridge belfry ."
+            ],
+            [
+                "the huntingdon marriott hotel will work . can i have the phone number and address ?",
+                "of course . the address i have is kingfisher way , hinchinbrook business park , huntingdon . their phone number is 01480446000 . would you like me to book your stay ?"
+            ],
+            [
+                "no , that s all i need . i will give them a call myself . thank you !",
+                "none"
+            ]
+        ],
+        "state": [
+            "none",
+            "hotel-area=west\thotel-internet=yes",
+            "hotel-area=west\thotel-parking=yes\thotel-pricerange=dontcare\thotel-internet=yes",
+            "hotel-area=west\thotel-parking=yes\thotel-pricerange=dontcare\thotel-internet=yes\thotel-type=hotel",
+            "hotel-name=huntingdon marriott hotel\thotel-area=west\thotel-parking=yes\thotel-pricerange=dontcare\thotel-internet=yes\thotel-type=hotel",
+            "hotel-name=huntingdon marriott hotel\thotel-area=west\thotel-parking=yes\thotel-pricerange=dontcare\thotel-internet=yes\thotel-type=hotel"
+        ],
+        "dial_id": "SNG0829.json"
+    },
+    {
+        "meta": [
+            [
+                "hotel-area=south\thotel-parking=dontcare\thotel-type=hotel"
+            ],
+            [],
+            [
+                "hotel-parking=yes\thotel-pricerange=moderate"
+            ],
+            [
+                "hotel-parking=dontcare\thotel-internet=yes\thotel-type=hotel"
+            ],
+            [],
+            []
+        ],
+        "dialogue": [
+            [
+                "i need a hotel in the south of the city , it is ok if the hotel does not has free parking .",
+                "i have 1 hotel that meets your needs . it s the lensfield hotel that offers free wifi and parking . they have a 3 star rating . would you like more info on it ?"
+            ],
+            [
+                "what is the price of the lensfield ?",
+                "the lensfield hotel is expensive ."
+            ],
+            [
+                "is there a moderate place in the in the south that has free parking ?",
+                "no , no hotel -s meet your criteria ."
+            ],
+            [
+                "are there any moderate -ly priced hotel -s that do not have free parking , but have wifi ?",
+                "we have 2 location -s that are in the south , moderate -ly priced , and have free wifi . they are both guesthouses , would 1 of those meet your needs ?"
+            ],
+            [
+                "yes , can you give me the address of your favorite 1 ?",
+                "the address to aylesbray lodge guest house is 5 mowbray road ! is there anything else i can help you with ?"
+            ],
+            [
+                "no that would be all . thanks .",
+                "none"
+            ]
+        ],
+        "state": [
+            "none",
+            "hotel-area=south\thotel-parking=dontcare\thotel-type=hotel",
+            "hotel-area=south\thotel-parking=dontcare\thotel-type=hotel",
+            "hotel-area=south\thotel-parking=yes\thotel-pricerange=moderate\thotel-type=hotel",
+            "hotel-area=south\thotel-parking=dontcare\thotel-pricerange=moderate\thotel-internet=yes",
+            "hotel-area=south\thotel-parking=dontcare\thotel-pricerange=moderate\thotel-internet=yes",
+            "hotel-area=south\thotel-parking=dontcare\thotel-pricerange=moderate\thotel-internet=yes"
+        ],
+        "dial_id": "SNG1043.json"
+    },
+    {
+        "meta": [
+            [
+                "hotel-pricerange=moderate\thotel-internet=yes"
+            ],
+            [
+                "hotel-parking=yes\thotel-stars=2"
+            ],
+            [
+                "hotel-book_day=tuesday\thotel-book_people=4\thotel-book_stay=2\thotel-name=ashley hotel"
+            ],
+            []
+        ],
+        "dialogue": [
+            [
+                "could you find a moderate priced place to stay for me ? i do need free wifi .",
+                "absolutely . we have many guesthouses and hotel -s with free wifi . any other preferences ?"
+            ],
+            [
+                "i would prefer something with 2 stars , and i need free parking as well .",
+                "the ashley hotel and lovell lodge are both 2 star hotel -s that offer free parking and free wifi ."
+            ],
+            [
+                "great can i get a reservation at the ashley hotel for 4 people for 2 nights starting tuesday ?",
+                "your room for 4 guests has been booked at the ashley hotel for 2 nights starting on tuesday . your reference number is 6hzb65qh . can i assist you with anything else ?"
+            ],
+            [
+                "no , that s all for me . thanks ! goodbye !",
+                "none"
+            ]
+        ],
+        "state": [
+            "none",
+            "hotel-pricerange=moderate\thotel-internet=yes",
+            "hotel-parking=yes\thotel-pricerange=moderate\thotel-stars=2\thotel-internet=yes",
+            "hotel-book_day=tuesday\thotel-book_people=4\thotel-book_stay=2\thotel-name=ashley hotel\thotel-parking=yes\thotel-pricerange=moderate\thotel-stars=2\thotel-internet=yes",
+            "hotel-book_day=tuesday\thotel-book_people=4\thotel-book_stay=2\thotel-name=ashley hotel\thotel-parking=yes\thotel-pricerange=moderate\thotel-stars=2\thotel-internet=yes"
+        ],
+        "dial_id": "SNG0769.json"
+    },
+    {
+        "meta": [
+            [
+                "hotel-area=east\thotel-type=guesthouse"
+            ],
+            [
+                "hotel-pricerange=expensive"
+            ],
+            [
+                "hotel-pricerange=cheap"
+            ],
+            [
+                "hotel-pricerange=expensive\thotel-type=guesthouse"
+            ],
+            [
+                "hotel-name=autumn house\thotel-pricerange=expensive"
+            ],
+            [],
+            []
+        ],
+        "dialogue": [
+            [
+                "i am looking for a guesthouse to stay in on the east side . you know of any ?",
+                "there are 6 guesthouses all with 4 star rating -s that fit your request . would you like to add any other specification -s ?"
+            ],
+            [
+                "the guesthouse should be expensive .",
+                "i do not have any guest houses in the east that are expensive . do you want to change area -s or maybe modify the price range ?"
+            ],
+            [
+                "okay , i guess i could go for something different . do you have anything on the cheap side ?",
+                "i have 3 guesthouses in the east . all are 4 star rated and all of them have free wifi and parking . they are the allenbell , autumn house and leverton house ."
+            ],
+            [
+                "i actually want something in the expensive price range , sorry .",
+                "i apologize . there are not any expensive guesthouses in the east area . there is a hotel that is expensive , or we could try a different area ."
+            ],
+            [
+                "i am sorry for changing my mind again but cheap is fine . you had mentioned autumn house . what is their address , please .",
+                "the phone number is 01223575122 . would you like me to book that for you ?"
+            ],
+            [
+                "first i need the address please . also , can you tell me if they have free parking and wifi ?",
+                "yes they have internet and parking at autumn house . they are located at 710 newmarket road , cb58rs . can i help you with anything else ?"
+            ],
+            [
+                "no that is it , thanks .",
+                "none"
+            ]
+        ],
+        "state": [
+            "none",
+            "hotel-area=east\thotel-type=guesthouse",
+            "hotel-area=east\thotel-pricerange=expensive\thotel-type=guesthouse",
+            "hotel-area=east\thotel-pricerange=cheap\thotel-type=guesthouse",
+            "hotel-area=east\thotel-pricerange=expensive",
+            "hotel-name=autumn house\thotel-area=east",
+            "hotel-name=autumn house\thotel-area=east",
+            "hotel-name=autumn house\thotel-area=east"
+        ],
+        "dial_id": "SNG0949.json"
+    },
+    {
+        "meta": [
+            [
+                "hotel-stars=0\thotel-type=guesthouse"
+            ],
+            [],
+            [],
+            [
+                "hotel-book_day=friday\thotel-book_people=6\thotel-book_stay=5"
+            ],
+            []
+        ],
+        "dialogue": [
+            [
+                "i need to find a guesthouse with a 0 star rating .",
+                "i have 2 available . i have el shaddai which is located in the centre of town . and i also have city centre north b & b located in the north ."
+            ],
+            [
+                "do they have free parking and wifi ?",
+                "yes , they both include free parking and wifi ."
+            ],
+            [
+                "that s awesome . can you book 1 of them for me ?",
+                "absolutely ! when would you like to stay ?"
+            ],
+            [
+                "on friday , and i would like to stay 5 nights . this will be for 6 people .",
+                "i have reserved your room for you , your reference number is 542j9wog ."
+            ],
+            [
+                "excellent . thank you for the help !",
+                "none"
+            ]
+        ],
+        "state": [
+            "none",
+            "hotel-stars=0\thotel-type=guesthouse",
+            "hotel-stars=0\thotel-type=guesthouse",
+            "hotel-stars=0\thotel-type=guesthouse",
+            "hotel-book_day=friday\thotel-book_people=6\thotel-book_stay=5\thotel-stars=0\thotel-type=guesthouse",
+            "hotel-book_day=friday\thotel-book_people=6\thotel-book_stay=5\thotel-stars=0\thotel-type=guesthouse"
+        ],
+        "dial_id": "SNG1011.json"
+    },
+    {
+        "meta": [
+            [
+                "hotel-area=north\thotel-stars=4"
+            ],
+            [
+                "hotel-pricerange=expensive"
+            ],
+            [
+                "hotel-pricerange=moderate"
+            ],
+            [
+                "hotel-type=dontcare"
+            ],
+            [
+                "hotel-book_day=saturday\thotel-book_people=4\thotel-book_stay=4"
+            ],
+            []
+        ],
+        "dialogue": [
+            [
+                "i need a 4 star hotel on the north side .",
+                "i have 7 moderate -ly priced properties in the north with 4 stars , and 1 cheap 1 . do you have a preference for price ?"
+            ],
+            [
+                "is there anything in the expensive price range ?",
+                "no , i am sorry , there is not ."
+            ],
+            [
+                "how about just moderate ?",
+                "yes , there are 7 properties fitting that description and they are all guesthouses . would you like to book 1 ?"
+            ],
+            [
+                "yes , which 1 do you suggest ?",
+                "avalon is my favorite . when do you want to stay ?"
+            ],
+            [
+                "can you book it for 4 people and 4 nights starting from saturday ?",
+                "booked ! your reference number is hwzz651r . is there anything else you need ?"
+            ],
+            [
+                "no , i believe that is everything . thank you .",
+                "none"
+            ]
+        ],
+        "state": [
+            "none",
+            "hotel-area=north\thotel-stars=4",
+            "hotel-area=north\thotel-pricerange=expensive\thotel-stars=4",
+            "hotel-area=north\thotel-pricerange=moderate\thotel-stars=4",
+            "hotel-area=north\thotel-pricerange=moderate\thotel-stars=4\thotel-type=dontcare",
+            "hotel-book_day=saturday\thotel-book_people=4\thotel-book_stay=4\thotel-area=north\thotel-pricerange=moderate\thotel-stars=4\thotel-type=dontcare",
+            "hotel-book_day=saturday\thotel-book_people=4\thotel-book_stay=4\thotel-area=north\thotel-pricerange=moderate\thotel-stars=4\thotel-type=dontcare"
+        ],
+        "dial_id": "SNG0934.json"
+    },
+    {
+        "meta": [
+            [
+                "hotel-pricerange=cheap\thotel-internet=yes"
+            ],
+            [
+                "hotel-stars=2"
+            ],
+            [
+                "hotel-pricerange=moderate"
+            ],
+            [
+                "hotel-name=ashley hotel"
+            ],
+            [
+                "hotel-book_day=wednesday\thotel-book_people=2\thotel-book_stay=3\thotel-name=ashley hotel"
+            ],
+            []
+        ],
+        "dialogue": [
+            [
+                "i am looking for a cheap place to stay with free wifi .",
+                "we have 10 possibilities for you . do you have any additional preferences ?"
+            ],
+            [
+                "yes , i am looking for a hotel with a 2 star rating .",
+                "i do not have anything with 2 stars , free wifi , and in the cheap range . would you like to try a different number of stars ?"
+            ],
+            [
+                "let s try something in the moderate price range with 2 stars and free wifi please .",
+                "i have 2 options in the moderate price range . the ashley house and lovell lodge . would you like to try 1 of these ?"
+            ],
+            [
+                "lets try the ashley house please .",
+                "when will your stay be ?"
+            ],
+            [
+                "we'll arrive on wednesday and stay 3 nights . there will be 2 of us .",
+                "i have made your reservation , and the reference number is 5na21jwo . what else can i help you with ?"
+            ],
+            [
+                "that is all i need for now . thank you for finding the hotel .",
+                "none"
+            ]
+        ],
+        "state": [
+            "none",
+            "hotel-pricerange=cheap\thotel-internet=yes",
+            "hotel-pricerange=cheap\thotel-stars=2\thotel-internet=yes",
+            "hotel-pricerange=moderate\thotel-stars=2\thotel-internet=yes",
+            "hotel-name=ashley hotel\thotel-pricerange=moderate\thotel-stars=2\thotel-internet=yes",
+            "hotel-book_day=wednesday\thotel-book_people=2\thotel-book_stay=3\thotel-pricerange=moderate\thotel-stars=2\thotel-internet=yes",
+            "hotel-book_day=wednesday\thotel-book_people=2\thotel-book_stay=3\thotel-pricerange=moderate\thotel-stars=2\thotel-internet=yes"
+        ],
+        "dial_id": "SNG0993.json"
+    },
+    {
+        "meta": [
+            [
+                "hotel-name=arbury lodge guesthouse\thotel-type=hotel"
+            ],
+            [
+                "hotel-book_day=monday\thotel-book_people=8\thotel-book_stay=5\thotel-type=hotel"
+            ],
+            []
+        ],
+        "dialogue": [
+            [
+                "i am looking for a hotel called the arbury lodge guesthouse . do you have a listing for this ?",
+                "i am sorry , but this hotel is not in my records . there is another hotel that is very nice it calls super 5 ."
+            ],
+            [
+                "are you sure , but if not , book the super 5 for 8 people for 5 nights starting monday . i will need the reference number .",
+                "sorry about that the arbury lodge guesthouse is , in fact , in my database . your room is reserved , reference #n3cvyhhj . can i help with anything else today ?"
+            ],
+            [
+                "that s great ! thanks , i think that s all i need today .",
+                "none"
+            ]
+        ],
+        "state": [
+            "none",
+            "hotel-name=arbury lodge guesthouse\thotel-type=hotel",
+            "hotel-book_day=monday\thotel-book_people=8\thotel-book_stay=5\thotel-name=arbury lodge guesthouse",
+            "hotel-book_day=monday\thotel-book_people=8\thotel-book_stay=5\thotel-name=arbury lodge guesthouse"
+        ],
+        "dial_id": "SNG1018.json"
+    },
+    {
+        "meta": [
+            [
+                "hotel-name=limehouse"
+            ],
+            []
+        ],
+        "dialogue": [
+            [
+                "hi , i would like to find out about the limehouse hotel .",
+                "yes , the limehouse is a moderate -ly priced guesthouse on the north side . what other information can i get for you ?"
+            ],
+            [
+                "actually , you answered all of my questions . thanks so much . goodbye .",
+                "none"
+            ]
+        ],
+        "state": [
+            "none",
+            "hotel-name=limehouse",
+            "hotel-name=limehouse"
+        ],
+        "dial_id": "SNG1017.json"
+    },
+    {
+        "meta": [
+            [
+                "hotel-pricerange=expensive"
+            ],
+            [],
+            [
+                "hotel-pricerange=moderate"
+            ],
+            [
+                "hotel-area=east\thotel-internet=yes"
+            ],
+            [],
+            [
+                "hotel-book_day=friday\thotel-book_people=4\thotel-book_stay=5\thotel-type=guesthouse"
+            ],
+            [],
+            []
+        ],
+        "dialogue": [
+            [
+                "i am looking for an expensive hotel to stay in .",
+                "i found 5 place -s , university arms hotel has good rating -s"
+            ],
+            [
+                "is that a hotel or guesthouse ? i prefer an expensive guesthouse if possible .",
+                "i could not find any expensive guest houses . perhaps a different price range or another style of hotel ?"
+            ],
+            [
+                "can you try searching for moderate priced hotel -s ?",
+                "i have both moderate guesthouses and hotel -s across the city . do you have an area preference ?"
+            ],
+            [
+                "i prefer the east and would like free wifi",
+                "i have 3 guesthouse matching your description . 1 has no parking . i can book you at the carolina bed and breakfast if you would like ."
+            ],
+            [
+                "that could be really nice , thank you .",
+                "ok , to book a room i need to know your arrival day , the number of nights you are staying , and how many people are in your party ."
+            ],
+            [
+                "please , book the hotel for 5 days for 4 people starting on friday .",
+                "sure , can i just make sure you want a moderate guesthouse , east part of town , free internet , for 5 days starting on friday ?"
+            ],
+            [
+                "on second thought , i do not want to book it today . can you just confirm that it is in the east part of town ? that is all i will need .",
+                "yes . i have 3 guesthouses on the east part of town . a&b has no parking . carolina bed and breakfast and warkworth do provide free parking ."
+            ],
+            [
+                "that is all the information i need . thanks so much . i'll book it myself later . bye .",
+                "none"
+            ]
+        ],
+        "state": [
+            "none",
+            "hotel-pricerange=expensive",
+            "hotel-pricerange=expensive",
+            "hotel-pricerange=moderate",
+            "hotel-area=east\thotel-pricerange=moderate\thotel-internet=yes",
+            "hotel-area=east\thotel-pricerange=moderate\thotel-internet=yes",
+            "hotel-book_day=friday\thotel-book_people=4\thotel-book_stay=5\thotel-area=east\thotel-pricerange=moderate\thotel-internet=yes\thotel-type=guesthouse",
+            "hotel-book_day=friday\thotel-book_people=4\thotel-book_stay=5\thotel-area=east\thotel-pricerange=moderate\thotel-internet=yes\thotel-type=guesthouse",
+            "hotel-book_day=friday\thotel-book_people=4\thotel-book_stay=5\thotel-area=east\thotel-pricerange=moderate\thotel-internet=yes\thotel-type=guesthouse"
+        ],
+        "dial_id": "SNG0751.json"
+    },
+    {
+        "meta": [
+            [
+                "hotel-stars=4\thotel-internet=yes"
+            ],
+            [
+                "hotel-area=east\thotel-pricerange=moderate"
+            ],
+            [],
+            [],
+            [
+                "hotel-book_day=wednesday\thotel-book_people=5\thotel-book_stay=5"
+            ],
+            [
+                "hotel-book_stay=1"
+            ],
+            []
+        ],
+        "dialogue": [
+            [
+                "i am looking for info about 4 star accommodations , somewhere where they do not nickel and dime you for services like wifi .",
+                "there are 21 guesthouses and hotel -s in the area that are 4 stars and have free wifi . do you have a preference for price range or location ?"
+            ],
+            [
+                "i would like 1 located in the east with a moderate price range .",
+                "there are 3 that fit your needs . do you need parking ?"
+            ],
+            [
+                "no , i do not care about that . surprise me !",
+                "how about carolina bed and breakfast ?"
+            ],
+            [
+                "thats still fine . book for 1 night",
+                "i'll need to know when you will be arriving , how many nights your stay will be and for how many people ."
+            ],
+            [
+                "it'll be for 5 people and 5 nights starting from wednesday please",
+                "it appears that carolina bed and breakfast is not available for 5 nights and 5 people on wednesday . would you like a different day or shorter stay ?"
+            ],
+            [
+                "can you see if they are available for 1 night ? i will need the reference number if available .",
+                "i was able to make a reservation for wednesday night for 5 people . the reservation number is 4kjwhsti . can i help with anything else ?"
+            ],
+            [
+                "no , i think that s everything i need . thank you for helping me .",
+                "none"
+            ]
+        ],
+        "state": [
+            "none",
+            "hotel-stars=4\thotel-internet=yes",
+            "hotel-area=east\thotel-pricerange=moderate\thotel-stars=4\thotel-internet=yes",
+            "hotel-area=east\thotel-pricerange=moderate\thotel-stars=4\thotel-internet=yes",
+            "hotel-area=east\thotel-pricerange=moderate\thotel-stars=4\thotel-internet=yes",
+            "hotel-book_day=wednesday\thotel-book_people=5\thotel-book_stay=5\thotel-area=east\thotel-pricerange=moderate\thotel-stars=4\thotel-internet=yes",
+            "hotel-book_day=wednesday\thotel-book_people=5\thotel-book_stay=1\thotel-area=east\thotel-pricerange=moderate\thotel-stars=4\thotel-internet=yes",
+            "hotel-book_day=wednesday\thotel-book_people=5\thotel-book_stay=1\thotel-area=east\thotel-pricerange=moderate\thotel-stars=4\thotel-internet=yes"
+        ],
+        "dial_id": "SNG02276.json"
+    },
+    {
+        "meta": [
+            [
+                "hotel-type=guesthouse"
+            ],
+            [],
+            [],
+            [
+                "hotel-internet=yes"
+            ],
+            []
+        ],
+        "dialogue": [
+            [
+                "good evening . can you help me find a guesthouse to stay at for the weekend ?",
+                "acorn guest house is in the north part of town and available , when would you like to stay ?"
+            ],
+            [
+                "does it have free wifi ?",
+                "yes , it does ! it also has free parking ."
+            ],
+            [
+                "could i get the phone number for them .",
+                "phone number is 01223353888 ."
+            ],
+            [
+                "thanks . oh , i forgot to ask , is that in the moderate price range ?",
+                "the acorn guesthouse is in the moderate range . would you like to book a room ?"
+            ],
+            [
+                "no , i'll have to think about it . thanks though . bye !",
+                "none"
+            ]
+        ],
+        "state": [
+            "none",
+            "hotel-type=guesthouse",
+            "hotel-type=guesthouse",
+            "hotel-type=guesthouse",
+            "hotel-internet=yes\thotel-type=guesthouse",
+            "hotel-internet=yes\thotel-type=guesthouse"
+        ],
+        "dial_id": "SNG0843.json"
+    },
+    {
+        "meta": [
+            [
+                "hotel-internet=yes\thotel-type=guesthouse"
+            ],
+            [
+                "hotel-pricerange=expensive"
+            ],
+            [
+                "hotel-pricerange=moderate"
+            ],
+            [
+                "hotel-name=archway house"
+            ],
+            [
+                "hotel-book_day=saturday\thotel-book_people=7\thotel-book_stay=2"
+            ],
+            [],
+            []
+        ],
+        "dialogue": [
+            [
+                "hello , i am looking for a place to stay that include -s free wifi . i would also prefer it to be in a guesthouse",
+                "there are a number of options in cambridge . what area would you prefer to stay in ? price range ?"
+            ],
+            [
+                "the area is not too important . but i would like something expensive .",
+                "unfortunately i cannot find any that are expensive . let s try a different price range ."
+            ],
+            [
+                "moderate -ly priced would be fine .",
+                "how about the archway house ? it s a 4 star moderate -ly priced guesthouse with both free wifi and parking . would you like to book a room ?"
+            ],
+            [
+                "yes , can you book that for 7 people on saturday ?",
+                "how many nights ?"
+            ],
+            [
+                "we'd like to stay for 2 nights , please .",
+                "booking was successful ! can i get anything else for you ?"
+            ],
+            [
+                "is there a reference number with that ?",
+                "yes , that'll be o6f5s5xy ."
+            ],
+            [
+                "thanks . that s all i needed today .",
+                "none"
+            ]
+        ],
+        "state": [
+            "none",
+            "hotel-internet=yes\thotel-type=guesthouse",
+            "hotel-pricerange=expensive\thotel-internet=yes\thotel-type=guesthouse",
+            "hotel-pricerange=moderate\thotel-internet=yes\thotel-type=guesthouse",
+            "hotel-name=archway house\thotel-pricerange=moderate\thotel-internet=yes\thotel-type=guesthouse",
+            "hotel-book_day=saturday\thotel-book_people=7\thotel-book_stay=2\thotel-name=archway house\thotel-pricerange=moderate\thotel-internet=yes\thotel-type=guesthouse",
+            "hotel-book_day=saturday\thotel-book_people=7\thotel-book_stay=2\thotel-name=archway house\thotel-pricerange=moderate\thotel-internet=yes\thotel-type=guesthouse",
+            "hotel-book_day=saturday\thotel-book_people=7\thotel-book_stay=2\thotel-name=archway house\thotel-pricerange=moderate\thotel-internet=yes\thotel-type=guesthouse"
+        ],
+        "dial_id": "SNG0883.json"
+    },
+    {
+        "meta": [
+            [
+                "hotel-area=south\thotel-internet=yes"
+            ],
+            [
+                "hotel-pricerange=cheap"
+            ],
+            [],
+            [
+                "hotel-book_day=thursday\thotel-book_people=5\thotel-book_stay=3"
+            ],
+            []
+        ],
+        "dialogue": [
+            [
+                "i need a hotel in the south with free wifi .",
+                "i have a cheap guesthouse , 2 moderate -ly priced guesthouses , and 1 expensive hotel do you have a preference ?"
+            ],
+            [
+                "can you tell me if the cheap 1 has a star rating ?",
+                "yes , that would be rosa s bed and breakfast . it has a 4 star rating and offers free wifi and parking . would you like me to book you a room ?"
+            ],
+            [
+                "yes , please book a room for 5 people .",
+                "what day and how long should i book this for ?"
+            ],
+            [
+                "please book it on thursday , for 5 people , and 3 days .",
+                "your booking was successful . reference numbr is y113fev7 . can i assist you with anything else today ?"
+            ],
+            [
+                "that will be all , thank you .",
+                "none"
+            ]
+        ],
+        "state": [
+            "none",
+            "hotel-area=south\thotel-internet=yes",
+            "hotel-area=south\thotel-pricerange=cheap\thotel-internet=yes",
+            "hotel-area=south\thotel-pricerange=cheap\thotel-internet=yes",
+            "hotel-book_day=thursday\thotel-book_people=5\thotel-book_stay=3\thotel-area=south\thotel-pricerange=cheap\thotel-internet=yes",
+            "hotel-book_day=thursday\thotel-book_people=5\thotel-book_stay=3\thotel-area=south\thotel-pricerange=cheap\thotel-internet=yes"
+        ],
+        "dial_id": "SNG0771.json"
+    },
+    {
+        "meta": [
+            [
+                "hotel-area=south\thotel-pricerange=expensive"
+            ],
+            [],
+            [
+                "hotel-book_day=thursday\thotel-book_people=4\thotel-book_stay=3"
+            ],
+            []
+        ],
+        "dialogue": [
+            [
+                "i am looking for an expensive hotel in the south to stay in .",
+                "i have 1 hotel that meets that criteria . it has 3 stars and offers free wifi and parking . this would be the lensfield hotel . can i book you a room ?"
+            ],
+            [
+                "yes , please book me a room .",
+                "when will you be arriving and how many nights would you like to stay ? how many people are in your party ?"
+            ],
+            [
+                "can you book the hotel for 4 people , 3 nights on thursday ?",
+                "your booking was successful . your reference number is jcvmjbrz ."
+            ],
+            [
+                "thanks for your help . that s all i needed .",
+                "none"
+            ]
+        ],
+        "state": [
+            "none",
+            "hotel-area=south\thotel-pricerange=expensive",
+            "hotel-area=south\thotel-pricerange=expensive",
+            "hotel-book_day=thursday\thotel-book_people=4\thotel-book_stay=3\thotel-area=south\thotel-pricerange=expensive",
+            "hotel-book_day=thursday\thotel-book_people=4\thotel-book_stay=3\thotel-area=south\thotel-pricerange=expensive"
+        ],
+        "dial_id": "SNG0893.json"
+    },
+    {
+        "meta": [
+            [
+                "hotel-parking=yes"
+            ],
+            [
+                "hotel-stars=4\thotel-type=hotel"
+            ],
+            [],
+            []
+        ],
+        "dialogue": [
+            [
+                "yes i am looking for a hotel to stay at with free parking please",
+                "i have a variety of options located all over town . would you have a preference on the area or maybe a certain price range you prefer ?"
+            ],
+            [
+                "no , i really only care that it is 4 stars and an actual hotel .",
+                "would you care to try the huntingdon marriott ?"
+            ],
+            [
+                "perhaps . what s their postcode ?",
+                "the postcode fot eh huntingdon marriott hotel is pe296fl . would you like for any other information ?"
+            ],
+            [
+                "as long as the huntingdon marriott has 4 stars , i am good to go , thanks .",
+                "none"
+            ]
+        ],
+        "state": [
+            "none",
+            "hotel-parking=yes",
+            "hotel-parking=yes\thotel-stars=4\thotel-type=hotel",
+            "hotel-parking=yes\thotel-stars=4\thotel-type=hotel",
+            "hotel-parking=yes\thotel-stars=4\thotel-type=hotel"
+        ],
+        "dial_id": "SNG0942.json"
+    },
+    {
+        "meta": [
+            [
+                "hotel-name=home from home"
+            ],
+            [
+                "hotel-book_day=monday\thotel-book_people=8\thotel-book_stay=4"
+            ],
+            [
+                "hotel-book_stay=1"
+            ],
+            []
+        ],
+        "dialogue": [
+            [
+                "hi . is there a hotel named home from home ? i think i have heard of that .",
+                "home from home is a 4 star guesthouse on the north side ."
+            ],
+            [
+                "all right , could you book a room for me ? there will be 8 people for 4 nights , arriving monday .",
+                "i am afraid they cannot handle that booking . perhaps another day or a shorter stay ?"
+            ],
+            [
+                "sure . i could stay for 1 night .",
+                "i was able to book for 1 night . the reference number is mcs16ksp . is there anything else i can help you with ?"
+            ],
+            [
+                "no , that s all i need . thanks for your help !",
+                "none"
+            ]
+        ],
+        "state": [
+            "none",
+            "hotel-name=home from home",
+            "hotel-book_day=monday\thotel-book_people=8\thotel-book_stay=4\thotel-name=home from home",
+            "hotel-book_day=monday\thotel-book_people=8\thotel-book_stay=1\thotel-name=home from home",
+            "hotel-book_day=monday\thotel-book_people=8\thotel-book_stay=1\thotel-name=home from home"
+        ],
+        "dial_id": "SNG0759.json"
+    },
+    {
+        "meta": [
+            [
+                "hotel-internet=yes\thotel-type=hotel"
+            ],
+            [
+                "hotel-area=south\thotel-pricerange=expensive"
+            ],
+            [
+                "hotel-name=the lensfield hotel"
+            ],
+            []
+        ],
+        "dialogue": [
+            [
+                "can you help me find a place to stay ? i would like to stay in a hotel that include -s free wifi .",
+                "yes , we have 9 hotel -s that have free wifi . do you have a preference for area of town or price range ?"
+            ],
+            [
+                "i would like south and expensive please .",
+                "how about the lensfield hotel ? would you also like to make a booking ?"
+            ],
+            [
+                "could you please tell me the star rating ? i also need the address and phone number please .",
+                "sure . it s a 3 star hotel . the address is 5357 lensfield road and the phone number is 01223355017 . anything else ?"
+            ],
+            [
+                "no that s all . thanks .",
+                "none"
+            ]
+        ],
+        "state": [
+            "none",
+            "hotel-internet=yes\thotel-type=hotel",
+            "hotel-area=south\thotel-pricerange=expensive\thotel-internet=yes\thotel-type=hotel",
+            "hotel-name=the lensfield hotel\thotel-area=south\thotel-pricerange=expensive\thotel-internet=yes\thotel-type=hotel",
+            "hotel-name=the lensfield hotel\thotel-area=south\thotel-pricerange=expensive\thotel-internet=yes\thotel-type=hotel"
+        ],
+        "dial_id": "SNG0968.json"
+    },
+    {
+        "meta": [
+            [
+                "hotel-area=south\thotel-stars=3"
+            ],
+            [],
+            [
+                "hotel-pricerange=cheap"
+            ],
+            [
+                "hotel-pricerange=expensive"
+            ],
+            [],
+            [
+                "hotel-book_day=tuesday\thotel-book_stay=3"
+            ],
+            [
+                "hotel-book_people=1\thotel-name=the lensfield hotel"
+            ],
+            [],
+            []
+        ],
+        "dialogue": [
+            [
+                "i am looking for a 3 star hotel on the south side of town please .",
+                "the lensfield hotel is available if you would like to book there just let me know ."
+            ],
+            [
+                "is it in the cheap price range ?",
+                "i can get you into the bridge guest house . it is rated with 3 stars and has both internet and parking amenitites ."
+            ],
+            [
+                "is that in the cheap price range ?",
+                "unfortunately no . would you be willing to expand your price range ?"
+            ],
+            [
+                "sure , how about 1 in the expensive range ?",
+                "certainly i have the lensfield hotel and it is considered expensive . shall i book that for you ?"
+            ],
+            [
+                "can you tell me what type of accommodation this is ?",
+                "the type of hotel is a regular hotel that is rated 3 stars and has both free parking and internet connectivity amenities . could i help you with booking ?"
+            ],
+            [
+                "yes please . i need to book a room for 3 days starting on tuesday .",
+                "how many people am i making the reservation for ?"
+            ],
+            [
+                "make a reservation for 1 .",
+                "just to verify , you wanted a room at the lensfield hotel for tuesday with 1 guest and a 3 night stay ? is that correct ?"
+            ],
+            [
+                "actually nevermind , i do not need to make a reservation right now . thanks anyway .",
+                "alright , is there anything else i can do for you today ?"
+            ],
+            [
+                "no , that s all i need . thank you !",
+                "none"
+            ]
+        ],
+        "state": [
+            "none",
+            "hotel-area=south\thotel-stars=3",
+            "hotel-area=south\thotel-stars=3",
+            "hotel-area=south\thotel-pricerange=cheap\thotel-stars=3",
+            "hotel-area=south\thotel-pricerange=expensive\thotel-stars=3",
+            "hotel-area=south\thotel-pricerange=expensive\thotel-stars=3",
+            "hotel-book_day=tuesday\thotel-book_stay=3\thotel-area=south\thotel-pricerange=expensive\thotel-stars=3",
+            "hotel-book_day=tuesday\thotel-book_people=1\thotel-book_stay=3\thotel-name=the lensfield hotel\thotel-area=south\thotel-pricerange=expensive\thotel-stars=3",
+            "hotel-book_day=tuesday\thotel-book_people=1\thotel-book_stay=3\thotel-name=the lensfield hotel\thotel-area=south\thotel-pricerange=expensive\thotel-stars=3",
+            "hotel-book_day=tuesday\thotel-book_people=1\thotel-book_stay=3\thotel-name=the lensfield hotel\thotel-area=south\thotel-pricerange=expensive\thotel-stars=3"
+        ],
+        "dial_id": "SNG1047.json"
+    },
+    {
+        "meta": [
+            [],
+            [
+                "hotel-pricerange=cheap\thotel-stars=4"
+            ],
+            [],
+            [
+                "hotel-book_day=tuesday\thotel-book_people=2\thotel-book_stay=5\thotel-parking=yes\thotel-internet=yes"
+            ],
+            []
+        ],
+        "dialogue": [
+            [
+                "aloha ! can you help me find a hotel , please ?",
+                "i would be happy to help you . what area are you interested in ?"
+            ],
+            [
+                "i am not sure but i am looking for something in the cheap price rating with 4 stars .",
+                "i have 7 guesthouse and 1 hotel matching your inquiry . would you like a certain area or price range ?"
+            ],
+            [
+                "i need free parking .",
+                "it s looking like they all offer both free parking and wifi . would you prefer to stay in a particular area of the city ?"
+            ],
+            [
+                "i would like you to book me into the hotel for tuesday for 5 nights and 2 people .",
+                "you have a reservation at autumn house , located at 710 newmarket road . reference number bft509gx . can i help you with anything else today ?"
+            ],
+            [
+                "not that is it thank you .",
+                "none"
+            ]
+        ],
+        "state": [
+            "none",
+            "",
+            "hotel-pricerange=cheap\thotel-stars=4",
+            "hotel-pricerange=cheap\thotel-stars=4",
+            "hotel-book_day=tuesday\thotel-book_people=2\thotel-book_stay=5\thotel-parking=yes\thotel-pricerange=cheap\thotel-stars=4\thotel-internet=yes",
+            "hotel-book_day=tuesday\thotel-book_people=2\thotel-book_stay=5\thotel-parking=yes\thotel-pricerange=cheap\thotel-stars=4\thotel-internet=yes"
+        ],
+        "dial_id": "SNG1007.json"
+    },
+    {
+        "meta": [
+            [
+                "hotel-stars=4\thotel-type=guesthouse"
+            ],
+            [
+                "hotel-pricerange=moderate"
+            ],
+            [],
+            [
+                "hotel-book_day=tuesday\thotel-book_people=7\thotel-book_stay=5"
+            ],
+            []
+        ],
+        "dialogue": [
+            [
+                "i am looking for a place to stay . i would like for it to be a 4 star guesthouse .",
+                "i actually have many 4 star guesthouses in town . is there a certain area that interests you ?"
+            ],
+            [
+                "no , just moderate price range .",
+                "trying to narrow this down do you need free parking or free wifi ?"
+            ],
+            [
+                "no , that does not matter .",
+                "i would recommend that avalon , as it fulfills your needs . it s located at 62 gilbert road cb43pd and the phone number is 01223353071 . would you like more information ?"
+            ],
+            [
+                "let s go ahead and make a reservation . i'll be arriving tuesday and would like to stay 5 nights . there will be 7 people in my group .",
+                "booked ! reference number is: dr0zgf0p"
+            ],
+            [
+                "thank you for the help . have a nice day .",
+                "none"
+            ]
+        ],
+        "state": [
+            "none",
+            "hotel-stars=4\thotel-type=guesthouse",
+            "hotel-pricerange=moderate\thotel-stars=4\thotel-type=guesthouse",
+            "hotel-pricerange=moderate\thotel-stars=4\thotel-type=guesthouse",
+            "hotel-book_day=tuesday\thotel-book_people=7\thotel-book_stay=5\thotel-pricerange=moderate\thotel-stars=4\thotel-type=guesthouse",
+            "hotel-book_day=tuesday\thotel-book_people=7\thotel-book_stay=5\thotel-pricerange=moderate\thotel-stars=4\thotel-type=guesthouse"
+        ],
+        "dial_id": "SNG0939.json"
+    },
+    {
+        "meta": [
+            [
+                "hotel-name=city centre north bed and breakfast"
+            ],
+            [],
+            [],
+            [
+                "hotel-book_day=monday\thotel-book_people=4\thotel-book_stay=2"
+            ],
+            []
+        ],
+        "dialogue": [
+            [
+                "a friend recommended the city centre north bed and breakfast . could you help me find it ?",
+                "they are at 328a histon road postcod cb43ht , and their phone number is 01223312843"
+            ],
+            [
+                "thank you ! can you book that for me ?",
+                "i sure can . what day would you need the room and how long do you plan on staying ?"
+            ],
+            [
+                "i need it for 2 nights , starting on monday .",
+                "may i ask how many will be in your party ?"
+            ],
+            [
+                "there will be 4 of us . thanks .",
+                "your reservation is complete , 4 people for 2 nights at city centre north bed and breakfast , reference 0fvdqun1 . can i help you with anything else ?"
+            ],
+            [
+                "that s all . thank you !",
+                "none"
+            ]
+        ],
+        "state": [
+            "none",
+            "hotel-name=city centre north bed and breakfast",
+            "hotel-name=city centre north bed and breakfast",
+            "hotel-name=city centre north bed and breakfast",
+            "hotel-book_day=monday\thotel-book_people=4\thotel-book_stay=2\thotel-name=city centre north bed and breakfast",
+            "hotel-book_day=monday\thotel-book_people=4\thotel-book_stay=2\thotel-name=city centre north bed and breakfast"
+        ],
+        "dial_id": "SNG0856.json"
+    },
+    {
+        "meta": [
+            [],
+            [
+                "hotel-internet=yes\thotel-type=guesthouse"
+            ],
+            [
+                "hotel-area=east\thotel-stars=4"
+            ],
+            [],
+            [
+                "hotel-book_day=monday\thotel-book_people=2\thotel-book_stay=4\thotel-pricerange=cheap"
+            ],
+            [],
+            []
+        ],
+        "dialogue": [
+            [
+                "i am coming to town for an overdue visit with my relatives . can you help me find a place to stay ?",
+                "i can definitely help with that . are you leaning toward a guesthouse or hotel ?"
+            ],
+            [
+                "i prefer a guesthouse with free wifi .",
+                "acorn guest house is available ."
+            ],
+            [
+                "i really want to stay in the east and be 4 star rated . does the acorn fit that ?",
+                "sorry , it does not . however there are 6 guesthouses that do . would you prefer something cheap ?"
+            ],
+            [
+                "the price range does not matter . i need to book a room for monday .",
+                "could you tell me how many nights are you wanting to stay , and with how many people , so i can see what is available ?"
+            ],
+            [
+                "2 people , for 4 nights .",
+                "i was able to book the allenbell for 2 people for 4 nights . would that work for you ?"
+            ],
+            [
+                "yes , thank you ! what is the reference number ?",
+                "your reference number is kt4ug66c ."
+            ],
+            [
+                "thanks so much . i am all set . bye .",
+                "none"
+            ]
+        ],
+        "state": [
+            "none",
+            "",
+            "hotel-internet=yes\thotel-type=guesthouse",
+            "hotel-area=east\thotel-stars=4\thotel-internet=yes\thotel-type=guesthouse",
+            "hotel-area=east\thotel-stars=4\thotel-internet=yes\thotel-type=guesthouse",
+            "hotel-book_day=monday\thotel-book_people=2\thotel-book_stay=4\thotel-area=east\thotel-pricerange=cheap\thotel-stars=4\thotel-internet=yes\thotel-type=guesthouse",
+            "hotel-book_day=monday\thotel-book_people=2\thotel-book_stay=4\thotel-area=east\thotel-pricerange=cheap\thotel-stars=4\thotel-internet=yes\thotel-type=guesthouse",
+            "hotel-book_day=monday\thotel-book_people=2\thotel-book_stay=4\thotel-area=east\thotel-pricerange=cheap\thotel-stars=4\thotel-internet=yes\thotel-type=guesthouse"
+        ],
+        "dial_id": "SNG0922.json"
+    },
+    {
+        "meta": [
+            [
+                "hotel-parking=yes\thotel-pricerange=expensive\thotel-type=hotel"
+            ],
+            [
+                "hotel-internet=yes\thotel-parking=yes"
+            ],
+            [],
+            [
+                "hotel-book_day=sunday\thotel-book_people=3\thotel-book_stay=5"
+            ],
+            [],
+            [],
+            [],
+            [
+                "hotel-book_people=5\thotel-book_stay=3\thotel-parking=yes"
+            ],
+            [
+                "hotel-parking=yes"
+            ]
+        ],
+        "dialogue": [
+            [
+                "i am looking for a hotel ti stay in the expensive range . it does not have to be free parking .",
+                "i have about 5 different expensive hotel -s . do you prefer a certain area of town ?"
+            ],
+            [
+                "no . but it should have free wifi .",
+                "all 5 of the expensive hotel -s in have free wifi . are you looking for any star rating , to help narrow the search ?"
+            ],
+            [
+                "i do not care about the number of stars . if you do not have 1 without parking , i'll take 1 with parking . choose the best 1 , please .",
+                "i hear the huntingdon marriott hotel is nice . would you like to try booking there ?"
+            ],
+            [
+                "yes . there will be 5 of us staying for 3 nights , arriving on sunday . i sure hope cambridge is nice this time of year .",
+                "sorry , that s not available . could you pick another day , time , or stay length ?"
+            ],
+            [
+                "is there another hotel available that will accommodate my stay ?",
+                "there is gonville hotel . would you like to try that 1 ?"
+            ],
+            [
+                "sure . same parameters , please .",
+                "nope , sorry , unsuccessful . would you like to try the lensfield hotel ?"
+            ],
+            [
+                "sure , see if that works",
+                "sorry , the lensfield booking was unavailable , as well . may i help find something else ?"
+            ],
+            [
+                "are you sure there is nothing available ? will you double check ?",
+                "good news . i checked again at the huntingdon marriott , and they were able to accommodate your party . your reference number is 1h7f4gbj ."
+            ],
+            [
+                "okay , thank you , that is all i need today .",
+                "none"
+            ]
+        ],
+        "state": [
+            "none",
+            "hotel-parking=yes\thotel-pricerange=expensive\thotel-type=hotel",
+            "hotel-pricerange=expensive\thotel-internet=yes\thotel-type=hotel",
+            "hotel-pricerange=expensive\thotel-internet=yes\thotel-type=hotel",
+            "hotel-book_day=sunday\thotel-book_people=3\thotel-book_stay=5\thotel-pricerange=expensive\thotel-internet=yes\thotel-type=hotel",
+            "hotel-book_day=sunday\thotel-book_people=3\thotel-book_stay=5\thotel-pricerange=expensive\thotel-internet=yes\thotel-type=hotel",
+            "hotel-book_day=sunday\thotel-book_people=3\thotel-book_stay=5\thotel-pricerange=expensive\thotel-internet=yes\thotel-type=hotel",
+            "hotel-book_day=sunday\thotel-book_people=3\thotel-book_stay=5\thotel-pricerange=expensive\thotel-internet=yes\thotel-type=hotel",
+            "hotel-book_day=sunday\thotel-book_people=5\thotel-book_stay=3\thotel-parking=yes\thotel-pricerange=expensive\thotel-internet=yes\thotel-type=hotel",
+            "hotel-book_day=sunday\thotel-book_people=5\thotel-book_stay=3\thotel-pricerange=expensive\thotel-internet=yes\thotel-type=hotel"
+        ],
+        "dial_id": "SNG0937.json"
+    },
+    {
+        "meta": [
+            [
+                "hotel-name=a and b guest house"
+            ],
+            [
+                "hotel-book_day=thursday\thotel-book_people=7\thotel-book_stay=3"
+            ],
+            [],
+            []
+        ],
+        "dialogue": [
+            [
+                "i need some information on the a and b guest house .",
+                "the a and b guest house is a 4 star hotel with free wifi . it is in the east part of town ."
+            ],
+            [
+                "thank you , i need to book for 7 people and 3 nights starting on thursday . can they set that up for me .",
+                "booking was successful . reference number is : fbdr5bnr ."
+            ],
+            [
+                "so you need to arrive on thursday after 11:00 am to check in .",
+                "that is correct . anything else i can do for you ?"
+            ],
+            [
+                "that s it for now ! thank you so much .",
+                "none"
+            ]
+        ],
+        "state": [
+            "none",
+            "hotel-name=a and b guest house",
+            "hotel-book_day=thursday\thotel-book_people=7\thotel-book_stay=3\thotel-name=a and b guest house",
+            "hotel-book_day=thursday\thotel-book_people=7\thotel-book_stay=3\thotel-name=a and b guest house",
+            "hotel-book_day=thursday\thotel-book_people=7\thotel-book_stay=3\thotel-name=a and b guest house"
+        ],
+        "dial_id": "SNG0899.json"
+    },
+    {
+        "meta": [
+            [
+                "hotel-area=east\thotel-parking=yes"
+            ],
+            [
+                "hotel-pricerange=cheap"
+            ],
+            [
+                "hotel-book_day=thursday\thotel-book_people=1\thotel-book_stay=3\thotel-type=guesthouse"
+            ],
+            []
+        ],
+        "dialogue": [
+            [
+                "is there a place on the east side of town with free parking ?",
+                "there are 6 hotel -s on the east side with free parking . do you have a price preference ?"
+            ],
+            [
+                "i would like it to be somewhere that s really cheap , and i would really prefer a guesthouse if 1 is available .",
+                "how about the autumn house , it is a guesthouse that is cheap in the east ?"
+            ],
+            [
+                "yes , please make a reservation for 1 person , 3 nights , starting from thursday .",
+                "i have made your reservation at the autumn house . your reference number is hwvz52nk . is there anything else i can help you with ?"
+            ],
+            [
+                "that s all , thanks .",
+                "none"
+            ]
+        ],
+        "state": [
+            "none",
+            "hotel-area=east\thotel-parking=yes",
+            "hotel-area=east\thotel-parking=yes\thotel-pricerange=cheap",
+            "hotel-book_day=thursday\thotel-book_people=1\thotel-book_stay=3\thotel-area=east\thotel-parking=yes\thotel-pricerange=cheap\thotel-type=guesthouse",
+            "hotel-book_day=thursday\thotel-book_people=1\thotel-book_stay=3\thotel-area=east\thotel-parking=yes\thotel-pricerange=cheap\thotel-type=guesthouse"
+        ],
+        "dial_id": "SNG1023.json"
+    },
+    {
+        "meta": [
+            [
+                "hotel-area=east\thotel-pricerange=cheap"
+            ],
+            [
+                "hotel-parking=yes"
+            ],
+            [
+                "hotel-book_day=thursday\thotel-book_people=6\thotel-book_stay=4"
+            ],
+            []
+        ],
+        "dialogue": [
+            [
+                "hi , i am looking for a cheap place to stay in the east . can you help me ?",
+                "there are 3 guesthouses in the cheap price range in the east part of town . would you like to book 1 ?"
+            ],
+            [
+                "do any of those include free parking ?",
+                "yes , all of them do ."
+            ],
+            [
+                "i would need a hotel for 6 people , starting from thursday and lasting 4 nights . is there anything available ?",
+                "allenbell is available and fits all of your requirement -s . i have made a reservation for you . your reference number is dqol6qe5 ."
+            ],
+            [
+                "great , that s all i need today . thank you !",
+                "none"
+            ]
+        ],
+        "state": [
+            "none",
+            "hotel-area=east\thotel-pricerange=cheap",
+            "hotel-area=east\thotel-parking=yes\thotel-pricerange=cheap",
+            "hotel-book_day=thursday\thotel-book_people=6\thotel-book_stay=4\thotel-area=east\thotel-parking=yes\thotel-pricerange=cheap",
+            "hotel-book_day=thursday\thotel-book_people=6\thotel-book_stay=4\thotel-area=east\thotel-parking=yes\thotel-pricerange=cheap"
+        ],
+        "dial_id": "SNG0807.json"
+    },
+    {
+        "meta": [
+            [
+                "hotel-name=university arms hotel"
+            ],
+            [
+                "hotel-book_day=sunday\thotel-book_people=1\thotel-book_stay=3"
+            ],
+            [
+                "hotel-book_stay=2"
+            ],
+            []
+        ],
+        "dialogue": [
+            [
+                "do you have any information on the university arms hotel ? i have heard it s a nice place .",
+                "i sure do . the university arms hotel is a more expensive hotel in the centre of town . it has 4 stars and include -s free wifi and free parking ."
+            ],
+            [
+                "i need a room for 1 person starting sunday for 3 nights",
+                "unfortunately , they do not have availability for that day and length of stay . would you like to stay on another day or shorten the stay ?"
+            ],
+            [
+                "all right , what about 2 nights ?",
+                "booking was successful for 2 nights on sunday for 1 . your reference number is yk9z9ake . is there anything more i can assist you with ?"
+            ],
+            [
+                "no , that s all i need . thanks for your help !",
+                "none"
+            ]
+        ],
+        "state": [
+            "none",
+            "hotel-name=university arms hotel",
+            "hotel-book_day=sunday\thotel-book_people=1\thotel-book_stay=3\thotel-name=university arms hotel",
+            "hotel-book_day=sunday\thotel-book_people=1\thotel-book_stay=2\thotel-name=university arms hotel",
+            "hotel-book_day=sunday\thotel-book_people=1\thotel-book_stay=2\thotel-name=university arms hotel"
+        ],
+        "dial_id": "SNG0804.json"
+    },
+    {
+        "meta": [
+            [
+                "hotel-parking=yes\thotel-type=guesthouse"
+            ],
+            [
+                "hotel-stars=2"
+            ],
+            [
+                "hotel-stars=4"
+            ],
+            [],
+            [
+                "hotel-book_day=saturday\thotel-book_people=8"
+            ],
+            [
+                "hotel-book_stay=5"
+            ],
+            []
+        ],
+        "dialogue": [
+            [
+                "can you find me a guesthouse with free parking ?",
+                "i certainly can look for that for you . it looks like i have several . do you prefer a certain price range ?"
+            ],
+            [
+                "no , but i am looking for something with at least 2 stars .",
+                "sorry , we do not have anything that matches the options that you've selected . would you like to search for a different option ?"
+            ],
+            [
+                "do you have a hotel that is 4 stars then ?",
+                "we have several ! do you wish to stay in a certain part of town ?"
+            ],
+            [
+                "the location does not matter , but i would prefer a guesthouse if possible .",
+                "i would recommend the acorn guest house then . it has 4 stars , free wifi , free parking and is moderate -ly priced . would you like to book a room ?"
+            ],
+            [
+                "yes please . there are 8 of us and we'll be arriving on saturday .",
+                "can you please give me how many days you will be staying ?"
+            ],
+            [
+                "i'll be staying for 5 nights .",
+                "i have you book for that time , the reference code is ua3n0q3r ."
+            ],
+            [
+                "i am happy and relieved . that s everything . thank you so much for your help .",
+                "none"
+            ]
+        ],
+        "state": [
+            "none",
+            "hotel-parking=yes\thotel-type=guesthouse",
+            "hotel-parking=yes\thotel-stars=2\thotel-type=guesthouse",
+            "hotel-parking=yes\thotel-stars=4\thotel-type=guesthouse",
+            "hotel-parking=yes\thotel-stars=4\thotel-type=guesthouse",
+            "hotel-book_day=saturday\thotel-book_people=8\thotel-parking=yes\thotel-stars=4\thotel-type=guesthouse",
+            "hotel-book_day=saturday\thotel-book_people=8\thotel-book_stay=5\thotel-parking=yes\thotel-stars=4\thotel-type=guesthouse",
+            "hotel-book_day=saturday\thotel-book_people=8\thotel-book_stay=5\thotel-parking=yes\thotel-stars=4\thotel-type=guesthouse"
+        ],
+        "dial_id": "SNG1049.json"
+    },
+    {
+        "meta": [
+            [
+                "hotel-pricerange=moderate\thotel-internet=yes"
+            ],
+            [
+                "hotel-stars=2"
+            ],
+            [
+                "hotel-book_day=friday\thotel-book_people=7\thotel-book_stay=5"
+            ],
+            []
+        ],
+        "dialogue": [
+            [
+                "hi , can you help me find a place to stay ? something moderate -ly priced with free wifi .",
+                "i have 17 guesthouses and hotel -s that fit your criteria , do you have a preference for area ?"
+            ],
+            [
+                "not really , but i am looking for something with 2 stars .",
+                "the ashley hotel and the lovell lodge are both in the north and are in the moderate price range with 2 stars ."
+            ],
+            [
+                "will you book it for a party of 7 . 5 days beginning friday .",
+                "booking at the ashley hotel was successful . reference number is : vfgg7dod . is there anything else i can help you with ?"
+            ],
+            [
+                "that s great . no i do not need anything else , thank you .",
+                "none"
+            ]
+        ],
+        "state": [
+            "none",
+            "hotel-pricerange=moderate\thotel-internet=yes",
+            "hotel-pricerange=moderate\thotel-stars=2\thotel-internet=yes",
+            "hotel-book_day=friday\thotel-book_people=7\thotel-book_stay=5\thotel-pricerange=moderate\thotel-stars=2\thotel-internet=yes",
+            "hotel-book_day=friday\thotel-book_people=7\thotel-book_stay=5\thotel-pricerange=moderate\thotel-stars=2\thotel-internet=yes"
+        ],
+        "dial_id": "SNG0891.json"
+    },
+    {
+        "meta": [
+            [
+                "hotel-name=cityroomz"
+            ],
+            [
+                "hotel-book_day=tuesday\thotel-book_people=6\thotel-book_stay=4"
+            ],
+            []
+        ],
+        "dialogue": [
+            [
+                "can you look up a hotel called cityroomz ?",
+                "certainly . i have the listing here . what do you need to know ?"
+            ],
+            [
+                "i need to make a reservation for 4 nights starting from tuesday , for 6 people .",
+                "your reservation is set , reference number is uxvwqel9 . is there anything else i can help you with today ?"
+            ],
+            [
+                "no , that s it . bye now !",
+                "none"
+            ]
+        ],
+        "state": [
+            "none",
+            "hotel-name=cityroomz",
+            "hotel-book_day=tuesday\thotel-book_people=6\thotel-book_stay=4\thotel-name=cityroomz",
+            "hotel-book_day=tuesday\thotel-book_people=6\thotel-book_stay=4\thotel-name=cityroomz"
+        ],
+        "dial_id": "SNG1050.json"
+    },
+    {
+        "meta": [
+            [
+                "hotel-parking=yes\thotel-stars=2\thotel-type=hotel"
+            ],
+            [
+                "hotel-pricerange=moderate"
+            ],
+            [],
+            [
+                "hotel-name=ashley hotel\thotel-internet=yes"
+            ],
+            []
+        ],
+        "dialogue": [
+            [
+                "i am looking for a place to stay . i need a 2 star hotel with free parking .",
+                "do you prefer the north or east side of town ?"
+            ],
+            [
+                "no preference there . but id like it to be in the moderate range please",
+                "how about the ashley hotel ?"
+            ],
+            [
+                "does the ashley hotel include free wifi ?",
+                "yes , the ashley hotel has both free internet and parking ."
+            ],
+            [
+                "sure , sounds good . what s the address ?",
+                "the address is 74 chesterton road , postcode cb41er . do you need more information ?"
+            ],
+            [
+                "great , that s all i needed . thanks",
+                "none"
+            ]
+        ],
+        "state": [
+            "none",
+            "hotel-parking=yes\thotel-stars=2\thotel-type=hotel",
+            "hotel-parking=yes\thotel-pricerange=moderate\thotel-stars=2\thotel-type=hotel",
+            "hotel-parking=yes\thotel-pricerange=moderate\thotel-stars=2\thotel-type=hotel",
+            "hotel-name=ashley hotel\thotel-parking=yes\thotel-pricerange=moderate\thotel-stars=2\thotel-internet=yes\thotel-type=hotel",
+            "hotel-name=ashley hotel\thotel-parking=yes\thotel-pricerange=moderate\thotel-stars=2\thotel-internet=yes\thotel-type=hotel"
+        ],
+        "dial_id": "SNG01411.json"
+    },
+    {
+        "meta": [
+            [
+                "hotel-pricerange=moderate\thotel-internet=yes\thotel-type=hotel"
+            ],
+            [
+                "hotel-type=guesthouse\thotel-area=centre"
+            ],
+            [
+                "hotel-pricerange=cheap"
+            ],
+            [
+                "restaurant-name=the alex\thotel-name=alexander bed and breakfast"
+            ],
+            [
+                "hotel-book_day=thursday\thotel-book_people=4\thotel-book_stay=5"
+            ],
+            []
+        ],
+        "dialogue": [
+            [
+                "hi , i am looking for a hotel with free wifi that is moderate -ly priced .",
+                "we offer 3 location -s with those criteria . any preference on area ?"
+            ],
+            [
+                "i would like to stay at a guesthouse in the centre please",
+                "i apologize , but we do not have a guesthouse that fits your criteria . would you like to try a hotel ?"
+            ],
+            [
+                "hmm , well that is not good . oh well , how about trying if there is a guesthouse thats cheap then . i suppose it will have to do .",
+                "the alexander bed and breakfast is a cheap guesthouse in that area , it has 4 stars and offers free wifi . can i book this for you ?"
+            ],
+            [
+                "yes , please , for 4 people on thursday .",
+                "how many nights do you need ?"
+            ],
+            [
+                "i need 5 nights . and i need the reference number , please .",
+                "i was able to book the alexander bed and breakfast for you for 4 people and 5 nights starting on thursday . the reference number is 1kwo2daq ."
+            ],
+            [
+                "thank you that will do , cheers .",
+                "none"
+            ]
+        ],
+        "state": [
+            "none",
+            "hotel-pricerange=moderate\thotel-internet=yes\thotel-type=hotel",
+            "hotel-area=centre\thotel-pricerange=moderate\thotel-internet=yes\thotel-type=guesthouse",
+            "hotel-area=centre\thotel-pricerange=cheap\thotel-internet=yes\thotel-type=guesthouse",
+            "restaurant-name=the alex\thotel-name=alexander bed and breakfast\thotel-area=centre\thotel-pricerange=cheap\thotel-internet=yes\thotel-type=guesthouse",
+            "restaurant-name=the alex\thotel-book_day=thursday\thotel-book_people=4\thotel-book_stay=5\thotel-name=alexander bed and breakfast\thotel-area=centre\thotel-pricerange=cheap\thotel-internet=yes\thotel-type=guesthouse",
+            "restaurant-name=the alex\thotel-book_day=thursday\thotel-book_people=4\thotel-book_stay=5\thotel-name=alexander bed and breakfast\thotel-area=centre\thotel-pricerange=cheap\thotel-internet=yes\thotel-type=guesthouse"
+        ],
+        "dial_id": "SNG1019.json"
+    },
+    {
+        "meta": [
+            [
+                "hotel-pricerange=cheap"
+            ],
+            [
+                "hotel-internet=yes\thotel-type=guesthouse"
+            ],
+            [
+                "hotel-stars=4"
+            ],
+            [],
+            [],
+            []
+        ],
+        "dialogue": [
+            [
+                "hello . i am needing some help finding a cheap room .",
+                "i can absolutely help with that . do you have any additional preferences ?"
+            ],
+            [
+                "yes , i would like it to be a guesthouse and i need free wifi !",
+                "i see a few choices here . do you have any other requirement -s ?"
+            ],
+            [
+                "how about something that is 4 star rated ?",
+                "there are 7 gueshouses that meet your requirement -s . is there an area of town that you prefer ?"
+            ],
+            [
+                "not really . any where will do .",
+                "would you like me to make a booking for you ."
+            ],
+            [
+                "no , that s not needed . just give me the name address and phone number of 1 of these hotel -s .",
+                "can i recommend autumn house located at 710 newmarket road , the phone number is 01223575122 ."
+            ],
+            [
+                "awesome , thanks for assistance !",
+                "none"
+            ]
+        ],
+        "state": [
+            "none",
+            "hotel-pricerange=cheap",
+            "hotel-pricerange=cheap\thotel-internet=yes\thotel-type=guesthouse",
+            "hotel-pricerange=cheap\thotel-stars=4\thotel-internet=yes\thotel-type=guesthouse",
+            "hotel-pricerange=cheap\thotel-stars=4\thotel-internet=yes\thotel-type=guesthouse",
+            "hotel-pricerange=cheap\thotel-stars=4\thotel-internet=yes\thotel-type=guesthouse",
+            "hotel-pricerange=cheap\thotel-stars=4\thotel-internet=yes\thotel-type=guesthouse"
+        ],
+        "dial_id": "SNG0862.json"
+    },
+    {
+        "meta": [
+            [
+                "hotel-stars=2"
+            ],
+            [
+                "hotel-parking=yes\thotel-internet=yes"
+            ],
+            [
+                "hotel-book_day=thursday\thotel-book_people=2\thotel-book_stay=2"
+            ],
+            [],
+            [
+                "hotel-book_stay=3"
+            ],
+            [
+                "hotel-type=hotel"
+            ],
+            [
+                "hotel-book_day=wednesday"
+            ],
+            []
+        ],
+        "dialogue": [
+            [
+                "can you give me any info on whether you have any 2 star hotel or guesthouses somewhere in town ?",
+                "yes , there are 3 ! how about ashley hotel ?"
+            ],
+            [
+                "does it have free wifi and free parking ?",
+                "yes , the ashley offers both free wifi and free parking . would you like to make a reservation ?"
+            ],
+            [
+                "yes , make a reservation for 2 for 3 nights starting wednesday .",
+                "that booking was unsuccessful . would you like to try a different day , or a different length of stay ?"
+            ],
+            [
+                "how about trying another 2 star hotel with free wifi and free parking ?",
+                "would you like to try express by holiday inn or lovell lodge ?"
+            ],
+            [
+                "yes , the express is fine . i need it for 2 people and for 3 nights starting wednesday . i need the reference number , please .",
+                "booking was unsuccessful . do you want to change the preferences ?"
+            ],
+            [
+                "let me look over my notes quick . i need a hotel , not a guestroom , with 2 stars . free parking & wifi . 3 nights starting wednesday , 2 people .",
+                "we have 3 , what area of town would you like ?"
+            ],
+            [
+                "area does not matter . just book me 1 and hand me the reference number .",
+                "alright , you have a reservation at the ashley hotel . the reference number is o1t3grkq . can i help you find anything else ?"
+            ],
+            [
+                "no , that will be all . thank you",
+                "none"
+            ]
+        ],
+        "state": [
+            "none",
+            "hotel-stars=2",
+            "hotel-parking=yes\thotel-stars=2\thotel-internet=yes",
+            "hotel-book_day=thursday\thotel-book_people=2\thotel-book_stay=2\thotel-parking=yes\thotel-stars=2\thotel-internet=yes",
+            "hotel-book_day=thursday\thotel-book_people=2\thotel-book_stay=2\thotel-parking=yes\thotel-stars=2\thotel-internet=yes",
+            "hotel-book_day=thursday\thotel-book_people=2\thotel-book_stay=3\thotel-parking=yes\thotel-stars=2\thotel-internet=yes",
+            "hotel-book_day=thursday\thotel-book_people=2\thotel-book_stay=3\thotel-parking=yes\thotel-stars=2\thotel-internet=yes\thotel-type=hotel",
+            "hotel-book_day=wednesday\thotel-book_people=2\thotel-book_stay=3\thotel-parking=yes\thotel-stars=2\thotel-internet=yes\thotel-type=hotel",
+            "hotel-book_day=wednesday\thotel-book_people=2\thotel-book_stay=3\thotel-parking=yes\thotel-stars=2\thotel-internet=yes\thotel-type=hotel"
+        ],
+        "dial_id": "SNG0913.json"
+    },
+    {
+        "meta": [
+            [
+                "hotel-name=arbury lodge guesthouse"
+            ],
+            [
+                "hotel-book_day=tuesday\thotel-book_people=3\thotel-book_stay=3"
+            ],
+            []
+        ],
+        "dialogue": [
+            [
+                "i am looking for more information on arbury lodge guesthouse .",
+                "the arbury lodge guesthouse is a 4 star hotel in the north area at a moderate price range and include -s internet and parking . would you like me to book it ?"
+            ],
+            [
+                "yes , please . for 3 people , 3 nights starting on tuesday .",
+                "your booking was successful . the reference number is : 4hwmo5pz ."
+            ],
+            [
+                "thanks , that s all . goodbye .",
+                "none"
+            ]
+        ],
+        "state": [
+            "none",
+            "hotel-name=arbury lodge guesthouse",
+            "hotel-book_day=tuesday\thotel-book_people=3\thotel-book_stay=3\thotel-name=arbury lodge guesthouse",
+            "hotel-book_day=tuesday\thotel-book_people=3\thotel-book_stay=3\thotel-name=arbury lodge guesthouse"
+        ],
+        "dial_id": "SNG02311.json"
+    },
+    {
+        "meta": [
+            [
+                "hotel-stars=4\thotel-type=guesthouse"
+            ],
+            [
+                "hotel-parking=yes"
+            ],
+            [
+                "hotel-book_day=tuesday\thotel-book_people=7\thotel-book_stay=4"
+            ],
+            []
+        ],
+        "dialogue": [
+            [
+                "hi i am looking for a 4 star guesthouse . can you help me ?",
+                "we found 5 guest houses for you , but i need to know your preferred area ."
+            ],
+            [
+                "i do not really care about the area , but i would like it to have free parking .",
+                "i could recommend the allenbell . it is priced cheap and has 4 stars ."
+            ],
+            [
+                "sounds good , i need rooms for 7 people for 4 nights starting tuesday .",
+                "i have booked the allenbell for you starting on tuesday for 4 nights for 7 people . your reference number is ix0qvrb4 . is there anything else i may assist with ?"
+            ],
+            [
+                "no thank you , that is everything .",
+                "none"
+            ]
+        ],
+        "state": [
+            "none",
+            "hotel-stars=4\thotel-type=guesthouse",
+            "hotel-parking=yes\thotel-stars=4\thotel-type=guesthouse",
+            "hotel-book_day=tuesday\thotel-book_people=7\thotel-book_stay=4\thotel-parking=yes\thotel-stars=4\thotel-type=guesthouse",
+            "hotel-book_day=tuesday\thotel-book_people=7\thotel-book_stay=4\thotel-parking=yes\thotel-stars=4\thotel-type=guesthouse"
+        ],
+        "dial_id": "SNG0900.json"
+    },
+    {
+        "meta": [
+            [
+                "hotel-pricerange=cheap\thotel-stars=3"
+            ],
+            [
+                "hotel-type=guesthouse"
+            ],
+            [
+                "hotel-pricerange=moderate\thotel-internet=no"
+            ],
+            [],
+            []
+        ],
+        "dialogue": [
+            [
+                "i am looking for a hotel with a 3 star rating and a cheap price",
+                "i am sorry , but there are no hotel -s that match your criteria . would you like to change your price range or stars requirement ?"
+            ],
+            [
+                "do you have a guesthouse that meets my requirement -s ?",
+                "unfortunately no . is there another type of hotel you are interested in ?"
+            ],
+            [
+                "i would like a guesthouse that meets all my previous criteria , except now i want 1 in the moderate price range and it does not need to include internet .",
+                "i found the alpha milton guest house in the north side . would you like to book a room ?"
+            ],
+            [
+                "not yet . but i would like their telephone number .",
+                "their phone number is: 01223311625"
+            ],
+            [
+                "thank you ! that is all the information i need .",
+                "none"
+            ]
+        ],
+        "state": [
+            "none",
+            "hotel-pricerange=cheap\thotel-stars=3",
+            "hotel-pricerange=cheap\thotel-stars=3\thotel-type=guesthouse",
+            "hotel-pricerange=moderate\thotel-stars=3\thotel-internet=no\thotel-type=guesthouse",
+            "hotel-pricerange=moderate\thotel-stars=3\thotel-internet=no\thotel-type=guesthouse",
+            "hotel-pricerange=moderate\thotel-stars=3\thotel-internet=no\thotel-type=guesthouse"
+        ],
+        "dial_id": "SNG0770.json"
+    },
+    {
+        "meta": [
+            [
+                "hotel-name=lovell lodge"
+            ],
+            [],
+            []
+        ],
+        "dialogue": [
+            [
+                "would you happen to have information on the lovell lodge ?",
+                "yes ! this hotel is located in the north . it has a 2 star rating and is in the moderate price range . is there anything else i can assist you with ?"
+            ],
+            [
+                "can i get the phone number and address please ?",
+                "the address for lovell lodge is 365 milton road , and the phone number is 01223425478 . is there anything else i can help you with ?"
+            ],
+            [
+                "no , thank you . that s all i need .",
+                "none"
+            ]
+        ],
+        "state": [
+            "none",
+            "hotel-name=lovell lodge",
+            "hotel-name=lovell lodge",
+            "hotel-name=lovell lodge"
+        ],
+        "dial_id": "SNG0846.json"
+    },
+    {
+        "meta": [
+            [
+                "hotel-area=west\thotel-type=guesthouse"
+            ],
+            [],
+            [
+                "hotel-book_day=saturday\thotel-book_people=2\thotel-book_stay=4"
+            ],
+            [],
+            []
+        ],
+        "dialogue": [
+            [
+                "could you help me find a guesthouse on the west side ?",
+                "there are 2 guesthouses on the west side , 1 cheap and 1 moderate -ly priced ."
+            ],
+            [
+                "does either of those offer free parking ?",
+                "actually , they both offer free wifi and free parking . finches b & b is cheap -er , and the hobsons house is more moderate -ly priced . which do you prefer ?"
+            ],
+            [
+                "let s go with finches . can you book me a room for 2 people on saturday ? we'd like to stat for 4 nights .",
+                "i have booked your stay . do you need anything else ?"
+            ],
+            [
+                "just the reference number thanks",
+                "sure thing , your reference number is e7r5knp0 . would you like me to help you find anything else today ?"
+            ],
+            [
+                "that is all ! thank you !",
+                "none"
+            ]
+        ],
+        "state": [
+            "none",
+            "hotel-area=west\thotel-type=guesthouse",
+            "hotel-area=west\thotel-type=guesthouse",
+            "hotel-book_day=saturday\thotel-book_people=2\thotel-book_stay=4\thotel-area=west\thotel-type=guesthouse",
+            "hotel-book_day=saturday\thotel-book_people=2\thotel-book_stay=4\thotel-area=west\thotel-type=guesthouse",
+            "hotel-book_day=saturday\thotel-book_people=2\thotel-book_stay=4\thotel-area=west\thotel-type=guesthouse"
+        ],
+        "dial_id": "SNG1035.json"
+    },
+    {
+        "meta": [
+            [
+                "hotel-parking=yes\thotel-type=guesthouse"
+            ],
+            [],
+            [
+                "hotel-pricerange=moderate\thotel-internet=yes"
+            ],
+            [
+                "hotel-name=acorn guest house"
+            ],
+            [],
+            []
+        ],
+        "dialogue": [
+            [
+                "i am looking for a guest house that i can stay in . free parking is also an added advantage .",
+                "acorn guest house is nearby and provides free parking . what are the days of your stay ?"
+            ],
+            [
+                "4 and 5 and 20184 and 10 and 2018",
+                "acorn guest house seems to be a good option . alexander bed and breakfast also has parking but is in the town centre . would you prefer 1 of those ?"
+            ],
+            [
+                "i am looking for something in the moderate price range and free internet , please .",
+                "i think acorn guest house is a good match for you !"
+            ],
+            [
+                "perfect . what is the star and area of the hotel ?",
+                "acorn guest house has a 4 star rating and is in the north . do you want me too book it for you ?"
+            ],
+            [
+                "no that will not be necessary . i have all of the information i need for now . thanks",
+                "you are welcome . please call back if you need any more help or if you want me to book it for you ."
+            ],
+            [
+                "thank you goodbye",
+                "none"
+            ]
+        ],
+        "state": [
+            "none",
+            "hotel-parking=yes\thotel-type=guesthouse",
+            "hotel-parking=yes\thotel-type=guesthouse",
+            "hotel-parking=yes\thotel-pricerange=moderate\thotel-internet=yes\thotel-type=guesthouse",
+            "hotel-name=acorn guest house\thotel-parking=yes\thotel-pricerange=moderate\thotel-internet=yes\thotel-type=guesthouse",
+            "hotel-name=acorn guest house\thotel-parking=yes\thotel-pricerange=moderate\thotel-internet=yes\thotel-type=guesthouse",
+            "hotel-name=acorn guest house\thotel-parking=yes\thotel-pricerange=moderate\thotel-internet=yes\thotel-type=guesthouse"
+        ],
+        "dial_id": "SNG01626.json"
+    },
+    {
+        "meta": [
+            [
+                "hotel-pricerange=expensive\thotel-internet=yes"
+            ],
+            [
+                "hotel-type=guesthouse"
+            ],
+            [
+                "hotel-pricerange=moderate"
+            ],
+            [],
+            [
+                "hotel-book_day=wednesday\thotel-book_people=3\thotel-book_stay=4"
+            ],
+            [],
+            []
+        ],
+        "dialogue": [
+            [
+                "i need an expensive place to stay that include -s wifi .",
+                "i have found several options for you , sir . what part of town did you have in mind ?"
+            ],
+            [
+                "it does not really matter . i would like a guesthouse , though .",
+                "i could not find a guesthouse available in the expensive price range . is there a different price range you would accept ?"
+            ],
+            [
+                "how about moderate price range ?",
+                "i have 14 total moderate priced guesthouses . do you have a preference of which area of town ?"
+            ],
+            [
+                "any place suits me",
+                "the avalon is a moderate price guesthouse in the north with a 4 star rating and internet . do you want me to book it ?"
+            ],
+            [
+                "book it for 3 people and 4 nights starting from wednesday .",
+                "booking was successful . reference number is : 9zw11uhm ."
+            ],
+            [
+                "great , thanks for your help !",
+                "you are welcome . is there anything else that i may assist you with today ?"
+            ],
+            [
+                "no that was all for now . thanks",
+                "none"
+            ]
+        ],
+        "state": [
+            "none",
+            "hotel-pricerange=expensive\thotel-internet=yes",
+            "hotel-pricerange=expensive\thotel-internet=yes\thotel-type=guesthouse",
+            "hotel-pricerange=moderate\thotel-internet=yes\thotel-type=guesthouse",
+            "hotel-pricerange=moderate\thotel-internet=yes\thotel-type=guesthouse",
+            "hotel-book_day=wednesday\thotel-book_people=3\thotel-book_stay=4\thotel-pricerange=moderate\thotel-internet=yes\thotel-type=guesthouse",
+            "hotel-book_day=wednesday\thotel-book_people=3\thotel-book_stay=4\thotel-pricerange=moderate\thotel-internet=yes\thotel-type=guesthouse",
+            "hotel-book_day=wednesday\thotel-book_people=3\thotel-book_stay=4\thotel-pricerange=moderate\thotel-internet=yes\thotel-type=guesthouse"
+        ],
+        "dial_id": "SNG01459.json"
+    },
+    {
+        "meta": [
+            [
+                "hotel-internet=yes\thotel-type=guesthouse"
+            ],
+            [
+                "hotel-area=dontcare\thotel-pricerange=moderate\thotel-stars=4"
+            ],
+            [
+                "hotel-parking=no"
+            ],
+            [
+                "hotel-book_day=sunday\thotel-book_people=3\thotel-book_stay=3"
+            ],
+            [
+                "hotel-book_day=monday"
+            ],
+            []
+        ],
+        "dialogue": [
+            [
+                "i am looking for a place to stay . the hotel should include free wifi and should be in the type of guesthouse",
+                "there are many results for a guesthouse with free wifi , to help narrow the results what area are you looking to stay in ?"
+            ],
+            [
+                "i am unsure about the area , right now . i would like the accommodations to be at least 4 star and have a moderate price .",
+                "and will you need parking at the guesthouse ?"
+            ],
+            [
+                "no . i shouldn't need parking .",
+                "how do you feel about the a and b guest house ? it covers all your needs and is in the eastern area . would you like a phone number or address ?"
+            ],
+            [
+                "if it is 4 stars in the moderate price range that sounds fine . i need it for 3 nights for 3 people starting sunday .",
+                "i am sorry that many nights is not available . could you try a shorter stay or another day perhaps ?"
+            ],
+            [
+                "okay , how about on monday ?",
+                "great , i have got you booked on monday for 3 nights . the reference number is 8bpfxm28 . is there anything else i can help you with ?"
+            ],
+            [
+                "no , that s all , thanks .",
+                "none"
+            ]
+        ],
+        "state": [
+            "none",
+            "hotel-internet=yes\thotel-type=guesthouse",
+            "hotel-area=dontcare\thotel-pricerange=moderate\thotel-stars=4\thotel-internet=yes\thotel-type=guesthouse",
+            "hotel-area=dontcare\thotel-parking=no\thotel-pricerange=moderate\thotel-stars=4\thotel-internet=yes\thotel-type=guesthouse",
+            "hotel-book_day=sunday\thotel-book_people=3\thotel-book_stay=3\thotel-area=dontcare\thotel-parking=no\thotel-pricerange=moderate\thotel-stars=4\thotel-internet=yes\thotel-type=guesthouse",
+            "hotel-book_day=monday\thotel-book_people=3\thotel-book_stay=3\thotel-area=dontcare\thotel-parking=no\thotel-pricerange=moderate\thotel-stars=4\thotel-internet=yes\thotel-type=guesthouse",
+            "hotel-book_day=monday\thotel-book_people=3\thotel-book_stay=3\thotel-area=dontcare\thotel-parking=no\thotel-pricerange=moderate\thotel-stars=4\thotel-internet=yes\thotel-type=guesthouse"
+        ],
+        "dial_id": "SNG01664.json"
+    },
+    {
+        "meta": [
+            [
+                "hotel-parking=yes\thotel-pricerange=expensive\thotel-type=hotel"
+            ],
+            [
+                "hotel-type=guesthouse\thotel-area=east"
+            ],
+            [
+                "hotel-pricerange=moderate"
+            ],
+            [
+                "hotel-book_day=tuesday\thotel-book_people=5\thotel-book_stay=5\thotel-name=carolina bed and breakfast"
+            ],
+            []
+        ],
+        "dialogue": [
+            [
+                "i am looking for a hotel that is expensive and has free parking .",
+                "i have about 5 great options for you . do you prefer a certain area in the city ?"
+            ],
+            [
+                "i am looking for a guesthouse in the east side of town .",
+                "i am afraid i have nothing available with those specification -s . would you like a different are or a hotel ?"
+            ],
+            [
+                "are there any moderate -ly priced guesthouses in that part of town ?",
+                "yes , both the carolina bed and breakfast and the warkworth house are moderate -ly priced guesthouses on the east side . would you like a room at 1 of these ?"
+            ],
+            [
+                "yes , could you see if either of them have availability starting on tuesday for 5 nights for 5 people ?",
+                "you have a reservation at the carolina bed and breakfast for tuesday . your reference number is bohpjife"
+            ],
+            [
+                "thanks , that s great . i think i am done for today .",
+                "none"
+            ]
+        ],
+        "state": [
+            "none",
+            "hotel-parking=yes\thotel-pricerange=expensive\thotel-type=hotel",
+            "hotel-area=east\thotel-parking=yes\thotel-pricerange=expensive\thotel-type=guesthouse",
+            "hotel-area=east\thotel-parking=yes\thotel-pricerange=moderate\thotel-type=guesthouse",
+            "hotel-book_day=tuesday\thotel-book_people=5\thotel-book_stay=5\thotel-name=carolina bed and breakfast\thotel-area=east\thotel-parking=yes\thotel-pricerange=moderate\thotel-type=guesthouse",
+            "hotel-book_day=tuesday\thotel-book_people=5\thotel-book_stay=5\thotel-name=carolina bed and breakfast\thotel-area=east\thotel-parking=yes\thotel-pricerange=moderate\thotel-type=guesthouse"
+        ],
+        "dial_id": "SNG0845.json"
+    },
+    {
+        "meta": [
+            [
+                "hotel-name=alpha milton guest house"
+            ],
+            [
+                "hotel-book_day=thursday\thotel-book_people=8\thotel-book_stay=5"
+            ],
+            [],
+            []
+        ],
+        "dialogue": [
+            [
+                "hello , i am looking for information on the alpha milton guest house .",
+                "alpha milton guest house is in the north part of town , in the moderate price range , 3 stars rated , and has no internet or parking"
+            ],
+            [
+                "can you make a reservation for me for 8 people for 5 nights starting on thursday .",
+                "i was able to successfully book that for you . your reference number is mxws56bv . is there anything else i can assist you with ?"
+            ],
+            [
+                "nope , that'll do it ! thank you for all your help !",
+                "thank you for using cambridge towninfo centre ."
+            ],
+            [
+                "thanks , have a good day . goodbye .",
+                "none"
+            ]
+        ],
+        "state": [
+            "none",
+            "hotel-name=alpha milton guest house",
+            "hotel-book_day=thursday\thotel-book_people=8\thotel-book_stay=5\thotel-name=alpha milton guest house",
+            "hotel-book_day=thursday\thotel-book_people=8\thotel-book_stay=5\thotel-name=alpha milton guest house",
+            "hotel-book_day=thursday\thotel-book_people=8\thotel-book_stay=5\thotel-name=alpha milton guest house"
+        ],
+        "dial_id": "SNG0835.json"
+    },
+    {
+        "meta": [
+            [
+                "hotel-area=west\thotel-pricerange=dontcare"
+            ],
+            [
+                "hotel-pricerange=moderate\thotel-stars=4"
+            ],
+            [
+                "hotel-area=north\thotel-parking=yes"
+            ],
+            [],
+            []
+        ],
+        "dialogue": [
+            [
+                "i need a hotel on the west side .",
+                "there are 4 place -s in the west area . 2 are listed as guesthouses and 2 are hotel -s . would you like more information ?"
+            ],
+            [
+                "can you tell which ones have 4 stars and would be moderate -ly priced ?",
+                "i am sorry , but there are no hotel -s in the west part of town that have 4 stars and are moderate -ly priced . can i look for something different for you ?"
+            ],
+            [
+                "yes , how about moderate -ly priced place -s to stay with 4 stars in the north ? i also need free parking .",
+                "there are 6 moderate -ly priced 4 star place -s in the north which offer free parking . the acorn guest house is a popular choice ."
+            ],
+            [
+                "that sounds fine . do they have internet access ?",
+                "yes , they do . would you like to book a reservation ?"
+            ],
+            [
+                "not right now . in fact , that s all the info i needed . thanks for your help !",
+                "none"
+            ]
+        ],
+        "state": [
+            "none",
+            "hotel-area=west\thotel-pricerange=dontcare",
+            "hotel-area=west\thotel-pricerange=moderate\thotel-stars=4",
+            "hotel-area=north\thotel-parking=yes\thotel-pricerange=moderate\thotel-stars=4",
+            "hotel-area=north\thotel-parking=yes\thotel-pricerange=moderate\thotel-stars=4",
+            "hotel-area=north\thotel-parking=yes\thotel-pricerange=moderate\thotel-stars=4"
+        ],
+        "dial_id": "SNG0889.json"
+    }
+]

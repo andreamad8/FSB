@@ -1,0 +1,1777 @@
+{
+    "score": {
+        "BLEU": 21.83,
+        "B4": 14.385819028432623,
+        "F1": 75.22205006530943,
+        "RL": 74.01473867248579,
+        "JGA": 4.787234042553192,
+        "SLOT_ACC": 24.481327800829874,
+        "ppl": 5.8643914558915196
+    },
+    "generation": [
+        {
+            "meta": [
+                [
+                    "taxi-destination=saint john s college\ttaxi-departure=pizza hut fen ditton"
+                ],
+                [
+                    "taxi-departure=17:15\ttaxi-arriveby=17:15"
+                ],
+                [
+                    "None"
+                ],
+                [
+                    "None"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "taxi-destination": "saint john s college",
+                    "taxi-departure": "pizza hut fen ditton"
+                },
+                {
+                    "taxi-destination": "saint john s college",
+                    "taxi-departure": "17:15",
+                    "taxi-arriveby": "17:15"
+                },
+                {
+                    "taxi-destination": "saint john s college",
+                    "taxi-departure": "17:15",
+                    "taxi-arriveby": "17:15"
+                },
+                {
+                    "taxi-destination": "saint john s college",
+                    "taxi-departure": "17:15",
+                    "taxi-arriveby": "17:15"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "taxi-departure=09:00"
+                ],
+                [
+                    "taxi-departure=wagamama"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "taxi-departure": "09:00"
+                },
+                {
+                    "taxi-departure": "wagamama"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "taxi-destination=regency gallery and don pasquale pizzeria\ttaxi-departure=regency gallery and don pasquale pizzeria"
+                ],
+                [
+                    "taxi-departure=20:00"
+                ],
+                [
+                    "None"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "taxi-destination": "regency gallery and don pasquale pizzeria",
+                    "taxi-departure": "regency gallery and don pasquale pizzeria"
+                },
+                {
+                    "taxi-destination": "regency gallery and don pasquale pizzeria",
+                    "taxi-departure": "20:00"
+                },
+                {
+                    "taxi-destination": "regency gallery and don pasquale pizzeria",
+                    "taxi-departure": "20:00"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "taxi-destination=ian hong house\ttaxi-departure=14:45"
+                ],
+                [
+                    "taxi-departure=leicester train station\ttaxi-arriveby=14:45"
+                ],
+                [
+                    "None"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "taxi-destination": "ian hong house",
+                    "taxi-departure": "14:45"
+                },
+                {
+                    "taxi-destination": "ian hong house",
+                    "taxi-departure": "leicester train station",
+                    "taxi-arriveby": "14:45"
+                },
+                {
+                    "taxi-destination": "ian hong house",
+                    "taxi-departure": "leicester train station",
+                    "taxi-arriveby": "14:45"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "taxi-destination=pipasha restaurant\ttaxi-departure=01:45"
+                ],
+                [
+                    "taxi-departure=ballare"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "taxi-destination": "pipasha restaurant",
+                    "taxi-departure": "01:45"
+                },
+                {
+                    "taxi-destination": "pipasha restaurant",
+                    "taxi-departure": "ballare"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "taxi-departure=yu garden"
+                ],
+                [
+                    "taxi-departure=holy trinity church"
+                ],
+                [
+                    "None"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "taxi-departure": "yu garden"
+                },
+                {
+                    "taxi-departure": "holy trinity church"
+                },
+                {
+                    "taxi-departure": "holy trinity church"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "taxi-departure=michaelhouse cafe"
+                ],
+                [
+                    "taxi-departure=williams art and antiques"
+                ],
+                [
+                    "None"
+                ],
+                [
+                    "None"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "taxi-departure": "michaelhouse cafe"
+                },
+                {
+                    "taxi-departure": "williams art and antiques"
+                },
+                {
+                    "taxi-departure": "williams art and antiques"
+                },
+                {
+                    "taxi-departure": "williams art and antiques"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "taxi-destination=gonville hotel"
+                ],
+                [
+                    "taxi-departure=gonville hotel"
+                ],
+                [
+                    "None"
+                ],
+                [
+                    "None"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "taxi-destination": "gonville hotel"
+                },
+                {
+                    "taxi-destination": "gonville hotel",
+                    "taxi-departure": "gonville hotel"
+                },
+                {
+                    "taxi-destination": "gonville hotel",
+                    "taxi-departure": "gonville hotel"
+                },
+                {
+                    "taxi-destination": "gonville hotel",
+                    "taxi-departure": "gonville hotel"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "taxi-destination=dojo noodle bar\ttaxi-departure=abbey pool and astroturf pitch\ttaxi-arriveby=02:15"
+                ],
+                [
+                    "taxi-departure=abbey pool and astroturf pitch\ttaxi-arriveby=12:15"
+                ],
+                [
+                    "taxi-departure=rosas bed and breakfast\ttaxi-arriveby=02:15"
+                ],
+                [
+                    "None"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "taxi-destination": "dojo noodle bar",
+                    "taxi-departure": "abbey pool and astroturf pitch",
+                    "taxi-arriveby": "02:15"
+                },
+                {
+                    "taxi-destination": "dojo noodle bar",
+                    "taxi-departure": "abbey pool and astroturf pitch",
+                    "taxi-arriveby": "12:15"
+                },
+                {
+                    "taxi-destination": "dojo noodle bar",
+                    "taxi-departure": "rosas bed and breakfast",
+                    "taxi-arriveby": "02:15"
+                },
+                {
+                    "taxi-destination": "dojo noodle bar",
+                    "taxi-departure": "rosas bed and breakfast",
+                    "taxi-arriveby": "02:15"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "taxi-destination=nandos"
+                ],
+                [
+                    "taxi-departure=riverboat georgina"
+                ],
+                [
+                    "taxi-departure=09:45"
+                ],
+                [
+                    "None"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "taxi-destination": "nandos"
+                },
+                {
+                    "taxi-destination": "nandos",
+                    "taxi-departure": "riverboat georgina"
+                },
+                {
+                    "taxi-destination": "nandos",
+                    "taxi-departure": "09:45"
+                },
+                {
+                    "taxi-destination": "nandos",
+                    "taxi-departure": "09:45"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "taxi-departure=20:00"
+                ],
+                [
+                    "taxi-departure=clare college"
+                ],
+                [
+                    "taxi-departure=clare college and parkside police station"
+                ],
+                [
+                    "None"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "taxi-departure": "20:00"
+                },
+                {
+                    "taxi-departure": "clare college"
+                },
+                {
+                    "taxi-departure": "clare college and parkside police station"
+                },
+                {
+                    "taxi-departure": "clare college and parkside police station"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "taxi-destination=zizzi cambridge\ttaxi-arriveby=22:45"
+                ],
+                [
+                    "taxi-departure=saint johns chop shop house\ttaxi-arriveby=22:45"
+                ],
+                [
+                    "None"
+                ],
+                [
+                    "None"
+                ],
+                [
+                    "None"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "taxi-destination": "zizzi cambridge",
+                    "taxi-arriveby": "22:45"
+                },
+                {
+                    "taxi-destination": "zizzi cambridge",
+                    "taxi-arriveby": "22:45",
+                    "taxi-departure": "saint johns chop shop house"
+                },
+                {
+                    "taxi-destination": "zizzi cambridge",
+                    "taxi-arriveby": "22:45",
+                    "taxi-departure": "saint johns chop shop house"
+                },
+                {
+                    "taxi-destination": "zizzi cambridge",
+                    "taxi-arriveby": "22:45",
+                    "taxi-departure": "saint johns chop shop house"
+                },
+                {
+                    "taxi-destination": "zizzi cambridge",
+                    "taxi-arriveby": "22:45",
+                    "taxi-departure": "saint johns chop shop house"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "taxi-destination=mahal of cambridge"
+                ],
+                [
+                    "taxi-departure=mahal of cambridge"
+                ],
+                [
+                    "taxi-departure=jesus green outdoor pool"
+                ],
+                [
+                    "taxi-departure=jesus green outdoor pool"
+                ],
+                [
+                    "None"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "taxi-destination": "mahal of cambridge"
+                },
+                {
+                    "taxi-destination": "mahal of cambridge",
+                    "taxi-departure": "mahal of cambridge"
+                },
+                {
+                    "taxi-destination": "mahal of cambridge",
+                    "taxi-departure": "jesus green outdoor pool"
+                },
+                {
+                    "taxi-destination": "mahal of cambridge",
+                    "taxi-departure": "jesus green outdoor pool"
+                },
+                {
+                    "taxi-destination": "mahal of cambridge",
+                    "taxi-departure": "jesus green outdoor pool"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "taxi-destination=restaurant"
+                ],
+                [
+                    "taxi-departure=oak bistro and will depart from sheep s green and lammas land park fen causeway"
+                ],
+                [
+                    "taxi-arriveby=16:45"
+                ],
+                [
+                    "None"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "taxi-destination": "restaurant"
+                },
+                {
+                    "taxi-destination": "restaurant",
+                    "taxi-departure": "oak bistro and will depart from sheep s green and lammas land park fen causeway"
+                },
+                {
+                    "taxi-destination": "restaurant",
+                    "taxi-departure": "oak bistro and will depart from sheep s green and lammas land park fen causeway",
+                    "taxi-arriveby": "16:45"
+                },
+                {
+                    "taxi-destination": "restaurant",
+                    "taxi-departure": "oak bistro and will depart from sheep s green and lammas land park fen causeway",
+                    "taxi-arriveby": "16:45"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "taxi-destination=cambridge museum of technology\ttaxi-departure=cambridge museum of technology\ttaxi-arriveby=02:15"
+                ],
+                [
+                    "taxi-departure=rice boat\ttaxi-arriveby=02:15"
+                ],
+                [
+                    "taxi-departure=13:45\ttaxi-arriveby=13:45"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "taxi-destination": "cambridge museum of technology",
+                    "taxi-departure": "cambridge museum of technology",
+                    "taxi-arriveby": "02:15"
+                },
+                {
+                    "taxi-destination": "cambridge museum of technology",
+                    "taxi-departure": "rice boat",
+                    "taxi-arriveby": "02:15"
+                },
+                {
+                    "taxi-destination": "cambridge museum of technology",
+                    "taxi-departure": "13:45",
+                    "taxi-arriveby": "13:45"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "taxi-destination=sahigndc"
+                ],
+                [
+                    "taxi-departure=lovell lodge"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "taxi-destination": "sahigndc"
+                },
+                {
+                    "taxi-destination": "sahigndc",
+                    "taxi-departure": "lovell lodge"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "taxi-departure=golden wok"
+                ],
+                [
+                    "taxi-departure=golden wok"
+                ],
+                [
+                    "taxi-departure=holy trinity church"
+                ],
+                [
+                    "None"
+                ],
+                [
+                    "None"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "taxi-departure": "golden wok"
+                },
+                {
+                    "taxi-departure": "golden wok"
+                },
+                {
+                    "taxi-departure": "holy trinity church"
+                },
+                {
+                    "taxi-departure": "holy trinity church"
+                },
+                {
+                    "taxi-departure": "holy trinity church"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "taxi-destination=jesus green outdoor pool\ttaxi-departure=abbey pool and astroturf pitch\ttaxi-arriveby=02:15"
+                ],
+                [
+                    "taxi-departure=12:45\ttaxi-arriveby=12:45"
+                ],
+                [
+                    "taxi-departure=camgridge and county folk museum\ttaxi-arriveby=camgridge and county folk museum"
+                ],
+                [
+                    "taxi-departure=trinity college\ttaxi-arriveby=trinity college"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "taxi-destination": "jesus green outdoor pool",
+                    "taxi-departure": "abbey pool and astroturf pitch",
+                    "taxi-arriveby": "02:15"
+                },
+                {
+                    "taxi-destination": "jesus green outdoor pool",
+                    "taxi-departure": "12:45",
+                    "taxi-arriveby": "12:45"
+                },
+                {
+                    "taxi-destination": "jesus green outdoor pool",
+                    "taxi-departure": "camgridge and county folk museum",
+                    "taxi-arriveby": "camgridge and county folk museum"
+                },
+                {
+                    "taxi-destination": "jesus green outdoor pool",
+                    "taxi-departure": "trinity college",
+                    "taxi-arriveby": "trinity college"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "taxi-destination=missing sock\ttaxi-departure=abbey pool and astroturf pitch\ttaxi-arriveby=08:30"
+                ],
+                [
+                    "taxi-departure=el shaddai"
+                ],
+                [
+                    "None"
+                ],
+                [
+                    "None"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "taxi-destination": "missing sock",
+                    "taxi-departure": "abbey pool and astroturf pitch",
+                    "taxi-arriveby": "08:30"
+                },
+                {
+                    "taxi-destination": "missing sock",
+                    "taxi-departure": "el shaddai",
+                    "taxi-arriveby": "08:30"
+                },
+                {
+                    "taxi-destination": "missing sock",
+                    "taxi-departure": "el shaddai",
+                    "taxi-arriveby": "08:30"
+                },
+                {
+                    "taxi-destination": "missing sock",
+                    "taxi-departure": "el shaddai",
+                    "taxi-arriveby": "08:30"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "taxi-destination=ballare"
+                ],
+                [
+                    "taxi-departure=17:45"
+                ],
+                [
+                    "None"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "taxi-destination": "ballare"
+                },
+                {
+                    "taxi-destination": "ballare",
+                    "taxi-departure": "17:45"
+                },
+                {
+                    "taxi-destination": "ballare",
+                    "taxi-departure": "17:45"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "taxi-destination=ruskin gallery\ttaxi-departure=ruskin gallery"
+                ],
+                [
+                    "taxi-departure=ruskin gallery\ttaxi-arriveby=0715"
+                ],
+                [
+                    "None"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "taxi-destination": "ruskin gallery",
+                    "taxi-departure": "ruskin gallery"
+                },
+                {
+                    "taxi-destination": "ruskin gallery",
+                    "taxi-departure": "ruskin gallery",
+                    "taxi-arriveby": "0715"
+                },
+                {
+                    "taxi-destination": "ruskin gallery",
+                    "taxi-departure": "ruskin gallery",
+                    "taxi-arriveby": "0715"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "taxi-destination=funky fun house\ttaxi-departure=abbey fun house and astroturf pitch\ttaxi-arriveby=02:15"
+                ],
+                [
+                    "taxi-departure=abbey fun house and astroturf pitch\ttaxi-arriveby=09:15"
+                ],
+                [
+                    "None"
+                ],
+                [
+                    "None"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "taxi-destination": "funky fun house",
+                    "taxi-departure": "abbey fun house and astroturf pitch",
+                    "taxi-arriveby": "02:15"
+                },
+                {
+                    "taxi-destination": "funky fun house",
+                    "taxi-departure": "abbey fun house and astroturf pitch",
+                    "taxi-arriveby": "09:15"
+                },
+                {
+                    "taxi-destination": "funky fun house",
+                    "taxi-departure": "abbey fun house and astroturf pitch",
+                    "taxi-arriveby": "09:15"
+                },
+                {
+                    "taxi-destination": "funky fun house",
+                    "taxi-departure": "abbey fun house and astroturf pitch",
+                    "taxi-arriveby": "09:15"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "taxi-departure=cambridge punte"
+                ],
+                [
+                    "taxi-departure=cambridge punter"
+                ],
+                [
+                    "taxi-departure=cambridge punter"
+                ],
+                [
+                    "None"
+                ],
+                [
+                    "None"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "taxi-departure": "cambridge punte"
+                },
+                {
+                    "taxi-departure": "cambridge punter"
+                },
+                {
+                    "taxi-departure": "cambridge punter"
+                },
+                {
+                    "taxi-departure": "cambridge punter"
+                },
+                {
+                    "taxi-departure": "cambridge punter"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "taxi-destination=williams art and antiques"
+                ],
+                [
+                    "taxi-departure=lensfield hotel"
+                ],
+                [
+                    "None"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "taxi-destination": "williams art and antiques"
+                },
+                {
+                    "taxi-destination": "williams art and antiques",
+                    "taxi-departure": "lensfield hotel"
+                },
+                {
+                    "taxi-destination": "williams art and antiques",
+                    "taxi-departure": "lensfield hotel"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "taxi-destination=little saint mary s church\ttaxi-departure=11:00"
+                ],
+                [
+                    "taxi-departure=avalon"
+                ],
+                [
+                    "taxi-arriveby=11:00"
+                ],
+                [
+                    "None"
+                ],
+                [
+                    "None"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "taxi-destination": "little saint mary s church",
+                    "taxi-departure": "11:00"
+                },
+                {
+                    "taxi-destination": "little saint mary s church",
+                    "taxi-departure": "avalon"
+                },
+                {
+                    "taxi-destination": "little saint mary s church",
+                    "taxi-departure": "avalon",
+                    "taxi-arriveby": "11:00"
+                },
+                {
+                    "taxi-destination": "little saint mary s church",
+                    "taxi-departure": "avalon",
+                    "taxi-arriveby": "11:00"
+                },
+                {
+                    "taxi-destination": "little saint mary s church",
+                    "taxi-departure": "avalon",
+                    "taxi-arriveby": "11:00"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "taxi-destination=tandoori palace\ttaxi-departure=tandoori palace"
+                ],
+                [
+                    "taxi-departure=22:15"
+                ],
+                [
+                    "None"
+                ],
+                [
+                    "None"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "taxi-destination": "tandoori palace",
+                    "taxi-departure": "tandoori palace"
+                },
+                {
+                    "taxi-destination": "tandoori palace",
+                    "taxi-departure": "22:15"
+                },
+                {
+                    "taxi-destination": "tandoori palace",
+                    "taxi-departure": "22:15"
+                },
+                {
+                    "taxi-destination": "tandoori palace",
+                    "taxi-departure": "22:15"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "royal standard"
+                ],
+                [
+                    "royal standard"
+                ],
+                [
+                    "None"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {},
+                {},
+                {}
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "taxi-departure=royal spice"
+                ],
+                [
+                    "taxi-departure=kirkwood house"
+                ],
+                [
+                    "None"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "taxi-departure": "royal spice"
+                },
+                {
+                    "taxi-departure": "kirkwood house"
+                },
+                {
+                    "taxi-departure": "kirkwood house"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "taxi-departure=cambridge arts theatre"
+                ],
+                [
+                    "taxi-departure=restaurant 17"
+                ],
+                [
+                    "None"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "taxi-departure": "cambridge arts theatre"
+                },
+                {
+                    "taxi-departure": "restaurant 17"
+                },
+                {
+                    "taxi-departure": "restaurant 17"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "taxi-destination=stevenage train station\ttaxi-departure=gourmet burger kitchen"
+                ],
+                [
+                    "taxi-departure=gourmet burger kitchen"
+                ],
+                [
+                    "None"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "taxi-destination": "stevenage train station",
+                    "taxi-departure": "gourmet burger kitchen"
+                },
+                {
+                    "taxi-destination": "stevenage train station",
+                    "taxi-departure": "gourmet burger kitchen"
+                },
+                {
+                    "taxi-destination": "stevenage train station",
+                    "taxi-departure": "gourmet burger kitchen"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "taxi-destination=grafton hotel restaurant\ttaxi-departure=abbey hotel restaurant and abbey pool pitch\ttaxi-arriveby=02:15"
+                ],
+                [
+                    "taxi-departure=abbey hotel restaurant\ttaxi-arriveby=16:45"
+                ],
+                [
+                    "taxi-departure=jinling noodle bar\ttaxi-arriveby=02:15"
+                ],
+                [
+                    "None"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "taxi-destination": "grafton hotel restaurant",
+                    "taxi-departure": "abbey hotel restaurant and abbey pool pitch",
+                    "taxi-arriveby": "02:15"
+                },
+                {
+                    "taxi-destination": "grafton hotel restaurant",
+                    "taxi-departure": "abbey hotel restaurant",
+                    "taxi-arriveby": "16:45"
+                },
+                {
+                    "taxi-destination": "grafton hotel restaurant",
+                    "taxi-departure": "jinling noodle bar",
+                    "taxi-arriveby": "02:15"
+                },
+                {
+                    "taxi-destination": "grafton hotel restaurant",
+                    "taxi-departure": "jinling noodle bar",
+                    "taxi-arriveby": "02:15"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "taxi-destination=arbury lodge guesthouse\ttaxi-departure=abbey lodge guesthouse"
+                ],
+                [
+                    "taxi-departure=13:00"
+                ],
+                [
+                    "None"
+                ],
+                [
+                    "None"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "taxi-destination": "arbury lodge guesthouse",
+                    "taxi-departure": "abbey lodge guesthouse"
+                },
+                {
+                    "taxi-destination": "arbury lodge guesthouse",
+                    "taxi-departure": "13:00"
+                },
+                {
+                    "taxi-destination": "arbury lodge guesthouse",
+                    "taxi-departure": "13:00"
+                },
+                {
+                    "taxi-destination": "arbury lodge guesthouse",
+                    "taxi-departure": "13:00"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "taxi-departure=police station"
+                ],
+                [
+                    "taxi-departure=police station"
+                ],
+                [
+                    "taxi-departure=stansted airport train station"
+                ],
+                [
+                    "None"
+                ],
+                [
+                    "None"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "taxi-departure": "police station"
+                },
+                {
+                    "taxi-departure": "police station"
+                },
+                {
+                    "taxi-departure": "stansted airport train station"
+                },
+                {
+                    "taxi-departure": "stansted airport train station"
+                },
+                {
+                    "taxi-departure": "stansted airport train station"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "taxi-departure=missing sock"
+                ],
+                [
+                    "taxi-departure=lucky star"
+                ],
+                [
+                    "taxi-departure=lucky star"
+                ],
+                [
+                    "None"
+                ],
+                [
+                    "None"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "taxi-departure": "missing sock"
+                },
+                {
+                    "taxi-departure": "lucky star"
+                },
+                {
+                    "taxi-departure": "lucky star"
+                },
+                {
+                    "taxi-departure": "lucky star"
+                },
+                {
+                    "taxi-departure": "lucky star"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "taxi-destination=hughes hall"
+                ],
+                [
+                    "taxi-departure=15:15"
+                ],
+                [
+                    "taxi-departure=arbury lodge guesthouse"
+                ],
+                [
+                    "None"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "taxi-destination": "hughes hall"
+                },
+                {
+                    "taxi-destination": "hughes hall",
+                    "taxi-departure": "15:15"
+                },
+                {
+                    "taxi-destination": "hughes hall",
+                    "taxi-departure": "arbury lodge guesthouse"
+                },
+                {
+                    "taxi-destination": "hughes hall",
+                    "taxi-departure": "arbury lodge guesthouse"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "taxi-destination=jello gallery\ttaxi-departure=abbey gallery and astroturf pitch\ttaxi-arriveby=02:15"
+                ],
+                [
+                    "taxi-departure=cafe jello gallery\ttaxi-arriveby=12:30"
+                ],
+                [
+                    "taxi-departure=cafe jello gallery\ttaxi-arriveby=12:30"
+                ],
+                [
+                    "None"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "taxi-destination": "jello gallery",
+                    "taxi-departure": "abbey gallery and astroturf pitch",
+                    "taxi-arriveby": "02:15"
+                },
+                {
+                    "taxi-destination": "jello gallery",
+                    "taxi-departure": "cafe jello gallery",
+                    "taxi-arriveby": "12:30"
+                },
+                {
+                    "taxi-destination": "jello gallery",
+                    "taxi-departure": "cafe jello gallery",
+                    "taxi-arriveby": "12:30"
+                },
+                {
+                    "taxi-destination": "jello gallery",
+                    "taxi-departure": "cafe jello gallery",
+                    "taxi-arriveby": "12:30"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "taxi-destination=yippee noodle bar\ttaxi-departure=abbey pool and astroturf pitch\ttaxi-arriveby=09:45"
+                ],
+                [
+                    "taxi-departure=abbey pool and astroturf pitch\ttaxi-arriveby=09:45"
+                ],
+                [
+                    "None"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "taxi-destination": "yippee noodle bar",
+                    "taxi-departure": "abbey pool and astroturf pitch",
+                    "taxi-arriveby": "09:45"
+                },
+                {
+                    "taxi-destination": "yippee noodle bar",
+                    "taxi-departure": "abbey pool and astroturf pitch",
+                    "taxi-arriveby": "09:45"
+                },
+                {
+                    "taxi-destination": "yippee noodle bar",
+                    "taxi-departure": "abbey pool and astroturf pitch",
+                    "taxi-arriveby": "09:45"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "taxi-destination=williams art and antiques"
+                ],
+                [
+                    "taxi-departure=pizza express fen ditton"
+                ],
+                [
+                    "taxi-arriveby=12:45"
+                ],
+                [
+                    "None"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "taxi-destination": "williams art and antiques"
+                },
+                {
+                    "taxi-destination": "williams art and antiques",
+                    "taxi-departure": "pizza express fen ditton"
+                },
+                {
+                    "taxi-destination": "williams art and antiques",
+                    "taxi-departure": "pizza express fen ditton",
+                    "taxi-arriveby": "12:45"
+                },
+                {
+                    "taxi-destination": "williams art and antiques",
+                    "taxi-departure": "pizza express fen ditton",
+                    "taxi-arriveby": "12:45"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "taxi-departure=la raza"
+                ],
+                [
+                    "taxi-departure=11:45"
+                ],
+                [
+                    "taxi-departure=17"
+                ],
+                [
+                    "None"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "taxi-departure": "la raza"
+                },
+                {
+                    "taxi-departure": "11:45"
+                },
+                {
+                    "taxi-departure": "17"
+                },
+                {
+                    "taxi-departure": "17"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "taxi-destination=meghna"
+                ],
+                [
+                    "taxi-departure=7:15 p. m."
+                ],
+                [
+                    "None"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "taxi-destination": "meghna"
+                },
+                {
+                    "taxi-destination": "meghna",
+                    "taxi-departure": "7:15 p. m."
+                },
+                {
+                    "taxi-destination": "meghna",
+                    "taxi-departure": "7:15 p. m."
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "taxi-destination=williams art and antiques"
+                ],
+                [
+                    "taxi-departure=riverside brasserie"
+                ],
+                [
+                    "taxi-arriveby=18:15"
+                ],
+                [
+                    "taxi-arriveby=shanghai family restaurant"
+                ],
+                [
+                    "None"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "taxi-destination": "williams art and antiques"
+                },
+                {
+                    "taxi-destination": "williams art and antiques",
+                    "taxi-departure": "riverside brasserie"
+                },
+                {
+                    "taxi-destination": "williams art and antiques",
+                    "taxi-departure": "riverside brasserie",
+                    "taxi-arriveby": "18:15"
+                },
+                {
+                    "taxi-destination": "williams art and antiques",
+                    "taxi-departure": "riverside brasserie",
+                    "taxi-arriveby": "shanghai family restaurant"
+                },
+                {
+                    "taxi-destination": "williams art and antiques",
+                    "taxi-departure": "riverside brasserie",
+                    "taxi-arriveby": "shanghai family restaurant"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "taxi-departure=golden house"
+                ],
+                [
+                    "taxi-departure=soul tree"
+                ],
+                [
+                    "None"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "taxi-departure": "golden house"
+                },
+                {
+                    "taxi-departure": "soul tree"
+                },
+                {
+                    "taxi-departure": "soul tree"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "taxi-destination=williams art and antiques"
+                ],
+                [
+                    "taxi-departure=2 two by 5:15"
+                ],
+                [
+                    "taxi-departure=williams art and antiques"
+                ],
+                [
+                    "None"
+                ],
+                [
+                    "None"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "taxi-destination": "williams art and antiques"
+                },
+                {
+                    "taxi-destination": "williams art and antiques",
+                    "taxi-departure": "2 two by 5:15"
+                },
+                {
+                    "taxi-destination": "williams art and antiques",
+                    "taxi-departure": "williams art and antiques"
+                },
+                {
+                    "taxi-destination": "williams art and antiques",
+                    "taxi-departure": "williams art and antiques"
+                },
+                {
+                    "taxi-destination": "williams art and antiques",
+                    "taxi-departure": "williams art and antiques"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "taxi-destination=a and b guest house\ttaxi-departure=abbey college"
+                ],
+                [
+                    "taxi-arriveby=06:00"
+                ],
+                [
+                    "None"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "taxi-destination": "a and b guest house",
+                    "taxi-departure": "abbey college"
+                },
+                {
+                    "taxi-destination": "a and b guest house",
+                    "taxi-departure": "abbey college",
+                    "taxi-arriveby": "06:00"
+                },
+                {
+                    "taxi-destination": "a and b guest house",
+                    "taxi-departure": "abbey college",
+                    "taxi-arriveby": "06:00"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "taxi-destination=ashley hotel\ttaxi-arriveby=10:45"
+                ],
+                [
+                    "taxi-departure=restaurant 2 two"
+                ],
+                [
+                    "None"
+                ],
+                [
+                    "None"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "taxi-destination": "ashley hotel",
+                    "taxi-arriveby": "10:45"
+                },
+                {
+                    "taxi-destination": "ashley hotel",
+                    "taxi-arriveby": "10:45",
+                    "taxi-departure": "restaurant 2 two"
+                },
+                {
+                    "taxi-destination": "ashley hotel",
+                    "taxi-arriveby": "10:45",
+                    "taxi-departure": "restaurant 2 two"
+                },
+                {
+                    "taxi-destination": "ashley hotel",
+                    "taxi-arriveby": "10:45",
+                    "taxi-departure": "restaurant 2 two"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "taxi-destination=avalon"
+                ],
+                [
+                    "taxi-departure=avalon"
+                ],
+                [
+                    "None"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "taxi-destination": "avalon"
+                },
+                {
+                    "taxi-destination": "avalon",
+                    "taxi-departure": "avalon"
+                },
+                {
+                    "taxi-destination": "avalon",
+                    "taxi-departure": "avalon"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "taxi-destination=christ s college\ttaxi-departure=city stop\ttaxi-arriveby=02:15"
+                ],
+                [
+                    "taxi-departure=christ s college\ttaxi-arriveby=14:15"
+                ],
+                [
+                    "None"
+                ],
+                [
+                    "None"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "taxi-destination": "christ s college",
+                    "taxi-departure": "city stop",
+                    "taxi-arriveby": "02:15"
+                },
+                {
+                    "taxi-destination": "christ s college",
+                    "taxi-departure": "christ s college",
+                    "taxi-arriveby": "14:15"
+                },
+                {
+                    "taxi-destination": "christ s college",
+                    "taxi-departure": "christ s college",
+                    "taxi-arriveby": "14:15"
+                },
+                {
+                    "taxi-destination": "christ s college",
+                    "taxi-departure": "christ s college",
+                    "taxi-arriveby": "14:15"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "taxi-destination=avalon to de luca cucina and bar\ttaxi-departure=avalon to de luca cucina and bar"
+                ],
+                [
+                    "taxi-departure=de luca cucina and bar"
+                ],
+                [
+                    "None"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "taxi-destination": "avalon to de luca cucina and bar",
+                    "taxi-departure": "avalon to de luca cucina and bar"
+                },
+                {
+                    "taxi-destination": "avalon to de luca cucina and bar",
+                    "taxi-departure": "de luca cucina and bar"
+                },
+                {
+                    "taxi-destination": "avalon to de luca cucina and bar",
+                    "taxi-departure": "de luca cucina and bar"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "taxi-departure=pizza hut city centre"
+                ],
+                [
+                    "taxi-departure=gonville hotel"
+                ],
+                [
+                    "None"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "taxi-departure": "pizza hut city centre"
+                },
+                {
+                    "taxi-departure": "gonville hotel"
+                },
+                {
+                    "taxi-departure": "gonville hotel"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "taxi-departure=gandhi"
+                ],
+                [
+                    "taxi-departure=broxbourne"
+                ],
+                [
+                    "None"
+                ],
+                [
+                    "None"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "taxi-departure": "gandhi"
+                },
+                {
+                    "taxi-departure": "broxbourne"
+                },
+                {
+                    "taxi-departure": "broxbourne"
+                },
+                {
+                    "taxi-departure": "broxbourne"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "taxi-destination=scott polar museum\ttaxi-departure=abbey museum and astroturf pitch\ttaxi-arriveby=02:15"
+                ],
+                [
+                    "None"
+                ],
+                [
+                    "None"
+                ],
+                [
+                    "None"
+                ],
+                [
+                    "None"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "taxi-destination": "scott polar museum",
+                    "taxi-departure": "abbey museum and astroturf pitch",
+                    "taxi-arriveby": "02:15"
+                },
+                {
+                    "taxi-destination": "scott polar museum",
+                    "taxi-departure": "abbey museum and astroturf pitch",
+                    "taxi-arriveby": "02:15"
+                },
+                {
+                    "taxi-destination": "scott polar museum",
+                    "taxi-departure": "abbey museum and astroturf pitch",
+                    "taxi-arriveby": "02:15"
+                },
+                {
+                    "taxi-destination": "scott polar museum",
+                    "taxi-departure": "abbey museum and astroturf pitch",
+                    "taxi-arriveby": "02:15"
+                },
+                {
+                    "taxi-destination": "scott polar museum",
+                    "taxi-departure": "abbey museum and astroturf pitch",
+                    "taxi-arriveby": "02:15"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "taxi-destination=arbury lodge guesthouse\ttaxi-departure=11:00"
+                ],
+                [
+                    "taxi-departure=gardengardenia"
+                ],
+                [
+                    "None"
+                ],
+                [
+                    "None"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "taxi-destination": "arbury lodge guesthouse",
+                    "taxi-departure": "11:00"
+                },
+                {
+                    "taxi-destination": "arbury lodge guesthouse",
+                    "taxi-departure": "gardengardenia"
+                },
+                {
+                    "taxi-destination": "arbury lodge guesthouse",
+                    "taxi-departure": "gardengardenia"
+                },
+                {
+                    "taxi-destination": "arbury lodge guesthouse",
+                    "taxi-departure": "gardengardenia"
+                }
+            ]
+        }
+    ]
+}

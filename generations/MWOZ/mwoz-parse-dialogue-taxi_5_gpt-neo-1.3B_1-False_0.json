@@ -1,0 +1,1747 @@
+{
+    "score": {
+        "BLEU": 26.76,
+        "B4": 13.168706105586583,
+        "F1": 70.64443575350812,
+        "RL": 68.81431652389328,
+        "JGA": 2.127659574468085,
+        "SLOT_ACC": 22.821576763485478,
+        "ppl": 6.8618943431625805
+    },
+    "generation": [
+        {
+            "meta": [
+                [
+                    "taxi-departure=saint john s college\ttaxi-arriveby=18:00"
+                ],
+                [
+                    "taxi-leaveat=17:15\ttaxi-arriveby=17:15"
+                ],
+                [
+                    "None"
+                ],
+                [
+                    "None"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "taxi-departure": "saint john s college",
+                    "taxi-arriveby": "18:00"
+                },
+                {
+                    "taxi-departure": "saint john s college",
+                    "taxi-arriveby": "17:15",
+                    "taxi-leaveat": "17:15"
+                },
+                {
+                    "taxi-departure": "saint john s college",
+                    "taxi-arriveby": "17:15",
+                    "taxi-leaveat": "17:15"
+                },
+                {
+                    "taxi-departure": "saint john s college",
+                    "taxi-arriveby": "17:15",
+                    "taxi-leaveat": "17:15"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "taxi-arriveby=09:00"
+                ],
+                [
+                    "taxi-departure=wagamama\ttaxi-arriveby=09:00"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "taxi-arriveby": "09:00"
+                },
+                {
+                    "taxi-arriveby": "09:00",
+                    "taxi-departure": "wagamama"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "taxi-departure=regency gallery\ttaxi-arriveby=18:00\ttaxi-arriveby=18:00\ttaxi-arriveby=18:00\ttaxi-arriveby="
+                ],
+                [
+                    "taxi-arriveby=20:00\ttaxi-arriveby=20:00\ttaxi-arriveby=20:00\ttaxi-arriveby=20:00\ttaxi-arriveby="
+                ],
+                [
+                    "None"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "taxi-departure": "regency gallery",
+                    "taxi-arriveby": ""
+                },
+                {
+                    "taxi-departure": "regency gallery",
+                    "taxi-arriveby": ""
+                },
+                {
+                    "taxi-departure": "regency gallery",
+                    "taxi-arriveby": ""
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "taxi-departure=ian hong house\ttaxi-arriveby=14:45"
+                ],
+                [
+                    "taxi-departure=leicester train station\ttaxi-arriveby=14:45"
+                ],
+                [
+                    "None"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "taxi-departure": "ian hong house",
+                    "taxi-arriveby": "14:45"
+                },
+                {
+                    "taxi-departure": "leicester train station",
+                    "taxi-arriveby": "14:45"
+                },
+                {
+                    "taxi-departure": "leicester train station",
+                    "taxi-arriveby": "14:45"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "taxi-departure=pipasha restaurant\ttaxi-arriveby=01:45"
+                ],
+                [
+                    "None"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "taxi-departure": "pipasha restaurant",
+                    "taxi-arriveby": "01:45"
+                },
+                {
+                    "taxi-departure": "pipasha restaurant",
+                    "taxi-arriveby": "01:45"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "taxi-arriveby=yu garden"
+                ],
+                [
+                    "None"
+                ],
+                [
+                    "None"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "taxi-arriveby": "yu garden"
+                },
+                {
+                    "taxi-arriveby": "yu garden"
+                },
+                {
+                    "taxi-arriveby": "yu garden"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "taxi-departure=michaelhouse cafe\ttaxi-arriveby=12:45"
+                ],
+                [
+                    "None"
+                ],
+                [
+                    "None"
+                ],
+                [
+                    "None"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "taxi-departure": "michaelhouse cafe",
+                    "taxi-arriveby": "12:45"
+                },
+                {
+                    "taxi-departure": "michaelhouse cafe",
+                    "taxi-arriveby": "12:45"
+                },
+                {
+                    "taxi-departure": "michaelhouse cafe",
+                    "taxi-arriveby": "12:45"
+                },
+                {
+                    "taxi-departure": "michaelhouse cafe",
+                    "taxi-arriveby": "12:45"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "taxi-departure=gonville hotel"
+                ],
+                [
+                    "taxi-arriveby=15:45"
+                ],
+                [
+                    "None"
+                ],
+                [
+                    "None"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "taxi-departure": "gonville hotel"
+                },
+                {
+                    "taxi-departure": "gonville hotel",
+                    "taxi-arriveby": "15:45"
+                },
+                {
+                    "taxi-departure": "gonville hotel",
+                    "taxi-arriveby": "15:45"
+                },
+                {
+                    "taxi-departure": "gonville hotel",
+                    "taxi-arriveby": "15:45"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "taxi-arriveby=dojo noodle bar"
+                ],
+                [
+                    "taxi-departure=dojo noodle bar"
+                ],
+                [
+                    "taxi-arriveby=rosas bed and breakfast"
+                ],
+                [
+                    "None"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "taxi-arriveby": "dojo noodle bar"
+                },
+                {
+                    "taxi-arriveby": "dojo noodle bar",
+                    "taxi-departure": "dojo noodle bar"
+                },
+                {
+                    "taxi-arriveby": "rosas bed and breakfast",
+                    "taxi-departure": "dojo noodle bar"
+                },
+                {
+                    "taxi-arriveby": "rosas bed and breakfast",
+                    "taxi-departure": "dojo noodle bar"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "taxi-arriveby=nandos"
+                ],
+                [
+                    "None"
+                ],
+                [
+                    "taxi-arriveby=09:45\ttaxi-departure=riverboat georgina"
+                ],
+                [
+                    "None"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "taxi-arriveby": "nandos"
+                },
+                {
+                    "taxi-arriveby": "nandos"
+                },
+                {
+                    "taxi-arriveby": "09:45",
+                    "taxi-departure": "riverboat georgina"
+                },
+                {
+                    "taxi-arriveby": "09:45",
+                    "taxi-departure": "riverboat georgina"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "taxi-arriveby=20:00"
+                ],
+                [
+                    "None"
+                ],
+                [
+                    "taxi-departure=clare college"
+                ],
+                [
+                    "None"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "taxi-arriveby": "20:00"
+                },
+                {
+                    "taxi-arriveby": "20:00"
+                },
+                {
+                    "taxi-arriveby": "20:00",
+                    "taxi-departure": "clare college"
+                },
+                {
+                    "taxi-arriveby": "20:00",
+                    "taxi-departure": "clare college"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "taxi-arriveby=22:45\ttaxi-departure=zizzi cambridge"
+                ],
+                [
+                    "None"
+                ],
+                [
+                    "None"
+                ],
+                [
+                    "None"
+                ],
+                [
+                    "None"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "taxi-arriveby": "22:45",
+                    "taxi-departure": "zizzi cambridge"
+                },
+                {
+                    "taxi-arriveby": "22:45",
+                    "taxi-departure": "zizzi cambridge"
+                },
+                {
+                    "taxi-arriveby": "22:45",
+                    "taxi-departure": "zizzi cambridge"
+                },
+                {
+                    "taxi-arriveby": "22:45",
+                    "taxi-departure": "zizzi cambridge"
+                },
+                {
+                    "taxi-arriveby": "22:45",
+                    "taxi-departure": "zizzi cambridge"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "taxi-departure=mahal of cambridge"
+                ],
+                [
+                    "None"
+                ],
+                [
+                    "taxi-departure=jesus green outdoor pool\ttaxi-arriveby=02:30"
+                ],
+                [
+                    "None"
+                ],
+                [
+                    "None"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "taxi-departure": "mahal of cambridge"
+                },
+                {
+                    "taxi-departure": "mahal of cambridge"
+                },
+                {
+                    "taxi-departure": "jesus green outdoor pool",
+                    "taxi-arriveby": "02:30"
+                },
+                {
+                    "taxi-departure": "jesus green outdoor pool",
+                    "taxi-arriveby": "02:30"
+                },
+                {
+                    "taxi-departure": "jesus green outdoor pool",
+                    "taxi-arriveby": "02:30"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "taxi-arriveby=what i believe is a restaurant"
+                ],
+                [
+                    "None"
+                ],
+                [
+                    "taxi-arriveby=16:45\ttaxi-departure=oak bistro and will depart from sheep s green and lammas land park fen causeway"
+                ],
+                [
+                    "None"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "taxi-arriveby": "what i believe is a restaurant"
+                },
+                {
+                    "taxi-arriveby": "what i believe is a restaurant"
+                },
+                {
+                    "taxi-arriveby": "16:45",
+                    "taxi-departure": "oak bistro and will depart from sheep s green and lammas land park fen causeway"
+                },
+                {
+                    "taxi-arriveby": "16:45",
+                    "taxi-departure": "oak bistro and will depart from sheep s green and lammas land park fen causeway"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "taxi-departure=cambridge museum of technology\ttaxi-arriveby=18:00"
+                ],
+                [
+                    "None"
+                ],
+                [
+                    "taxi-arriveby=13:45\ttaxi-departure=rice boat"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "taxi-departure": "cambridge museum of technology",
+                    "taxi-arriveby": "18:00"
+                },
+                {
+                    "taxi-departure": "cambridge museum of technology",
+                    "taxi-arriveby": "18:00"
+                },
+                {
+                    "taxi-departure": "rice boat",
+                    "taxi-arriveby": "13:45"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "taxi-departure=saffron brasserie"
+                ],
+                [
+                    "taxi-arriveby=lovell lodge"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "taxi-departure": "saffron brasserie"
+                },
+                {
+                    "taxi-departure": "saffron brasserie",
+                    "taxi-arriveby": "lovell lodge"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "taxi-departure=golden wok"
+                ],
+                [
+                    "taxi-arriveby=17:30"
+                ],
+                [
+                    "taxi-departure=holy trinity church"
+                ],
+                [
+                    "None"
+                ],
+                [
+                    "None"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "taxi-departure": "golden wok"
+                },
+                {
+                    "taxi-departure": "golden wok",
+                    "taxi-arriveby": "17:30"
+                },
+                {
+                    "taxi-departure": "holy trinity church",
+                    "taxi-arriveby": "17:30"
+                },
+                {
+                    "taxi-departure": "holy trinity church",
+                    "taxi-arriveby": "17:30"
+                },
+                {
+                    "taxi-departure": "holy trinity church",
+                    "taxi-arriveby": "17:30"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "taxi-departure=jesus college"
+                ],
+                [
+                    "taxi-arriveby=12:45"
+                ],
+                [
+                    "taxi-departure=camgridge and county folk museum"
+                ],
+                [
+                    "taxi-arriveby=trinity college"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "taxi-departure": "jesus college"
+                },
+                {
+                    "taxi-departure": "jesus college",
+                    "taxi-arriveby": "12:45"
+                },
+                {
+                    "taxi-departure": "camgridge and county folk museum",
+                    "taxi-arriveby": "12:45"
+                },
+                {
+                    "taxi-departure": "camgridge and county folk museum",
+                    "taxi-arriveby": "trinity college"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "taxi-departure=missing sock\ttaxi-arriveby=08:30"
+                ],
+                [
+                    "None"
+                ],
+                [
+                    "None"
+                ],
+                [
+                    "None"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "taxi-departure": "missing sock",
+                    "taxi-arriveby": "08:30"
+                },
+                {
+                    "taxi-departure": "missing sock",
+                    "taxi-arriveby": "08:30"
+                },
+                {
+                    "taxi-departure": "missing sock",
+                    "taxi-arriveby": "08:30"
+                },
+                {
+                    "taxi-departure": "missing sock",
+                    "taxi-arriveby": "08:30"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "taxi-departure=hobsons house"
+                ],
+                [
+                    "taxi-arriveby=17:45"
+                ],
+                [
+                    "None"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "taxi-departure": "hobsons house"
+                },
+                {
+                    "taxi-departure": "hobsons house",
+                    "taxi-arriveby": "17:45"
+                },
+                {
+                    "taxi-departure": "hobsons house",
+                    "taxi-arriveby": "17:45"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "taxi-departure=ruskin gallery"
+                ],
+                [
+                    "None"
+                ],
+                [
+                    "None"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "taxi-departure": "ruskin gallery"
+                },
+                {
+                    "taxi-departure": "ruskin gallery"
+                },
+                {
+                    "taxi-departure": "ruskin gallery"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "taxi-departure=funky fun house\ttaxi-arriveby=18:00"
+                ],
+                [
+                    "None"
+                ],
+                [
+                    "None"
+                ],
+                [
+                    "None"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "taxi-departure": "funky fun house",
+                    "taxi-arriveby": "18:00"
+                },
+                {
+                    "taxi-departure": "funky fun house",
+                    "taxi-arriveby": "18:00"
+                },
+                {
+                    "taxi-departure": "funky fun house",
+                    "taxi-arriveby": "18:00"
+                },
+                {
+                    "taxi-departure": "funky fun house",
+                    "taxi-arriveby": "18:00"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "taxi-departure=cambridge punte"
+                ],
+                [
+                    "taxi-arriveby=17:30\ttaxi-departure=cambridge punte"
+                ],
+                [
+                    "None"
+                ],
+                [
+                    "None"
+                ],
+                [
+                    "None"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "taxi-departure": "cambridge punte"
+                },
+                {
+                    "taxi-departure": "cambridge punte",
+                    "taxi-arriveby": "17:30"
+                },
+                {
+                    "taxi-departure": "cambridge punte",
+                    "taxi-arriveby": "17:30"
+                },
+                {
+                    "taxi-departure": "cambridge punte",
+                    "taxi-arriveby": "17:30"
+                },
+                {
+                    "taxi-departure": "cambridge punte",
+                    "taxi-arriveby": "17:30"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "taxi-arriveby=05:30"
+                ],
+                [
+                    "taxi-departure=don pasquale pizzeria"
+                ],
+                [
+                    "None"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "taxi-arriveby": "05:30"
+                },
+                {
+                    "taxi-arriveby": "05:30",
+                    "taxi-departure": "don pasquale pizzeria"
+                },
+                {
+                    "taxi-arriveby": "05:30",
+                    "taxi-departure": "don pasquale pizzeria"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "taxi-arriveby=11:00\ttaxi-departure=little saint mary s church"
+                ],
+                [
+                    "taxi-arriveby=avalon"
+                ],
+                [
+                    "None"
+                ],
+                [
+                    "None"
+                ],
+                [
+                    "None"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "taxi-arriveby": "11:00",
+                    "taxi-departure": "little saint mary s church"
+                },
+                {
+                    "taxi-arriveby": "avalon",
+                    "taxi-departure": "little saint mary s church"
+                },
+                {
+                    "taxi-arriveby": "avalon",
+                    "taxi-departure": "little saint mary s church"
+                },
+                {
+                    "taxi-arriveby": "avalon",
+                    "taxi-departure": "little saint mary s church"
+                },
+                {
+                    "taxi-arriveby": "avalon",
+                    "taxi-departure": "little saint mary s church"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "taxi-arriveby=tandoori palace"
+                ],
+                [
+                    "taxi-departure=tandoori palace"
+                ],
+                [
+                    "None"
+                ],
+                [
+                    "None"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "taxi-arriveby": "tandoori palace"
+                },
+                {
+                    "taxi-arriveby": "tandoori palace",
+                    "taxi-departure": "tandoori palace"
+                },
+                {
+                    "taxi-arriveby": "tandoori palace",
+                    "taxi-departure": "tandoori palace"
+                },
+                {
+                    "taxi-arriveby": "tandoori palace",
+                    "taxi-departure": "tandoori palace"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "taxi-departure=royal standard"
+                ],
+                [
+                    "taxi-arriveby=03:30\ttaxi-departure=royal standard"
+                ],
+                [
+                    "None"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "taxi-departure": "royal standard"
+                },
+                {
+                    "taxi-departure": "royal standard",
+                    "taxi-arriveby": "03:30"
+                },
+                {
+                    "taxi-departure": "royal standard",
+                    "taxi-arriveby": "03:30"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "taxi-arriveby=13:45\ttaxi-departure=royal spice"
+                ],
+                [
+                    "taxi-arriveby=kirkwood house"
+                ],
+                [
+                    "None"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "taxi-arriveby": "13:45",
+                    "taxi-departure": "royal spice"
+                },
+                {
+                    "taxi-arriveby": "kirkwood house",
+                    "taxi-departure": "royal spice"
+                },
+                {
+                    "taxi-arriveby": "kirkwood house",
+                    "taxi-departure": "royal spice"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "taxi-arriveby=09:30\ttaxi-departure=cambridge arts theatre"
+                ],
+                [
+                    "taxi-arriveby=17:00\ttaxi-departure=restaurant 17"
+                ],
+                [
+                    "None"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "taxi-arriveby": "09:30",
+                    "taxi-departure": "cambridge arts theatre"
+                },
+                {
+                    "taxi-arriveby": "17:00",
+                    "taxi-departure": "restaurant 17"
+                },
+                {
+                    "taxi-arriveby": "17:00",
+                    "taxi-departure": "restaurant 17"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "taxi-departure=gourmet burger kitchen\ttaxi-arriveby=18:00"
+                ],
+                [
+                    "taxi-leaveat=02:15\ttaxi-arriveby=02:15"
+                ],
+                [
+                    "None"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "taxi-departure": "gourmet burger kitchen",
+                    "taxi-arriveby": "18:00"
+                },
+                {
+                    "taxi-departure": "gourmet burger kitchen",
+                    "taxi-arriveby": "02:15",
+                    "taxi-leaveat": "02:15"
+                },
+                {
+                    "taxi-departure": "gourmet burger kitchen",
+                    "taxi-arriveby": "02:15",
+                    "taxi-leaveat": "02:15"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "taxi-departure=grafton hotel restaurant"
+                ],
+                [
+                    "taxi-arriveby=16:45"
+                ],
+                [
+                    "taxi-arriveby=jinling noodle bar"
+                ],
+                [
+                    "None"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "taxi-departure": "grafton hotel restaurant"
+                },
+                {
+                    "taxi-departure": "grafton hotel restaurant",
+                    "taxi-arriveby": "16:45"
+                },
+                {
+                    "taxi-departure": "grafton hotel restaurant",
+                    "taxi-arriveby": "jinling noodle bar"
+                },
+                {
+                    "taxi-departure": "grafton hotel restaurant",
+                    "taxi-arriveby": "jinling noodle bar"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "taxi-arriveby=whale of a time"
+                ],
+                [
+                    "taxi-arriveby=13:00\ttaxi-departure=whale of a time"
+                ],
+                [
+                    "None"
+                ],
+                [
+                    "None"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "taxi-arriveby": "whale of a time"
+                },
+                {
+                    "taxi-arriveby": "13:00",
+                    "taxi-departure": "whale of a time"
+                },
+                {
+                    "taxi-arriveby": "13:00",
+                    "taxi-departure": "whale of a time"
+                },
+                {
+                    "taxi-arriveby": "13:00",
+                    "taxi-departure": "whale of a time"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "taxi-departure=parkside police station\ttaxi-arriveby=16:45"
+                ],
+                [
+                    "None"
+                ],
+                [
+                    "taxi-departure=stansted airport train station\ttaxi-arriveby=16:45"
+                ],
+                [
+                    "None"
+                ],
+                [
+                    "None"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "taxi-departure": "parkside police station",
+                    "taxi-arriveby": "16:45"
+                },
+                {
+                    "taxi-departure": "parkside police station",
+                    "taxi-arriveby": "16:45"
+                },
+                {
+                    "taxi-departure": "stansted airport train station",
+                    "taxi-arriveby": "16:45"
+                },
+                {
+                    "taxi-departure": "stansted airport train station",
+                    "taxi-arriveby": "16:45"
+                },
+                {
+                    "taxi-departure": "stansted airport train station",
+                    "taxi-arriveby": "16:45"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "taxi-departure=missing sock"
+                ],
+                [
+                    "taxi-arriveby=lucky star"
+                ],
+                [
+                    "None"
+                ],
+                [
+                    "None"
+                ],
+                [
+                    "None"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "taxi-departure": "missing sock"
+                },
+                {
+                    "taxi-departure": "missing sock",
+                    "taxi-arriveby": "lucky star"
+                },
+                {
+                    "taxi-departure": "missing sock",
+                    "taxi-arriveby": "lucky star"
+                },
+                {
+                    "taxi-departure": "missing sock",
+                    "taxi-arriveby": "lucky star"
+                },
+                {
+                    "taxi-departure": "missing sock",
+                    "taxi-arriveby": "lucky star"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "taxi-departure=hughes hall"
+                ],
+                [
+                    "taxi-arriveby=15:15"
+                ],
+                [
+                    "taxi-departure=arbury lodge guesthouse"
+                ],
+                [
+                    "None"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "taxi-departure": "hughes hall"
+                },
+                {
+                    "taxi-departure": "hughes hall",
+                    "taxi-arriveby": "15:15"
+                },
+                {
+                    "taxi-departure": "arbury lodge guesthouse",
+                    "taxi-arriveby": "15:15"
+                },
+                {
+                    "taxi-departure": "arbury lodge guesthouse",
+                    "taxi-arriveby": "15:15"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "taxi-arriveby=07:00\ttaxi-departure=cafe jello gallery"
+                ],
+                [
+                    "taxi-arriveby=12:30\ttaxi-departure=cafe jello gallery"
+                ],
+                [
+                    "taxi-arriveby=12:30\ttaxi-departure=cafe jello gallery"
+                ],
+                [
+                    "None"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "taxi-arriveby": "07:00",
+                    "taxi-departure": "cafe jello gallery"
+                },
+                {
+                    "taxi-arriveby": "12:30",
+                    "taxi-departure": "cafe jello gallery"
+                },
+                {
+                    "taxi-arriveby": "12:30",
+                    "taxi-departure": "cafe jello gallery"
+                },
+                {
+                    "taxi-arriveby": "12:30",
+                    "taxi-departure": "cafe jello gallery"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "taxi-arriveby=9:45"
+                ],
+                [
+                    "None"
+                ],
+                [
+                    "None"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "taxi-arriveby": "9:45"
+                },
+                {
+                    "taxi-arriveby": "9:45"
+                },
+                {
+                    "taxi-arriveby": "9:45"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "taxi-arriveby=02:00"
+                ],
+                [
+                    "taxi-departure=pizza express fen ditton"
+                ],
+                [
+                    "taxi-arriveby=12:45\ttaxi-departure=sidney sussex college"
+                ],
+                [
+                    "None"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "taxi-arriveby": "02:00"
+                },
+                {
+                    "taxi-arriveby": "02:00",
+                    "taxi-departure": "pizza express fen ditton"
+                },
+                {
+                    "taxi-arriveby": "12:45",
+                    "taxi-departure": "sidney sussex college"
+                },
+                {
+                    "taxi-arriveby": "12:45",
+                    "taxi-departure": "sidney sussex college"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "taxi-departure=la raza"
+                ],
+                [
+                    "taxi-arriveby=11:45"
+                ],
+                [
+                    "taxi-arriveby=17"
+                ],
+                [
+                    "None"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "taxi-departure": "la raza"
+                },
+                {
+                    "taxi-departure": "la raza",
+                    "taxi-arriveby": "11:45"
+                },
+                {
+                    "taxi-departure": "la raza",
+                    "taxi-arriveby": "17"
+                },
+                {
+                    "taxi-departure": "la raza",
+                    "taxi-arriveby": "17"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "taxi-departure=meghna"
+                ],
+                [
+                    "taxi-arriveby=7:15 p. m."
+                ],
+                [
+                    "None"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "taxi-departure": "meghna"
+                },
+                {
+                    "taxi-departure": "meghna",
+                    "taxi-arriveby": "7:15 p. m."
+                },
+                {
+                    "taxi-departure": "meghna",
+                    "taxi-arriveby": "7:15 p. m."
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "taxi-arriveby=02:00"
+                ],
+                [
+                    "taxi-departure=riverside brasserie"
+                ],
+                [
+                    "None"
+                ],
+                [
+                    "None"
+                ],
+                [
+                    "None"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "taxi-arriveby": "02:00"
+                },
+                {
+                    "taxi-arriveby": "02:00",
+                    "taxi-departure": "riverside brasserie"
+                },
+                {
+                    "taxi-arriveby": "02:00",
+                    "taxi-departure": "riverside brasserie"
+                },
+                {
+                    "taxi-arriveby": "02:00",
+                    "taxi-departure": "riverside brasserie"
+                },
+                {
+                    "taxi-arriveby": "02:00",
+                    "taxi-departure": "riverside brasserie"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "taxi-departure=golden house\ttaxi-arriveby=12:15"
+                ],
+                [
+                    "taxi-destination=soul tree nightclub"
+                ],
+                [
+                    "None"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "taxi-departure": "golden house",
+                    "taxi-arriveby": "12:15"
+                },
+                {
+                    "taxi-departure": "golden house",
+                    "taxi-arriveby": "12:15",
+                    "taxi-destination": "soul tree nightclub"
+                },
+                {
+                    "taxi-departure": "golden house",
+                    "taxi-arriveby": "12:15",
+                    "taxi-destination": "soul tree nightclub"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "taxi-arriveby=02:00"
+                ],
+                [
+                    "taxi-departure=2 two by 5:15"
+                ],
+                [
+                    "taxi-departure=williams art and antiques"
+                ],
+                [
+                    "None"
+                ],
+                [
+                    "None"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "taxi-arriveby": "02:00"
+                },
+                {
+                    "taxi-arriveby": "02:00",
+                    "taxi-departure": "2 two by 5:15"
+                },
+                {
+                    "taxi-arriveby": "02:00",
+                    "taxi-departure": "williams art and antiques"
+                },
+                {
+                    "taxi-arriveby": "02:00",
+                    "taxi-departure": "williams art and antiques"
+                },
+                {
+                    "taxi-arriveby": "02:00",
+                    "taxi-departure": "williams art and antiques"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "taxi-arriveby=a and b guest house\ttaxi-departure=saint catherine s college"
+                ],
+                [
+                    "taxi-arriveby=06:00\ttaxi-departure=saint catherine s college"
+                ],
+                [
+                    "None"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "taxi-arriveby": "a and b guest house",
+                    "taxi-departure": "saint catherine s college"
+                },
+                {
+                    "taxi-arriveby": "06:00",
+                    "taxi-departure": "saint catherine s college"
+                },
+                {
+                    "taxi-arriveby": "06:00",
+                    "taxi-departure": "saint catherine s college"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "taxi-departure=ashley hotel\ttaxi-arriveby=10:45"
+                ],
+                [
+                    "taxi-departure=restaurant 2 two"
+                ],
+                [
+                    "None"
+                ],
+                [
+                    "None"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "taxi-departure": "ashley hotel",
+                    "taxi-arriveby": "10:45"
+                },
+                {
+                    "taxi-departure": "restaurant 2 two",
+                    "taxi-arriveby": "10:45"
+                },
+                {
+                    "taxi-departure": "restaurant 2 two",
+                    "taxi-arriveby": "10:45"
+                },
+                {
+                    "taxi-departure": "restaurant 2 two",
+                    "taxi-arriveby": "10:45"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "taxi-arriveby=16:15"
+                ],
+                [
+                    "taxi-departure=parkside pools"
+                ],
+                [
+                    "None"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "taxi-arriveby": "16:15"
+                },
+                {
+                    "taxi-arriveby": "16:15",
+                    "taxi-departure": "parkside pools"
+                },
+                {
+                    "taxi-arriveby": "16:15",
+                    "taxi-departure": "parkside pools"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "taxi-departure=christ s college\ttaxi-arriveby=18:00\ttaxi-arriveby=18:00\ttaxi-arriveby=18:00\ttaxi-arriveby="
+                ],
+                [
+                    "None"
+                ],
+                [
+                    "None"
+                ],
+                [
+                    "None"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "taxi-departure": "christ s college",
+                    "taxi-arriveby": ""
+                },
+                {
+                    "taxi-departure": "christ s college",
+                    "taxi-arriveby": ""
+                },
+                {
+                    "taxi-departure": "christ s college",
+                    "taxi-arriveby": ""
+                },
+                {
+                    "taxi-departure": "christ s college",
+                    "taxi-arriveby": ""
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "taxi-departure=avalon to de luca cucina\ttaxi-arriveby=18:00"
+                ],
+                [
+                    "taxi-arriveby=07:30\ttaxi-departure=de luca cucina"
+                ],
+                [
+                    "None"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "taxi-departure": "avalon to de luca cucina",
+                    "taxi-arriveby": "18:00"
+                },
+                {
+                    "taxi-departure": "de luca cucina",
+                    "taxi-arriveby": "07:30"
+                },
+                {
+                    "taxi-departure": "de luca cucina",
+                    "taxi-arriveby": "07:30"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "taxi-departure=pizza hut city centre"
+                ],
+                [
+                    "taxi-departure=gonville hotel"
+                ],
+                [
+                    "None"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "taxi-departure": "pizza hut city centre"
+                },
+                {
+                    "taxi-departure": "gonville hotel"
+                },
+                {
+                    "taxi-departure": "gonville hotel"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "taxi-departure=gandhi"
+                ],
+                [
+                    "taxi-arriveby=02:00"
+                ],
+                [
+                    "None"
+                ],
+                [
+                    "None"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "taxi-departure": "gandhi"
+                },
+                {
+                    "taxi-departure": "gandhi",
+                    "taxi-arriveby": "02:00"
+                },
+                {
+                    "taxi-departure": "gandhi",
+                    "taxi-arriveby": "02:00"
+                },
+                {
+                    "taxi-departure": "gandhi",
+                    "taxi-arriveby": "02:00"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "taxi-arriveby=scott polar museum"
+                ],
+                [
+                    "None"
+                ],
+                [
+                    "None"
+                ],
+                [
+                    "None"
+                ],
+                [
+                    "None"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "taxi-arriveby": "scott polar museum"
+                },
+                {
+                    "taxi-arriveby": "scott polar museum"
+                },
+                {
+                    "taxi-arriveby": "scott polar museum"
+                },
+                {
+                    "taxi-arriveby": "scott polar museum"
+                },
+                {
+                    "taxi-arriveby": "scott polar museum"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "taxi-arriveby=11:00\ttaxi-departure=arbury lodge guesthouse"
+                ],
+                [
+                    "None"
+                ],
+                [
+                    "None"
+                ],
+                [
+                    "None"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "taxi-arriveby": "11:00",
+                    "taxi-departure": "arbury lodge guesthouse"
+                },
+                {
+                    "taxi-arriveby": "11:00",
+                    "taxi-departure": "arbury lodge guesthouse"
+                },
+                {
+                    "taxi-arriveby": "11:00",
+                    "taxi-departure": "arbury lodge guesthouse"
+                },
+                {
+                    "taxi-arriveby": "11:00",
+                    "taxi-departure": "arbury lodge guesthouse"
+                }
+            ]
+        }
+    ]
+}

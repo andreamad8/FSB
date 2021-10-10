@@ -1,0 +1,3617 @@
+[
+    {
+        "meta": [],
+        "dialogue": [
+            [
+                "remind me to take my pills",
+                "what time do you need to take your pills ?"
+            ],
+            [
+                "i need to take my pills at 7pm",
+                "ok setting your medicine appointment for 7pm"
+            ]
+        ],
+        "domain": "schedule",
+        "gold_ent": [
+            [],
+            [
+                "7pm"
+            ]
+        ]
+    },
+    {
+        "meta": [],
+        "dialogue": [
+            [
+                "set reminder for dinner at 11am with mom on friday",
+                "okay , scheduling friday dinner with mom at 11am"
+            ],
+            [
+                "thank you , we are done for now",
+                "you are welcome"
+            ]
+        ],
+        "domain": "schedule",
+        "gold_ent": [
+            [
+                "11am",
+                "friday",
+                "dinner"
+            ],
+            []
+        ]
+    },
+    {
+        "meta": [
+            "swimming_activity time 11am",
+            "swimming_activity date thursday",
+            "dinner time 5pm",
+            "dinner date monday",
+            "lab_appointment time 2pm",
+            "lab_appointment date wednesday",
+            "tennis_activity time 3pm",
+            "tennis_activity date monday",
+            "football_activity time 3pm",
+            "football_activity date tuesday",
+            "dentist time 3pm",
+            "dentist date monday"
+        ],
+        "dialogue": [
+            [
+                "what time is dinner tonight",
+                "your dinner is 5pm tonight"
+            ]
+        ],
+        "domain": "schedule",
+        "gold_ent": [
+            [
+                "5pm",
+                "dinner"
+            ]
+        ]
+    },
+    {
+        "meta": [],
+        "dialogue": [
+            [
+                "i need a reminder for dinner",
+                "what time shall i set a dinner reminder ?"
+            ],
+            [
+                "set my reminder for dinner at 7pm , for the_6th of this month with my beloved marie",
+                "i will set a reminder for dinner at 7pm , for the_6th of this month with marie"
+            ],
+            [
+                "thanks",
+                "you are welcome"
+            ]
+        ],
+        "domain": "schedule",
+        "gold_ent": [
+            [
+                "dinner"
+            ],
+            [
+                "the_6th",
+                "dinner",
+                "marie",
+                "7pm"
+            ],
+            []
+        ]
+    },
+    {
+        "meta": [],
+        "dialogue": [
+            [
+                "set me a reminder for football_activity at 1pm , this month on the_11th , with marie",
+                "reminder for football on the_11th of this month at 1pm with marie is set"
+            ],
+            [
+                "thanks buddy",
+                "anytime"
+            ]
+        ],
+        "domain": "schedule",
+        "gold_ent": [
+            [
+                "the_11th",
+                "1pm",
+                "football",
+                "marie"
+            ],
+            []
+        ]
+    },
+    {
+        "meta": [],
+        "dialogue": [
+            [
+                "set an appointment for swimming",
+                "what time would like me to set the appointment ?"
+            ],
+            [
+                "at 3pm on saturday please",
+                "okay i set your appointment for 3pm on saturday have a good time !"
+            ]
+        ],
+        "domain": "schedule",
+        "gold_ent": [
+            [],
+            [
+                "saturday",
+                "3pm"
+            ]
+        ]
+    },
+    {
+        "meta": [],
+        "dialogue": [
+            [
+                "schedule conference with sales_team on the_11th of this month 9am",
+                "okay , scheduling a conference with the sales_team at 9am on the_11th of this month"
+            ],
+            [
+                "thanks",
+                "you are welcome"
+            ]
+        ],
+        "domain": "schedule",
+        "gold_ent": [
+            [
+                "the_11th",
+                "sales_team",
+                "9am",
+                "conference"
+            ],
+            []
+        ]
+    },
+    {
+        "meta": [
+            "meeting time 2pm",
+            "meeting date the_3rd",
+            "meeting party management",
+            "meeting room 100_conference_room",
+            "meeting agenda discuss_the_company_picnic",
+            "dentist_appointment time 2pm",
+            "dentist_appointment date thursday",
+            "dentist_appointment party jon",
+            "doctor_appointment time 6pm",
+            "doctor_appointment date the_5th",
+            "doctor_appointment party alex",
+            "swimming_activity time 1pm",
+            "swimming_activity date the_13th",
+            "swimming_activity party sister",
+            "doctor_appointment time 7pm",
+            "doctor_appointment date wednesday",
+            "doctor_appointment party father",
+            "conference time 10am",
+            "conference date friday",
+            "conference party management",
+            "conference room conference_room_50",
+            "conference agenda discuss_the_merger",
+            "dentist_appointment time 2pm",
+            "dentist_appointment date sunday",
+            "dentist_appointment party alex",
+            "football_activity time 9am",
+            "football_activity date the_5th",
+            "football_activity party tom"
+        ],
+        "dialogue": [
+            [
+                "what time is my doctor apartment and who is it with ?",
+                "are you talking about the doctor_appointment on wednesday or the one on the_5th ?"
+            ],
+            [
+                "the one on wednesday",
+                "your doctor_appointment on wednesday is at 7pm with your father"
+            ],
+            [
+                "and how about the one on the_5th ?",
+                "your doctor_appointment on the_5th is at 6pm with alex"
+            ]
+        ],
+        "domain": "schedule",
+        "gold_ent": [
+            [
+                "wednesday",
+                "the_5th",
+                "doctor_appointment"
+            ],
+            [
+                "father",
+                "wednesday",
+                "7pm",
+                "doctor_appointment"
+            ],
+            [
+                "6pm",
+                "alex",
+                "the_5th",
+                "doctor_appointment"
+            ]
+        ]
+    },
+    {
+        "meta": [
+            "tennis_activity time 5pm",
+            "tennis_activity date the_4th",
+            "tennis_activity party sister",
+            "dinner time 7pm",
+            "dinner date sunday",
+            "dinner party aunt",
+            "optometrist_appointment time 2pm",
+            "optometrist_appointment date thursday",
+            "optometrist_appointment party sister",
+            "yoga_activity time 11am",
+            "yoga_activity date the_10th",
+            "yoga_activity party martha",
+            "doctor_appointment time 3pm",
+            "doctor_appointment date the_5th",
+            "doctor_appointment party tom",
+            "swimming_activity time 10am",
+            "swimming_activity date the_4th",
+            "swimming_activity party sister"
+        ],
+        "dialogue": [
+            [
+                "car , find the date and time for my tennis_activity",
+                "your tennis_activity is on the_4th at 5pm and your sister will be attending"
+            ],
+            [
+                "thanks",
+                "you are welcome"
+            ]
+        ],
+        "domain": "schedule",
+        "gold_ent": [
+            [
+                "5pm",
+                "tennis_activity",
+                "sister",
+                "the_4th"
+            ],
+            []
+        ]
+    },
+    {
+        "meta": [],
+        "dialogue": [
+            [
+                "schedule meeting",
+                "schedule a meeting for what time and day ?"
+            ],
+            [
+                "i need it for saturday at 1pm with sales_team to go_over_budget",
+                "setting meeting for saturday at 1pm with sales_team to go_over_budget"
+            ],
+            [
+                "okay nice , thank you",
+                "my pleasure"
+            ]
+        ],
+        "domain": "schedule",
+        "gold_ent": [
+            [
+                "meeting"
+            ],
+            [
+                "go_over_budget",
+                "1pm",
+                "sales_team",
+                "saturday",
+                "meeting"
+            ],
+            []
+        ]
+    },
+    {
+        "meta": [],
+        "dialogue": [
+            [
+                "make an appointment for the doctor on the_12th",
+                "at what time should i set the appointment ?"
+            ],
+            [
+                "set it at 7pm please",
+                "i have made an appointment for the doctor on the_12th at 7pm"
+            ],
+            [
+                "thank you",
+                "you are welcome"
+            ]
+        ],
+        "domain": "schedule",
+        "gold_ent": [
+            [],
+            [
+                "doctor",
+                "7pm",
+                "the_12th"
+            ],
+            []
+        ]
+    },
+    {
+        "meta": [],
+        "dialogue": [
+            [
+                "remind me about my yoga_activity with mother on the_15th of this month , it is at 3pm",
+                "okay , i will remind you of your yoga_activity with your mother scheduled on the_15th of this month"
+            ],
+            [
+                "schedule it for 3pm",
+                "setting reminder for yoga_activity with your mother on the_15th at 3pm"
+            ]
+        ],
+        "domain": "schedule",
+        "gold_ent": [
+            [
+                "mother",
+                "the_15th",
+                "yoga_activity"
+            ],
+            [
+                "mother",
+                "the_15th",
+                "yoga_activity",
+                "3pm"
+            ]
+        ]
+    },
+    {
+        "meta": [
+            "football_activity time 6pm",
+            "football_activity date the_9th",
+            "football_activity party brother",
+            "tennis_activity time 7pm",
+            "tennis_activity date the_11th",
+            "tennis_activity party jon",
+            "tennis_activity time 5pm",
+            "tennis_activity date the_4th",
+            "tennis_activity party mother",
+            "dinner time 6pm",
+            "dinner date the_17th",
+            "dinner party aunt",
+            "tennis_activity time 5pm",
+            "tennis_activity date the_13th",
+            "tennis_activity party tom",
+            "doctor_appointment time 7pm",
+            "doctor_appointment date the_17th",
+            "doctor_appointment party alex",
+            "conference time 6pm",
+            "conference date the_6th",
+            "conference party infrastructure_team",
+            "conference room conference_room_100",
+            "conference agenda go_over_quarterly_report",
+            "doctor_appointment time 3pm",
+            "doctor_appointment date thursday",
+            "doctor_appointment party aunt"
+        ],
+        "dialogue": [
+            [
+                "what time is my next tennis_activity and who will be attending ?",
+                "your next tennis_activity is on the_4th at 5pm with your mother"
+            ],
+            [
+                "thanks !",
+                "glad i can help"
+            ]
+        ],
+        "domain": "schedule",
+        "gold_ent": [
+            [
+                "5pm",
+                "tennis_activity",
+                "mother",
+                "the_4th"
+            ],
+            []
+        ]
+    },
+    {
+        "meta": [],
+        "dialogue": [
+            [
+                "schedule a swimming_activity on monday the_1st with my father at 4pm",
+                "i will promptly schedule a swimming_activity on monday the_1st with your father at 4pm"
+            ],
+            [
+                "thanks",
+                "you are welcome"
+            ]
+        ],
+        "domain": "schedule",
+        "gold_ent": [
+            [
+                "4pm",
+                "monday",
+                "swimming_activity",
+                "the_1st",
+                "father"
+            ],
+            []
+        ]
+    },
+    {
+        "meta": [
+            "doctor_appointment time 6pm",
+            "doctor_appointment date the_20th",
+            "doctor_appointment party mother",
+            "doctor_appointment time 3pm",
+            "doctor_appointment date the_15th",
+            "doctor_appointment party marie",
+            "taking_medicine time 2pm",
+            "taking_medicine date monday",
+            "taking_medicine party jeff",
+            "doctor_appointment time 11am",
+            "doctor_appointment date the_12th",
+            "doctor_appointment party ana",
+            "doctor_appointment time 6pm",
+            "doctor_appointment date wednesday",
+            "doctor_appointment party brother",
+            "tennis_activity time 6pm",
+            "tennis_activity date the_8th",
+            "tennis_activity party brother",
+            "meeting time 5pm",
+            "meeting date the_14th",
+            "meeting party management",
+            "meeting room conference_room_100",
+            "meeting agenda discuss_dress_code",
+            "lab_appointment time 9am",
+            "lab_appointment date sunday",
+            "lab_appointment party tom"
+        ],
+        "dialogue": [
+            [
+                "find out the parties joining me and date for my doctor_appointment",
+                "you have 4 doctor_appointment scheduled : marie on the_15th , your brother on wednesday , your mother on the_20th , and ana on the_12th"
+            ],
+            [
+                "cool , thanks",
+                "my pleasure , goodbye"
+            ]
+        ],
+        "domain": "schedule",
+        "gold_ent": [
+            [
+                "brother",
+                "marie",
+                "the_12th",
+                "wednesday",
+                "mother",
+                "the_15th",
+                "doctor_appointment",
+                "the_20th",
+                "ana"
+            ],
+            []
+        ]
+    },
+    {
+        "meta": [
+            "conference time 3pm",
+            "conference date thursday",
+            "conference party sales_team",
+            "conference room conference_room_100",
+            "conference agenda discuss_the_company_picnic",
+            "tennis_activity time 11am",
+            "tennis_activity date tuesday",
+            "dentist_appointment time 7pm",
+            "dentist_appointment date wednesday",
+            "meeting time 1pm",
+            "meeting date tuesday",
+            "meeting party hr",
+            "meeting room conference_room_100",
+            "meeting agenda discuss_the_company_picnic",
+            "doctor_appointment time 7pm",
+            "doctor_appointment date friday",
+            "lab_appointment time 11am",
+            "lab_appointment date tuesday"
+        ],
+        "dialogue": [
+            [
+                "when s my tennis match",
+                "your tennis match is tuesday at 11am"
+            ],
+            [
+                "okay great thank you",
+                "you are very welcome"
+            ]
+        ],
+        "domain": "schedule",
+        "gold_ent": [
+            [
+                "tennis",
+                "11am",
+                "tuesday"
+            ],
+            []
+        ]
+    },
+    {
+        "meta": [
+            "taking_medicine time 1pm",
+            "taking_medicine date saturday",
+            "taking_medicine party brother",
+            "swimming_activity time 2pm",
+            "swimming_activity date the_7th",
+            "swimming_activity party alex",
+            "dentist_appointment time 10am",
+            "dentist_appointment date the_1st",
+            "dentist_appointment party alex",
+            "dinner time 5pm",
+            "dinner date the_7th",
+            "dinner party brother",
+            "dentist_appointment time 7pm",
+            "dentist_appointment date the_8th",
+            "dentist_appointment party ana",
+            "yoga_activity time 1pm",
+            "yoga_activity date the_18th",
+            "yoga_activity party ana",
+            "conference time 2pm",
+            "conference date the_20th",
+            "conference party infrastructure_team",
+            "conference room conference_room_102",
+            "conference agenda discuss_the_merger",
+            "yoga_activity time 10am",
+            "yoga_activity date tuesday",
+            "yoga_activity party marie"
+        ],
+        "dialogue": [
+            [
+                "when is my dentist_appointment , the date and time ?",
+                "for which one ? i have two , one at 7pm the_8th and one at 10am the_1st"
+            ],
+            [
+                "that will do , thanks",
+                "you are welcome"
+            ]
+        ],
+        "domain": "schedule",
+        "gold_ent": [
+            [
+                "the_1st",
+                "the_8th",
+                "7pm",
+                "10am"
+            ],
+            []
+        ]
+    },
+    {
+        "meta": [
+            "dinner time 5pm",
+            "dinner date tuesday",
+            "football_activity time 11am",
+            "football_activity date friday",
+            "tennis_activity time 3pm",
+            "tennis_activity date friday",
+            "meeting time 7pm",
+            "meeting date tuesday",
+            "meeting party hr",
+            "meeting room 100_conference_room",
+            "meeting agenda discuss_the_merger",
+            "yoga_activity time 1pm",
+            "yoga_activity date monday",
+            "swimming_activity time 11am",
+            "swimming_activity date wednesday"
+        ],
+        "dialogue": [
+            [
+                "tell me all the events and meeting scheduled on my calendar for today",
+                "today you have a 7pm meeting with hr to discuss_the_merger"
+            ],
+            [
+                "thank you",
+                "you are welcome"
+            ]
+        ],
+        "domain": "schedule",
+        "gold_ent": [
+            [
+                "7pm",
+                "meeting",
+                "discuss_the_merger",
+                "hr",
+                "today"
+            ],
+            []
+        ]
+    },
+    {
+        "meta": [],
+        "dialogue": [
+            [
+                "schedule a conference with the vice_president on the_5th at 11am",
+                "conference scheduled for the_5th at 11am with the vice_president"
+            ],
+            [
+                "perfect",
+                "have a good day"
+            ]
+        ],
+        "domain": "schedule",
+        "gold_ent": [
+            [
+                "11am",
+                "vice_president",
+                "conference",
+                "the_5th"
+            ],
+            []
+        ]
+    },
+    {
+        "meta": [
+            "yoga_activity time 10am",
+            "yoga_activity date monday",
+            "lab_appointment time 11am",
+            "lab_appointment date thursday",
+            "dentist time 7pm",
+            "dentist date tuesday",
+            "dentist_appointment time 7pm",
+            "dentist_appointment date friday",
+            "conference time 3pm",
+            "conference date wednesday",
+            "conference party hr",
+            "conference room conference_room_50",
+            "conference agenda discuss_the_merger",
+            "swimming_activity time 1pm",
+            "swimming_activity date monday"
+        ],
+        "dialogue": [
+            [
+                "when is my dentist_appointment",
+                "you have a dentist_appointment on friday at 7pm"
+            ],
+            [
+                "thank you",
+                "you are welcome"
+            ]
+        ],
+        "domain": "schedule",
+        "gold_ent": [
+            [
+                "friday",
+                "7pm",
+                "dentist_appointment"
+            ],
+            []
+        ]
+    },
+    {
+        "meta": [],
+        "dialogue": [
+            [
+                "set reminder for doctor_appointment on the_12th at 4 : 50",
+                "ok i ve set a reminder for your doctor_appointment on the_12th at 4 : 50"
+            ]
+        ],
+        "domain": "schedule",
+        "gold_ent": [
+            [
+                "the_12th",
+                "doctor_appointment"
+            ]
+        ]
+    },
+    {
+        "meta": [],
+        "dialogue": [
+            [
+                "schedule a football_activity with ana for today at 11am",
+                "scheduled football_activity for today at 11am with ana"
+            ],
+            [
+                "thank you",
+                "no problem"
+            ]
+        ],
+        "domain": "schedule",
+        "gold_ent": [
+            [
+                "11am",
+                "football_activity",
+                "today",
+                "ana"
+            ],
+            []
+        ]
+    },
+    {
+        "meta": [],
+        "dialogue": [
+            [
+                "make a note that at 5pm on the_12th i have yoga",
+                "making a note for yoga at 5pm on the_12th"
+            ]
+        ],
+        "domain": "schedule",
+        "gold_ent": [
+            [
+                "5pm",
+                "yoga",
+                "the_12th"
+            ]
+        ]
+    },
+    {
+        "meta": [
+            "medicine time 1pm",
+            "medicine date monday",
+            "doctor_appointment time 11am",
+            "doctor_appointment date friday",
+            "dinner time 5pm",
+            "dinner date thursday",
+            "dentist time 11am",
+            "dentist date monday",
+            "yoga_activity time 7pm",
+            "yoga_activity date tuesday",
+            "lab_appointment time 2pm",
+            "lab_appointment date tuesday"
+        ],
+        "dialogue": [
+            [
+                "what time is my doctor_appointment",
+                "your doctor_appointment is scheduled for friday at 11am"
+            ]
+        ],
+        "domain": "schedule",
+        "gold_ent": [
+            [
+                "11am",
+                "friday",
+                "doctor_appointment"
+            ]
+        ]
+    },
+    {
+        "meta": [
+            "conference time 4pm",
+            "conference date the_3rd",
+            "conference party management",
+            "conference room 100_conference_room",
+            "conference agenda go_over_quarterly_report",
+            "conference time 1pm",
+            "conference date friday",
+            "conference party infrastructure_team",
+            "conference room conference_room_50",
+            "conference agenda onboard_new_members",
+            "conference time 3pm",
+            "conference date monday",
+            "conference party management",
+            "conference room conference_room_102",
+            "conference agenda onboard_new_members",
+            "yoga_activity time 5pm",
+            "yoga_activity date the_10th",
+            "yoga_activity party alex",
+            "taking_medicine time 11am",
+            "taking_medicine date sunday",
+            "taking_medicine party martha",
+            "lab_appointment time 11am",
+            "lab_appointment date the_10th",
+            "lab_appointment party aunt",
+            "tennis_activity time 10am",
+            "tennis_activity date the_8th",
+            "tennis_activity party aunt",
+            "yoga_activity time 11am",
+            "yoga_activity date thursday",
+            "yoga_activity party alex"
+        ],
+        "dialogue": [
+            [
+                "what time do i go to yoga and who is going with me ?",
+                "yoga is with alex at 11am"
+            ],
+            [
+                "thanks",
+                "you are welcome"
+            ]
+        ],
+        "domain": "schedule",
+        "gold_ent": [
+            [
+                "alex",
+                "yoga",
+                "11am"
+            ],
+            []
+        ]
+    },
+    {
+        "meta": [
+            "lab_appointment time 11am",
+            "lab_appointment date friday",
+            "conference time 11am",
+            "conference date wednesday",
+            "conference party hr",
+            "conference room conference_room_50",
+            "conference agenda discuss_the_merger",
+            "doctor_appointment time 11am",
+            "doctor_appointment date tuesday",
+            "football_activity time 2pm",
+            "football_activity date monday",
+            "dentist time 2pm",
+            "dentist date thursday",
+            "meeting time 7pm",
+            "meeting date friday",
+            "meeting party hr",
+            "meeting room conference_room_50",
+            "meeting agenda discuss_the_company_picnic"
+        ],
+        "dialogue": [
+            [
+                "check the date and time of my doctor_appointment",
+                "your appointment is for tuesday at 11am"
+            ]
+        ],
+        "domain": "schedule",
+        "gold_ent": [
+            [
+                "11am",
+                "tuesday"
+            ]
+        ]
+    },
+    {
+        "meta": [
+            "optometrist_appointment time 1pm",
+            "optometrist_appointment date the_8th",
+            "optometrist_appointment party jon",
+            "meeting time 4pm",
+            "meeting date monday",
+            "meeting party vice_president",
+            "meeting room conference_room_102",
+            "meeting agenda discuss_the_company_picnic",
+            "dentist_appointment time 9am",
+            "dentist_appointment date the_13th",
+            "dentist_appointment party martha",
+            "taking_medicine time 7pm",
+            "taking_medicine date the_10th",
+            "taking_medicine party aunt",
+            "meeting time 6pm",
+            "meeting date friday",
+            "meeting party vice_president",
+            "meeting room 100_conference_room",
+            "meeting agenda go_over_quarterly_report",
+            "tennis_activity time 10am",
+            "tennis_activity date the_5th",
+            "tennis_activity party ana",
+            "swimming_activity time 6pm",
+            "swimming_activity date thursday",
+            "swimming_activity party marie",
+            "swimming_activity time 9am",
+            "swimming_activity date the_5th",
+            "swimming_activity party ana"
+        ],
+        "dialogue": [
+            [
+                "i want to find the agenda , location , and time for my meeting",
+                "you have two meeting scheduled , one at 4pm in conference_room_102 to discuss_the_company_picnic , and one at 6pm in 100_conference_room to go over the quarterly report"
+            ],
+            [
+                "thanks",
+                "you are welcome"
+            ]
+        ],
+        "domain": "schedule",
+        "gold_ent": [
+            [
+                "4pm",
+                "conference_room_102",
+                "meeting",
+                "discuss_the_company_picnic",
+                "6pm"
+            ],
+            []
+        ]
+    },
+    {
+        "meta": [
+            "conference time 1pm",
+            "conference date wednesday",
+            "conference party infrastructure_team",
+            "conference room conference_room_50",
+            "conference agenda discuss_the_merger",
+            "yoga_activity time 2pm",
+            "yoga_activity date wednesday",
+            "doctor_appointment time 2pm",
+            "doctor_appointment date wednesday",
+            "meeting time 7pm",
+            "meeting date monday",
+            "meeting party infrastructure_team",
+            "meeting room conference_room_50",
+            "meeting agenda go_over_budget",
+            "dinner time 5pm",
+            "dinner date monday",
+            "medicine time 10am",
+            "medicine date thursday"
+        ],
+        "dialogue": [
+            [
+                "tell me when is my next meeting and who are invited in the meeting and what are the agenda of the next meeting",
+                "your next meeting is on monday at 7pm with the infrastructure_team to go_over_budget"
+            ]
+        ],
+        "domain": "schedule",
+        "gold_ent": [
+            [
+                "7pm",
+                "go_over_budget",
+                "meeting",
+                "monday",
+                "infrastructure_team"
+            ]
+        ]
+    },
+    {
+        "meta": [],
+        "dialogue": [
+            [
+                "schedule a swimming_activity with jon for december 10th at 3pm",
+                "your swimming_activity with jon has been scheduled for dec 10th at 3pm"
+            ],
+            [
+                "thank you",
+                "it is my job and pleasure"
+            ]
+        ],
+        "domain": "schedule",
+        "gold_ent": [
+            [
+                "jon",
+                "10th",
+                "swimming_activity",
+                "3pm"
+            ],
+            []
+        ]
+    },
+    {
+        "meta": [
+            "swimming_activity time 6pm",
+            "swimming_activity date tuesday",
+            "swimming_activity party brother",
+            "conference time 2pm",
+            "conference date the_5th",
+            "conference party boss",
+            "conference room conference_room_50",
+            "conference agenda discuss_dress_code",
+            "meeting time 1pm",
+            "meeting date monday",
+            "meeting party boss",
+            "meeting room conference_room_50",
+            "meeting agenda go_over_budget",
+            "football_activity time 7pm",
+            "football_activity date the_3rd",
+            "football_activity party tom",
+            "yoga_activity time 6pm",
+            "yoga_activity date the_10th",
+            "yoga_activity party sister",
+            "taking_medicine time 3pm",
+            "taking_medicine date the_13th",
+            "taking_medicine party marie"
+        ],
+        "dialogue": [
+            [
+                "i would like to know who is attending my meeting and when it is",
+                "your boss will be at the meeting on monday at 1pm"
+            ],
+            [
+                "thanks",
+                "happy to help"
+            ]
+        ],
+        "domain": "schedule",
+        "gold_ent": [
+            [
+                "monday",
+                "1pm",
+                "boss",
+                "meeting"
+            ],
+            []
+        ]
+    },
+    {
+        "meta": [],
+        "dialogue": [
+            [
+                "i need to schedule a doctor_appointment",
+                "when ?"
+            ],
+            [
+                "it s at 1pm today",
+                "okay we set up your doctor_appointment today at 1pm"
+            ]
+        ],
+        "domain": "schedule",
+        "gold_ent": [
+            [],
+            [
+                "1pm",
+                "today",
+                "doctor_appointment"
+            ]
+        ]
+    },
+    {
+        "meta": [
+            "dinner time 5pm",
+            "dinner date tuesday",
+            "dinner party sister",
+            "tennis_activity time 3pm",
+            "tennis_activity date the_4th",
+            "tennis_activity party tom",
+            "doctor_appointment time 7pm",
+            "doctor_appointment date the_5th",
+            "doctor_appointment party father",
+            "football_activity time 7pm",
+            "football_activity date the_13th",
+            "football_activity party aunt",
+            "swimming_activity time 1pm",
+            "swimming_activity date wednesday",
+            "swimming_activity party brother",
+            "taking_medicine time 4pm",
+            "taking_medicine date thursday",
+            "taking_medicine party mother"
+        ],
+        "dialogue": [
+            [
+                "can you find out for me the date and parties attending my dinner ?",
+                "your dinner is on tuesday with your sister"
+            ],
+            [
+                "thanks",
+                "you are welcome"
+            ]
+        ],
+        "domain": "schedule",
+        "gold_ent": [
+            [
+                "dinner",
+                "tuesday",
+                "sister"
+            ],
+            []
+        ]
+    },
+    {
+        "meta": [
+            "taking_medicine time 1pm",
+            "taking_medicine date the_7th",
+            "taking_medicine party mother",
+            "meeting time 5pm",
+            "meeting date the_13th",
+            "meeting party vice_president",
+            "meeting room conference_room_50",
+            "meeting agenda go_over_budget",
+            "conference time 2pm",
+            "conference date the_19th",
+            "conference party sales_team",
+            "conference room conference_room_102",
+            "conference agenda discuss_the_company_picnic",
+            "optometrist_appointment time 11am",
+            "optometrist_appointment date the_2nd",
+            "optometrist_appointment party tom",
+            "swimming_activity time 11am",
+            "swimming_activity date sunday",
+            "swimming_activity party mother",
+            "lab_appointment time 11am",
+            "lab_appointment date wednesday",
+            "lab_appointment party tom",
+            "dentist_appointment time 3pm",
+            "dentist_appointment date the_17th",
+            "dentist_appointment party aunt",
+            "lab_appointment time 11am",
+            "lab_appointment date the_8th",
+            "lab_appointment party sister"
+        ],
+        "dialogue": [
+            [
+                "i need to find out the date and time for my lab_appointment",
+                "for which one ? i have two , one on the_8th at 11am and one on wednesday at 11am"
+            ],
+            [
+                "thanks that will do car",
+                "you are welcome"
+            ]
+        ],
+        "domain": "schedule",
+        "gold_ent": [
+            [
+                "11am",
+                "the_8th",
+                "wednesday"
+            ],
+            []
+        ]
+    },
+    {
+        "meta": [],
+        "dialogue": [
+            [
+                "remind me to watch the football game on the_1st",
+                "what time on the_1st should i set a reminder to watch the football game ?"
+            ],
+            [
+                "at 2pm please",
+                "i have set a reminder for the football game at 2pm on the_1st"
+            ],
+            [
+                "thanks",
+                "you are welcome"
+            ]
+        ],
+        "domain": "schedule",
+        "gold_ent": [
+            [
+                "football",
+                "the_1st"
+            ],
+            [
+                "the_1st",
+                "football",
+                "2pm"
+            ],
+            []
+        ]
+    },
+    {
+        "meta": [
+            "optometrist_appointment time 11am",
+            "optometrist_appointment date tuesday",
+            "yoga_activity time 10am",
+            "yoga_activity date wednesday",
+            "tennis_activity time 3pm",
+            "tennis_activity date wednesday",
+            "football_activity time 3pm",
+            "football_activity date thursday",
+            "dentist_appointment time 10am",
+            "dentist_appointment date friday",
+            "doctor_appointment time 2pm",
+            "doctor_appointment date monday"
+        ],
+        "dialogue": [
+            [
+                "check doctor_appointment date",
+                "your doctor_appointment is on monday at 2pm"
+            ]
+        ],
+        "domain": "schedule",
+        "gold_ent": [
+            [
+                "monday",
+                "2pm",
+                "doctor_appointment"
+            ]
+        ]
+    },
+    {
+        "meta": [
+            "dentist_appointment time 9am",
+            "dentist_appointment date the_10th",
+            "dentist_appointment party ana",
+            "dentist_appointment time 9am",
+            "dentist_appointment date the_13th",
+            "dentist_appointment party father",
+            "dentist_appointment time 4pm",
+            "dentist_appointment date the_10th",
+            "dentist_appointment party sister",
+            "tennis_activity time 10am",
+            "tennis_activity date the_10th",
+            "tennis_activity party aunt",
+            "dentist_appointment time 1pm",
+            "dentist_appointment date the_4th",
+            "dentist_appointment party tom",
+            "dentist_appointment time 2pm",
+            "dentist_appointment date the_5th",
+            "dentist_appointment party alex",
+            "meeting time 4pm",
+            "meeting date friday",
+            "meeting party boss",
+            "meeting room 100_conference_room",
+            "meeting agenda discuss_dress_code",
+            "conference time 1pm",
+            "conference date sunday",
+            "conference party boss",
+            "conference room 100_conference_room",
+            "conference agenda onboard_new_members"
+        ],
+        "dialogue": [
+            [
+                "what day and time is my dental appointment set for ?",
+                "the_4th at 1pm with tom , the_10th at 9am with ana , the_13th at 9am with your father , the_5th at 2pm with alex , and the_10th at 4pm with your sister"
+            ]
+        ],
+        "domain": "schedule",
+        "gold_ent": [
+            [
+                "tom",
+                "4pm",
+                "sister",
+                "the_10th",
+                "2pm",
+                "1pm",
+                "the_13th",
+                "the_5th",
+                "alex",
+                "the_4th",
+                "9am",
+                "ana",
+                "father"
+            ]
+        ]
+    },
+    {
+        "meta": [],
+        "dialogue": [
+            [
+                "schedule taking_medicine at 6pm on the_13th of next month with my brother",
+                "taking_medicine with your brother at 6pm on the_13th has been scheduled"
+            ]
+        ],
+        "domain": "schedule",
+        "gold_ent": [
+            [
+                "taking_medicine",
+                "brother",
+                "the_13th",
+                "6pm"
+            ]
+        ]
+    },
+    {
+        "meta": [
+            "lab_appointment time 7pm",
+            "lab_appointment date the_4th",
+            "lab_appointment party aunt",
+            "taking_medicine time 6pm",
+            "taking_medicine date the_10th",
+            "taking_medicine party mother",
+            "football_activity time 9am",
+            "football_activity date sunday",
+            "football_activity party brother",
+            "meeting time 4pm",
+            "meeting date sunday",
+            "meeting party executive_team",
+            "meeting room conference_room_50",
+            "meeting agenda go_over_budget",
+            "yoga_activity time 1pm",
+            "yoga_activity date the_5th",
+            "yoga_activity party marie",
+            "tennis_activity time 5pm",
+            "tennis_activity date the_5th",
+            "tennis_activity party martha"
+        ],
+        "dialogue": [
+            [
+                "info about football please",
+                "your football_activity is on sunday at 9am with your brother"
+            ],
+            [
+                "thanks , that s all",
+                "happy to help"
+            ]
+        ],
+        "domain": "schedule",
+        "gold_ent": [
+            [
+                "football_activity",
+                "sunday",
+                "9am",
+                "brother"
+            ],
+            []
+        ]
+    },
+    {
+        "meta": [],
+        "dialogue": [
+            [
+                "set a reminder for me to take my medicine at 9am on sunday with by brother frank",
+                "okay , setting a reminder to take medicine with your brother frank at 9am on sunday"
+            ],
+            [
+                "thank you",
+                "no problem !"
+            ]
+        ],
+        "domain": "schedule",
+        "gold_ent": [
+            [
+                "sunday",
+                "9am",
+                "brother"
+            ],
+            []
+        ]
+    },
+    {
+        "meta": [
+            "conference time 7pm",
+            "conference date monday",
+            "conference party boss",
+            "conference room conference_room_102",
+            "conference agenda go_over_budget",
+            "lab_appointment time 9am",
+            "lab_appointment date tuesday",
+            "lab_appointment party tom",
+            "dinner time 7pm",
+            "dinner date tuesday",
+            "dinner party martha",
+            "optometrist_appointment time 5pm",
+            "optometrist_appointment date the_5th",
+            "optometrist_appointment party brother",
+            "tennis_activity time 9am",
+            "tennis_activity date the_13th",
+            "tennis_activity party alex",
+            "dentist_appointment time 9am",
+            "dentist_appointment date saturday",
+            "dentist_appointment party alex"
+        ],
+        "dialogue": [
+            [
+                "i need to know my conference agenda , date and who is attending",
+                "your conference is set for monday with your boss to go_over_budget"
+            ],
+            [
+                "great , and who all will be there ?",
+                "the conference is with your boss"
+            ],
+            [
+                "thanks",
+                "you are welcome don t forget it s held in conference_room_102"
+            ],
+            [
+                "thank you",
+                "no problem"
+            ]
+        ],
+        "domain": "schedule",
+        "gold_ent": [
+            [
+                "monday",
+                "boss",
+                "go_over_budget",
+                "conference"
+            ],
+            [
+                "boss",
+                "conference"
+            ],
+            [
+                "conference_room_102"
+            ],
+            []
+        ]
+    },
+    {
+        "meta": [
+            "optometrist_appointment time 1pm",
+            "optometrist_appointment date wednesday",
+            "yoga_activity time 1pm",
+            "yoga_activity date monday",
+            "lab_appointment time 2pm",
+            "lab_appointment date thursday",
+            "football_activity time 2pm",
+            "football_activity date monday",
+            "conference time 3pm",
+            "conference date thursday",
+            "conference party infrastructure_team",
+            "conference room 100_conference_room",
+            "conference agenda discuss_the_company_picnic",
+            "dinner time 5pm",
+            "dinner date monday"
+        ],
+        "dialogue": [
+            [
+                "which day is my appointment on",
+                "which appointment would you like the date for ?"
+            ]
+        ],
+        "domain": "schedule",
+        "gold_ent": [
+            []
+        ]
+    },
+    {
+        "meta": [
+            "dinner time 5pm",
+            "dinner date the_20th",
+            "dinner party tom",
+            "taking_medicine time 1pm",
+            "taking_medicine date the_3rd",
+            "taking_medicine party sister",
+            "optometrist_appointment time 4pm",
+            "optometrist_appointment date tuesday",
+            "optometrist_appointment party mother",
+            "doctor_appointment time 5pm",
+            "doctor_appointment date the_1st",
+            "doctor_appointment party martha",
+            "football_activity time 1pm",
+            "football_activity date the_2nd",
+            "football_activity party jon",
+            "dinner time 6pm",
+            "dinner date the_11th",
+            "dinner party jon",
+            "lab_appointment time 2pm",
+            "lab_appointment date the_7th",
+            "lab_appointment party mother",
+            "football_activity time 10am",
+            "football_activity date the_19th",
+            "football_activity party sister"
+        ],
+        "dialogue": [
+            [
+                "what time is my next dinner event and who will be attending ?",
+                "the one at 6pm with jon is on the_11th"
+            ],
+            [
+                "that will do , thanks",
+                "glad i can help"
+            ]
+        ],
+        "domain": "schedule",
+        "gold_ent": [
+            [
+                "jon",
+                "the_11th",
+                "6pm"
+            ],
+            []
+        ]
+    },
+    {
+        "meta": [],
+        "dialogue": [
+            [
+                "schedule swimming time",
+                "what time do you want to go swimming"
+            ]
+        ],
+        "domain": "schedule",
+        "gold_ent": [
+            [
+                "swimming"
+            ]
+        ]
+    },
+    {
+        "meta": [],
+        "dialogue": [
+            [
+                "remind me to watch football on sunday",
+                "what time would like the reminder ?"
+            ],
+            [
+                "2pm",
+                "i have set a reminder for sunday at 2pm"
+            ],
+            [
+                "thank you",
+                "you are welcome"
+            ]
+        ],
+        "domain": "schedule",
+        "gold_ent": [
+            [],
+            [
+                "sunday",
+                "2pm"
+            ],
+            []
+        ]
+    },
+    {
+        "meta": [],
+        "dialogue": [
+            [
+                "schedule a dentist_appointment at 3 next month on the_12th",
+                "i ve scheduled a dentist_appointment for 3pm on the_12th , anything else ?"
+            ],
+            [
+                "can you confirm you set the dentist_appointment for next month on the_12th ?",
+                "i have scheduled the appointment"
+            ]
+        ],
+        "domain": "schedule",
+        "gold_ent": [
+            [
+                "3pm",
+                "the_12th",
+                "dentist_appointment"
+            ],
+            []
+        ]
+    },
+    {
+        "meta": [
+            "conference time 7pm",
+            "conference date tuesday",
+            "conference party executive_team",
+            "conference room conference_room_102",
+            "conference agenda discuss_dress_code",
+            "doctor_appointment time 4pm",
+            "doctor_appointment date monday",
+            "doctor_appointment party father",
+            "football_activity time 2pm",
+            "football_activity date the_5th",
+            "football_activity party sister",
+            "taking_medicine time 4pm",
+            "taking_medicine date the_13th",
+            "taking_medicine party ana",
+            "optometrist_appointment time 1pm",
+            "optometrist_appointment date friday",
+            "optometrist_appointment party mother",
+            "tennis_activity time 1pm",
+            "tennis_activity date tuesday",
+            "tennis_activity party jeff",
+            "tennis_activity time 1pm",
+            "tennis_activity date the_8th",
+            "tennis_activity party jon",
+            "swimming_activity time 5pm",
+            "swimming_activity date the_5th",
+            "swimming_activity party jon"
+        ],
+        "dialogue": [
+            [
+                "who s showing up for tennis , and what s the date on that ?",
+                "jon and jeff will be attending your tennis_activity"
+            ],
+            [
+                "what time will they be there ?",
+                "they will be there at 1pm"
+            ],
+            [
+                "thank you assistant !",
+                "you are welcome"
+            ]
+        ],
+        "domain": "schedule",
+        "gold_ent": [
+            [
+                "jon",
+                "tennis_activity",
+                "jeff"
+            ],
+            [
+                "1pm"
+            ],
+            []
+        ]
+    },
+    {
+        "meta": [
+            "yoga_activity time 7pm",
+            "yoga_activity date monday",
+            "dentist time 1pm",
+            "dentist date wednesday",
+            "conference time 7pm",
+            "conference date thursday",
+            "conference party sales_team",
+            "conference room conference_room_102",
+            "conference agenda discuss_the_merger",
+            "doctor_appointment time 11am",
+            "doctor_appointment date wednesday",
+            "football_activity time 2pm",
+            "football_activity date thursday",
+            "swimming_activity time 11am",
+            "swimming_activity date wednesday"
+        ],
+        "dialogue": [
+            [
+                "what day is the football game",
+                "the football game is on thursday"
+            ]
+        ],
+        "domain": "schedule",
+        "gold_ent": [
+            [
+                "thursday",
+                "football"
+            ]
+        ]
+    },
+    {
+        "meta": [
+            "swimming_activity time 1pm",
+            "swimming_activity date tuesday",
+            "optometrist_appointment time 1pm",
+            "optometrist_appointment date monday",
+            "tennis_activity time 1pm",
+            "tennis_activity date monday",
+            "conference time 3pm",
+            "conference date tuesday",
+            "conference party infrastructure_team",
+            "conference room conference_room_50",
+            "conference agenda discuss_the_merger",
+            "football_activity time 3pm",
+            "football_activity date monday",
+            "doctor_appointment time 3pm",
+            "doctor_appointment date tuesday"
+        ],
+        "dialogue": [
+            [
+                "what is on my schedule today",
+                "you have an optometrist_appointment today at 1pm"
+            ]
+        ],
+        "domain": "schedule",
+        "gold_ent": [
+            [
+                "optometrist_appointment",
+                "1pm",
+                "today"
+            ]
+        ]
+    },
+    {
+        "meta": [
+            "yoga_activity time 11am",
+            "yoga_activity date thursday",
+            "dentist_appointment time 2pm",
+            "dentist_appointment date thursday",
+            "lab_appointment time 3pm",
+            "lab_appointment date tuesday",
+            "dinner time 5pm",
+            "dinner date friday",
+            "meeting time 3pm",
+            "meeting date wednesday",
+            "meeting party sales_team",
+            "meeting room 100_conference_room",
+            "meeting agenda discuss_the_merger",
+            "optometrist_appointment time 11am",
+            "optometrist_appointment date wednesday"
+        ],
+        "dialogue": [
+            [
+                "check my agenda for my meeting",
+                "the agenda for your meeting is to discuss_the_merger"
+            ],
+            [
+                "okay , i want to find out what time my meeting is and where and what day please",
+                "your meeting is on wednesday at 3pm in conference_room_100"
+            ],
+            [
+                "perfect , thank you",
+                "you are welcome"
+            ]
+        ],
+        "domain": "schedule",
+        "gold_ent": [
+            [
+                "discuss_the_merger",
+                "meeting"
+            ],
+            [
+                "wednesday",
+                "3pm",
+                "conference_room_100",
+                "meeting"
+            ],
+            []
+        ]
+    },
+    {
+        "meta": [
+            "meeting time 10am",
+            "meeting date the_5th",
+            "meeting party executive_team",
+            "meeting room conference_room_100",
+            "meeting agenda onboard_new_members",
+            "meeting time 6pm",
+            "meeting date the_10th",
+            "meeting party executive_team",
+            "meeting room 100_conference_room",
+            "meeting agenda go_over_budget",
+            "dentist_appointment time 2pm",
+            "dentist_appointment date the_15th",
+            "dentist_appointment party father",
+            "swimming_activity time 4pm",
+            "swimming_activity date the_5th",
+            "swimming_activity party mother",
+            "football_activity time 1pm",
+            "football_activity date the_17th",
+            "football_activity party sister",
+            "swimming_activity time 5pm",
+            "swimming_activity date wednesday",
+            "swimming_activity party ana",
+            "conference time 4pm",
+            "conference date the_2nd",
+            "conference party executive_team",
+            "conference room 100_conference_room",
+            "conference agenda go_over_budget",
+            "dinner time 8pm",
+            "dinner date saturday",
+            "dinner party ana"
+        ],
+        "dialogue": [
+            [
+                "when am i going swimming ?",
+                "you have two swimming_activity scheduled one on wednesday at 5pm and the other on the_5th at 4pm"
+            ],
+            [
+                "thank you kindly",
+                "no problem"
+            ]
+        ],
+        "domain": "schedule",
+        "gold_ent": [
+            [
+                "4pm",
+                "wednesday",
+                "the_5th",
+                "5pm",
+                "swimming_activity"
+            ],
+            []
+        ]
+    },
+    {
+        "meta": [],
+        "dialogue": [
+            [
+                "schedule a swimming_activity with marie on sunday at 6pm",
+                "okay , i will set a schedule for a swimming_activity with marie on sunday at 6pm"
+            ],
+            [
+                "thank you",
+                "you are welcome"
+            ]
+        ],
+        "domain": "schedule",
+        "gold_ent": [
+            [
+                "marie",
+                "sunday",
+                "swimming_activity",
+                "6pm"
+            ],
+            []
+        ]
+    },
+    {
+        "meta": [
+            "tennis_activity time 1pm",
+            "tennis_activity date the_4th",
+            "tennis_activity party sister",
+            "meeting time 6pm",
+            "meeting date the_8th",
+            "meeting party boss",
+            "meeting room conference_room_50",
+            "meeting agenda discuss_the_company_picnic",
+            "optometrist_appointment time 7pm",
+            "optometrist_appointment date friday",
+            "optometrist_appointment party jon",
+            "conference time 6pm",
+            "conference date tuesday",
+            "conference party management",
+            "conference room 100_conference_room",
+            "conference agenda onboard_new_members",
+            "taking_medicine time 9am",
+            "taking_medicine date the_10th",
+            "taking_medicine party father",
+            "doctor_appointment time 2pm",
+            "doctor_appointment date the_4th",
+            "doctor_appointment party aunt"
+        ],
+        "dialogue": [
+            [
+                "what time is my doctor_appointment and who is going with me ?",
+                "your doctor_appointment at 2pm , your aunt will be going"
+            ],
+            [
+                "okay perfect , thank you !",
+                "happy to help"
+            ]
+        ],
+        "domain": "schedule",
+        "gold_ent": [
+            [
+                "aunt",
+                "2pm",
+                "doctor_appointment"
+            ],
+            []
+        ]
+    },
+    {
+        "meta": [],
+        "dialogue": [
+            [
+                "assistant schedule an appointment at the dentist , 9am of the_12th of current month bring martha with me",
+                "i am setting an appointment at the dentist on the_12th of current month at 9am with martha"
+            ],
+            [
+                "thank you !",
+                "you are welcome"
+            ]
+        ],
+        "domain": "schedule",
+        "gold_ent": [
+            [
+                "martha",
+                "dentist",
+                "9am",
+                "the_12th"
+            ],
+            []
+        ]
+    },
+    {
+        "meta": [],
+        "dialogue": [
+            [
+                "set a reminder for my swimming plans",
+                "swimming plans"
+            ],
+            [
+                "at 11am on friday",
+                "swimming plans on friday at 11am have been added to the calendar"
+            ],
+            [
+                "perfect nothing else for now",
+                "ok"
+            ]
+        ],
+        "domain": "schedule",
+        "gold_ent": [
+            [
+                "swimming"
+            ],
+            [
+                "11am",
+                "friday",
+                "swimming"
+            ],
+            []
+        ]
+    },
+    {
+        "meta": [
+            "conference time 3pm",
+            "conference date friday",
+            "conference party executive_team",
+            "conference room 100_conference_room",
+            "conference agenda discuss_the_merger",
+            "lab_appointment time 3pm",
+            "lab_appointment date thursday",
+            "meeting time 2pm",
+            "meeting date friday",
+            "meeting party sales_team",
+            "meeting room conference_room_50",
+            "meeting agenda go_over_budget",
+            "doctor_appointment time 2pm",
+            "doctor_appointment date tuesday",
+            "dentist time 11am",
+            "dentist date tuesday",
+            "swimming_activity time 2pm",
+            "swimming_activity date friday"
+        ],
+        "dialogue": [
+            [
+                "what is the agenda of my meeting today",
+                "your agenda for your meeting today is go_over_budget"
+            ]
+        ],
+        "domain": "schedule",
+        "gold_ent": [
+            [
+                "go_over_budget",
+                "today",
+                "meeting"
+            ]
+        ]
+    },
+    {
+        "meta": [
+            "taking_medicine time 7pm",
+            "taking_medicine date the_10th",
+            "taking_medicine party martha",
+            "optometrist_appointment time 5pm",
+            "optometrist_appointment date the_2nd",
+            "optometrist_appointment party marie",
+            "doctor_appointment time 9am",
+            "doctor_appointment date the_4th",
+            "doctor_appointment party jon",
+            "football_activity time 6pm",
+            "football_activity date the_6th",
+            "football_activity party brother",
+            "optometrist_appointment time 10am",
+            "optometrist_appointment date the_16th",
+            "optometrist_appointment party brother",
+            "dentist_appointment time 1pm",
+            "dentist_appointment date the_13th",
+            "dentist_appointment party alex",
+            "optometrist_appointment time 2pm",
+            "optometrist_appointment date saturday",
+            "optometrist_appointment party martha",
+            "conference time 3pm",
+            "conference date the_13th",
+            "conference party hr",
+            "conference room conference_room_100",
+            "conference agenda discuss_the_company_picnic"
+        ],
+        "dialogue": [
+            [
+                "find out the date and parties attending for my optometrist_appointment",
+                "you have 3 optometrist_appointment scheduled , one with marie on the_2nd , martha on saturday , and your brother on the_16th"
+            ],
+            [
+                "thanks for the info",
+                "you are welcome"
+            ]
+        ],
+        "domain": "schedule",
+        "gold_ent": [
+            [
+                "brother",
+                "marie",
+                "optometrist_appointment",
+                "the_2nd",
+                "saturday",
+                "martha",
+                "the_16th"
+            ],
+            []
+        ]
+    },
+    {
+        "meta": [
+            "dentist_appointment time 3pm",
+            "dentist_appointment date friday",
+            "meeting time 11am",
+            "meeting date wednesday",
+            "meeting party hr",
+            "meeting room 100_conference_room",
+            "meeting agenda go_over_budget",
+            "medicine time 7pm",
+            "medicine date thursday",
+            "optometrist_appointment time 11am",
+            "optometrist_appointment date monday",
+            "dinner time 5pm",
+            "dinner date tuesday",
+            "dentist time 7pm",
+            "dentist date tuesday"
+        ],
+        "dialogue": [
+            [
+                "what time is my dinner reservation",
+                "your dinner reservation is at 5pm"
+            ]
+        ],
+        "domain": "schedule",
+        "gold_ent": [
+            [
+                "5pm",
+                "dinner"
+            ]
+        ]
+    },
+    {
+        "meta": [],
+        "dialogue": [
+            [
+                "set a reminder for my dentist_appointment with dad on the first at 2pm",
+                "ok , dentist_appointment with your dad on the_1st at 2pm is set"
+            ]
+        ],
+        "domain": "schedule",
+        "gold_ent": [
+            [
+                "2pm",
+                "the_1st",
+                "dentist_appointment"
+            ]
+        ]
+    },
+    {
+        "meta": [],
+        "dialogue": [
+            [
+                "set an appointment to swim next_week",
+                "what date and time is your swim appointment ?"
+            ],
+            [
+                "thursday at 10am please",
+                "i have added swim appointment to your calendar at 10am on thursday"
+            ],
+            [
+                "thanks",
+                "you are welcome"
+            ]
+        ],
+        "domain": "schedule",
+        "gold_ent": [
+            [],
+            [
+                "thursday",
+                "10am"
+            ],
+            []
+        ]
+    },
+    {
+        "meta": [
+            "swimming_activity time 4pm",
+            "swimming_activity date thursday",
+            "swimming_activity party marie",
+            "doctor_appointment time 11am",
+            "doctor_appointment date friday",
+            "doctor_appointment party marie",
+            "lab_appointment time 2pm",
+            "lab_appointment date the_5th",
+            "lab_appointment party aunt",
+            "tennis_activity time 2pm",
+            "tennis_activity date the_10th",
+            "tennis_activity party alex",
+            "yoga_activity time 4pm",
+            "yoga_activity date the_5th",
+            "yoga_activity party aunt",
+            "taking_medicine time 11am",
+            "taking_medicine date the_5th",
+            "taking_medicine party alex"
+        ],
+        "dialogue": [
+            [
+                "i need to find out the parties attending and the date for my lab_appointment , thanks",
+                "your lab_appointment is on the_5th and your aunt will be attending"
+            ],
+            [
+                "great , thank you so much !",
+                "the lab_appointment is schedule for 2pm on the_5th and your aunt will be attending"
+            ],
+            [
+                "thank you",
+                "you are welcome"
+            ]
+        ],
+        "domain": "schedule",
+        "gold_ent": [
+            [
+                "lab_appointment",
+                "aunt",
+                "the_5th"
+            ],
+            [
+                "lab_appointment",
+                "aunt",
+                "2pm",
+                "the_5th"
+            ],
+            []
+        ]
+    },
+    {
+        "meta": [],
+        "dialogue": [
+            [
+                "schedule a swimming_activity with my brother for the_7th at 11am",
+                "okay , scheduling a swimming_activity with your brother for the_7th at 11am"
+            ],
+            [
+                "great , thank you",
+                "glad to help"
+            ]
+        ],
+        "domain": "schedule",
+        "gold_ent": [
+            [
+                "11am",
+                "the_7th",
+                "brother",
+                "swimming_activity"
+            ],
+            []
+        ]
+    },
+    {
+        "meta": [
+            "doctor_appointment time 7pm",
+            "doctor_appointment date the_1st",
+            "doctor_appointment party sister",
+            "football_activity time 10am",
+            "football_activity date the_19th",
+            "football_activity party aunt",
+            "tennis_activity time 7pm",
+            "tennis_activity date thursday",
+            "tennis_activity party marie",
+            "conference time 6pm",
+            "conference date sunday",
+            "conference party management",
+            "conference room conference_room_102",
+            "conference agenda discuss_the_company_picnic",
+            "football_activity time 7pm",
+            "football_activity date the_15th",
+            "football_activity party ana",
+            "conference time 3pm",
+            "conference date the_20th",
+            "conference party management",
+            "conference room conference_room_102",
+            "conference agenda go_over_budget",
+            "tennis_activity time 9am",
+            "tennis_activity date the_7th",
+            "tennis_activity party jon",
+            "yoga_activity time 7pm",
+            "yoga_activity date the_17th",
+            "yoga_activity party sister"
+        ],
+        "dialogue": [
+            [
+                "what is the date and location for my conference and who is attending ?",
+                "for which one ? i have two , one at 6pm and one at 3pm"
+            ],
+            [
+                "the one at 6pm please",
+                "the event is on sunday at 6pm in conference_room_102 and management will be attending"
+            ],
+            [
+                "thanks !",
+                "no problem , goodbye"
+            ]
+        ],
+        "domain": "schedule",
+        "gold_ent": [
+            [
+                "3pm",
+                "6pm"
+            ],
+            [
+                "conference_room_102",
+                "sunday",
+                "management",
+                "6pm"
+            ],
+            []
+        ]
+    },
+    {
+        "meta": [
+            "doctor_appointment time 9am",
+            "doctor_appointment date saturday",
+            "doctor_appointment party jon",
+            "taking_medicine time 4pm",
+            "taking_medicine date the_13th",
+            "taking_medicine party mother",
+            "tennis_activity time 7pm",
+            "tennis_activity date thursday",
+            "tennis_activity party mother",
+            "doctor_appointment time 9am",
+            "doctor_appointment date friday",
+            "doctor_appointment party aunt",
+            "tennis_activity time 2pm",
+            "tennis_activity date the_10th",
+            "tennis_activity party sister",
+            "taking_medicine time 11am",
+            "taking_medicine date monday",
+            "taking_medicine party marie",
+            "meeting time 11am",
+            "meeting date monday",
+            "meeting party infrastructure_team",
+            "meeting room 100_conference_room",
+            "meeting agenda go_over_budget",
+            "conference time 5pm",
+            "conference date the_5th",
+            "conference party sales_team",
+            "conference room 100_conference_room",
+            "conference agenda discuss_dress_code"
+        ],
+        "dialogue": [
+            [
+                "what time do i take my medicine and who is attending ?",
+                "currently you are taking_medicine on two occasions one is on the_13th at 4pm with your mother the other is on monday at 11am with marie"
+            ]
+        ],
+        "domain": "schedule",
+        "gold_ent": [
+            [
+                "taking_medicine",
+                "4pm",
+                "marie",
+                "the_13th",
+                "mother",
+                "monday",
+                "11am"
+            ]
+        ]
+    },
+    {
+        "meta": [
+            "doctor_appointment time 1pm",
+            "doctor_appointment date tuesday",
+            "dentist time 2pm",
+            "dentist date monday",
+            "meeting time 7pm",
+            "meeting date friday",
+            "meeting party hr",
+            "meeting room conference_room_102",
+            "meeting agenda go_over_budget",
+            "dentist_appointment time 11am",
+            "dentist_appointment date tuesday",
+            "lab_appointment time 2pm",
+            "lab_appointment date monday",
+            "dinner time 5pm",
+            "dinner date monday"
+        ],
+        "dialogue": [
+            [
+                "who will be at the meeting friday",
+                "hr will be at the friday meeting"
+            ]
+        ],
+        "domain": "schedule",
+        "gold_ent": [
+            [
+                "friday",
+                "hr",
+                "meeting"
+            ]
+        ]
+    },
+    {
+        "meta": [
+            "optometrist_appointment time 10am",
+            "optometrist_appointment date monday",
+            "dentist time 7pm",
+            "dentist date wednesday",
+            "tennis_activity time 2pm",
+            "tennis_activity date monday",
+            "lab_appointment time 2pm",
+            "lab_appointment date monday",
+            "yoga_activity time 7pm",
+            "yoga_activity date thursday",
+            "doctor_appointment time 3pm",
+            "doctor_appointment date wednesday"
+        ],
+        "dialogue": [
+            [
+                "what time is my lab_appointment for",
+                "your next lab_appointment is next monday at 2pm"
+            ]
+        ],
+        "domain": "schedule",
+        "gold_ent": [
+            [
+                "monday",
+                "lab_appointment",
+                "2pm"
+            ]
+        ]
+    },
+    {
+        "meta": [],
+        "dialogue": [
+            [
+                "schedule a dentist_appointment on the_8th at 1pm ana will be joining you",
+                "okay , scheduling a dentist_appointment with ana on the_8th at 1pm"
+            ],
+            [
+                "thanks !",
+                "glad i can assist you"
+            ]
+        ],
+        "domain": "schedule",
+        "gold_ent": [
+            [
+                "1pm",
+                "ana",
+                "the_8th",
+                "dentist_appointment"
+            ],
+            []
+        ]
+    },
+    {
+        "meta": [
+            "meeting time 11am",
+            "meeting date thursday",
+            "meeting party infrastructure_team",
+            "meeting room 100_conference_room",
+            "meeting agenda discuss_the_merger",
+            "conference time 10am",
+            "conference date friday",
+            "conference party executive_team",
+            "conference room conference_room_100",
+            "conference agenda discuss_the_company_picnic",
+            "doctor_appointment time 2pm",
+            "doctor_appointment date friday",
+            "tennis_activity time 11am",
+            "tennis_activity date friday",
+            "medicine time 11am",
+            "medicine date friday",
+            "dentist time 11am",
+            "dentist date thursday"
+        ],
+        "dialogue": [
+            [
+                "when am i playing tennis",
+                "you are playing tennis on 11am friday"
+            ]
+        ],
+        "domain": "schedule",
+        "gold_ent": [
+            [
+                "tennis",
+                "11am",
+                "friday"
+            ]
+        ]
+    },
+    {
+        "meta": [
+            "tennis_activity time 3pm",
+            "tennis_activity date sunday",
+            "tennis_activity party alex",
+            "tennis_activity time 6pm",
+            "tennis_activity date the_7th",
+            "tennis_activity party martha",
+            "dentist_appointment time 7pm",
+            "dentist_appointment date monday",
+            "dentist_appointment party aunt",
+            "optometrist_appointment time 11am",
+            "optometrist_appointment date the_14th",
+            "optometrist_appointment party brother",
+            "tennis_activity time 1pm",
+            "tennis_activity date the_5th",
+            "tennis_activity party aunt",
+            "lab_appointment time 9am",
+            "lab_appointment date saturday",
+            "lab_appointment party jeff",
+            "dentist_appointment time 10am",
+            "dentist_appointment date monday",
+            "dentist_appointment party sister",
+            "meeting time 9am",
+            "meeting date the_19th",
+            "meeting party vice_president",
+            "meeting room conference_room_102",
+            "meeting agenda discuss_the_merger"
+        ],
+        "dialogue": [
+            [
+                "what date is my dentist_appointment and who is attending ?",
+                "you have two dentist_appointment , one with your aunt and one with your sister , both on monday"
+            ],
+            [
+                "thank you , that was helpful",
+                "glad i can assist you"
+            ]
+        ],
+        "domain": "schedule",
+        "gold_ent": [
+            [
+                "monday",
+                "sister",
+                "aunt",
+                "dentist_appointment"
+            ],
+            []
+        ]
+    },
+    {
+        "meta": [
+            "yoga_activity time 4pm",
+            "yoga_activity date friday",
+            "yoga_activity party marie",
+            "conference time 6pm",
+            "conference date the_3rd",
+            "conference party hr",
+            "conference room conference_room_50",
+            "conference agenda go_over_budget",
+            "yoga_activity time 3pm",
+            "yoga_activity date friday",
+            "yoga_activity party sister",
+            "conference time 2pm",
+            "conference date saturday",
+            "conference party infrastructure_team",
+            "conference room 100_conference_room",
+            "conference agenda go_over_budget",
+            "yoga_activity time 4pm",
+            "yoga_activity date the_17th",
+            "yoga_activity party martha",
+            "yoga_activity time 1pm",
+            "yoga_activity date monday",
+            "yoga_activity party alex",
+            "taking_medicine time 10am",
+            "taking_medicine date the_12th",
+            "taking_medicine party jeff",
+            "tennis_activity time 5pm",
+            "tennis_activity date tuesday",
+            "tennis_activity party aunt"
+        ],
+        "dialogue": [
+            [
+                "what is the date of my yoga_activity and who will be attending it ?",
+                "you have four yoga_activity scheduled ; one on monday with alex , two on friday with sister and one with marie , and one on the_17th with martha"
+            ],
+            [
+                "thank you",
+                "you are welcome !"
+            ]
+        ],
+        "domain": "schedule",
+        "gold_ent": [
+            [
+                "sister",
+                "marie",
+                "friday",
+                "yoga_activity",
+                "monday",
+                "alex",
+                "martha",
+                "the_17th"
+            ],
+            []
+        ]
+    },
+    {
+        "meta": [],
+        "dialogue": [
+            [
+                "schedule taking_medicine with martha at 5pm next wednesday",
+                "okay scheduling taking_medicine with martha at 5pm next wednesday"
+            ],
+            [
+                "thank you !",
+                "taking_medicine scheduled for next wednesday at 5pm"
+            ]
+        ],
+        "domain": "schedule",
+        "gold_ent": [
+            [
+                "martha",
+                "taking_medicine",
+                "wednesday",
+                "5pm"
+            ],
+            [
+                "5pm",
+                "taking_medicine",
+                "wednesday"
+            ]
+        ]
+    },
+    {
+        "meta": [],
+        "dialogue": [
+            [
+                "schedule a conference at 6pm on the tenth with sales_team",
+                "i will schedule a conference at 6pm on the tenth with sales_team"
+            ],
+            [
+                "thank you",
+                "you are welcome"
+            ]
+        ],
+        "domain": "schedule",
+        "gold_ent": [
+            [
+                "sales_team",
+                "conference",
+                "6pm"
+            ],
+            []
+        ]
+    },
+    {
+        "meta": [],
+        "dialogue": [
+            [
+                "please set a reminder to take medicine at 7pm tuesday with ana",
+                "okay , setting a reminder to take your medicine with ana at 7pm on tuesday"
+            ],
+            [
+                "thanks",
+                "you are welcome"
+            ]
+        ],
+        "domain": "schedule",
+        "gold_ent": [
+            [
+                "tuesday",
+                "7pm",
+                "ana"
+            ],
+            []
+        ]
+    },
+    {
+        "meta": [],
+        "dialogue": [
+            [
+                "schedule a reminder to take medicine with martha for saturday at 2pm",
+                "your reminder has been set for saturday at 2pm to take medicine with martha"
+            ]
+        ],
+        "domain": "schedule",
+        "gold_ent": [
+            [
+                "martha",
+                "2pm",
+                "saturday"
+            ]
+        ]
+    },
+    {
+        "meta": [],
+        "dialogue": [
+            [
+                "remind me to go swimming at 4 : 50",
+                "am or pm ?"
+            ],
+            [
+                "at 4 : 50pm the_12th of this month",
+                "swimming reminder has been set for the_12th at 4 : 50pm"
+            ],
+            [
+                "thanks",
+                "you are welcome"
+            ]
+        ],
+        "domain": "schedule",
+        "gold_ent": [
+            [],
+            [
+                "the_12th",
+                "swimming"
+            ],
+            []
+        ]
+    },
+    {
+        "meta": [
+            "optometrist_appointment time 11am",
+            "optometrist_appointment date friday",
+            "optometrist_appointment party martha",
+            "taking_medicine time 10am",
+            "taking_medicine date monday",
+            "taking_medicine party alex",
+            "swimming_activity time 2pm",
+            "swimming_activity date sunday",
+            "swimming_activity party jon",
+            "dinner time 7pm",
+            "dinner date the_5th",
+            "dinner party alex",
+            "lab_appointment time 5pm",
+            "lab_appointment date tuesday",
+            "lab_appointment party aunt",
+            "meeting time 10am",
+            "meeting date friday",
+            "meeting party boss",
+            "meeting room conference_room_102",
+            "meeting agenda go_over_budget"
+        ],
+        "dialogue": [
+            [
+                "please tell me the location , time and parties that are attending my meeting",
+                "your next meeting is with your boss at 10am in conference_room_102"
+            ],
+            [
+                "great , thank you so much !",
+                "you are welcome ! did you also want to know the agenda for the meeting ?"
+            ],
+            [
+                "that is all , thanks !",
+                "you are welcome"
+            ]
+        ],
+        "domain": "schedule",
+        "gold_ent": [
+            [
+                "conference_room_102",
+                "boss",
+                "10am",
+                "meeting"
+            ],
+            [
+                "meeting"
+            ],
+            []
+        ]
+    },
+    {
+        "meta": [
+            "doctor_appointment time 2pm",
+            "doctor_appointment date monday",
+            "doctor_appointment party jeff",
+            "doctor_appointment time 3pm",
+            "doctor_appointment date the_3rd",
+            "doctor_appointment party father",
+            "football_activity time 5pm",
+            "football_activity date the_2nd",
+            "football_activity party marie",
+            "lab_appointment time 3pm",
+            "lab_appointment date the_13th",
+            "lab_appointment party ana",
+            "doctor_appointment time 3pm",
+            "doctor_appointment date the_9th",
+            "doctor_appointment party tom",
+            "football_activity time 3pm",
+            "football_activity date the_17th",
+            "football_activity party aunt",
+            "yoga_activity time 1pm",
+            "yoga_activity date the_1st",
+            "yoga_activity party alex",
+            "tennis_activity time 10am",
+            "tennis_activity date the_14th",
+            "tennis_activity party alex"
+        ],
+        "dialogue": [
+            [
+                "what time is the doctor_appointment and who is attending ?",
+                "which one ? i have two , one with your father on the_3rd , and one with tom on the_9th"
+            ],
+            [
+                "the_9th thank you",
+                "the appointment on the_9th is at 3pm"
+            ]
+        ],
+        "domain": "schedule",
+        "gold_ent": [
+            [
+                "tom",
+                "the_3rd",
+                "the_9th",
+                "father"
+            ],
+            [
+                "the_9th",
+                "3pm"
+            ]
+        ]
+    },
+    {
+        "meta": [],
+        "dialogue": [
+            [
+                "set a reminder for the conference",
+                "what day and time is the conference"
+            ],
+            [
+                "it is on august 14th at 4pm",
+                "i have that conference set up for you to be reminded of is there anything else you need ?"
+            ],
+            [
+                "make sure you add the executive_team to that reminder",
+                "your reminder for the conference with the executive_team on august the_14th at 4pm is all set"
+            ],
+            [
+                "thanks",
+                "you are welcome"
+            ]
+        ],
+        "domain": "schedule",
+        "gold_ent": [
+            [
+                "conference"
+            ],
+            [
+                "conference"
+            ],
+            [
+                "the_14th",
+                "4pm",
+                "executive_team",
+                "conference"
+            ],
+            []
+        ]
+    },
+    {
+        "meta": [
+            "yoga_activity time 3pm",
+            "yoga_activity date the_8th",
+            "yoga_activity party father",
+            "tennis_activity time 11am",
+            "tennis_activity date the_3rd",
+            "tennis_activity party jon",
+            "conference time 11am",
+            "conference date the_4th",
+            "conference party hr",
+            "conference room conference_room_50",
+            "conference agenda discuss_dress_code",
+            "meeting time 1pm",
+            "meeting date friday",
+            "meeting party hr",
+            "meeting room 100_conference_room",
+            "meeting agenda discuss_the_company_picnic",
+            "lab_appointment time 10am",
+            "lab_appointment date friday",
+            "lab_appointment party sister",
+            "football_activity time 1pm",
+            "football_activity date the_5th",
+            "football_activity party tom"
+        ],
+        "dialogue": [
+            [
+                "car , find out the time and parties attending for my tennis_activity",
+                "your tennis_activity is set for 11am with jon in attendance"
+            ],
+            [
+                "thanks",
+                "happy to help"
+            ]
+        ],
+        "domain": "schedule",
+        "gold_ent": [
+            [
+                "11am",
+                "tennis_activity",
+                "jon"
+            ],
+            []
+        ]
+    },
+    {
+        "meta": [
+            "dinner time 5pm",
+            "dinner date monday",
+            "conference time 3pm",
+            "conference date friday",
+            "conference party executive_team",
+            "conference room 100_conference_room",
+            "conference agenda discuss_the_company_picnic",
+            "optometrist_appointment time 3pm",
+            "optometrist_appointment date friday",
+            "medicine time 1pm",
+            "medicine date friday",
+            "meeting time 1pm",
+            "meeting date thursday",
+            "meeting party infrastructure_team",
+            "meeting room conference_room_50",
+            "meeting agenda go_over_budget",
+            "lab_appointment time 2pm",
+            "lab_appointment date monday"
+        ],
+        "dialogue": [
+            [
+                "find out when my next conference",
+                "friday at 3pm"
+            ]
+        ],
+        "domain": "schedule",
+        "gold_ent": [
+            [
+                "friday",
+                "3pm"
+            ]
+        ]
+    },
+    {
+        "meta": [],
+        "dialogue": [
+            [
+                "schedule a conference with the boss for this month on the_5th at 1pm",
+                "okay , i am scheduling a conference with your boss for the_5th of this month at 1pm"
+            ],
+            [
+                "great , thanks",
+                "no problem !"
+            ]
+        ],
+        "domain": "schedule",
+        "gold_ent": [
+            [
+                "1pm",
+                "boss",
+                "conference",
+                "the_5th"
+            ],
+            []
+        ]
+    },
+    {
+        "meta": [],
+        "dialogue": [
+            [
+                "schedule a tennis_activity with martha for friday at 4pm",
+                "okay , scheduling a tennis_activity with martha for friday at 4pm"
+            ],
+            [
+                "thanks",
+                "you are welcome"
+            ]
+        ],
+        "domain": "schedule",
+        "gold_ent": [
+            [
+                "martha",
+                "tennis_activity",
+                "4pm",
+                "friday"
+            ],
+            []
+        ]
+    },
+    {
+        "meta": [],
+        "dialogue": [
+            [
+                "hi car i would like to schedule a reminder for my tennis_activity at 5pm on the tenth with jon",
+                "okay , scheduling a reminder for your tennis_activity at 5pm on the_10th with jon"
+            ],
+            [
+                "perfect , thank you !",
+                "you are welcome"
+            ]
+        ],
+        "domain": "schedule",
+        "gold_ent": [
+            [
+                "5pm",
+                "jon",
+                "tennis_activity",
+                "the_10th"
+            ],
+            []
+        ]
+    },
+    {
+        "meta": [
+            "doctor_appointment time 11am",
+            "doctor_appointment date the_20th",
+            "doctor_appointment party brother",
+            "taking_medicine time 5pm",
+            "taking_medicine date the_15th",
+            "taking_medicine party jeff",
+            "meeting time 4pm",
+            "meeting date tuesday",
+            "meeting party sales_team",
+            "meeting room conference_room_100",
+            "meeting agenda go_over_quarterly_report",
+            "dinner time 6pm",
+            "dinner date the_9th",
+            "dinner party martha",
+            "dinner time 6pm",
+            "dinner date the_2nd",
+            "dinner party ana",
+            "optometrist_appointment time 9am",
+            "optometrist_appointment date the_12th",
+            "optometrist_appointment party martha",
+            "optometrist_appointment time 3pm",
+            "optometrist_appointment date the_3rd",
+            "optometrist_appointment party alex",
+            "optometrist_appointment time 5pm",
+            "optometrist_appointment date the_4th",
+            "optometrist_appointment party brother"
+        ],
+        "dialogue": [
+            [
+                "i need to find out some info for my optometrist_appointment , the date and time please",
+                "okay , which one ? i have one for the_12th at 9am , and one for the_4th at 5pm"
+            ],
+            [
+                "that will do , thanks",
+                "you are welcome"
+            ]
+        ],
+        "domain": "schedule",
+        "gold_ent": [
+            [
+                "5pm",
+                "9am",
+                "the_12th",
+                "the_4th"
+            ],
+            []
+        ]
+    },
+    {
+        "meta": [
+            "dinner time 5pm",
+            "dinner date thursday",
+            "conference time 1pm",
+            "conference date monday",
+            "conference party hr",
+            "conference room conference_room_102",
+            "conference agenda discuss_the_company_picnic",
+            "medicine time 2pm",
+            "medicine date tuesday",
+            "meeting time 3pm",
+            "meeting date monday",
+            "meeting party sales_team",
+            "meeting room conference_room_50",
+            "meeting agenda go_over_budget",
+            "tennis_activity time 3pm",
+            "tennis_activity date tuesday",
+            "optometrist_appointment time 11am",
+            "optometrist_appointment date thursday"
+        ],
+        "dialogue": [
+            [
+                "what is the date and time of my next meeting",
+                "your next meeting is monday at 3pm"
+            ]
+        ],
+        "domain": "schedule",
+        "gold_ent": [
+            [
+                "monday",
+                "3pm",
+                "meeting"
+            ]
+        ]
+    },
+    {
+        "meta": [],
+        "dialogue": [
+            [
+                "schedule a swimming_activity with tom on the_6th of this month at 2pm",
+                "okay , i am scheduling a swimming event with tom on the_6th at 2pm"
+            ],
+            [
+                "thank you",
+                "not a problem"
+            ]
+        ],
+        "domain": "schedule",
+        "gold_ent": [
+            [
+                "the_6th",
+                "tom",
+                "2pm",
+                "swimming"
+            ],
+            []
+        ]
+    },
+    {
+        "meta": [],
+        "dialogue": [
+            [
+                "i have an eye doctor_appointment on the_12th at 5pm",
+                "i will note down your eye doctor_appointment at 5pm the_12th"
+            ]
+        ],
+        "domain": "schedule",
+        "gold_ent": [
+            [
+                "5pm",
+                "the_12th",
+                "doctor_appointment"
+            ]
+        ]
+    },
+    {
+        "meta": [
+            "conference time 11am",
+            "conference date friday",
+            "conference party infrastructure_team",
+            "conference room conference_room_100",
+            "conference agenda discuss_the_merger",
+            "football_activity time 10am",
+            "football_activity date wednesday",
+            "doctor_appointment time 7pm",
+            "doctor_appointment date tuesday",
+            "swimming_activity time 2pm",
+            "swimming_activity date monday",
+            "dinner time 5pm",
+            "dinner date tuesday",
+            "tennis_activity time 1pm",
+            "tennis_activity date monday"
+        ],
+        "dialogue": [
+            [
+                "when is the football game",
+                "the football game is wednesday at 10am"
+            ],
+            [
+                "thank you",
+                "my pleasure"
+            ]
+        ],
+        "domain": "schedule",
+        "gold_ent": [
+            [
+                "10am",
+                "football",
+                "wednesday"
+            ],
+            []
+        ]
+    },
+    {
+        "meta": [],
+        "dialogue": [
+            [
+                "schedule an appointment for yoga",
+                "okay scheduling an appointment for yoga"
+            ]
+        ],
+        "domain": "schedule",
+        "gold_ent": [
+            [
+                "yoga"
+            ]
+        ]
+    },
+    {
+        "meta": [
+            "yoga_activity time 5pm",
+            "yoga_activity date the_5th",
+            "yoga_activity party father",
+            "dinner time 5pm",
+            "dinner date the_5th",
+            "dinner party tom",
+            "swimming_activity time 2pm",
+            "swimming_activity date the_8th",
+            "swimming_activity party mother",
+            "conference time 9am",
+            "conference date the_13th",
+            "conference party hr",
+            "conference room 100_conference_room",
+            "conference agenda discuss_dress_code",
+            "doctor_appointment time 11am",
+            "doctor_appointment date the_4th",
+            "doctor_appointment party jon",
+            "lab_appointment time 9am",
+            "lab_appointment date the_5th",
+            "lab_appointment party alex"
+        ],
+        "dialogue": [
+            [
+                "please give me information about my conference",
+                "you have a conference on the_13th at 9am with hr"
+            ],
+            [
+                "thanks",
+                "happy to help"
+            ]
+        ],
+        "domain": "schedule",
+        "gold_ent": [
+            [
+                "hr",
+                "9am",
+                "the_13th",
+                "conference"
+            ],
+            []
+        ]
+    },
+    {
+        "meta": [
+            "meeting time 2pm",
+            "meeting date thursday",
+            "meeting party sales_team",
+            "meeting room conference_room_100",
+            "meeting agenda discuss_the_merger",
+            "dinner time 5pm",
+            "dinner date thursday",
+            "conference time 11am",
+            "conference date wednesday",
+            "conference party hr",
+            "conference room conference_room_100",
+            "conference agenda discuss_the_company_picnic",
+            "lab_appointment time 7pm",
+            "lab_appointment date wednesday",
+            "optometrist_appointment time 2pm",
+            "optometrist_appointment date thursday",
+            "doctor_appointment time 2pm",
+            "doctor_appointment date tuesday"
+        ],
+        "dialogue": [
+            [
+                "what time is my meeting tomorrow and what is the agenda",
+                "your meeting is scheduled for 2pm tomorrow the agenda is to discuss_the_merger"
+            ],
+            [
+                "thanks",
+                "you are welcome"
+            ],
+            [
+                "thanks again",
+                "you are welcome"
+            ]
+        ],
+        "domain": "schedule",
+        "gold_ent": [
+            [
+                "tomorrow",
+                "discuss_the_merger",
+                "2pm",
+                "meeting"
+            ],
+            [],
+            []
+        ]
+    },
+    {
+        "meta": [],
+        "dialogue": [
+            [
+                "schedule a lab_appointment at 6pm on august 3 alex is coming along",
+                "reminder set for lab_appointment at 6pm on august 3 with alex"
+            ]
+        ],
+        "domain": "schedule",
+        "gold_ent": [
+            [
+                "alex",
+                "lab_appointment",
+                "6pm"
+            ]
+        ]
+    },
+    {
+        "meta": [
+            "optometrist_appointment time 11am",
+            "optometrist_appointment date tuesday",
+            "doctor_appointment time 10am",
+            "doctor_appointment date thursday",
+            "football_activity time 2pm",
+            "football_activity date thursday",
+            "dentist time 3pm",
+            "dentist date tuesday",
+            "dentist_appointment time 2pm",
+            "dentist_appointment date wednesday",
+            "tennis_activity time 7pm",
+            "tennis_activity date monday"
+        ],
+        "dialogue": [
+            [
+                "can you tell me the next day that i have an appointment with the eye doctor",
+                "your next appointment with your optometrist is tuesday at 11am"
+            ]
+        ],
+        "domain": "schedule",
+        "gold_ent": [
+            [
+                "11am",
+                "optometrist",
+                "tuesday"
+            ]
+        ]
+    },
+    {
+        "meta": [
+            "meeting time 6pm",
+            "meeting date friday",
+            "meeting party executive_team",
+            "meeting room conference_room_50",
+            "meeting agenda discuss_dress_code",
+            "doctor_appointment time 4pm",
+            "doctor_appointment date wednesday",
+            "doctor_appointment party tom",
+            "football_activity time 6pm",
+            "football_activity date monday",
+            "football_activity party alex",
+            "dinner time 8pm",
+            "dinner date the_5th",
+            "dinner party marie",
+            "football_activity time 5pm",
+            "football_activity date saturday",
+            "football_activity party ana",
+            "football_activity time 9am",
+            "football_activity date the_13th",
+            "football_activity party alex",
+            "dentist_appointment time 10am",
+            "dentist_appointment date wednesday",
+            "dentist_appointment party aunt",
+            "football_activity time 1pm",
+            "football_activity date wednesday",
+            "football_activity party jeff"
+        ],
+        "dialogue": [
+            [
+                "when s the football_activity and who s attending ?",
+                "you have four football_activity scheduled , one on monday at 6pm with alex , one on the_13th at 9am with alex , one on wednesday at 1pm with jeff , and one on saturday at 5pm with ana"
+            ],
+            [
+                "thanks",
+                "you are welcome"
+            ]
+        ],
+        "domain": "schedule",
+        "gold_ent": [
+            [
+                "9am",
+                "wednesday",
+                "jeff",
+                "1pm",
+                "the_13th",
+                "saturday",
+                "5pm",
+                "monday",
+                "alex",
+                "ana",
+                "football_activity",
+                "6pm"
+            ],
+            []
+        ]
+    },
+    {
+        "meta": [],
+        "dialogue": [
+            [
+                "set a reminder for a football_activity at 10am , on friday , with tom",
+                "okay , scheduling a football_activity with tom for friday at 10am"
+            ],
+            [
+                "thanks for your help",
+                "happy to help"
+            ]
+        ],
+        "domain": "schedule",
+        "gold_ent": [
+            [
+                "friday",
+                "tom",
+                "football_activity",
+                "10am"
+            ],
+            []
+        ]
+    },
+    {
+        "meta": [],
+        "dialogue": [
+            [
+                "set reminder for doctor_appointment for the tenth",
+                "okay setting reminder for doctor_appointment on the tenth , would you like me to include a time ?"
+            ],
+            [
+                "yes , please 1pm",
+                "great , i ve set your doctor_appointment for the_12th at 1pm"
+            ]
+        ],
+        "domain": "schedule",
+        "gold_ent": [
+            [
+                "doctor_appointment"
+            ],
+            [
+                "1pm",
+                "the_12th",
+                "doctor_appointment"
+            ]
+        ]
+    },
+    {
+        "meta": [
+            "meeting time 9am",
+            "meeting date the_8th",
+            "meeting party infrastructure_team",
+            "meeting room conference_room_100",
+            "meeting agenda discuss_dress_code",
+            "dinner time 6pm",
+            "dinner date tuesday",
+            "dinner party marie",
+            "football_activity time 11am",
+            "football_activity date the_10th",
+            "football_activity party martha",
+            "swimming_activity time 1pm",
+            "swimming_activity date the_5th",
+            "swimming_activity party father",
+            "doctor_appointment time 5pm",
+            "doctor_appointment date monday",
+            "doctor_appointment party brother",
+            "lab_appointment time 1pm",
+            "lab_appointment date tuesday",
+            "lab_appointment party brother"
+        ],
+        "dialogue": [
+            [
+                "what day is the swimming party and who will be attending ?",
+                "your swimming_activity is on the_5th , with your father"
+            ],
+            [
+                "thanks !",
+                "happy to help"
+            ]
+        ],
+        "domain": "schedule",
+        "gold_ent": [
+            [
+                "swimming_activity",
+                "father",
+                "the_5th"
+            ],
+            []
+        ]
+    },
+    {
+        "meta": [
+            "taking_medicine time 4pm",
+            "taking_medicine date wednesday",
+            "taking_medicine party tom",
+            "lab_appointment time 2pm",
+            "lab_appointment date the_20th",
+            "lab_appointment party alex",
+            "swimming_activity time 7pm",
+            "swimming_activity date the_16th",
+            "swimming_activity party martha",
+            "optometrist_appointment time 1pm",
+            "optometrist_appointment date the_16th",
+            "optometrist_appointment party father",
+            "optometrist_appointment time 10am",
+            "optometrist_appointment date the_14th",
+            "optometrist_appointment party martha",
+            "taking_medicine time 3pm",
+            "taking_medicine date the_2nd",
+            "taking_medicine party marie",
+            "lab_appointment time 7pm",
+            "lab_appointment date the_12th",
+            "lab_appointment party jon",
+            "swimming_activity time 4pm",
+            "swimming_activity date the_15th",
+            "swimming_activity party mother"
+        ],
+        "dialogue": [
+            [
+                "what time is my lab_appointment and who will be attending ?",
+                "your lab_appointment is at 7pm with jon and another one at 2pm with alex"
+            ],
+            [
+                "thanks !",
+                "my pleasure"
+            ]
+        ],
+        "domain": "schedule",
+        "gold_ent": [
+            [
+                "2pm",
+                "7pm",
+                "jon",
+                "alex",
+                "lab_appointment"
+            ],
+            []
+        ]
+    },
+    {
+        "meta": [
+            "optometrist_appointment time 11am",
+            "optometrist_appointment date sunday",
+            "optometrist_appointment party jon",
+            "meeting time 1pm",
+            "meeting date the_17th",
+            "meeting party infrastructure_team",
+            "meeting room conference_room_50",
+            "meeting agenda discuss_dress_code",
+            "doctor_appointment time 1pm",
+            "doctor_appointment date the_5th",
+            "doctor_appointment party brother",
+            "doctor_appointment time 11am",
+            "doctor_appointment date the_15th",
+            "doctor_appointment party father",
+            "football_activity time 10am",
+            "football_activity date the_3rd",
+            "football_activity party brother",
+            "meeting time 2pm",
+            "meeting date the_5th",
+            "meeting party boss",
+            "meeting room conference_room_50",
+            "meeting agenda sign_the_nda",
+            "football_activity time 6pm",
+            "football_activity date the_17th",
+            "football_activity party ana",
+            "conference time 4pm",
+            "conference date wednesday",
+            "conference party vice_president",
+            "conference room conference_room_102",
+            "conference agenda onboard_new_members"
+        ],
+        "dialogue": [
+            [
+                "what is the date and time of my next meeting and who will be attending it ?",
+                "your next meeting is with your boss on the_5th at 2pm"
+            ],
+            [
+                "thank you",
+                "you are welcome"
+            ]
+        ],
+        "domain": "schedule",
+        "gold_ent": [
+            [
+                "boss",
+                "the_5th",
+                "2pm",
+                "meeting"
+            ],
+            []
+        ]
+    },
+    {
+        "meta": [
+            "tennis_activity time 9am",
+            "tennis_activity date the_11th",
+            "tennis_activity party father",
+            "football_activity time 2pm",
+            "football_activity date the_18th",
+            "football_activity party martha",
+            "doctor_appointment time 7pm",
+            "doctor_appointment date the_11th",
+            "doctor_appointment party father",
+            "swimming_activity time 7pm",
+            "swimming_activity date the_12th",
+            "swimming_activity party sister",
+            "taking_medicine time 10am",
+            "taking_medicine date wednesday",
+            "taking_medicine party tom",
+            "doctor_appointment time 5pm",
+            "doctor_appointment date sunday",
+            "doctor_appointment party tom",
+            "swimming_activity time 6pm",
+            "swimming_activity date the_14th",
+            "swimming_activity party father",
+            "yoga_activity time 6pm",
+            "yoga_activity date the_18th",
+            "yoga_activity party alex"
+        ],
+        "dialogue": [
+            [
+                "i need to find out the date and time for my swimming_activity !",
+                "i have two , which one ? i have one for the_14th at 6pm and one for the_12th at 7pm"
+            ],
+            [
+                "thanks !",
+                "anytime !"
+            ]
+        ],
+        "domain": "schedule",
+        "gold_ent": [
+            [
+                "the_14th",
+                "7pm",
+                "the_12th",
+                "6pm"
+            ],
+            []
+        ]
+    },
+    {
+        "meta": [],
+        "dialogue": [
+            [
+                "schedule a meeting at 6pm on the_5th of this month with boss to go_over_quarterly_report",
+                "okay , scheduling a meeting with your boss to go_over_quarterly_report on the_5th at 6pm"
+            ]
+        ],
+        "domain": "schedule",
+        "gold_ent": [
+            [
+                "go_over_quarterly_report",
+                "the_5th",
+                "meeting",
+                "boss",
+                "6pm"
+            ]
+        ]
+    },
+    {
+        "meta": [],
+        "dialogue": [
+            [
+                "remind me about my lab_appointment",
+                "what date is your appointment ?"
+            ],
+            [
+                "my doctor_appointment is at 7pm on monday the_1st",
+                "a reminder has been set for your doctor_appointment at 7pm on monday"
+            ],
+            [
+                "ok , thanks",
+                "no problem"
+            ]
+        ],
+        "domain": "schedule",
+        "gold_ent": [
+            [],
+            [
+                "monday",
+                "7pm",
+                "doctor_appointment"
+            ],
+            []
+        ]
+    },
+    {
+        "meta": [
+            "football_activity time 9am",
+            "football_activity date the_11th",
+            "football_activity party mother",
+            "dinner time 8pm",
+            "dinner date friday",
+            "dinner party alex",
+            "taking_medicine time 3pm",
+            "taking_medicine date the_20th",
+            "taking_medicine party aunt",
+            "football_activity time 7pm",
+            "football_activity date the_14th",
+            "football_activity party marie",
+            "yoga_activity time 5pm",
+            "yoga_activity date monday",
+            "yoga_activity party alex",
+            "football_activity time 6pm",
+            "football_activity date the_17th",
+            "football_activity party jeff",
+            "yoga_activity time 4pm",
+            "yoga_activity date the_5th",
+            "yoga_activity party aunt",
+            "lab_appointment time 4pm",
+            "lab_appointment date the_18th",
+            "lab_appointment party father"
+        ],
+        "dialogue": [
+            [
+                "what is the date and time for my yoga_activity ?",
+                "you have two yoga_activity scheduled one on monday at 5pm and another on the_5th at 4pm"
+            ],
+            [
+                "thank you",
+                "have a great day"
+            ]
+        ],
+        "domain": "schedule",
+        "gold_ent": [
+            [
+                "4pm",
+                "yoga_activity",
+                "the_5th",
+                "5pm",
+                "monday"
+            ],
+            []
+        ]
+    },
+    {
+        "meta": [],
+        "dialogue": [
+            [
+                "remind me about tennis at 10am at the end of march with martha",
+                "okay a reminder is set for tennis with martha at 10am what is the date for the scheduled tennis event ?"
+            ],
+            [
+                "just set it for the end of march",
+                "ok setting reminder for your tennis with martha at 10am for the last week of march"
+            ],
+            [
+                "thanks",
+                "you are welcome"
+            ]
+        ],
+        "domain": "schedule",
+        "gold_ent": [
+            [
+                "tennis",
+                "martha",
+                "10am"
+            ],
+            [
+                "tennis",
+                "martha",
+                "week",
+                "10am"
+            ],
+            []
+        ]
+    },
+    {
+        "meta": [],
+        "dialogue": [
+            [
+                "schedule a conference with the executive_team for the_15th of this month at 9am",
+                "okay , scheduling a conference with the executive_team for the_15th at 9am"
+            ],
+            [
+                "thanks",
+                "you are welcome friend"
+            ]
+        ],
+        "domain": "schedule",
+        "gold_ent": [
+            [
+                "9am",
+                "executive_team",
+                "the_15th",
+                "conference"
+            ],
+            []
+        ]
+    }
+]

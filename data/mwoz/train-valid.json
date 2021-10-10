@@ -1,0 +1,1434 @@
+[
+    {
+        "meta": [
+            [
+                "train-day=tuesday\ttrain-departure=leicester"
+            ],
+            [
+                "train-leaveat=11:15"
+            ],
+            [
+                "train-destination=cambridge"
+            ],
+            [
+                "train-book_people=4"
+            ],
+            []
+        ],
+        "dialogue": [
+            [
+                "i would like to find a train tuesday departing from leicester .",
+                "i have 19 trains departing on tuesday from leicester , i can narrow it down a bit if you have a preferred time to leave at or arrive by ."
+            ],
+            [
+                "i would like to leave after 11:15 .",
+                "i have many available . is your destination cambridge or do you have another location in mind ?"
+            ],
+            [
+                "yes i would like to go from leicester to cambridge and leave after 11:15 please .",
+                "the first available train leaving after 11:15 would be train tr4354 which departs at 12:09 and arrives at 13:54 . would you like me to book you a ticket for this train ?"
+            ],
+            [
+                "yes i'll need 4 tickets please .",
+                "perfect . i was able to book for tickets on that train and your reference number for the journey is plynp1vg . anything else i can help you with ?"
+            ],
+            [
+                "no , you have been very helpful . goodnight .",
+                "none"
+            ]
+        ],
+        "state": [
+            "none",
+            "train-day=tuesday\ttrain-departure=leicester",
+            "train-leaveat=11:15\ttrain-day=tuesday\ttrain-departure=leicester",
+            "train-leaveat=11:15\ttrain-destination=cambridge\ttrain-day=tuesday\ttrain-departure=leicester",
+            "train-book_people=4\ttrain-leaveat=11:15\ttrain-destination=cambridge\ttrain-day=tuesday\ttrain-departure=leicester",
+            "train-book_people=4\ttrain-leaveat=11:15\ttrain-destination=cambridge\ttrain-day=tuesday\ttrain-departure=leicester"
+        ],
+        "dial_id": "SNG0314.json"
+    },
+    {
+        "meta": [
+            [],
+            [
+                "train-leaveat=16:00\ttrain-day=friday\ttrain-departure=peterborough"
+            ],
+            [
+                "train-arriveby=20:45"
+            ],
+            [],
+            [],
+            [
+                "train-leaveat=16:00"
+            ]
+        ],
+        "dialogue": [
+            [
+                "i need to what trains are leaving friday evening .",
+                "where are you looking to depart from ?"
+            ],
+            [
+                "i am leaving from peterborough .",
+                "there are 2 trains an hour leaving peterborough all evening . do you know what time you plan to leave ?"
+            ],
+            [
+                "not really . i want to get there by 20:45 though .",
+                "tr4182 leaves peterborough at 18:19 and arrives in cambridge at 19:09 . will this work for you ?"
+            ],
+            [
+                "yes , that s perfect . what is the price ?",
+                "the price is 16.50 pounds ."
+            ],
+            [
+                "thank you very much . that is all for today .",
+                "are you certain you do not need further assistance ?"
+            ],
+            [
+                "yes i am sure . thank you .",
+                "none"
+            ]
+        ],
+        "state": [
+            "none",
+            "",
+            "train-leaveat=16:00\ttrain-day=friday\ttrain-departure=peterborough",
+            "train-leaveat=16:00\ttrain-day=friday\ttrain-arriveby=20:45\ttrain-departure=peterborough",
+            "train-leaveat=16:00\ttrain-day=friday\ttrain-arriveby=20:45\ttrain-departure=peterborough",
+            "train-leaveat=16:00\ttrain-day=friday\ttrain-arriveby=20:45\ttrain-departure=peterborough",
+            "train-day=friday\ttrain-arriveby=20:45\ttrain-departure=peterborough"
+        ],
+        "dial_id": "SNG0271.json"
+    },
+    {
+        "meta": [
+            [
+                "train-destination=cambridge\ttrain-day=saturday\ttrain-departure=peterborough"
+            ],
+            [
+                "train-arriveby=12:45"
+            ],
+            [],
+            [
+                "train-book_people=7\ttrain-leaveat=11:48"
+            ],
+            []
+        ],
+        "dialogue": [
+            [
+                "i need a train to cambridge on saturday . i'll be departing from peterborough .",
+                "in order for me to find the best train to suit you , can you provide me with a preferred departure or arrival time ?"
+            ],
+            [
+                "we'd like to arrive by 12:45 .",
+                "there are 14 trains that arrive by 12:45 . what time would you like to leave ?"
+            ],
+            [
+                "what s the latest train i can take that will still get me there by 12:45 ?",
+                "the latest train leaves at 11:48 and arrives at 12:38 . the cost per ticket is 13.20 gbp . would you like to book this train ?"
+            ],
+            [
+                "yes , for 7 people . please give me reference number .",
+                "perfect . i have booked your trip . reference # k3mjohzk ."
+            ],
+            [
+                "great ! thanks ! that s all i needed !",
+                "none"
+            ]
+        ],
+        "state": [
+            "none",
+            "train-destination=cambridge\ttrain-day=saturday\ttrain-departure=peterborough",
+            "train-destination=cambridge\ttrain-day=saturday\ttrain-arriveby=12:45\ttrain-departure=peterborough",
+            "train-destination=cambridge\ttrain-day=saturday\ttrain-arriveby=12:45\ttrain-departure=peterborough",
+            "train-book_people=7\ttrain-leaveat=11:48\ttrain-destination=cambridge\ttrain-day=saturday\ttrain-arriveby=12:45\ttrain-departure=peterborough",
+            "train-book_people=7\ttrain-leaveat=11:48\ttrain-destination=cambridge\ttrain-day=saturday\ttrain-arriveby=12:45\ttrain-departure=peterborough"
+        ],
+        "dial_id": "SNG0414.json"
+    },
+    {
+        "meta": [
+            [
+                "train-day=saturday\ttrain-departure=leicester"
+            ],
+            [
+                "train-leaveat=12:00\ttrain-destination=cambridge"
+            ],
+            [],
+            []
+        ],
+        "dialogue": [
+            [
+                "i would like to find a train from leiceter on saturday .",
+                "where will you be heading ?"
+            ],
+            [
+                "i am going to cambridge and need to leave after 12:00",
+                "the tr7248 leaves at 12:09 , would you like a ticket on that train ?"
+            ],
+            [
+                "i do not need to book just yet . but can i get the arrival time and price per ticket .",
+                "yes the train arrives in cambridge at 13:54 and the total cost of the journey is 30.24 pounds ."
+            ],
+            [
+                "okay great . that is all i needed to know .",
+                "none"
+            ]
+        ],
+        "state": [
+            "none",
+            "train-day=saturday\ttrain-departure=leicester",
+            "train-leaveat=12:00\ttrain-destination=cambridge\ttrain-day=saturday\ttrain-departure=leicester",
+            "train-leaveat=12:00\ttrain-destination=cambridge\ttrain-day=saturday\ttrain-departure=leicester",
+            "train-leaveat=12:00\ttrain-destination=cambridge\ttrain-day=saturday\ttrain-departure=leicester"
+        ],
+        "dial_id": "SNG0329.json"
+    },
+    {
+        "meta": [
+            [
+                "train-destination=stevenage"
+            ],
+            [
+                "train-departure=stevenage\ttrain-destination=stevenage"
+            ],
+            [
+                "train-leaveat=20:30\ttrain-day=tuesday"
+            ],
+            [
+                "train-book_people=1"
+            ],
+            [],
+            []
+        ],
+        "dialogue": [
+            [
+                "i am looking for a train departing from stevenage .",
+                "where will you be leaving from ?"
+            ],
+            [
+                "stevenage , on tuesday .",
+                "what time are you looking to depart ?"
+            ],
+            [
+                "i am leaving at 20:30 .",
+                "okay , i have 2 trains that might work . tr9084 departs at 21:54 and tr3606 leaves at 23:54 . both have a duration of 49 minutes and cost 12.80 pounds . anything else today ?"
+            ],
+            [
+                "let s go with tr9084 , please .",
+                "okay i have booked that for you and your reference number is 6grn0msa . anything else i can do for you ?"
+            ],
+            [
+                "no that is all thank you very much .",
+                "thank you for using our service . have all of your needs been met ?"
+            ],
+            [
+                "yes , thank you very much .",
+                "none"
+            ]
+        ],
+        "state": [
+            "none",
+            "train-destination=stevenage",
+            "train-departure=stevenage",
+            "train-leaveat=20:30\ttrain-day=tuesday\ttrain-departure=stevenage",
+            "train-book_people=1\ttrain-leaveat=20:30\ttrain-day=tuesday\ttrain-departure=stevenage",
+            "train-book_people=1\ttrain-leaveat=20:30\ttrain-day=tuesday\ttrain-departure=stevenage",
+            "train-book_people=1\ttrain-leaveat=20:30\ttrain-day=tuesday\ttrain-departure=stevenage"
+        ],
+        "dial_id": "SNG0340.json"
+    },
+    {
+        "meta": [
+            [
+                "train-day=wednesday\ttrain-departure=london kings cross"
+            ],
+            [
+                "train-arriveby=13:30"
+            ],
+            [],
+            [],
+            [],
+            []
+        ],
+        "dialogue": [
+            [
+                "i am looking for a train from london kings cross and leaves on wednesday",
+                "there are 10 train departures that may match your needs . the earliest train departs at 5:17 . does this work for you or would you like a different time in particular ?"
+            ],
+            [
+                "i am looking to book a train that arrives by 13:30 . are there any that fit that description ?",
+                "yes , tr2417 arrives at 12:08 . would you like me to book it ?"
+            ],
+            [
+                "no , i just need to know how much it is .",
+                "tr2417 is 23.60 pounds , would you like to book a seat ?"
+            ],
+            [
+                "sounds great . is tr2417 the train id ?",
+                "yes it is ."
+            ],
+            [
+                "i will also need the departure time please .",
+                "tr2417 departs at 11:17 . do you need any further assistance ?"
+            ],
+            [
+                "no , i think we have covered everything . thank you so much for all of your help .",
+                "none"
+            ]
+        ],
+        "state": [
+            "none",
+            "train-day=wednesday\ttrain-departure=london kings cross",
+            "train-day=wednesday\ttrain-arriveby=13:30\ttrain-departure=london kings cross",
+            "train-day=wednesday\ttrain-arriveby=13:30\ttrain-departure=london kings cross",
+            "train-day=wednesday\ttrain-arriveby=13:30\ttrain-departure=london kings cross",
+            "train-day=wednesday\ttrain-arriveby=13:30\ttrain-departure=london kings cross",
+            "train-day=wednesday\ttrain-arriveby=13:30\ttrain-departure=london kings cross"
+        ],
+        "dial_id": "SNG01553.json"
+    },
+    {
+        "meta": [
+            [
+                "train-destination=cambridge\ttrain-arriveby=15:30"
+            ],
+            [
+                "train-day=monday\ttrain-departure=stevenage"
+            ],
+            [],
+            [
+                "train-book_people=8"
+            ],
+            []
+        ],
+        "dialogue": [
+            [
+                "hi i am looking for a train that will take me to cambridge . i want to get there by 15:30 .",
+                "what day would you like to travel and which station do you wish to depart from ?"
+            ],
+            [
+                "i am leaving from stevenage and i would like to travel on monday .",
+                "very well . what time would you like to depart ?"
+            ],
+            [
+                "it does not matter when i depart . i just need to arrive in cambridge by 15:30 . i will have 8 people .",
+                "tr9013 will arrive in cambridge by 14:43 , does this work for you ? would you like to book a ticket ?"
+            ],
+            [
+                "yes for 8 people and i will require a reference number .",
+                "great , i have your 8 tickets booked for the tr9013 . the reference number for this is 9vdnjcy8 . is there anything else i can help you with ?"
+            ],
+            [
+                "that is all . thank you very much !",
+                "none"
+            ]
+        ],
+        "state": [
+            "none",
+            "train-destination=cambridge\ttrain-arriveby=15:30",
+            "train-destination=cambridge\ttrain-day=monday\ttrain-arriveby=15:30\ttrain-departure=stevenage",
+            "train-destination=cambridge\ttrain-day=monday\ttrain-arriveby=15:30\ttrain-departure=stevenage",
+            "train-book_people=8\ttrain-destination=cambridge\ttrain-day=monday\ttrain-arriveby=15:30\ttrain-departure=stevenage",
+            "train-book_people=8\ttrain-destination=cambridge\ttrain-day=monday\ttrain-arriveby=15:30\ttrain-departure=stevenage"
+        ],
+        "dial_id": "SNG0369.json"
+    },
+    {
+        "meta": [
+            [
+                "train-destination=cambridge\ttrain-arriveby=19:30"
+            ],
+            [
+                "train-departure=ely"
+            ],
+            [],
+            []
+        ],
+        "dialogue": [
+            [
+                "i would like a train to cambridge that arrives by 19:30 .",
+                "where are you departing from ?"
+            ],
+            [
+                "i am departing from ely .",
+                "do you have a day you would like to travel ?"
+            ],
+            [
+                "yes , wednesday . i also need the departure time and price , please .",
+                "the latest train arrives at 17:52 on a wednesday , departs at 17:35 and the cost of the ticket is 4.40 pounds ."
+            ],
+            [
+                "okay that is all i need to know for now .",
+                "none"
+            ]
+        ],
+        "state": [
+            "none",
+            "train-destination=cambridge\ttrain-arriveby=19:30",
+            "train-destination=cambridge\ttrain-arriveby=19:30\ttrain-departure=ely",
+            "train-destination=cambridge\ttrain-arriveby=19:30\ttrain-departure=ely",
+            "train-destination=cambridge\ttrain-arriveby=19:30\ttrain-departure=ely"
+        ],
+        "dial_id": "SNG0368.json"
+    },
+    {
+        "meta": [
+            [
+                "train-book_people=1\ttrain-day=friday\ttrain-departure=london liverpool street"
+            ],
+            [],
+            [],
+            []
+        ],
+        "dialogue": [
+            [
+                "i need a train leaving from london liverpool street on friday .",
+                "booking was successful , the total fee is 16.6 gbp payable at the station . reference number is : h58i0wc3 ."
+            ],
+            [
+                "please review your trip itinerary",
+                "the train departs liverpool street on friday at 05:39 and arrives in cambridge at 07:07 . is there anything else i can assist you with ?"
+            ],
+            [
+                "how long is the travel time for that train ?",
+                "88 minutes to travel"
+            ],
+            [
+                "thanks , that will be all . goodbye .",
+                "none"
+            ]
+        ],
+        "state": [
+            "none",
+            "train-book_people=1\ttrain-day=friday\ttrain-departure=london liverpool street",
+            "train-book_people=1\ttrain-day=friday\ttrain-departure=london liverpool street",
+            "train-book_people=1\ttrain-day=friday\ttrain-departure=london liverpool street",
+            "train-book_people=1\ttrain-day=friday\ttrain-departure=london liverpool street"
+        ],
+        "dial_id": "SNG01974.json"
+    },
+    {
+        "meta": [
+            [
+                "train-destination=cambridge"
+            ],
+            [],
+            [
+                "train-arriveby=14:00"
+            ],
+            [],
+            [
+                "train-departure=bishops stortford"
+            ],
+            [
+                "train-day=tuesday"
+            ],
+            [
+                "train-book_people=2"
+            ],
+            [],
+            []
+        ],
+        "dialogue": [
+            [
+                "hi there , i am looking for a train going to cambridge .",
+                "i need to narrow down the search for you . where are you heading ?"
+            ],
+            [
+                "as i said , i am heading to cambridge .",
+                "i am sorry , to help narrow down the results please reply with where you will be departing from and your requested arrival and departure time ."
+            ],
+            [
+                "i need to arrive by 14:00",
+                "there is a train depart at 13:11 and arrive by 13:58 . would that work for you ?"
+            ],
+            [
+                "yes , what is the id ?",
+                "please confirm where you are coming from . are you leaving from london king s cross station ? or from somewhere else ?"
+            ],
+            [
+                "oh , i'll be departing from bishops stortford , yes , thanks .",
+                "tr0516 arrives at 12:07 , would you like to reserve seats ?"
+            ],
+            [
+                "yes please . i would like to travel on tuesday",
+                "i am sorry for the mix up , train tr0516 is not available on tuesday . i do have tr4173 available but it arrives in cambridge at 12:07 . will this work ?"
+            ],
+            [
+                "yes , please book for 2 people . and",
+                "you are booked . you will pay 20.2 pounds at the station . your reference number is es8zdmr2 . may i help with anything further ?"
+            ],
+            [
+                "no , thank you . that s all . thanks !",
+                "thanks a lot"
+            ],
+            [
+                "have a great day .",
+                "none"
+            ]
+        ],
+        "state": [
+            "none",
+            "train-destination=cambridge",
+            "train-destination=cambridge",
+            "train-destination=cambridge\ttrain-arriveby=14:00",
+            "train-destination=cambridge\ttrain-arriveby=14:00",
+            "train-destination=cambridge\ttrain-arriveby=14:00\ttrain-departure=bishops stortford",
+            "train-destination=cambridge\ttrain-day=tuesday\ttrain-arriveby=14:00\ttrain-departure=bishops stortford",
+            "train-book_people=2\ttrain-destination=cambridge\ttrain-day=tuesday\ttrain-arriveby=14:00\ttrain-departure=bishops stortford",
+            "train-book_people=2\ttrain-destination=cambridge\ttrain-day=tuesday\ttrain-arriveby=14:00\ttrain-departure=bishops stortford",
+            "train-book_people=2\ttrain-destination=cambridge\ttrain-day=tuesday\ttrain-arriveby=14:00\ttrain-departure=bishops stortford"
+        ],
+        "dial_id": "SNG01839.json"
+    },
+    {
+        "meta": [
+            [
+                "train-leaveat=16:45\ttrain-day=monday"
+            ],
+            [
+                "train-destination=cambridge\ttrain-departure=stevenage"
+            ],
+            [
+                "train-book_people=7"
+            ],
+            [],
+            [],
+            []
+        ],
+        "dialogue": [
+            [
+                "i am looking for a train . the train should leave on monday and should leave after 16:45",
+                "where are you going and where are you headed ?"
+            ],
+            [
+                "the train should leave on monday and should leave after 16:45 , departing from stevenage and should go to cambridge .",
+                "i have a train that departs at 17:54 and meets your criteria . would you like me to book it for you ?"
+            ],
+            [
+                "can you book passage for 7 people , please ?",
+                "booking was successful , the total fee is 89.6 gbp payable at the station . reference number is : 3fdgdhds ."
+            ],
+            [
+                "thank you for your help .",
+                "you are more than welcome !"
+            ],
+            [
+                "have a wonderful day !",
+                "thank you for using our services . do you need any further assistance ?"
+            ],
+            [
+                "no that was all . goodbye .",
+                "none"
+            ]
+        ],
+        "state": [
+            "none",
+            "train-leaveat=16:45\ttrain-day=monday",
+            "train-leaveat=16:45\ttrain-destination=cambridge\ttrain-day=monday\ttrain-departure=stevenage",
+            "train-book_people=7\ttrain-leaveat=16:45\ttrain-destination=cambridge\ttrain-day=monday\ttrain-departure=stevenage",
+            "train-book_people=7\ttrain-leaveat=16:45\ttrain-destination=cambridge\ttrain-day=monday\ttrain-departure=stevenage",
+            "train-book_people=7\ttrain-leaveat=16:45\ttrain-destination=cambridge\ttrain-day=monday\ttrain-departure=stevenage",
+            "train-book_people=7\ttrain-leaveat=16:45\ttrain-destination=cambridge\ttrain-day=monday\ttrain-departure=stevenage"
+        ],
+        "dial_id": "SNG02221.json"
+    },
+    {
+        "meta": [
+            [
+                "train-destination=cambridge\ttrain-departure=norwich"
+            ],
+            [
+                "train-day=tuesday\ttrain-arriveby=13:30"
+            ],
+            [],
+            [],
+            [],
+            []
+        ],
+        "dialogue": [
+            [
+                "i am looking for a train from norwich to cambridge .",
+                "what day would you like to leave and is there a particular time you would like to arrive by ?"
+            ],
+            [
+                "i would like to leave on tuesday and arrive by 13:30 .",
+                "i am sorry there are not trains to arrive at 13.31 . the first train leaves at 5:16 and arrives at 6:35 . the trains depart every hour ."
+            ],
+            [
+                "ill just take earliest train then please .",
+                "how many tickets would you like ?"
+            ],
+            [
+                "i do not need you to reserve it but i do need the train info and the travel time .",
+                "the train id is tr0839 and it leave at 11:16 and arrives by 12:35 ."
+            ],
+            [
+                "can you tell me what the total travel time for that is ?",
+                "the total travel time is 79 minutes ."
+            ],
+            [
+                "thank you . that s all i need .",
+                "none"
+            ]
+        ],
+        "state": [
+            "none",
+            "train-destination=cambridge\ttrain-departure=norwich",
+            "train-destination=cambridge\ttrain-day=tuesday\ttrain-arriveby=13:30\ttrain-departure=norwich",
+            "train-destination=cambridge\ttrain-day=tuesday\ttrain-arriveby=13:30\ttrain-departure=norwich",
+            "train-destination=cambridge\ttrain-day=tuesday\ttrain-arriveby=13:30\ttrain-departure=norwich",
+            "train-destination=cambridge\ttrain-day=tuesday\ttrain-arriveby=13:30\ttrain-departure=norwich",
+            "train-destination=cambridge\ttrain-day=tuesday\ttrain-arriveby=13:30\ttrain-departure=norwich"
+        ],
+        "dial_id": "SNG0299.json"
+    },
+    {
+        "meta": [
+            [
+                "train-leaveat=21:45\ttrain-day=friday"
+            ],
+            [
+                "train-destination=stansted airport\ttrain-departure=cambridge"
+            ],
+            [],
+            [],
+            [],
+            []
+        ],
+        "dialogue": [
+            [
+                "i am looking for a train on friday that leaves after 21:45 .",
+                "sure . where are you leaving from ?"
+            ],
+            [
+                "i'll be leaving from cambridge and i want to go to stansted airport .",
+                "for an arrival of what time ?"
+            ],
+            [
+                "i need to leave after 21:45 .",
+                "how about tr3864 , which leaves at 22:40 ? they arrive at 23:08 ."
+            ],
+            [
+                "yes how long is the journey please ?",
+                "the travel time for that train will be 28 minutes ."
+            ],
+            [
+                "alright . thank you very much",
+                "may i help with anything else ?"
+            ],
+            [
+                "no , that s it for now . have a good day . bye !",
+                "none"
+            ]
+        ],
+        "state": [
+            "none",
+            "train-leaveat=21:45\ttrain-day=friday",
+            "train-leaveat=21:45\ttrain-destination=stansted airport\ttrain-day=friday\ttrain-departure=cambridge",
+            "train-leaveat=21:45\ttrain-destination=stansted airport\ttrain-day=friday\ttrain-departure=cambridge",
+            "train-leaveat=21:45\ttrain-destination=stansted airport\ttrain-day=friday\ttrain-departure=cambridge",
+            "train-leaveat=21:45\ttrain-destination=stansted airport\ttrain-day=friday\ttrain-departure=cambridge",
+            "train-leaveat=21:45\ttrain-destination=stansted airport\ttrain-day=friday\ttrain-departure=cambridge"
+        ],
+        "dial_id": "SNG0331.json"
+    },
+    {
+        "meta": [
+            [
+                "train-day=sunday\ttrain-arriveby=20:45"
+            ],
+            [
+                "train-destination=leicester\ttrain-departure=cambridge"
+            ],
+            [],
+            [],
+            []
+        ],
+        "dialogue": [
+            [
+                "hi , i am looking for train information . it needs to leave on sunday and arrive at or around 20:45 .",
+                "there are 318 trains that fit your criteria . to narrow some information down , what is your destination , departure site and preferred departure time ?"
+            ],
+            [
+                "the train should go to leicester and should depart from cambridge . i do not care about the departure time .",
+                "there is a train leaving cambridge on sunday 05:21 , and arriving at leicester at 07:06 for 30.24 pounds . would you like me to book this for you ?"
+            ],
+            [
+                "no , thanks . what s the train id ?",
+                "the train id is tr2025 ."
+            ],
+            [
+                "thanks for the info . what else is available that arrives around 20:45 ?",
+                "no , i am sorry there is not ."
+            ],
+            [
+                "okay thank you .",
+                "none"
+            ]
+        ],
+        "state": [
+            "none",
+            "train-day=sunday\ttrain-arriveby=20:45",
+            "train-destination=leicester\ttrain-day=sunday\ttrain-arriveby=20:45\ttrain-departure=cambridge",
+            "train-destination=leicester\ttrain-day=sunday\ttrain-arriveby=20:45\ttrain-departure=cambridge",
+            "train-destination=leicester\ttrain-day=sunday\ttrain-arriveby=20:45\ttrain-departure=cambridge",
+            "train-destination=leicester\ttrain-day=sunday\ttrain-arriveby=20:45\ttrain-departure=cambridge"
+        ],
+        "dial_id": "SNG0406.json"
+    },
+    {
+        "meta": [
+            [
+                "train-destination=cambridge"
+            ],
+            [
+                "train-day=thursday\ttrain-departure=kings lynn"
+            ],
+            [
+                "train-leaveat=08:15"
+            ],
+            [],
+            [],
+            []
+        ],
+        "dialogue": [
+            [
+                "i need a train going to cambridge .",
+                "where are you leaving from ?"
+            ],
+            [
+                "the train should depart from kings lynn and should leave on thursday .",
+                "there are 19 total trips available to you"
+            ],
+            [
+                "i wish to leave after 8:15 .",
+                "how about tr3447 ?"
+            ],
+            [
+                "can i get the price and time travel please",
+                "trainid departure destination day leaveat arriveby price duration book optional tr3447 kings lynn cambridge thursday 09:11 09:58 9.80 pounds 47 minutes"
+            ],
+            [
+                "would you be able to send that in a different format ? i just need a price and travel time , that list is confusing .",
+                "sorry about that . the travel time is 47 minutes and the cost is 9.80 pounds . anything else i can do for you ?"
+            ],
+            [
+                "no , that is all . goodbye .",
+                "none"
+            ]
+        ],
+        "state": [
+            "none",
+            "train-destination=cambridge",
+            "train-destination=cambridge\ttrain-day=thursday\ttrain-departure=kings lynn",
+            "train-leaveat=08:15\ttrain-destination=cambridge\ttrain-day=thursday\ttrain-departure=kings lynn",
+            "train-leaveat=08:15\ttrain-destination=cambridge\ttrain-day=thursday\ttrain-departure=kings lynn",
+            "train-leaveat=08:15\ttrain-destination=cambridge\ttrain-day=thursday\ttrain-departure=kings lynn",
+            "train-leaveat=08:15\ttrain-destination=cambridge\ttrain-day=thursday\ttrain-departure=kings lynn"
+        ],
+        "dial_id": "SNG02346.json"
+    },
+    {
+        "meta": [
+            [
+                "train-destination=cambridge\ttrain-arriveby=18:30\ttrain-departure=peterborough"
+            ],
+            [
+                "train-day=monday"
+            ],
+            [
+                "train-book_people=1"
+            ],
+            []
+        ],
+        "dialogue": [
+            [
+                "i am in need of a train that leaves from peterborough and arrives by 18:30 .",
+                "there are several trains available . could you specify which day ?"
+            ],
+            [
+                "i would like to travel on monday and my destination is cambridge .",
+                "i have a train that leaves at 5:19 and arrives by 6:09 . does this work for you ?"
+            ],
+            [
+                "okay , can you book that for me ? i am traveling alone .",
+                "i was able to book you that ticket on train tr3021 . your total fee will be 16:5 gbp . your reference number is uc2okh53 . can i help with anything else ?"
+            ],
+            [
+                "thanks , that s all i need . have a nice day .",
+                "none"
+            ]
+        ],
+        "state": [
+            "none",
+            "train-destination=cambridge\ttrain-arriveby=18:30\ttrain-departure=peterborough",
+            "train-destination=cambridge\ttrain-day=monday\ttrain-arriveby=18:30\ttrain-departure=peterborough",
+            "train-book_people=1\ttrain-destination=cambridge\ttrain-day=monday\ttrain-arriveby=18:30\ttrain-departure=peterborough",
+            "train-book_people=1\ttrain-destination=cambridge\ttrain-day=monday\ttrain-arriveby=18:30\ttrain-departure=peterborough"
+        ],
+        "dial_id": "SNG0374.json"
+    },
+    {
+        "meta": [
+            [
+                "train-destination=stansted airport\ttrain-departure=cambridge"
+            ],
+            [
+                "train-leaveat=11:45\ttrain-day=monday"
+            ],
+            [],
+            [
+                "train-book_people=5"
+            ],
+            []
+        ],
+        "dialogue": [
+            [
+                "i am looking for a train going from cambridge to stansted airport .",
+                "i would be happy to help with that . what day and time are you traveling ?"
+            ],
+            [
+                "the train needs to leave on monday after 11:45 .",
+                "do you need to arrive by a certain time ?"
+            ],
+            [
+                "no , just the closest time after 11:45 for 5 tickets please .",
+                "tr8699 leaves at 12:40 on monday . would you like to book a ticket ?"
+            ],
+            [
+                "yes please . can i have the reference number for the booking ?",
+                "i have booked your train for 5 and your reference number is a85ftgk4 . can i help you with anything else today ?"
+            ],
+            [
+                "no , that will be all . thanks for your help .",
+                "none"
+            ]
+        ],
+        "state": [
+            "none",
+            "train-destination=stansted airport\ttrain-departure=cambridge",
+            "train-leaveat=11:45\ttrain-destination=stansted airport\ttrain-day=monday\ttrain-departure=cambridge",
+            "train-leaveat=11:45\ttrain-destination=stansted airport\ttrain-day=monday\ttrain-departure=cambridge",
+            "train-book_people=5\ttrain-leaveat=11:45\ttrain-destination=stansted airport\ttrain-day=monday\ttrain-departure=cambridge",
+            "train-book_people=5\ttrain-leaveat=11:45\ttrain-destination=stansted airport\ttrain-day=monday\ttrain-departure=cambridge"
+        ],
+        "dial_id": "SNG0422.json"
+    },
+    {
+        "meta": [
+            [
+                "train-destination=cambridge\ttrain-day=monday"
+            ],
+            [
+                "train-leaveat=19:00\ttrain-departure=london kings cross"
+            ],
+            [],
+            [
+                "restaurant-area=centre"
+            ],
+            [
+                "train-book_people=6"
+            ],
+            [],
+            []
+        ],
+        "dialogue": [
+            [
+                "i need help booking a train , please . i would like to go to cambridge on monday .",
+                "where will you be departing from ?"
+            ],
+            [
+                "i will be departing from london kings cross after 19:00 .",
+                "you are in luck ! tr8288 departs london kings cross at 19:17 , arriving in cambridge at 20:08 . the fare is 23.60 gbp . can i help with anything else today ?"
+            ],
+            [
+                "yes , can you find a close by eatery near where we arrive at ?",
+                "sure you need a restaurant ? in what part of town and what cuisine ?"
+            ],
+            [
+                "how about the center ?",
+                "i apologize . i need to know how many you need tickets for on the train so i can book your tickets ."
+            ],
+            [
+                "i need it for 6 people .",
+                "booked ! you will pay 141.6 gbp at the station . reference number: oghwpyhk ."
+            ],
+            [
+                "thank you for your help . this is all i need .",
+                "are you sure you do not need a restaurant ?"
+            ],
+            [
+                "i am sure . i am all set . thanks so much . bye .",
+                "none"
+            ]
+        ],
+        "state": [
+            "none",
+            "train-destination=cambridge\ttrain-day=monday",
+            "train-leaveat=19:00\ttrain-destination=cambridge\ttrain-day=monday\ttrain-departure=london kings cross",
+            "train-leaveat=19:00\ttrain-destination=cambridge\ttrain-day=monday\ttrain-departure=london kings cross",
+            "restaurant-area=centre\ttrain-leaveat=19:00\ttrain-destination=cambridge\ttrain-day=monday\ttrain-departure=london kings cross",
+            "restaurant-area=centre\ttrain-book_people=6\ttrain-leaveat=19:00\ttrain-destination=cambridge\ttrain-day=monday\ttrain-departure=london kings cross",
+            "restaurant-area=centre\ttrain-book_people=6\ttrain-leaveat=19:00\ttrain-destination=cambridge\ttrain-day=monday\ttrain-departure=london kings cross",
+            "restaurant-area=centre\ttrain-book_people=6\ttrain-leaveat=19:00\ttrain-destination=cambridge\ttrain-day=monday\ttrain-departure=london kings cross"
+        ],
+        "dial_id": "SNG0327.json"
+    },
+    {
+        "meta": [
+            [
+                "train-destination=london kings cross\ttrain-arriveby=14:30"
+            ],
+            [
+                "train-day=thursday"
+            ],
+            [
+                "train-destination=cambridge\ttrain-departure=london kings cross"
+            ],
+            [
+                "train-book_people=7"
+            ],
+            []
+        ],
+        "dialogue": [
+            [
+                "i am looking for a train leaving london kings cross and arriving by 14:30 .",
+                "where are you departing from and what day would you like the train for ?"
+            ],
+            [
+                "i am leaving from london kings cross and i would like to leave on thursday .",
+                "sure thing . what will your destination be ?"
+            ],
+            [
+                "i am going to cambridge",
+                "you have plenty of trains leaving from 5:17 every second hour onwards . do you want me to book 1 ?"
+            ],
+            [
+                "yes please book me something around 10 for 7 people",
+                "booking was done for 165.2 gbp , your ref number is ur40dxm4"
+            ],
+            [
+                "great , that s all , see you !",
+                "none"
+            ]
+        ],
+        "state": [
+            "none",
+            "train-destination=london kings cross\ttrain-arriveby=14:30",
+            "train-destination=london kings cross\ttrain-day=thursday\ttrain-arriveby=14:30",
+            "train-destination=cambridge\ttrain-day=thursday\ttrain-arriveby=14:30\ttrain-departure=london kings cross",
+            "train-book_people=7\ttrain-destination=cambridge\ttrain-day=thursday\ttrain-arriveby=14:30\ttrain-departure=london kings cross",
+            "train-book_people=7\ttrain-destination=cambridge\ttrain-day=thursday\ttrain-arriveby=14:30\ttrain-departure=london kings cross"
+        ],
+        "dial_id": "SNG0277.json"
+    },
+    {
+        "meta": [
+            [
+                "train-destination=cambridge\ttrain-departure=bishops stortford"
+            ],
+            [
+                "train-leaveat=16:30\ttrain-day=sunday"
+            ],
+            [
+                "train-book_people=4"
+            ],
+            []
+        ],
+        "dialogue": [
+            [
+                "i want to book an evening train from bishops strotford to cambridge .",
+                "certainly , there are lots of trains available . which day would you like to travel ?"
+            ],
+            [
+                "sunday please . i would like to leave after 16:30 .",
+                "train tr5298 leaves at bishops strotford at 17:29 and arrives in cambridge at 18:07 . would you like to book this trip ?"
+            ],
+            [
+                "yes , let s book it for 4 , please . may i have a reference number ?",
+                "alright , i have got 4 tickets booked leaving at 17:29 . your reference number is zihx30ra ."
+            ],
+            [
+                "thank you . that is all i need today .",
+                "none"
+            ]
+        ],
+        "state": [
+            "none",
+            "train-destination=cambridge\ttrain-departure=bishops stortford",
+            "train-leaveat=16:30\ttrain-destination=cambridge\ttrain-day=sunday\ttrain-departure=bishops stortford",
+            "train-book_people=4\ttrain-leaveat=16:30\ttrain-destination=cambridge\ttrain-day=sunday\ttrain-departure=bishops stortford",
+            "train-book_people=4\ttrain-leaveat=16:30\ttrain-destination=cambridge\ttrain-day=sunday\ttrain-departure=bishops stortford"
+        ],
+        "dial_id": "SNG0384.json"
+    },
+    {
+        "meta": [
+            [
+                "train-leaveat=13:30\ttrain-day=sunday"
+            ],
+            [
+                "train-destination=stevenage\ttrain-departure=cambridge"
+            ],
+            [
+                "train-book_people=6"
+            ],
+            []
+        ],
+        "dialogue": [
+            [
+                "i need a train that is leaving on sunday and leaving after 13:30 .",
+                "i would be happy to help you . i have 221 trains departing sunday , what day and time will you be departing and what is your destination ?"
+            ],
+            [
+                "i need to leave cambridge after 13:30 to go to stevenage .",
+                "i have trains leaving to there , what time would you like to arrive by ?"
+            ],
+            [
+                "that really shouldn't matter , i just need the booking for 6 .",
+                "okay , you have 6 tickets reserved on tr4550 . the total fee is 61.44 gbp payable at the station , and your reference number is p9p4ubvh ."
+            ],
+            [
+                "thanks , that s all i need . have a nice day .",
+                "none"
+            ]
+        ],
+        "state": [
+            "none",
+            "train-leaveat=13:30\ttrain-day=sunday",
+            "train-leaveat=13:30\ttrain-destination=stevenage\ttrain-day=sunday\ttrain-departure=cambridge",
+            "train-book_people=6\ttrain-leaveat=13:30\ttrain-destination=stevenage\ttrain-day=sunday\ttrain-departure=cambridge",
+            "train-book_people=6\ttrain-leaveat=13:30\ttrain-destination=stevenage\ttrain-day=sunday\ttrain-departure=cambridge"
+        ],
+        "dial_id": "SNG0381.json"
+    },
+    {
+        "meta": [
+            [
+                "train-destination=leicester"
+            ],
+            [
+                "train-departure=cambridge"
+            ],
+            [
+                "train-day=thursday"
+            ],
+            [
+                "train-arriveby=17:45"
+            ],
+            [],
+            [],
+            []
+        ],
+        "dialogue": [
+            [
+                "wow , sounds like you might be able to help me then . can you find me a train going into leicester ?",
+                "certainly , there are many trains going to leicester . where is your departure location ?"
+            ],
+            [
+                "i will need to leave from cambridge .",
+                "when would you like to travel ?"
+            ],
+            [
+                "i would like to travel on a thursday .",
+                "okay , and is there a particular departure or arrival time you prefer ?"
+            ],
+            [
+                "i just need to arrive by 17:45",
+                "i have train tr9839 that leaves cambridge at 15:21 and arrives in leicester at 17:06 . would that suit your needs ? if so , i can book you a ticket ."
+            ],
+            [
+                "what is the total travel time and price on that ?",
+                "price is 37.80 pounds and travel time is 105 minutes ."
+            ],
+            [
+                "that sounds perfect . thanks for all your help .",
+                "you are very welcome . would you like me to book a ticket for you on that train ?"
+            ],
+            [
+                "that s not needed . thank you !",
+                "none"
+            ]
+        ],
+        "state": [
+            "none",
+            "train-destination=leicester",
+            "train-destination=leicester\ttrain-departure=cambridge",
+            "train-destination=leicester\ttrain-day=thursday\ttrain-departure=cambridge",
+            "train-destination=leicester\ttrain-day=thursday\ttrain-arriveby=17:45\ttrain-departure=cambridge",
+            "train-destination=leicester\ttrain-day=thursday\ttrain-arriveby=17:45\ttrain-departure=cambridge",
+            "train-destination=leicester\ttrain-day=thursday\ttrain-arriveby=17:45\ttrain-departure=cambridge",
+            "train-destination=leicester\ttrain-day=thursday\ttrain-arriveby=17:45\ttrain-departure=cambridge"
+        ],
+        "dial_id": "SNG0442.json"
+    },
+    {
+        "meta": [
+            [
+                "train-day=sunday\ttrain-departure=cambridge"
+            ],
+            [
+                "train-destination=leicester"
+            ],
+            [
+                "train-leaveat=10:15"
+            ],
+            []
+        ],
+        "dialogue": [
+            [
+                "i would like to catch a train leaving cambridge on sunday .",
+                "where would you like to travel to ?"
+            ],
+            [
+                "i need to get to leicester on sunday .",
+                "there are 19 trains do you have a time you would like to travel ?"
+            ],
+            [
+                "i want to leave after 10:15",
+                "i have 1 leaving cambridge at 10:21 and arriving in leicester at 12:06 . would you like to book tickets ?"
+            ],
+            [
+                "i am interested in that 1 , but i am not ready to book yet . thanks for your help . bye .",
+                "none"
+            ]
+        ],
+        "state": [
+            "none",
+            "train-day=sunday\ttrain-departure=cambridge",
+            "train-destination=leicester\ttrain-day=sunday\ttrain-departure=cambridge",
+            "train-leaveat=10:15\ttrain-destination=leicester\ttrain-day=sunday\ttrain-departure=cambridge",
+            "train-leaveat=10:15\ttrain-destination=leicester\ttrain-day=sunday\ttrain-departure=cambridge"
+        ],
+        "dial_id": "SNG0447.json"
+    },
+    {
+        "meta": [
+            [
+                "train-destination=cambridge\ttrain-departure=bishops stortford"
+            ],
+            [
+                "train-day=saturday"
+            ],
+            [
+                "train-arriveby=08:15"
+            ],
+            [],
+            []
+        ],
+        "dialogue": [
+            [
+                "i am looking for a train that leaves bishops stortford and goes to cambridge",
+                "i have found several , is there a day and time you are looking for ?"
+            ],
+            [
+                "i plan to leave this saturday .",
+                "okay , is there a specific time you would like to leave or arrive by ?"
+            ],
+            [
+                "i would like to arrive in cambridge by 8:15 .",
+                "tr4162 arrives in cambridge on saturday by 08:07 , will this suit you ?"
+            ],
+            [
+                "tell me about the departure and travel time",
+                "tr4162 departs at 7:29 and total duration is 38 minutes . do you need to reserve a seat ?"
+            ],
+            [
+                "not yet , i was just looking for information . thank you for all of your help .",
+                "none"
+            ]
+        ],
+        "state": [
+            "none",
+            "train-destination=cambridge\ttrain-departure=bishops stortford",
+            "train-destination=cambridge\ttrain-day=saturday\ttrain-departure=bishops stortford",
+            "train-destination=cambridge\ttrain-day=saturday\ttrain-arriveby=08:15\ttrain-departure=bishops stortford",
+            "train-destination=cambridge\ttrain-day=saturday\ttrain-arriveby=08:15\ttrain-departure=bishops stortford",
+            "train-destination=cambridge\ttrain-day=saturday\ttrain-arriveby=08:15\ttrain-departure=bishops stortford"
+        ],
+        "dial_id": "SNG01284.json"
+    },
+    {
+        "meta": [
+            [
+                "train-leaveat=09:30\ttrain-departure=leicester"
+            ],
+            [
+                "train-destination=cambridge\ttrain-day=monday"
+            ],
+            [],
+            [
+                "train-book_people=1"
+            ],
+            []
+        ],
+        "dialogue": [
+            [
+                "i need a train from leicester sometime after 9:30 .",
+                "i can assist you with that . what day would you like to leave ?"
+            ],
+            [
+                "i need to be in cambridge on monday please .",
+                "very well . the earliest train is tr0032 , which leaves at 10:09 . is that alright ?"
+            ],
+            [
+                "could you give me the arrival time and price on that please ?",
+                "tr0032 arrives at 11:54 and costs 37.80 pounds . may i book that for you ?"
+            ],
+            [
+                "yes , that would be terrific .",
+                "great , i have booked your ticket , your reference number is : i6nj8fub . may i help you with anything else ?"
+            ],
+            [
+                "okay thank you for everything .",
+                "none"
+            ]
+        ],
+        "state": [
+            "none",
+            "train-leaveat=09:30\ttrain-departure=leicester",
+            "train-leaveat=09:30\ttrain-destination=cambridge\ttrain-day=monday\ttrain-departure=leicester",
+            "train-leaveat=09:30\ttrain-destination=cambridge\ttrain-day=monday\ttrain-departure=leicester",
+            "train-book_people=1\ttrain-leaveat=09:30\ttrain-destination=cambridge\ttrain-day=monday\ttrain-departure=leicester",
+            "train-book_people=1\ttrain-leaveat=09:30\ttrain-destination=cambridge\ttrain-day=monday\ttrain-departure=leicester"
+        ],
+        "dial_id": "SNG0344.json"
+    },
+    {
+        "meta": [
+            [
+                "train-destination=cambridge\ttrain-departure=london kings cross"
+            ],
+            [
+                "train-leaveat=09:30\ttrain-day=sunday"
+            ],
+            [
+                "train-book_people=3"
+            ],
+            []
+        ],
+        "dialogue": [
+            [
+                "i need a train from london kings cross to cambridge .",
+                "i can assist you with that . there are many options available to you leaving london kings cross arriving in cambridge , what day and time would you prefer ?"
+            ],
+            [
+                "i want to leave on sunday , and i want to leave after 0930 am .",
+                "tr7147 departs at 11:17 would that work ?"
+            ],
+            [
+                "yes . i need 3 tickets and the reference number .",
+                "booked ! reference number is yv5pjqhu . you will pay 56.64 gbp at the station . anything else you need ?"
+            ],
+            [
+                "thanks , that s all i need . have a nice day .",
+                "none"
+            ]
+        ],
+        "state": [
+            "none",
+            "train-destination=cambridge\ttrain-departure=london kings cross",
+            "train-leaveat=09:30\ttrain-destination=cambridge\ttrain-day=sunday\ttrain-departure=london kings cross",
+            "train-book_people=3\ttrain-leaveat=09:30\ttrain-destination=cambridge\ttrain-day=sunday\ttrain-departure=london kings cross",
+            "train-book_people=3\ttrain-leaveat=09:30\ttrain-destination=cambridge\ttrain-day=sunday\ttrain-departure=london kings cross"
+        ],
+        "dial_id": "SNG0386.json"
+    },
+    {
+        "meta": [
+            [
+                "train-leaveat=12:15\ttrain-departure=leicester"
+            ],
+            [
+                "train-destination=cambridge\ttrain-day=sunday"
+            ],
+            [],
+            [
+                "train-book_people=5"
+            ],
+            []
+        ],
+        "dialogue": [
+            [
+                "i need to book a train leaving leicester after 12:15 . can you do that ?",
+                "where would your destination be ?"
+            ],
+            [
+                "i would like to go to cambridge on sunday and leaving after 12:15 please .",
+                "there are 11 choices that are available . at what time would you like to arrive ?"
+            ],
+            [
+                "the sooner the better but now rush actually",
+                "first train leaves at 13:09 and then every hour . do you want me to book for you ?"
+            ],
+            [
+                "yep , for 5 people at 13:09",
+                "tickets booked for 151.19 gbp , your ref number is dnl05v8n"
+            ],
+            [
+                "awesome , that s all i needed , bye !",
+                "none"
+            ]
+        ],
+        "state": [
+            "none",
+            "train-leaveat=12:15\ttrain-departure=leicester",
+            "train-leaveat=12:15\ttrain-destination=cambridge\ttrain-day=sunday\ttrain-departure=leicester",
+            "train-leaveat=12:15\ttrain-destination=cambridge\ttrain-day=sunday\ttrain-departure=leicester",
+            "train-book_people=5\ttrain-leaveat=12:15\ttrain-destination=cambridge\ttrain-day=sunday\ttrain-departure=leicester",
+            "train-book_people=5\ttrain-leaveat=12:15\ttrain-destination=cambridge\ttrain-day=sunday\ttrain-departure=leicester"
+        ],
+        "dial_id": "SNG0283.json"
+    },
+    {
+        "meta": [
+            [
+                "train-day=sunday"
+            ],
+            [
+                "train-destination=london kings cross\ttrain-departure=cambridge"
+            ],
+            [
+                "train-arriveby=14:00"
+            ],
+            [
+                "train-book_people=1"
+            ],
+            [],
+            []
+        ],
+        "dialogue": [
+            [
+                "is there a train schedule for sunday ?",
+                "there are many trains on sundays . do you have a departure point or destination in mind ?"
+            ],
+            [
+                "yes , departing from cambride going to london kings cross .",
+                "what time would you like to leave ?"
+            ],
+            [
+                "i do not have a preference for leave time . i need to arrive in london kings cross by 14:00 .",
+                "there is the information tr7423 cambridge london kings cross sunday 05:00 05:51 18.88 pounds 51 minutes"
+            ],
+            [
+                "well , that is pretty early , but i think it will work . thank you so much !",
+                "booking was successful , the total fee is 18.88 gbp payable at the station . reference number is : vjgoo2n8 ."
+            ],
+            [
+                "great , thanks for your help .",
+                "do you need any further assistance ?"
+            ],
+            [
+                "no that was all . thanks",
+                "none"
+            ]
+        ],
+        "state": [
+            "none",
+            "train-day=sunday",
+            "train-destination=london kings cross\ttrain-day=sunday\ttrain-departure=cambridge",
+            "train-destination=london kings cross\ttrain-day=sunday\ttrain-arriveby=14:00\ttrain-departure=cambridge",
+            "train-book_people=1\ttrain-destination=london kings cross\ttrain-day=sunday\ttrain-arriveby=14:00\ttrain-departure=cambridge",
+            "train-book_people=1\ttrain-destination=london kings cross\ttrain-day=sunday\ttrain-arriveby=14:00\ttrain-departure=cambridge",
+            "train-book_people=1\ttrain-destination=london kings cross\ttrain-day=sunday\ttrain-arriveby=14:00\ttrain-departure=cambridge"
+        ],
+        "dial_id": "SNG01993.json"
+    },
+    {
+        "meta": [
+            [
+                "train-departure=stevenage"
+            ],
+            [
+                "train-destination=cambridge\ttrain-day=friday"
+            ],
+            [
+                "train-leaveat=13:30"
+            ],
+            [
+                "train-book_people=3"
+            ],
+            []
+        ],
+        "dialogue": [
+            [
+                "i am . looking for a train departing from stevenage .",
+                "i would love to help ! where s your destination ?"
+            ],
+            [
+                "i need to go to cambridge on friday .",
+                "i have 10 different trains that day from stevenage to cambridge . what time would you like to leave ?"
+            ],
+            [
+                "i want to leave sometime after 13:30 .",
+                "ok , i have tr7785 that leaves friday at 13:54 . would you like me to book it ?"
+            ],
+            [
+                "yes , please , for 3 people .",
+                "booking was successful , the total fee is 38.4 gbp payable at the station . reference number is : jplbe5hv ."
+            ],
+            [
+                "thanks ! have a good day .",
+                "none"
+            ]
+        ],
+        "state": [
+            "none",
+            "train-departure=stevenage",
+            "train-destination=cambridge\ttrain-day=friday\ttrain-departure=stevenage",
+            "train-leaveat=13:30\ttrain-destination=cambridge\ttrain-day=friday\ttrain-departure=stevenage",
+            "train-book_people=3\ttrain-leaveat=13:30\ttrain-destination=cambridge\ttrain-day=friday\ttrain-departure=stevenage",
+            "train-book_people=3\ttrain-leaveat=13:30\ttrain-destination=cambridge\ttrain-day=friday\ttrain-departure=stevenage"
+        ],
+        "dial_id": "SNG01579.json"
+    },
+    {
+        "meta": [
+            [
+                "train-departure=london kings cross"
+            ],
+            [
+                "train-destination=cambridge\ttrain-day=thursday"
+            ],
+            [
+                "train-leaveat=13:00"
+            ],
+            [
+                "train-book_people=5"
+            ],
+            []
+        ],
+        "dialogue": [
+            [
+                "i need a train out of london kings cross .",
+                "traveling on what day and to where ?"
+            ],
+            [
+                "the train should go to cambridge on thursday .",
+                "okay , and do you have a preferred time to leave or arrive ?"
+            ],
+            [
+                "i would like to leave after 13:00 for 5 people please .",
+                "the tr2512 leaves london kings cross at 13:17 and arrives cambridge at 14:08 . it s price is 23.60 pounds per person . shall i book it ?"
+            ],
+            [
+                "yes please . i would like 5 tickets please .",
+                "ok , you have 5 tickets reserved on tr2512 . total fee is 118 gbp . your reference # is lbjrmi8y . can i help with anything else today ?"
+            ],
+            [
+                "great that was all i needed thank you for your help !",
+                "none"
+            ]
+        ],
+        "state": [
+            "none",
+            "train-departure=london kings cross",
+            "train-destination=cambridge\ttrain-day=thursday\ttrain-departure=london kings cross",
+            "train-leaveat=13:00\ttrain-destination=cambridge\ttrain-day=thursday\ttrain-departure=london kings cross",
+            "train-book_people=5\ttrain-leaveat=13:00\ttrain-destination=cambridge\ttrain-day=thursday\ttrain-departure=london kings cross",
+            "train-book_people=5\ttrain-leaveat=13:00\ttrain-destination=cambridge\ttrain-day=thursday\ttrain-departure=london kings cross"
+        ],
+        "dial_id": "SNG0437.json"
+    }
+]

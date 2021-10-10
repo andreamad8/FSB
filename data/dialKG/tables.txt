@@ -1,0 +1,74 @@
+feqa
+generations/dialKG
+\begin{tabular}{rrrrrrrr}
+\hline
+   Shots &   124M &   355M &   774M &   1.5B &   1.3B &   2.7B &    6B \\
+\hline
+       1 &  22.84 &  16.54 &  19.09 &  16.48 &  18.64 &  19.51 & 24.08 \\
+       0 &  20.79 &  16.45 &  17.20 &  15.03 &  20.88 &  15.12 & 23.03 \\
+       3 &  23.50 &  19.25 &  20.15 &  18.42 &    -   &    -   &   -   \\
+       9 &    -   &    -   &    -   &    -   &  21.89 &  21.27 & 20.88 \\
+\hline
+\end{tabular}
+BLUE
+generations/dialKG
+\begin{tabular}{rrrrrrrr}
+\hline
+   Shots &   124M &   355M &   774M &   1.5B &   1.3B &   2.7B &   6B \\
+\hline
+       1 &   1.72 &   2.03 &   2.57 &   2.47 &   2.36 &   2.65 & 4.09 \\
+       0 &   1.56 &   1.87 &   2.03 &   2.02 &   1.97 &   1.70 & 3.08 \\
+       3 &   1.73 &   2.57 &   2.84 &   2.94 &    -   &    -   &  -   \\
+       9 &    -   &    -   &    -   &    -   &   3.44 &   4.12 & 5.00 \\
+\hline
+\end{tabular}
+get_results.py:323: UserWarning: FixedFormatter should only be used together with FixedLocator
+  ax.set_xticklabels(size_models)
+B4
+generations/dialKG
+\begin{tabular}{rrrrrrrr}
+\hline
+   Shots &   124M &   355M &   774M &   1.5B &   1.3B &   2.7B &   6B \\
+\hline
+       1 &   0.65 &   0.89 &   1.19 &   1.19 &   1.14 &   1.35 & 2.19 \\
+       0 &   0.54 &   0.81 &   0.89 &   0.93 &   0.97 &   1.05 & 1.94 \\
+       3 &   0.75 &   1.16 &   1.47 &   1.39 &    -   &    -   &  -   \\
+       9 &    -   &    -   &    -   &    -   &   1.84 &   2.22 & 3.00 \\
+\hline
+\end{tabular}
+F1
+generations/dialKG
+\begin{tabular}{rrrrrrrr}
+\hline
+   Shots &   124M &   355M &   774M &   1.5B &   1.3B &   2.7B &    6B \\
+\hline
+       1 &  14.17 &  16.02 &  18.82 &  19.10 &  18.89 &  20.48 & 25.30 \\
+       0 &  12.92 &  14.41 &  16.03 &  16.98 &  17.77 &  16.68 & 23.78 \\
+       3 &  14.57 &  17.75 &  19.72 &  19.80 &    -   &    -   &   -   \\
+       9 &    -   &    -   &    -   &    -   &  22.41 &  23.66 & 26.63 \\
+\hline
+\end{tabular}
+RL
+generations/dialKG
+\begin{tabular}{rrrrrrrr}
+\hline
+   Shots &   124M &   355M &   774M &   1.5B &   1.3B &   2.7B &    6B \\
+\hline
+       1 &  16.11 &  16.89 &  19.46 &  20.24 &  21.57 &  22.89 & 26.80 \\
+       0 &  16.28 &  16.88 &  19.03 &  20.52 &  21.34 &  20.29 & 29.63 \\
+       3 &  15.23 &  18.00 &  17.72 &  19.70 &    -   &    -   &   -   \\
+       9 &    -   &    -   &    -   &    -   &  25.73 &  25.55 & 27.51 \\
+\hline
+\end{tabular}
+PPL
+generations/dialKG
+\begin{tabular}{rrrrrrrr}
+\hline
+   Shots &   124M &   355M &   774M &   1.5B &   1.3B &   2.7B &    6B \\
+\hline
+       1 &  27.22 &  18.59 &  15.60 &  14.99 &  14.24 &  12.56 & 10.12 \\
+       0 &  29.65 &  20.11 &  16.90 &  15.81 &  15.33 &  13.59 & 10.72 \\
+       3 &  24.91 &  17.09 &  14.58 &  13.77 &    -   &    -   &   -   \\
+       9 &    -   &    -   &    -   &    -   &  12.40 &  11.12 &  9.21 \\
+\hline
+\end{tabular}

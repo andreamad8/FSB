@@ -1,0 +1,2248 @@
+[
+    {
+        "meta": [
+            [
+                "restaurant-pricerange=expensive\trestaurant-area=north"
+            ],
+            [],
+            [
+                "restaurant-book_day=monday\trestaurant-book_people=7\trestaurant-book_time=19:15"
+            ],
+            [],
+            []
+        ],
+        "dialogue": [
+            [
+                "i would like a restuarant in the north with expensive food .",
+                "there are 5 place -s , which type of food do you prefer ?"
+            ],
+            [
+                "surprise me , i just want something pricey to impress my friends . it'll be a party of 7 .",
+                "i found 5 restaurant -s , what day and time would you like to go ?"
+            ],
+            [
+                "how about monday at 19:15 .",
+                "okay . i have booked you at saigon city that is quite elegant and serves asian cuisine . your reference number is j8igns09 ."
+            ],
+            [
+                "thank you so much . that is all i will be needing today . have a nice evening .",
+                "thank you , and would you like the address for the restaurant ?"
+            ],
+            [
+                "i do not think i need it , but thanks for asking . have a good day .",
+                "none"
+            ]
+        ],
+        "state": [
+            "none",
+            "restaurant-pricerange=expensive\trestaurant-area=north",
+            "restaurant-pricerange=expensive\trestaurant-area=north",
+            "restaurant-book_day=monday\trestaurant-book_people=7\trestaurant-book_time=19:15\trestaurant-pricerange=expensive\trestaurant-area=north",
+            "restaurant-book_day=monday\trestaurant-book_people=7\trestaurant-book_time=19:15\trestaurant-pricerange=expensive\trestaurant-area=north",
+            "restaurant-book_day=monday\trestaurant-book_people=7\trestaurant-book_time=19:15\trestaurant-pricerange=expensive\trestaurant-area=north"
+        ],
+        "dial_id": "SNG0494.json"
+    },
+    {
+        "meta": [
+            [
+                "restaurant-pricerange=moderate"
+            ],
+            [
+                "restaurant-food=belgian"
+            ],
+            [
+                "restaurant-area=centre"
+            ],
+            [
+                "restaurant-pricerange=moderate"
+            ],
+            [
+                "restaurant-food=turkish\trestaurant-pricerange=moderate"
+            ],
+            [
+                "restaurant-book_day=tuesday\trestaurant-book_people=1\trestaurant-book_time=20:00"
+            ],
+            [
+                "restaurant-book_time=19:00"
+            ],
+            [],
+            []
+        ],
+        "dialogue": [
+            [
+                "i want to eat at a moderate -ly priced restaurant please",
+                "what type of food would you like ?"
+            ],
+            [
+                "belgian please , i am craving that lately",
+                "we need some more information . where are looking to eat ?"
+            ],
+            [
+                "i prefer to eat in the center of town , please .",
+                "no , i did not find any restaurant -s in the centre ."
+            ],
+            [
+                "hmm . how about somewhere else in town , what is available ?",
+                "i am sorry but i do not have any belgian place -s in the centre . can i try a different area ?"
+            ],
+            [
+                "why do not we try turkish food instead",
+                "there are 2 turkish restaurant -s in the centre of town . they are efe s restaurant and anatolia ."
+            ],
+            [
+                "either would be fine . can you book for 1 at 20:00 on tuesday ?",
+                "i am sorry , it looks like they are both booked during yoir preferred time and day . would you like to try something else ?"
+            ],
+            [
+                "yes try 19:00 and please give me the reference number .",
+                "booking was successful at efes restaurant . the table will be reserved for 15 minutes . reference number is : qxz05j29 ."
+            ],
+            [
+                "thanks so much ! you've been helpful .",
+                "have a nice day"
+            ],
+            [
+                "you have a nice day also .",
+                "none"
+            ]
+        ],
+        "state": [
+            "none",
+            "restaurant-pricerange=moderate",
+            "restaurant-food=belgian\trestaurant-pricerange=moderate",
+            "restaurant-food=belgian\trestaurant-pricerange=moderate\trestaurant-area=centre",
+            "restaurant-food=belgian\trestaurant-area=centre",
+            "restaurant-food=turkish\trestaurant-pricerange=moderate\trestaurant-area=centre",
+            "restaurant-book_day=tuesday\trestaurant-book_people=1\trestaurant-book_time=20:00\trestaurant-food=turkish\trestaurant-pricerange=moderate\trestaurant-area=centre",
+            "restaurant-book_day=tuesday\trestaurant-book_people=1\trestaurant-book_time=19:00\trestaurant-food=turkish\trestaurant-pricerange=moderate\trestaurant-area=centre",
+            "restaurant-book_day=tuesday\trestaurant-book_people=1\trestaurant-book_time=19:00\trestaurant-food=turkish\trestaurant-pricerange=moderate\trestaurant-area=centre",
+            "restaurant-book_day=tuesday\trestaurant-book_people=1\trestaurant-book_time=19:00\trestaurant-food=turkish\trestaurant-pricerange=moderate\trestaurant-area=centre"
+        ],
+        "dial_id": "SNG01172.json"
+    },
+    {
+        "meta": [
+            [
+                "restaurant-food=afghan\trestaurant-area=north"
+            ],
+            [
+                "restaurant-food=european"
+            ],
+            [],
+            []
+        ],
+        "dialogue": [
+            [
+                "i am looking for an afghan restaurant in the north .",
+                "there are no restaurant -s matching your criteria . would you like to modify your search results ?"
+            ],
+            [
+                "how about a european food restaurant in the north , instead ?",
+                "we have 1 . it is the city stop restaurant . would you like me to book it for you ?"
+            ],
+            [
+                "can you give me their phone number , address and price range , please ?",
+                "they are in the expensive price range . 01223363270 is their number . you can find them on cambridge city football club milton road chesterton"
+            ],
+            [
+                "great , thank you for the help .",
+                "none"
+            ]
+        ],
+        "state": [
+            "none",
+            "restaurant-food=afghan\trestaurant-area=north",
+            "restaurant-food=european\trestaurant-area=north",
+            "restaurant-food=european\trestaurant-area=north",
+            "restaurant-food=european\trestaurant-area=north"
+        ],
+        "dial_id": "SNG02115.json"
+    },
+    {
+        "meta": [
+            [
+                "restaurant-food=british\trestaurant-pricerange=expensive"
+            ],
+            [
+                "restaurant-book_day=thursday\trestaurant-book_people=4\trestaurant-book_time=16:45"
+            ],
+            []
+        ],
+        "dialogue": [
+            [
+                "i am looking for a british restaurant , in the expensive price range .",
+                "we have several options available . is there a certain area of town you are looking for ? if not , i recommend graffiti in the west ."
+            ],
+            [
+                "graffiti sounds good . i'll need a table for 4 on thursday at 16:45 , please .",
+                "it is all booked , reference number is s3q9j1kj"
+            ],
+            [
+                "great ! thanks a lot . thats all i will be needing . have a good day . bye !",
+                "none"
+            ]
+        ],
+        "state": [
+            "none",
+            "restaurant-food=british\trestaurant-pricerange=expensive",
+            "restaurant-book_day=thursday\trestaurant-book_people=4\trestaurant-book_time=16:45\trestaurant-food=british\trestaurant-pricerange=expensive",
+            "restaurant-book_day=thursday\trestaurant-book_people=4\trestaurant-book_time=16:45\trestaurant-food=british\trestaurant-pricerange=expensive"
+        ],
+        "dial_id": "SNG0668.json"
+    },
+    {
+        "meta": [
+            [
+                "restaurant-food=italian\trestaurant-pricerange=cheap"
+            ],
+            [],
+            []
+        ],
+        "dialogue": [
+            [
+                "i feel like having italian for dinner . are there any cheap restaurant -s with good italian in town ?",
+                "sure , how about zizzi cambridge , they offer cheap italian food in the town centre ."
+            ],
+            [
+                "sounds great . can i get their number ?",
+                "certainly , the phone number at zizzi cambridge is 01223365599 . may i help with anything else ?"
+            ],
+            [
+                "no i think that s all i need . thanks for the help !",
+                "none"
+            ]
+        ],
+        "state": [
+            "none",
+            "restaurant-food=italian\trestaurant-pricerange=cheap",
+            "restaurant-food=italian\trestaurant-pricerange=cheap",
+            "restaurant-food=italian\trestaurant-pricerange=cheap"
+        ],
+        "dial_id": "SNG0566.json"
+    },
+    {
+        "meta": [
+            [
+                "restaurant-pricerange=expensive\trestaurant-area=east"
+            ],
+            [
+                "restaurant-name=royal standard"
+            ],
+            []
+        ],
+        "dialogue": [
+            [
+                "hi , i am looking for an expensive restaurant in the east .",
+                "royal standard is an expensive gastropub in the east . would you like to book a table ?"
+            ],
+            [
+                "that will not be necessary . can you just give me their address and phone ?",
+                "the address is 290 mill road city centre . the phone number is 01223247877 . is there anything else i can help you with ?"
+            ],
+            [
+                "nope . i am all set . thanks again .",
+                "none"
+            ]
+        ],
+        "state": [
+            "none",
+            "restaurant-pricerange=expensive\trestaurant-area=east",
+            "restaurant-pricerange=expensive\trestaurant-name=royal standard\trestaurant-area=east",
+            "restaurant-pricerange=expensive\trestaurant-name=royal standard\trestaurant-area=east"
+        ],
+        "dial_id": "SNG0703.json"
+    },
+    {
+        "meta": [
+            [
+                "restaurant-food=modern european\trestaurant-area=centre"
+            ],
+            [
+                "restaurant-pricerange=moderate"
+            ],
+            [
+                "restaurant-book_day=monday\trestaurant-book_people=1\trestaurant-book_time=17:45"
+            ],
+            [
+                "restaurant-book_time=16:45"
+            ],
+            []
+        ],
+        "dialogue": [
+            [
+                "i am looking for a modern european restaurant near the centre , could you hook me up ?",
+                "yes , i have 4 results matching your request , is there a price range you are looking for ?"
+            ],
+            [
+                "i would like moderate price range please .",
+                "i found de luca cucina and bar and riverside brasserie . does either of them sound good for you ?"
+            ],
+            [
+                "yes could you book me 1 seat at 17:45 on a monday ?",
+                "i am sorry , there are no available seats at either of those restaurant -s . could you try another time or a different day perhaps ?"
+            ],
+            [
+                "lets try a table for 1 on monday at 16:45 instead .",
+                "okay , that worked ! the table will be reserved for 15 minutes . your reference number is : mjeoq3r5 ."
+            ],
+            [
+                "fantastic . that s all i need , thank you !",
+                "none"
+            ]
+        ],
+        "state": [
+            "none",
+            "restaurant-food=modern european\trestaurant-area=centre",
+            "restaurant-food=modern european\trestaurant-pricerange=moderate\trestaurant-area=centre",
+            "restaurant-book_day=monday\trestaurant-book_people=1\trestaurant-book_time=17:45\trestaurant-food=modern european\trestaurant-pricerange=moderate\trestaurant-area=centre",
+            "restaurant-book_day=monday\trestaurant-book_people=1\trestaurant-book_time=16:45\trestaurant-food=modern european\trestaurant-pricerange=moderate\trestaurant-area=centre",
+            "restaurant-book_day=monday\trestaurant-book_people=1\trestaurant-book_time=16:45\trestaurant-food=modern european\trestaurant-pricerange=moderate\trestaurant-area=centre"
+        ],
+        "dial_id": "SNG0550.json"
+    },
+    {
+        "meta": [
+            [
+                "restaurant-food=world\trestaurant-area=centre"
+            ],
+            [
+                "restaurant-pricerange=expensive\trestaurant-food=world"
+            ],
+            [
+                "restaurant-food=korean"
+            ],
+            [],
+            [
+                "restaurant-book_day=monday\trestaurant-book_people=2\trestaurant-book_time=13:15"
+            ],
+            []
+        ],
+        "dialogue": [
+            [
+                "i am looking for a restaurant . the restaurant should serve world food and should be in the centre",
+                "unfortunately , i could not find a restaurant that serves that kind of food in that area ."
+            ],
+            [
+                "what expensive restaurant -s are there ?",
+                "the cambridge chop house is expensive and it s british food . is that okay ?"
+            ],
+            [
+                "no . try looking for a restaurant that serves korean food .",
+                "i found the little seoul restaurant . would you like me to make a reservation ?"
+            ],
+            [
+                "yes , a table for 2 .",
+                "i would be happy to reserve for you , what day and time are you looking for ?"
+            ],
+            [
+                "thank you , i need a reservation for 2 people at 13:15 on monday .",
+                "gg3dcufd is your confirmation code , may i help you with anything else ?"
+            ],
+            [
+                "no that was everything . thanks",
+                "none"
+            ]
+        ],
+        "state": [
+            "none",
+            "restaurant-food=world\trestaurant-area=centre",
+            "restaurant-pricerange=expensive\trestaurant-area=centre",
+            "restaurant-food=korean\trestaurant-pricerange=expensive\trestaurant-area=centre",
+            "restaurant-food=korean\trestaurant-pricerange=expensive\trestaurant-area=centre",
+            "restaurant-book_day=monday\trestaurant-book_people=2\trestaurant-book_time=13:15\trestaurant-food=korean\trestaurant-pricerange=expensive\trestaurant-area=centre",
+            "restaurant-book_day=monday\trestaurant-book_people=2\trestaurant-book_time=13:15\trestaurant-food=korean\trestaurant-pricerange=expensive\trestaurant-area=centre"
+        ],
+        "dial_id": "SNG01196.json"
+    },
+    {
+        "meta": [
+            [
+                "restaurant-pricerange=moderate"
+            ],
+            [
+                "restaurant-food=steakhouse\trestaurant-area=centre"
+            ],
+            [
+                "restaurant-food=spanish"
+            ],
+            [],
+            []
+        ],
+        "dialogue": [
+            [
+                "hi , i would like to find a moderate -ly priced steakhouse .",
+                "sorry , i cannot find any steakhouses . would you be interested in moderate -ly priced british cuisine instead ?"
+            ],
+            [
+                "how about in the centre ?",
+                "i apologize , i cannot find any in the centre either ."
+            ],
+            [
+                "how about spanish food then ?",
+                "la tasca meets your standards . would you like to book this restaurant ?"
+            ],
+            [
+                "no thank you . can i have the phone number for it though ?",
+                "the phone number for la tasca is 01223464630 . anything else ?"
+            ],
+            [
+                "that s all the information i needed today , thank you .",
+                "none"
+            ]
+        ],
+        "state": [
+            "none",
+            "restaurant-pricerange=moderate",
+            "restaurant-food=steakhouse\trestaurant-pricerange=moderate\trestaurant-area=centre",
+            "restaurant-food=spanish\trestaurant-pricerange=moderate\trestaurant-area=centre",
+            "restaurant-food=spanish\trestaurant-pricerange=moderate\trestaurant-area=centre",
+            "restaurant-food=spanish\trestaurant-pricerange=moderate\trestaurant-area=centre"
+        ],
+        "dial_id": "SNG0521.json"
+    },
+    {
+        "meta": [
+            [
+                "restaurant-name=panahar"
+            ],
+            [],
+            [
+                "restaurant-book_day=friday\trestaurant-book_people=4\trestaurant-book_time=11:00"
+            ],
+            [
+                "restaurant-book_time=10:00"
+            ],
+            []
+        ],
+        "dialogue": [
+            [
+                "could you give me information about a restaurant called panahar ?",
+                "absolutely . panahar is a more expensive indian restaurant . it is located at 8 norfolk street city centre . their postal code is cb12lf . their phone number is 01223355012 ."
+            ],
+            [
+                "could you book a table for me there on friday ?",
+                "yes , i can , for how many people and what time on friday ?"
+            ],
+            [
+                "there will be 4 of us and we would like to eat at 11:00 .",
+                "booking was unfortunately unsuccessful . can we try another day or time slot ?"
+            ],
+            [
+                "sure , how about 10:00 ?",
+                "the 10:00 slot at panahar was available . your reference number is 12rtygz7 . is there anything else i can help you with ?"
+            ],
+            [
+                "no thank you . have a great day !",
+                "none"
+            ]
+        ],
+        "state": [
+            "none",
+            "restaurant-name=panahar",
+            "restaurant-name=panahar",
+            "restaurant-book_day=friday\trestaurant-book_people=4\trestaurant-book_time=11:00\trestaurant-name=panahar",
+            "restaurant-book_day=friday\trestaurant-book_people=4\trestaurant-book_time=10:00\trestaurant-name=panahar",
+            "restaurant-book_day=friday\trestaurant-book_people=4\trestaurant-book_time=10:00\trestaurant-name=panahar"
+        ],
+        "dial_id": "SNG0660.json"
+    },
+    {
+        "meta": [
+            [
+                "restaurant-food=chinese\trestaurant-pricerange=expensive"
+            ],
+            [],
+            [
+                "restaurant-name=ugly duckling"
+            ],
+            []
+        ],
+        "dialogue": [
+            [
+                "yes i am looking for an expensive chinese restaurant .",
+                "there are quite a few options . do you have a preference for the area ?"
+            ],
+            [
+                "i do not . could you make a recommendation ?",
+                "the ugly duckling located in the centre has great food and is very popular . would you like me to make you a reservation ?"
+            ],
+            [
+                "what is the postcode for that restaurant ?",
+                "ugly duckling s postcode is cb21tw . can i book a table for you ?"
+            ],
+            [
+                "that will not be necessary . thank you for the help !",
+                "none"
+            ]
+        ],
+        "state": [
+            "none",
+            "restaurant-food=chinese\trestaurant-pricerange=expensive",
+            "restaurant-food=chinese\trestaurant-pricerange=expensive",
+            "restaurant-food=chinese\trestaurant-pricerange=expensive\trestaurant-name=ugly duckling",
+            "restaurant-food=chinese\trestaurant-pricerange=expensive\trestaurant-name=ugly duckling"
+        ],
+        "dial_id": "SNG0650.json"
+    },
+    {
+        "meta": [
+            [
+                "restaurant-food=north american\trestaurant-pricerange=expensive"
+            ],
+            [],
+            [],
+            [],
+            [],
+            [
+                "restaurant-book_day=wednesday\trestaurant-book_people=3\trestaurant-book_time=19:00"
+            ],
+            [
+                "restaurant-food=chinese\trestaurant-area=centre"
+            ],
+            [
+                "restaurant-book_time=18:00"
+            ],
+            []
+        ],
+        "dialogue": [
+            [
+                "i am in the mood for a traditional american food restaurant tonight and looking to treat myself to some expensive fine dining . can you help me find a perfect place ?",
+                "i have gourmet burger kitchen , it s an expensive north american food restaurant . would you like to book a table ?"
+            ],
+            [
+                "is it located in the centre of town ?",
+                "yes , gourmet burger kitchen is in the centre of town . would you like to book it ?"
+            ],
+            [
+                "no thank you . we will just head there now .",
+                "sounds great ! is there anything else i can assist you with ?"
+            ],
+            [
+                "that will be all , thank you .",
+                "it s my pleasure . have a lovely day ! bye !"
+            ],
+            [
+                "awesome but can you give me the reference number ?",
+                "i need to know then how big is your party and exact time ?"
+            ],
+            [
+                "oh yeah sure i need table for 3 people at 19:00 on wednesday .",
+                "sorry but booking was unsuccessful , what about another time ?"
+            ],
+            [
+                "hmm find me something chinese then",
+                "hmm that was also unsuccessful , does different time work for you ?"
+            ],
+            [
+                "yeah , actually let s try 18:00",
+                "i booked for you ugly duckling at 18:00 , your ref number is ikxbxweo"
+            ],
+            [
+                "great to hear that , have a good day !",
+                "none"
+            ]
+        ],
+        "state": [
+            "none",
+            "restaurant-food=north american\trestaurant-pricerange=expensive",
+            "restaurant-food=north american\trestaurant-pricerange=expensive",
+            "restaurant-food=north american\trestaurant-pricerange=expensive",
+            "restaurant-food=north american\trestaurant-pricerange=expensive",
+            "restaurant-food=north american\trestaurant-pricerange=expensive",
+            "restaurant-book_day=wednesday\trestaurant-book_people=3\trestaurant-book_time=19:00\trestaurant-food=north american\trestaurant-pricerange=expensive",
+            "restaurant-book_day=wednesday\trestaurant-book_people=3\trestaurant-book_time=19:00\trestaurant-food=chinese\trestaurant-pricerange=expensive\trestaurant-area=centre",
+            "restaurant-book_day=wednesday\trestaurant-book_people=3\trestaurant-book_time=18:00\trestaurant-food=chinese\trestaurant-pricerange=expensive\trestaurant-area=centre",
+            "restaurant-book_day=wednesday\trestaurant-book_people=3\trestaurant-book_time=18:00\trestaurant-food=chinese\trestaurant-pricerange=expensive\trestaurant-area=centre"
+        ],
+        "dial_id": "SNG0565.json"
+    },
+    {
+        "meta": [
+            [
+                "restaurant-area=centre"
+            ],
+            [
+                "restaurant-book_day=friday\trestaurant-book_people=1\trestaurant-book_time=14:00\trestaurant-pricerange=moderate"
+            ],
+            []
+        ],
+        "dialogue": [
+            [
+                "i want a restaurant in the town centre . can you help me ?",
+                "we have 69 restaurant -s available . could you specify type or price range please ?"
+            ],
+            [
+                "i am looking for a moderate -ly priced restaurant . i am looking to book for just myself at 14:00 on friday .",
+                "okay i took the liberty of booking you into the oak bistro that serves traditional british food . your reference number is ba2mq3eb ."
+            ],
+            [
+                "that sounds perfect . thanks for your help !",
+                "none"
+            ]
+        ],
+        "state": [
+            "none",
+            "restaurant-area=centre",
+            "restaurant-book_day=friday\trestaurant-book_people=1\trestaurant-book_time=14:00\trestaurant-pricerange=moderate\trestaurant-area=centre",
+            "restaurant-book_day=friday\trestaurant-book_people=1\trestaurant-book_time=14:00\trestaurant-pricerange=moderate\trestaurant-area=centre"
+        ],
+        "dial_id": "SNG0597.json"
+    },
+    {
+        "meta": [
+            [
+                "restaurant-food=chinese\trestaurant-area=north"
+            ],
+            [],
+            [],
+            []
+        ],
+        "dialogue": [
+            [
+                "are there any chinese restaurant -s on the north side of town ?",
+                "there are 3 hakka , golden wok , and the hotpot . would you like more information on 1 of these ?"
+            ],
+            [
+                "can you tell me if 1 of those is located in the northern part of town ?",
+                "all 3 are located on the north side . do you have a price range you would prefer ? the golden wok is moderate -ly priced , while the others are expensive ."
+            ],
+            [
+                "the golden wok is fine . can i get their phone number ?",
+                "the golden wok s phone number is 01223350688 and their address is 191 histon road chesterton . would you like to make a reservation ?"
+            ],
+            [
+                "no , i just needed the phone number . thanks very much for your help .",
+                "none"
+            ]
+        ],
+        "state": [
+            "none",
+            "restaurant-food=chinese\trestaurant-area=north",
+            "restaurant-food=chinese\trestaurant-area=north",
+            "restaurant-food=chinese\trestaurant-area=north",
+            "restaurant-food=chinese\trestaurant-area=north"
+        ],
+        "dial_id": "SNG0730.json"
+    },
+    {
+        "meta": [
+            [
+                "restaurant-name=cotto"
+            ],
+            [],
+            []
+        ],
+        "dialogue": [
+            [
+                "could you tell me where cotto is located ?",
+                "i have them at 183 east road city centre , cb11bg ."
+            ],
+            [
+                "great ! do you know what price range they are in ?",
+                "sure , they are in the moderate price range ."
+            ],
+            [
+                "thanks , goodbye .",
+                "none"
+            ]
+        ],
+        "state": [
+            "none",
+            "restaurant-name=cotto",
+            "restaurant-name=cotto",
+            "restaurant-name=cotto"
+        ],
+        "dial_id": "SNG02071.json"
+    },
+    {
+        "meta": [
+            [
+                "restaurant-food=italian\trestaurant-pricerange=moderate"
+            ],
+            [],
+            []
+        ],
+        "dialogue": [
+            [
+                "i need to find an italian place to eat . hopefully with moderate price -s .",
+                "i have 5 restaurant -s that would fit that , is there a particular area you want to dine in ?"
+            ],
+            [
+                "no , just pick me 1 you think would be good to go to and please provide me with an address to that location .",
+                "how about prezzo ? it s located at 2124 northampton road ."
+            ],
+            [
+                "thanks so much for the info . i will pay them a visit . have a nice day .",
+                "none"
+            ]
+        ],
+        "state": [
+            "none",
+            "restaurant-food=italian\trestaurant-pricerange=moderate",
+            "restaurant-food=italian\trestaurant-pricerange=moderate",
+            "restaurant-food=italian\trestaurant-pricerange=moderate"
+        ],
+        "dial_id": "SNG0497.json"
+    },
+    {
+        "meta": [
+            [
+                "restaurant-food=british\trestaurant-pricerange=expensive"
+            ],
+            [],
+            [],
+            []
+        ],
+        "dialogue": [
+            [
+                "i am looking for a place to dine . the restaurant should be in the expensive price range and should serve british food .",
+                "how about graffiti ? i have heard great things ."
+            ],
+            [
+                "that sounds interesting . what area is the restaurant in ?",
+                "it is in the west area ."
+            ],
+            [
+                "thanks . what is the postcode , address , and area ?",
+                "graffiti is in the west area , address is hotel felix whitehouse lane huntingdon road , postcode cb30lx . do you want reservations ?"
+            ],
+            [
+                "no thanks . i just needed some info on it . that s all now .",
+                "none"
+            ]
+        ],
+        "state": [
+            "none",
+            "restaurant-food=british\trestaurant-pricerange=expensive",
+            "restaurant-food=british\trestaurant-pricerange=expensive",
+            "restaurant-food=british\trestaurant-pricerange=expensive",
+            "restaurant-food=british\trestaurant-pricerange=expensive"
+        ],
+        "dial_id": "SNG01527.json"
+    },
+    {
+        "meta": [
+            [
+                "restaurant-pricerange=cheap"
+            ],
+            [
+                "restaurant-food=portuguese"
+            ],
+            [
+                "restaurant-book_day=monday\trestaurant-book_people=1\trestaurant-book_time=15:30"
+            ],
+            [
+                "restaurant-book_time=14:30"
+            ],
+            []
+        ],
+        "dialogue": [
+            [
+                "i need a cheap restaurant please .",
+                "sure , i can help you with that . do you prefer a specific area in town ? or maybe you would like a certain kind of food ?"
+            ],
+            [
+                "yes , portuguese food would be nice .",
+                "nandos has restaurant -s in the south and the centre of town . would you like to book either of those ?"
+            ],
+            [
+                "yes i would like to book nandos in the south for 1 person at 15:30 on monday .",
+                "i am sorry , there are no tables available for monday at 15:30 . would you like to try for a different day or time ?"
+            ],
+            [
+                "can you see if they have an opening at 14:30 instead ?",
+                "i made you a reservation at nando s south , at 14:30 on monday . the reference number is hb047xsi . they'll hold the table for 15 minutes . do you need anything else ?"
+            ],
+            [
+                "no , that will be all . thank you .",
+                "none"
+            ]
+        ],
+        "state": [
+            "none",
+            "restaurant-pricerange=cheap",
+            "restaurant-food=portuguese\trestaurant-pricerange=cheap",
+            "restaurant-book_day=monday\trestaurant-book_people=1\trestaurant-book_time=15:30\trestaurant-food=portuguese\trestaurant-pricerange=cheap",
+            "restaurant-book_day=monday\trestaurant-book_people=1\trestaurant-book_time=14:30\trestaurant-food=portuguese\trestaurant-pricerange=cheap",
+            "restaurant-book_day=monday\trestaurant-book_people=1\trestaurant-book_time=14:30\trestaurant-food=portuguese\trestaurant-pricerange=cheap"
+        ],
+        "dial_id": "SNG0603.json"
+    },
+    {
+        "meta": [
+            [
+                "restaurant-pricerange=cheap\trestaurant-area=west"
+            ],
+            [
+                "restaurant-food=polish"
+            ],
+            [
+                "restaurant-food=italian"
+            ],
+            [],
+            []
+        ],
+        "dialogue": [
+            [
+                "i am looking for a cheap place to dine . i want it to be on the west side of town .",
+                "there are 2 cheap restaurant -s on the west side , 1 italian and 1 vietnamese . do you have a preference ?"
+            ],
+            [
+                "shucks . no polish ?",
+                "no , sorry we have no cheap polish restaurant -s in the west of town , would you like me to look in a different area or price range ?"
+            ],
+            [
+                "i suppose italian might suffice . do you have any listings for cheap italian restaurant -s on the west side ?",
+                "i do have la margherita that meets your requests . would you like me to book a table for you ?"
+            ],
+            [
+                "no , but could you please give me the address and the phone number ?",
+                "certainly . la margherita is located at 15 magdalene street city centre and their phone number is 01223315232 . is there anything else i can help you with today ?"
+            ],
+            [
+                "no , that s all i need . thank you for your help !",
+                "none"
+            ]
+        ],
+        "state": [
+            "none",
+            "restaurant-pricerange=cheap\trestaurant-area=west",
+            "restaurant-food=polish\trestaurant-pricerange=cheap\trestaurant-area=west",
+            "restaurant-food=italian\trestaurant-pricerange=cheap\trestaurant-area=west",
+            "restaurant-food=italian\trestaurant-pricerange=cheap\trestaurant-area=west",
+            "restaurant-food=italian\trestaurant-pricerange=cheap\trestaurant-area=west"
+        ],
+        "dial_id": "SNG0698.json"
+    },
+    {
+        "meta": [
+            [
+                "restaurant-food=northern european"
+            ],
+            [
+                "restaurant-food=modern european"
+            ],
+            [
+                "restaurant-pricerange=moderate"
+            ],
+            [
+                "restaurant-name=de luca cucina and bar\trestaurant-food=modern european"
+            ],
+            [],
+            []
+        ],
+        "dialogue": [
+            [
+                "i would like to find a place that i can get some northern european food .",
+                "unfortunately , i was unable to find a restaurant that serves northern european food . is there anything else i can help you with ?"
+            ],
+            [
+                "okay , what about a restaurant that serves modern european food ?",
+                "i have several , can you be mores specific on price and area please ?"
+            ],
+            [
+                "i am looking for the moderate price range , the area does not matter .",
+                "how about de luca cucina and bar ?"
+            ],
+            [
+                "does that serve modern european food ?",
+                "the de luca cucina and bar serves modern european food ."
+            ],
+            [
+                "what s the post code and phone number of de luca cucina ?",
+                "the post code is cb21aw and the phone number is 01223356666 . is there anything else i can do for you ?"
+            ],
+            [
+                "that is all . thanks for you help .",
+                "none"
+            ]
+        ],
+        "state": [
+            "none",
+            "restaurant-food=northern european",
+            "restaurant-food=modern european",
+            "restaurant-food=modern european\trestaurant-pricerange=moderate",
+            "restaurant-pricerange=moderate\trestaurant-name=de luca cucina and bar",
+            "restaurant-pricerange=moderate\trestaurant-name=de luca cucina and bar",
+            "restaurant-pricerange=moderate\trestaurant-name=de luca cucina and bar"
+        ],
+        "dial_id": "SNG01699.json"
+    },
+    {
+        "meta": [
+            [],
+            [
+                "restaurant-pricerange=expensive"
+            ],
+            [
+                "restaurant-food=indian\trestaurant-area=west"
+            ],
+            [],
+            [],
+            []
+        ],
+        "dialogue": [
+            [
+                "hi ! are there any restaurant -s in town that serve scottish food ?",
+                "no there is not . is there something else you would like to try ?"
+            ],
+            [
+                "if there are no scottish place -s in the west , what about expensive place -s to eat ?",
+                "there are quite a few place -s that are expensive . what type of cuisine would you like ?"
+            ],
+            [
+                "what about indian restaurant -s ? are there any expensive ones in the west ?",
+                "there are a couple of indian resturants in the west , may i recommend tandoori palace ?"
+            ],
+            [
+                "could you give me their address ?",
+                "sure . 68 histon road chesterton . would you like for me to make reservations ?"
+            ],
+            [
+                "thank you , that is all i will need today .",
+                "you are welcome . have a nice day ."
+            ],
+            [
+                "thanks , again for your help . goodbye .",
+                "none"
+            ]
+        ],
+        "state": [
+            "none",
+            "",
+            "restaurant-pricerange=expensive",
+            "restaurant-food=indian\trestaurant-pricerange=expensive\trestaurant-area=west",
+            "restaurant-food=indian\trestaurant-pricerange=expensive\trestaurant-area=west",
+            "restaurant-food=indian\trestaurant-pricerange=expensive\trestaurant-area=west",
+            "restaurant-food=indian\trestaurant-pricerange=expensive\trestaurant-area=west"
+        ],
+        "dial_id": "SNG0495.json"
+    },
+    {
+        "meta": [
+            [
+                "restaurant-pricerange=expensive"
+            ],
+            [
+                "restaurant-area=centre"
+            ],
+            [],
+            []
+        ],
+        "dialogue": [
+            [
+                "hi , i am looking for an expensive restaurant .",
+                "okay , we have 57 restaurant -s in that price range . are you looking for a place in a certain part of town ?"
+            ],
+            [
+                "i would like something in the centre if possible .",
+                "most of the expensive restaurant -s in cambridge happen to be in the center of town ! would you like to try some british food at fitzbillies ?"
+            ],
+            [
+                "that sounds nice ! can i just get their phone number , address , and postcode ?",
+                "the address is 51 trumpington street city centre , the phone number is 01223352500 , and the postcode is cb21rg . is there anything else i can help you with today ?"
+            ],
+            [
+                "no , that s everything . thanks for the help !",
+                "none"
+            ]
+        ],
+        "state": [
+            "none",
+            "restaurant-pricerange=expensive",
+            "restaurant-pricerange=expensive\trestaurant-area=centre",
+            "restaurant-pricerange=expensive\trestaurant-area=centre",
+            "restaurant-pricerange=expensive\trestaurant-area=centre"
+        ],
+        "dial_id": "SNG0665.json"
+    },
+    {
+        "meta": [
+            [
+                "restaurant-food=thai\trestaurant-area=west"
+            ],
+            [],
+            [],
+            [],
+            [
+                "restaurant-pricerange=expensive\trestaurant-name=sala thong"
+            ]
+        ],
+        "dialogue": [
+            [
+                "i am looking for a place to eat in the west , thai food please .",
+                "the sala thong serves thai food . it is expensive but good . can i reserve a table for you ?"
+            ],
+            [
+                "yes , that sounds great !",
+                "what day , time , and party size do you need ?"
+            ],
+            [
+                "could you give me the address , phone number , and postcode ?",
+                "the address is 35 newnham road newnham , phone number is 01223323178 , and finally their postcode is cb39ey . is there anything else i can help with ?"
+            ],
+            [
+                "okay great . that is all i need to know .",
+                "are there any other tasks you need help with ?"
+            ],
+            [
+                "no , that is all i need today .",
+                "none"
+            ]
+        ],
+        "state": [
+            "none",
+            "restaurant-food=thai\trestaurant-area=west",
+            "restaurant-food=thai\trestaurant-area=west",
+            "restaurant-food=thai\trestaurant-area=west",
+            "restaurant-food=thai\trestaurant-area=west",
+            "restaurant-food=thai\trestaurant-pricerange=expensive\trestaurant-name=sala thong\trestaurant-area=west"
+        ],
+        "dial_id": "SNG0490.json"
+    },
+    {
+        "meta": [
+            [
+                "restaurant-pricerange=cheap\trestaurant-area=centre"
+            ],
+            [
+                "restaurant-food=chinese"
+            ],
+            [],
+            [
+                "restaurant-book_day=friday\trestaurant-book_people=4\trestaurant-book_time=14:15"
+            ],
+            []
+        ],
+        "dialogue": [
+            [
+                "i am looking for a cheap place to dine , preferably in the centre of town .",
+                "sure , are you interested in chinese food ?"
+            ],
+            [
+                "yes , what restaurant -s are there ?",
+                "there is the charlie chan , rice house and golden house . would you like to book a table at 1 of these ?"
+            ],
+            [
+                "charlie chan sounds good . thank you !",
+                "what day and time , and for how many people , would you like to book ?"
+            ],
+            [
+                "i would like to book 4 people at 14:15 on friday .",
+                "all right , i have booked that for you . your reference number is iyq8fy20 . can i help you with anything else ?"
+            ],
+            [
+                "that is all , thank you very much .",
+                "none"
+            ]
+        ],
+        "state": [
+            "none",
+            "restaurant-pricerange=cheap\trestaurant-area=centre",
+            "restaurant-food=chinese\trestaurant-pricerange=cheap\trestaurant-area=centre",
+            "restaurant-food=chinese\trestaurant-pricerange=cheap\trestaurant-area=centre",
+            "restaurant-book_day=friday\trestaurant-book_people=4\trestaurant-book_time=14:15\trestaurant-food=chinese\trestaurant-pricerange=cheap\trestaurant-area=centre",
+            "restaurant-book_day=friday\trestaurant-book_people=4\trestaurant-book_time=14:15\trestaurant-food=chinese\trestaurant-pricerange=cheap\trestaurant-area=centre"
+        ],
+        "dial_id": "SNG0697.json"
+    },
+    {
+        "meta": [
+            [
+                "restaurant-food=chinese\trestaurant-pricerange=cheap"
+            ],
+            [],
+            []
+        ],
+        "dialogue": [
+            [
+                "i am looking for a place to dine . the restaurant should be in the cheap price range and should serve chinese food",
+                "charlie chan is a great choice ! would you like a reservation and"
+            ],
+            [
+                "which area is it in ?",
+                "it s in the centre of town ."
+            ],
+            [
+                "thanks for you help . that is all i need for now .",
+                "none"
+            ]
+        ],
+        "state": [
+            "none",
+            "restaurant-food=chinese\trestaurant-pricerange=cheap",
+            "restaurant-food=chinese\trestaurant-pricerange=cheap",
+            "restaurant-food=chinese\trestaurant-pricerange=cheap"
+        ],
+        "dial_id": "SNG02121.json"
+    },
+    {
+        "meta": [
+            [
+                "restaurant-food=dontcare\trestaurant-pricerange=expensive\trestaurant-name=dontcare\trestaurant-area=east"
+            ],
+            [
+                "restaurant-book_day=thursday\trestaurant-book_people=6\trestaurant-book_time=12:00"
+            ],
+            []
+        ],
+        "dialogue": [
+            [
+                "hi i am looking for an expensive restaurant on the east side of town . can you help me ?",
+                "yes i there are 5 restaurant -s that match what you are looking for . is there a food type you would prefer ?"
+            ],
+            [
+                "surprise me . i just need a table for 6 at 12:00 on thursday .",
+                "sure , i have made a reservation for 6 people at 12:00 thursday at grafton hotel restaurant reference number is : swdeohlf . may i help with anything else ?"
+            ],
+            [
+                "no , that s all i needed , thank you .",
+                "none"
+            ]
+        ],
+        "state": [
+            "none",
+            "restaurant-food=dontcare\trestaurant-pricerange=expensive\trestaurant-name=dontcare\trestaurant-area=east",
+            "restaurant-book_day=thursday\trestaurant-book_people=6\trestaurant-book_time=12:00\trestaurant-food=dontcare\trestaurant-pricerange=expensive\trestaurant-name=dontcare\trestaurant-area=east",
+            "restaurant-book_day=thursday\trestaurant-book_people=6\trestaurant-book_time=12:00\trestaurant-food=dontcare\trestaurant-pricerange=expensive\trestaurant-name=dontcare\trestaurant-area=east"
+        ],
+        "dial_id": "SNG0475.json"
+    },
+    {
+        "meta": [
+            [
+                "restaurant-food=mediterranean\trestaurant-area=south"
+            ],
+            [
+                "restaurant-pricerange=cheap\trestaurant-food=mediterranean"
+            ],
+            [
+                "restaurant-food=portuguese"
+            ],
+            [
+                "restaurant-book_day=friday\trestaurant-book_people=3\trestaurant-book_time=12:15\trestaurant-name=nandos"
+            ],
+            [
+                "restaurant-book_time=11:15"
+            ],
+            []
+        ],
+        "dialogue": [
+            [
+                "i am looking for a place to dine . the restaurant should serve mediterranean food and should be in the south",
+                "i am afraid there are not any . would you like to try another area or cuisine ?"
+            ],
+            [
+                "what restaurant -s are cheap ?",
+                "nandos is cheap in that area ."
+            ],
+            [
+                "how about 1 that serves portuguese food ?",
+                "nandos serves portuguese food in the south area . would you like a reservation ?"
+            ],
+            [
+                "yes , please . 3 people at 12:15 on friday .",
+                "booking was unsuccessful . is there another day or time slot you would be interested in ?"
+            ],
+            [
+                "how about for 11:15 ?",
+                "yes , that did the trick ! your reference number is otn7hhgy and they'll hold the table for 15 minutes . is there anything else i can help you with ?"
+            ],
+            [
+                "that is all i need , thank you .",
+                "none"
+            ]
+        ],
+        "state": [
+            "none",
+            "restaurant-food=mediterranean\trestaurant-area=south",
+            "restaurant-pricerange=cheap\trestaurant-area=south",
+            "restaurant-food=portuguese\trestaurant-pricerange=cheap\trestaurant-area=south",
+            "restaurant-book_day=friday\trestaurant-book_people=3\trestaurant-book_time=12:15\trestaurant-food=portuguese\trestaurant-pricerange=cheap\trestaurant-name=nandos\trestaurant-area=south",
+            "restaurant-book_day=friday\trestaurant-book_people=3\trestaurant-book_time=11:15\trestaurant-food=portuguese\trestaurant-pricerange=cheap\trestaurant-name=nandos\trestaurant-area=south",
+            "restaurant-book_day=friday\trestaurant-book_people=3\trestaurant-book_time=11:15\trestaurant-food=portuguese\trestaurant-pricerange=cheap\trestaurant-name=nandos\trestaurant-area=south"
+        ],
+        "dial_id": "SNG01609.json"
+    },
+    {
+        "meta": [
+            [
+                "restaurant-food=british\trestaurant-pricerange=moderate"
+            ],
+            [],
+            [
+                "restaurant-book_people=8"
+            ],
+            [
+                "restaurant-book_day=friday\trestaurant-book_time=14:15\trestaurant-name=the oak bistro\trestaurant-area=centre"
+            ],
+            [
+                "restaurant-book_time=13:15"
+            ],
+            []
+        ],
+        "dialogue": [
+            [
+                "i am looking for a restaurant that is moderate -ly priced and served british food .",
+                "what part of area would you like to visit ?"
+            ],
+            [
+                "how about the center ? i need a reservation for 8 people at 14:15 on a friday .",
+                "the oak bistro is 1 of several restaurant -s that match your description . would you like me to book a table there for that time ?"
+            ],
+            [
+                "yes , that would be fine . is there a table for 8 available ?",
+                "i would be happy to make your reservation . what time and day would you like that for ?"
+            ],
+            [
+                "friday at 14:15 .",
+                "they do not have a table for 8 available at 14:15 friday . would you like to try for another day or time slot ?"
+            ],
+            [
+                "can you try to book it for 13:15 ?",
+                "that time worked , your reservation was successful and your reference number is x4u272ec . can i help you with anything else ?"
+            ],
+            [
+                "no , that s all i needed . thanks for your help !",
+                "none"
+            ]
+        ],
+        "state": [
+            "none",
+            "restaurant-food=british\trestaurant-pricerange=moderate",
+            "restaurant-food=british\trestaurant-pricerange=moderate",
+            "restaurant-book_people=8\trestaurant-food=british\trestaurant-pricerange=moderate",
+            "restaurant-book_day=friday\trestaurant-book_people=8\trestaurant-book_time=14:15\trestaurant-food=british\trestaurant-pricerange=moderate\trestaurant-name=the oak bistro\trestaurant-area=centre",
+            "restaurant-book_day=friday\trestaurant-book_people=8\trestaurant-book_time=13:15\trestaurant-food=british\trestaurant-pricerange=moderate\trestaurant-name=the oak bistro\trestaurant-area=centre",
+            "restaurant-book_day=friday\trestaurant-book_people=8\trestaurant-book_time=13:15\trestaurant-food=british\trestaurant-pricerange=moderate\trestaurant-name=the oak bistro\trestaurant-area=centre"
+        ],
+        "dial_id": "SNG0567.json"
+    },
+    {
+        "meta": [
+            [
+                "restaurant-area=centre"
+            ],
+            [
+                "restaurant-pricerange=expensive"
+            ],
+            [
+                "restaurant-food=indian"
+            ],
+            [
+                "restaurant-book_day=saturday\trestaurant-book_people=3\trestaurant-book_time=19:45"
+            ],
+            [
+                "restaurant-book_time=18:45"
+            ],
+            []
+        ],
+        "dialogue": [
+            [
+                "i am looking for an expensive place to eat located in centre of town . can you help ?",
+                "yes i have many to choose from . could we narrow it down by cuisine ? what type of food sounds good to you ?"
+            ],
+            [
+                "you know , i would really love some latin american food . how about that ?",
+                "while we have lots of expensive restaurant -s in the center of town , none of them serve latin american food . would you like another cuisine ?"
+            ],
+            [
+                "sure , i like indian food .",
+                "oh yes , we have several indian restaurant -s ! i recommend panahar , located at 8 norfolk street city centre . would you like a table there ?"
+            ],
+            [
+                "yes please . book 1 for saturday at 19:45 . there will be 3 people .",
+                "there does not seem to be any availability for saturday at 19:45 . is there another time slot , or possibly another day , that would work for you ?"
+            ],
+            [
+                "let s try an hour earlier .",
+                "the booking was successful at 18:45 . your reference number is : xlwrecbf . is there anything else that i can do for you ?"
+            ],
+            [
+                "no that s all i needed . thank you !",
+                "none"
+            ]
+        ],
+        "state": [
+            "none",
+            "restaurant-area=centre",
+            "restaurant-pricerange=expensive\trestaurant-area=centre",
+            "restaurant-food=indian\trestaurant-pricerange=expensive\trestaurant-area=centre",
+            "restaurant-book_day=saturday\trestaurant-book_people=3\trestaurant-book_time=19:45\trestaurant-food=indian\trestaurant-pricerange=expensive\trestaurant-area=centre",
+            "restaurant-book_day=saturday\trestaurant-book_people=3\trestaurant-book_time=18:45\trestaurant-food=indian\trestaurant-pricerange=expensive\trestaurant-area=centre",
+            "restaurant-book_day=saturday\trestaurant-book_people=3\trestaurant-book_time=18:45\trestaurant-food=indian\trestaurant-pricerange=expensive\trestaurant-area=centre"
+        ],
+        "dial_id": "SNG0609.json"
+    },
+    {
+        "meta": [
+            [
+                "restaurant-area=centre"
+            ],
+            [
+                "restaurant-pricerange=expensive"
+            ],
+            [
+                "restaurant-food=turkish"
+            ],
+            []
+        ],
+        "dialogue": [
+            [
+                "i would like to find a restaurant in the centre .",
+                "there are several good restaurant options in that area . is there a specific type of food you are looking for ?"
+            ],
+            [
+                "i need it to be in the expensive price range . what are my options ?",
+                "there are quite few expensive place -s there with many food types from african to turkish . perhaps you would like local food there are several expensive british restaurant -s ."
+            ],
+            [
+                "lets go with the turkish 1 . can i get the address and postcode please ?",
+                "the address is 196 mill road city centre , postcode cb13nf ."
+            ],
+            [
+                "thanks for the information . goodbye .",
+                "none"
+            ]
+        ],
+        "state": [
+            "none",
+            "restaurant-area=centre",
+            "restaurant-pricerange=expensive\trestaurant-area=centre",
+            "restaurant-food=turkish\trestaurant-pricerange=expensive\trestaurant-area=centre",
+            "restaurant-food=turkish\trestaurant-pricerange=expensive\trestaurant-area=centre"
+        ],
+        "dial_id": "SNG0588.json"
+    },
+    {
+        "meta": [
+            [
+                "restaurant-food=italian\trestaurant-pricerange=expensive"
+            ],
+            [
+                "restaurant-area=centre"
+            ],
+            [
+                "restaurant-book_day=thursday\trestaurant-book_people=7\trestaurant-book_time=11:30"
+            ],
+            [
+                "restaurant-book_time=10:30\trestaurant-name=stazione restaurant and coffee bar"
+            ],
+            []
+        ],
+        "dialogue": [
+            [
+                "i need a restaurant . something expensive and italian .",
+                "i was able to get a couple of options for you , is there a certain area you would like to go to ?"
+            ],
+            [
+                "i would like to go to the centre , please .",
+                "how about stazione restaurant and coffee bar ?"
+            ],
+            [
+                "okay , that sounds good . i need a table for 7 at 11:30 on thursday .",
+                "booking was unfortunately unsuccessful . let s try another day or time slot ."
+            ],
+            [
+                "okay , will you try 10:30 instead ?",
+                "you are booked for 10:30 . your reference number is 4h1drif8 . is there anything else i can assist you with ?"
+            ],
+            [
+                "that s all , thanks . goodbye .",
+                "none"
+            ]
+        ],
+        "state": [
+            "none",
+            "restaurant-food=italian\trestaurant-pricerange=expensive",
+            "restaurant-food=italian\trestaurant-pricerange=expensive\trestaurant-area=centre",
+            "restaurant-book_day=thursday\trestaurant-book_people=7\trestaurant-book_time=11:30\trestaurant-food=italian\trestaurant-pricerange=expensive\trestaurant-area=centre",
+            "restaurant-book_day=thursday\trestaurant-book_people=7\trestaurant-book_time=10:30\trestaurant-food=italian\trestaurant-pricerange=expensive\trestaurant-name=stazione restaurant and coffee bar\trestaurant-area=centre",
+            "restaurant-book_day=thursday\trestaurant-book_people=7\trestaurant-book_time=10:30\trestaurant-food=italian\trestaurant-pricerange=expensive\trestaurant-name=stazione restaurant and coffee bar\trestaurant-area=centre"
+        ],
+        "dial_id": "SNG0670.json"
+    },
+    {
+        "meta": [
+            [
+                "restaurant-name=city stop restaurant"
+            ],
+            [
+                "restaurant-book_day=thursday\trestaurant-book_people=4\trestaurant-book_time=17:30"
+            ],
+            []
+        ],
+        "dialogue": [
+            [
+                "i am looking for a particular restaurant called city stop restaurant .",
+                "it is an expensive european restaurant in the north part of town . would you like to make a booking ?"
+            ],
+            [
+                "yes , i would . please reserve a table for 4 at 17:30 on thursday . i would like the reference number as well , please .",
+                "alright , i have booked a table for 4 at 17:30 on thursday . your reference number is vlg5u01z ."
+            ],
+            [
+                "thanks , that s all i need . have a nice day .",
+                "none"
+            ]
+        ],
+        "state": [
+            "none",
+            "restaurant-name=city stop restaurant",
+            "restaurant-book_day=thursday\trestaurant-book_people=4\trestaurant-book_time=17:30\trestaurant-name=city stop restaurant",
+            "restaurant-book_day=thursday\trestaurant-book_people=4\trestaurant-book_time=17:30\trestaurant-name=city stop restaurant"
+        ],
+        "dial_id": "SNG0551.json"
+    },
+    {
+        "meta": [
+            [
+                "restaurant-name=pizza express fen ditton"
+            ],
+            [],
+            []
+        ],
+        "dialogue": [
+            [
+                "hi ! i need to find the restaurant pizza express fen ditton .",
+                "ok , i have pizza express fen ditton . would you like the phone number or address for that ?"
+            ],
+            [
+                "yes please , also what type of food do they serve ?",
+                "they serve italian food , and they are located at jesus lane fen ditton , cb58ba . their phone number is 01223324033 . can i help with anything else today ?"
+            ],
+            [
+                "no that is all i need bye bye .",
+                "none"
+            ]
+        ],
+        "state": [
+            "none",
+            "restaurant-name=pizza express fen ditton",
+            "restaurant-name=pizza express fen ditton",
+            "restaurant-name=pizza express fen ditton"
+        ],
+        "dial_id": "SNG0736.json"
+    },
+    {
+        "meta": [
+            [
+                "restaurant-food=greek\trestaurant-pricerange=expensive"
+            ],
+            [
+                "restaurant-food=indian"
+            ],
+            [],
+            [],
+            []
+        ],
+        "dialogue": [
+            [
+                "can you help me find a restaurant that serves greek food and is expensive ?",
+                "i apologize but there are no expensive greek restaurant -s listed , would you like to try a different food type or price range ?"
+            ],
+            [
+                "do you have any indian restaurant -s ?",
+                "we have 14 indian restaurant -s in the expensive category . do you have any more information to narrow down the search ?"
+            ],
+            [
+                "i do not . is there 1 you can recommend ?",
+                "i can recommend 1 for you , but first is there a particular part of town you would like to travel too ?"
+            ],
+            [
+                "any part of town is fine , i just need the address and postcode of 1 you would recommend .",
+                "i would recommend the maharajah tandoori restaurant . it s in the west end . the address is 41518 castle street city centre . the postcode is cb30ah . shall i make a booking ?"
+            ],
+            [
+                "no , not yet , i just wanted the info . thanks .",
+                "none"
+            ]
+        ],
+        "state": [
+            "none",
+            "restaurant-food=greek\trestaurant-pricerange=expensive",
+            "restaurant-food=indian\trestaurant-pricerange=expensive",
+            "restaurant-food=indian\trestaurant-pricerange=expensive",
+            "restaurant-food=indian\trestaurant-pricerange=expensive",
+            "restaurant-food=indian\trestaurant-pricerange=expensive"
+        ],
+        "dial_id": "SNG0463.json"
+    },
+    {
+        "meta": [
+            [
+                "restaurant-food=thai\trestaurant-area=west"
+            ],
+            [
+                "restaurant-name=sala thong"
+            ],
+            [
+                "restaurant-book_day=thursday\trestaurant-book_people=7\trestaurant-book_time=12:45"
+            ],
+            [],
+            []
+        ],
+        "dialogue": [
+            [
+                "can you help me find a good thai restaurant in the west ?",
+                "there is sala thong that s expensive would you like me to book a table for you ?"
+            ],
+            [
+                "yes , that would be great .",
+                "can you please tell me how many people and what day and time you would like me to book it ?"
+            ],
+            [
+                "thursday at 12:45 for 7 people .",
+                "i was able to book that for you for thursday . your reference number is 07ci497h ."
+            ],
+            [
+                "thank you for your service",
+                "you are quite welcome . do you need any further assistance ?"
+            ],
+            [
+                "no , the reservation is all . goodbye .",
+                "none"
+            ]
+        ],
+        "state": [
+            "none",
+            "restaurant-food=thai\trestaurant-area=west",
+            "restaurant-food=thai\trestaurant-name=sala thong\trestaurant-area=west",
+            "restaurant-book_day=thursday\trestaurant-book_people=7\trestaurant-book_time=12:45\trestaurant-food=thai\trestaurant-name=sala thong\trestaurant-area=west",
+            "restaurant-book_day=thursday\trestaurant-book_people=7\trestaurant-book_time=12:45\trestaurant-food=thai\trestaurant-name=sala thong\trestaurant-area=west",
+            "restaurant-book_day=thursday\trestaurant-book_people=7\trestaurant-book_time=12:45\trestaurant-food=thai\trestaurant-name=sala thong\trestaurant-area=west"
+        ],
+        "dial_id": "SNG01184.json"
+    },
+    {
+        "meta": [
+            [
+                "restaurant-food=british"
+            ],
+            [
+                "restaurant-pricerange=expensive"
+            ],
+            [],
+            []
+        ],
+        "dialogue": [
+            [
+                "hi there . i am trying to impress my girlfriend and was wondering if there might be a really nice british restaurant in town ?",
+                "is there a particular area in town or a particular price range you are targeting ?"
+            ],
+            [
+                "not really , if you find a suitable 1 , please give me the postcode .",
+                "grafton hotel restaurant is an expensive british restaurant you might enjoy . the postcode is cb58pa ."
+            ],
+            [
+                "thanks ! that s all i need today . i appreciate your help .",
+                "we are happy to help . have all of your needs been met ?"
+            ],
+            [
+                "indeed they have .",
+                "none"
+            ]
+        ],
+        "state": [
+            "none",
+            "restaurant-food=british",
+            "restaurant-food=british\trestaurant-pricerange=expensive",
+            "restaurant-food=british\trestaurant-pricerange=expensive",
+            "restaurant-food=british\trestaurant-pricerange=expensive"
+        ],
+        "dial_id": "SNG0651.json"
+    },
+    {
+        "meta": [
+            [
+                "restaurant-food=swedish\trestaurant-area=centre"
+            ],
+            [
+                "restaurant-food=chinese"
+            ],
+            [],
+            [
+                "restaurant-book_day=monday\trestaurant-book_people=5\trestaurant-book_time=15:15"
+            ],
+            []
+        ],
+        "dialogue": [
+            [
+                "i am in the mood for swedish food , but i want something in the centre of town .",
+                "i am sorry , there are no swedish restaurant -s in the area . do you have another cuisine you would like to try ?"
+            ],
+            [
+                "what about chinese ?",
+                "i have 10 chinese restaurant -s in the centre area . what price range would you like ?"
+            ],
+            [
+                "could you recommend 1 ?",
+                "charlie chan is amazing and cheap ! would you like me to book it for you ?"
+            ],
+            [
+                "yes please ! i would like a table for 5 on monday at 15:15 .",
+                "your booking was successful and the reference number is u4uc246k . is there anything else i can help with today ?"
+            ],
+            [
+                "that s all . thank you !",
+                "none"
+            ]
+        ],
+        "state": [
+            "none",
+            "restaurant-food=swedish\trestaurant-area=centre",
+            "restaurant-food=chinese\trestaurant-area=centre",
+            "restaurant-food=chinese\trestaurant-area=centre",
+            "restaurant-book_day=monday\trestaurant-book_people=5\trestaurant-book_time=15:15\trestaurant-food=chinese\trestaurant-area=centre",
+            "restaurant-book_day=monday\trestaurant-book_people=5\trestaurant-book_time=15:15\trestaurant-food=chinese\trestaurant-area=centre"
+        ],
+        "dial_id": "SNG0711.json"
+    },
+    {
+        "meta": [
+            [
+                "restaurant-name=pizza hut cherry hinton"
+            ],
+            [],
+            [
+                "restaurant-book_day=sunday\trestaurant-book_people=1\trestaurant-book_time=19:45"
+            ],
+            []
+        ],
+        "dialogue": [
+            [
+                "hi , i am looking for a restaurant called pizza hut cherry hinton , can you help me find it ?",
+                "yes sure would you like their address or phone number ?"
+            ],
+            [
+                "no , i wanted to make a reservation there .",
+                "i would be happy to make you a reservation , for what day and time and how many is in your party ?"
+            ],
+            [
+                "just 1 person on sunday at 19:45",
+                "booking was successful . the table will be reserved for 15 minutes . reference number is : cko62hoh . is there anything else i can help you with ?"
+            ],
+            [
+                "no that will be all , thank you .",
+                "none"
+            ]
+        ],
+        "state": [
+            "none",
+            "restaurant-name=pizza hut cherry hinton",
+            "restaurant-name=pizza hut cherry hinton",
+            "restaurant-book_day=sunday\trestaurant-book_people=1\trestaurant-book_time=19:45\trestaurant-name=pizza hut cherry hinton",
+            "restaurant-book_day=sunday\trestaurant-book_people=1\trestaurant-book_time=19:45\trestaurant-name=pizza hut cherry hinton"
+        ],
+        "dial_id": "SNG0684.json"
+    },
+    {
+        "meta": [
+            [
+                "restaurant-food=german"
+            ],
+            [
+                "restaurant-food=european\trestaurant-pricerange=expensive"
+            ],
+            [
+                "restaurant-book_day=saturday\trestaurant-book_people=5\trestaurant-book_time=15:00"
+            ],
+            []
+        ],
+        "dialogue": [
+            [
+                "i would love to find an expensive german restaurant .",
+                "i am sorry , there are no german restaurant -s in the area . is there another cuisine i could search for ?"
+            ],
+            [
+                "how about 1 that serves european food ?",
+                "i have several european restaurant -s to choose from . did you want to dine in a certain area of the city ?"
+            ],
+            [
+                "i do not care which area . just need to find a table for 5 people at 15:00 on saturday . i will need the reference number once booked .",
+                "i think you would enjoy eraina , so i have booked you a table there . the reference number is 0it4qd59 ."
+            ],
+            [
+                "great thank you for all your help .",
+                "none"
+            ]
+        ],
+        "state": [
+            "none",
+            "restaurant-food=german",
+            "restaurant-food=european\trestaurant-pricerange=expensive",
+            "restaurant-book_day=saturday\trestaurant-book_people=5\trestaurant-book_time=15:00\trestaurant-food=european\trestaurant-pricerange=expensive",
+            "restaurant-book_day=saturday\trestaurant-book_people=5\trestaurant-book_time=15:00\trestaurant-food=european\trestaurant-pricerange=expensive"
+        ],
+        "dial_id": "SNG0554.json"
+    },
+    {
+        "meta": [
+            [
+                "restaurant-food=international\trestaurant-pricerange=moderate"
+            ],
+            [],
+            [],
+            [],
+            [],
+            []
+        ],
+        "dialogue": [
+            [
+                "are there any moderate -ly priced restaurant -s serving international food ?",
+                "yes , there are 2 in the centre of town . the varsity restaurant and the bloomsbury restaurant . would you like more information ?"
+            ],
+            [
+                "what is the address of the bloomsbury ?",
+                "they are located at crowne plaza hotel 20 downing street"
+            ],
+            [
+                "what is their phone number ?",
+                "the phone number for the bloomsbury restaurant is 08719429180 . can i help you in arranging a reservation ?"
+            ],
+            [
+                "not at the moment but i would also like their address and postcode .",
+                "the bloomsbury restaurant can be found at crowne plaza hotel 20 downing street with a postcode of cb23dt ."
+            ],
+            [
+                "great , thanks very much !",
+                "you are welcome . do you need anything else ?"
+            ],
+            [
+                "no , thank you . that is all .",
+                "none"
+            ]
+        ],
+        "state": [
+            "none",
+            "restaurant-food=international\trestaurant-pricerange=moderate",
+            "restaurant-food=international\trestaurant-pricerange=moderate",
+            "restaurant-food=international\trestaurant-pricerange=moderate",
+            "restaurant-food=international\trestaurant-pricerange=moderate",
+            "restaurant-food=international\trestaurant-pricerange=moderate",
+            "restaurant-food=international\trestaurant-pricerange=moderate"
+        ],
+        "dial_id": "SNG0501.json"
+    },
+    {
+        "meta": [
+            [
+                "restaurant-food=greek"
+            ],
+            [
+                "restaurant-food=french\trestaurant-pricerange=expensive"
+            ],
+            [
+                "restaurant-book_day=sunday\trestaurant-book_people=1\trestaurant-book_time=17:30"
+            ],
+            [
+                "restaurant-book_time=16:30"
+            ],
+            [],
+            []
+        ],
+        "dialogue": [
+            [
+                "hi ! are there any expensive greek restaurant -s in town ?",
+                "unfortunately there are none . would you like to try something else ?"
+            ],
+            [
+                "are there any expensive french restaurant -s in town ?",
+                "yes , there are two: restaurant 2 two in the north at 22 chesterton road chesterton cb43ax and cote in the centre at bridge street city centre cb21uf . anything else ?"
+            ],
+            [
+                "i'll take a table for 1 at 17:30 sunday at cote .",
+                "i am sorry , there is no availability for sunday at 17:30 . would you like to try a different day or time slot ?"
+            ],
+            [
+                "can i get a table at 16:30 instead ?",
+                "booked ! the table will be reserved for 15 minutes . reference number is 48aqq83y ."
+            ],
+            [
+                "excellent , thank you !",
+                "you are welcome ! is there anything else i can help you with ?"
+            ],
+            [
+                "no , that will be all . thanks again . bye .",
+                "none"
+            ]
+        ],
+        "state": [
+            "none",
+            "restaurant-food=greek",
+            "restaurant-food=french\trestaurant-pricerange=expensive",
+            "restaurant-book_day=sunday\trestaurant-book_people=1\trestaurant-book_time=17:30\trestaurant-food=french\trestaurant-pricerange=expensive",
+            "restaurant-book_day=sunday\trestaurant-book_people=1\trestaurant-book_time=16:30\trestaurant-food=french\trestaurant-pricerange=expensive",
+            "restaurant-book_day=sunday\trestaurant-book_people=1\trestaurant-book_time=16:30\trestaurant-food=french\trestaurant-pricerange=expensive",
+            "restaurant-book_day=sunday\trestaurant-book_people=1\trestaurant-book_time=16:30\trestaurant-food=french\trestaurant-pricerange=expensive"
+        ],
+        "dial_id": "SNG0457.json"
+    },
+    {
+        "meta": [
+            [
+                "restaurant-food=barbeque\trestaurant-area=centre"
+            ],
+            [
+                "restaurant-food=asian oriental"
+            ],
+            [],
+            []
+        ],
+        "dialogue": [
+            [
+                "i am looking for a restaurant serving barbeque in the centre of town .",
+                "sorry , there are no barbeque restaurant -s in the centre . can i help you find something else ?"
+            ],
+            [
+                "can you find a restaurant that has asian or oriental food ?",
+                "yippee noodle bar serves aisan oriental food ."
+            ],
+            [
+                "could you give me their postcode please ?",
+                "yes , yippee noodle bar is in postcode cb11lh . can i be of any further assistance today ?"
+            ],
+            [
+                "thanks all i need today . thank you .",
+                "none"
+            ]
+        ],
+        "state": [
+            "none",
+            "restaurant-food=barbeque\trestaurant-area=centre",
+            "restaurant-food=asian oriental\trestaurant-area=centre",
+            "restaurant-food=asian oriental\trestaurant-area=centre",
+            "restaurant-food=asian oriental\trestaurant-area=centre"
+        ],
+        "dial_id": "SNG0700.json"
+    },
+    {
+        "meta": [
+            [
+                "restaurant-food=international\trestaurant-area=south"
+            ],
+            [
+                "restaurant-area=south"
+            ],
+            [
+                "restaurant-food=indian\trestaurant-area=south"
+            ],
+            [
+                "restaurant-book_day=wednesday\trestaurant-book_people=4\trestaurant-book_time=16:45\trestaurant-name=taj tandoori"
+            ],
+            [
+                "restaurant-book_time=15:15"
+            ],
+            []
+        ],
+        "dialogue": [
+            [
+                "i am looking for a restaurant in the south that serves international food .",
+                "unfortunately , i was unable to find a restaurant in the south that serves international cuisine . is there another type of cuisine that would interest you ?"
+            ],
+            [
+                "no , i really need a restaurant in the south that serves international food .",
+                "there is international food in the east and centre of town . the south has many cuisines but no international food ."
+            ],
+            [
+                "are there any restaurant -s in the south that serve indian food ?",
+                "taj tandoori is a indian place that is in the south . the number is 01223412299 ."
+            ],
+            [
+                "will you please book a table for 4 people at 16:15 on wednesday ?",
+                "unfortunately , the time and day you've chosen is unavailable . would you like to book a different time or day ?"
+            ],
+            [
+                "we can go earlier . how about 15:15 , please ?",
+                "booking was successful for 15:15 . the table will be reserved for 15 minutes . your reference number is xqa73lql . anything else ?"
+            ],
+            [
+                "great , that was all . thanks",
+                "none"
+            ]
+        ],
+        "state": [
+            "none",
+            "restaurant-food=international\trestaurant-area=south",
+            "restaurant-food=international",
+            "restaurant-food=indian\trestaurant-area=south",
+            "restaurant-book_day=wednesday\trestaurant-book_people=4\trestaurant-book_time=16:45\trestaurant-food=indian\trestaurant-name=taj tandoori\trestaurant-area=south",
+            "restaurant-book_day=wednesday\trestaurant-book_people=4\trestaurant-book_time=15:15\trestaurant-food=indian\trestaurant-name=taj tandoori\trestaurant-area=south",
+            "restaurant-book_day=wednesday\trestaurant-book_people=4\trestaurant-book_time=15:15\trestaurant-food=indian\trestaurant-name=taj tandoori\trestaurant-area=south"
+        ],
+        "dial_id": "SNG01235.json"
+    },
+    {
+        "meta": [
+            [
+                "restaurant-pricerange=moderate\trestaurant-area=centre"
+            ],
+            [
+                "restaurant-food=chinese\trestaurant-name=17"
+            ],
+            [
+                "restaurant-name=17"
+            ],
+            [
+                "restaurant-book_day=wednesday\trestaurant-book_people=8\trestaurant-book_time=16:30"
+            ],
+            [
+                "restaurant-book_time=15:30\trestaurant-name=shanghi family restaurant"
+            ],
+            []
+        ],
+        "dialogue": [
+            [
+                "i need a restaurant in the centre moderate priced",
+                "restaurant 17 is a good choice . which day ?"
+            ],
+            [
+                "does it serve chinese food ?",
+                "no , but i have 3 other options for you to choose from ."
+            ],
+            [
+                "what are they ?",
+                "i have the lan hong house , jinling noodle bar and the shanghi family restaurant that are all moderate -ly priced and serving chinese food ."
+            ],
+            [
+                "i would like a table for 8 at 16:30 wednesday at shanghi family restaurant please .",
+                "i was not able to book that for you at that time . is there another time that would work for you ?"
+            ],
+            [
+                "yes . i could eat at 15:30 perhaps .",
+                "that time is available ! i have booked the reservation . the reference number is v0kcn2ri . is there anything else ?"
+            ],
+            [
+                "no , that s all i need . thanks for the help .",
+                "none"
+            ]
+        ],
+        "state": [
+            "none",
+            "restaurant-pricerange=moderate\trestaurant-area=centre",
+            "restaurant-food=chinese\trestaurant-pricerange=moderate\trestaurant-name=17\trestaurant-area=centre",
+            "restaurant-food=chinese\trestaurant-pricerange=moderate\trestaurant-area=centre",
+            "restaurant-book_day=wednesday\trestaurant-book_people=8\trestaurant-book_time=16:30\trestaurant-food=chinese\trestaurant-pricerange=moderate\trestaurant-area=centre",
+            "restaurant-book_day=wednesday\trestaurant-book_people=8\trestaurant-book_time=15:30\trestaurant-food=chinese\trestaurant-pricerange=moderate\trestaurant-name=shanghi family restaurant\trestaurant-area=centre",
+            "restaurant-book_day=wednesday\trestaurant-book_people=8\trestaurant-book_time=15:30\trestaurant-food=chinese\trestaurant-pricerange=moderate\trestaurant-name=shanghi family restaurant\trestaurant-area=centre"
+        ],
+        "dial_id": "SNG0633.json"
+    },
+    {
+        "meta": [
+            [
+                "restaurant-food=chinese\trestaurant-pricerange=expensive"
+            ],
+            [],
+            [
+                "restaurant-book_day=monday\trestaurant-book_people=4\trestaurant-book_time=13:00\trestaurant-name=yu garden"
+            ],
+            [
+                "restaurant-book_day=tuesday"
+            ],
+            []
+        ],
+        "dialogue": [
+            [
+                "hello can i find a place that serves chinese food and has expensive price range for my family",
+                "i have found several restaurant -s meeting your criteria . is there a specific area of town you are looking for ?"
+            ],
+            [
+                "i want a restuarant that i can book a table for 4 people on monday 1300hrs",
+                "i have found yu garden in the east . would you like me to go ahead and book that ?"
+            ],
+            [
+                "yes , please . for 4 people at 13:00 on monday .",
+                "i was unable to book there , shall i try another time or place ?"
+            ],
+            [
+                "how about tuesday , same time .",
+                "your table is booked for tuesday and will be reserved for 15 minutes . your reference number is 47eljdk0 . anything else ?"
+            ],
+            [
+                "no , that s all i need . thank you !",
+                "none"
+            ]
+        ],
+        "state": [
+            "none",
+            "restaurant-food=chinese\trestaurant-pricerange=expensive",
+            "restaurant-food=chinese\trestaurant-pricerange=expensive",
+            "restaurant-book_day=monday\trestaurant-book_people=4\trestaurant-book_time=13:00\trestaurant-food=chinese\trestaurant-pricerange=expensive\trestaurant-name=yu garden",
+            "restaurant-book_day=tuesday\trestaurant-book_people=4\trestaurant-book_time=13:00\trestaurant-food=chinese\trestaurant-pricerange=expensive\trestaurant-name=yu garden",
+            "restaurant-book_day=tuesday\trestaurant-book_people=4\trestaurant-book_time=13:00\trestaurant-food=chinese\trestaurant-pricerange=expensive\trestaurant-name=yu garden"
+        ],
+        "dial_id": "SNG01777.json"
+    },
+    {
+        "meta": [
+            [
+                "restaurant-pricerange=moderate\trestaurant-area=centre"
+            ],
+            [],
+            [
+                "restaurant-name=cotto"
+            ],
+            []
+        ],
+        "dialogue": [
+            [
+                "is there a moderate restaurant in the centre of town ?",
+                "certainly , we have 21 . do you have a cuisine type or a price range ?"
+            ],
+            [
+                "yes , i would like a moderate -ly priced restaurant .",
+                "cotto is a moderate -ly priced restaurant in the centre of town . it serves british food ."
+            ],
+            [
+                "please give me their address and postcode .",
+                "the cotto is located at 183 east road city centre and their postcode is cb11bg . would you like me to make a reservation for you ?"
+            ],
+            [
+                "no thank you . you have helped me tremendously and i have everything i need to know . thanks and have a good day .",
+                "none"
+            ]
+        ],
+        "state": [
+            "none",
+            "restaurant-pricerange=moderate\trestaurant-area=centre",
+            "restaurant-pricerange=moderate\trestaurant-area=centre",
+            "restaurant-pricerange=moderate\trestaurant-name=cotto\trestaurant-area=centre",
+            "restaurant-pricerange=moderate\trestaurant-name=cotto\trestaurant-area=centre"
+        ],
+        "dial_id": "SNG0694.json"
+    },
+    {
+        "meta": [
+            [
+                "restaurant-food=light bites\trestaurant-area=centre"
+            ],
+            [
+                "restaurant-pricerange=expensive"
+            ],
+            [
+                "restaurant-food=chinese"
+            ],
+            [
+                "restaurant-book_day=wednesday\trestaurant-book_people=5\trestaurant-book_time=11:15"
+            ],
+            [
+                "restaurant-book_time=10:15"
+            ],
+            [],
+            []
+        ],
+        "dialogue": [
+            [
+                "i am looking for a restaurant that is in the centre of town and serves light bites food .",
+                "we dont have any restaurant like that ."
+            ],
+            [
+                "do you have any expensive restaurant -s ?",
+                "no expensive restaurant"
+            ],
+            [
+                "could you try chinese food , instead ?",
+                "i found 4 different expensive chinese restaurant -s that you could try . how does hk fusion sound to you ?"
+            ],
+            [
+                "that sounds good . can you book a table for 5 people at 11:15 on wednesday please ?",
+                "i am sorry i am not able to book for that day and time , would you like to try another time or different restaurant ?"
+            ],
+            [
+                "yes , how about 10:15 instead . i also need the reference number .",
+                "i was able to book it for 10:15 . you reference number is 7hqz1td6 ."
+            ],
+            [
+                "thank you for your help .",
+                "is there anything else i can help you with today ?"
+            ],
+            [
+                "no that was all . thank you",
+                "none"
+            ]
+        ],
+        "state": [
+            "none",
+            "restaurant-food=light bites\trestaurant-area=centre",
+            "restaurant-food=light bites\trestaurant-pricerange=expensive\trestaurant-area=centre",
+            "restaurant-food=chinese\trestaurant-pricerange=expensive\trestaurant-area=centre",
+            "restaurant-book_day=wednesday\trestaurant-book_people=5\trestaurant-book_time=11:15\trestaurant-food=chinese\trestaurant-pricerange=expensive\trestaurant-area=centre",
+            "restaurant-book_day=wednesday\trestaurant-book_people=5\trestaurant-book_time=10:15\trestaurant-food=chinese\trestaurant-pricerange=expensive\trestaurant-area=centre",
+            "restaurant-book_day=wednesday\trestaurant-book_people=5\trestaurant-book_time=10:15\trestaurant-food=chinese\trestaurant-pricerange=expensive\trestaurant-area=centre",
+            "restaurant-book_day=wednesday\trestaurant-book_people=5\trestaurant-book_time=10:15\trestaurant-food=chinese\trestaurant-pricerange=expensive\trestaurant-area=centre"
+        ],
+        "dial_id": "SNG01698.json"
+    },
+    {
+        "meta": [
+            [
+                "restaurant-food=modern american\trestaurant-area=west"
+            ],
+            [
+                "restaurant-food=modern english"
+            ],
+            [
+                "restaurant-food=thai"
+            ],
+            [
+                "restaurant-book_people=7\trestaurant-book_time=12:15\trestaurant-name=sala thong"
+            ],
+            [
+                "restaurant-book_day=thursday"
+            ],
+            [
+                "restaurant-book_time=11:15"
+            ],
+            [],
+            []
+        ],
+        "dialogue": [
+            [
+                "i would like to find a place to dine in the west that serves modern american food .",
+                "i did not find any . would you like to try a different cuisine ?"
+            ],
+            [
+                "sure , let s try modern english food .",
+                "i apologize , sir , but there are no restaurant -s serving modern english cuisine . what else shall we try ?"
+            ],
+            [
+                "could you look for a restaurant that serves thai food ?",
+                "sala thong seems like a good match !"
+            ],
+            [
+                "ok . book for 7 people at 1215hrs",
+                "what day are you wanting that booking for ?"
+            ],
+            [
+                "make the reservation for thursday please .",
+                "thursday is not available ."
+            ],
+            [
+                "how about 11:15 on thursday ?",
+                "booking was successful for 11:15 . the table will be reserved for 15 minutes . reference number is : swz8s95v ."
+            ],
+            [
+                "great , thanks for your help .",
+                "is there anything else i can assist with ?"
+            ],
+            [
+                "no , that s all i need thanks !",
+                "none"
+            ]
+        ],
+        "state": [
+            "none",
+            "restaurant-food=modern american\trestaurant-area=west",
+            "restaurant-food=modern english\trestaurant-area=west",
+            "restaurant-food=thai\trestaurant-area=west",
+            "restaurant-book_people=7\trestaurant-book_time=12:15\trestaurant-food=thai\trestaurant-name=sala thong\trestaurant-area=west",
+            "restaurant-book_day=thursday\trestaurant-book_people=7\trestaurant-book_time=12:15\trestaurant-food=thai\trestaurant-name=sala thong\trestaurant-area=west",
+            "restaurant-book_day=thursday\trestaurant-book_people=7\trestaurant-book_time=11:15\trestaurant-food=thai\trestaurant-name=sala thong\trestaurant-area=west",
+            "restaurant-book_day=thursday\trestaurant-book_people=7\trestaurant-book_time=11:15\trestaurant-food=thai\trestaurant-name=sala thong\trestaurant-area=west",
+            "restaurant-book_day=thursday\trestaurant-book_people=7\trestaurant-book_time=11:15\trestaurant-food=thai\trestaurant-name=sala thong\trestaurant-area=west"
+        ],
+        "dial_id": "SNG02052.json"
+    },
+    {
+        "meta": [
+            [
+                "restaurant-food=panasian\trestaurant-pricerange=expensive"
+            ],
+            [
+                "restaurant-pricerange=expensive"
+            ],
+            [
+                "restaurant-food=italian\trestaurant-pricerange=expensive\trestaurant-area=center of town"
+            ],
+            [
+                "restaurant-area=centre"
+            ],
+            [],
+            [],
+            []
+        ],
+        "dialogue": [
+            [
+                "would you be able to recommend an expensive restaurant that serves panasian food ?",
+                "unfortunately , there are no expensive panasian restuarants nearby ."
+            ],
+            [
+                "are there any panasian restaurant -s ?",
+                "i am sorry but i cannot find any panasian restaurant -s ."
+            ],
+            [
+                "that s okay , are there any expensive italian restaurant -s ? i would prefer the centre of town .",
+                "there are no expensive italian restaurant -s in that area ."
+            ],
+            [
+                "well , can you recommend me another expensive restaurant . i need the address and the phone number to make a reservation .",
+                "caffe uno is an expensive italian restaurant in the centre . it can be located at 32 bridge street city centre and the phone number is 01223448620 ."
+            ],
+            [
+                "thanks . i will check it out .",
+                "do you need anything else today ?"
+            ],
+            [
+                "yes , can you tell me what their postcode is , please ?",
+                "yes , it s cb21uj ."
+            ],
+            [
+                "thanks so much , that is all i needed .",
+                "none"
+            ]
+        ],
+        "state": [
+            "none",
+            "restaurant-food=panasian\trestaurant-pricerange=expensive",
+            "restaurant-food=panasian",
+            "restaurant-food=italian\trestaurant-pricerange=expensive\trestaurant-area=center of town",
+            "restaurant-food=italian\trestaurant-pricerange=expensive\trestaurant-area=centre",
+            "restaurant-food=italian\trestaurant-pricerange=expensive\trestaurant-area=centre",
+            "restaurant-food=italian\trestaurant-pricerange=expensive\trestaurant-area=centre",
+            "restaurant-food=italian\trestaurant-pricerange=expensive\trestaurant-area=centre"
+        ],
+        "dial_id": "SNG0542.json"
+    },
+    {
+        "meta": [
+            [
+                "restaurant-name=efes restaurant"
+            ],
+            [
+                "restaurant-book_day=wednesday\trestaurant-book_people=3\trestaurant-book_time=18:15\trestaurant-food=turkish\trestaurant-pricerange=moderate\trestaurant-area=centre"
+            ],
+            [
+                "restaurant-book_time=17:15"
+            ],
+            []
+        ],
+        "dialogue": [
+            [
+                "i am looking for a particular restaurant . it s efes restaurant .",
+                "i was able to find efes restaurant for you . this is a turkish restaurant in the centre of town with a moderate price range . would you like a booking ?"
+            ],
+            [
+                "yes i would , for 3 people wednesday at 18:15 .",
+                "unfortunately , the restaurant is full at this time . is there another time or day i can reserve for you ?"
+            ],
+            [
+                "can you check for 17:15 on the same day ?",
+                "sure , you are all set for 17:15 with reference number 6lzypifz . the table will be reserved for 15 minutes . would you like assistance with anything else ?"
+            ],
+            [
+                "no , that s all i need today . i appreciate your help goodbye !",
+                "none"
+            ]
+        ],
+        "state": [
+            "none",
+            "restaurant-name=efes restaurant",
+            "restaurant-book_day=wednesday\trestaurant-book_people=3\trestaurant-book_time=18:15\trestaurant-food=turkish\trestaurant-pricerange=moderate\trestaurant-name=efes restaurant\trestaurant-area=centre",
+            "restaurant-book_day=wednesday\trestaurant-book_people=3\trestaurant-book_time=17:15\trestaurant-food=turkish\trestaurant-pricerange=moderate\trestaurant-name=efes restaurant\trestaurant-area=centre",
+            "restaurant-book_day=wednesday\trestaurant-book_people=3\trestaurant-book_time=17:15\trestaurant-food=turkish\trestaurant-pricerange=moderate\trestaurant-name=efes restaurant\trestaurant-area=centre"
+        ],
+        "dial_id": "SNG0535.json"
+    }
+]

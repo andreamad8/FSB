@@ -1,0 +1,410 @@
+[
+    {
+        "meta": [
+            [
+                "attraction-type=entertainment\tattraction-area=east"
+            ],
+            [],
+            [],
+            []
+        ],
+        "dialogue": [
+            [
+                "could you help me find a place for entertainment ? something on the east side of town .",
+                "cherry hinton hall and grounds is on the east side of town , would you like their phone number ?"
+            ],
+            [
+                "actually , can i get the address and postcode ?",
+                "yes , it s cherry hinton road , cb18dw ."
+            ],
+            [
+                "can you tell me what the entrance fee is ?",
+                "i am sorry , the entrance fee is not listed in my system ."
+            ],
+            [
+                "ok , then that s all i need today . thank you for your help !",
+                "none"
+            ]
+        ],
+        "state": [
+            "none",
+            "attraction-type=entertainment\tattraction-area=east",
+            "attraction-type=entertainment\tattraction-area=east",
+            "attraction-type=entertainment\tattraction-area=east",
+            "attraction-type=entertainment\tattraction-area=east"
+        ],
+        "dial_id": "SNG1070.json"
+    },
+    {
+        "meta": [
+            [
+                "attraction-name=williams art and antiques"
+            ],
+            [],
+            []
+        ],
+        "dialogue": [
+            [
+                "i am looking for an attraction called williams art and antiques .",
+                "williams art and antiques is at gwydir street , no . 5 dale s brewery . would you like me to book tickets ?"
+            ],
+            [
+                "no thank you . just the area and postcode please .",
+                "it is in the centre and the postcode is cb12lj . is there anything else you need help with today ?"
+            ],
+            [
+                "no that s all i needed . thank you !",
+                "none"
+            ]
+        ],
+        "state": [
+            "none",
+            "attraction-name=williams art and antiques",
+            "attraction-name=williams art and antiques",
+            "attraction-name=williams art and antiques"
+        ],
+        "dial_id": "SNG1147.json"
+    },
+    {
+        "meta": [
+            [
+                "attraction-name=kettle s yard"
+            ],
+            []
+        ],
+        "dialogue": [
+            [
+                "i am looking for some info on an attraction called kettle s yard .",
+                "absolutely ! the entrance is free ! it is located in the west . the address is castle street !"
+            ],
+            [
+                "great thank you for all your help , that s all that i needed to know .",
+                "none"
+            ]
+        ],
+        "state": [
+            "none",
+            "attraction-name=kettle s yard",
+            "attraction-name=kettle s yard"
+        ],
+        "dial_id": "SNG1086.json"
+    },
+    {
+        "meta": [
+            [],
+            [
+                "attraction-type=architecture"
+            ],
+            [],
+            [],
+            []
+        ],
+        "dialogue": [
+            [
+                "i am looking for a place to go !",
+                "i can certainly help you find something . do you have a type of attraction in mind ?"
+            ],
+            [
+                "i like looking at the architecture of old buildings . i think it says a lot about how we used to live .",
+                "we have a lot of interesting architecture here in cambridge . is there a particular area of town you are interested in ?"
+            ],
+            [
+                "what would you suggest ?",
+                "here are a few suggestions from the centre: all saint s church and holy trinity church , both are free to visit ."
+            ],
+            [
+                "the holy trinity church sounds lovely . can you give me their postcode , please ?",
+                "yes , their postcode is cb23nz . can i get any other information for you ?"
+            ],
+            [
+                "no that will be all . thanks .",
+                "none"
+            ]
+        ],
+        "state": [
+            "none",
+            "",
+            "attraction-type=architecture",
+            "attraction-type=architecture",
+            "attraction-type=architecture",
+            "attraction-type=architecture"
+        ],
+        "dial_id": "SNG1091.json"
+    },
+    {
+        "meta": [
+            [
+                "attraction-type=boat\tattraction-area=north"
+            ],
+            [],
+            []
+        ],
+        "dialogue": [
+            [
+                "could you help me find a boat to visit on the north side ?",
+                "i have 1 in that area . it s called the riverboat georgina . it s located at cambridge passenger cruisers , jubilee house . would you like their phone number for more information ?"
+            ],
+            [
+                "yes , i want the phone number and also the entrance fee , please .",
+                "their phone number is 01223902091 and we do not have the entrance fee in our database at this time ."
+            ],
+            [
+                "okay , that is all i need today . thank you very much .",
+                "none"
+            ]
+        ],
+        "state": [
+            "none",
+            "attraction-type=boat\tattraction-area=north",
+            "attraction-type=boat\tattraction-area=north",
+            "attraction-type=boat\tattraction-area=north"
+        ],
+        "dial_id": "SNG1066.json"
+    },
+    {
+        "meta": [
+            [
+                "attraction-type=entertainment\tattraction-area=centre"
+            ],
+            [
+                "attraction-type=museum"
+            ],
+            [],
+            []
+        ],
+        "dialogue": [
+            [
+                "can you see if there are any entertainment attractions in the centre of town ?",
+                "unfortunately there are no entertainment attractions in the centre of town . is there a different area of town that would work for you ?"
+            ],
+            [
+                "what about a museum ?",
+                "yes , there are 11 museums . i would recommend broughton house gallery . it s at 98 king street cb11ln and has free entrance . would that work for you ?"
+            ],
+            [
+                "yes , that will work great . can i get their phone number please ?",
+                "certainly . the broughton house gallery s phone number is 01223314960 . is there anything else i can help you with today ?"
+            ],
+            [
+                "no , that s all i need . thanks !",
+                "none"
+            ]
+        ],
+        "state": [
+            "none",
+            "attraction-type=entertainment\tattraction-area=centre",
+            "attraction-type=museum\tattraction-area=centre",
+            "attraction-type=museum\tattraction-area=centre",
+            "attraction-type=museum\tattraction-area=centre"
+        ],
+        "dial_id": "SNG1076.json"
+    },
+    {
+        "meta": [
+            [
+                "attraction-type=nightclub\tattraction-area=centre"
+            ],
+            [],
+            []
+        ],
+        "dialogue": [
+            [
+                "i am looking for a nightclub to go to . are there any in the centre of town ?",
+                "there are 5 nightclubs in the centre . ballare is 1 of them . would that work for you ?"
+            ],
+            [
+                "is there an entrance fee for ballare ?",
+                "the fee is 5 pounds ."
+            ],
+            [
+                "thank you ! that s all i needed .",
+                "none"
+            ]
+        ],
+        "state": [
+            "none",
+            "attraction-type=nightclub\tattraction-area=centre",
+            "attraction-type=nightclub\tattraction-area=centre",
+            "attraction-type=nightclub\tattraction-area=centre"
+        ],
+        "dial_id": "SNG1090.json"
+    },
+    {
+        "meta": [
+            [
+                "attraction-type=concerthall\tattraction-area=east"
+            ],
+            [
+                "attraction-type=entertainment"
+            ],
+            [],
+            []
+        ],
+        "dialogue": [
+            [
+                "i am trying to find a concert hall in the east part of town .",
+                "unfortunately , i do not have any listings for concert halls on the east side . can i check another area of town for you ?"
+            ],
+            [
+                "how about an entertainment attraction instead ?",
+                "there are 2 entertainment attractions on the east side . would you like more information ?"
+            ],
+            [
+                "yes and can i have the phone number and address of 1 of attraction ?",
+                "sure . cherry hinton hall and grounds can be reached at 01223446104 . it is on cherry hinton road , postcode cb18dw . can i help you with anything else today ?"
+            ],
+            [
+                "thanks . that s all i need for now .",
+                "none"
+            ]
+        ],
+        "state": [
+            "none",
+            "attraction-type=concerthall\tattraction-area=east",
+            "attraction-type=entertainment\tattraction-area=east",
+            "attraction-type=entertainment\tattraction-area=east",
+            "attraction-type=entertainment\tattraction-area=east"
+        ],
+        "dial_id": "SNG1150.json"
+    },
+    {
+        "meta": [
+            [
+                "attraction-area=west"
+            ],
+            [],
+            [],
+            []
+        ],
+        "dialogue": [
+            [
+                "i am looking for an attraction to visit . is there anything located in the west part of town ?",
+                "there are 13 attractions in the west part of town . would you like to visit a college ?"
+            ],
+            [
+                "no , i was thinking of something fun to do . do you have any suggestions ?",
+                "i have several museums to choose from . i also have an entertainment attraction called whale of a time . can i interest you in 1 of those ?"
+            ],
+            [
+                "whale of a time sounds like a whale of a time ! yes , can i have their phone number , address , and postcode please ?",
+                "sure , they are located at unit 8 , viking way , bar hill , postcode cb238el , and their phone number is 01954781018 . may i help with anything else ?"
+            ],
+            [
+                "no , that s all i need . thank you !",
+                "none"
+            ]
+        ],
+        "state": [
+            "none",
+            "attraction-area=west",
+            "attraction-area=west",
+            "attraction-area=west",
+            "attraction-area=west"
+        ],
+        "dial_id": "SNG1105.json"
+    },
+    {
+        "meta": [
+            [
+                "attraction-type=nightclub"
+            ],
+            [],
+            [],
+            [],
+            []
+        ],
+        "dialogue": [
+            [
+                "i am hoping to find a nightclub in town .",
+                "we have 6 nightclubs . any preference on entrance fee ?"
+            ],
+            [
+                "no , can you tell me what the entrance fee is ?",
+                "the soul tree nightclub costs 4 pounds . the others are a bit more expensive ."
+            ],
+            [
+                "can you please tell me what the phone number is for the soul tree ?",
+                "yes , it is 01223477900 ."
+            ],
+            [
+                "what is their postcode ?",
+                "the soul tree is in postcode cb23qf . can i help with anything else today ?"
+            ],
+            [
+                "no thank you . that is all the information i need .",
+                "none"
+            ]
+        ],
+        "state": [
+            "none",
+            "attraction-type=nightclub",
+            "attraction-type=nightclub",
+            "attraction-type=nightclub",
+            "attraction-type=nightclub",
+            "attraction-type=nightclub"
+        ],
+        "dial_id": "SNG1075.json"
+    },
+    {
+        "meta": [
+            [
+                "attraction-name=holy trinity church"
+            ],
+            [],
+            []
+        ],
+        "dialogue": [
+            [
+                "do you know where i can find the holy trinity church ?",
+                "absolutely . holy trinity church is on market street in the centre of town . their postcode is cb23nz and is free to enter . would you need their phone number ?"
+            ],
+            [
+                "great what type of attraction are they ?",
+                "it is an architecture attraction ."
+            ],
+            [
+                "that s all the information i need . thanks for your help !",
+                "none"
+            ]
+        ],
+        "state": [
+            "none",
+            "attraction-name=holy trinity church",
+            "attraction-name=holy trinity church",
+            "attraction-name=holy trinity church"
+        ],
+        "dial_id": "SNG1078.json"
+    },
+    {
+        "meta": [
+            [
+                "attraction-area=west"
+            ],
+            [
+                "attraction-type=museum"
+            ],
+            []
+        ],
+        "dialogue": [
+            [
+                "hello , i am trying to find an attraction in the west part of town . can you help me ?",
+                "sure , there are many colleges and museums in the west , there is also some entertainment . do you have a preference on any of these ?"
+            ],
+            [
+                "not really . could you give me the postcode for 1 of the museums ?",
+                "the 1 i recommend is the people s portraits exhibition at girton college . it s free to get in . their postcode is cb3ojg . is there any other information i can provide ?"
+            ],
+            [
+                "thank you . that s all i need today . goodbye .",
+                "none"
+            ]
+        ],
+        "state": [
+            "none",
+            "attraction-area=west",
+            "attraction-type=museum\tattraction-area=west",
+            "attraction-type=museum\tattraction-area=west"
+        ],
+        "dial_id": "SNG1126.json"
+    }
+]

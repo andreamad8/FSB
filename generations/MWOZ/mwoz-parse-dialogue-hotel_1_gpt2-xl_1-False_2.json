@@ -1,0 +1,3137 @@
+{
+    "score": {
+        "BLEU": 0.0,
+        "B4": 0.18336920150300182,
+        "F1": 39.644332028171526,
+        "RL": 44.03378074012995,
+        "JGA": 0.0,
+        "SLOT_ACC": 4.993678887484197,
+        "ppl": 19.749263317456613
+    },
+    "generation": [
+        {
+            "meta": [
+                [
+                    "hotel-area=moderate"
+                ],
+                [
+                    "hotel-area=moderate"
+                ],
+                [
+                    "hotel-type=dontcare"
+                ],
+                [
+                    "hotel-pricerange=moderate"
+                ],
+                [
+                    "hotel-pricerange=1night"
+                ],
+                [
+                    "None"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "hotel-area": "moderate"
+                },
+                {
+                    "hotel-area": "moderate"
+                },
+                {
+                    "hotel-area": "moderate",
+                    "hotel-type": "dontcare"
+                },
+                {
+                    "hotel-area": "moderate",
+                    "hotel-type": "dontcare",
+                    "hotel-pricerange": "moderate"
+                },
+                {
+                    "hotel-area": "moderate",
+                    "hotel-type": "dontcare",
+                    "hotel-pricerange": "1night"
+                },
+                {
+                    "hotel-area": "moderate",
+                    "hotel-type": "dontcare",
+                    "hotel-pricerange": "1night"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "city-centre-north-bed-and-breakfast=north"
+                ],
+                [
+                    "city-centre-north-bed-and-breakfast=north"
+                ],
+                [
+                    "none"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "city-centre-north-bed-and-breakfast": "north"
+                },
+                {
+                    "city-centre-north-bed-and-breakfast": "north"
+                },
+                {
+                    "city-centre-north-bed-and-breakfast": "north"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "hotel-type=dontcare"
+                ],
+                [
+                    "hotel-type=dontcare"
+                ],
+                [
+                    "None"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "hotel-type": "dontcare"
+                },
+                {
+                    "hotel-type": "dontcare"
+                },
+                {
+                    "hotel-type": "dontcare"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "hotel-type=dontcare"
+                ],
+                [
+                    "hotel-type=dontcare"
+                ],
+                [
+                    "hotel-type=dontcare"
+                ],
+                [
+                    "hotel-type=dontcare"
+                ],
+                [
+                    "hotel-type=dontcare"
+                ],
+                [
+                    "None"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "hotel-type": "dontcare"
+                },
+                {
+                    "hotel-type": "dontcare"
+                },
+                {
+                    "hotel-type": "dontcare"
+                },
+                {
+                    "hotel-type": "dontcare"
+                },
+                {
+                    "hotel-type": "dontcare"
+                },
+                {
+                    "hotel-type": "dontcare"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "hotel-area=free wifi"
+                ],
+                [
+                    "hotel-area=3 stars"
+                ],
+                [
+                    "hotel-pricerange=moderate"
+                ],
+                [
+                    "hotel-type=dontcare"
+                ],
+                [
+                    "hotel-type=dontcare"
+                ],
+                [
+                    "hotel-type=dontcare"
+                ],
+                [
+                    "None"
+                ],
+                [
+                    "none"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "hotel-area": "free wifi"
+                },
+                {
+                    "hotel-area": "3 stars"
+                },
+                {
+                    "hotel-area": "3 stars",
+                    "hotel-pricerange": "moderate"
+                },
+                {
+                    "hotel-area": "3 stars",
+                    "hotel-pricerange": "moderate",
+                    "hotel-type": "dontcare"
+                },
+                {
+                    "hotel-area": "3 stars",
+                    "hotel-pricerange": "moderate",
+                    "hotel-type": "dontcare"
+                },
+                {
+                    "hotel-area": "3 stars",
+                    "hotel-pricerange": "moderate",
+                    "hotel-type": "dontcare"
+                },
+                {
+                    "hotel-area": "3 stars",
+                    "hotel-pricerange": "moderate",
+                    "hotel-type": "dontcare"
+                },
+                {
+                    "hotel-area": "3 stars",
+                    "hotel-pricerange": "moderate",
+                    "hotel-type": "dontcare"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "hotel-area=northinsula=3"
+                ],
+                [
+                    "hotel-area=northinsula=free wifi"
+                ],
+                [
+                    "hotel-type=dontcare"
+                ],
+                [
+                    "hotel-pricerange=moderate"
+                ],
+                [
+                    "hotel-type=dontcare"
+                ],
+                [
+                    "hotel-pricerange=hamilton-lodge"
+                ],
+                [
+                    "hotel-type=dontcare"
+                ],
+                [
+                    "None"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "hotel-area": "northinsula"
+                },
+                {
+                    "hotel-area": "northinsula"
+                },
+                {
+                    "hotel-area": "northinsula",
+                    "hotel-type": "dontcare"
+                },
+                {
+                    "hotel-area": "northinsula",
+                    "hotel-type": "dontcare",
+                    "hotel-pricerange": "moderate"
+                },
+                {
+                    "hotel-area": "northinsula",
+                    "hotel-type": "dontcare",
+                    "hotel-pricerange": "moderate"
+                },
+                {
+                    "hotel-area": "northinsula",
+                    "hotel-type": "dontcare",
+                    "hotel-pricerange": "hamilton-lodge"
+                },
+                {
+                    "hotel-area": "northinsula",
+                    "hotel-type": "dontcare",
+                    "hotel-pricerange": "hamilton-lodge"
+                },
+                {
+                    "hotel-area": "northinsula",
+                    "hotel-type": "dontcare",
+                    "hotel-pricerange": "hamilton-lodge"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "hotel-area=expensive"
+                ],
+                [
+                    "hotel-type=dontcare"
+                ],
+                [
+                    "hotel-pricerange=cheap"
+                ],
+                [
+                    "hotel-type=dontcare"
+                ],
+                [
+                    "None"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "hotel-area": "expensive"
+                },
+                {
+                    "hotel-area": "expensive",
+                    "hotel-type": "dontcare"
+                },
+                {
+                    "hotel-area": "expensive",
+                    "hotel-type": "dontcare",
+                    "hotel-pricerange": "cheap"
+                },
+                {
+                    "hotel-area": "expensive",
+                    "hotel-type": "dontcare",
+                    "hotel-pricerange": "cheap"
+                },
+                {
+                    "hotel-area": "expensive",
+                    "hotel-type": "dontcare",
+                    "hotel-pricerange": "cheap"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "hotel-type=dontcare"
+                ],
+                [
+                    "hotel-type=dontcare"
+                ],
+                [
+                    "hotel-type=dontcare"
+                ],
+                [
+                    "hotel-type=dontcare"
+                ],
+                [
+                    "hotel-type=dontcare"
+                ],
+                [
+                    "hotel-type=dontcare"
+                ],
+                [
+                    "None"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "hotel-type": "dontcare"
+                },
+                {
+                    "hotel-type": "dontcare"
+                },
+                {
+                    "hotel-type": "dontcare"
+                },
+                {
+                    "hotel-type": "dontcare"
+                },
+                {
+                    "hotel-type": "dontcare"
+                },
+                {
+                    "hotel-type": "dontcare"
+                },
+                {
+                    "hotel-type": "dontcare"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "hotel-area=northinsula"
+                ],
+                [
+                    "hotel-pricerange=0 star"
+                ],
+                [
+                    "hotel-pricerange=0 star"
+                ],
+                [
+                    "hotel-type=dontcare"
+                ],
+                [
+                    "hotel-type=dontcare"
+                ],
+                [
+                    "hotel-type=dontcare"
+                ],
+                [
+                    "None"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "hotel-area": "northinsula"
+                },
+                {
+                    "hotel-area": "northinsula",
+                    "hotel-pricerange": "0 star"
+                },
+                {
+                    "hotel-area": "northinsula",
+                    "hotel-pricerange": "0 star"
+                },
+                {
+                    "hotel-area": "northinsula",
+                    "hotel-pricerange": "0 star",
+                    "hotel-type": "dontcare"
+                },
+                {
+                    "hotel-area": "northinsula",
+                    "hotel-pricerange": "0 star",
+                    "hotel-type": "dontcare"
+                },
+                {
+                    "hotel-area": "northinsula",
+                    "hotel-pricerange": "0 star",
+                    "hotel-type": "dontcare"
+                },
+                {
+                    "hotel-area": "northinsula",
+                    "hotel-pricerange": "0 star",
+                    "hotel-type": "dontcare"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "hotel-area=northinsula"
+                ],
+                [
+                    "hotel-pricerange=moderate"
+                ],
+                [
+                    "hotel-pricerange=northinsula"
+                ],
+                [
+                    "hotel-type=dontcare"
+                ],
+                [
+                    "hotel-type=dontcare"
+                ],
+                [
+                    "hotel-pricerange=northinsula"
+                ],
+                [
+                    "None"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "hotel-area": "northinsula"
+                },
+                {
+                    "hotel-area": "northinsula",
+                    "hotel-pricerange": "moderate"
+                },
+                {
+                    "hotel-area": "northinsula",
+                    "hotel-pricerange": "northinsula"
+                },
+                {
+                    "hotel-area": "northinsula",
+                    "hotel-pricerange": "northinsula",
+                    "hotel-type": "dontcare"
+                },
+                {
+                    "hotel-area": "northinsula",
+                    "hotel-pricerange": "northinsula",
+                    "hotel-type": "dontcare"
+                },
+                {
+                    "hotel-area": "northinsula",
+                    "hotel-pricerange": "northinsula",
+                    "hotel-type": "dontcare"
+                },
+                {
+                    "hotel-area": "northinsula",
+                    "hotel-pricerange": "northinsula",
+                    "hotel-type": "dontcare"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "hotel-type=free"
+                ],
+                [
+                    "hotel-type=centre"
+                ],
+                [
+                    "hotel-type=tuesday"
+                ],
+                [
+                    "hotel-type=wednesday"
+                ],
+                [
+                    "None"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "hotel-type": "free"
+                },
+                {
+                    "hotel-type": "centre"
+                },
+                {
+                    "hotel-type": "tuesday"
+                },
+                {
+                    "hotel-type": "wednesday"
+                },
+                {
+                    "hotel-type": "wednesday"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "hotel-area=northinsula"
+                ],
+                [
+                    "hotel-pricerange=expensive"
+                ],
+                [
+                    "hotel-type=dontcare"
+                ],
+                [
+                    "hotel-pricerange=expensive"
+                ],
+                [
+                    "hotel-pricerange=expensive"
+                ],
+                [
+                    "None"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "hotel-area": "northinsula"
+                },
+                {
+                    "hotel-area": "northinsula",
+                    "hotel-pricerange": "expensive"
+                },
+                {
+                    "hotel-area": "northinsula",
+                    "hotel-pricerange": "expensive",
+                    "hotel-type": "dontcare"
+                },
+                {
+                    "hotel-area": "northinsula",
+                    "hotel-pricerange": "expensive",
+                    "hotel-type": "dontcare"
+                },
+                {
+                    "hotel-area": "northinsula",
+                    "hotel-pricerange": "expensive",
+                    "hotel-type": "dontcare"
+                },
+                {
+                    "hotel-area": "northinsula",
+                    "hotel-pricerange": "expensive",
+                    "hotel-type": "dontcare"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "hotel-area=northinsula"
+                ],
+                [
+                    "hotel-area=southinsula"
+                ],
+                [
+                    "hotel-type=dontcare"
+                ],
+                [
+                    "hotel-address=lensfield"
+                ],
+                [
+                    "none"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "hotel-area": "northinsula"
+                },
+                {
+                    "hotel-area": "southinsula"
+                },
+                {
+                    "hotel-area": "southinsula",
+                    "hotel-type": "dontcare"
+                },
+                {
+                    "hotel-area": "southinsula",
+                    "hotel-type": "dontcare",
+                    "hotel-address": "lensfield"
+                },
+                {
+                    "hotel-area": "southinsula",
+                    "hotel-type": "dontcare",
+                    "hotel-address": "lensfield"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "hotel-area=northinsula-hotel-start=5 starts"
+                ],
+                [
+                    "hotel-pricerange=expensive"
+                ],
+                [
+                    "hotel-type=dontcare"
+                ],
+                [
+                    "hotel-pricerange=4 starts"
+                ],
+                [
+                    "hotel-pricerange=4 starts"
+                ],
+                [
+                    "hotel-pricerange=sunday arrival"
+                ],
+                [
+                    "hotel-pricerange=3 starts"
+                ],
+                [
+                    "hotel-type=dontcare"
+                ],
+                [
+                    "none"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "hotel-area": "northinsula-hotel-start"
+                },
+                {
+                    "hotel-area": "northinsula-hotel-start",
+                    "hotel-pricerange": "expensive"
+                },
+                {
+                    "hotel-area": "northinsula-hotel-start",
+                    "hotel-pricerange": "expensive",
+                    "hotel-type": "dontcare"
+                },
+                {
+                    "hotel-area": "northinsula-hotel-start",
+                    "hotel-pricerange": "4 starts",
+                    "hotel-type": "dontcare"
+                },
+                {
+                    "hotel-area": "northinsula-hotel-start",
+                    "hotel-pricerange": "4 starts",
+                    "hotel-type": "dontcare"
+                },
+                {
+                    "hotel-area": "northinsula-hotel-start",
+                    "hotel-pricerange": "sunday arrival",
+                    "hotel-type": "dontcare"
+                },
+                {
+                    "hotel-area": "northinsula-hotel-start",
+                    "hotel-pricerange": "3 starts",
+                    "hotel-type": "dontcare"
+                },
+                {
+                    "hotel-area": "northinsula-hotel-start",
+                    "hotel-pricerange": "3 starts",
+                    "hotel-type": "dontcare"
+                },
+                {
+                    "hotel-area": "northinsula-hotel-start",
+                    "hotel-pricerange": "3 starts",
+                    "hotel-type": "dontcare"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "free wifi=free parking=free wifi"
+                ],
+                [
+                    "free wifi=free parking=free wifi"
+                ],
+                [
+                    "free wifi=free parking=free wifi"
+                ],
+                [
+                    "free wifi=free parking=free wifi"
+                ],
+                [
+                    "free wifi=free parking=free wifi"
+                ],
+                [
+                    "free wifi=free parking=free wifi"
+                ],
+                [
+                    "none"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "free wifi": "free parking"
+                },
+                {
+                    "free wifi": "free parking"
+                },
+                {
+                    "free wifi": "free parking"
+                },
+                {
+                    "free wifi": "free parking"
+                },
+                {
+                    "free wifi": "free parking"
+                },
+                {
+                    "free wifi": "free parking"
+                },
+                {
+                    "free wifi": "free parking"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "hotel-area=northinsula=free wifi"
+                ],
+                [
+                    "hotel-area=northinsula=free parking"
+                ],
+                [
+                    "hotel-type=dontcare"
+                ],
+                [
+                    "hotel-area=northinsula=archway-house"
+                ],
+                [
+                    "hotel-area=northinsula=archway-house"
+                ],
+                [
+                    "None"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "hotel-area": "northinsula"
+                },
+                {
+                    "hotel-area": "northinsula"
+                },
+                {
+                    "hotel-area": "northinsula",
+                    "hotel-type": "dontcare"
+                },
+                {
+                    "hotel-area": "northinsula",
+                    "hotel-type": "dontcare"
+                },
+                {
+                    "hotel-area": "northinsula",
+                    "hotel-type": "dontcare"
+                },
+                {
+                    "hotel-area": "northinsula",
+                    "hotel-type": "dontcare"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "lodging-area=cambridge"
+                ],
+                [
+                    "lodging-type=dontcare"
+                ],
+                [
+                    "lodging-type=5star"
+                ],
+                [
+                    "lodging-type=1night"
+                ],
+                [
+                    "lodging-type=3star"
+                ],
+                [
+                    "lodging-type=centre"
+                ],
+                [
+                    "lodging-type=8people"
+                ],
+                [
+                    "lodging-type=1night"
+                ],
+                [
+                    "None"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "lodging-area": "cambridge"
+                },
+                {
+                    "lodging-area": "cambridge",
+                    "lodging-type": "dontcare"
+                },
+                {
+                    "lodging-area": "cambridge",
+                    "lodging-type": "5star"
+                },
+                {
+                    "lodging-area": "cambridge",
+                    "lodging-type": "1night"
+                },
+                {
+                    "lodging-area": "cambridge",
+                    "lodging-type": "3star"
+                },
+                {
+                    "lodging-area": "cambridge",
+                    "lodging-type": "centre"
+                },
+                {
+                    "lodging-area": "cambridge",
+                    "lodging-type": "8people"
+                },
+                {
+                    "lodging-area": "cambridge",
+                    "lodging-type": "1night"
+                },
+                {
+                    "lodging-area": "cambridge",
+                    "lodging-type": "1night"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "hotel-area=free wifi"
+                ],
+                [
+                    "hotel-type=dontcare"
+                ],
+                [
+                    "hotel-pricerange=cheap"
+                ],
+                [
+                    "hotel-type=dontcare"
+                ],
+                [
+                    "hotel-phone-number=el-shaddai"
+                ],
+                [
+                    "None"
+                ],
+                [
+                    "bye bye bye bye bye bye bye bye bye bye bye bye bye bye bye bye bye bye bye bye bye bye bye bye bye bye bye bye bye bye bye bye bye bye bye bye bye bye bye bye bye bye bye bye bye bye bye bye bye bye"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "hotel-area": "free wifi"
+                },
+                {
+                    "hotel-area": "free wifi",
+                    "hotel-type": "dontcare"
+                },
+                {
+                    "hotel-area": "free wifi",
+                    "hotel-type": "dontcare",
+                    "hotel-pricerange": "cheap"
+                },
+                {
+                    "hotel-area": "free wifi",
+                    "hotel-type": "dontcare",
+                    "hotel-pricerange": "cheap"
+                },
+                {
+                    "hotel-area": "free wifi",
+                    "hotel-type": "dontcare",
+                    "hotel-pricerange": "cheap",
+                    "hotel-phone-number": "el-shaddai"
+                },
+                {
+                    "hotel-area": "free wifi",
+                    "hotel-type": "dontcare",
+                    "hotel-pricerange": "cheap",
+                    "hotel-phone-number": "el-shaddai"
+                },
+                {
+                    "hotel-area": "free wifi",
+                    "hotel-type": "dontcare",
+                    "hotel-pricerange": "cheap",
+                    "hotel-phone-number": "el-shaddai"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "hotel-area=centre"
+                ],
+                [
+                    "hotel-pricerange=expensive"
+                ],
+                [
+                    "hotel-type=dontcare"
+                ],
+                [
+                    "hotel-type=dontcare"
+                ],
+                [
+                    "hotel-type=dontcare"
+                ],
+                [
+                    "None"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "hotel-area": "centre"
+                },
+                {
+                    "hotel-area": "centre",
+                    "hotel-pricerange": "expensive"
+                },
+                {
+                    "hotel-area": "centre",
+                    "hotel-pricerange": "expensive",
+                    "hotel-type": "dontcare"
+                },
+                {
+                    "hotel-area": "centre",
+                    "hotel-pricerange": "expensive",
+                    "hotel-type": "dontcare"
+                },
+                {
+                    "hotel-area": "centre",
+                    "hotel-pricerange": "expensive",
+                    "hotel-type": "dontcare"
+                },
+                {
+                    "hotel-area": "centre",
+                    "hotel-pricerange": "expensive",
+                    "hotel-type": "dontcare"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "hotel-area=freeparking=1star"
+                ],
+                [
+                    "hotel-area=freeparking=1star"
+                ],
+                [
+                    "hotel-area=freeparking=1star"
+                ],
+                [
+                    "hotel-area=freeparking=4star"
+                ],
+                [
+                    "hotel-type=dontcare"
+                ],
+                [
+                    "hotel-area=freeparking=4star"
+                ],
+                [
+                    "hotel-type=dontcare"
+                ],
+                [
+                    "hotel-type=dontcare"
+                ],
+                [
+                    "hotel-type=dontcare"
+                ],
+                [
+                    "None"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "hotel-area": "freeparking"
+                },
+                {
+                    "hotel-area": "freeparking"
+                },
+                {
+                    "hotel-area": "freeparking"
+                },
+                {
+                    "hotel-area": "freeparking"
+                },
+                {
+                    "hotel-area": "freeparking",
+                    "hotel-type": "dontcare"
+                },
+                {
+                    "hotel-area": "freeparking",
+                    "hotel-type": "dontcare"
+                },
+                {
+                    "hotel-area": "freeparking",
+                    "hotel-type": "dontcare"
+                },
+                {
+                    "hotel-area": "freeparking",
+                    "hotel-type": "dontcare"
+                },
+                {
+                    "hotel-area": "freeparking",
+                    "hotel-type": "dontcare"
+                },
+                {
+                    "hotel-area": "freeparking",
+                    "hotel-type": "dontcare"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "alpha-milton-guesthouse=alpha-milton-guesthouse-info=alpha-milton-guesthouse-info"
+                ],
+                [
+                    "bye bye"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "alpha-milton-guesthouse": "alpha-milton-guesthouse-info"
+                },
+                {
+                    "alpha-milton-guesthouse": "alpha-milton-guesthouse-info"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "hotel-area=northinsula=3 star"
+                ],
+                [
+                    "hotel-area=northinsula=3 star"
+                ],
+                [
+                    "hotel-type=dontcare"
+                ],
+                [
+                    "hotel-type=dontcare"
+                ],
+                [
+                    "hotel-type=dontcare"
+                ],
+                [
+                    "hotel-type=dontcare"
+                ],
+                [
+                    "None"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "hotel-area": "northinsula"
+                },
+                {
+                    "hotel-area": "northinsula"
+                },
+                {
+                    "hotel-area": "northinsula",
+                    "hotel-type": "dontcare"
+                },
+                {
+                    "hotel-area": "northinsula",
+                    "hotel-type": "dontcare"
+                },
+                {
+                    "hotel-area": "northinsula",
+                    "hotel-type": "dontcare"
+                },
+                {
+                    "hotel-area": "northinsula",
+                    "hotel-type": "dontcare"
+                },
+                {
+                    "hotel-area": "northinsula",
+                    "hotel-type": "dontcare"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "lensfield=lensfield-hotel"
+                ],
+                [
+                    "lensfield-hotel=5357 lensfield-hotel-ref=hwzz651r"
+                ],
+                [
+                    "None"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "lensfield": "lensfield-hotel"
+                },
+                {
+                    "lensfield": "lensfield-hotel",
+                    "lensfield-hotel": "5357 lensfield-hotel-ref"
+                },
+                {
+                    "lensfield": "lensfield-hotel",
+                    "lensfield-hotel": "5357 lensfield-hotel-ref"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "hotel-area=east"
+                ],
+                [
+                    "hotel-pricerange=east"
+                ],
+                [
+                    "hotel-type=dontcare"
+                ],
+                [
+                    "None"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "hotel-area": "east"
+                },
+                {
+                    "hotel-area": "east",
+                    "hotel-pricerange": "east"
+                },
+                {
+                    "hotel-area": "east",
+                    "hotel-pricerange": "east",
+                    "hotel-type": "dontcare"
+                },
+                {
+                    "hotel-area": "east",
+                    "hotel-pricerange": "east",
+                    "hotel-type": "dontcare"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "hotel-area=moderate"
+                ],
+                [
+                    "hotel-area=moderate"
+                ],
+                [
+                    "hotel-area=moderate"
+                ],
+                [
+                    "hotel-area=moderate"
+                ],
+                [
+                    "bye"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "hotel-area": "moderate"
+                },
+                {
+                    "hotel-area": "moderate"
+                },
+                {
+                    "hotel-area": "moderate"
+                },
+                {
+                    "hotel-area": "moderate"
+                },
+                {
+                    "hotel-area": "moderate"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "hotel-area=expensive"
+                ],
+                [
+                    "hotel-area=huntingdon-marriott"
+                ],
+                [
+                    "hotel-pricerange=cheap"
+                ],
+                [
+                    "hotel-type=dontcare"
+                ],
+                [
+                    "hotel-pricerange=cheap"
+                ],
+                [
+                    "none"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "hotel-area": "expensive"
+                },
+                {
+                    "hotel-area": "huntingdon-marriott"
+                },
+                {
+                    "hotel-area": "huntingdon-marriott",
+                    "hotel-pricerange": "cheap"
+                },
+                {
+                    "hotel-area": "huntingdon-marriott",
+                    "hotel-pricerange": "cheap",
+                    "hotel-type": "dontcare"
+                },
+                {
+                    "hotel-area": "huntingdon-marriott",
+                    "hotel-pricerange": "cheap",
+                    "hotel-type": "dontcare"
+                },
+                {
+                    "hotel-area": "huntingdon-marriott",
+                    "hotel-pricerange": "cheap",
+                    "hotel-type": "dontcare"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "parking-area=free"
+                ],
+                [
+                    "parking-pricerange=moderate"
+                ],
+                [
+                    "internet-area=free"
+                ],
+                [
+                    "phone-number=hxxp://acorn-guesthouse.com/"
+                ],
+                [
+                    "none"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "parking-area": "free"
+                },
+                {
+                    "parking-area": "free",
+                    "parking-pricerange": "moderate"
+                },
+                {
+                    "parking-area": "free",
+                    "parking-pricerange": "moderate",
+                    "internet-area": "free"
+                },
+                {
+                    "parking-area": "free",
+                    "parking-pricerange": "moderate",
+                    "internet-area": "free",
+                    "phone-number": "hxxp://acorn-guesthouse.com/"
+                },
+                {
+                    "parking-area": "free",
+                    "parking-pricerange": "moderate",
+                    "internet-area": "free",
+                    "phone-number": "hxxp://acorn-guesthouse.com/"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "room-type=dontcare"
+                ],
+                [
+                    "room-type=dontcare"
+                ],
+                [
+                    "room-type=dontcare"
+                ],
+                [
+                    "room-type=dontcare"
+                ],
+                [
+                    "None"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "room-type": "dontcare"
+                },
+                {
+                    "room-type": "dontcare"
+                },
+                {
+                    "room-type": "dontcare"
+                },
+                {
+                    "room-type": "dontcare"
+                },
+                {
+                    "room-type": "dontcare"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "hotel-type=dontcare"
+                ],
+                [
+                    "hotel-type=dontcare"
+                ],
+                [
+                    "hotel-type=dontcare"
+                ],
+                [
+                    "hotel-type=dontcare"
+                ],
+                [
+                    "hotel-type=dontcare"
+                ],
+                [
+                    "none"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "hotel-type": "dontcare"
+                },
+                {
+                    "hotel-type": "dontcare"
+                },
+                {
+                    "hotel-type": "dontcare"
+                },
+                {
+                    "hotel-type": "dontcare"
+                },
+                {
+                    "hotel-type": "dontcare"
+                },
+                {
+                    "hotel-type": "dontcare"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "hotel-area=center"
+                ],
+                [
+                    "hotel-type=dontcare"
+                ],
+                [
+                    "hotel-type=dontcare"
+                ],
+                [
+                    "hotel-type=dontcare"
+                ],
+                [
+                    "hotel-type=dontcare"
+                ],
+                [
+                    "None"
+                ],
+                [
+                    "None"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "hotel-area": "center"
+                },
+                {
+                    "hotel-area": "center",
+                    "hotel-type": "dontcare"
+                },
+                {
+                    "hotel-area": "center",
+                    "hotel-type": "dontcare"
+                },
+                {
+                    "hotel-area": "center",
+                    "hotel-type": "dontcare"
+                },
+                {
+                    "hotel-area": "center",
+                    "hotel-type": "dontcare"
+                },
+                {
+                    "hotel-area": "center",
+                    "hotel-type": "dontcare"
+                },
+                {
+                    "hotel-area": "center",
+                    "hotel-type": "dontcare"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "hotel-area=warkworth-house"
+                ],
+                [
+                    "hotel-type=dontcare"
+                ],
+                [
+                    "hotel-type=dontcare"
+                ],
+                [
+                    "hotel-type=dontcare"
+                ],
+                [
+                    "None"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "hotel-area": "warkworth-house"
+                },
+                {
+                    "hotel-area": "warkworth-house",
+                    "hotel-type": "dontcare"
+                },
+                {
+                    "hotel-area": "warkworth-house",
+                    "hotel-type": "dontcare"
+                },
+                {
+                    "hotel-area": "warkworth-house",
+                    "hotel-type": "dontcare"
+                },
+                {
+                    "hotel-area": "warkworth-house",
+                    "hotel-type": "dontcare"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "hotel-area=moderate"
+                ],
+                [
+                    "hotel-type=dontcare"
+                ],
+                [
+                    "hotel-address=1234 ashley street"
+                ],
+                [
+                    "hotel-address=1234 ashley street"
+                ],
+                [
+                    "None"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "hotel-area": "moderate"
+                },
+                {
+                    "hotel-area": "moderate",
+                    "hotel-type": "dontcare"
+                },
+                {
+                    "hotel-area": "moderate",
+                    "hotel-type": "dontcare",
+                    "hotel-address": "1234 ashley street"
+                },
+                {
+                    "hotel-area": "moderate",
+                    "hotel-type": "dontcare",
+                    "hotel-address": "1234 ashley street"
+                },
+                {
+                    "hotel-area": "moderate",
+                    "hotel-type": "dontcare",
+                    "hotel-address": "1234 ashley street"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "hotel-area=warkworth-house"
+                ],
+                [
+                    "hotel-pricerange=east"
+                ],
+                [
+                    "None"
+                ],
+                [
+                    "None"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "hotel-area": "warkworth-house"
+                },
+                {
+                    "hotel-area": "warkworth-house",
+                    "hotel-pricerange": "east"
+                },
+                {
+                    "hotel-area": "warkworth-house",
+                    "hotel-pricerange": "east"
+                },
+                {
+                    "hotel-area": "warkworth-house",
+                    "hotel-pricerange": "east"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "hotel-area=expensive"
+                ],
+                [
+                    "hotel-type=expensive"
+                ],
+                [
+                    "hotel-type=free wifi"
+                ],
+                [
+                    "hotel-type=free wifi"
+                ],
+                [
+                    "hotel-type=el shaddai"
+                ],
+                [
+                    "hotel-type=el shaddai"
+                ],
+                [
+                    "hotel-type=el shaddai"
+                ],
+                [
+                    "hotel-type=el shaddai"
+                ],
+                [
+                    "hotel-type=el shaddai"
+                ],
+                [
+                    "None"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "hotel-area": "expensive"
+                },
+                {
+                    "hotel-area": "expensive",
+                    "hotel-type": "expensive"
+                },
+                {
+                    "hotel-area": "expensive",
+                    "hotel-type": "free wifi"
+                },
+                {
+                    "hotel-area": "expensive",
+                    "hotel-type": "free wifi"
+                },
+                {
+                    "hotel-area": "expensive",
+                    "hotel-type": "el shaddai"
+                },
+                {
+                    "hotel-area": "expensive",
+                    "hotel-type": "el shaddai"
+                },
+                {
+                    "hotel-area": "expensive",
+                    "hotel-type": "el shaddai"
+                },
+                {
+                    "hotel-area": "expensive",
+                    "hotel-type": "el shaddai"
+                },
+                {
+                    "hotel-area": "expensive",
+                    "hotel-type": "el shaddai"
+                },
+                {
+                    "hotel-area": "expensive",
+                    "hotel-type": "el shaddai"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "hotel-area=moderate"
+                ],
+                [
+                    "hotel-type=dontcare"
+                ],
+                [
+                    "hotel-type=dontcare"
+                ],
+                [
+                    "hotel-type=dontcare"
+                ],
+                [
+                    "None"
+                ],
+                [
+                    "None"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "hotel-area": "moderate"
+                },
+                {
+                    "hotel-area": "moderate",
+                    "hotel-type": "dontcare"
+                },
+                {
+                    "hotel-area": "moderate",
+                    "hotel-type": "dontcare"
+                },
+                {
+                    "hotel-area": "moderate",
+                    "hotel-type": "dontcare"
+                },
+                {
+                    "hotel-area": "moderate",
+                    "hotel-type": "dontcare"
+                },
+                {
+                    "hotel-area": "moderate",
+                    "hotel-type": "dontcare"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "hotel-area=freeparking=freeparking-stars=4"
+                ],
+                [
+                    "hotel-area=freeparking=freeparking-stars=4"
+                ],
+                [
+                    "hotel-area=freeparking=freeparking-stars=4"
+                ],
+                [
+                    "None"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "hotel-area": "freeparking"
+                },
+                {
+                    "hotel-area": "freeparking"
+                },
+                {
+                    "hotel-area": "freeparking"
+                },
+                {
+                    "hotel-area": "freeparking"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "hotel-area=free wifi"
+                ],
+                [
+                    "hotel-area=south area"
+                ],
+                [
+                    "hotel-type=dontcare"
+                ],
+                [
+                    "hotel-type=dontcare"
+                ],
+                [
+                    "None"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "hotel-area": "free wifi"
+                },
+                {
+                    "hotel-area": "south area"
+                },
+                {
+                    "hotel-area": "south area",
+                    "hotel-type": "dontcare"
+                },
+                {
+                    "hotel-area": "south area",
+                    "hotel-type": "dontcare"
+                },
+                {
+                    "hotel-area": "south area",
+                    "hotel-type": "dontcare"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "hotel-area=northinsula"
+                ],
+                [
+                    "hotel-area=northinsula"
+                ],
+                [
+                    "hotel-type=dontcare"
+                ],
+                [
+                    "hotel-pricerange=moderate"
+                ],
+                [
+                    "hotel-type=dontcare"
+                ],
+                [
+                    "hotel-type=dontcare"
+                ],
+                [
+                    "hotel-type=dontcare"
+                ],
+                [
+                    "None"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "hotel-area": "northinsula"
+                },
+                {
+                    "hotel-area": "northinsula"
+                },
+                {
+                    "hotel-area": "northinsula",
+                    "hotel-type": "dontcare"
+                },
+                {
+                    "hotel-area": "northinsula",
+                    "hotel-type": "dontcare",
+                    "hotel-pricerange": "moderate"
+                },
+                {
+                    "hotel-area": "northinsula",
+                    "hotel-type": "dontcare",
+                    "hotel-pricerange": "moderate"
+                },
+                {
+                    "hotel-area": "northinsula",
+                    "hotel-type": "dontcare",
+                    "hotel-pricerange": "moderate"
+                },
+                {
+                    "hotel-area": "northinsula",
+                    "hotel-type": "dontcare",
+                    "hotel-pricerange": "moderate"
+                },
+                {
+                    "hotel-area": "northinsula",
+                    "hotel-type": "dontcare",
+                    "hotel-pricerange": "moderate"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "free wifi=free parking"
+                ],
+                [
+                    "hotel-area=free wifi=free parking"
+                ],
+                [
+                    "hotel-type=dontcare"
+                ],
+                [
+                    "hotel-pricerange=free wifi=free parking"
+                ],
+                [
+                    "hotel-pricerange=free wifi=free parking"
+                ],
+                [
+                    "hotel-pricerange=free wifi=free parking"
+                ],
+                [
+                    "None"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "free wifi": "free parking"
+                },
+                {
+                    "free wifi": "free parking",
+                    "hotel-area": "free wifi"
+                },
+                {
+                    "free wifi": "free parking",
+                    "hotel-area": "free wifi",
+                    "hotel-type": "dontcare"
+                },
+                {
+                    "free wifi": "free parking",
+                    "hotel-area": "free wifi",
+                    "hotel-type": "dontcare",
+                    "hotel-pricerange": "free wifi"
+                },
+                {
+                    "free wifi": "free parking",
+                    "hotel-area": "free wifi",
+                    "hotel-type": "dontcare",
+                    "hotel-pricerange": "free wifi"
+                },
+                {
+                    "free wifi": "free parking",
+                    "hotel-area": "free wifi",
+                    "hotel-type": "dontcare",
+                    "hotel-pricerange": "free wifi"
+                },
+                {
+                    "free wifi": "free parking",
+                    "hotel-area": "free wifi",
+                    "hotel-type": "dontcare",
+                    "hotel-pricerange": "free wifi"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "hotel-area=warkworth-house"
+                ],
+                [
+                    "hotel-type=dontcare"
+                ],
+                [
+                    "hotel-pricerange=friday"
+                ],
+                [
+                    "none"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "hotel-area": "warkworth-house"
+                },
+                {
+                    "hotel-area": "warkworth-house",
+                    "hotel-type": "dontcare"
+                },
+                {
+                    "hotel-area": "warkworth-house",
+                    "hotel-type": "dontcare",
+                    "hotel-pricerange": "friday"
+                },
+                {
+                    "hotel-area": "warkworth-house",
+                    "hotel-type": "dontcare",
+                    "hotel-pricerange": "friday"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "hotel-area=northinsula"
+                ],
+                [
+                    "hotel-pricerange=moderate"
+                ],
+                [
+                    "hotel-type=dontcare"
+                ],
+                [
+                    "hotel-type=dontcare"
+                ],
+                [
+                    "hotel-type=dontcare"
+                ],
+                [
+                    "hotel-type=dontcare"
+                ],
+                [
+                    "None"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "hotel-area": "northinsula"
+                },
+                {
+                    "hotel-area": "northinsula",
+                    "hotel-pricerange": "moderate"
+                },
+                {
+                    "hotel-area": "northinsula",
+                    "hotel-pricerange": "moderate",
+                    "hotel-type": "dontcare"
+                },
+                {
+                    "hotel-area": "northinsula",
+                    "hotel-pricerange": "moderate",
+                    "hotel-type": "dontcare"
+                },
+                {
+                    "hotel-area": "northinsula",
+                    "hotel-pricerange": "moderate",
+                    "hotel-type": "dontcare"
+                },
+                {
+                    "hotel-area": "northinsula",
+                    "hotel-pricerange": "moderate",
+                    "hotel-type": "dontcare"
+                },
+                {
+                    "hotel-area": "northinsula",
+                    "hotel-pricerange": "moderate",
+                    "hotel-type": "dontcare"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "hotel-area=arbury-lodge-stars=4"
+                ],
+                [
+                    "hotel-type=dontcare"
+                ],
+                [
+                    "None"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "hotel-area": "arbury-lodge-stars"
+                },
+                {
+                    "hotel-area": "arbury-lodge-stars",
+                    "hotel-type": "dontcare"
+                },
+                {
+                    "hotel-area": "arbury-lodge-stars",
+                    "hotel-type": "dontcare"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "hotel-area=southside-parking=free"
+                ],
+                [
+                    "hotel-area=southside-parking=free"
+                ],
+                [
+                    "hotel-type=dontcare"
+                ],
+                [
+                    "None"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "hotel-area": "southside-parking"
+                },
+                {
+                    "hotel-area": "southside-parking"
+                },
+                {
+                    "hotel-area": "southside-parking",
+                    "hotel-type": "dontcare"
+                },
+                {
+                    "hotel-area": "southside-parking",
+                    "hotel-type": "dontcare"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "hotel-area=cambridge"
+                ],
+                [
+                    "hotel-type=guesthouse"
+                ],
+                [
+                    "hotel-type=guesthouse"
+                ],
+                [
+                    "hotel-ref=hwzz651r"
+                ],
+                [
+                    "none"
+                ],
+                [
+                    "none"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "hotel-area": "cambridge"
+                },
+                {
+                    "hotel-area": "cambridge",
+                    "hotel-type": "guesthouse"
+                },
+                {
+                    "hotel-area": "cambridge",
+                    "hotel-type": "guesthouse"
+                },
+                {
+                    "hotel-area": "cambridge",
+                    "hotel-type": "guesthouse",
+                    "hotel-ref": "hwzz651r"
+                },
+                {
+                    "hotel-area": "cambridge",
+                    "hotel-type": "guesthouse",
+                    "hotel-ref": "hwzz651r"
+                },
+                {
+                    "hotel-area": "cambridge",
+                    "hotel-type": "guesthouse",
+                    "hotel-ref": "hwzz651r"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "hotel-area=northinsula=northinsula-stars=4"
+                ],
+                [
+                    "hotel-type=dontcare"
+                ],
+                [
+                    "hotel-pricerange=moderate"
+                ],
+                [
+                    "None"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "hotel-area": "northinsula"
+                },
+                {
+                    "hotel-area": "northinsula",
+                    "hotel-type": "dontcare"
+                },
+                {
+                    "hotel-area": "northinsula",
+                    "hotel-type": "dontcare",
+                    "hotel-pricerange": "moderate"
+                },
+                {
+                    "hotel-area": "northinsula",
+                    "hotel-type": "dontcare",
+                    "hotel-pricerange": "moderate"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "hotel-area=northinsula"
+                ],
+                [
+                    "hotel-area=eastside"
+                ],
+                [
+                    "hotel-area=centre"
+                ],
+                [
+                    "hotel-type=dontcare"
+                ],
+                [
+                    "hotel-type=dontcare"
+                ],
+                [
+                    "hotel-type=dontcare"
+                ],
+                [
+                    "hotel-type=dontcare"
+                ],
+                [
+                    "hotel-type=dontcare"
+                ],
+                [
+                    "hotel-type=dontcare"
+                ],
+                [
+                    "hotel-type=dontcare"
+                ],
+                [
+                    "None"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "hotel-area": "northinsula"
+                },
+                {
+                    "hotel-area": "eastside"
+                },
+                {
+                    "hotel-area": "centre"
+                },
+                {
+                    "hotel-area": "centre",
+                    "hotel-type": "dontcare"
+                },
+                {
+                    "hotel-area": "centre",
+                    "hotel-type": "dontcare"
+                },
+                {
+                    "hotel-area": "centre",
+                    "hotel-type": "dontcare"
+                },
+                {
+                    "hotel-area": "centre",
+                    "hotel-type": "dontcare"
+                },
+                {
+                    "hotel-area": "centre",
+                    "hotel-type": "dontcare"
+                },
+                {
+                    "hotel-area": "centre",
+                    "hotel-type": "dontcare"
+                },
+                {
+                    "hotel-area": "centre",
+                    "hotel-type": "dontcare"
+                },
+                {
+                    "hotel-area": "centre",
+                    "hotel-type": "dontcare"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "hotel-area=moderate"
+                ],
+                [
+                    "hotel-area=northinsula"
+                ],
+                [
+                    "hotel-type=dontcare"
+                ],
+                [
+                    "hotel-type=dontcare"
+                ],
+                [
+                    "hotel-type=dontcare"
+                ],
+                [
+                    "None"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "hotel-area": "moderate"
+                },
+                {
+                    "hotel-area": "northinsula"
+                },
+                {
+                    "hotel-area": "northinsula",
+                    "hotel-type": "dontcare"
+                },
+                {
+                    "hotel-area": "northinsula",
+                    "hotel-type": "dontcare"
+                },
+                {
+                    "hotel-area": "northinsula",
+                    "hotel-type": "dontcare"
+                },
+                {
+                    "hotel-area": "northinsula",
+                    "hotel-type": "dontcare"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "parking-area=parking-parking-parking-parking-parking-parking-parking-parking-parking-parking-parking-parking-parking-parking-parking-park"
+                ],
+                [
+                    "hotel-type=guesthouse"
+                ],
+                [
+                    "hotel-type=guesthouse"
+                ],
+                [
+                    "None"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "parking-area": "parking-parking-parking-parking-parking-parking-parking-parking-parking-parking-parking-parking-parking-parking-parking-park"
+                },
+                {
+                    "parking-area": "parking-parking-parking-parking-parking-parking-parking-parking-parking-parking-parking-parking-parking-parking-parking-park",
+                    "hotel-type": "guesthouse"
+                },
+                {
+                    "parking-area": "parking-parking-parking-parking-parking-parking-parking-parking-parking-parking-parking-parking-parking-parking-parking-park",
+                    "hotel-type": "guesthouse"
+                },
+                {
+                    "parking-area": "parking-parking-parking-parking-parking-parking-parking-parking-parking-parking-parking-parking-parking-parking-parking-park",
+                    "hotel-type": "guesthouse"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "hotel-area=zero-star-rating=no"
+                ],
+                [
+                    "cityroomz=centre"
+                ],
+                [
+                    "cityroomz=centre"
+                ],
+                [
+                    "cityroomz=5-night-stay=5-night-stay"
+                ],
+                [
+                    "cityroomz=5-night-stay=5-night-stay"
+                ],
+                [
+                    "cityroomz=5-night-stay=5-night-stay"
+                ],
+                [
+                    "cityroomz=5-night-stay=5-night-stay"
+                ],
+                [
+                    "bye"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "hotel-area": "zero-star-rating"
+                },
+                {
+                    "hotel-area": "zero-star-rating",
+                    "cityroomz": "centre"
+                },
+                {
+                    "hotel-area": "zero-star-rating",
+                    "cityroomz": "centre"
+                },
+                {
+                    "hotel-area": "zero-star-rating",
+                    "cityroomz": "5-night-stay"
+                },
+                {
+                    "hotel-area": "zero-star-rating",
+                    "cityroomz": "5-night-stay"
+                },
+                {
+                    "hotel-area": "zero-star-rating",
+                    "cityroomz": "5-night-stay"
+                },
+                {
+                    "hotel-area": "zero-star-rating",
+                    "cityroomz": "5-night-stay"
+                },
+                {
+                    "hotel-area": "zero-star-rating",
+                    "cityroomz": "5-night-stay"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "hotel-type=dontcare"
+                ],
+                [
+                    "hotel-type=dontcare"
+                ],
+                [
+                    "hotel-type=dontcare"
+                ],
+                [
+                    "hotel-type=dontcare"
+                ],
+                [
+                    "hotel-type=dontcare"
+                ],
+                [
+                    "hotel-type=dontcare"
+                ],
+                [
+                    "None"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "hotel-type": "dontcare"
+                },
+                {
+                    "hotel-type": "dontcare"
+                },
+                {
+                    "hotel-type": "dontcare"
+                },
+                {
+                    "hotel-type": "dontcare"
+                },
+                {
+                    "hotel-type": "dontcare"
+                },
+                {
+                    "hotel-type": "dontcare"
+                },
+                {
+                    "hotel-type": "dontcare"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "guesthouse-type=free wifi"
+                ],
+                [
+                    "guesthouse-parking=free wifi"
+                ],
+                [
+                    "guesthouse-book_day=wednesday"
+                ],
+                [
+                    "None"
+                ],
+                [
+                    "none"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "guesthouse-type": "free wifi"
+                },
+                {
+                    "guesthouse-type": "free wifi",
+                    "guesthouse-parking": "free wifi"
+                },
+                {
+                    "guesthouse-type": "free wifi",
+                    "guesthouse-parking": "free wifi",
+                    "guesthouse-book day": "wednesday"
+                },
+                {
+                    "guesthouse-type": "free wifi",
+                    "guesthouse-parking": "free wifi",
+                    "guesthouse-book day": "wednesday"
+                },
+                {
+                    "guesthouse-type": "free wifi",
+                    "guesthouse-parking": "free wifi",
+                    "guesthouse-book day": "wednesday"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "hotel-area=northinsula"
+                ],
+                [
+                    "hotel-pricerange=4 star"
+                ],
+                [
+                    "hotel-pricerange=4 star"
+                ],
+                [
+                    "hotel-type=acorn"
+                ],
+                [
+                    "None"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "hotel-area": "northinsula"
+                },
+                {
+                    "hotel-area": "northinsula",
+                    "hotel-pricerange": "4 star"
+                },
+                {
+                    "hotel-area": "northinsula",
+                    "hotel-pricerange": "4 star"
+                },
+                {
+                    "hotel-area": "northinsula",
+                    "hotel-pricerange": "4 star",
+                    "hotel-type": "acorn"
+                },
+                {
+                    "hotel-area": "northinsula",
+                    "hotel-pricerange": "4 star",
+                    "hotel-type": "acorn"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "guesthouse-type=freeparking"
+                ],
+                [
+                    "guesthouse-type=east"
+                ],
+                [
+                    "guesthouse-type=freeparking"
+                ],
+                [
+                    "guesthouse-type=freeparking"
+                ],
+                [
+                    "None"
+                ],
+                [
+                    "None"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "guesthouse-type": "freeparking"
+                },
+                {
+                    "guesthouse-type": "east"
+                },
+                {
+                    "guesthouse-type": "freeparking"
+                },
+                {
+                    "guesthouse-type": "freeparking"
+                },
+                {
+                    "guesthouse-type": "freeparking"
+                },
+                {
+                    "guesthouse-type": "freeparking"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "hotel-type=dontcare"
+                ],
+                [
+                    "hotel-type=dontcare"
+                ],
+                [
+                    "hotel-type=dontcare"
+                ],
+                [
+                    "hotel-type=dontcare"
+                ],
+                [
+                    "None"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "hotel-type": "dontcare"
+                },
+                {
+                    "hotel-type": "dontcare"
+                },
+                {
+                    "hotel-type": "dontcare"
+                },
+                {
+                    "hotel-type": "dontcare"
+                },
+                {
+                    "hotel-type": "dontcare"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "hotel-type=dontcare"
+                ],
+                [
+                    "hotel-pricerange=moderate"
+                ],
+                [
+                    "hotel-type=dontcare"
+                ],
+                [
+                    "None"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "hotel-type": "dontcare"
+                },
+                {
+                    "hotel-type": "dontcare",
+                    "hotel-pricerange": "moderate"
+                },
+                {
+                    "hotel-type": "dontcare",
+                    "hotel-pricerange": "moderate"
+                },
+                {
+                    "hotel-type": "dontcare",
+                    "hotel-pricerange": "moderate"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "hotel-area=el-shaddai"
+                ],
+                [
+                    "hotel-type=dontcare"
+                ],
+                [
+                    "hotel-type=dontcare"
+                ],
+                [
+                    "None"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "hotel-area": "el-shaddai"
+                },
+                {
+                    "hotel-area": "el-shaddai",
+                    "hotel-type": "dontcare"
+                },
+                {
+                    "hotel-area": "el-shaddai",
+                    "hotel-type": "dontcare"
+                },
+                {
+                    "hotel-area": "el-shaddai",
+                    "hotel-type": "dontcare"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "hotel-area=east"
+                ],
+                [
+                    "hotel-area=east"
+                ],
+                [
+                    "hotel-type=dontcare"
+                ],
+                [
+                    "hotel-type=dontcare"
+                ],
+                [
+                    "None"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "hotel-area": "east"
+                },
+                {
+                    "hotel-area": "east"
+                },
+                {
+                    "hotel-area": "east",
+                    "hotel-type": "dontcare"
+                },
+                {
+                    "hotel-area": "east",
+                    "hotel-type": "dontcare"
+                },
+                {
+                    "hotel-area": "east",
+                    "hotel-type": "dontcare"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "hotel-area=free wi fi"
+                ],
+                [
+                    "hotel-pricerange=cheap"
+                ],
+                [
+                    "hotel-pricerange=free wi fi"
+                ],
+                [
+                    "hotel-type=dontcare"
+                ],
+                [
+                    "hotel-type=dontcare"
+                ],
+                [
+                    "hotel-type=dontcare"
+                ],
+                [
+                    "hotel-type=dontcare"
+                ],
+                [
+                    "hotel-type=dontcare"
+                ],
+                [
+                    "None"
+                ],
+                [
+                    "None"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "hotel-area": "free wi fi"
+                },
+                {
+                    "hotel-area": "free wi fi",
+                    "hotel-pricerange": "cheap"
+                },
+                {
+                    "hotel-area": "free wi fi",
+                    "hotel-pricerange": "free wi fi"
+                },
+                {
+                    "hotel-area": "free wi fi",
+                    "hotel-pricerange": "free wi fi",
+                    "hotel-type": "dontcare"
+                },
+                {
+                    "hotel-area": "free wi fi",
+                    "hotel-pricerange": "free wi fi",
+                    "hotel-type": "dontcare"
+                },
+                {
+                    "hotel-area": "free wi fi",
+                    "hotel-pricerange": "free wi fi",
+                    "hotel-type": "dontcare"
+                },
+                {
+                    "hotel-area": "free wi fi",
+                    "hotel-pricerange": "free wi fi",
+                    "hotel-type": "dontcare"
+                },
+                {
+                    "hotel-area": "free wi fi",
+                    "hotel-pricerange": "free wi fi",
+                    "hotel-type": "dontcare"
+                },
+                {
+                    "hotel-area": "free wi fi",
+                    "hotel-pricerange": "free wi fi",
+                    "hotel-type": "dontcare"
+                },
+                {
+                    "hotel-area": "free wi fi",
+                    "hotel-pricerange": "free wi fi",
+                    "hotel-type": "dontcare"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "bridge-house=bridge-house-stars=4"
+                ],
+                [
+                    "bridge-house=bridge-house-stars=3"
+                ],
+                [
+                    "bridge-house=bridge-house-stars=4"
+                ],
+                [
+                    "bye bye"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "bridge-house": "bridge-house-stars"
+                },
+                {
+                    "bridge-house": "bridge-house-stars"
+                },
+                {
+                    "bridge-house": "bridge-house-stars"
+                },
+                {
+                    "bridge-house": "bridge-house-stars"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "hotel-type=dontcare"
+                ],
+                [
+                    "hotel-book_day=mondayinces"
+                ],
+                [
+                    "None"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "hotel-type": "dontcare"
+                },
+                {
+                    "hotel-type": "dontcare",
+                    "hotel-book day": "mondayinces"
+                },
+                {
+                    "hotel-type": "dontcare",
+                    "hotel-book day": "mondayinces"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "4 star hotels are not available in town."
+                ],
+                [
+                    "hotel-area=southside"
+                ],
+                [
+                    "hotel-pricerange=southside"
+                ],
+                [
+                    "None"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {},
+                {
+                    "hotel-area": "southside"
+                },
+                {
+                    "hotel-area": "southside",
+                    "hotel-pricerange": "southside"
+                },
+                {
+                    "hotel-area": "southside",
+                    "hotel-pricerange": "southside"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "hotel-area=northinsula"
+                ],
+                [
+                    "hotel-area=northinsula"
+                ],
+                [
+                    "hotel-type=dontcare"
+                ],
+                [
+                    "hotel-type=dontcare"
+                ],
+                [
+                    "hotel-type=dontcare"
+                ],
+                [
+                    "hotel-type=dontcare"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "hotel-area": "northinsula"
+                },
+                {
+                    "hotel-area": "northinsula"
+                },
+                {
+                    "hotel-area": "northinsula",
+                    "hotel-type": "dontcare"
+                },
+                {
+                    "hotel-area": "northinsula",
+                    "hotel-type": "dontcare"
+                },
+                {
+                    "hotel-area": "northinsula",
+                    "hotel-type": "dontcare"
+                },
+                {
+                    "hotel-area": "northinsula",
+                    "hotel-type": "dontcare"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "hotel-area=free wifi"
+                ],
+                [
+                    "hotel-pricerange=moderate"
+                ],
+                [
+                    "hotel-pricerange=north"
+                ],
+                [
+                    "hotel-pricerange=north"
+                ],
+                [
+                    "hotel-book_day=sundaydayName"
+                ],
+                [
+                    "hotel-pricerange=north"
+                ],
+                [
+                    "hotel-pricerange=north"
+                ],
+                [
+                    "hotel-pricerange=north"
+                ],
+                [
+                    "None"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "hotel-area": "free wifi"
+                },
+                {
+                    "hotel-area": "free wifi",
+                    "hotel-pricerange": "moderate"
+                },
+                {
+                    "hotel-area": "free wifi",
+                    "hotel-pricerange": "north"
+                },
+                {
+                    "hotel-area": "free wifi",
+                    "hotel-pricerange": "north"
+                },
+                {
+                    "hotel-area": "free wifi",
+                    "hotel-pricerange": "north",
+                    "hotel-book day": "sundaydayName"
+                },
+                {
+                    "hotel-area": "free wifi",
+                    "hotel-pricerange": "north",
+                    "hotel-book day": "sundaydayName"
+                },
+                {
+                    "hotel-area": "free wifi",
+                    "hotel-pricerange": "north",
+                    "hotel-book day": "sundaydayName"
+                },
+                {
+                    "hotel-area": "free wifi",
+                    "hotel-pricerange": "north",
+                    "hotel-book day": "sundaydayName"
+                },
+                {
+                    "hotel-area": "free wifi",
+                    "hotel-pricerange": "north",
+                    "hotel-book day": "sundaydayName"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "hotel-area=northinsula=northinsula-price=1"
+                ],
+                [
+                    "hotel-area=northinsula=northinsula-price=1"
+                ],
+                [
+                    "hotel-area=northinsula=northinsula-price=1"
+                ],
+                [
+                    "hotel-area=northinsula=northinsula-price=1"
+                ],
+                [
+                    "None"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "hotel-area": "northinsula"
+                },
+                {
+                    "hotel-area": "northinsula"
+                },
+                {
+                    "hotel-area": "northinsula"
+                },
+                {
+                    "hotel-area": "northinsula"
+                },
+                {
+                    "hotel-area": "northinsula"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "hotel-area=free-wifi-parking=free"
+                ],
+                [
+                    "hotel-type=expensive"
+                ],
+                [
+                    "hotel-pricerange=moderate"
+                ],
+                [
+                    "hotel-type=moderate-free-wifi-parking=moderate-free-parking-star=1"
+                ],
+                [
+                    "none"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "hotel-area": "free-wifi-parking"
+                },
+                {
+                    "hotel-area": "free-wifi-parking",
+                    "hotel-type": "expensive"
+                },
+                {
+                    "hotel-area": "free-wifi-parking",
+                    "hotel-type": "expensive",
+                    "hotel-pricerange": "moderate"
+                },
+                {
+                    "hotel-area": "free-wifi-parking",
+                    "hotel-type": "moderate-free-wifi-parking",
+                    "hotel-pricerange": "moderate"
+                },
+                {
+                    "hotel-area": "free-wifi-parking",
+                    "hotel-type": "moderate-free-wifi-parking",
+                    "hotel-pricerange": "moderate"
+                }
+            ]
+        }
+    ]
+}

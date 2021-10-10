@@ -1,0 +1,2809 @@
+{
+    "score": {
+        "BLEU": 1.45,
+        "B4": 0.3475753342461583,
+        "F1": 21.45841925511013,
+        "RL": 26.58953982120375,
+        "JGA": 0.26595744680851063,
+        "SLOT_ACC": 7.0164348925410875,
+        "ppl": 12.988189065688175
+    },
+    "generation": [
+        {
+            "meta": [
+                [
+                    "hotel-price=yes"
+                ],
+                [
+                    "hotel-star=3"
+                ],
+                [
+                    "hotel-star=4"
+                ],
+                [
+                    "hotel-star=4"
+                ],
+                [
+                    "hotel-star=1"
+                ],
+                [
+                    "hotel-star=1"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "hotel-price": "yes"
+                },
+                {
+                    "hotel-price": "yes",
+                    "hotel-star": "3"
+                },
+                {
+                    "hotel-price": "yes",
+                    "hotel-star": "4"
+                },
+                {
+                    "hotel-price": "yes",
+                    "hotel-star": "4"
+                },
+                {
+                    "hotel-price": "yes",
+                    "hotel-star": "1"
+                },
+                {
+                    "hotel-price": "yes",
+                    "hotel-star": "1"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "city centre north bed and breakfast"
+                ],
+                [
+                    "city centre north bed and breakfast"
+                ],
+                [
+                    "city centre north bed and breakfast"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {},
+                {},
+                {}
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "hotel-guest-house=yes"
+                ],
+                [
+                    "hotel-guest-house=yes"
+                ],
+                [
+                    "hotel-guest-house=yes"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "hotel-guest-house": "yes"
+                },
+                {
+                    "hotel-guest-house": "yes"
+                },
+                {
+                    "hotel-guest-house": "yes"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "hotel-parking=yes"
+                ],
+                [
+                    "hotel-parking=yes"
+                ],
+                [
+                    "hotel-parking=yes"
+                ],
+                [
+                    "hotel-parking=yes"
+                ],
+                [
+                    "hotel-parking=yes"
+                ],
+                [
+                    "hotel-parking=yes"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "hotel-parking": "yes"
+                },
+                {
+                    "hotel-parking": "yes"
+                },
+                {
+                    "hotel-parking": "yes"
+                },
+                {
+                    "hotel-parking": "yes"
+                },
+                {
+                    "hotel-parking": "yes"
+                },
+                {
+                    "hotel-parking": "yes"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "no"
+                ],
+                [
+                    "no"
+                ],
+                [
+                    "no"
+                ],
+                [
+                    "no"
+                ],
+                [
+                    "no"
+                ],
+                [
+                    "no"
+                ],
+                [
+                    "no"
+                ],
+                [
+                    "no"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {}
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "hotel-star=3"
+                ],
+                [
+                    "hotel-star=3"
+                ],
+                [
+                    "hotel-star=1"
+                ],
+                [
+                    "hotel-star=1"
+                ],
+                [
+                    "hotel-star=4"
+                ],
+                [
+                    "hotel-star=4"
+                ],
+                [
+                    "hotel-star=4"
+                ],
+                [
+                    "hotel-star=4"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "hotel-star": "3"
+                },
+                {
+                    "hotel-star": "3"
+                },
+                {
+                    "hotel-star": "1"
+                },
+                {
+                    "hotel-star": "1"
+                },
+                {
+                    "hotel-star": "4"
+                },
+                {
+                    "hotel-star": "4"
+                },
+                {
+                    "hotel-star": "4"
+                },
+                {
+                    "hotel-star": "4"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "hotel-parking=yes"
+                ],
+                [
+                    "hotel-parking=yes"
+                ],
+                [
+                    "hotel-parking=yes"
+                ],
+                [
+                    "hotel-parking=yes"
+                ],
+                [
+                    "hotel-parking=yes"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "hotel-parking": "yes"
+                },
+                {
+                    "hotel-parking": "yes"
+                },
+                {
+                    "hotel-parking": "yes"
+                },
+                {
+                    "hotel-parking": "yes"
+                },
+                {
+                    "hotel-parking": "yes"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "hotel-parking=yes"
+                ],
+                [
+                    "hotel-parking=yes"
+                ],
+                [
+                    "hotel-parking=yes"
+                ],
+                [
+                    "hotel-parking=yes"
+                ],
+                [
+                    "hotel-parking=yes"
+                ],
+                [
+                    "None"
+                ],
+                [
+                    "None"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "hotel-parking": "yes"
+                },
+                {
+                    "hotel-parking": "yes"
+                },
+                {
+                    "hotel-parking": "yes"
+                },
+                {
+                    "hotel-parking": "yes"
+                },
+                {
+                    "hotel-parking": "yes"
+                },
+                {
+                    "hotel-parking": "yes"
+                },
+                {
+                    "hotel-parking": "yes"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "hotel-price=north"
+                ],
+                [
+                    "hotel-price=4"
+                ],
+                [
+                    "hotel-price=4"
+                ],
+                [
+                    "hotel-price=1"
+                ],
+                [
+                    "hotel-price=1"
+                ],
+                [
+                    "hotel-star=1"
+                ],
+                [
+                    "hotel-star=1"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "hotel-price": "north"
+                },
+                {
+                    "hotel-price": "4"
+                },
+                {
+                    "hotel-price": "4"
+                },
+                {
+                    "hotel-price": "1"
+                },
+                {
+                    "hotel-price": "1"
+                },
+                {
+                    "hotel-price": "1",
+                    "hotel-star": "1"
+                },
+                {
+                    "hotel-price": "1",
+                    "hotel-star": "1"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "hotel-parking=yes"
+                ],
+                [
+                    "hotel-stars=4"
+                ],
+                [
+                    "hotel-stars=4"
+                ],
+                [
+                    "hotel-stars=4"
+                ],
+                [
+                    "hotel-stars=4"
+                ],
+                [
+                    "hotel-stars=4"
+                ],
+                [
+                    "hotel-stars=4"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "hotel-parking": "yes"
+                },
+                {
+                    "hotel-parking": "yes",
+                    "hotel-stars": "4"
+                },
+                {
+                    "hotel-parking": "yes",
+                    "hotel-stars": "4"
+                },
+                {
+                    "hotel-parking": "yes",
+                    "hotel-stars": "4"
+                },
+                {
+                    "hotel-parking": "yes",
+                    "hotel-stars": "4"
+                },
+                {
+                    "hotel-parking": "yes",
+                    "hotel-stars": "4"
+                },
+                {
+                    "hotel-parking": "yes",
+                    "hotel-stars": "4"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "hotel-parking=yes"
+                ],
+                [
+                    "hotel-parking=yes"
+                ],
+                [
+                    "hotel-parking=yes"
+                ],
+                [
+                    "hotel-parking=yes"
+                ],
+                [
+                    "hotel-parking=yes"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "hotel-parking": "yes"
+                },
+                {
+                    "hotel-parking": "yes"
+                },
+                {
+                    "hotel-parking": "yes"
+                },
+                {
+                    "hotel-parking": "yes"
+                },
+                {
+                    "hotel-parking": "yes"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "no i am looking for a hotel to stay at with free parking pleaseDST: hotel-parking=yesAssistant: i have a variety of options located all over town. would you have a preference on the area or maybe a certain price range"
+                ],
+                [
+                    "hotel-starrated=4"
+                ],
+                [
+                    "hotel-starrated=4Assistant: the university arms hotel is in the centre of town, falls in the expensive price range, and has 4 stars. would you like to book a room?"
+                ],
+                [
+                    "hotel-starrated=4Assistant: the university arms hotel is in the centre of town, falls in the expensive price range, and has 4 stars. would you like to book a room?"
+                ],
+                [
+                    "hotel-starrated=4Assistant: the university arms hotel is in the centre of town, falls in the expensive price range, and has 4 stars. would you like to book a room?"
+                ],
+                [
+                    "hotel-starrated=4Assistant: the university arms hotel is in the centre of town, falls in the expensive price range, and has 4 stars. would you like to book a room?"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "no i am looking for a hotel to stay at with free parking pleaseDST: hotel-parking": "yesAssistant: i have a variety of options located all over town. would you have a preference on the area or maybe a certain price range"
+                },
+                {
+                    "no i am looking for a hotel to stay at with free parking pleaseDST: hotel-parking": "yesAssistant: i have a variety of options located all over town. would you have a preference on the area or maybe a certain price range",
+                    "hotel-starrated": "4"
+                },
+                {
+                    "no i am looking for a hotel to stay at with free parking pleaseDST: hotel-parking": "yesAssistant: i have a variety of options located all over town. would you have a preference on the area or maybe a certain price range",
+                    "hotel-starrated": "4Assistant: the university arms hotel is in the centre of town, falls in the expensive price range, and has 4 stars. would you like to book a room?"
+                },
+                {
+                    "no i am looking for a hotel to stay at with free parking pleaseDST: hotel-parking": "yesAssistant: i have a variety of options located all over town. would you have a preference on the area or maybe a certain price range",
+                    "hotel-starrated": "4Assistant: the university arms hotel is in the centre of town, falls in the expensive price range, and has 4 stars. would you like to book a room?"
+                },
+                {
+                    "no i am looking for a hotel to stay at with free parking pleaseDST: hotel-parking": "yesAssistant: i have a variety of options located all over town. would you have a preference on the area or maybe a certain price range",
+                    "hotel-starrated": "4Assistant: the university arms hotel is in the centre of town, falls in the expensive price range, and has 4 stars. would you like to book a room?"
+                },
+                {
+                    "no i am looking for a hotel to stay at with free parking pleaseDST: hotel-parking": "yesAssistant: i have a variety of options located all over town. would you have a preference on the area or maybe a certain price range",
+                    "hotel-starrated": "4Assistant: the university arms hotel is in the centre of town, falls in the expensive price range, and has 4 stars. would you like to book a room?"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "3 star hotel-s=3"
+                ],
+                [
+                    "3 star hotel-s=3"
+                ],
+                [
+                    "3 star hotel-s=3"
+                ],
+                [
+                    "3 star hotel-s=3"
+                ],
+                [
+                    "3 star hotel-s=3"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "3 star hotel-s": "3"
+                },
+                {
+                    "3 star hotel-s": "3"
+                },
+                {
+                    "3 star hotel-s": "3"
+                },
+                {
+                    "3 star hotel-s": "3"
+                },
+                {
+                    "3 star hotel-s": "3"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "None"
+                ],
+                [
+                    "None"
+                ],
+                [
+                    "None"
+                ],
+                [
+                    "None"
+                ],
+                [
+                    "None"
+                ],
+                [
+                    "None"
+                ],
+                [
+                    "None"
+                ],
+                [
+                    "None"
+                ],
+                [
+                    "None"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {}
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "hotel-parking=yes"
+                ],
+                [
+                    "hotel-parking=yes"
+                ],
+                [
+                    "hotel-parking=yes"
+                ],
+                [
+                    "hotel-parking=yes"
+                ],
+                [
+                    "hotel-parking=yes"
+                ],
+                [
+                    "hotel-parking=yes"
+                ],
+                [
+                    "hotel-parking=yes"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "hotel-parking": "yes"
+                },
+                {
+                    "hotel-parking": "yes"
+                },
+                {
+                    "hotel-parking": "yes"
+                },
+                {
+                    "hotel-parking": "yes"
+                },
+                {
+                    "hotel-parking": "yes"
+                },
+                {
+                    "hotel-parking": "yes"
+                },
+                {
+                    "hotel-parking": "yes"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "4 stars!"
+                ],
+                [
+                    "4 stars!"
+                ],
+                [
+                    "4 stars!"
+                ],
+                [
+                    "4 stars!"
+                ],
+                [
+                    "4 stars!"
+                ],
+                [
+                    "4 stars!"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {}
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "3 star lodging=yes"
+                ],
+                [
+                    "3 star lodging=yes"
+                ],
+                [
+                    "5 star lodging=yes"
+                ],
+                [
+                    "1 night"
+                ],
+                [
+                    "3 star hotel=yes"
+                ],
+                [
+                    "3 star hotel=yes"
+                ],
+                [
+                    "2 nights"
+                ],
+                [
+                    "1 night"
+                ],
+                [
+                    "1 night"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "3 star lodging": "yes"
+                },
+                {
+                    "3 star lodging": "yes"
+                },
+                {
+                    "3 star lodging": "yes",
+                    "5 star lodging": "yes"
+                },
+                {
+                    "3 star lodging": "yes",
+                    "5 star lodging": "yes"
+                },
+                {
+                    "3 star lodging": "yes",
+                    "5 star lodging": "yes",
+                    "3 star hotel": "yes"
+                },
+                {
+                    "3 star lodging": "yes",
+                    "5 star lodging": "yes",
+                    "3 star hotel": "yes"
+                },
+                {
+                    "3 star lodging": "yes",
+                    "5 star lodging": "yes",
+                    "3 star hotel": "yes"
+                },
+                {
+                    "3 star lodging": "yes",
+                    "5 star lodging": "yes",
+                    "3 star hotel": "yes"
+                },
+                {
+                    "3 star lodging": "yes",
+                    "5 star lodging": "yes",
+                    "3 star hotel": "yes"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "cambridge=yes"
+                ],
+                [
+                    "cambridge=yes"
+                ],
+                [
+                    "guesthouse=yes"
+                ],
+                [
+                    "guesthouse=yes"
+                ],
+                [
+                    "el shaddai=yes"
+                ],
+                [
+                    "guesthouse=yes"
+                ],
+                [
+                    "guesthouse=yes"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "cambridge": "yes"
+                },
+                {
+                    "cambridge": "yes"
+                },
+                {
+                    "cambridge": "yes",
+                    "guesthouse": "yes"
+                },
+                {
+                    "cambridge": "yes",
+                    "guesthouse": "yes"
+                },
+                {
+                    "cambridge": "yes",
+                    "guesthouse": "yes",
+                    "el shaddai": "yes"
+                },
+                {
+                    "cambridge": "yes",
+                    "guesthouse": "yes",
+                    "el shaddai": "yes"
+                },
+                {
+                    "cambridge": "yes",
+                    "guesthouse": "yes",
+                    "el shaddai": "yes"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "hotel-parking=yes"
+                ],
+                [
+                    "hotel-parking=yes"
+                ],
+                [
+                    "None"
+                ],
+                [
+                    "None"
+                ],
+                [
+                    "None"
+                ],
+                [
+                    "None"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "hotel-parking": "yes"
+                },
+                {
+                    "hotel-parking": "yes"
+                },
+                {
+                    "hotel-parking": "yes"
+                },
+                {
+                    "hotel-parking": "yes"
+                },
+                {
+                    "hotel-parking": "yes"
+                },
+                {
+                    "hotel-parking": "yes"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "no"
+                ],
+                [
+                    "hotel-parking=yes"
+                ],
+                [
+                    "hotel-parking=yes"
+                ],
+                [
+                    "hotel-parking=yes"
+                ],
+                [
+                    "hotel-parking=yes"
+                ],
+                [
+                    "no"
+                ],
+                [
+                    "hotel-parking=yes"
+                ],
+                [
+                    "hotel-parking=yes"
+                ],
+                [
+                    "hotel-parking=yes"
+                ],
+                [
+                    "hotel-parking=yes"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {},
+                {
+                    "hotel-parking": "yes"
+                },
+                {
+                    "hotel-parking": "yes"
+                },
+                {
+                    "hotel-parking": "yes"
+                },
+                {
+                    "hotel-parking": "yes"
+                },
+                {
+                    "hotel-parking": "yes"
+                },
+                {
+                    "hotel-parking": "yes"
+                },
+                {
+                    "hotel-parking": "yes"
+                },
+                {
+                    "hotel-parking": "yes"
+                },
+                {
+                    "hotel-parking": "yes"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "no"
+                ],
+                [
+                    "no"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {},
+                {}
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "hotel-starrating=3"
+                ],
+                [
+                    "hotel-starrating=1"
+                ],
+                [
+                    "hotel-starrating=6"
+                ],
+                [
+                    "hotel-starrating=6"
+                ],
+                [
+                    "hotel-starrating=6"
+                ],
+                [
+                    "hotel-starrating=3"
+                ],
+                [
+                    "hotel-starrating=4"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "hotel-starrating": "3"
+                },
+                {
+                    "hotel-starrating": "1"
+                },
+                {
+                    "hotel-starrating": "6"
+                },
+                {
+                    "hotel-starrating": "6"
+                },
+                {
+                    "hotel-starrating": "6"
+                },
+                {
+                    "hotel-starrating": "3"
+                },
+                {
+                    "hotel-starrating": "4"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "None"
+                ],
+                [
+                    "None"
+                ],
+                [
+                    "None"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {},
+                {},
+                {}
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "hotel-free-wifi=yes"
+                ],
+                [
+                    "hotel-free-wifi=yes"
+                ],
+                [
+                    "hotel-free-wifi=yes"
+                ],
+                [
+                    "hotel-free-wifi=yes"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "hotel-free-wifi": "yes"
+                },
+                {
+                    "hotel-free-wifi": "yes"
+                },
+                {
+                    "hotel-free-wifi": "yes"
+                },
+                {
+                    "hotel-free-wifi": "yes"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "hotel-price=yes"
+                ],
+                [
+                    "hotel-price=yes"
+                ],
+                [
+                    "hotel-price=yes"
+                ],
+                [
+                    "None"
+                ],
+                [
+                    "None"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "hotel-price": "yes"
+                },
+                {
+                    "hotel-price": "yes"
+                },
+                {
+                    "hotel-price": "yes"
+                },
+                {
+                    "hotel-price": "yes"
+                },
+                {
+                    "hotel-price": "yes"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "hotel-price=4 fortunetell hotel-price=4 fortunetell hotel-price=4 fortunetell hotel-price=4 fortunetell hotel-price=4 fortunetell hotel-price=4 fortunetell hotel-"
+                ],
+                [
+                    "hotel-parking=yes"
+                ],
+                [
+                    "none"
+                ],
+                [
+                    "hotel-star=9 fortunetell hotel-star=9 fortunetell hotel-star=9 fortunetell hotel-star=9 fortunetell hotel-star=9 fortunetell hotel-star=9 fortunetell hotel-"
+                ],
+                [
+                    "hotel-price=4 fortunetell hotel-price=4 fortunetell hotel-price=4 fortunetell hotel-price=4 fortunetell hotel-price=4 fortunetell hotel-star=4 fortunetell hotel-"
+                ],
+                [
+                    "hotel-star=4 fortunetell hotel-star=4 fortunetell hotel-star=4 fortunetell hotel-star=4 fortunetell hotel-star=4 fortunetell hotel-star=4 fortunetell hotel-"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "hotel-price": "4 fortunetell hotel-price"
+                },
+                {
+                    "hotel-price": "4 fortunetell hotel-price",
+                    "hotel-parking": "yes"
+                },
+                {
+                    "hotel-price": "4 fortunetell hotel-price",
+                    "hotel-parking": "yes"
+                },
+                {
+                    "hotel-price": "4 fortunetell hotel-price",
+                    "hotel-parking": "yes",
+                    "hotel-star": "9 fortunetell hotel-star"
+                },
+                {
+                    "hotel-price": "4 fortunetell hotel-price",
+                    "hotel-parking": "yes",
+                    "hotel-star": "9 fortunetell hotel-star"
+                },
+                {
+                    "hotel-price": "4 fortunetell hotel-price",
+                    "hotel-parking": "yes",
+                    "hotel-star": "4 fortunetell hotel-star"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "hotel-parking=yes"
+                ],
+                [
+                    "hotel-parking=yes"
+                ],
+                [
+                    "hotel-parking=yes"
+                ],
+                [
+                    "hotel-parking=yes"
+                ],
+                [
+                    "hotel-parking=yes"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "hotel-parking": "yes"
+                },
+                {
+                    "hotel-parking": "yes"
+                },
+                {
+                    "hotel-parking": "yes"
+                },
+                {
+                    "hotel-parking": "yes"
+                },
+                {
+                    "hotel-parking": "yes"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "hotel-night=yes"
+                ],
+                [
+                    "hotel-night=yes"
+                ],
+                [
+                    "hotel-night=yes"
+                ],
+                [
+                    "hotel-night=yes"
+                ],
+                [
+                    "hotel-night=yes"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "hotel-night": "yes"
+                },
+                {
+                    "hotel-night": "yes"
+                },
+                {
+                    "hotel-night": "yes"
+                },
+                {
+                    "hotel-night": "yes"
+                },
+                {
+                    "hotel-night": "yes"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "hotel-parking=yes"
+                ],
+                [
+                    "hotel-stars=3"
+                ],
+                [
+                    "hotel-stars=8"
+                ],
+                [
+                    "hotel-stars=8"
+                ],
+                [
+                    "hotel-stars=8"
+                ],
+                [
+                    "hotel-stars=7ckepro5"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "hotel-parking": "yes"
+                },
+                {
+                    "hotel-parking": "yes",
+                    "hotel-stars": "3"
+                },
+                {
+                    "hotel-parking": "yes",
+                    "hotel-stars": "8"
+                },
+                {
+                    "hotel-parking": "yes",
+                    "hotel-stars": "8"
+                },
+                {
+                    "hotel-parking": "yes",
+                    "hotel-stars": "8"
+                },
+                {
+                    "hotel-parking": "yes",
+                    "hotel-stars": "7ckepro5"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "no"
+                ],
+                [
+                    "hotel-parking=yes"
+                ],
+                [
+                    "hotel-parking=yes"
+                ],
+                [
+                    "hotel-parking=yes"
+                ],
+                [
+                    "hotel-parking=yes"
+                ],
+                [
+                    "hotel-parking=yes"
+                ],
+                [
+                    "hotel-parking=yes"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {},
+                {
+                    "hotel-parking": "yes"
+                },
+                {
+                    "hotel-parking": "yes"
+                },
+                {
+                    "hotel-parking": "yes"
+                },
+                {
+                    "hotel-parking": "yes"
+                },
+                {
+                    "hotel-parking": "yes"
+                },
+                {
+                    "hotel-parking": "yes"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "hotel-warkworth=warkworth"
+                ],
+                [
+                    "hotel-warkworth=warkworth"
+                ],
+                [
+                    "hotel-warkworth=warkworth"
+                ],
+                [
+                    "hotel-warkworth=warkworth"
+                ],
+                [
+                    "hotel-warkworth=warkworth"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "hotel-warkworth": "warkworth"
+                },
+                {
+                    "hotel-warkworth": "warkworth"
+                },
+                {
+                    "hotel-warkworth": "warkworth"
+                },
+                {
+                    "hotel-warkworth": "warkworth"
+                },
+                {
+                    "hotel-warkworth": "warkworth"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "hotel-star=2"
+                ],
+                [
+                    "hotel-star=1"
+                ],
+                [
+                    "hotel-star=1"
+                ],
+                [
+                    "hotel-star=1"
+                ],
+                [
+                    "hotel-star=1"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "hotel-star": "2"
+                },
+                {
+                    "hotel-star": "1"
+                },
+                {
+                    "hotel-star": "1"
+                },
+                {
+                    "hotel-star": "1"
+                },
+                {
+                    "hotel-star": "1"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "warkworth house is a hotel that is located in the city of Warkworth, in the south west of the city."
+                ],
+                [
+                    "warkworth house is a hotel that is located in the city of Warkworth, in the south west of the city."
+                ],
+                [
+                    "warkworth house is a hotel that is located in the city of Warkworth, in the south west of the city."
+                ],
+                [
+                    "warkworth house is a hotel that is located in the city of Warkworth, in the south west of the city."
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {},
+                {},
+                {},
+                {}
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "hotel-wifi=yes"
+                ],
+                [
+                    "hotel-wifi=yes"
+                ],
+                [
+                    "hotel-wifi=yes"
+                ],
+                [
+                    "hotel-wifi=yes"
+                ],
+                [
+                    "hotel-wifi=yes"
+                ],
+                [
+                    "hotel-wifi=yes"
+                ],
+                [
+                    "hotel-wifi=yes"
+                ],
+                [
+                    "hotel-wifi=yes"
+                ],
+                [
+                    "hotel-wifi=yes"
+                ],
+                [
+                    "hotel-wifi=yes"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "hotel-wifi": "yes"
+                },
+                {
+                    "hotel-wifi": "yes"
+                },
+                {
+                    "hotel-wifi": "yes"
+                },
+                {
+                    "hotel-wifi": "yes"
+                },
+                {
+                    "hotel-wifi": "yes"
+                },
+                {
+                    "hotel-wifi": "yes"
+                },
+                {
+                    "hotel-wifi": "yes"
+                },
+                {
+                    "hotel-wifi": "yes"
+                },
+                {
+                    "hotel-wifi": "yes"
+                },
+                {
+                    "hotel-wifi": "yes"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "hotel-wifi=yes"
+                ],
+                [
+                    "hotel-wifi=yes"
+                ],
+                [
+                    "hotel-wifi=yes"
+                ],
+                [
+                    "hotel-wifi=yes"
+                ],
+                [
+                    "hotel-wifi=yes"
+                ],
+                [
+                    "hotel-wifi=yes"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "hotel-wifi": "yes"
+                },
+                {
+                    "hotel-wifi": "yes"
+                },
+                {
+                    "hotel-wifi": "yes"
+                },
+                {
+                    "hotel-wifi": "yes"
+                },
+                {
+                    "hotel-wifi": "yes"
+                },
+                {
+                    "hotel-wifi": "yes"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "hotel-parking=no"
+                ],
+                [
+                    "hotel-parking=no"
+                ],
+                [
+                    "no"
+                ],
+                [
+                    "hotel-parking=no"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "hotel-parking": "no"
+                },
+                {
+                    "hotel-parking": "no"
+                },
+                {
+                    "hotel-parking": "no"
+                },
+                {
+                    "hotel-parking": "no"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "3 star hotel-s=3"
+                ],
+                [
+                    "3 star hotel-s=3"
+                ],
+                [
+                    "3 star hotel-s=3"
+                ],
+                [
+                    "3 star hotel-s=3"
+                ],
+                [
+                    "3 star hotel-s=3"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "3 star hotel-s": "3"
+                },
+                {
+                    "3 star hotel-s": "3"
+                },
+                {
+                    "3 star hotel-s": "3"
+                },
+                {
+                    "3 star hotel-s": "3"
+                },
+                {
+                    "3 star hotel-s": "3"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "hotel-parking=no"
+                ],
+                [
+                    "hotel-parking=no"
+                ],
+                [
+                    "hotel-parking=no"
+                ],
+                [
+                    "hotel-stars=4 fortunetell-type=hotel"
+                ],
+                [
+                    "hotel-stars=4 fortunetell-type=hotel"
+                ],
+                [
+                    "hotel-stars=4 fortunetell-type=hotel"
+                ],
+                [
+                    "hotel-stars=4 fortunetell-type=hotel"
+                ],
+                [
+                    "hotel-stars=4 fortunetell-type=hotel"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "hotel-parking": "no"
+                },
+                {
+                    "hotel-parking": "no"
+                },
+                {
+                    "hotel-parking": "no"
+                },
+                {
+                    "hotel-parking": "no",
+                    "hotel-stars": "4 fortunetell-type"
+                },
+                {
+                    "hotel-parking": "no",
+                    "hotel-stars": "4 fortunetell-type"
+                },
+                {
+                    "hotel-parking": "no",
+                    "hotel-stars": "4 fortunetell-type"
+                },
+                {
+                    "hotel-parking": "no",
+                    "hotel-stars": "4 fortunetell-type"
+                },
+                {
+                    "hotel-parking": "no",
+                    "hotel-stars": "4 fortunetell-type"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "hotel-parking=yes"
+                ],
+                [
+                    "hotel-parking=yes"
+                ],
+                [
+                    "hotel-parking=yes"
+                ],
+                [
+                    "hotel-parking=yes"
+                ],
+                [
+                    "hotel-parking=yes"
+                ],
+                [
+                    "hotel-parking=yes"
+                ],
+                [
+                    "hotel-parking=yes"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "hotel-parking": "yes"
+                },
+                {
+                    "hotel-parking": "yes"
+                },
+                {
+                    "hotel-parking": "yes"
+                },
+                {
+                    "hotel-parking": "yes"
+                },
+                {
+                    "hotel-parking": "yes"
+                },
+                {
+                    "hotel-parking": "yes"
+                },
+                {
+                    "hotel-parking": "yes"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "warkworth house=yes"
+                ],
+                [
+                    "warkworth house=yes"
+                ],
+                [
+                    "warkworth house=yes"
+                ],
+                [
+                    "warkworth house=yes"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "warkworth house": "yes"
+                },
+                {
+                    "warkworth house": "yes"
+                },
+                {
+                    "warkworth house": "yes"
+                },
+                {
+                    "warkworth house": "yes"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "hotel-parking=yes"
+                ],
+                [
+                    "hotel-parking=yes"
+                ],
+                [
+                    "hotel-parking=yes"
+                ],
+                [
+                    "hotel-parking=yes"
+                ],
+                [
+                    "hotel-parking=yes"
+                ],
+                [
+                    "hotel-parking=yes"
+                ],
+                [
+                    "hotel-parking=yes"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "hotel-parking": "yes"
+                },
+                {
+                    "hotel-parking": "yes"
+                },
+                {
+                    "hotel-parking": "yes"
+                },
+                {
+                    "hotel-parking": "yes"
+                },
+                {
+                    "hotel-parking": "yes"
+                },
+                {
+                    "hotel-parking": "yes"
+                },
+                {
+                    "hotel-parking": "yes"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "hotel-parking=yes"
+                ],
+                [
+                    "hotel-parking=yes"
+                ],
+                [
+                    "hotel-parking=yes"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "hotel-parking": "yes"
+                },
+                {
+                    "hotel-parking": "yes"
+                },
+                {
+                    "hotel-parking": "yes"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "free parking=yes"
+                ],
+                [
+                    "free wifi=yes"
+                ],
+                [
+                    "hotel-guesthouse=yes"
+                ],
+                [
+                    "hotel-guesthouse=yes"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "free parking": "yes"
+                },
+                {
+                    "free parking": "yes",
+                    "free wifi": "yes"
+                },
+                {
+                    "free parking": "yes",
+                    "free wifi": "yes",
+                    "hotel-guesthouse": "yes"
+                },
+                {
+                    "free parking": "yes",
+                    "free wifi": "yes",
+                    "hotel-guesthouse": "yes"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "guesthouses=yes"
+                ],
+                [
+                    "guesthouses=yes"
+                ],
+                [
+                    "guesthouses=yes"
+                ],
+                [
+                    "guesthouses=yes"
+                ],
+                [
+                    "guesthouses=yes"
+                ],
+                [
+                    "guesthouses=yes"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "guesthouses": "yes"
+                },
+                {
+                    "guesthouses": "yes"
+                },
+                {
+                    "guesthouses": "yes"
+                },
+                {
+                    "guesthouses": "yes"
+                },
+                {
+                    "guesthouses": "yes"
+                },
+                {
+                    "guesthouses": "yes"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "hotel-parking=yes"
+                ],
+                [
+                    "hotel-parking=yes"
+                ],
+                [
+                    "hotel-parking=yes"
+                ],
+                [
+                    "hotel-parking=yes"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "hotel-parking": "yes"
+                },
+                {
+                    "hotel-parking": "yes"
+                },
+                {
+                    "hotel-parking": "yes"
+                },
+                {
+                    "hotel-parking": "yes"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "4 star hotel-parking=yes"
+                ],
+                [
+                    "4 star hotel-parking=yes"
+                ],
+                [
+                    "4 star hotel-parking=yes"
+                ],
+                [
+                    "4 star hotel-parking=yes"
+                ],
+                [
+                    "4 star hotel-parking=yes"
+                ],
+                [
+                    "4 star hotel-parking=yes"
+                ],
+                [
+                    "4 star hotel-parking=yes"
+                ],
+                [
+                    "4 star hotel-parking=yes"
+                ],
+                [
+                    "4 star hotel-parking=yes"
+                ],
+                [
+                    "4 star hotel-parking=yes"
+                ],
+                [
+                    "4 star hotel-parking=yes"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "4 star hotel-parking": "yes"
+                },
+                {
+                    "4 star hotel-parking": "yes"
+                },
+                {
+                    "4 star hotel-parking": "yes"
+                },
+                {
+                    "4 star hotel-parking": "yes"
+                },
+                {
+                    "4 star hotel-parking": "yes"
+                },
+                {
+                    "4 star hotel-parking": "yes"
+                },
+                {
+                    "4 star hotel-parking": "yes"
+                },
+                {
+                    "4 star hotel-parking": "yes"
+                },
+                {
+                    "4 star hotel-parking": "yes"
+                },
+                {
+                    "4 star hotel-parking": "yes"
+                },
+                {
+                    "4 star hotel-parking": "yes"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "4 star hotel-s=4"
+                ],
+                [
+                    "hotel-parking=yes"
+                ],
+                [
+                    "hotel-parking=yes"
+                ],
+                [
+                    "hotel-parking=yes"
+                ],
+                [
+                    "hotel-parking=yes"
+                ],
+                [
+                    "hotel-parking=yes"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "4 star hotel-s": "4"
+                },
+                {
+                    "4 star hotel-s": "4",
+                    "hotel-parking": "yes"
+                },
+                {
+                    "4 star hotel-s": "4",
+                    "hotel-parking": "yes"
+                },
+                {
+                    "4 star hotel-s": "4",
+                    "hotel-parking": "yes"
+                },
+                {
+                    "4 star hotel-s": "4",
+                    "hotel-parking": "yes"
+                },
+                {
+                    "4 star hotel-s": "4",
+                    "hotel-parking": "yes"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "no, i am looking for a hotel to stay at with free parking pleaseDST: hotel-parking=yesAssistant: i have a variety of options located all over town. would you have a preference on the area or maybe a certain price"
+                ],
+                [
+                    "no, i am looking for a hotel to stay at with free parking pleaseDST: hotel-parking=yesAssistant: i have a variety of options located all over town. would you have a preference on the area or maybe a certain price"
+                ],
+                [
+                    "hotel-parking=yesAssistant: i have a variety of options located all over town. would you have a preference on the area or maybe a certain price"
+                ],
+                [
+                    "hotel-parking=yesAssistant: your booking was and your reference number is ey36gh17. is there anything else you need help with today?"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "no, i am looking for a hotel to stay at with free parking pleaseDST: hotel-parking": "yesAssistant: i have a variety of options located all over town. would you have a preference on the area or maybe a certain price"
+                },
+                {
+                    "no, i am looking for a hotel to stay at with free parking pleaseDST: hotel-parking": "yesAssistant: i have a variety of options located all over town. would you have a preference on the area or maybe a certain price"
+                },
+                {
+                    "no, i am looking for a hotel to stay at with free parking pleaseDST: hotel-parking": "yesAssistant: i have a variety of options located all over town. would you have a preference on the area or maybe a certain price",
+                    "hotel-parking": "yesAssistant: i have a variety of options located all over town. would you have a preference on the area or maybe a certain price"
+                },
+                {
+                    "no, i am looking for a hotel to stay at with free parking pleaseDST: hotel-parking": "yesAssistant: i have a variety of options located all over town. would you have a preference on the area or maybe a certain price",
+                    "hotel-parking": "yesAssistant: your booking was and your reference number is ey36gh17. is there anything else you need help with today?"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "hotel-parking=no"
+                ],
+                [
+                    "hotel-parking=no"
+                ],
+                [
+                    "hotel-parking=no"
+                ],
+                [
+                    "hotel-parking=no"
+                ],
+                [
+                    "hotel-parking=no"
+                ],
+                [
+                    "hotel-parking=no"
+                ],
+                [
+                    "hotel-parking=no"
+                ],
+                [
+                    "hotel-parking=no"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "hotel-parking": "no"
+                },
+                {
+                    "hotel-parking": "no"
+                },
+                {
+                    "hotel-parking": "no"
+                },
+                {
+                    "hotel-parking": "no"
+                },
+                {
+                    "hotel-parking": "no"
+                },
+                {
+                    "hotel-parking": "no"
+                },
+                {
+                    "hotel-parking": "no"
+                },
+                {
+                    "hotel-parking": "no"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "hotel-parking=yes"
+                ],
+                [
+                    "hotel-parking=yes"
+                ],
+                [
+                    "hotel-parking=yes"
+                ],
+                [
+                    "hotel-parking=yes"
+                ],
+                [
+                    "hotel-parking=yes"
+                ],
+                [
+                    "hotel-parking=yes"
+                ],
+                [
+                    "hotel-parking=yes"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "hotel-parking": "yes"
+                },
+                {
+                    "hotel-parking": "yes"
+                },
+                {
+                    "hotel-parking": "yes"
+                },
+                {
+                    "hotel-parking": "yes"
+                },
+                {
+                    "hotel-parking": "yes"
+                },
+                {
+                    "hotel-parking": "yes"
+                },
+                {
+                    "hotel-parking": "yes"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "hotel-wifi=yes"
+                ],
+                [
+                    "hotel-wifi=yes"
+                ],
+                [
+                    "hotel-wifi=yes"
+                ],
+                [
+                    "hotel-wifi=yes"
+                ],
+                [
+                    "hotel-wifi=yes"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "hotel-wifi": "yes"
+                },
+                {
+                    "hotel-wifi": "yes"
+                },
+                {
+                    "hotel-wifi": "yes"
+                },
+                {
+                    "hotel-wifi": "yes"
+                },
+                {
+                    "hotel-wifi": "yes"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "hotel-star=4"
+                ],
+                [
+                    "hotel-star=4"
+                ],
+                [
+                    "hotel-star=4"
+                ],
+                [
+                    "hotel-star=4"
+                ],
+                [
+                    "hotel-star=4"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "hotel-star": "4"
+                },
+                {
+                    "hotel-star": "4"
+                },
+                {
+                    "hotel-star": "4"
+                },
+                {
+                    "hotel-star": "4"
+                },
+                {
+                    "hotel-star": "4"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "free parking=yes"
+                ],
+                [
+                    "no"
+                ],
+                [
+                    "no"
+                ],
+                [
+                    "no"
+                ],
+                [
+                    "no"
+                ],
+                [
+                    "no"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "free parking": "yes"
+                },
+                {
+                    "free parking": "yes"
+                },
+                {
+                    "free parking": "yes"
+                },
+                {
+                    "free parking": "yes"
+                },
+                {
+                    "free parking": "yes"
+                },
+                {
+                    "free parking": "yes"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "hotel-parking=yes"
+                ],
+                [
+                    "hotel-stars=4"
+                ],
+                [
+                    "hotel-stars=5"
+                ],
+                [
+                    "hotel-stars=2"
+                ],
+                [
+                    "hotel-stars=2"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "hotel-parking": "yes"
+                },
+                {
+                    "hotel-parking": "yes",
+                    "hotel-stars": "4"
+                },
+                {
+                    "hotel-parking": "yes",
+                    "hotel-stars": "5"
+                },
+                {
+                    "hotel-parking": "yes",
+                    "hotel-stars": "2"
+                },
+                {
+                    "hotel-parking": "yes",
+                    "hotel-stars": "2"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "no"
+                ],
+                [
+                    "hotel-price=yes"
+                ],
+                [
+                    "no"
+                ],
+                [
+                    "hotel-price=yes"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {},
+                {
+                    "hotel-price": "yes"
+                },
+                {
+                    "hotel-price": "yes"
+                },
+                {
+                    "hotel-price": "yes"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "hotel-el shaddai=yes"
+                ],
+                [
+                    "hotel-night=yes"
+                ],
+                [
+                    "hotel-night=yes"
+                ],
+                [
+                    "hotel-night=yes"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "hotel-el shaddai": "yes"
+                },
+                {
+                    "hotel-el shaddai": "yes",
+                    "hotel-night": "yes"
+                },
+                {
+                    "hotel-el shaddai": "yes",
+                    "hotel-night": "yes"
+                },
+                {
+                    "hotel-el shaddai": "yes",
+                    "hotel-night": "yes"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "hotel-price=price"
+                ],
+                [
+                    "hotel-price=price"
+                ],
+                [
+                    "hotel-price=price"
+                ],
+                [
+                    "hotel-price=price"
+                ],
+                [
+                    "hotel-price=price"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "hotel-price": "price"
+                },
+                {
+                    "hotel-price": "price"
+                },
+                {
+                    "hotel-price": "price"
+                },
+                {
+                    "hotel-price": "price"
+                },
+                {
+                    "hotel-price": "price"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "hotel-free-wifi=yes"
+                ],
+                [
+                    "hotel-price-range=yes"
+                ],
+                [
+                    "hotel-parking=yes"
+                ],
+                [
+                    "hotel-parking=yes"
+                ],
+                [
+                    "hotel-parking=yes"
+                ],
+                [
+                    "hotel-parking=yes"
+                ],
+                [
+                    "hotel-parking=yes"
+                ],
+                [
+                    "hotel-parking=yes"
+                ],
+                [
+                    "hotel-parking=yes"
+                ],
+                [
+                    "hotel-parking=yes"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "hotel-free-wifi": "yes"
+                },
+                {
+                    "hotel-free-wifi": "yes",
+                    "hotel-price-range": "yes"
+                },
+                {
+                    "hotel-free-wifi": "yes",
+                    "hotel-price-range": "yes",
+                    "hotel-parking": "yes"
+                },
+                {
+                    "hotel-free-wifi": "yes",
+                    "hotel-price-range": "yes",
+                    "hotel-parking": "yes"
+                },
+                {
+                    "hotel-free-wifi": "yes",
+                    "hotel-price-range": "yes",
+                    "hotel-parking": "yes"
+                },
+                {
+                    "hotel-free-wifi": "yes",
+                    "hotel-price-range": "yes",
+                    "hotel-parking": "yes"
+                },
+                {
+                    "hotel-free-wifi": "yes",
+                    "hotel-price-range": "yes",
+                    "hotel-parking": "yes"
+                },
+                {
+                    "hotel-free-wifi": "yes",
+                    "hotel-price-range": "yes",
+                    "hotel-parking": "yes"
+                },
+                {
+                    "hotel-free-wifi": "yes",
+                    "hotel-price-range": "yes",
+                    "hotel-parking": "yes"
+                },
+                {
+                    "hotel-free-wifi": "yes",
+                    "hotel-price-range": "yes",
+                    "hotel-parking": "yes"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "bridge-house=yes"
+                ],
+                [
+                    "bridge-house=yes"
+                ],
+                [
+                    "bridge-house=yes"
+                ],
+                [
+                    "bridge-house=yes"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "bridge-house": "yes"
+                },
+                {
+                    "bridge-house": "yes"
+                },
+                {
+                    "bridge-house": "yes"
+                },
+                {
+                    "bridge-house": "yes"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "alpha milton guest house=yes"
+                ],
+                [
+                    "alpha milton guest house=yes"
+                ],
+                [
+                    "alpha milton guest house=yes"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "alpha milton guest house": "yes"
+                },
+                {
+                    "alpha milton guest house": "yes"
+                },
+                {
+                    "alpha milton guest house": "yes"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "4 star guesthouses in town"
+                ],
+                [
+                    "4 star guesthouses in town"
+                ],
+                [
+                    "rosa s bed and breakfast is cheap, located at 53 roseford road cb22ha and aylesbray lodge guest house is moderate, located at 5 mowbray road cb17sr. shall we book?"
+                ],
+                [
+                    "rosa s bed and breakfast is cheap, located at 53 roseford road cb22ha and aylesbray lodge guest house is moderate, located at 5 mowbray road cb17sr. shall we book?"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {},
+                {},
+                {},
+                {}
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "hotel-parking=yes"
+                ],
+                [
+                    "hotel-parking=yes"
+                ],
+                [
+                    "hotel-parking=yes"
+                ],
+                [
+                    "None"
+                ],
+                [
+                    "None"
+                ],
+                [
+                    "None"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "hotel-parking": "yes"
+                },
+                {
+                    "hotel-parking": "yes"
+                },
+                {
+                    "hotel-parking": "yes"
+                },
+                {
+                    "hotel-parking": "yes"
+                },
+                {
+                    "hotel-parking": "yes"
+                },
+                {
+                    "hotel-parking": "yes"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "hotel-wifi=yes"
+                ],
+                [
+                    "hotel-wifi=yes"
+                ],
+                [
+                    "hotel-wifi=yes"
+                ],
+                [
+                    "hotel-wifi=yes"
+                ],
+                [
+                    "hotel-wifi=yes"
+                ],
+                [
+                    "hotel-wifi=yes"
+                ],
+                [
+                    "hotel-wifi=yes"
+                ],
+                [
+                    "hotel-wifi=yes"
+                ],
+                [
+                    "hotel-wifi=yes"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "hotel-wifi": "yes"
+                },
+                {
+                    "hotel-wifi": "yes"
+                },
+                {
+                    "hotel-wifi": "yes"
+                },
+                {
+                    "hotel-wifi": "yes"
+                },
+                {
+                    "hotel-wifi": "yes"
+                },
+                {
+                    "hotel-wifi": "yes"
+                },
+                {
+                    "hotel-wifi": "yes"
+                },
+                {
+                    "hotel-wifi": "yes"
+                },
+                {
+                    "hotel-wifi": "yes"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "hotel-parking=yes"
+                ],
+                [
+                    "hotel-parking=yes"
+                ],
+                [
+                    "hotel-parking=yes"
+                ],
+                [
+                    "hotel-parking=yes"
+                ],
+                [
+                    "hotel-parking=yes"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "hotel-parking": "yes"
+                },
+                {
+                    "hotel-parking": "yes"
+                },
+                {
+                    "hotel-parking": "yes"
+                },
+                {
+                    "hotel-parking": "yes"
+                },
+                {
+                    "hotel-parking": "yes"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "hotel-parking=yes"
+                ],
+                [
+                    "hotel-parking=yes"
+                ],
+                [
+                    "hotel-parking=yes"
+                ],
+                [
+                    "hotel-parking=yes"
+                ],
+                [
+                    "hotel-parking=yes"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "hotel-parking": "yes"
+                },
+                {
+                    "hotel-parking": "yes"
+                },
+                {
+                    "hotel-parking": "yes"
+                },
+                {
+                    "hotel-parking": "yes"
+                },
+                {
+                    "hotel-parking": "yes"
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,68 @@
+B4
+generations/msc-dialogue-2
+gpt-neo-2.7B 1
+gpt-neo-1.3B 1
+gpt-j-hf 1
+gpt-j-hf 3
+gpt-neo-1.3B 3
+gpt-neo-2.7B 3
+\begin{tabular}{rrrrrrrr}
+\hline
+   Shots &   124M &   355M &   774M &   1.5B &   1.3B &   2.7B &   6B \\
+\hline
+       1 &    -   &    -   &    -   &    -   &   0.30 &   0.37 & 0.50 \\
+       0 &    -   &    -   &    -   &    -   &   0.37 &   0.41 & 0.47 \\
+       3 &    -   &    -   &    -   &    -   &   0.34 &   0.46 & 0.55 \\
+\hline
+\end{tabular}
+F1
+generations/msc-dialogue-2
+gpt-neo-2.7B 1
+gpt-neo-1.3B 1
+gpt-j-hf 1
+gpt-j-hf 3
+gpt-neo-1.3B 3
+gpt-neo-2.7B 3
+\begin{tabular}{rrrrrrrr}
+\hline
+   Shots &   124M &   355M &   774M &   1.5B &   1.3B &   2.7B &    6B \\
+\hline
+       1 &    -   &    -   &    -   &    -   &  15.17 &  17.52 & 18.57 \\
+       0 &    -   &    -   &    -   &    -   &  16.98 &  17.92 & 18.99 \\
+       3 &    -   &    -   &    -   &    -   &  16.61 &  18.05 & 19.53 \\
+\hline
+\end{tabular}
+RL
+generations/msc-dialogue-2
+gpt-neo-2.7B 1
+gpt-neo-1.3B 1
+gpt-j-hf 1
+gpt-j-hf 3
+gpt-neo-1.3B 3
+gpt-neo-2.7B 3
+\begin{tabular}{rrrrrrrr}
+\hline
+   Shots &   124M &   355M &   774M &   1.5B &   1.3B &   2.7B &    6B \\
+\hline
+       1 &    -   &    -   &    -   &    -   &  15.15 &  19.88 & 19.84 \\
+       0 &    -   &    -   &    -   &    -   &  21.72 &  23.54 & 24.50 \\
+       3 &    -   &    -   &    -   &    -   &  17.04 &  19.87 & 21.68 \\
+\hline
+\end{tabular}
+PPL
+generations/msc-dialogue-2
+gpt-neo-2.7B 1
+gpt-neo-1.3B 1
+gpt-j-hf 1
+gpt-j-hf 3
+gpt-neo-1.3B 3
+gpt-neo-2.7B 3
+\begin{tabular}{rrrrrrrr}
+\hline
+   Shots &   124M &   355M &   774M &   1.5B &   1.3B &   2.7B &    6B \\
+\hline
+       1 &    -   &    -   &    -   &    -   &  15.10 &  13.71 & 11.65 \\
+       0 &    -   &    -   &    -   &    -   &  15.49 &  13.97 & 11.92 \\
+       3 &    -   &    -   &    -   &    -   &  14.79 &  13.30 & 11.40 \\
+\hline
+\end{tabular}

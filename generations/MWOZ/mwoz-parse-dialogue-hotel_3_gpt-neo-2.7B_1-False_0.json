@@ -1,0 +1,4200 @@
+{
+    "score": {
+        "B4": 12.822137168701609,
+        "F1": 61.280199148069734,
+        "RL": 55.9790459393634,
+        "JGA": 3.723404255319149,
+        "SLOT_ACC": 57.07964601769911,
+        "ppl": 4.286311160315089
+    },
+    "generation": [
+        {
+            "meta": [
+                [
+                    "hotel-type=guesthouse\thotel-pricerange=moderate"
+                ],
+                [
+                    "hotel-stars=3"
+                ],
+                [
+                    "hotel-book_day=wednesday\thotel-book_people=4\thotel-book_stay=4"
+                ],
+                [
+                    "hotel-book_day=saturday\thotel-book_people=2\thotel-book_stay=2"
+                ],
+                [
+                    "hotel-book_day=sunday\thotel-book_people=1\thotel-book_stay=1"
+                ],
+                [
+                    "None"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "hotel-type": "guesthouse",
+                    "hotel-pricerange": "moderate"
+                },
+                {
+                    "hotel-type": "guesthouse",
+                    "hotel-pricerange": "moderate",
+                    "hotel-stars": "3"
+                },
+                {
+                    "hotel-type": "guesthouse",
+                    "hotel-pricerange": "moderate",
+                    "hotel-stars": "3",
+                    "hotel-book day": "wednesday",
+                    "hotel-book people": "4",
+                    "hotel-book stay": "4"
+                },
+                {
+                    "hotel-type": "guesthouse",
+                    "hotel-pricerange": "moderate",
+                    "hotel-stars": "3",
+                    "hotel-book day": "saturday",
+                    "hotel-book people": "2",
+                    "hotel-book stay": "2"
+                },
+                {
+                    "hotel-type": "guesthouse",
+                    "hotel-pricerange": "moderate",
+                    "hotel-stars": "3",
+                    "hotel-book day": "sunday",
+                    "hotel-book people": "1",
+                    "hotel-book stay": "1"
+                },
+                {
+                    "hotel-type": "guesthouse",
+                    "hotel-pricerange": "moderate",
+                    "hotel-stars": "3",
+                    "hotel-book day": "sunday",
+                    "hotel-book people": "1",
+                    "hotel-book stay": "1"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "hotel-type=guesthouse\thotel-area=north\thotel-pricerange=dontcare"
+                ],
+                [
+                    "hotel-book_day=friday\thotel-book_people=1\thotel-book_stay=5\thotel-name=acorn guesthouse"
+                ],
+                [
+                    "None"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "hotel-type": "guesthouse",
+                    "hotel-area": "north",
+                    "hotel-pricerange": "dontcare"
+                },
+                {
+                    "hotel-type": "guesthouse",
+                    "hotel-area": "north",
+                    "hotel-pricerange": "dontcare",
+                    "hotel-book day": "friday",
+                    "hotel-book people": "1",
+                    "hotel-book stay": "5",
+                    "hotel-name": "acorn guesthouse"
+                },
+                {
+                    "hotel-type": "guesthouse",
+                    "hotel-area": "north",
+                    "hotel-pricerange": "dontcare",
+                    "hotel-book day": "friday",
+                    "hotel-book people": "1",
+                    "hotel-book stay": "5",
+                    "hotel-name": "acorn guesthouse"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "hotel-type=guesthouse\thotel-area=east\thotel-pricerange=dontcare"
+                ],
+                [
+                    "hotel-book_day=tuesday\thotel-book_people=2\thotel-book_stay=2"
+                ],
+                [
+                    "None"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "hotel-type": "guesthouse",
+                    "hotel-area": "east",
+                    "hotel-pricerange": "dontcare"
+                },
+                {
+                    "hotel-type": "guesthouse",
+                    "hotel-area": "east",
+                    "hotel-pricerange": "dontcare",
+                    "hotel-book day": "tuesday",
+                    "hotel-book people": "2",
+                    "hotel-book stay": "2"
+                },
+                {
+                    "hotel-type": "guesthouse",
+                    "hotel-area": "east",
+                    "hotel-pricerange": "dontcare",
+                    "hotel-book day": "tuesday",
+                    "hotel-book people": "2",
+                    "hotel-book stay": "2"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "guesthouse-parking=yes\thotel-pricerange=free"
+                ],
+                [
+                    "guesthouse-pricerange=expensive\thotel-type=guesthouse"
+                ],
+                [
+                    "hotel-pricerange=cheap"
+                ],
+                [
+                    "hotel-pricerange=free"
+                ],
+                [
+                    "hotel-book_day=friday\thotel-book_people=8\thotel-book_stay=4"
+                ],
+                [
+                    "None"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "guesthouse-parking": "yes",
+                    "hotel-pricerange": "free"
+                },
+                {
+                    "guesthouse-parking": "yes",
+                    "hotel-pricerange": "free",
+                    "guesthouse-pricerange": "expensive",
+                    "hotel-type": "guesthouse"
+                },
+                {
+                    "guesthouse-parking": "yes",
+                    "hotel-pricerange": "cheap",
+                    "guesthouse-pricerange": "expensive",
+                    "hotel-type": "guesthouse"
+                },
+                {
+                    "guesthouse-parking": "yes",
+                    "hotel-pricerange": "free",
+                    "guesthouse-pricerange": "expensive",
+                    "hotel-type": "guesthouse"
+                },
+                {
+                    "guesthouse-parking": "yes",
+                    "hotel-pricerange": "free",
+                    "guesthouse-pricerange": "expensive",
+                    "hotel-type": "guesthouse",
+                    "hotel-book day": "friday",
+                    "hotel-book people": "8",
+                    "hotel-book stay": "4"
+                },
+                {
+                    "guesthouse-parking": "yes",
+                    "hotel-pricerange": "free",
+                    "guesthouse-pricerange": "expensive",
+                    "hotel-type": "guesthouse",
+                    "hotel-book day": "friday",
+                    "hotel-book people": "8",
+                    "hotel-book stay": "4"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "hotel-pricerange=free"
+                ],
+                [
+                    "hotel-stars=3\thotel-pricerange=free"
+                ],
+                [
+                    "hotel-pricerange=moderate"
+                ],
+                [
+                    "hotel-stars=3\thotel-pricerange=moderate"
+                ],
+                [
+                    "hotel-book_day=thursday\thotel-book_people=3\thotel-book_stay=3"
+                ],
+                [
+                    "hotel-book_day=thursday\thotel-book_people=2\thotel-book_stay=3"
+                ],
+                [
+                    "None"
+                ],
+                [
+                    "None"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "hotel-pricerange": "free"
+                },
+                {
+                    "hotel-pricerange": "free",
+                    "hotel-stars": "3"
+                },
+                {
+                    "hotel-pricerange": "moderate",
+                    "hotel-stars": "3"
+                },
+                {
+                    "hotel-pricerange": "moderate",
+                    "hotel-stars": "3"
+                },
+                {
+                    "hotel-pricerange": "moderate",
+                    "hotel-stars": "3",
+                    "hotel-book day": "thursday",
+                    "hotel-book people": "3",
+                    "hotel-book stay": "3"
+                },
+                {
+                    "hotel-pricerange": "moderate",
+                    "hotel-stars": "3",
+                    "hotel-book day": "thursday",
+                    "hotel-book people": "2",
+                    "hotel-book stay": "3"
+                },
+                {
+                    "hotel-pricerange": "moderate",
+                    "hotel-stars": "3",
+                    "hotel-book day": "thursday",
+                    "hotel-book people": "2",
+                    "hotel-book stay": "3"
+                },
+                {
+                    "hotel-pricerange": "moderate",
+                    "hotel-stars": "3",
+                    "hotel-book day": "thursday",
+                    "hotel-book people": "2",
+                    "hotel-book stay": "3"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "hotel-stars=3"
+                ],
+                [
+                    "hotel-parking=yes\thotel-internet=yes"
+                ],
+                [
+                    "None"
+                ],
+                [
+                    "None"
+                ],
+                [
+                    "hotel-type=guesthouse\thotel-area=north"
+                ],
+                [
+                    "None"
+                ],
+                [
+                    "None"
+                ],
+                [
+                    "None"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "hotel-stars": "3"
+                },
+                {
+                    "hotel-stars": "3",
+                    "hotel-parking": "yes",
+                    "hotel-internet": "yes"
+                },
+                {
+                    "hotel-stars": "3",
+                    "hotel-parking": "yes",
+                    "hotel-internet": "yes"
+                },
+                {
+                    "hotel-stars": "3",
+                    "hotel-parking": "yes",
+                    "hotel-internet": "yes"
+                },
+                {
+                    "hotel-stars": "3",
+                    "hotel-parking": "yes",
+                    "hotel-internet": "yes",
+                    "hotel-type": "guesthouse",
+                    "hotel-area": "north"
+                },
+                {
+                    "hotel-stars": "3",
+                    "hotel-parking": "yes",
+                    "hotel-internet": "yes",
+                    "hotel-type": "guesthouse",
+                    "hotel-area": "north"
+                },
+                {
+                    "hotel-stars": "3",
+                    "hotel-parking": "yes",
+                    "hotel-internet": "yes",
+                    "hotel-type": "guesthouse",
+                    "hotel-area": "north"
+                },
+                {
+                    "hotel-stars": "3",
+                    "hotel-parking": "yes",
+                    "hotel-internet": "yes",
+                    "hotel-type": "guesthouse",
+                    "hotel-area": "north"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "hotel-parking=yes\thotel-pricerange=expensive"
+                ],
+                [
+                    "hotel-type=guesthouse\thotel-area=east"
+                ],
+                [
+                    "None"
+                ],
+                [
+                    "hotel-book_day=wednesday\thotel-book_people=4\thotel-book_stay=4"
+                ],
+                [
+                    "None"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "hotel-parking": "yes",
+                    "hotel-pricerange": "expensive"
+                },
+                {
+                    "hotel-parking": "yes",
+                    "hotel-pricerange": "expensive",
+                    "hotel-type": "guesthouse",
+                    "hotel-area": "east"
+                },
+                {
+                    "hotel-parking": "yes",
+                    "hotel-pricerange": "expensive",
+                    "hotel-type": "guesthouse",
+                    "hotel-area": "east"
+                },
+                {
+                    "hotel-parking": "yes",
+                    "hotel-pricerange": "expensive",
+                    "hotel-type": "guesthouse",
+                    "hotel-area": "east",
+                    "hotel-book day": "wednesday",
+                    "hotel-book people": "4",
+                    "hotel-book stay": "4"
+                },
+                {
+                    "hotel-parking": "yes",
+                    "hotel-pricerange": "expensive",
+                    "hotel-type": "guesthouse",
+                    "hotel-area": "east",
+                    "hotel-book day": "wednesday",
+                    "hotel-book people": "4",
+                    "hotel-book stay": "4"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "hotel-pricerange=moderate\thotel-stars=4\thotel-parking=yes"
+                ],
+                [
+                    "hotel-parking=yes\thotel-internet=yes\thotel-stars=2"
+                ],
+                [
+                    "None"
+                ],
+                [
+                    "None"
+                ],
+                [
+                    "None"
+                ],
+                [
+                    "None"
+                ],
+                [
+                    "None"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "hotel-pricerange": "moderate",
+                    "hotel-stars": "4",
+                    "hotel-parking": "yes"
+                },
+                {
+                    "hotel-pricerange": "moderate",
+                    "hotel-stars": "2",
+                    "hotel-parking": "yes",
+                    "hotel-internet": "yes"
+                },
+                {
+                    "hotel-pricerange": "moderate",
+                    "hotel-stars": "2",
+                    "hotel-parking": "yes",
+                    "hotel-internet": "yes"
+                },
+                {
+                    "hotel-pricerange": "moderate",
+                    "hotel-stars": "2",
+                    "hotel-parking": "yes",
+                    "hotel-internet": "yes"
+                },
+                {
+                    "hotel-pricerange": "moderate",
+                    "hotel-stars": "2",
+                    "hotel-parking": "yes",
+                    "hotel-internet": "yes"
+                },
+                {
+                    "hotel-pricerange": "moderate",
+                    "hotel-stars": "2",
+                    "hotel-parking": "yes",
+                    "hotel-internet": "yes"
+                },
+                {
+                    "hotel-pricerange": "moderate",
+                    "hotel-stars": "2",
+                    "hotel-parking": "yes",
+                    "hotel-internet": "yes"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "hotel-pricerange=cheap\thotel-stars=4\thotel-type=hotel"
+                ],
+                [
+                    "hotel-pricerange=cheap\thotel-stars=4\thotel-type=hotel"
+                ],
+                [
+                    "hotel-book_day=wednesday\thotel-book_people=1\thotel-book_stay=1"
+                ],
+                [
+                    "hotel-book_day=sunday\thotel-book_people=1\thotel-book_stay=1"
+                ],
+                [
+                    "hotel-book_day=thursday\thotel-book_people=2\thotel-book_stay=2"
+                ],
+                [
+                    "hotel-book_day=thursday\thotel-book_people=2\thotel-book_stay=2"
+                ],
+                [
+                    "None"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "hotel-pricerange": "cheap",
+                    "hotel-stars": "4",
+                    "hotel-type": "hotel"
+                },
+                {
+                    "hotel-pricerange": "cheap",
+                    "hotel-stars": "4",
+                    "hotel-type": "hotel"
+                },
+                {
+                    "hotel-pricerange": "cheap",
+                    "hotel-stars": "4",
+                    "hotel-type": "hotel",
+                    "hotel-book day": "wednesday",
+                    "hotel-book people": "1",
+                    "hotel-book stay": "1"
+                },
+                {
+                    "hotel-pricerange": "cheap",
+                    "hotel-stars": "4",
+                    "hotel-type": "hotel",
+                    "hotel-book day": "sunday",
+                    "hotel-book people": "1",
+                    "hotel-book stay": "1"
+                },
+                {
+                    "hotel-pricerange": "cheap",
+                    "hotel-stars": "4",
+                    "hotel-type": "hotel",
+                    "hotel-book day": "thursday",
+                    "hotel-book people": "2",
+                    "hotel-book stay": "2"
+                },
+                {
+                    "hotel-pricerange": "cheap",
+                    "hotel-stars": "4",
+                    "hotel-type": "hotel",
+                    "hotel-book day": "thursday",
+                    "hotel-book people": "2",
+                    "hotel-book stay": "2"
+                },
+                {
+                    "hotel-pricerange": "cheap",
+                    "hotel-stars": "4",
+                    "hotel-type": "hotel",
+                    "hotel-book day": "thursday",
+                    "hotel-book people": "2",
+                    "hotel-book stay": "2"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "hotel-area=north\thotel-pricerange=dontcare"
+                ],
+                [
+                    "hotel-pricerange=moderate\thotel-stars=4"
+                ],
+                [
+                    "hotel-area=north\thotel-book_day=wednesday\thotel-book_people=4\thotel-book_stay=4"
+                ],
+                [
+                    "None"
+                ],
+                [
+                    "hotel-book_day=sunday\thotel-book_people=3\thotel-book_stay=3"
+                ],
+                [
+                    "None"
+                ],
+                [
+                    "None"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "hotel-area": "north",
+                    "hotel-pricerange": "dontcare"
+                },
+                {
+                    "hotel-area": "north",
+                    "hotel-pricerange": "moderate",
+                    "hotel-stars": "4"
+                },
+                {
+                    "hotel-area": "north",
+                    "hotel-pricerange": "moderate",
+                    "hotel-stars": "4",
+                    "hotel-book day": "wednesday",
+                    "hotel-book people": "4",
+                    "hotel-book stay": "4"
+                },
+                {
+                    "hotel-area": "north",
+                    "hotel-pricerange": "moderate",
+                    "hotel-stars": "4",
+                    "hotel-book day": "wednesday",
+                    "hotel-book people": "4",
+                    "hotel-book stay": "4"
+                },
+                {
+                    "hotel-area": "north",
+                    "hotel-pricerange": "moderate",
+                    "hotel-stars": "4",
+                    "hotel-book day": "sunday",
+                    "hotel-book people": "3",
+                    "hotel-book stay": "3"
+                },
+                {
+                    "hotel-area": "north",
+                    "hotel-pricerange": "moderate",
+                    "hotel-stars": "4",
+                    "hotel-book day": "sunday",
+                    "hotel-book people": "3",
+                    "hotel-book stay": "3"
+                },
+                {
+                    "hotel-area": "north",
+                    "hotel-pricerange": "moderate",
+                    "hotel-stars": "4",
+                    "hotel-book day": "sunday",
+                    "hotel-book people": "3",
+                    "hotel-book stay": "3"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "hotel-parking=yes\thotel-internet=yes"
+                ],
+                [
+                    "hotel-type=guesthouse\thotel-area=centre"
+                ],
+                [
+                    "hotel-book_day=tuesday\thotel-book_people=4\thotel-book_stay=4"
+                ],
+                [
+                    "hotel-book_day=wednesday\thotel-book_people=2\thotel-book_stay=2"
+                ],
+                [
+                    "None"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "hotel-parking": "yes",
+                    "hotel-internet": "yes"
+                },
+                {
+                    "hotel-parking": "yes",
+                    "hotel-internet": "yes",
+                    "hotel-type": "guesthouse",
+                    "hotel-area": "centre"
+                },
+                {
+                    "hotel-parking": "yes",
+                    "hotel-internet": "yes",
+                    "hotel-type": "guesthouse",
+                    "hotel-area": "centre",
+                    "hotel-book day": "tuesday",
+                    "hotel-book people": "4",
+                    "hotel-book stay": "4"
+                },
+                {
+                    "hotel-parking": "yes",
+                    "hotel-internet": "yes",
+                    "hotel-type": "guesthouse",
+                    "hotel-area": "centre",
+                    "hotel-book day": "wednesday",
+                    "hotel-book people": "2",
+                    "hotel-book stay": "2"
+                },
+                {
+                    "hotel-parking": "yes",
+                    "hotel-internet": "yes",
+                    "hotel-type": "guesthouse",
+                    "hotel-area": "centre",
+                    "hotel-book day": "wednesday",
+                    "hotel-book people": "2",
+                    "hotel-book stay": "2"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "hotel-type=guesthouse\thotel-area=centre\thotel-pricerange=dontcare"
+                ],
+                [
+                    "hotel-pricerange=expensive\thotel-stars=4"
+                ],
+                [
+                    "hotel-book_day=wednesday\thotel-book_people=5\thotel-book_stay=4"
+                ],
+                [
+                    "hotel-book_day=wednesday\thotel-book_people=5\thotel-book_stay=4"
+                ],
+                [
+                    "hotel-book_day=wednesday\thotel-book_people=5\thotel-book_stay=4"
+                ],
+                [
+                    "None"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "hotel-type": "guesthouse",
+                    "hotel-area": "centre",
+                    "hotel-pricerange": "dontcare"
+                },
+                {
+                    "hotel-type": "guesthouse",
+                    "hotel-area": "centre",
+                    "hotel-pricerange": "expensive",
+                    "hotel-stars": "4"
+                },
+                {
+                    "hotel-type": "guesthouse",
+                    "hotel-area": "centre",
+                    "hotel-pricerange": "expensive",
+                    "hotel-stars": "4",
+                    "hotel-book day": "wednesday",
+                    "hotel-book people": "5",
+                    "hotel-book stay": "4"
+                },
+                {
+                    "hotel-type": "guesthouse",
+                    "hotel-area": "centre",
+                    "hotel-pricerange": "expensive",
+                    "hotel-stars": "4",
+                    "hotel-book day": "wednesday",
+                    "hotel-book people": "5",
+                    "hotel-book stay": "4"
+                },
+                {
+                    "hotel-type": "guesthouse",
+                    "hotel-area": "centre",
+                    "hotel-pricerange": "expensive",
+                    "hotel-stars": "4",
+                    "hotel-book day": "wednesday",
+                    "hotel-book people": "5",
+                    "hotel-book stay": "4"
+                },
+                {
+                    "hotel-type": "guesthouse",
+                    "hotel-area": "centre",
+                    "hotel-pricerange": "expensive",
+                    "hotel-stars": "4",
+                    "hotel-book day": "wednesday",
+                    "hotel-book people": "5",
+                    "hotel-book stay": "4"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "hotel-stars=3"
+                ],
+                [
+                    "hotel-parking=yes\thotel-internet=yes"
+                ],
+                [
+                    "hotel-book_day=wednesday\thotel-book_people=3\thotel-book_stay=3"
+                ],
+                [
+                    "hotel-address=lensfield\thotel-phone=1\thotel-type=hotel"
+                ],
+                [
+                    "None"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "hotel-stars": "3"
+                },
+                {
+                    "hotel-stars": "3",
+                    "hotel-parking": "yes",
+                    "hotel-internet": "yes"
+                },
+                {
+                    "hotel-stars": "3",
+                    "hotel-parking": "yes",
+                    "hotel-internet": "yes",
+                    "hotel-book day": "wednesday",
+                    "hotel-book people": "3",
+                    "hotel-book stay": "3"
+                },
+                {
+                    "hotel-stars": "3",
+                    "hotel-parking": "yes",
+                    "hotel-internet": "yes",
+                    "hotel-book day": "wednesday",
+                    "hotel-book people": "3",
+                    "hotel-book stay": "3",
+                    "hotel-address": "lensfield",
+                    "hotel-phone": "1",
+                    "hotel-type": "hotel"
+                },
+                {
+                    "hotel-stars": "3",
+                    "hotel-parking": "yes",
+                    "hotel-internet": "yes",
+                    "hotel-book day": "wednesday",
+                    "hotel-book people": "3",
+                    "hotel-book stay": "3",
+                    "hotel-address": "lensfield",
+                    "hotel-phone": "1",
+                    "hotel-type": "hotel"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "hotel-type=hotel\thotel-pricerange=dontcare\thotel-stars=5"
+                ],
+                [
+                    "hotel-pricerange=moderate\thotel-stars=4"
+                ],
+                [
+                    "hotel-book_day=wednesday\thotel-book_people=4\thotel-book_stay=4"
+                ],
+                [
+                    "hotel-book_day=saturday\thotel-book_people=4\thotel-book_stay=4"
+                ],
+                [
+                    "hotel-book_day=saturday\thotel-book_people=3\thotel-book_stay=3"
+                ],
+                [
+                    "hotel-book_day=sunday\thotel-book_people=3\thotel-book_stay=3"
+                ],
+                [
+                    "hotel-book_day=sunday\thotel-book_people=3\thotel-book_stay=3"
+                ],
+                [
+                    "hotel-book_day=saturday\thotel-book_people=3\thotel-book_stay=3"
+                ],
+                [
+                    "None"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "hotel-type": "hotel",
+                    "hotel-pricerange": "dontcare",
+                    "hotel-stars": "5"
+                },
+                {
+                    "hotel-type": "hotel",
+                    "hotel-pricerange": "moderate",
+                    "hotel-stars": "4"
+                },
+                {
+                    "hotel-type": "hotel",
+                    "hotel-pricerange": "moderate",
+                    "hotel-stars": "4",
+                    "hotel-book day": "wednesday",
+                    "hotel-book people": "4",
+                    "hotel-book stay": "4"
+                },
+                {
+                    "hotel-type": "hotel",
+                    "hotel-pricerange": "moderate",
+                    "hotel-stars": "4",
+                    "hotel-book day": "saturday",
+                    "hotel-book people": "4",
+                    "hotel-book stay": "4"
+                },
+                {
+                    "hotel-type": "hotel",
+                    "hotel-pricerange": "moderate",
+                    "hotel-stars": "4",
+                    "hotel-book day": "saturday",
+                    "hotel-book people": "3",
+                    "hotel-book stay": "3"
+                },
+                {
+                    "hotel-type": "hotel",
+                    "hotel-pricerange": "moderate",
+                    "hotel-stars": "4",
+                    "hotel-book day": "sunday",
+                    "hotel-book people": "3",
+                    "hotel-book stay": "3"
+                },
+                {
+                    "hotel-type": "hotel",
+                    "hotel-pricerange": "moderate",
+                    "hotel-stars": "4",
+                    "hotel-book day": "sunday",
+                    "hotel-book people": "3",
+                    "hotel-book stay": "3"
+                },
+                {
+                    "hotel-type": "hotel",
+                    "hotel-pricerange": "moderate",
+                    "hotel-stars": "4",
+                    "hotel-book day": "saturday",
+                    "hotel-book people": "3",
+                    "hotel-book stay": "3"
+                },
+                {
+                    "hotel-type": "hotel",
+                    "hotel-pricerange": "moderate",
+                    "hotel-stars": "4",
+                    "hotel-book day": "saturday",
+                    "hotel-book people": "3",
+                    "hotel-book stay": "3"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "hotel-parking=yes\thotel-pricerange=free\thotel-type=hotel"
+                ],
+                [
+                    "hotel-pricerange=cheap\thotel-type=guesthouse\thotel-area=east"
+                ],
+                [
+                    "hotel-book_day=monday\thotel-book_people=1\thotel-book_stay=1"
+                ],
+                [
+                    "hotel-book_stay=5\thotel-book_people=5\thotel-book_day=monday"
+                ],
+                [
+                    "None"
+                ],
+                [
+                    "hotel-book_stay=3\thotel-book_people=3\thotel-book_day=monday"
+                ],
+                [
+                    "None"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "hotel-parking": "yes",
+                    "hotel-pricerange": "free",
+                    "hotel-type": "hotel"
+                },
+                {
+                    "hotel-parking": "yes",
+                    "hotel-pricerange": "cheap",
+                    "hotel-type": "guesthouse",
+                    "hotel-area": "east"
+                },
+                {
+                    "hotel-parking": "yes",
+                    "hotel-pricerange": "cheap",
+                    "hotel-type": "guesthouse",
+                    "hotel-area": "east",
+                    "hotel-book day": "monday",
+                    "hotel-book people": "1",
+                    "hotel-book stay": "1"
+                },
+                {
+                    "hotel-parking": "yes",
+                    "hotel-pricerange": "cheap",
+                    "hotel-type": "guesthouse",
+                    "hotel-area": "east",
+                    "hotel-book day": "monday",
+                    "hotel-book people": "5",
+                    "hotel-book stay": "5"
+                },
+                {
+                    "hotel-parking": "yes",
+                    "hotel-pricerange": "cheap",
+                    "hotel-type": "guesthouse",
+                    "hotel-area": "east",
+                    "hotel-book day": "monday",
+                    "hotel-book people": "5",
+                    "hotel-book stay": "5"
+                },
+                {
+                    "hotel-parking": "yes",
+                    "hotel-pricerange": "cheap",
+                    "hotel-type": "guesthouse",
+                    "hotel-area": "east",
+                    "hotel-book day": "monday",
+                    "hotel-book people": "3",
+                    "hotel-book stay": "3"
+                },
+                {
+                    "hotel-parking": "yes",
+                    "hotel-pricerange": "cheap",
+                    "hotel-type": "guesthouse",
+                    "hotel-area": "east",
+                    "hotel-book day": "monday",
+                    "hotel-book people": "3",
+                    "hotel-book stay": "3"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "hotel-stars=4"
+                ],
+                [
+                    "hotel-parking=yes\thotel-internet=yes"
+                ],
+                [
+                    "hotel-book_day=wednesday\thotel-book_people=4\thotel-book_stay=4"
+                ],
+                [
+                    "hotel-area=north\thotel-pricerange=moderate"
+                ],
+                [
+                    "hotel-address=52 gilbert road"
+                ],
+                [
+                    "None"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "hotel-stars": "4"
+                },
+                {
+                    "hotel-stars": "4",
+                    "hotel-parking": "yes",
+                    "hotel-internet": "yes"
+                },
+                {
+                    "hotel-stars": "4",
+                    "hotel-parking": "yes",
+                    "hotel-internet": "yes",
+                    "hotel-book day": "wednesday",
+                    "hotel-book people": "4",
+                    "hotel-book stay": "4"
+                },
+                {
+                    "hotel-stars": "4",
+                    "hotel-parking": "yes",
+                    "hotel-internet": "yes",
+                    "hotel-book day": "wednesday",
+                    "hotel-book people": "4",
+                    "hotel-book stay": "4",
+                    "hotel-area": "north",
+                    "hotel-pricerange": "moderate"
+                },
+                {
+                    "hotel-stars": "4",
+                    "hotel-parking": "yes",
+                    "hotel-internet": "yes",
+                    "hotel-book day": "wednesday",
+                    "hotel-book people": "4",
+                    "hotel-book stay": "4",
+                    "hotel-area": "north",
+                    "hotel-pricerange": "moderate",
+                    "hotel-address": "52 gilbert road"
+                },
+                {
+                    "hotel-stars": "4",
+                    "hotel-parking": "yes",
+                    "hotel-internet": "yes",
+                    "hotel-book day": "wednesday",
+                    "hotel-book people": "4",
+                    "hotel-book stay": "4",
+                    "hotel-area": "north",
+                    "hotel-pricerange": "moderate",
+                    "hotel-address": "52 gilbert road"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "hotel-stars=3"
+                ],
+                [
+                    "hotel-parking=yes\thotel-stars=4"
+                ],
+                [
+                    "hotel-parking=yes\thotel-stars=5"
+                ],
+                [
+                    "None"
+                ],
+                [
+                    "hotel-parking=yes\thotel-stars=3"
+                ],
+                [
+                    "None"
+                ],
+                [
+                    "hotel-book_day=wednesday\thotel-book_people=8\thotel-book_stay=2"
+                ],
+                [
+                    "hotel-book_day=thursday\thotel-book_people=1\thotel-book_stay=1"
+                ],
+                [
+                    "None"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "hotel-stars": "3"
+                },
+                {
+                    "hotel-stars": "4",
+                    "hotel-parking": "yes"
+                },
+                {
+                    "hotel-stars": "5",
+                    "hotel-parking": "yes"
+                },
+                {
+                    "hotel-stars": "5",
+                    "hotel-parking": "yes"
+                },
+                {
+                    "hotel-stars": "3",
+                    "hotel-parking": "yes"
+                },
+                {
+                    "hotel-stars": "3",
+                    "hotel-parking": "yes"
+                },
+                {
+                    "hotel-stars": "3",
+                    "hotel-parking": "yes",
+                    "hotel-book day": "wednesday",
+                    "hotel-book people": "8",
+                    "hotel-book stay": "2"
+                },
+                {
+                    "hotel-stars": "3",
+                    "hotel-parking": "yes",
+                    "hotel-book day": "thursday",
+                    "hotel-book people": "1",
+                    "hotel-book stay": "1"
+                },
+                {
+                    "hotel-stars": "3",
+                    "hotel-parking": "yes",
+                    "hotel-book day": "thursday",
+                    "hotel-book people": "1",
+                    "hotel-book stay": "1"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "hotel-pricerange=expensive\thotel-type=hotel\thotel-stars=4\thotel-parking=yes"
+                ],
+                [
+                    "hotel-area=east\thotel-book_day=wednesday\thotel-book_people=2\thotel-book_stay=2"
+                ],
+                [
+                    "hotel-pricerange=cheap\thotel-stars=3\thotel-parking=yes"
+                ],
+                [
+                    "None"
+                ],
+                [
+                    "None"
+                ],
+                [
+                    "None"
+                ],
+                [
+                    "None"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "hotel-pricerange": "expensive",
+                    "hotel-type": "hotel",
+                    "hotel-stars": "4",
+                    "hotel-parking": "yes"
+                },
+                {
+                    "hotel-pricerange": "expensive",
+                    "hotel-type": "hotel",
+                    "hotel-stars": "4",
+                    "hotel-parking": "yes",
+                    "hotel-area": "east",
+                    "hotel-book day": "wednesday",
+                    "hotel-book people": "2",
+                    "hotel-book stay": "2"
+                },
+                {
+                    "hotel-pricerange": "cheap",
+                    "hotel-type": "hotel",
+                    "hotel-stars": "3",
+                    "hotel-parking": "yes",
+                    "hotel-area": "east",
+                    "hotel-book day": "wednesday",
+                    "hotel-book people": "2",
+                    "hotel-book stay": "2"
+                },
+                {
+                    "hotel-pricerange": "cheap",
+                    "hotel-type": "hotel",
+                    "hotel-stars": "3",
+                    "hotel-parking": "yes",
+                    "hotel-area": "east",
+                    "hotel-book day": "wednesday",
+                    "hotel-book people": "2",
+                    "hotel-book stay": "2"
+                },
+                {
+                    "hotel-pricerange": "cheap",
+                    "hotel-type": "hotel",
+                    "hotel-stars": "3",
+                    "hotel-parking": "yes",
+                    "hotel-area": "east",
+                    "hotel-book day": "wednesday",
+                    "hotel-book people": "2",
+                    "hotel-book stay": "2"
+                },
+                {
+                    "hotel-pricerange": "cheap",
+                    "hotel-type": "hotel",
+                    "hotel-stars": "3",
+                    "hotel-parking": "yes",
+                    "hotel-area": "east",
+                    "hotel-book day": "wednesday",
+                    "hotel-book people": "2",
+                    "hotel-book stay": "2"
+                },
+                {
+                    "hotel-pricerange": "cheap",
+                    "hotel-type": "hotel",
+                    "hotel-stars": "3",
+                    "hotel-parking": "yes",
+                    "hotel-area": "east",
+                    "hotel-book day": "wednesday",
+                    "hotel-book people": "2",
+                    "hotel-book stay": "2"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "hotel-area=centre\thotel-pricerange=dontcare"
+                ],
+                [
+                    "hotel-pricerange=expensive\thotel-stars=3"
+                ],
+                [
+                    "hotel-book_day=wednesday\thotel-book_people=3\thotel-book_stay=3"
+                ],
+                [
+                    "hotel-book_day=thursday\thotel-book_people=4\thotel-book_stay=4"
+                ],
+                [
+                    "hotel-book_day=sunday\thotel-book_people=2\thotel-book_stay=3"
+                ],
+                [
+                    "None"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "hotel-area": "centre",
+                    "hotel-pricerange": "dontcare"
+                },
+                {
+                    "hotel-area": "centre",
+                    "hotel-pricerange": "expensive",
+                    "hotel-stars": "3"
+                },
+                {
+                    "hotel-area": "centre",
+                    "hotel-pricerange": "expensive",
+                    "hotel-stars": "3",
+                    "hotel-book day": "wednesday",
+                    "hotel-book people": "3",
+                    "hotel-book stay": "3"
+                },
+                {
+                    "hotel-area": "centre",
+                    "hotel-pricerange": "expensive",
+                    "hotel-stars": "3",
+                    "hotel-book day": "thursday",
+                    "hotel-book people": "4",
+                    "hotel-book stay": "4"
+                },
+                {
+                    "hotel-area": "centre",
+                    "hotel-pricerange": "expensive",
+                    "hotel-stars": "3",
+                    "hotel-book day": "sunday",
+                    "hotel-book people": "2",
+                    "hotel-book stay": "3"
+                },
+                {
+                    "hotel-area": "centre",
+                    "hotel-pricerange": "expensive",
+                    "hotel-stars": "3",
+                    "hotel-book day": "sunday",
+                    "hotel-book people": "2",
+                    "hotel-book stay": "3"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "hotel-parking=yes\thotel-pricerange=dontcare"
+                ],
+                [
+                    "hotel-type=guesthouse\thotel-parking=yes\thotel-pricerange=dontcare"
+                ],
+                [
+                    "hotel-type=guesthouse\thotel-parking=yes\thotel-pricerange=dontcare"
+                ],
+                [
+                    "hotel-type=hotel\thotel-parking=yes\thotel-pricerange=dontcare"
+                ],
+                [
+                    "hotel-book_day=sunday\thotel-book_people=2\thotel-book_stay=2"
+                ],
+                [
+                    "hotel-type=guesthouse\thotel-parking=yes\thotel-pricerange=dontcare"
+                ],
+                [
+                    "hotel-area=east\thotel-parking=yes\thotel-pricerange=dontcare"
+                ],
+                [
+                    "hotel-book_day=sunday\thotel-book_people=1\thotel-book_stay=1"
+                ],
+                [
+                    "hotel-book_day=tuesday\thotel-book_people=1\thotel-book_stay=1"
+                ],
+                [
+                    "None"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "hotel-parking": "yes",
+                    "hotel-pricerange": "dontcare"
+                },
+                {
+                    "hotel-parking": "yes",
+                    "hotel-pricerange": "dontcare",
+                    "hotel-type": "guesthouse"
+                },
+                {
+                    "hotel-parking": "yes",
+                    "hotel-pricerange": "dontcare",
+                    "hotel-type": "guesthouse"
+                },
+                {
+                    "hotel-parking": "yes",
+                    "hotel-pricerange": "dontcare",
+                    "hotel-type": "hotel"
+                },
+                {
+                    "hotel-parking": "yes",
+                    "hotel-pricerange": "dontcare",
+                    "hotel-type": "hotel",
+                    "hotel-book day": "sunday",
+                    "hotel-book people": "2",
+                    "hotel-book stay": "2"
+                },
+                {
+                    "hotel-parking": "yes",
+                    "hotel-pricerange": "dontcare",
+                    "hotel-type": "guesthouse",
+                    "hotel-book day": "sunday",
+                    "hotel-book people": "2",
+                    "hotel-book stay": "2"
+                },
+                {
+                    "hotel-parking": "yes",
+                    "hotel-pricerange": "dontcare",
+                    "hotel-type": "guesthouse",
+                    "hotel-book day": "sunday",
+                    "hotel-book people": "2",
+                    "hotel-book stay": "2",
+                    "hotel-area": "east"
+                },
+                {
+                    "hotel-parking": "yes",
+                    "hotel-pricerange": "dontcare",
+                    "hotel-type": "guesthouse",
+                    "hotel-book day": "sunday",
+                    "hotel-book people": "1",
+                    "hotel-book stay": "1",
+                    "hotel-area": "east"
+                },
+                {
+                    "hotel-parking": "yes",
+                    "hotel-pricerange": "dontcare",
+                    "hotel-type": "guesthouse",
+                    "hotel-book day": "tuesday",
+                    "hotel-book people": "1",
+                    "hotel-book stay": "1",
+                    "hotel-area": "east"
+                },
+                {
+                    "hotel-parking": "yes",
+                    "hotel-pricerange": "dontcare",
+                    "hotel-type": "guesthouse",
+                    "hotel-book day": "tuesday",
+                    "hotel-book people": "1",
+                    "hotel-book stay": "1",
+                    "hotel-area": "east"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "hotel-type=guesthouse\thotel-area=alpha milton"
+                ],
+                [
+                    "None"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "hotel-type": "guesthouse",
+                    "hotel-area": "alpha milton"
+                },
+                {
+                    "hotel-type": "guesthouse",
+                    "hotel-area": "alpha milton"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "hotel-stars=3"
+                ],
+                [
+                    "hotel-pricerange=free"
+                ],
+                [
+                    "hotel-book_day=wednesday\thotel-book_people=6\thotel-book_stay=6"
+                ],
+                [
+                    "hotel-book_day=wednesday\thotel-book_people=6\thotel-book_stay=2"
+                ],
+                [
+                    "hotel-book_day=thursday\thotel-book_people=2\thotel-book_stay=2"
+                ],
+                [
+                    "hotel-area=north\thotel-parking=yes"
+                ],
+                [
+                    "None"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "hotel-stars": "3"
+                },
+                {
+                    "hotel-stars": "3",
+                    "hotel-pricerange": "free"
+                },
+                {
+                    "hotel-stars": "3",
+                    "hotel-pricerange": "free",
+                    "hotel-book day": "wednesday",
+                    "hotel-book people": "6",
+                    "hotel-book stay": "6"
+                },
+                {
+                    "hotel-stars": "3",
+                    "hotel-pricerange": "free",
+                    "hotel-book day": "wednesday",
+                    "hotel-book people": "6",
+                    "hotel-book stay": "2"
+                },
+                {
+                    "hotel-stars": "3",
+                    "hotel-pricerange": "free",
+                    "hotel-book day": "thursday",
+                    "hotel-book people": "2",
+                    "hotel-book stay": "2"
+                },
+                {
+                    "hotel-stars": "3",
+                    "hotel-pricerange": "free",
+                    "hotel-book day": "thursday",
+                    "hotel-book people": "2",
+                    "hotel-book stay": "2",
+                    "hotel-area": "north",
+                    "hotel-parking": "yes"
+                },
+                {
+                    "hotel-stars": "3",
+                    "hotel-pricerange": "free",
+                    "hotel-book day": "thursday",
+                    "hotel-book people": "2",
+                    "hotel-book stay": "2",
+                    "hotel-area": "north",
+                    "hotel-parking": "yes"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "hotel-type=hotel\thotel-pricerange=dontcare"
+                ],
+                [
+                    "hotel-book_day=sunday\thotel-book_people=7\thotel-book_stay=3\thotel-name=lensfield hotel"
+                ],
+                [
+                    "None"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "hotel-type": "hotel",
+                    "hotel-pricerange": "dontcare"
+                },
+                {
+                    "hotel-type": "hotel",
+                    "hotel-pricerange": "dontcare",
+                    "hotel-book day": "sunday",
+                    "hotel-book people": "7",
+                    "hotel-book stay": "3",
+                    "hotel-name": "lensfield hotel"
+                },
+                {
+                    "hotel-type": "hotel",
+                    "hotel-pricerange": "dontcare",
+                    "hotel-book day": "sunday",
+                    "hotel-book people": "7",
+                    "hotel-book stay": "3",
+                    "hotel-name": "lensfield hotel"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "hotel-area=east\thotel-pricerange=dontcare"
+                ],
+                [
+                    "hotel-pricerange=moderate\thotel-stars=4\thotel-parking=yes"
+                ],
+                [
+                    "hotel-book_day=wednesday\thotel-book_people=1\thotel-book_stay=5\thotel-name=acorn guesthouse"
+                ],
+                [
+                    "None"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "hotel-area": "east",
+                    "hotel-pricerange": "dontcare"
+                },
+                {
+                    "hotel-area": "east",
+                    "hotel-pricerange": "moderate",
+                    "hotel-stars": "4",
+                    "hotel-parking": "yes"
+                },
+                {
+                    "hotel-area": "east",
+                    "hotel-pricerange": "moderate",
+                    "hotel-stars": "4",
+                    "hotel-parking": "yes",
+                    "hotel-book day": "wednesday",
+                    "hotel-book people": "1",
+                    "hotel-book stay": "5",
+                    "hotel-name": "acorn guesthouse"
+                },
+                {
+                    "hotel-area": "east",
+                    "hotel-pricerange": "moderate",
+                    "hotel-stars": "4",
+                    "hotel-parking": "yes",
+                    "hotel-book day": "wednesday",
+                    "hotel-book people": "1",
+                    "hotel-book stay": "5",
+                    "hotel-name": "acorn guesthouse"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "hotel-pricerange=moderate\thotel-stars=4\thotel-type=place"
+                ],
+                [
+                    "hotel-area=north\thotel-parking=yes\thotel-type=place"
+                ],
+                [
+                    "hotel-parking=yes\thotel-stars=4\thotel-type=place"
+                ],
+                [
+                    "None"
+                ],
+                [
+                    "None"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "hotel-pricerange": "moderate",
+                    "hotel-stars": "4",
+                    "hotel-type": "place"
+                },
+                {
+                    "hotel-pricerange": "moderate",
+                    "hotel-stars": "4",
+                    "hotel-type": "place",
+                    "hotel-area": "north",
+                    "hotel-parking": "yes"
+                },
+                {
+                    "hotel-pricerange": "moderate",
+                    "hotel-stars": "4",
+                    "hotel-type": "place",
+                    "hotel-area": "north",
+                    "hotel-parking": "yes"
+                },
+                {
+                    "hotel-pricerange": "moderate",
+                    "hotel-stars": "4",
+                    "hotel-type": "place",
+                    "hotel-area": "north",
+                    "hotel-parking": "yes"
+                },
+                {
+                    "hotel-pricerange": "moderate",
+                    "hotel-stars": "4",
+                    "hotel-type": "place",
+                    "hotel-area": "north",
+                    "hotel-parking": "yes"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "hotel-pricerange=expensive\thotel-type=guesthouse"
+                ],
+                [
+                    "hotel-parking=yes\thotel-pricerange=expensive"
+                ],
+                [
+                    "hotel-pricerange=cheap"
+                ],
+                [
+                    "hotel-star=4"
+                ],
+                [
+                    "hotel-pricerange=cheap"
+                ],
+                [
+                    "None"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "hotel-pricerange": "expensive",
+                    "hotel-type": "guesthouse"
+                },
+                {
+                    "hotel-pricerange": "expensive",
+                    "hotel-type": "guesthouse",
+                    "hotel-parking": "yes"
+                },
+                {
+                    "hotel-pricerange": "cheap",
+                    "hotel-type": "guesthouse",
+                    "hotel-parking": "yes"
+                },
+                {
+                    "hotel-pricerange": "cheap",
+                    "hotel-type": "guesthouse",
+                    "hotel-parking": "yes",
+                    "hotel-star": "4"
+                },
+                {
+                    "hotel-pricerange": "cheap",
+                    "hotel-type": "guesthouse",
+                    "hotel-parking": "yes",
+                    "hotel-star": "4"
+                },
+                {
+                    "hotel-pricerange": "cheap",
+                    "hotel-type": "guesthouse",
+                    "hotel-parking": "yes",
+                    "hotel-star": "4"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "hotel-parking=yes\thotel-pricerange=dontcare"
+                ],
+                [
+                    "hotel-pricerange=moderate\thotel-stars=4"
+                ],
+                [
+                    "hotel-parking=yes\thotel-pricerange=dontcare"
+                ],
+                [
+                    "None"
+                ],
+                [
+                    "None"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "hotel-parking": "yes",
+                    "hotel-pricerange": "dontcare"
+                },
+                {
+                    "hotel-parking": "yes",
+                    "hotel-pricerange": "moderate",
+                    "hotel-stars": "4"
+                },
+                {
+                    "hotel-parking": "yes",
+                    "hotel-pricerange": "dontcare",
+                    "hotel-stars": "4"
+                },
+                {
+                    "hotel-parking": "yes",
+                    "hotel-pricerange": "dontcare",
+                    "hotel-stars": "4"
+                },
+                {
+                    "hotel-parking": "yes",
+                    "hotel-pricerange": "dontcare",
+                    "hotel-stars": "4"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "hotel-type=guesthouse\thotel-area=east\thotel-pricerange=dontcare"
+                ],
+                [
+                    "hotel-parking=yes\thotel-pricerange=dontcare"
+                ],
+                [
+                    "hotel-type=guesthouse\thotel-area=east"
+                ],
+                [
+                    "hotel-book_day=thursday\thotel-book_people=5\thotel-book_stay=5"
+                ],
+                [
+                    "None"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "hotel-type": "guesthouse",
+                    "hotel-area": "east",
+                    "hotel-pricerange": "dontcare"
+                },
+                {
+                    "hotel-type": "guesthouse",
+                    "hotel-area": "east",
+                    "hotel-pricerange": "dontcare",
+                    "hotel-parking": "yes"
+                },
+                {
+                    "hotel-type": "guesthouse",
+                    "hotel-area": "east",
+                    "hotel-pricerange": "dontcare",
+                    "hotel-parking": "yes"
+                },
+                {
+                    "hotel-type": "guesthouse",
+                    "hotel-area": "east",
+                    "hotel-pricerange": "dontcare",
+                    "hotel-parking": "yes",
+                    "hotel-book day": "thursday",
+                    "hotel-book people": "5",
+                    "hotel-book stay": "5"
+                },
+                {
+                    "hotel-type": "guesthouse",
+                    "hotel-area": "east",
+                    "hotel-pricerange": "dontcare",
+                    "hotel-parking": "yes",
+                    "hotel-book day": "thursday",
+                    "hotel-book people": "5",
+                    "hotel-book stay": "5"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "hotel-type=guesthouse\thotel-parking=yes\thotel-pricerange=expensive"
+                ],
+                [
+                    "hotel-stars=3\thotel-area=south"
+                ],
+                [
+                    "hotel-book_day=monday\thotel-book_people=8\thotel-book_stay=3"
+                ],
+                [
+                    "None"
+                ],
+                [
+                    "None"
+                ],
+                [
+                    "None"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "hotel-type": "guesthouse",
+                    "hotel-parking": "yes",
+                    "hotel-pricerange": "expensive"
+                },
+                {
+                    "hotel-type": "guesthouse",
+                    "hotel-parking": "yes",
+                    "hotel-pricerange": "expensive",
+                    "hotel-stars": "3",
+                    "hotel-area": "south"
+                },
+                {
+                    "hotel-type": "guesthouse",
+                    "hotel-parking": "yes",
+                    "hotel-pricerange": "expensive",
+                    "hotel-stars": "3",
+                    "hotel-area": "south",
+                    "hotel-book day": "monday",
+                    "hotel-book people": "8",
+                    "hotel-book stay": "3"
+                },
+                {
+                    "hotel-type": "guesthouse",
+                    "hotel-parking": "yes",
+                    "hotel-pricerange": "expensive",
+                    "hotel-stars": "3",
+                    "hotel-area": "south",
+                    "hotel-book day": "monday",
+                    "hotel-book people": "8",
+                    "hotel-book stay": "3"
+                },
+                {
+                    "hotel-type": "guesthouse",
+                    "hotel-parking": "yes",
+                    "hotel-pricerange": "expensive",
+                    "hotel-stars": "3",
+                    "hotel-area": "south",
+                    "hotel-book day": "monday",
+                    "hotel-book people": "8",
+                    "hotel-book stay": "3"
+                },
+                {
+                    "hotel-type": "guesthouse",
+                    "hotel-parking": "yes",
+                    "hotel-pricerange": "expensive",
+                    "hotel-stars": "3",
+                    "hotel-area": "south",
+                    "hotel-book day": "monday",
+                    "hotel-book people": "8",
+                    "hotel-book stay": "3"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "hotel-pricerange=cheap\thotel-type=hotel"
+                ],
+                [
+                    "hotel-parking=yes\thotel-star=0\thotel-type=hotel"
+                ],
+                [
+                    "hotel-postcode=0\thotel-type=hotel"
+                ],
+                [
+                    "hotel-type=hotel"
+                ],
+                [
+                    "hotel-pricerange=cheap\thotel-star=0\thotel-type=hotel"
+                ],
+                [
+                    "None"
+                ],
+                [
+                    "None"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "hotel-pricerange": "cheap",
+                    "hotel-type": "hotel"
+                },
+                {
+                    "hotel-pricerange": "cheap",
+                    "hotel-type": "hotel",
+                    "hotel-parking": "yes",
+                    "hotel-star": "0"
+                },
+                {
+                    "hotel-pricerange": "cheap",
+                    "hotel-type": "hotel",
+                    "hotel-parking": "yes",
+                    "hotel-star": "0",
+                    "hotel-postcode": "0"
+                },
+                {
+                    "hotel-pricerange": "cheap",
+                    "hotel-type": "hotel",
+                    "hotel-parking": "yes",
+                    "hotel-star": "0",
+                    "hotel-postcode": "0"
+                },
+                {
+                    "hotel-pricerange": "cheap",
+                    "hotel-type": "hotel",
+                    "hotel-parking": "yes",
+                    "hotel-star": "0",
+                    "hotel-postcode": "0"
+                },
+                {
+                    "hotel-pricerange": "cheap",
+                    "hotel-type": "hotel",
+                    "hotel-parking": "yes",
+                    "hotel-star": "0",
+                    "hotel-postcode": "0"
+                },
+                {
+                    "hotel-pricerange": "cheap",
+                    "hotel-type": "hotel",
+                    "hotel-parking": "yes",
+                    "hotel-star": "0",
+                    "hotel-postcode": "0"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "hotel-type=guesthouse\thotel-area=east\thotel-pricerange=dontcare"
+                ],
+                [
+                    "None"
+                ],
+                [
+                    "None"
+                ],
+                [
+                    "None"
+                ],
+                [
+                    "None"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "hotel-type": "guesthouse",
+                    "hotel-area": "east",
+                    "hotel-pricerange": "dontcare"
+                },
+                {
+                    "hotel-type": "guesthouse",
+                    "hotel-area": "east",
+                    "hotel-pricerange": "dontcare"
+                },
+                {
+                    "hotel-type": "guesthouse",
+                    "hotel-area": "east",
+                    "hotel-pricerange": "dontcare"
+                },
+                {
+                    "hotel-type": "guesthouse",
+                    "hotel-area": "east",
+                    "hotel-pricerange": "dontcare"
+                },
+                {
+                    "hotel-type": "guesthouse",
+                    "hotel-area": "east",
+                    "hotel-pricerange": "dontcare"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "hotel-stars=2\thotel-pricerange=dontcare"
+                ],
+                [
+                    "hotel-stars=2\thotel-pricerange=moderate"
+                ],
+                [
+                    "hotel-address=ashley\thotel-pricerange=moderate"
+                ],
+                [
+                    "None"
+                ],
+                [
+                    "None"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "hotel-stars": "2",
+                    "hotel-pricerange": "dontcare"
+                },
+                {
+                    "hotel-stars": "2",
+                    "hotel-pricerange": "moderate"
+                },
+                {
+                    "hotel-stars": "2",
+                    "hotel-pricerange": "moderate",
+                    "hotel-address": "ashley"
+                },
+                {
+                    "hotel-stars": "2",
+                    "hotel-pricerange": "moderate",
+                    "hotel-address": "ashley"
+                },
+                {
+                    "hotel-stars": "2",
+                    "hotel-pricerange": "moderate",
+                    "hotel-address": "ashley"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "hotel-type=guesthouse\thotel-area=east\thotel-pricerange=dontcare"
+                ],
+                [
+                    "hotel-pricerange=moderate\thotel-stars=4\thotel-book_stay=3"
+                ],
+                [
+                    "None"
+                ],
+                [
+                    "None"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "hotel-type": "guesthouse",
+                    "hotel-area": "east",
+                    "hotel-pricerange": "dontcare"
+                },
+                {
+                    "hotel-type": "guesthouse",
+                    "hotel-area": "east",
+                    "hotel-pricerange": "moderate",
+                    "hotel-stars": "4",
+                    "hotel-book stay": "3"
+                },
+                {
+                    "hotel-type": "guesthouse",
+                    "hotel-area": "east",
+                    "hotel-pricerange": "moderate",
+                    "hotel-stars": "4",
+                    "hotel-book stay": "3"
+                },
+                {
+                    "hotel-type": "guesthouse",
+                    "hotel-area": "east",
+                    "hotel-pricerange": "moderate",
+                    "hotel-stars": "4",
+                    "hotel-book stay": "3"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "hotel-pricerange=expensive\thotel-type=hotel"
+                ],
+                [
+                    "hotel-type=guesthouse\thotel-area=east"
+                ],
+                [
+                    "hotel-book_day=tuesday\thotel-book_people=1\thotel-book_stay=1\thotel-name=carolina bed and breakfast"
+                ],
+                [
+                    "None"
+                ],
+                [
+                    "None"
+                ],
+                [
+                    "None"
+                ],
+                [
+                    "None"
+                ],
+                [
+                    "None"
+                ],
+                [
+                    "None"
+                ],
+                [
+                    "None"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "hotel-pricerange": "expensive",
+                    "hotel-type": "hotel"
+                },
+                {
+                    "hotel-pricerange": "expensive",
+                    "hotel-type": "guesthouse",
+                    "hotel-area": "east"
+                },
+                {
+                    "hotel-pricerange": "expensive",
+                    "hotel-type": "guesthouse",
+                    "hotel-area": "east",
+                    "hotel-book day": "tuesday",
+                    "hotel-book people": "1",
+                    "hotel-book stay": "1",
+                    "hotel-name": "carolina bed and breakfast"
+                },
+                {
+                    "hotel-pricerange": "expensive",
+                    "hotel-type": "guesthouse",
+                    "hotel-area": "east",
+                    "hotel-book day": "tuesday",
+                    "hotel-book people": "1",
+                    "hotel-book stay": "1",
+                    "hotel-name": "carolina bed and breakfast"
+                },
+                {
+                    "hotel-pricerange": "expensive",
+                    "hotel-type": "guesthouse",
+                    "hotel-area": "east",
+                    "hotel-book day": "tuesday",
+                    "hotel-book people": "1",
+                    "hotel-book stay": "1",
+                    "hotel-name": "carolina bed and breakfast"
+                },
+                {
+                    "hotel-pricerange": "expensive",
+                    "hotel-type": "guesthouse",
+                    "hotel-area": "east",
+                    "hotel-book day": "tuesday",
+                    "hotel-book people": "1",
+                    "hotel-book stay": "1",
+                    "hotel-name": "carolina bed and breakfast"
+                },
+                {
+                    "hotel-pricerange": "expensive",
+                    "hotel-type": "guesthouse",
+                    "hotel-area": "east",
+                    "hotel-book day": "tuesday",
+                    "hotel-book people": "1",
+                    "hotel-book stay": "1",
+                    "hotel-name": "carolina bed and breakfast"
+                },
+                {
+                    "hotel-pricerange": "expensive",
+                    "hotel-type": "guesthouse",
+                    "hotel-area": "east",
+                    "hotel-book day": "tuesday",
+                    "hotel-book people": "1",
+                    "hotel-book stay": "1",
+                    "hotel-name": "carolina bed and breakfast"
+                },
+                {
+                    "hotel-pricerange": "expensive",
+                    "hotel-type": "guesthouse",
+                    "hotel-area": "east",
+                    "hotel-book day": "tuesday",
+                    "hotel-book people": "1",
+                    "hotel-book stay": "1",
+                    "hotel-name": "carolina bed and breakfast"
+                },
+                {
+                    "hotel-pricerange": "expensive",
+                    "hotel-type": "guesthouse",
+                    "hotel-area": "east",
+                    "hotel-book day": "tuesday",
+                    "hotel-book people": "1",
+                    "hotel-book stay": "1",
+                    "hotel-name": "carolina bed and breakfast"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "hotel-pricerange=moderate\thotel-stars=4\thotel-type=hotel"
+                ],
+                [
+                    "hotel-parking=yes\thotel-pricerange=moderate\thotel-type=hotel"
+                ],
+                [
+                    "hotel-book_day=friday\thotel-book_people=1\thotel-book_stay=4\thotel-name=lovell lodge"
+                ],
+                [
+                    "hotel-book_day=wednesday\thotel-book_people=2\thotel-book_stay=2\thotel-name=lovell lodge"
+                ],
+                [
+                    "None"
+                ],
+                [
+                    "None"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "hotel-pricerange": "moderate",
+                    "hotel-stars": "4",
+                    "hotel-type": "hotel"
+                },
+                {
+                    "hotel-pricerange": "moderate",
+                    "hotel-stars": "4",
+                    "hotel-type": "hotel",
+                    "hotel-parking": "yes"
+                },
+                {
+                    "hotel-pricerange": "moderate",
+                    "hotel-stars": "4",
+                    "hotel-type": "hotel",
+                    "hotel-parking": "yes",
+                    "hotel-book day": "friday",
+                    "hotel-book people": "1",
+                    "hotel-book stay": "4",
+                    "hotel-name": "lovell lodge"
+                },
+                {
+                    "hotel-pricerange": "moderate",
+                    "hotel-stars": "4",
+                    "hotel-type": "hotel",
+                    "hotel-parking": "yes",
+                    "hotel-book day": "wednesday",
+                    "hotel-book people": "2",
+                    "hotel-book stay": "2",
+                    "hotel-name": "lovell lodge"
+                },
+                {
+                    "hotel-pricerange": "moderate",
+                    "hotel-stars": "4",
+                    "hotel-type": "hotel",
+                    "hotel-parking": "yes",
+                    "hotel-book day": "wednesday",
+                    "hotel-book people": "2",
+                    "hotel-book stay": "2",
+                    "hotel-name": "lovell lodge"
+                },
+                {
+                    "hotel-pricerange": "moderate",
+                    "hotel-stars": "4",
+                    "hotel-type": "hotel",
+                    "hotel-parking": "yes",
+                    "hotel-book day": "wednesday",
+                    "hotel-book people": "2",
+                    "hotel-book stay": "2",
+                    "hotel-name": "lovell lodge"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "hotel-parking=yes\thotel-pricerange=expensive"
+                ],
+                [
+                    "hotel-type=hotel"
+                ],
+                [
+                    "None"
+                ],
+                [
+                    "None"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "hotel-parking": "yes",
+                    "hotel-pricerange": "expensive"
+                },
+                {
+                    "hotel-parking": "yes",
+                    "hotel-pricerange": "expensive",
+                    "hotel-type": "hotel"
+                },
+                {
+                    "hotel-parking": "yes",
+                    "hotel-pricerange": "expensive",
+                    "hotel-type": "hotel"
+                },
+                {
+                    "hotel-parking": "yes",
+                    "hotel-pricerange": "expensive",
+                    "hotel-type": "hotel"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "hotel-stars=3"
+                ],
+                [
+                    "hotel-pricerange=centre\thotel-stars=3"
+                ],
+                [
+                    "hotel-book_day=monday\thotel-book_people=5\thotel-book_stay=2\thotel-name=gonville hotel"
+                ],
+                [
+                    "hotel-book_day=sunday\thotel-book_people=2\thotel-book_stay=5\thotel-name=gonville hotel"
+                ],
+                [
+                    "None"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "hotel-stars": "3"
+                },
+                {
+                    "hotel-stars": "3",
+                    "hotel-pricerange": "centre"
+                },
+                {
+                    "hotel-stars": "3",
+                    "hotel-pricerange": "centre",
+                    "hotel-book day": "monday",
+                    "hotel-book people": "5",
+                    "hotel-book stay": "2",
+                    "hotel-name": "gonville hotel"
+                },
+                {
+                    "hotel-stars": "3",
+                    "hotel-pricerange": "centre",
+                    "hotel-book day": "sunday",
+                    "hotel-book people": "2",
+                    "hotel-book stay": "5",
+                    "hotel-name": "gonville hotel"
+                },
+                {
+                    "hotel-stars": "3",
+                    "hotel-pricerange": "centre",
+                    "hotel-book day": "sunday",
+                    "hotel-book people": "2",
+                    "hotel-book stay": "5",
+                    "hotel-name": "gonville hotel"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "hotel-parking=yes\thotel-pricerange=dontcare\thotel-type=hotel"
+                ],
+                [
+                    "hotel-area=north\thotel-book_day=wednesday\thotel-book_people=2\thotel-book_stay=2"
+                ],
+                [
+                    "hotel-book_day=thursday\thotel-book_people=2\thotel-book_stay=2"
+                ],
+                [
+                    "None"
+                ],
+                [
+                    "hotel-book_day=wednesday\thotel-book_people=2\thotel-book_stay=2"
+                ],
+                [
+                    "None"
+                ],
+                [
+                    "None"
+                ],
+                [
+                    "None"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "hotel-parking": "yes",
+                    "hotel-pricerange": "dontcare",
+                    "hotel-type": "hotel"
+                },
+                {
+                    "hotel-parking": "yes",
+                    "hotel-pricerange": "dontcare",
+                    "hotel-type": "hotel",
+                    "hotel-area": "north",
+                    "hotel-book day": "wednesday",
+                    "hotel-book people": "2",
+                    "hotel-book stay": "2"
+                },
+                {
+                    "hotel-parking": "yes",
+                    "hotel-pricerange": "dontcare",
+                    "hotel-type": "hotel",
+                    "hotel-area": "north",
+                    "hotel-book day": "thursday",
+                    "hotel-book people": "2",
+                    "hotel-book stay": "2"
+                },
+                {
+                    "hotel-parking": "yes",
+                    "hotel-pricerange": "dontcare",
+                    "hotel-type": "hotel",
+                    "hotel-area": "north",
+                    "hotel-book day": "thursday",
+                    "hotel-book people": "2",
+                    "hotel-book stay": "2"
+                },
+                {
+                    "hotel-parking": "yes",
+                    "hotel-pricerange": "dontcare",
+                    "hotel-type": "hotel",
+                    "hotel-area": "north",
+                    "hotel-book day": "wednesday",
+                    "hotel-book people": "2",
+                    "hotel-book stay": "2"
+                },
+                {
+                    "hotel-parking": "yes",
+                    "hotel-pricerange": "dontcare",
+                    "hotel-type": "hotel",
+                    "hotel-area": "north",
+                    "hotel-book day": "wednesday",
+                    "hotel-book people": "2",
+                    "hotel-book stay": "2"
+                },
+                {
+                    "hotel-parking": "yes",
+                    "hotel-pricerange": "dontcare",
+                    "hotel-type": "hotel",
+                    "hotel-area": "north",
+                    "hotel-book day": "wednesday",
+                    "hotel-book people": "2",
+                    "hotel-book stay": "2"
+                },
+                {
+                    "hotel-parking": "yes",
+                    "hotel-pricerange": "dontcare",
+                    "hotel-type": "hotel",
+                    "hotel-area": "north",
+                    "hotel-book day": "wednesday",
+                    "hotel-book people": "2",
+                    "hotel-book stay": "2"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "hotel-parking=yes\thotel-pricerange=free"
+                ],
+                [
+                    "hotel-type=hotel\thotel-area=east"
+                ],
+                [
+                    "None"
+                ],
+                [
+                    "None"
+                ],
+                [
+                    "None"
+                ],
+                [
+                    "None"
+                ],
+                [
+                    "None"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "hotel-parking": "yes",
+                    "hotel-pricerange": "free"
+                },
+                {
+                    "hotel-parking": "yes",
+                    "hotel-pricerange": "free",
+                    "hotel-type": "hotel",
+                    "hotel-area": "east"
+                },
+                {
+                    "hotel-parking": "yes",
+                    "hotel-pricerange": "free",
+                    "hotel-type": "hotel",
+                    "hotel-area": "east"
+                },
+                {
+                    "hotel-parking": "yes",
+                    "hotel-pricerange": "free",
+                    "hotel-type": "hotel",
+                    "hotel-area": "east"
+                },
+                {
+                    "hotel-parking": "yes",
+                    "hotel-pricerange": "free",
+                    "hotel-type": "hotel",
+                    "hotel-area": "east"
+                },
+                {
+                    "hotel-parking": "yes",
+                    "hotel-pricerange": "free",
+                    "hotel-type": "hotel",
+                    "hotel-area": "east"
+                },
+                {
+                    "hotel-parking": "yes",
+                    "hotel-pricerange": "free",
+                    "hotel-type": "hotel",
+                    "hotel-area": "east"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "hotel-type=guesthouse\thotel-area=warkworth\thotel-pricerange=dontcare"
+                ],
+                [
+                    "hotel-book_day=thursday\thotel-book_people=3\thotel-book_stay=5"
+                ],
+                [
+                    "hotel-book_day=friday\thotel-book_people=3\thotel-book_stay=5"
+                ],
+                [
+                    "None"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "hotel-type": "guesthouse",
+                    "hotel-area": "warkworth",
+                    "hotel-pricerange": "dontcare"
+                },
+                {
+                    "hotel-type": "guesthouse",
+                    "hotel-area": "warkworth",
+                    "hotel-pricerange": "dontcare",
+                    "hotel-book day": "thursday",
+                    "hotel-book people": "3",
+                    "hotel-book stay": "5"
+                },
+                {
+                    "hotel-type": "guesthouse",
+                    "hotel-area": "warkworth",
+                    "hotel-pricerange": "dontcare",
+                    "hotel-book day": "friday",
+                    "hotel-book people": "3",
+                    "hotel-book stay": "5"
+                },
+                {
+                    "hotel-type": "guesthouse",
+                    "hotel-area": "warkworth",
+                    "hotel-pricerange": "dontcare",
+                    "hotel-book day": "friday",
+                    "hotel-book people": "3",
+                    "hotel-book stay": "5"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "hotel-stars=4\thotel-pricerange=dontcare"
+                ],
+                [
+                    "hotel-pricerange=moderate\thotel-stars=4\thotel-area=centre"
+                ],
+                [
+                    "hotel-pricerange=north\thotel-stars=1\thotel-area=north"
+                ],
+                [
+                    "None"
+                ],
+                [
+                    "hotel-pricerange=north\thotel-stars=4\thotel-area=north"
+                ],
+                [
+                    "None"
+                ],
+                [
+                    "None"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "hotel-stars": "4",
+                    "hotel-pricerange": "dontcare"
+                },
+                {
+                    "hotel-stars": "4",
+                    "hotel-pricerange": "moderate",
+                    "hotel-area": "centre"
+                },
+                {
+                    "hotel-stars": "1",
+                    "hotel-pricerange": "north",
+                    "hotel-area": "north"
+                },
+                {
+                    "hotel-stars": "1",
+                    "hotel-pricerange": "north",
+                    "hotel-area": "north"
+                },
+                {
+                    "hotel-stars": "4",
+                    "hotel-pricerange": "north",
+                    "hotel-area": "north"
+                },
+                {
+                    "hotel-stars": "4",
+                    "hotel-pricerange": "north",
+                    "hotel-area": "north"
+                },
+                {
+                    "hotel-stars": "4",
+                    "hotel-pricerange": "north",
+                    "hotel-area": "north"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "hotel-type=guesthouse\thotel-area=arbury\thotel-pricerange=dontcare"
+                ],
+                [
+                    "hotel-book_day=wednesday\thotel-book_people=5\thotel-book_stay=5"
+                ],
+                [
+                    "None"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "hotel-type": "guesthouse",
+                    "hotel-area": "arbury",
+                    "hotel-pricerange": "dontcare"
+                },
+                {
+                    "hotel-type": "guesthouse",
+                    "hotel-area": "arbury",
+                    "hotel-pricerange": "dontcare",
+                    "hotel-book day": "wednesday",
+                    "hotel-book people": "5",
+                    "hotel-book stay": "5"
+                },
+                {
+                    "hotel-type": "guesthouse",
+                    "hotel-area": "arbury",
+                    "hotel-pricerange": "dontcare",
+                    "hotel-book day": "wednesday",
+                    "hotel-book people": "5",
+                    "hotel-book stay": "5"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "hotel-parking=yes\thotel-pricerange=dontcare"
+                ],
+                [
+                    "hotel-parking=yes\thotel-pricerange=dontcare"
+                ],
+                [
+                    "hotel-book_day=friday\thotel-book_people=6\thotel-book_stay=5\thotel-name=acorn guesthouse"
+                ],
+                [
+                    "None"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "hotel-parking": "yes",
+                    "hotel-pricerange": "dontcare"
+                },
+                {
+                    "hotel-parking": "yes",
+                    "hotel-pricerange": "dontcare"
+                },
+                {
+                    "hotel-parking": "yes",
+                    "hotel-pricerange": "dontcare",
+                    "hotel-book day": "friday",
+                    "hotel-book people": "6",
+                    "hotel-book stay": "5",
+                    "hotel-name": "acorn guesthouse"
+                },
+                {
+                    "hotel-parking": "yes",
+                    "hotel-pricerange": "dontcare",
+                    "hotel-book day": "friday",
+                    "hotel-book people": "6",
+                    "hotel-book stay": "5",
+                    "hotel-name": "acorn guesthouse"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "hotel-stars=4"
+                ],
+                [
+                    "hotel-type=guesthouse\thotel-area=north"
+                ],
+                [
+                    "hotel-book_day=thursday\thotel-book_people=8\thotel-book_stay=3\thotel-name=acorn guesthouse"
+                ],
+                [
+                    "hotel-book_day=thursday\thotel-book_people=8\thotel-book_stay=3\thotel-name=autumn house"
+                ],
+                [
+                    "None"
+                ],
+                [
+                    "None"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "hotel-stars": "4"
+                },
+                {
+                    "hotel-stars": "4",
+                    "hotel-type": "guesthouse",
+                    "hotel-area": "north"
+                },
+                {
+                    "hotel-stars": "4",
+                    "hotel-type": "guesthouse",
+                    "hotel-area": "north",
+                    "hotel-book day": "thursday",
+                    "hotel-book people": "8",
+                    "hotel-book stay": "3",
+                    "hotel-name": "acorn guesthouse"
+                },
+                {
+                    "hotel-stars": "4",
+                    "hotel-type": "guesthouse",
+                    "hotel-area": "north",
+                    "hotel-book day": "thursday",
+                    "hotel-book people": "8",
+                    "hotel-book stay": "3",
+                    "hotel-name": "autumn house"
+                },
+                {
+                    "hotel-stars": "4",
+                    "hotel-type": "guesthouse",
+                    "hotel-area": "north",
+                    "hotel-book day": "thursday",
+                    "hotel-book people": "8",
+                    "hotel-book stay": "3",
+                    "hotel-name": "autumn house"
+                },
+                {
+                    "hotel-stars": "4",
+                    "hotel-type": "guesthouse",
+                    "hotel-area": "north",
+                    "hotel-book day": "thursday",
+                    "hotel-book people": "8",
+                    "hotel-book stay": "3",
+                    "hotel-name": "autumn house"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "hotel-area=north\thotel-pricerange=dontcare"
+                ],
+                [
+                    "hotel-pricerange=0\thotel-stars=0"
+                ],
+                [
+                    "hotel-pricerange=dontcare\thotel-stars=0"
+                ],
+                [
+                    "None"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "hotel-area": "north",
+                    "hotel-pricerange": "dontcare"
+                },
+                {
+                    "hotel-area": "north",
+                    "hotel-pricerange": "0",
+                    "hotel-stars": "0"
+                },
+                {
+                    "hotel-area": "north",
+                    "hotel-pricerange": "dontcare",
+                    "hotel-stars": "0"
+                },
+                {
+                    "hotel-area": "north",
+                    "hotel-pricerange": "dontcare",
+                    "hotel-stars": "0"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "hotel-stars=4"
+                ],
+                [
+                    "hotel-area=east\thotel-pricerange=dontcare"
+                ],
+                [
+                    "hotel-area=centre\thotel-pricerange=dontcare"
+                ],
+                [
+                    "hotel-book_day=saturday\thotel-book_people=4\thotel-book_stay=4"
+                ],
+                [
+                    "hotel-book_day=saturday\thotel-book_people=3\thotel-book_stay=3"
+                ],
+                [
+                    "hotel-book_day=tuesday\thotel-book_people=2\thotel-book_stay=2"
+                ],
+                [
+                    "None"
+                ],
+                [
+                    "hotel-book_day=saturday\thotel-book_people=3\thotel-book_stay=3"
+                ],
+                [
+                    "None"
+                ],
+                [
+                    "hotel-book_day=saturday\thotel-book_people=5\thotel-book_stay=3"
+                ],
+                [
+                    "None"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "hotel-stars": "4"
+                },
+                {
+                    "hotel-stars": "4",
+                    "hotel-area": "east",
+                    "hotel-pricerange": "dontcare"
+                },
+                {
+                    "hotel-stars": "4",
+                    "hotel-area": "centre",
+                    "hotel-pricerange": "dontcare"
+                },
+                {
+                    "hotel-stars": "4",
+                    "hotel-area": "centre",
+                    "hotel-pricerange": "dontcare",
+                    "hotel-book day": "saturday",
+                    "hotel-book people": "4",
+                    "hotel-book stay": "4"
+                },
+                {
+                    "hotel-stars": "4",
+                    "hotel-area": "centre",
+                    "hotel-pricerange": "dontcare",
+                    "hotel-book day": "saturday",
+                    "hotel-book people": "3",
+                    "hotel-book stay": "3"
+                },
+                {
+                    "hotel-stars": "4",
+                    "hotel-area": "centre",
+                    "hotel-pricerange": "dontcare",
+                    "hotel-book day": "tuesday",
+                    "hotel-book people": "2",
+                    "hotel-book stay": "2"
+                },
+                {
+                    "hotel-stars": "4",
+                    "hotel-area": "centre",
+                    "hotel-pricerange": "dontcare",
+                    "hotel-book day": "tuesday",
+                    "hotel-book people": "2",
+                    "hotel-book stay": "2"
+                },
+                {
+                    "hotel-stars": "4",
+                    "hotel-area": "centre",
+                    "hotel-pricerange": "dontcare",
+                    "hotel-book day": "saturday",
+                    "hotel-book people": "3",
+                    "hotel-book stay": "3"
+                },
+                {
+                    "hotel-stars": "4",
+                    "hotel-area": "centre",
+                    "hotel-pricerange": "dontcare",
+                    "hotel-book day": "saturday",
+                    "hotel-book people": "3",
+                    "hotel-book stay": "3"
+                },
+                {
+                    "hotel-stars": "4",
+                    "hotel-area": "centre",
+                    "hotel-pricerange": "dontcare",
+                    "hotel-book day": "saturday",
+                    "hotel-book people": "5",
+                    "hotel-book stay": "3"
+                },
+                {
+                    "hotel-stars": "4",
+                    "hotel-area": "centre",
+                    "hotel-pricerange": "dontcare",
+                    "hotel-book day": "saturday",
+                    "hotel-book people": "5",
+                    "hotel-book stay": "3"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "hotel-stars=4"
+                ],
+                [
+                    "hotel-parking=yes\thotel-stars=4\thotel-pricerange=moderate"
+                ],
+                [
+                    "hotel-book_day=wednesday\thotel-book_people=3\thotel-book_stay=3"
+                ],
+                [
+                    "hotel-book_day=friday\thotel-book_people=4\thotel-book_stay=4"
+                ],
+                [
+                    "hotel-book_day=saturday\thotel-book_people=1\thotel-book_stay=1"
+                ],
+                [
+                    "None"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "hotel-stars": "4"
+                },
+                {
+                    "hotel-stars": "4",
+                    "hotel-parking": "yes",
+                    "hotel-pricerange": "moderate"
+                },
+                {
+                    "hotel-stars": "4",
+                    "hotel-parking": "yes",
+                    "hotel-pricerange": "moderate",
+                    "hotel-book day": "wednesday",
+                    "hotel-book people": "3",
+                    "hotel-book stay": "3"
+                },
+                {
+                    "hotel-stars": "4",
+                    "hotel-parking": "yes",
+                    "hotel-pricerange": "moderate",
+                    "hotel-book day": "friday",
+                    "hotel-book people": "4",
+                    "hotel-book stay": "4"
+                },
+                {
+                    "hotel-stars": "4",
+                    "hotel-parking": "yes",
+                    "hotel-pricerange": "moderate",
+                    "hotel-book day": "saturday",
+                    "hotel-book people": "1",
+                    "hotel-book stay": "1"
+                },
+                {
+                    "hotel-stars": "4",
+                    "hotel-parking": "yes",
+                    "hotel-pricerange": "moderate",
+                    "hotel-book day": "saturday",
+                    "hotel-book people": "1",
+                    "hotel-book stay": "1"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "hotel-parking=yes\thotel-pricerange=dontcare"
+                ],
+                [
+                    "hotel-book_day=wednesday\thotel-book_people=1\thotel-book_stay=1"
+                ],
+                [
+                    "hotel-book_day=tuesday\thotel-book_people=2\thotel-book_stay=5"
+                ],
+                [
+                    "None"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "hotel-parking": "yes",
+                    "hotel-pricerange": "dontcare"
+                },
+                {
+                    "hotel-parking": "yes",
+                    "hotel-pricerange": "dontcare",
+                    "hotel-book day": "wednesday",
+                    "hotel-book people": "1",
+                    "hotel-book stay": "1"
+                },
+                {
+                    "hotel-parking": "yes",
+                    "hotel-pricerange": "dontcare",
+                    "hotel-book day": "tuesday",
+                    "hotel-book people": "2",
+                    "hotel-book stay": "5"
+                },
+                {
+                    "hotel-parking": "yes",
+                    "hotel-pricerange": "dontcare",
+                    "hotel-book day": "tuesday",
+                    "hotel-book people": "2",
+                    "hotel-book stay": "5"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "hotel-stars=0"
+                ],
+                [
+                    "hotel-area=centre\thotel-pricerange=dontcare"
+                ],
+                [
+                    "hotel-book_day=friday\thotel-book_people=1\thotel-book_stay=5\thotel-name=cityroomz"
+                ],
+                [
+                    "hotel-book_stay=5"
+                ],
+                [
+                    "hotel-book_day=thursday\thotel-book_people=5\thotel-book_stay=5"
+                ],
+                [
+                    "hotel-book_day=saturday\thotel-book_people=1\thotel-book_stay=5"
+                ],
+                [
+                    "None"
+                ],
+                [
+                    "None"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "hotel-stars": "0"
+                },
+                {
+                    "hotel-stars": "0",
+                    "hotel-area": "centre",
+                    "hotel-pricerange": "dontcare"
+                },
+                {
+                    "hotel-stars": "0",
+                    "hotel-area": "centre",
+                    "hotel-pricerange": "dontcare",
+                    "hotel-book day": "friday",
+                    "hotel-book people": "1",
+                    "hotel-book stay": "5",
+                    "hotel-name": "cityroomz"
+                },
+                {
+                    "hotel-stars": "0",
+                    "hotel-area": "centre",
+                    "hotel-pricerange": "dontcare",
+                    "hotel-book day": "friday",
+                    "hotel-book people": "1",
+                    "hotel-book stay": "5",
+                    "hotel-name": "cityroomz"
+                },
+                {
+                    "hotel-stars": "0",
+                    "hotel-area": "centre",
+                    "hotel-pricerange": "dontcare",
+                    "hotel-book day": "thursday",
+                    "hotel-book people": "5",
+                    "hotel-book stay": "5",
+                    "hotel-name": "cityroomz"
+                },
+                {
+                    "hotel-stars": "0",
+                    "hotel-area": "centre",
+                    "hotel-pricerange": "dontcare",
+                    "hotel-book day": "saturday",
+                    "hotel-book people": "1",
+                    "hotel-book stay": "5",
+                    "hotel-name": "cityroomz"
+                },
+                {
+                    "hotel-stars": "0",
+                    "hotel-area": "centre",
+                    "hotel-pricerange": "dontcare",
+                    "hotel-book day": "saturday",
+                    "hotel-book people": "1",
+                    "hotel-book stay": "5",
+                    "hotel-name": "cityroomz"
+                },
+                {
+                    "hotel-stars": "0",
+                    "hotel-area": "centre",
+                    "hotel-pricerange": "dontcare",
+                    "hotel-book day": "saturday",
+                    "hotel-book people": "1",
+                    "hotel-book stay": "5",
+                    "hotel-name": "cityroomz"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "hotel-type=guesthouse\thotel-area=east\thotel-pricerange=dontcare"
+                ],
+                [
+                    "hotel-pricerange=moderate\thotel-stars=1\thotel-parking=yes"
+                ],
+                [
+                    "hotel-stars=1\thotel-type=guesthouse"
+                ],
+                [
+                    "hotel-area=north\thotel-book_day=wednesday\thotel-book_people=1\thotel-book_stay=1"
+                ],
+                [
+                    "hotel-book_day=wednesday\thotel-book_people=1\thotel-book_stay=1"
+                ],
+                [
+                    "hotel-book_day=thursday\thotel-book_people=3\thotel-book_stay=4"
+                ],
+                [
+                    "None"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "hotel-type": "guesthouse",
+                    "hotel-area": "east",
+                    "hotel-pricerange": "dontcare"
+                },
+                {
+                    "hotel-type": "guesthouse",
+                    "hotel-area": "east",
+                    "hotel-pricerange": "moderate",
+                    "hotel-stars": "1",
+                    "hotel-parking": "yes"
+                },
+                {
+                    "hotel-type": "guesthouse",
+                    "hotel-area": "east",
+                    "hotel-pricerange": "moderate",
+                    "hotel-stars": "1",
+                    "hotel-parking": "yes"
+                },
+                {
+                    "hotel-type": "guesthouse",
+                    "hotel-area": "north",
+                    "hotel-pricerange": "moderate",
+                    "hotel-stars": "1",
+                    "hotel-parking": "yes",
+                    "hotel-book day": "wednesday",
+                    "hotel-book people": "1",
+                    "hotel-book stay": "1"
+                },
+                {
+                    "hotel-type": "guesthouse",
+                    "hotel-area": "north",
+                    "hotel-pricerange": "moderate",
+                    "hotel-stars": "1",
+                    "hotel-parking": "yes",
+                    "hotel-book day": "wednesday",
+                    "hotel-book people": "1",
+                    "hotel-book stay": "1"
+                },
+                {
+                    "hotel-type": "guesthouse",
+                    "hotel-area": "north",
+                    "hotel-pricerange": "moderate",
+                    "hotel-stars": "1",
+                    "hotel-parking": "yes",
+                    "hotel-book day": "thursday",
+                    "hotel-book people": "3",
+                    "hotel-book stay": "4"
+                },
+                {
+                    "hotel-type": "guesthouse",
+                    "hotel-area": "north",
+                    "hotel-pricerange": "moderate",
+                    "hotel-stars": "1",
+                    "hotel-parking": "yes",
+                    "hotel-book day": "thursday",
+                    "hotel-book people": "3",
+                    "hotel-book stay": "4"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "guesthouse-type=guesthouse\thotel-pricerange=free"
+                ],
+                [
+                    "guesthouse-parking=yes\thotel-stars=4\thotel-pricerange=moderate"
+                ],
+                [
+                    "guesthouse-book_day=tuesday\thotel-book_people=4\thotel-book_stay=4"
+                ],
+                [
+                    "None"
+                ],
+                [
+                    "None"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "guesthouse-type": "guesthouse",
+                    "hotel-pricerange": "free"
+                },
+                {
+                    "guesthouse-type": "guesthouse",
+                    "hotel-pricerange": "moderate",
+                    "guesthouse-parking": "yes",
+                    "hotel-stars": "4"
+                },
+                {
+                    "guesthouse-type": "guesthouse",
+                    "hotel-pricerange": "moderate",
+                    "guesthouse-parking": "yes",
+                    "hotel-stars": "4",
+                    "guesthouse-book day": "tuesday",
+                    "hotel-book people": "4",
+                    "hotel-book stay": "4"
+                },
+                {
+                    "guesthouse-type": "guesthouse",
+                    "hotel-pricerange": "moderate",
+                    "guesthouse-parking": "yes",
+                    "hotel-stars": "4",
+                    "guesthouse-book day": "tuesday",
+                    "hotel-book people": "4",
+                    "hotel-book stay": "4"
+                },
+                {
+                    "guesthouse-type": "guesthouse",
+                    "hotel-pricerange": "moderate",
+                    "guesthouse-parking": "yes",
+                    "hotel-stars": "4",
+                    "guesthouse-book day": "tuesday",
+                    "hotel-book people": "4",
+                    "hotel-book stay": "4"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "hotel-type=guesthouse\thotel-area=north\thotel-pricerange=dontcare"
+                ],
+                [
+                    "hotel-stars=4\thotel-type=guesthouse"
+                ],
+                [
+                    "hotel-pricerange=moderate\thotel-stars=4"
+                ],
+                [
+                    "hotel-pricerange=moderate\thotel-stars=4"
+                ],
+                [
+                    "None"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "hotel-type": "guesthouse",
+                    "hotel-area": "north",
+                    "hotel-pricerange": "dontcare"
+                },
+                {
+                    "hotel-type": "guesthouse",
+                    "hotel-area": "north",
+                    "hotel-pricerange": "dontcare",
+                    "hotel-stars": "4"
+                },
+                {
+                    "hotel-type": "guesthouse",
+                    "hotel-area": "north",
+                    "hotel-pricerange": "moderate",
+                    "hotel-stars": "4"
+                },
+                {
+                    "hotel-type": "guesthouse",
+                    "hotel-area": "north",
+                    "hotel-pricerange": "moderate",
+                    "hotel-stars": "4"
+                },
+                {
+                    "hotel-type": "guesthouse",
+                    "hotel-area": "north",
+                    "hotel-pricerange": "moderate",
+                    "hotel-stars": "4"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "guesthouse-parking=yes\thotel-pricerange=free"
+                ],
+                [
+                    "hotel-area=east\thotel-pricerange=east"
+                ],
+                [
+                    "hotel-book_day=wednesday\thotel-book_people=1\thotel-book_stay=1"
+                ],
+                [
+                    "None"
+                ],
+                [
+                    "None"
+                ],
+                [
+                    "None"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "guesthouse-parking": "yes",
+                    "hotel-pricerange": "free"
+                },
+                {
+                    "guesthouse-parking": "yes",
+                    "hotel-pricerange": "east",
+                    "hotel-area": "east"
+                },
+                {
+                    "guesthouse-parking": "yes",
+                    "hotel-pricerange": "east",
+                    "hotel-area": "east",
+                    "hotel-book day": "wednesday",
+                    "hotel-book people": "1",
+                    "hotel-book stay": "1"
+                },
+                {
+                    "guesthouse-parking": "yes",
+                    "hotel-pricerange": "east",
+                    "hotel-area": "east",
+                    "hotel-book day": "wednesday",
+                    "hotel-book people": "1",
+                    "hotel-book stay": "1"
+                },
+                {
+                    "guesthouse-parking": "yes",
+                    "hotel-pricerange": "east",
+                    "hotel-area": "east",
+                    "hotel-book day": "wednesday",
+                    "hotel-book people": "1",
+                    "hotel-book stay": "1"
+                },
+                {
+                    "guesthouse-parking": "yes",
+                    "hotel-pricerange": "east",
+                    "hotel-area": "east",
+                    "hotel-book day": "wednesday",
+                    "hotel-book people": "1",
+                    "hotel-book stay": "1"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "guesthouse-parking=yes\thotel-pricerange=free"
+                ],
+                [
+                    "guesthouse-stars=4\thotel-pricerange=free"
+                ],
+                [
+                    "guesthouse-book_day=thursday\thotel-book_people=2\thotel-book_stay=2"
+                ],
+                [
+                    "guesthouse-book_day=thursday\thotel-book_people=2\thotel-book_stay=2"
+                ],
+                [
+                    "None"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "guesthouse-parking": "yes",
+                    "hotel-pricerange": "free"
+                },
+                {
+                    "guesthouse-parking": "yes",
+                    "hotel-pricerange": "free",
+                    "guesthouse-stars": "4"
+                },
+                {
+                    "guesthouse-parking": "yes",
+                    "hotel-pricerange": "free",
+                    "guesthouse-stars": "4",
+                    "guesthouse-book day": "thursday",
+                    "hotel-book people": "2",
+                    "hotel-book stay": "2"
+                },
+                {
+                    "guesthouse-parking": "yes",
+                    "hotel-pricerange": "free",
+                    "guesthouse-stars": "4",
+                    "guesthouse-book day": "thursday",
+                    "hotel-book people": "2",
+                    "hotel-book stay": "2"
+                },
+                {
+                    "guesthouse-parking": "yes",
+                    "hotel-pricerange": "free",
+                    "guesthouse-stars": "4",
+                    "guesthouse-book day": "thursday",
+                    "hotel-book people": "2",
+                    "hotel-book stay": "2"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "hotel-stars=3"
+                ],
+                [
+                    "hotel-pricerange=moderate"
+                ],
+                [
+                    "hotel-parking=yes\thotel-internet=yes"
+                ],
+                [
+                    "None"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "hotel-stars": "3"
+                },
+                {
+                    "hotel-stars": "3",
+                    "hotel-pricerange": "moderate"
+                },
+                {
+                    "hotel-stars": "3",
+                    "hotel-pricerange": "moderate",
+                    "hotel-parking": "yes",
+                    "hotel-internet": "yes"
+                },
+                {
+                    "hotel-stars": "3",
+                    "hotel-pricerange": "moderate",
+                    "hotel-parking": "yes",
+                    "hotel-internet": "yes"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "hotel-type=hotel\thotel-pricerange=dontcare"
+                ],
+                [
+                    "hotel-book_day=monday\thotel-book_people=3\thotel-book_stay=3\thotel-name=el shaddai"
+                ],
+                [
+                    "hotel-book_day=tuesday\thotel-book_people=1\thotel-book_stay=1\thotel-name=el shaddai"
+                ],
+                [
+                    "None"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "hotel-type": "hotel",
+                    "hotel-pricerange": "dontcare"
+                },
+                {
+                    "hotel-type": "hotel",
+                    "hotel-pricerange": "dontcare",
+                    "hotel-book day": "monday",
+                    "hotel-book people": "3",
+                    "hotel-book stay": "3",
+                    "hotel-name": "el shaddai"
+                },
+                {
+                    "hotel-type": "hotel",
+                    "hotel-pricerange": "dontcare",
+                    "hotel-book day": "tuesday",
+                    "hotel-book people": "1",
+                    "hotel-book stay": "1",
+                    "hotel-name": "el shaddai"
+                },
+                {
+                    "hotel-type": "hotel",
+                    "hotel-pricerange": "dontcare",
+                    "hotel-book day": "tuesday",
+                    "hotel-book people": "1",
+                    "hotel-book stay": "1",
+                    "hotel-name": "el shaddai"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "hotel-pricerange=cheap\thotel-stars=2"
+                ],
+                [
+                    "hotel-parking=yes\thotel-stars=2\thotel-type=guesthouse"
+                ],
+                [
+                    "hotel-book_day=thursday\thotel-book_people=1\thotel-book_stay=5\thotel-name=allenbell"
+                ],
+                [
+                    "hotel-book_day=friday\thotel-book_people=1\thotel-book_stay=5\thotel-name=allenbell"
+                ],
+                [
+                    "None"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "hotel-pricerange": "cheap",
+                    "hotel-stars": "2"
+                },
+                {
+                    "hotel-pricerange": "cheap",
+                    "hotel-stars": "2",
+                    "hotel-parking": "yes",
+                    "hotel-type": "guesthouse"
+                },
+                {
+                    "hotel-pricerange": "cheap",
+                    "hotel-stars": "2",
+                    "hotel-parking": "yes",
+                    "hotel-type": "guesthouse",
+                    "hotel-book day": "thursday",
+                    "hotel-book people": "1",
+                    "hotel-book stay": "5",
+                    "hotel-name": "allenbell"
+                },
+                {
+                    "hotel-pricerange": "cheap",
+                    "hotel-stars": "2",
+                    "hotel-parking": "yes",
+                    "hotel-type": "guesthouse",
+                    "hotel-book day": "friday",
+                    "hotel-book people": "1",
+                    "hotel-book stay": "5",
+                    "hotel-name": "allenbell"
+                },
+                {
+                    "hotel-pricerange": "cheap",
+                    "hotel-stars": "2",
+                    "hotel-parking": "yes",
+                    "hotel-type": "guesthouse",
+                    "hotel-book day": "friday",
+                    "hotel-book people": "1",
+                    "hotel-book stay": "5",
+                    "hotel-name": "allenbell"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "hotel-type=guesthouse\thotel-pricerange=free"
+                ],
+                [
+                    "hotel-pricerange=cheap"
+                ],
+                [
+                    "hotel-type=hotel\thotel-area=east"
+                ],
+                [
+                    "None"
+                ],
+                [
+                    "None"
+                ],
+                [
+                    "None"
+                ],
+                [
+                    "None"
+                ],
+                [
+                    "None"
+                ],
+                [
+                    "None"
+                ],
+                [
+                    "None"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "hotel-type": "guesthouse",
+                    "hotel-pricerange": "free"
+                },
+                {
+                    "hotel-type": "guesthouse",
+                    "hotel-pricerange": "cheap"
+                },
+                {
+                    "hotel-type": "hotel",
+                    "hotel-pricerange": "cheap",
+                    "hotel-area": "east"
+                },
+                {
+                    "hotel-type": "hotel",
+                    "hotel-pricerange": "cheap",
+                    "hotel-area": "east"
+                },
+                {
+                    "hotel-type": "hotel",
+                    "hotel-pricerange": "cheap",
+                    "hotel-area": "east"
+                },
+                {
+                    "hotel-type": "hotel",
+                    "hotel-pricerange": "cheap",
+                    "hotel-area": "east"
+                },
+                {
+                    "hotel-type": "hotel",
+                    "hotel-pricerange": "cheap",
+                    "hotel-area": "east"
+                },
+                {
+                    "hotel-type": "hotel",
+                    "hotel-pricerange": "cheap",
+                    "hotel-area": "east"
+                },
+                {
+                    "hotel-type": "hotel",
+                    "hotel-pricerange": "cheap",
+                    "hotel-area": "east"
+                },
+                {
+                    "hotel-type": "hotel",
+                    "hotel-pricerange": "cheap",
+                    "hotel-area": "east"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "hotel-type=guesthouse\thotel-area=bridge"
+                ],
+                [
+                    "hotel-book_day=thursday\thotel-book_people=3\thotel-book_stay=4"
+                ],
+                [
+                    "None"
+                ],
+                [
+                    "None"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "hotel-type": "guesthouse",
+                    "hotel-area": "bridge"
+                },
+                {
+                    "hotel-type": "guesthouse",
+                    "hotel-area": "bridge",
+                    "hotel-book day": "thursday",
+                    "hotel-book people": "3",
+                    "hotel-book stay": "4"
+                },
+                {
+                    "hotel-type": "guesthouse",
+                    "hotel-area": "bridge",
+                    "hotel-book day": "thursday",
+                    "hotel-book people": "3",
+                    "hotel-book stay": "4"
+                },
+                {
+                    "hotel-type": "guesthouse",
+                    "hotel-area": "bridge",
+                    "hotel-book day": "thursday",
+                    "hotel-book people": "3",
+                    "hotel-book stay": "4"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "hotel-type=guesthouse\thotel-area=north\thotel-pricerange=dontcare"
+                ],
+                [
+                    "hotel-book_day=monday\thotel-book_people=4\thotel-book_stay=4"
+                ],
+                [
+                    "None"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "hotel-type": "guesthouse",
+                    "hotel-area": "north",
+                    "hotel-pricerange": "dontcare"
+                },
+                {
+                    "hotel-type": "guesthouse",
+                    "hotel-area": "north",
+                    "hotel-pricerange": "dontcare",
+                    "hotel-book day": "monday",
+                    "hotel-book people": "4",
+                    "hotel-book stay": "4"
+                },
+                {
+                    "hotel-type": "guesthouse",
+                    "hotel-area": "north",
+                    "hotel-pricerange": "dontcare",
+                    "hotel-book day": "monday",
+                    "hotel-book people": "4",
+                    "hotel-book stay": "4"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "hotel-stars=4"
+                ],
+                [
+                    "hotel-parking=yes\thotel-internet=yes"
+                ],
+                [
+                    "hotel-book_day=friday\thotel-book_people=8\thotel-book_stay=3\thotel-name=rosa s bed and breakfast"
+                ],
+                [
+                    "None"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "hotel-stars": "4"
+                },
+                {
+                    "hotel-stars": "4",
+                    "hotel-parking": "yes",
+                    "hotel-internet": "yes"
+                },
+                {
+                    "hotel-stars": "4",
+                    "hotel-parking": "yes",
+                    "hotel-internet": "yes",
+                    "hotel-book day": "friday",
+                    "hotel-book people": "8",
+                    "hotel-book stay": "3",
+                    "hotel-name": "rosa s bed and breakfast"
+                },
+                {
+                    "hotel-stars": "4",
+                    "hotel-parking": "yes",
+                    "hotel-internet": "yes",
+                    "hotel-book day": "friday",
+                    "hotel-book people": "8",
+                    "hotel-book stay": "3",
+                    "hotel-name": "rosa s bed and breakfast"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "hotel-pricerange=dontcare\thotel-type=guesthouse\thotel-stars=2\thotel-parking=yes"
+                ],
+                [
+                    "hotel-pricerange=dontcare\thotel-stars=2\thotel-parking=yes"
+                ],
+                [
+                    "hotel-pricerange=dontcare\thotel-stars=4\thotel-parking=yes"
+                ],
+                [
+                    "None"
+                ],
+                [
+                    "None"
+                ],
+                [
+                    "None"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "hotel-pricerange": "dontcare",
+                    "hotel-type": "guesthouse",
+                    "hotel-stars": "2",
+                    "hotel-parking": "yes"
+                },
+                {
+                    "hotel-pricerange": "dontcare",
+                    "hotel-type": "guesthouse",
+                    "hotel-stars": "2",
+                    "hotel-parking": "yes"
+                },
+                {
+                    "hotel-pricerange": "dontcare",
+                    "hotel-type": "guesthouse",
+                    "hotel-stars": "4",
+                    "hotel-parking": "yes"
+                },
+                {
+                    "hotel-pricerange": "dontcare",
+                    "hotel-type": "guesthouse",
+                    "hotel-stars": "4",
+                    "hotel-parking": "yes"
+                },
+                {
+                    "hotel-pricerange": "dontcare",
+                    "hotel-type": "guesthouse",
+                    "hotel-stars": "4",
+                    "hotel-parking": "yes"
+                },
+                {
+                    "hotel-pricerange": "dontcare",
+                    "hotel-type": "guesthouse",
+                    "hotel-stars": "4",
+                    "hotel-parking": "yes"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "hotel-type=hotel\thotel-pricerange=free"
+                ],
+                [
+                    "hotel-pricerange=moderate\thotel-stars=4"
+                ],
+                [
+                    "hotel-area=east\thotel-pricerange=moderate"
+                ],
+                [
+                    "hotel-book_day=wednesday\thotel-book_people=2\thotel-book_stay=2"
+                ],
+                [
+                    "hotel-book_day=sunday\thotel-book_people=3\thotel-book_stay=6"
+                ],
+                [
+                    "hotel-book_day=thursday\thotel-book_people=2\thotel-book_stay=2"
+                ],
+                [
+                    "None"
+                ],
+                [
+                    "hotel-book_day=sunday\thotel-book_people=2\thotel-book_stay=2"
+                ],
+                [
+                    "None"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "hotel-type": "hotel",
+                    "hotel-pricerange": "free"
+                },
+                {
+                    "hotel-type": "hotel",
+                    "hotel-pricerange": "moderate",
+                    "hotel-stars": "4"
+                },
+                {
+                    "hotel-type": "hotel",
+                    "hotel-pricerange": "moderate",
+                    "hotel-stars": "4",
+                    "hotel-area": "east"
+                },
+                {
+                    "hotel-type": "hotel",
+                    "hotel-pricerange": "moderate",
+                    "hotel-stars": "4",
+                    "hotel-area": "east",
+                    "hotel-book day": "wednesday",
+                    "hotel-book people": "2",
+                    "hotel-book stay": "2"
+                },
+                {
+                    "hotel-type": "hotel",
+                    "hotel-pricerange": "moderate",
+                    "hotel-stars": "4",
+                    "hotel-area": "east",
+                    "hotel-book day": "sunday",
+                    "hotel-book people": "3",
+                    "hotel-book stay": "6"
+                },
+                {
+                    "hotel-type": "hotel",
+                    "hotel-pricerange": "moderate",
+                    "hotel-stars": "4",
+                    "hotel-area": "east",
+                    "hotel-book day": "thursday",
+                    "hotel-book people": "2",
+                    "hotel-book stay": "2"
+                },
+                {
+                    "hotel-type": "hotel",
+                    "hotel-pricerange": "moderate",
+                    "hotel-stars": "4",
+                    "hotel-area": "east",
+                    "hotel-book day": "thursday",
+                    "hotel-book people": "2",
+                    "hotel-book stay": "2"
+                },
+                {
+                    "hotel-type": "hotel",
+                    "hotel-pricerange": "moderate",
+                    "hotel-stars": "4",
+                    "hotel-area": "east",
+                    "hotel-book day": "sunday",
+                    "hotel-book people": "2",
+                    "hotel-book stay": "2"
+                },
+                {
+                    "hotel-type": "hotel",
+                    "hotel-pricerange": "moderate",
+                    "hotel-stars": "4",
+                    "hotel-area": "east",
+                    "hotel-book day": "sunday",
+                    "hotel-book people": "2",
+                    "hotel-book stay": "2"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "hotel-pricerange=cheap\thotel-type=guesthouse"
+                ],
+                [
+                    "hotel-area=center\thotel-pricerange=center"
+                ],
+                [
+                    "hotel-pricerange=wifi\thotel-type=guesthouse\thotel-wifi=yes"
+                ],
+                [
+                    "None"
+                ],
+                [
+                    "None"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "hotel-pricerange": "cheap",
+                    "hotel-type": "guesthouse"
+                },
+                {
+                    "hotel-pricerange": "center",
+                    "hotel-type": "guesthouse",
+                    "hotel-area": "center"
+                },
+                {
+                    "hotel-pricerange": "wifi",
+                    "hotel-type": "guesthouse",
+                    "hotel-area": "center",
+                    "hotel-wifi": "yes"
+                },
+                {
+                    "hotel-pricerange": "wifi",
+                    "hotel-type": "guesthouse",
+                    "hotel-area": "center",
+                    "hotel-wifi": "yes"
+                },
+                {
+                    "hotel-pricerange": "wifi",
+                    "hotel-type": "guesthouse",
+                    "hotel-area": "center",
+                    "hotel-wifi": "yes"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "hotel-parking=yes\thotel-internet=yes"
+                ],
+                [
+                    "hotel-pricerange=expensive\thotel-type=guesthouse"
+                ],
+                [
+                    "hotel-pricerange=moderate"
+                ],
+                [
+                    "hotel-star=4\thotel-type=guesthouse\thotel-pricerange=moderate"
+                ],
+                [
+                    "None"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "hotel-parking": "yes",
+                    "hotel-internet": "yes"
+                },
+                {
+                    "hotel-parking": "yes",
+                    "hotel-internet": "yes",
+                    "hotel-pricerange": "expensive",
+                    "hotel-type": "guesthouse"
+                },
+                {
+                    "hotel-parking": "yes",
+                    "hotel-internet": "yes",
+                    "hotel-pricerange": "moderate",
+                    "hotel-type": "guesthouse"
+                },
+                {
+                    "hotel-parking": "yes",
+                    "hotel-internet": "yes",
+                    "hotel-pricerange": "moderate",
+                    "hotel-type": "guesthouse",
+                    "hotel-star": "4"
+                },
+                {
+                    "hotel-parking": "yes",
+                    "hotel-internet": "yes",
+                    "hotel-pricerange": "moderate",
+                    "hotel-type": "guesthouse",
+                    "hotel-star": "4"
+                }
+            ]
+        }
+    ]
+}

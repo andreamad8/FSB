@@ -1,0 +1,1569 @@
+{
+    "score": {
+        "B4": 17.64891550957133,
+        "F1": 69.53893580011034,
+        "RL": 63.81324404761906,
+        "JGA": 5.063291139240507,
+        "SLOT_ACC": 45.81196581196581,
+        "ppl": 5.955499683846997
+    },
+    "generation": [
+        {
+            "meta": [
+                [
+                    "train-day=wednesday\ttrain-departure=cambridge"
+                ],
+                [
+                    "train-departure=friday"
+                ],
+                [
+                    "None"
+                ],
+                [
+                    "train-book_people=7"
+                ],
+                [
+                    "None"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "train-day": "wednesday",
+                    "train-departure": "cambridge"
+                },
+                {
+                    "train-day": "wednesday",
+                    "train-departure": "friday"
+                },
+                {
+                    "train-day": "wednesday",
+                    "train-departure": "friday"
+                },
+                {
+                    "train-day": "wednesday",
+                    "train-departure": "friday",
+                    "train-book people": "7"
+                },
+                {
+                    "train-day": "wednesday",
+                    "train-departure": "friday",
+                    "train-book people": "7"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "train-departure=cambridge\ttrain-arriveby=13:30"
+                ],
+                [
+                    "train-day=sunday\ttrain-departure=cambridge"
+                ],
+                [
+                    "train-book_people=8"
+                ],
+                [
+                    "None"
+                ],
+                [
+                    "None"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "train-departure": "cambridge",
+                    "train-arriveby": "13:30"
+                },
+                {
+                    "train-departure": "cambridge",
+                    "train-arriveby": "13:30",
+                    "train-day": "sunday"
+                },
+                {
+                    "train-departure": "cambridge",
+                    "train-arriveby": "13:30",
+                    "train-day": "sunday",
+                    "train-book people": "8"
+                },
+                {
+                    "train-departure": "cambridge",
+                    "train-arriveby": "13:30",
+                    "train-day": "sunday",
+                    "train-book people": "8"
+                },
+                {
+                    "train-departure": "cambridge",
+                    "train-arriveby": "13:30",
+                    "train-day": "sunday",
+                    "train-book people": "8"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "train-day=saturday\ttrain-departure=london kings cross"
+                ],
+                [
+                    "train-leaveat=16:30\ttrain-departure=london kings cross"
+                ],
+                [
+                    "train-book_people=3"
+                ],
+                [
+                    "None"
+                ],
+                [
+                    "None"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "train-day": "saturday",
+                    "train-departure": "london kings cross"
+                },
+                {
+                    "train-day": "saturday",
+                    "train-departure": "london kings cross",
+                    "train-leaveat": "16:30"
+                },
+                {
+                    "train-day": "saturday",
+                    "train-departure": "london kings cross",
+                    "train-leaveat": "16:30",
+                    "train-book people": "3"
+                },
+                {
+                    "train-day": "saturday",
+                    "train-departure": "london kings cross",
+                    "train-leaveat": "16:30",
+                    "train-book people": "3"
+                },
+                {
+                    "train-day": "saturday",
+                    "train-departure": "london kings cross",
+                    "train-leaveat": "16:30",
+                    "train-book people": "3"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "train-departure=king s lynn\ttrain-arriveby=cambridge"
+                ],
+                [
+                    "train-day=friday\ttrain-departure=king s lynn"
+                ],
+                [
+                    "train-book_people=2"
+                ],
+                [
+                    "None"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "train-departure": "king s lynn",
+                    "train-arriveby": "cambridge"
+                },
+                {
+                    "train-departure": "king s lynn",
+                    "train-arriveby": "cambridge",
+                    "train-day": "friday"
+                },
+                {
+                    "train-departure": "king s lynn",
+                    "train-arriveby": "cambridge",
+                    "train-day": "friday",
+                    "train-book people": "2"
+                },
+                {
+                    "train-departure": "king s lynn",
+                    "train-arriveby": "cambridge",
+                    "train-day": "friday",
+                    "train-book people": "2"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "train-departure=london kings cross\ttrain-arriveby=13:30"
+                ],
+                [
+                    "train-arriveby=17:30\ttrain-departure=london kings cross"
+                ],
+                [
+                    "train-arriveby=17:30\ttrain-departure=london kings cross"
+                ],
+                [
+                    "train-book_people=10"
+                ],
+                [
+                    "None"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "train-departure": "london kings cross",
+                    "train-arriveby": "13:30"
+                },
+                {
+                    "train-departure": "london kings cross",
+                    "train-arriveby": "17:30"
+                },
+                {
+                    "train-departure": "london kings cross",
+                    "train-arriveby": "17:30"
+                },
+                {
+                    "train-departure": "london kings cross",
+                    "train-arriveby": "17:30",
+                    "train-book people": "10"
+                },
+                {
+                    "train-departure": "london kings cross",
+                    "train-arriveby": "17:30",
+                    "train-book people": "10"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "train-day=saturday\ttrain-departure=london kings cross"
+                ],
+                [
+                    "train-departure=stansted\ttrain-arriveby=10:15"
+                ],
+                [
+                    "None"
+                ],
+                [
+                    "None"
+                ],
+                [
+                    "None"
+                ],
+                [
+                    "None"
+                ],
+                [
+                    "None"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "train-day": "saturday",
+                    "train-departure": "london kings cross"
+                },
+                {
+                    "train-day": "saturday",
+                    "train-departure": "stansted",
+                    "train-arriveby": "10:15"
+                },
+                {
+                    "train-day": "saturday",
+                    "train-departure": "stansted",
+                    "train-arriveby": "10:15"
+                },
+                {
+                    "train-day": "saturday",
+                    "train-departure": "stansted",
+                    "train-arriveby": "10:15"
+                },
+                {
+                    "train-day": "saturday",
+                    "train-departure": "stansted",
+                    "train-arriveby": "10:15"
+                },
+                {
+                    "train-day": "saturday",
+                    "train-departure": "stansted",
+                    "train-arriveby": "10:15"
+                },
+                {
+                    "train-day": "saturday",
+                    "train-departure": "stansted",
+                    "train-arriveby": "10:15"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "train-day=saturday\ttrain-departure=leicester"
+                ],
+                [
+                    "train-destination=norwich\ttrain-departure=cambridge"
+                ],
+                [
+                    "train-day=friday\ttrain-departure=norwich"
+                ],
+                [
+                    "None"
+                ],
+                [
+                    "None"
+                ],
+                [
+                    "None"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "train-day": "saturday",
+                    "train-departure": "leicester"
+                },
+                {
+                    "train-day": "saturday",
+                    "train-departure": "cambridge",
+                    "train-destination": "norwich"
+                },
+                {
+                    "train-day": "friday",
+                    "train-departure": "norwich",
+                    "train-destination": "norwich"
+                },
+                {
+                    "train-day": "friday",
+                    "train-departure": "norwich",
+                    "train-destination": "norwich"
+                },
+                {
+                    "train-day": "friday",
+                    "train-departure": "norwich",
+                    "train-destination": "norwich"
+                },
+                {
+                    "train-day": "friday",
+                    "train-departure": "norwich",
+                    "train-destination": "norwich"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "train-departure=norwich\ttrain-arriveby=17:00"
+                ],
+                [
+                    "train-leaveat=friday\ttrain-departure=cambridge"
+                ],
+                [
+                    "None"
+                ],
+                [
+                    "train-book_people=7"
+                ],
+                [
+                    "None"
+                ],
+                [
+                    "None"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "train-departure": "norwich",
+                    "train-arriveby": "17:00"
+                },
+                {
+                    "train-departure": "cambridge",
+                    "train-arriveby": "17:00",
+                    "train-leaveat": "friday"
+                },
+                {
+                    "train-departure": "cambridge",
+                    "train-arriveby": "17:00",
+                    "train-leaveat": "friday"
+                },
+                {
+                    "train-departure": "cambridge",
+                    "train-arriveby": "17:00",
+                    "train-leaveat": "friday",
+                    "train-book people": "7"
+                },
+                {
+                    "train-departure": "cambridge",
+                    "train-arriveby": "17:00",
+                    "train-leaveat": "friday",
+                    "train-book people": "7"
+                },
+                {
+                    "train-departure": "cambridge",
+                    "train-arriveby": "17:00",
+                    "train-leaveat": "friday",
+                    "train-book people": "7"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "train-departure=stansted\ttrain-arriveby=9:15"
+                ],
+                [
+                    "train-day=thursday"
+                ],
+                [
+                    "train-book_people=7"
+                ],
+                [
+                    "train-book_people=7"
+                ],
+                [
+                    "None"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "train-departure": "stansted",
+                    "train-arriveby": "9:15"
+                },
+                {
+                    "train-departure": "stansted",
+                    "train-arriveby": "9:15",
+                    "train-day": "thursday"
+                },
+                {
+                    "train-departure": "stansted",
+                    "train-arriveby": "9:15",
+                    "train-day": "thursday",
+                    "train-book people": "7"
+                },
+                {
+                    "train-departure": "stansted",
+                    "train-arriveby": "9:15",
+                    "train-day": "thursday",
+                    "train-book people": "7"
+                },
+                {
+                    "train-departure": "stansted",
+                    "train-arriveby": "9:15",
+                    "train-day": "thursday",
+                    "train-book people": "7"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "train-departure=cambridge\ttrain-day=saturday"
+                ],
+                [
+                    "train-day=saturday\ttrain-departure=cambridge"
+                ],
+                [
+                    "train-arriveby=15:00"
+                ],
+                [
+                    "train-traveltime=7:27"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "train-departure": "cambridge",
+                    "train-day": "saturday"
+                },
+                {
+                    "train-departure": "cambridge",
+                    "train-day": "saturday"
+                },
+                {
+                    "train-departure": "cambridge",
+                    "train-day": "saturday",
+                    "train-arriveby": "15:00"
+                },
+                {
+                    "train-departure": "cambridge",
+                    "train-day": "saturday",
+                    "train-arriveby": "15:00",
+                    "train-traveltime": "7:27"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "train-day=sunday\ttrain-departure=london kings cross"
+                ],
+                [
+                    "train-destination=cambridge\ttrain-departure=london kings cross"
+                ],
+                [
+                    "train-book_people=7"
+                ],
+                [
+                    "None"
+                ],
+                [
+                    "None"
+                ],
+                [
+                    "None"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "train-day": "sunday",
+                    "train-departure": "london kings cross"
+                },
+                {
+                    "train-day": "sunday",
+                    "train-departure": "london kings cross",
+                    "train-destination": "cambridge"
+                },
+                {
+                    "train-day": "sunday",
+                    "train-departure": "london kings cross",
+                    "train-destination": "cambridge",
+                    "train-book people": "7"
+                },
+                {
+                    "train-day": "sunday",
+                    "train-departure": "london kings cross",
+                    "train-destination": "cambridge",
+                    "train-book people": "7"
+                },
+                {
+                    "train-day": "sunday",
+                    "train-departure": "london kings cross",
+                    "train-destination": "cambridge",
+                    "train-book people": "7"
+                },
+                {
+                    "train-day": "sunday",
+                    "train-departure": "london kings cross",
+                    "train-destination": "cambridge",
+                    "train-book people": "7"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "train-departure=ely\ttrain-day=wednesday"
+                ],
+                [
+                    "train-leaveat=14:45\ttrain-departure=ely"
+                ],
+                [
+                    "train-book_people=3"
+                ],
+                [
+                    "None"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "train-departure": "ely",
+                    "train-day": "wednesday"
+                },
+                {
+                    "train-departure": "ely",
+                    "train-day": "wednesday",
+                    "train-leaveat": "14:45"
+                },
+                {
+                    "train-departure": "ely",
+                    "train-day": "wednesday",
+                    "train-leaveat": "14:45",
+                    "train-book people": "3"
+                },
+                {
+                    "train-departure": "ely",
+                    "train-day": "wednesday",
+                    "train-leaveat": "14:45",
+                    "train-book people": "3"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "train-departure=cambridge\ttrain-arriveby=3:00"
+                ],
+                [
+                    "train-day=wednesday"
+                ],
+                [
+                    "train-leaveat=19:00\ttrain-departure=london kings cross"
+                ],
+                [
+                    "train-arriveby=14:00\ttrain-departure=london kings cross"
+                ],
+                [
+                    "train-book_people=1"
+                ],
+                [
+                    "None"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "train-departure": "cambridge",
+                    "train-arriveby": "3:00"
+                },
+                {
+                    "train-departure": "cambridge",
+                    "train-arriveby": "3:00",
+                    "train-day": "wednesday"
+                },
+                {
+                    "train-departure": "london kings cross",
+                    "train-arriveby": "3:00",
+                    "train-day": "wednesday",
+                    "train-leaveat": "19:00"
+                },
+                {
+                    "train-departure": "london kings cross",
+                    "train-arriveby": "14:00",
+                    "train-day": "wednesday",
+                    "train-leaveat": "19:00"
+                },
+                {
+                    "train-departure": "london kings cross",
+                    "train-arriveby": "14:00",
+                    "train-day": "wednesday",
+                    "train-leaveat": "19:00",
+                    "train-book people": "1"
+                },
+                {
+                    "train-departure": "london kings cross",
+                    "train-arriveby": "14:00",
+                    "train-day": "wednesday",
+                    "train-leaveat": "19:00",
+                    "train-book people": "1"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "train-departure=london kings cross\ttrain-day=friday"
+                ],
+                [
+                    "train-departure=stevenage\ttrain-day=friday"
+                ],
+                [
+                    "train-book_people=8"
+                ],
+                [
+                    "None"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "train-departure": "london kings cross",
+                    "train-day": "friday"
+                },
+                {
+                    "train-departure": "stevenage",
+                    "train-day": "friday"
+                },
+                {
+                    "train-departure": "stevenage",
+                    "train-day": "friday",
+                    "train-book people": "8"
+                },
+                {
+                    "train-departure": "stevenage",
+                    "train-day": "friday",
+                    "train-book people": "8"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "train-departure=cambridge\ttrain-day=monday"
+                ],
+                [
+                    "train-leaveat=saturday\ttrain-departure=stevenage"
+                ],
+                [
+                    "train-arriveby=12:30\ttrain-departure=stevenage"
+                ],
+                [
+                    "None"
+                ],
+                [
+                    "None"
+                ],
+                [
+                    "None"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "train-departure": "cambridge",
+                    "train-day": "monday"
+                },
+                {
+                    "train-departure": "stevenage",
+                    "train-day": "monday",
+                    "train-leaveat": "saturday"
+                },
+                {
+                    "train-departure": "stevenage",
+                    "train-day": "monday",
+                    "train-leaveat": "saturday",
+                    "train-arriveby": "12:30"
+                },
+                {
+                    "train-departure": "stevenage",
+                    "train-day": "monday",
+                    "train-leaveat": "saturday",
+                    "train-arriveby": "12:30"
+                },
+                {
+                    "train-departure": "stevenage",
+                    "train-day": "monday",
+                    "train-leaveat": "saturday",
+                    "train-arriveby": "12:30"
+                },
+                {
+                    "train-departure": "stevenage",
+                    "train-day": "monday",
+                    "train-leaveat": "saturday",
+                    "train-arriveby": "12:30"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "train-day=wednesday\ttrain-departure=kings lynn"
+                ],
+                [
+                    "train-destination=cambridge\ttrain-departure=kings lynn"
+                ],
+                [
+                    "train-leaveat=14:15\ttrain-departure=kings lynn"
+                ],
+                [
+                    "train-leaveat=15:11\ttrain-departure=kings lynn"
+                ],
+                [
+                    "None"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "train-day": "wednesday",
+                    "train-departure": "kings lynn"
+                },
+                {
+                    "train-day": "wednesday",
+                    "train-departure": "kings lynn",
+                    "train-destination": "cambridge"
+                },
+                {
+                    "train-day": "wednesday",
+                    "train-departure": "kings lynn",
+                    "train-destination": "cambridge",
+                    "train-leaveat": "14:15"
+                },
+                {
+                    "train-day": "wednesday",
+                    "train-departure": "kings lynn",
+                    "train-destination": "cambridge",
+                    "train-leaveat": "15:11"
+                },
+                {
+                    "train-day": "wednesday",
+                    "train-departure": "kings lynn",
+                    "train-destination": "cambridge",
+                    "train-leaveat": "15:11"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "train-departure=leicester\ttrain-day=friday"
+                ],
+                [
+                    "train-leaveat=12:15\ttrain-departure=leicester"
+                ],
+                [
+                    "train-destination=cambridge\ttrain-departure=leicester"
+                ],
+                [
+                    "train-book_people=7"
+                ],
+                [
+                    "None"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "train-departure": "leicester",
+                    "train-day": "friday"
+                },
+                {
+                    "train-departure": "leicester",
+                    "train-day": "friday",
+                    "train-leaveat": "12:15"
+                },
+                {
+                    "train-departure": "leicester",
+                    "train-day": "friday",
+                    "train-leaveat": "12:15",
+                    "train-destination": "cambridge"
+                },
+                {
+                    "train-departure": "leicester",
+                    "train-day": "friday",
+                    "train-leaveat": "12:15",
+                    "train-destination": "cambridge",
+                    "train-book people": "7"
+                },
+                {
+                    "train-departure": "leicester",
+                    "train-day": "friday",
+                    "train-leaveat": "12:15",
+                    "train-destination": "cambridge",
+                    "train-book people": "7"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "train-departure=peterborough\ttrain-arriveby=20:45"
+                ],
+                [
+                    "train-arriveby=20:45"
+                ],
+                [
+                    "train-leaveat=14:45\ttrain-departure=peterborough"
+                ],
+                [
+                    "None"
+                ],
+                [
+                    "None"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "train-departure": "peterborough",
+                    "train-arriveby": "20:45"
+                },
+                {
+                    "train-departure": "peterborough",
+                    "train-arriveby": "20:45"
+                },
+                {
+                    "train-departure": "peterborough",
+                    "train-arriveby": "20:45",
+                    "train-leaveat": "14:45"
+                },
+                {
+                    "train-departure": "peterborough",
+                    "train-arriveby": "20:45",
+                    "train-leaveat": "14:45"
+                },
+                {
+                    "train-departure": "peterborough",
+                    "train-arriveby": "20:45",
+                    "train-leaveat": "14:45"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "train-departure=london kings cross\ttrain-arriveby=19:00"
+                ],
+                [
+                    "train-departure=cambridge\ttrain-arriveby=19:00"
+                ],
+                [
+                    "train-departure=stansted\ttrain-arriveby=19:00"
+                ],
+                [
+                    "None"
+                ],
+                [
+                    "train-book_people=5"
+                ],
+                [
+                    "None"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "train-departure": "london kings cross",
+                    "train-arriveby": "19:00"
+                },
+                {
+                    "train-departure": "cambridge",
+                    "train-arriveby": "19:00"
+                },
+                {
+                    "train-departure": "stansted",
+                    "train-arriveby": "19:00"
+                },
+                {
+                    "train-departure": "stansted",
+                    "train-arriveby": "19:00"
+                },
+                {
+                    "train-departure": "stansted",
+                    "train-arriveby": "19:00",
+                    "train-book people": "5"
+                },
+                {
+                    "train-departure": "stansted",
+                    "train-arriveby": "19:00",
+                    "train-book people": "5"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "train-arriveby=19:15\ttrain-day=wednesday"
+                ],
+                [
+                    "train-departure=stevenage"
+                ],
+                [
+                    "train-traveltime=17:21\ttrain-arriveby=19:15"
+                ],
+                [
+                    "None"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "train-arriveby": "19:15",
+                    "train-day": "wednesday"
+                },
+                {
+                    "train-arriveby": "19:15",
+                    "train-day": "wednesday",
+                    "train-departure": "stevenage"
+                },
+                {
+                    "train-arriveby": "19:15",
+                    "train-day": "wednesday",
+                    "train-departure": "stevenage",
+                    "train-traveltime": "17:21"
+                },
+                {
+                    "train-arriveby": "19:15",
+                    "train-day": "wednesday",
+                    "train-departure": "stevenage",
+                    "train-traveltime": "17:21"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "train-day=wednesday\ttrain-departure=london kings cross"
+                ],
+                [
+                    "train-arriveby=20:20\ttrain-departure=london kings cross"
+                ],
+                [
+                    "train-book_people=7"
+                ],
+                [
+                    "None"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "train-day": "wednesday",
+                    "train-departure": "london kings cross"
+                },
+                {
+                    "train-day": "wednesday",
+                    "train-departure": "london kings cross",
+                    "train-arriveby": "20:20"
+                },
+                {
+                    "train-day": "wednesday",
+                    "train-departure": "london kings cross",
+                    "train-arriveby": "20:20",
+                    "train-book people": "7"
+                },
+                {
+                    "train-day": "wednesday",
+                    "train-departure": "london kings cross",
+                    "train-arriveby": "20:20",
+                    "train-book people": "7"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "train-day=wednesday\ttrain-departure=cambridge"
+                ],
+                [
+                    "train-leaveat=20:30\ttrain-departure=broxbourne"
+                ],
+                [
+                    "None"
+                ],
+                [
+                    "None"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "train-day": "wednesday",
+                    "train-departure": "cambridge"
+                },
+                {
+                    "train-day": "wednesday",
+                    "train-departure": "broxbourne",
+                    "train-leaveat": "20:30"
+                },
+                {
+                    "train-day": "wednesday",
+                    "train-departure": "broxbourne",
+                    "train-leaveat": "20:30"
+                },
+                {
+                    "train-day": "wednesday",
+                    "train-departure": "broxbourne",
+                    "train-leaveat": "20:30"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "train-day=tuesday\ttrain-departure=london kings cross"
+                ],
+                [
+                    "train-destination=cambridge\ttrain-departure=london liverpool street"
+                ],
+                [
+                    "train-book_people=8"
+                ],
+                [
+                    "None"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "train-day": "tuesday",
+                    "train-departure": "london kings cross"
+                },
+                {
+                    "train-day": "tuesday",
+                    "train-departure": "london liverpool street",
+                    "train-destination": "cambridge"
+                },
+                {
+                    "train-day": "tuesday",
+                    "train-departure": "london liverpool street",
+                    "train-destination": "cambridge",
+                    "train-book people": "8"
+                },
+                {
+                    "train-day": "tuesday",
+                    "train-departure": "london liverpool street",
+                    "train-destination": "cambridge",
+                    "train-book people": "8"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "train-day=sunday\ttrain-departure=stansted"
+                ],
+                [
+                    "train-arriveat=noon\ttrain-departure=stansted"
+                ],
+                [
+                    "None"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "train-day": "sunday",
+                    "train-departure": "stansted"
+                },
+                {
+                    "train-day": "sunday",
+                    "train-departure": "stansted",
+                    "train-arriveat": "noon"
+                },
+                {
+                    "train-day": "sunday",
+                    "train-departure": "stansted",
+                    "train-arriveat": "noon"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "train-departure=cambridge\ttrain-arriveby=broxbourne"
+                ],
+                [
+                    "train-departure=08:15\ttrain-arriveby=broxbourne"
+                ],
+                [
+                    "train-departure=monday\ttrain-arriveby=broxbourne"
+                ],
+                [
+                    "train-departure=08:01\ttrain-arriveby=broxbourne"
+                ],
+                [
+                    "train-departure=08:01\ttrain-arriveby=broxbourne"
+                ],
+                [
+                    "None"
+                ],
+                [
+                    "None"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "train-departure": "cambridge",
+                    "train-arriveby": "broxbourne"
+                },
+                {
+                    "train-departure": "08:15",
+                    "train-arriveby": "broxbourne"
+                },
+                {
+                    "train-departure": "monday",
+                    "train-arriveby": "broxbourne"
+                },
+                {
+                    "train-departure": "08:01",
+                    "train-arriveby": "broxbourne"
+                },
+                {
+                    "train-departure": "08:01",
+                    "train-arriveby": "broxbourne"
+                },
+                {
+                    "train-departure": "08:01",
+                    "train-arriveby": "broxbourne"
+                },
+                {
+                    "train-departure": "08:01",
+                    "train-arriveby": "broxbourne"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "train-day=saturday\ttrain-departure=cambridge"
+                ],
+                [
+                    "train-leaveat=19:30\ttrain-departure=cambridge"
+                ],
+                [
+                    "train-book_people=6"
+                ],
+                [
+                    "None"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "train-day": "saturday",
+                    "train-departure": "cambridge"
+                },
+                {
+                    "train-day": "saturday",
+                    "train-departure": "cambridge",
+                    "train-leaveat": "19:30"
+                },
+                {
+                    "train-day": "saturday",
+                    "train-departure": "cambridge",
+                    "train-leaveat": "19:30",
+                    "train-book people": "6"
+                },
+                {
+                    "train-day": "saturday",
+                    "train-departure": "cambridge",
+                    "train-leaveat": "19:30",
+                    "train-book people": "6"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "train-departure=cambridge\ttrain-arriveby=13:30"
+                ],
+                [
+                    "train-day=thursday\ttrain-departure=cambridge"
+                ],
+                [
+                    "train-arriveby=20:15\ttrain-departure=bishops stortford"
+                ],
+                [
+                    "train-book_people=7"
+                ],
+                [
+                    "None"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "train-departure": "cambridge",
+                    "train-arriveby": "13:30"
+                },
+                {
+                    "train-departure": "cambridge",
+                    "train-arriveby": "13:30",
+                    "train-day": "thursday"
+                },
+                {
+                    "train-departure": "bishops stortford",
+                    "train-arriveby": "20:15",
+                    "train-day": "thursday"
+                },
+                {
+                    "train-departure": "bishops stortford",
+                    "train-arriveby": "20:15",
+                    "train-day": "thursday",
+                    "train-book people": "7"
+                },
+                {
+                    "train-departure": "bishops stortford",
+                    "train-arriveby": "20:15",
+                    "train-day": "thursday",
+                    "train-book people": "7"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "train-departure=cambridge\ttrain-day=thursday"
+                ],
+                [
+                    "train-destination=stansted\ttrain-book_people=2"
+                ],
+                [
+                    "None"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "train-departure": "cambridge",
+                    "train-day": "thursday"
+                },
+                {
+                    "train-departure": "cambridge",
+                    "train-day": "thursday",
+                    "train-destination": "stansted",
+                    "train-book people": "2"
+                },
+                {
+                    "train-departure": "cambridge",
+                    "train-day": "thursday",
+                    "train-destination": "stansted",
+                    "train-book people": "2"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "train-day=saturday\ttrain-departure=cambridge"
+                ],
+                [
+                    "train-departure=Birmingham New Street\ttrain-arriveby=11:30"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "train-day": "saturday",
+                    "train-departure": "cambridge"
+                },
+                {
+                    "train-day": "saturday",
+                    "train-departure": "Birmingham New Street",
+                    "train-arriveby": "11:30"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "train-day=saturday\ttrain-departure=cambridge"
+                ],
+                [
+                    "train-day=saturday\ttrain-departure=cambridge"
+                ],
+                [
+                    "train-arriveby=13:45"
+                ],
+                [
+                    "train-book_people=7"
+                ],
+                [
+                    "None"
+                ],
+                [
+                    "None"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "train-day": "saturday",
+                    "train-departure": "cambridge"
+                },
+                {
+                    "train-day": "saturday",
+                    "train-departure": "cambridge"
+                },
+                {
+                    "train-day": "saturday",
+                    "train-departure": "cambridge",
+                    "train-arriveby": "13:45"
+                },
+                {
+                    "train-day": "saturday",
+                    "train-departure": "cambridge",
+                    "train-arriveby": "13:45",
+                    "train-book people": "7"
+                },
+                {
+                    "train-day": "saturday",
+                    "train-departure": "cambridge",
+                    "train-arriveby": "13:45",
+                    "train-book people": "7"
+                },
+                {
+                    "train-day": "saturday",
+                    "train-departure": "cambridge",
+                    "train-arriveby": "13:45",
+                    "train-book people": "7"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "train-departure=wednesday\ttrain-arriveby=12:30"
+                ],
+                [
+                    "train-destination=london liverpool street\ttrain-arriveby=12:30"
+                ],
+                [
+                    "train-book_people=7"
+                ],
+                [
+                    "None"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "train-departure": "wednesday",
+                    "train-arriveby": "12:30"
+                },
+                {
+                    "train-departure": "wednesday",
+                    "train-arriveby": "12:30",
+                    "train-destination": "london liverpool street"
+                },
+                {
+                    "train-departure": "wednesday",
+                    "train-arriveby": "12:30",
+                    "train-destination": "london liverpool street",
+                    "train-book people": "7"
+                },
+                {
+                    "train-departure": "wednesday",
+                    "train-arriveby": "12:30",
+                    "train-destination": "london liverpool street",
+                    "train-book people": "7"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "train-departure=london liverpool street"
+                ],
+                [
+                    "train-day=thursday"
+                ],
+                [
+                    "train-book_people=7"
+                ],
+                [
+                    "None"
+                ],
+                [
+                    "train-book_people=7"
+                ],
+                [
+                    "None"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "train-departure": "london liverpool street"
+                },
+                {
+                    "train-departure": "london liverpool street",
+                    "train-day": "thursday"
+                },
+                {
+                    "train-departure": "london liverpool street",
+                    "train-day": "thursday",
+                    "train-book people": "7"
+                },
+                {
+                    "train-departure": "london liverpool street",
+                    "train-day": "thursday",
+                    "train-book people": "7"
+                },
+                {
+                    "train-departure": "london liverpool street",
+                    "train-day": "thursday",
+                    "train-book people": "7"
+                },
+                {
+                    "train-departure": "london liverpool street",
+                    "train-day": "thursday",
+                    "train-book people": "7"
+                }
+            ]
+        },
+        {
+            "meta": [
+                [
+                    "train-departure=cambridge\ttrain-day=wednesday"
+                ],
+                [
+                    "train-destination=birmingham new street\ttrain-arriveby=12:00"
+                ],
+                [
+                    "train-leaveat=15:00\ttrain-departure=cambridge"
+                ],
+                [
+                    "train-book_people=7"
+                ],
+                [
+                    "None"
+                ]
+            ],
+            "dialogue": [],
+            "state": [
+                {},
+                {
+                    "train-departure": "cambridge",
+                    "train-day": "wednesday"
+                },
+                {
+                    "train-departure": "cambridge",
+                    "train-day": "wednesday",
+                    "train-destination": "birmingham new street",
+                    "train-arriveby": "12:00"
+                },
+                {
+                    "train-departure": "cambridge",
+                    "train-day": "wednesday",
+                    "train-destination": "birmingham new street",
+                    "train-arriveby": "12:00",
+                    "train-leaveat": "15:00"
+                },
+                {
+                    "train-departure": "cambridge",
+                    "train-day": "wednesday",
+                    "train-destination": "birmingham new street",
+                    "train-arriveby": "12:00",
+                    "train-leaveat": "15:00",
+                    "train-book people": "7"
+                },
+                {
+                    "train-departure": "cambridge",
+                    "train-day": "wednesday",
+                    "train-destination": "birmingham new street",
+                    "train-arriveby": "12:00",
+                    "train-leaveat": "15:00",
+                    "train-book people": "7"
+                }
+            ]
+        }
+    ]
+}
