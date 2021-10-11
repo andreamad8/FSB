@@ -1,8 +1,8 @@
 # Few-Shot Bot: Prompt-Based Learning for Dialogue Systems
 
-This repository includes the dataset and baselines of the paper:
+This repository includes the dataset, experiments results, and code for the paper:
 
-**Few-Shot Bot: Prompt-Based Learning for Dialogue Systems** [PDF]](https://arxiv.org/abs/2012.15504). 
+**Few-Shot Bot: Prompt-Based Learning for Dialogue Systems** [PDF](). 
 
 **Authors**: [Andrea Madotto](https://andreamad8.github.io), [Zhaojiang Lin](https://zlinao.github.io), [Genta Indra Winata](https://gentawinata.com/), [Pascale Fung](https://pascale.home.ece.ust.hk/)
 
