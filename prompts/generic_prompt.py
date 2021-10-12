@@ -400,3 +400,60 @@ def evalute_prompt_prob(model, tokenizer, shot_converter, file_to_eval,
 
         if verbose: break
     return loss_list
+
+
+def generate_response_interactive(model, tokenizer, shot_converter, dialogue, 
+                      prefix, device, max_number_turns, with_knowledge, 
+                      meta_type="all", gen_len=50, beam=1,max_seq=1024, 
+                      eos_token_id=198, do_sample=False, multigpu=False, 
+                      api=False, api_key=""):
+
+
+    prefix_query = prefix + shot_converter(sample=dialogue,with_knowledge=with_knowledge)
+    input_ids = tokenizer(str(prefix_query), return_tensors='pt')
+    input_len = len(input_ids['input_ids'][0])
+
+    if multigpu: 
+        with torch.no_grad():
+            output = model.generate(
+                **input_ids,
+                do_sample=do_sample,
+                max_length=input_len+gen_len if input_len+gen_len<max_seq else max_seq,
+                eos_token_id=eos_token_id, # "\n"
+                num_beams=beam,
+                early_stopping=True,
+                top_p=0.9
+            )
+    elif api:
+        print(prefix_query)
+        response = requests.post(
+            "https://api.ai21.com/studio/v1/j1-jumbo/complete",
+            headers={"Authorization": f"Bearer {api_key}"},
+            json={
+                "prompt": prefix_query, 
+                "numResults": 1, 
+                "maxTokens": input_len+gen_len if input_len+gen_len<max_seq else max_seq, 
+                "stopSequences": ["\n"],
+                "topKReturn": 0,
+                "temperature": 0.0
+            }
+        )
+        json_data = json.loads(response.text)
+        print(json_data)
+        output = json_data['completions'][0]['data']['text']
+        print(output)
+        return output.split("\n")[0].strip()
+    else:
+        with torch.no_grad():
+            output = model.generate(
+                input_ids = input_ids['input_ids'].to(device),
+                do_sample=do_sample,
+                max_length=input_len+gen_len if input_len+gen_len<max_seq else max_seq,
+                eos_token_id=eos_token_id, # "\n"
+                num_beams=beam,
+                early_stopping=True,
+                top_p=0.9
+            )
+    response = tokenizer.decode(output[0][input_len:])
+    response = response.split("\n")[0].strip()
+    return response

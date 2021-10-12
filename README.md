@@ -52,4 +52,4 @@ where repetition is the seed for selecting random samples in the prompts.
 In the ```runners``` folder, we provide a rudimental runner to run all the experiments and reproduce the results in the paper. 
 
 ## Few-Shot Bot
-TODO
+There are two modes for the FSB such as 1) controlled style generation and 2) full-model. Currently we support the controlled style generation model. Check the ```FSB-CG.ipynb``` to try to interact with FSB.  
