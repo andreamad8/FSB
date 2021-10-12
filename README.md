@@ -27,3 +27,29 @@ This script loads all the files and computes the mean between different runs and
 
 
 ### Running the experiments
+There are three main files to run 1) response generation (```main_response_generation.py```), 2) conversational parsing (```main_conversational_parsing.py```), and 3) skill-selector (```main_skill_selector.py```). In these files, we load the necessary prompt (```load_prefix```) and we run the generation (```generate_response```) for each sample in the test set. Since each dialogue skill require a different template, as shown in the paper, we create a function that converts structured data into the correct shot prompt. An example of this function can be found in ```prompts/persona_chat.py```, and in ```generic_prompts.py``` we store the generation functions. 
+
+In each main file there is configuration object (```mapper```) which specify meta-information about the task (i.e., number of shots, generation length, decoding type, prompt converter). Expecially for conversational parsing, there are different decoding type. For example, in MWOZ the model generates the dialogue state, which is further looped into the next turn. 
+
+
+#### How to run?
+For example, to run the persona chat experiments (0, 1, k-shots), you can use the following command:
+```
+python main_response_generation.py --model_checkpoint EleutherAI/gpt-j-6B --dataset persona --gpu 0
+```
+In case your GPU has less that 16GB, then you could add ```--multigpu``` to spawn 4 GPUs (e.g., 1080Ti) and do inference in parallel. Similarly, for conversational parsing tasks, you could use:
+```
+python main_conversational_parsing.py --model_checkpoint EleutherAI/gpt-j-6B --dataset wow-parse --gpu 0
+```
+Notice that some parsing task requires a knowledge base (e.g., dialKG-parse requires the KG in neo4j). 
+Finally, to run the skill-selector task, you could use:
+```
+python main_skill_selector.py --model_checkpoint EleutherAI/gpt-j-6B --shots_k 6 --repetition 1 --gpu 0
+```
+where repetition is the seed for selecting random samples in the prompts. 
+
+#### Runners
+In the ```runners``` folder, we provide a rudimental runner to run all the experiments and reproduce the results in the paper. 
+
+## Few-Shot Bot
+TODO
