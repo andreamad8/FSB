@@ -402,14 +402,29 @@ def evalute_prompt_prob(model, tokenizer, shot_converter, file_to_eval,
     return loss_list
 
 
+def select_prompt_interactive(model, tokenizer, shot_converter, dialogue, 
+                prompt_dict, device, max_seq, max_shot=1):
+    temp = {}
+    temp["dialogue"] = dialogue["dialogue"][-2:]
+    query = shot_converter(sample=temp, with_knowledge=None)
+    prompt_ppl = defaultdict()
+    for name, prompt in prompt_dict.items():
+        ppl = compute_ppl(model=model, tokenizer=tokenizer, 
+                        device=device, prefix=prompt[max_shot] + " ", 
+                        query=query, 
+                        max_seq=max_seq)
+
+        prompt_ppl[name] = math.exp(ppl)
+    return min(prompt_ppl, key=prompt_ppl.get)
+
 def generate_response_interactive(model, tokenizer, shot_converter, dialogue, 
-                      prefix, device, max_number_turns, with_knowledge, 
+                      prefix, device, with_knowledge, 
                       meta_type="all", gen_len=50, beam=1,max_seq=1024, 
                       eos_token_id=198, do_sample=False, multigpu=False, 
                       api=False, api_key=""):
 
 
-    prefix_query = prefix + shot_converter(sample=dialogue,with_knowledge=with_knowledge)
+    prefix_query = prefix + shot_converter(dialogue, with_knowledge)
     input_ids = tokenizer(str(prefix_query), return_tensors='pt')
     input_len = len(input_ids['input_ids'][0])
 

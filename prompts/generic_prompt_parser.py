@@ -21,8 +21,7 @@ logging.getLogger('transformers.generation_utils').setLevel(logging.CRITICAL)
 ## we copied KILT inside our repo
 from data.wow.KILT.kilt.knowledge_source import KnowledgeSource
 
-## Put the neo4j information
-ks = Graph("http://address:port", auth=("usrname", "pwd"))
+
 
 
 
@@ -187,6 +186,8 @@ def gen_continuation(tokenizer, model, device, multigpu, prefix_query, do_sample
 
 ### THIS IS SOME NASTY CODE FOR THE KG-PATH GENERATION
 def retrive_nodes(trip):
+    ## Put the neo4j information
+    ks = Graph("http://address:port", auth=("usrname", "pwd"))
     # print(title)
     try:
         if len(trip) == 1:
@@ -212,6 +213,8 @@ def retrive_nodes(trip):
         return [] 
 
 def retrive_relation(trip):
+    ## Put the neo4j information
+    ks = Graph("http://address:port", auth=("usrname", "pwd"))
     # print(title)
     try:
         if len(trip) == 1:
@@ -393,10 +396,6 @@ def generate_response_DKG(model, tokenizer, shot_converter, file_to_eval,
         if verbose:
             break
     return results
-
-
-
-
 
 def generate_response(model, tokenizer, shot_converter, file_to_eval, 
                       prefix, device, max_number_turns, level, 
