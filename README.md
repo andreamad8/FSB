@@ -19,17 +19,17 @@ pip install -r requirements.txt
 ## Basic Running
 
 ### Reproducing the results and plots
-The ```generation``` folder stores the generated responses of the experiments in all datasets. To generate the tables and the plots in the paper, run 
+The ```generation``` folder stores the generated responses of the experiments in all datasets. To generate the tables and the plots in the paper, run:
 ```
 python generate_plots_tables.py
 ```
-This script loads all the files and computes the mean between different runs and it generates the plots. Note that this script is very custum for each datasets, but it can serve as guide line for future extentions. 
+This script loads all the files computes the mean between different runs and generates the plots. Note that this script is very custom for each dataset, but it can serve as a guideline for future extensions. 
 
 
 ### Running the experiments
-There are three main files to run 1) response generation (```main_response_generation.py```), 2) conversational parsing (```main_conversational_parsing.py```), and 3) skill-selector (```main_skill_selector.py```). In these files, we load the necessary prompt (```load_prefix```) and we run the generation (```generate_response```) for each sample in the test set. Since each dialogue skill require a different template, as shown in the paper, we create a function that converts structured data into the correct shot prompt. An example of this function can be found in ```prompts/persona_chat.py```, and in ```generic_prompts.py``` we store the generation functions. 
+There are three main files to run 1) response generation (```main_response_generation.py```), 2) conversational parsing (```main_conversational_parsing.py```), and 3) skill-selector (```main_skill_selector.py```). In these files, we load the necessary prompt (```load_prefix```), and we run the generation (```generate_response```) for each sample in the test set. Since each dialogue skill require a different template, as shown in the paper, we create a function that converts structured data into the correct shot prompt. An example of this function can be found in ```prompts/persona_chat.py```, and in ```generic_prompts.py``` we store the generation functions. 
 
-In each main file there is configuration object (```mapper```) which specify meta-information about the task (i.e., number of shots, generation length, decoding type, prompt converter). Expecially for conversational parsing, there are different decoding type. For example, in MWOZ the model generates the dialogue state, which is further looped into the next turn. 
+In each main file, there is a configuration object (```mapper```) that specifies meta-information about the task (i.e., number of shots, generation length, decoding type, prompt converter). Especially for conversational parsing, there are different decoding types. For example, in MWOZ, the model generates the dialogue state, which is further looped into the next turn. 
 
 
 #### How to run?
@@ -52,11 +52,11 @@ where repetition is the seed for selecting random samples in the prompts.
 In the ```runners``` folder, we provide a rudimental runner to run all the experiments and reproduce the results in the paper. 
 
 ## Few-Shot Bot
-There are two modes for the FSB such as 1) controlled style generation (FSB-CG) and 2) full-model. Currently we support the controlled style generation model. 
+There are two FSB modes: 1) controlled style generation (FSB-CG) and 2) full-model. Currently, we support the controlled style generation model. 
 
 ### FSB-CG 
 Check the ```FSB-CG.ipynb``` to try to interact with FSB in your local machine, or try directly in colab at 
 ```
 https://colab.research.google.com/drive/15hQv1V3Cs5kQVfLOE_FZc1VCWQ3YpWVd?usp=sharing
 ```
-Remeber to select the enviroment with GPU!! 
+Remember to select the environment with GPU!! 
