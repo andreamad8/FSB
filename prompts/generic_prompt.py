@@ -425,7 +425,6 @@ def generate_response_interactive(model, tokenizer, shot_converter, dialogue,
                 top_p=0.9
             )
     elif api:
-        print(prefix_query)
         response = requests.post(
             "https://api.ai21.com/studio/v1/j1-jumbo/complete",
             headers={"Authorization": f"Bearer {api_key}"},
@@ -439,9 +438,7 @@ def generate_response_interactive(model, tokenizer, shot_converter, dialogue,
             }
         )
         json_data = json.loads(response.text)
-        print(json_data)
         output = json_data['completions'][0]['data']['text']
-        print(output)
         return output.split("\n")[0].strip()
     else:
         with torch.no_grad():
