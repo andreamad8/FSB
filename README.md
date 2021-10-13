@@ -52,4 +52,11 @@ where repetition is the seed for selecting random samples in the prompts.
 In the ```runners``` folder, we provide a rudimental runner to run all the experiments and reproduce the results in the paper. 
 
 ## Few-Shot Bot
-There are two modes for the FSB such as 1) controlled style generation and 2) full-model. Currently we support the controlled style generation model. Check the ```FSB-CG.ipynb``` to try to interact with FSB in your local machine, or try directly in colab at [https://colab.research.google.com/drive/15hQv1V3Cs5kQVfLOE_FZc1VCWQ3YpWVd?usp=sharing](https://colab.research.google.com/drive/15hQv1V3Cs5kQVfLOE_FZc1VCWQ3YpWVd?usp=sharing) (Remeber to select the enviroment with GPU). 
+There are two modes for the FSB such as 1) controlled style generation (FSB-CG) and 2) full-model. Currently we support the controlled style generation model. 
+
+### FSB-CG 
+Check the ```FSB-CG.ipynb``` to try to interact with FSB in your local machine, or try directly in colab at 
+```
+https://colab.research.google.com/drive/15hQv1V3Cs5kQVfLOE_FZc1VCWQ3YpWVd?usp=sharing
+```
+Remeber to select the enviroment with GPU!! 
