@@ -2,7 +2,7 @@
 
 This repository includes the dataset, experiments results, and code for the paper:
 
-**Few-Shot Bot: Prompt-Based Learning for Dialogue Systems** [PDF](https://arxiv.org/abs/2110.08118). 
+**Few-Shot Bot: Prompt-Based Learning for Dialogue Systems** [PDF](https://arxiv.org/pdf/2110.08118.pdf). 
 
 **Authors**: [Andrea Madotto](https://andreamad8.github.io), [Zhaojiang Lin](https://zlinao.github.io), [Genta Indra Winata](https://gentawinata.com/), [Pascale Fung](https://pascale.home.ece.ust.hk/)
 
@@ -69,4 +69,14 @@ https://colab.research.google.com/drive/1JkPeX-6oXikiwWKqW5QkibEy8Oq6KM9g?usp=sh
 Remember to select the environment with GPU!! This current version does not query the Internet, Wiki and KGs, but only parse the dialogue history with MSC-parse. We implement only 4 skills for now. 
 
 ## Safety Bench
-TODO
+We benchmark the FSB using the safety bench provided in [ParlAI](https://github.com/facebookresearch/ParlAI/tree/main/projects/safety_bench). We implemented the [FSB wrapper](https://github.com/andreamad8/FSB/blob/main/utils/fsb_wrapper.py) and copy it in the ```model_wrappers``` folder (this require to pull the FSB repo in the ParlAI folder). Then, we run the benchmark: 
+```
+python projects/safety_bench/run_unit_tests.py -w fsb_wrapper --log-folder /tmp/fsb6B
+```
+We implemented a safety layer by adding three safety skills ([safety_topic](https://github.com/andreamad8/FSB/tree/main/data/safety_layers/sensitive_topics), [safety_nonadv](https://github.com/andreamad8/FSB/tree/main/data/safety_layers/human_nonadv_safety_eval), [safety_adv](https://github.com/andreamad8/FSB/tree/main/data/safety_layers/bot_adversarial_dialogue_datasets_with_persona)). If the safety skill is triggered, we use a predefined response (```Shall we talk about something else?```).
+
+The results from the FSB (6B), with and without the safety layer, are shown in Table 12 and 13, and the full-report at:
+```
+https://github.com/andreamad8/FSB/tree/main/data/safety_layers/results_FSB_6B_withsafetyskills
+https://github.com/andreamad8/FSB/tree/main/data/safety_layers/results_FSB_6B_withoutsafetyskills
+```
