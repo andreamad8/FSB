@@ -66,10 +66,12 @@ def load_prefix_by_category(tokenizer, shots_value, shot_converter,
 
 
 
-def compute_ppl(model, tokenizer, device, prefix, query, max_seq, image_chat=False): 
+def compute_ppl(model, tokenizer, device, prefix, query, max_seq, image_chat=False, verbose=False): 
     if image_chat:
         input_ids = tokenizer([prefix])
     else:
+        if verbose:
+            print(prefix+query)
         input_ids = tokenizer([prefix+query])
         if len(input_ids['input_ids'][0])>max_seq:
             input_ids['input_ids'][0] = input_ids['input_ids'][0][-max_seq:]
@@ -403,19 +405,25 @@ def evalute_prompt_prob(model, tokenizer, shot_converter, file_to_eval,
 
 
 def select_prompt_interactive(model, tokenizer, shot_converter, dialogue, 
-                prompt_dict, device, max_seq, max_shot=1):
+                prompt_dict, device, max_seq, max_shot=1, sample=False):
     temp = {}
     temp["dialogue"] = dialogue["dialogue"][-2:]
     query = shot_converter(sample=temp, with_knowledge=None)
     prompt_ppl = defaultdict()
     for name, prompt in prompt_dict.items():
         ppl = compute_ppl(model=model, tokenizer=tokenizer, 
-                        device=device, prefix=prompt[max_shot] + " ", 
-                        query=query, 
-                        max_seq=max_seq)
-
+                        device=device, prefix=prompt[max_shot], 
+                        query=query,  max_seq=max_seq, verbose=False)
         prompt_ppl[name] = math.exp(ppl)
-    return min(prompt_ppl, key=prompt_ppl.get)
+    if sample:
+        sum_val = sum(prompt_ppl.values())
+        prob_dict = {}
+        for k, v in prompt_ppl.items():
+            prob_dict[k] = sum_val-v
+        return random.choices(list(prob_dict.keys()), weights=prob_dict.values(), k=1)[0]
+    else:
+        return min(prompt_ppl, key=prompt_ppl.get)
+
 
 def generate_response_interactive(model, tokenizer, shot_converter, dialogue, 
                       prefix, device, with_knowledge, 

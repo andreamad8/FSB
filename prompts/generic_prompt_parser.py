@@ -22,10 +22,6 @@ logging.getLogger('transformers.generation_utils').setLevel(logging.CRITICAL)
 from data.wow.KILT.kilt.knowledge_source import KnowledgeSource
 
 
-
-
-
-
 def load_prefix(tokenizer, shots_value, shot_converter, 
                 file_shot, name_dataset, level, 
                 shot_separator="\n\n",sample_times=5):
@@ -553,3 +549,73 @@ def generate_response(model, tokenizer, shot_converter, file_to_eval,
         if verbose:
             break
     return results
+
+
+
+
+def generate_response_DKG_interactive(model, tokenizer, shot_converter, dialogue, 
+                      prefix, device, max_number_turns, level, 
+                      meta_type="all", gen_len=50, beam=1,max_seq=1024, 
+                      eos_token_id=198, do_sample=False, multigpu=False,verbose=False):
+        
+
+            
+    prefix_query = prefix + shot_converter(sample=dialogue,level=level)
+
+    first_gen = gen_continuation(tokenizer, model, device, multigpu, prefix_query, do_sample, eos_token_id, beam, gen_len, max_seq)
+
+    
+    if "\t" in first_gen:
+        triple = get_triples_1(first_gen)
+        node_gen = retrive_nodes(triple)
+        if len(node_gen)==0:
+            rel_gen = retrive_relation(triple)
+            rel_gen = list(dict.fromkeys(rel_gen))
+            if len(rel_gen)>0:
+                prefix_temp = prefix_query+ f" {triple[0][0]}\t"
+                next_rel, _ = calculate_log_prob(model,tokenizer,prefix_temp,rel_gen)
+                triple[0][1] = next_rel
+                node_gen = retrive_nodes(triple)
+                
+
+        if len(node_gen):
+            prefix_new = prefix_query+ f" {triple[0][0]}\t{triple[0][1]}\t"
+            next_node, node_score = calculate_log_prob(model,tokenizer,prefix_new,node_gen)
+            triple[0][2] = next_node
+            prefix_new = prefix_new + next_node.strip()
+            
+            second_gen = gen_continuation(tokenizer, model, device, multigpu, prefix_new, do_sample, eos_token_id, beam, gen_len, max_seq)
+
+            if "\t\t" in second_gen:
+                triple = get_triples_2(second_gen,triple)
+                node_gen_2 = []
+                if triple[1][0] == triple[0][2]:
+                    node_gen_2 = retrive_nodes(triple)
+                else:
+                    triple[1][0] = triple[0][2]
+
+                if len(node_gen_2) == 0:
+                    rel_gen = retrive_relation(triple)
+                    rel_gen = list(dict.fromkeys(rel_gen))
+                    if len(rel_gen)>0:
+                        prefix_temp = prefix_new+ f"\t\t{triple[1][0]}\t"
+                        # print(prefix_temp)
+                        next_rel, rel_score = calculate_log_prob(model,tokenizer,prefix_temp,rel_gen)
+                        # print(next_rel, rel_score)
+                        triple[1][1] = next_rel
+                        node_gen_2 = retrive_nodes(triple)
+                        # print(node_gen_2)
+                node_gen_2 = list(filter(lambda node: node != triple[0][0], node_gen_2))
+                # print(node_gen_2)
+
+                prefix_new_2 = prefix_new+ f"\t\t{triple[1][0]}\t{triple[1][1]}\t"
+                next_node_2, node_score_2 = calculate_log_prob(model,tokenizer,prefix_new_2,node_gen_2)
+                response = [f"{triple[0][0]}\t{triple[0][1]}\t{triple[0][2]}\t\t{triple[1][0]}\t{triple[1][1]}\t{next_node_2}", node_score_2]
+            else:
+                response = [f"{triple[0][0]}\t{triple[0][1]}\t{next_node}", node_score]
+        else:
+            response = ["None", []]
+    else: 
+        response = ["None", []]
+
+    return response

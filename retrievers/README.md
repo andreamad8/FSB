@@ -6,6 +6,7 @@ We use the Wiki dump and mongo DB provided by KILT. Please follow the instructio
 ```
 sudo mongod --bind_ip_all
 ```
+For the interactive script, we use the wikipedia title retriever from [https://github.com/goldsmith/Wikipedia](https://github.com/goldsmith/Wikipedia).
 
 ## Internet Engine
 We use the code in [https://github.com/JulesGM/ParlAI_SearchEngine](https://github.com/JulesGM/ParlAI_SearchEngine). Follow the readme of the page to set up the search engine. Then you can run: 

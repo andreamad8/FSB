@@ -268,7 +268,7 @@ class BingSearchRequestHandler(SearchABCRequestHandler):
 
         print(f"n={n} responseFilter={types}")
         headers = {"Ocp-Apim-Subscription-Key": subscription_key}
-        params = {"q": q, "textDecorations":False,
+        params = {"q": q, "textDecorations":False, "mkt" : 'en-US',
             "textFormat": "HTML", "responseFilter":types, 
             "promote":promote, "answerCount":5}
         response = requests.get(BingSearchRequestHandler.bing_search_url, 
