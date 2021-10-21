@@ -9,6 +9,7 @@ from prompts.mwoz_parser import convert_sample_to_shot_mwoz
 from prompts.persona_parser import convert_sample_to_shot_msc
 from tabulate import tabulate
 from metric.scorer_parse import score
+from py2neo import Graph
 from utils.utils import load_model, save_file, checker_file
 import os
 
@@ -101,6 +102,7 @@ if __name__ == "__main__":
 
                 if checker_file(f"{d}_{shots}_{model_checkpoint}_{beam}-{args.do_sample}_{id_prefix}.json"):
                     if d == "dialKG-parse":
+                        kg = Graph("ADDRESS", auth=("USR", "PWD"))
                         ### THIS REQUIRE A NEO4J DB UP and RUNNING
                         generation_out = generate_response_DKG(model, tokenizer, shot_converter=mapper[d]["shot_converter"], 
                                                     file_to_eval=mapper[d]["file_data"]+"test.json", prefix=prefix, 
@@ -108,7 +110,8 @@ if __name__ == "__main__":
                                                     level=mapper[d]["level"], 
                                                     meta_type=mapper[d]["meta_type"], gen_len=mapper[d]["gen_len"], 
                                                     beam=beam, max_seq=max_seq, eos_token_id=198, 
-                                                    do_sample=args.do_sample, multigpu=args.multigpu, verbose=args.verbose)
+                                                    do_sample=args.do_sample, multigpu=args.multigpu, 
+                                                    verbose=args.verbose, KG=kg)
                     else:
                         generation_out = generate_response(model, tokenizer, shot_converter=mapper[d]["shot_converter"], 
                                                         file_to_eval=mapper[d]["file_data"]+"test.json", prefix=prefix, 

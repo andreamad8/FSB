@@ -56,3 +56,21 @@ with open("bot_adversarial_dialogue_datasets_with_persona/valid.txt",mode="r", e
 
 with open(f'safety_adv.json', 'w') as fp:
     json.dump(data, fp, indent=4)
+
+data = []
+with open("bot_adversarial_dialogue_datasets_with_persona/valid.txt",mode="r", encoding="utf-8") as f:
+    for line in f:
+        text, lab, _, _, persona = line.split('\t')
+        persona = persona.replace("bot_persona:","").replace("your persona:","").split("\\n")
+        persona = [p.strip().replace("\\n","")for p in persona]
+        text = str(text.replace("text:",""))
+        lab = lab.replace("labels:","")
+        if lab == "__ok__":
+            turns = text.split("\\n")
+            if len(turns)%2 != 0: 
+                turns = turns + [""]
+            dial = chunks(turns,2)
+            data.append({"dialogue":dial[-2:],"meta":persona})
+
+with open(f'safety_safe_adv_valid.json', 'w') as fp:
+    json.dump(data, fp, indent=4)

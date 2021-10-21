@@ -8,18 +8,10 @@ import logging
 import copy
 import random
 import requests
-from prompts.generic_prompt import get_response
 from cleantext import clean
 from nltk.tokenize import sent_tokenize
-from utils.tfidf import TfIdf
-from utils.wit_parlai_retriever import SearchEngineRetriever
-from metric.general import normalize_answer
 from py2neo import Graph, Node, Relationship
 logging.getLogger('transformers.generation_utils').setLevel(logging.CRITICAL)
-
-
-## we copied KILT inside our repo
-from data.wow.KILT.kilt.knowledge_source import KnowledgeSource
 
 
 def load_prefix(tokenizer, shots_value, shot_converter, 
@@ -181,23 +173,21 @@ def gen_continuation(tokenizer, model, device, multigpu, prefix_query, do_sample
     return response
 
 ### THIS IS SOME NASTY CODE FOR THE KG-PATH GENERATION
-def retrive_nodes(trip):
-    ## Put the neo4j information
-    ks = Graph("http://address:port", auth=("usrname", "pwd"))
+def retrive_nodes(triple,KG):
     # print(title)
     try:
-        if len(trip) == 1:
-            sbj,rel, _ = trip[0]
+        if len(triple) == 1:
+            sbj,rel, _ = triple[0]
             rel = rel.replace("-","_").replace("~","").replace(" ","_").lower()
-            nodes = ks.run(f'MATCH (n1)-[r:{rel}]-(n2) WHERE n1.value= "{sbj}" RETURN n2.value as node').data()
-        elif len(trip) == 2:
-            sbj_1,rel_1, obj_1 = trip[0]
-            sbj_2,rel_2, obj_2 = trip[1]
+            nodes = KG.run(f'MATCH (n1)-[r:{rel}]-(n2) WHERE n1.value= "{sbj}" RETURN n2.value as node').data()
+        elif len(triple) == 2:
+            sbj_1,rel_1, obj_1 = triple[0]
+            sbj_2,rel_2, obj_2 = triple[1]
             assert sbj_2 == obj_1
             rel_1 = rel_1.replace("-","_").replace("~","").replace(" ","_").lower()
             rel_2 = rel_2.replace("-","_").replace("~","").replace(" ","_").lower()
             if rel_2!= "" and rel_1!="":
-                nodes = ks.run(f'MATCH (n1)-[r:{rel_1}]-(n2)-[r2:{rel_2}]-(n3) WHERE n1.value= "{sbj_1}" and n2.value= "{obj_1}" RETURN n3.value as node').data()     
+                nodes = KG.run(f'MATCH (n1)-[r:{rel_1}]-(n2)-[r2:{rel_2}]-(n3) WHERE n1.value= "{sbj_1}" and n2.value= "{obj_1}" RETURN n3.value as node').data()     
             else:
                 return []  
         else:
@@ -208,20 +198,18 @@ def retrive_nodes(trip):
     except:
         return [] 
 
-def retrive_relation(trip):
-    ## Put the neo4j information
-    ks = Graph("http://address:port", auth=("usrname", "pwd"))
+def retrive_relation(triple,KG):
     # print(title)
     try:
-        if len(trip) == 1:
-            sbj,_, _ = trip[0]
-            relations = ks.run(f'MATCH (n1)-[r]-(n2) WHERE n1.value= "{sbj}" RETURN type(r) as relation').data()
-        elif len(trip) == 2:
-            sbj_1,rel_1, obj_1 = trip[0]
-            sbj_2,rel_2, obj_2 = trip[1]
+        if len(triple) == 1:
+            sbj,_, _ = triple[0]
+            relations = KG.run(f'MATCH (n1)-[r]-(n2) WHERE n1.value= "{sbj}" RETURN type(r) as relation').data()
+        elif len(triple) == 2:
+            sbj_1,rel_1, obj_1 = triple[0]
+            sbj_2,rel_2, obj_2 = triple[1]
             # assert sbj_2 == obj_1
             rel_1 = rel_1.replace("-","_").replace("~","").replace(" ","_").lower()
-            relations = ks.run(f'MATCH (n1)-[r:{rel_1}]-(n2)-[r2]-(n3) WHERE n1.value= "{sbj_1}" and n2.value= "{obj_1}" RETURN type(r2) as relation').data()       
+            relations = KG.run(f'MATCH (n1)-[r:{rel_1}]-(n2)-[r2]-(n3) WHERE n1.value= "{sbj_1}" and n2.value= "{obj_1}" RETURN type(r2) as relation').data()       
         else:
             print("ERROR")
             exit(0)
@@ -231,7 +219,7 @@ def retrive_relation(trip):
 
 
 
-def calculate_log_prob(model, tokenizer, prefix, targets):
+def calculate_log_prob(model, tokenizer, prefix, targets, device):
     label2id = {}
     for target in targets:
         # works for single token label e.g., true or false, yes or no
@@ -239,8 +227,8 @@ def calculate_log_prob(model, tokenizer, prefix, targets):
         label2id[target] = tokenizer(target)["input_ids"][0] # only take the first token
 
     tokenized = tokenizer(prefix, return_tensors='pt')
-    input_ids = tokenized.input_ids.cuda()
-    attention_mask = tokenized.attention_mask.cuda()
+    input_ids = tokenized.input_ids.to(device)
+    attention_mask = tokenized.attention_mask.to(device)
 
     with torch.no_grad():
         outputs = model(input_ids=input_ids, attention_mask=attention_mask)
@@ -296,7 +284,8 @@ def get_triples_2(p,trip_list):
 def generate_response_DKG(model, tokenizer, shot_converter, file_to_eval, 
                       prefix, device, max_number_turns, level, 
                       meta_type="all", gen_len=50, beam=1,max_seq=1024, 
-                      eos_token_id=198, do_sample=False, multigpu=False,verbose=False):
+                      eos_token_id=198, do_sample=False, multigpu=False,
+                      verbose=False, KG=None):
     results = []
     ud_id = 0
     for dialogue in tqdm(json.load(open(file_to_eval,"r"))):
@@ -323,20 +312,20 @@ def generate_response_DKG(model, tokenizer, shot_converter, file_to_eval,
             
             if "\t" in first_gen:
                 triple = get_triples_1(first_gen)
-                node_gen = retrive_nodes(triple)
+                node_gen = retrive_nodes(triple,KG)
                 if len(node_gen)==0:
-                    rel_gen = retrive_relation(triple)
+                    rel_gen = retrive_relation(triple,KG)
                     rel_gen = list(dict.fromkeys(rel_gen))
                     if len(rel_gen)>0:
                         prefix_temp = prefix_query+ f" {triple[0][0]}\t"
-                        next_rel, _ = calculate_log_prob(model,tokenizer,prefix_temp,rel_gen)
+                        next_rel, _ = calculate_log_prob(model,tokenizer,prefix_temp,rel_gen,device)
                         triple[0][1] = next_rel
-                        node_gen = retrive_nodes(triple)
+                        node_gen = retrive_nodes(triple,KG)
                         
 
                 if len(node_gen):
                     prefix_new = prefix_query+ f" {triple[0][0]}\t{triple[0][1]}\t"
-                    next_node, node_score = calculate_log_prob(model,tokenizer,prefix_new,node_gen)
+                    next_node, node_score = calculate_log_prob(model,tokenizer,prefix_new,node_gen,device)
                     triple[0][2] = next_node
                     prefix_new = prefix_new + next_node.strip()
                     
@@ -346,26 +335,26 @@ def generate_response_DKG(model, tokenizer, shot_converter, file_to_eval,
                         triple = get_triples_2(second_gen,triple)
                         node_gen_2 = []
                         if triple[1][0] == triple[0][2]:
-                            node_gen_2 = retrive_nodes(triple)
+                            node_gen_2 = retrive_nodes(triple,KG)
                         else:
                             triple[1][0] = triple[0][2]
 
                         if len(node_gen_2) == 0:
-                            rel_gen = retrive_relation(triple)
+                            rel_gen = retrive_relation(triple,KG)
                             rel_gen = list(dict.fromkeys(rel_gen))
                             if len(rel_gen)>0:
                                 prefix_temp = prefix_new+ f"\t\t{triple[1][0]}\t"
                                 # print(prefix_temp)
-                                next_rel, rel_score = calculate_log_prob(model,tokenizer,prefix_temp,rel_gen)
+                                next_rel, rel_score = calculate_log_prob(model,tokenizer,prefix_temp,rel_gen,device)
                                 # print(next_rel, rel_score)
                                 triple[1][1] = next_rel
-                                node_gen_2 = retrive_nodes(triple)
+                                node_gen_2 = retrive_nodes(triple,KG)
                                 # print(node_gen_2)
                         node_gen_2 = list(filter(lambda node: node != triple[0][0], node_gen_2))
                         # print(node_gen_2)
 
                         prefix_new_2 = prefix_new+ f"\t\t{triple[1][0]}\t{triple[1][1]}\t"
-                        next_node_2, node_score_2 = calculate_log_prob(model,tokenizer,prefix_new_2,node_gen_2)
+                        next_node_2, node_score_2 = calculate_log_prob(model,tokenizer,prefix_new_2,node_gen_2,device)
                         response = [f"{triple[0][0]}\t{triple[0][1]}\t{triple[0][2]}\t\t{triple[1][0]}\t{triple[1][1]}\t{next_node_2}", node_score_2]
                     else:
                         response = [f"{triple[0][0]}\t{triple[0][1]}\t{next_node}", node_score]
@@ -554,9 +543,8 @@ def generate_response(model, tokenizer, shot_converter, file_to_eval,
 
 
 def generate_response_DKG_interactive(model, tokenizer, shot_converter, dialogue, 
-                      prefix, device, max_number_turns, level, 
-                      meta_type="all", gen_len=50, beam=1,max_seq=1024, 
-                      eos_token_id=198, do_sample=False, multigpu=False,verbose=False):
+                      prefix, device, level, gen_len=50, beam=1,max_seq=1024, 
+                      eos_token_id=198, do_sample=False, multigpu=False, verbose=False, KG=None):
         
 
             
@@ -567,20 +555,20 @@ def generate_response_DKG_interactive(model, tokenizer, shot_converter, dialogue
     
     if "\t" in first_gen:
         triple = get_triples_1(first_gen)
-        node_gen = retrive_nodes(triple)
+        node_gen = retrive_nodes(triple,KG)
         if len(node_gen)==0:
-            rel_gen = retrive_relation(triple)
+            rel_gen = retrive_relation(triple,KG)
             rel_gen = list(dict.fromkeys(rel_gen))
             if len(rel_gen)>0:
                 prefix_temp = prefix_query+ f" {triple[0][0]}\t"
-                next_rel, _ = calculate_log_prob(model,tokenizer,prefix_temp,rel_gen)
+                next_rel, _ = calculate_log_prob(model,tokenizer,prefix_temp,rel_gen,device)
                 triple[0][1] = next_rel
-                node_gen = retrive_nodes(triple)
+                node_gen = retrive_nodes(triple,KG)
                 
 
         if len(node_gen):
             prefix_new = prefix_query+ f" {triple[0][0]}\t{triple[0][1]}\t"
-            next_node, node_score = calculate_log_prob(model,tokenizer,prefix_new,node_gen)
+            next_node, node_score = calculate_log_prob(model,tokenizer,prefix_new,node_gen,device)
             triple[0][2] = next_node
             prefix_new = prefix_new + next_node.strip()
             
@@ -590,32 +578,32 @@ def generate_response_DKG_interactive(model, tokenizer, shot_converter, dialogue
                 triple = get_triples_2(second_gen,triple)
                 node_gen_2 = []
                 if triple[1][0] == triple[0][2]:
-                    node_gen_2 = retrive_nodes(triple)
+                    node_gen_2 = retrive_nodes(triple,KG)
                 else:
                     triple[1][0] = triple[0][2]
 
                 if len(node_gen_2) == 0:
-                    rel_gen = retrive_relation(triple)
+                    rel_gen = retrive_relation(triple,KG)
                     rel_gen = list(dict.fromkeys(rel_gen))
                     if len(rel_gen)>0:
                         prefix_temp = prefix_new+ f"\t\t{triple[1][0]}\t"
                         # print(prefix_temp)
-                        next_rel, rel_score = calculate_log_prob(model,tokenizer,prefix_temp,rel_gen)
+                        next_rel, rel_score = calculate_log_prob(model,tokenizer,prefix_temp,rel_gen,device)
                         # print(next_rel, rel_score)
                         triple[1][1] = next_rel
-                        node_gen_2 = retrive_nodes(triple)
+                        node_gen_2 = retrive_nodes(triple,KG)
                         # print(node_gen_2)
                 node_gen_2 = list(filter(lambda node: node != triple[0][0], node_gen_2))
                 # print(node_gen_2)
 
                 prefix_new_2 = prefix_new+ f"\t\t{triple[1][0]}\t{triple[1][1]}\t"
-                next_node_2, node_score_2 = calculate_log_prob(model,tokenizer,prefix_new_2,node_gen_2)
-                response = [f"{triple[0][0]}\t{triple[0][1]}\t{triple[0][2]}\t\t{triple[1][0]}\t{triple[1][1]}\t{next_node_2}", node_score_2]
+                next_node_2, node_score_2 = calculate_log_prob(model,tokenizer,prefix_new_2,node_gen_2,device)
+                response = f"{triple[0][0]}\t{triple[0][1]}\t{triple[0][2]}\t\t{triple[1][0]}\t{triple[1][1]}\t{next_node_2}"
             else:
-                response = [f"{triple[0][0]}\t{triple[0][1]}\t{next_node}", node_score]
+                response = f"{triple[0][0]}\t{triple[0][1]}\t{next_node}"
         else:
-            response = ["None", []]
+            response = "None"
     else: 
-        response = ["None", []]
+        response = "None"
 
     return response

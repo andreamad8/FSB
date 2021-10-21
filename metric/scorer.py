@@ -4,6 +4,7 @@ import numpy as np
 from metric.bleu import moses_multi_bleu
 from metric.smd_scorer import score_SMD
 from metric.general import Rouge_L, BLEU_4, get_F1, feqa_scorer
+from metric.calculator import evaluate_predictions
 
 def load_data(files_test, files_to_score, meta_type):
     with open(files_test, encoding="utf-8") as f:
@@ -28,6 +29,10 @@ def load_data(files_test, files_to_score, meta_type):
             for turn_test, turn_to_score in zip(d_test["KB"], d_to_score["dialogue"]):
                 GOLD.append("None" if len(turn_test) == 0 else turn_test[0])
                 GENR.append("None" if len(turn_to_score) == 0 else turn_to_score[0])
+    elif meta_type == "sentence":
+        for d_test, d_to_score in zip(data_test,data_to_score):
+            GOLD.append(d_test["query"])
+            GENR.append(d_to_score["query"])
     else:
         for d_test, d_to_score in zip(data_test,data_to_score):
             for turn_test, turn_to_score in zip(d_test["dialogue"], d_to_score["dialogue"]):
@@ -60,9 +65,12 @@ def score(files_test, files_to_score, meta_type):
         kf1 = get_F1(GENR,GOLD)
         return {"BLEU":BLEU, "B4":B4*100,"F1":f1*100, "RL":RL*100,"kf1":kf1*100}
     if "dialKG" in files_test:
-        feqa_res =, 0.0
+        feqa_res = 0.0
         # feqa_res, = feqa_scorer(files_test,files_to_score)
         return {"BLEU":BLEU, "B4":B4*100,"F1":f1*100, "RL":RL*100,"feqa":feqa_res}
+    if "TOP" in files_test:
+        acc = evaluate_predictions(GOLD, GENR)
+        return {"BLEU":BLEU, "B4":B4*100,"F1":f1*100, "RL":RL*100,**acc} 
 
     return {"BLEU":BLEU, "B4":B4*100,"F1":f1*100, "RL":RL*100}
 

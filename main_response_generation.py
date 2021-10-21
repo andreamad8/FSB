@@ -13,6 +13,7 @@ from prompts.daily_dialogue import convert_sample_to_shot_DD_prefix, convert_sam
 from prompts.image_chat import convert_sample_to_shot_IC_prefix, convert_sample_to_shot_IC_inference
 from prompts.image_chat_with_img import convert_sample_to_shot_IC_img_prefix, convert_sample_to_shot_IC_img_inference
 from prompts.smd import convert_sample_to_shot_smd, convert_sample_to_shot_smd_custum
+from prompts.semantic_parser import convert_sample_to_shot_semantic_parser
 from tabulate import tabulate
 from metric.scorer import score
 from collections import defaultdict
@@ -84,6 +85,11 @@ mapper = {
                  "file_data":"data/image_chat/img_","with_knowledge":False,
                   "shots":{1024:[0,1,4],2048:[0,1,10]},"shot_separator":"\n\n",
                   "meta_type":"all_turns","gen_len":50,"max_number_turns":5},
+           "top": {"shot_converter":convert_sample_to_shot_semantic_parser, 
+                    "shot_converter_inference": convert_sample_to_shot_semantic_parser,
+                 "file_data":"data/TOP/","level":"sentence","with_knowledge":None,
+                  "shots":{1024:[1, 10],2048:[10, 20]},"shot_separator":"\n\n",
+                  "meta_type":"sentence","gen_len":100,"max_number_turns":2},
          }
 
 if __name__ == "__main__":

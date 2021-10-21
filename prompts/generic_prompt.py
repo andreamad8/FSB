@@ -164,6 +164,24 @@ def evalute_ppl(model, tokenizer, shot_converter, file_to_eval,
                 temp["dialogue"] = temp["dialogue"][-max_number_turns:]
             if verbose: break
         return math.exp(np.mean(loss_list))
+    elif meta_type == "sentence":
+        loss_list = []
+        for dialogue in tqdm(json.load(open(file_to_eval,"r"))):
+            temp =  {"query": "", "dialogue": dialogue["dialogue"]}
+            prefix_plus_dial_history = prefix + shot_converter(sample=temp)+" "
+            if verbose:
+                print('----'*10)
+                print('----'*5+"PREFIX"+'----'*5)
+                print('----'*10)
+                print(prefix_plus_dial_history)
+                print('----'*10)
+            ppl = compute_ppl(model=model, tokenizer=tokenizer, 
+                                device=device, prefix=prefix_plus_dial_history, 
+                                query=dialogue["query"], max_seq=max_seq)
+            loss_list.append(ppl)
+            if verbose:
+                break
+        return math.exp(np.mean(loss_list))
     else:
         loss_list = []
         for dialogue in tqdm(json.load(open(file_to_eval,"r"))):
@@ -320,6 +338,25 @@ def generate_response(model, tokenizer, shot_converter, file_to_eval,
             if verbose: 
                 break
         return results
+    elif meta_type == "sentence":
+        results = []
+        for dialogue in tqdm(json.load(open(file_to_eval,"r"))):
+            temp =  {"query": "", "dialogue": dialogue["dialogue"]}
+            prefix_query = prefix + shot_converter(sample=temp)
+            if verbose:
+                print('----'*10)
+                print('----'*5+"PREFIX"+'----'*5)
+                print('----'*10)
+                print(prefix_query)
+                print('----'*10)
+            response = get_response(model, tokenizer, device, do_sample, beam, prefix_query, gen_len, max_seq, eos_token_id, multigpu)
+            temp["query"] = response
+            if verbose:
+                print(response)
+            results.append(temp)
+            if verbose:
+                break
+        return results
     else:
         results = []
         for dialogue in tqdm(json.load(open(file_to_eval,"r"))):
@@ -456,8 +493,7 @@ def generate_response_interactive(model, tokenizer, shot_converter, dialogue,
                 "numResults": 1, 
                 "maxTokens": input_len+gen_len if input_len+gen_len<max_seq else max_seq, 
                 "stopSequences": ["\n"],
-                "topKReturn": 0,
-                "temperature": 0.0
+                "topP": 0.9
             }
         )
         json_data = json.loads(response.text)

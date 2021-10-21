@@ -4,8 +4,8 @@ import argparse
 import random
 import numpy as np
 from utils.utils import load_model, save_file, checker_file
-from metric import metric_report, argmin
-from prompts.generic_model import load_prefix, evalute_prompt_prob
+from metric.general import metric_report, argmin
+from prompts.generic_prompt import load_prefix, evalute_prompt_prob
 from prompts.skill_selector import convert_sample_to_shot_selector
 from tabulate import tabulate
 from collections import defaultdict
@@ -93,6 +93,22 @@ mapper = {
          }
 
 
+## This is the config dictionary used to select the template converter
+mapper_safety = {
+          "unsa_topic": {"file_data":"data/safety_layers/safety_topic.json","with_knowledge":None,
+                     "shots":{1024:[0,1,2],2048:[0,1,2,3,4,5]},"max_shot":{1024:2,2048:3},
+                     "shot_separator":"\n\n",
+                     "meta_type":"all","gen_len":50,"max_number_turns":2},
+          "unsa_nonadv": {"file_data":"data/safety_layers/safety_nonadv.json","with_knowledge":None,
+                     "shots":{1024:[0,1,2],2048:[0,1,2,3,4,5]},"max_shot":{1024:2,2048:3},
+                     "shot_separator":"\n\n",
+                     "meta_type":"all","gen_len":50,"max_number_turns":2},
+          "unsa_adv": {"file_data":"data/safety_layers/safety_adv.json","with_knowledge":None,
+                     "shots":{1024:[0,1,2],2048:[0,1,2,3,4,5]},"max_shot":{1024:2,2048:3},
+                     "shot_separator":"\n\n",
+                     "meta_type":"all","gen_len":50,"max_number_turns":2},
+         }
+
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
@@ -106,6 +122,7 @@ if __name__ == "__main__":
     parser.add_argument("--do_sample", action='store_true', help="sample n times and rescore based on ppl")
     parser.add_argument("--multigpu", action='store_true', help="run on multiple gpus")
     parser.add_argument("--verbose", action='store_true', help="run on multiple gpus")
+    parser.add_argument("--safety", action='store_true', help="run on multiple gpus")
 
     args = parser.parse_args()
 
@@ -125,21 +142,32 @@ if __name__ == "__main__":
                     file_shot= mapper[d]["file_data"]+"train.json" if "smd" in d else mapper[d]["file_data"]+"valid.json", 
                     name_dataset=d, with_knowledge=mapper[d]["with_knowledge"], 
                     shot_separator=mapper[d]["shot_separator"],sample_times=args.sample_times)
+
+    if args.safety:
+       ## add safety prompts
+       for d in mapper_safety.keys():
+              prefix_dict[d] = load_prefix(tokenizer=tokenizer, shots_value=[args.shots_k], 
+                     shot_converter=convert_sample_to_shot_selector, 
+                     file_shot= mapper_safety[d]["file_data"], 
+                     name_dataset=d, with_knowledge=None, 
+                     shot_separator=mapper_safety[d]["shot_separator"],sample_times=args.sample_times)
+
     for shots_k in [args.shots_k]:
         if checker_file(f"{model_checkpoint}_{shots_k}_{args.repetition}.json"):
             y_test = []
             y_pred = []
             for i_d, d in enumerate(available_datasets):
-                results_to_score = evalute_prompt_prob(model, tokenizer, shot_converter=mapper[d]["shot_converter"], 
+                if d not in mapper_safety.keys():
+                    results_to_score = evalute_prompt_prob(model, tokenizer, shot_converter=mapper[d]["shot_converter"], 
                                         file_to_eval=mapper[d]["file_data"]+"test.json", 
                                         prefix=prefix_dict, device=device, max_number_turns=mapper[d]["max_number_turns"], 
                                         with_knowledge=mapper[d]["with_knowledge"], max_seq=max_seq,
                                         max_shot=shots_k,
                                         meta_type=mapper[d]["meta_type"], verbose=args.verbose, repetition=args.repetition)
-                for res in results_to_score:
-                    pred_id = argmin(list(dict(res).values()))
-                    y_test.append(i_d)
-                    y_pred.append(pred_id)
+                    for res in results_to_score:
+                        pred_id = argmin(list(dict(res).values()))
+                        y_test.append(i_d)
+                        y_pred.append(pred_id)
                     
             # print(f"SHOT: {shots_k}")
             score = metric_report(y_test, y_pred)

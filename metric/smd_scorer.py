@@ -1,6 +1,6 @@
 import json
 import os.path
-from metric.blue import moses_multi_bleu
+from metric.bleu import moses_multi_bleu
 import glob as glob
 import numpy as np
 import jsonlines
