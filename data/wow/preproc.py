@@ -36,18 +36,18 @@ def preproc(split):
                 turns = obj["input"].split("\n")
                 if len(turns)%2 == 0: 
                     turns = ["none"] + turns
-                data.append({"id":obj['id'],"dialogue":chunks(turns+[query],2),"meta":[[query]]})
+                data.append({"id":obj['id'],"dialogue":chunks(turns,2),"query":query})
     return data
+
+data = preproc(f"wow-train-kilt.jsonl")
+
+with open(f'parse-valid.json', 'w') as fp:
+    json.dump(data, fp, indent=4)
 
 data = preproc(f"wow-dev-kilt.jsonl")
 
 with open(f'parse-test.json', 'w') as fp:
     json.dump(data, fp, indent=4)
-
-# data = preproc(f"wow-train-kilt.jsonl")
-# random.shuffle(data)
-# with open(f'parse-valid.json', 'w') as fp:
-#     json.dump(data[:1000], fp, indent=4)
 
 
 

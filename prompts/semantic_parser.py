@@ -1,15 +1,6 @@
-def convert_sample_to_shot_semantic_parser(sample, with_knowledge=None):
-    '''
-        {
-        "meta": [List[str]],
-        "dialogue": [
-                    ["str:User","str:Sys"]
-                    ]
-        }
-    '''
-
+def convert_sample_to_shot_semantic_parser(sample, level=None):
     if sample["query"] != "":
-        return f"User: {sample['dialogue']}\nQuery: {sample['query']}"
+        return f"{sample['dialogue']} {sample['query']}"
     else:
-        return f"User: {sample['dialogue']}\nQuery:"
+        return f"{sample['dialogue']}"
 

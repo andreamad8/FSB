@@ -12,7 +12,7 @@ models = ["gpt2","gpt2-medium","gpt2-large","gpt2-xl",
           "EleutherAI/gpt-j-6B"]
 datasets = ["persona","smd-navigate","smd-schedule",
             "smd-weather","msc-dialogue-2","wow",
-            "wit","ed","dialKG","DD","IC","IC-img"]
+            "wit","ed","dialKG","DD","IC","IC-img","coQA"]
 
 template = "python main_response_generation.py --model_checkpoint {} --dataset {} --gpu "
 experiments = []

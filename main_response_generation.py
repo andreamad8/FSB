@@ -4,6 +4,7 @@ import argparse
 import numpy as np
 from prompts.generic_prompt import load_prefix, load_prefix_by_category, evalute_ppl, generate_response
 from prompts.persona_chat import convert_sample_to_shot_persona
+from prompts.coQA import convert_sample_to_shot_coQA
 from prompts.persona_chat_memory import convert_sample_to_shot_msc
 from prompts.wizard_of_wikipedia import convert_sample_to_shot_wow
 from prompts.wizard_of_internet import convert_sample_to_shot_wit
@@ -85,11 +86,13 @@ mapper = {
                  "file_data":"data/image_chat/img_","with_knowledge":False,
                   "shots":{1024:[0,1,4],2048:[0,1,10]},"shot_separator":"\n\n",
                   "meta_type":"all_turns","gen_len":50,"max_number_turns":5},
-           "top": {"shot_converter":convert_sample_to_shot_semantic_parser, 
-                    "shot_converter_inference": convert_sample_to_shot_semantic_parser,
-                 "file_data":"data/TOP/","level":"sentence","with_knowledge":None,
-                  "shots":{1024:[1, 10],2048:[10, 20]},"shot_separator":"\n\n",
-                  "meta_type":"sentence","gen_len":100,"max_number_turns":2},
+          "coQA": {"shot_converter":convert_sample_to_shot_coQA, 
+                    "shot_converter_inference": convert_sample_to_shot_coQA,
+                     "file_data":"data/coQA/","with_knowledge":None,
+                     "shots":{1024:[0],2048:[0,1]},"shot_separator":"\n\n",
+                     "meta_type":"all","gen_len":50,"max_number_turns":5},
+          "babi5": {},
+          "babi6": {},
          }
 
 if __name__ == "__main__":

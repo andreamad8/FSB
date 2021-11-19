@@ -48,11 +48,14 @@ def score_file(file):
         return 
     prediction = []
     for g, p in zip(gold, pred["generation"]):
-        if p["meta"][0][0] == '':
+        # if p["meta"][0][0] == '':
+        #     prediction.append({"id":g['id'],"title":"","wikipedia_id":000})
+        # else:
+        #     prediction.append({"id":g['id'],"title":p["meta"][0][0].upper()[0] + p["meta"][0][0].lower()[1:],"wikipedia_id":000})
+        if p["query"] == '':
             prediction.append({"id":g['id'],"title":"","wikipedia_id":000})
         else:
-            prediction.append({"id":g['id'],"title":p["meta"][0][0].upper()[0] + p["meta"][0][0].lower()[1:],"wikipedia_id":000})
-
+            prediction.append({"id":g['id'],"title":p["query"].upper()[0] + p["query"].lower()[1:],"wikipedia_id":000})
     pool = mp.Pool(mp.cpu_count())
     prediction = pool.map(_get_pageid_from_api,prediction)
 

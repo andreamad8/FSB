@@ -1,0 +1,1 @@
+wget http://dl.fbaipublicfiles.com/KILT/wow-train-kilt.jsonl

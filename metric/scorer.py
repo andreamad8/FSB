@@ -57,6 +57,15 @@ def score(files_test, files_to_score, meta_type):
     BLEU = moses_multi_bleu(np.array(GENR),np.array(GOLD))
     print("Evaluating F1")
     f1 = get_F1(GENR,GOLD)
+
+    if meta_type == "sentence":
+        acc = 0.0
+        for g, gt in zip(GENR,GOLD):
+            if g.replace(" ","") == gt.replace(" ",""):
+                acc += 1
+        acc = acc/len(GENR)
+        return {"BLEU":BLEU, "B4":B4*100,"F1":f1*100, "RL":RL*100,"acc":acc} 
+
     if "smd" in files_test:
         res = score_SMD(files_to_score, files_test)
         return res

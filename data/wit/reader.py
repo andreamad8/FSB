@@ -1,11 +1,13 @@
 import jsonlines
 import json
+from tqdm import tqdm
 from nltk.tokenize import sent_tokenize
 
 def preproc(split):
     data = []
     with jsonlines.open(f'{split}.jsonl') as reader:
-        for obj in reader:
+        # 
+        for obj in tqdm(reader):
             elm = obj[list(obj.keys())[0]]
             dial = {"id":list(obj.keys())[0],"meta":elm["apprentice_persona"].split("\n"),"dialogue":[]}
             # print("PERSONA: ",elm["apprentice_persona"])
@@ -21,7 +23,11 @@ def preproc(split):
                             if any(s):
                                 for z in [j for j, x in enumerate(s) if x]:
                                     # print(f"KB: {''.join(sent_tokenize(memory[i][z])[:1])}")   
-                                    dial["dialogue"].append({"action":"KB","text":''.join(sent_tokenize(memory[i][z])[:1])})
+                                    try:
+                                        dial["dialogue"].append({"action":"KB","text":''.join(sent_tokenize(memory[i][z])[:1])})
+                                    except:
+                                        dial["dialogue"].append({"action":"KB","text":""})
+
                     dial["dialogue"].append({"action":turn['action'],"text":turn['text']})
                     
                     # print(f"{turn['action']}: {turn['text']}")
@@ -108,5 +114,6 @@ def preproc(split):
     with open(f'{split}.json', 'w') as fp:
         json.dump(data, fp, indent=4)
 
-preproc("valid")
-preproc("test")
+# preproc("valid")
+# preproc("test")
+preproc("train")

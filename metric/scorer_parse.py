@@ -12,6 +12,7 @@ import nltk
 from tqdm import tqdm
 import re
 from dictdiffer import diff
+from metric.calculator import evaluate_predictions
 
 re_art = re.compile(r'\b(a|an|the)\b')
 re_punc = re.compile(r'[!"#$%&()*+,-./:;<=>?@\[\]\\^`{|}~_\']')
@@ -103,11 +104,35 @@ def load_data(files_test, files_to_score, key="meta"):
         data_to_score = data_to_score["generation"]
 
     GOLD, GENR = [], []
-    # assert len(data_test) == len(data_to_score)
-    for d_test, d_to_score in zip(data_test,data_to_score):
-        for meta_test, meta_to_score in zip(d_test[key], d_to_score[key]):
-            GOLD.append("none" if len(meta_test)==0 else meta_test[0])
-            GENR.append(meta_to_score[0])
+    if key == "last_turn":
+
+        for d_test, d_score in zip(data_test, data_to_score):
+            gold_query = d_test["dialogue"][-1][1]
+            GOLD.append(gold_query)
+            GENR.append(d_score["meta"])
+            # break
+    elif key == "meta":
+        for d_test, d_score in zip(data_test, data_to_score):
+            GOLD.append(d_test["meta"])
+            GENR.append(d_score["meta"])
+    elif key == "sentence":
+        for d_test, d_score in zip(data_test, data_to_score):
+            GOLD.append(d_test["query"])
+            GENR.append(d_score["query"])
+    elif key == "dialKG":
+        for d_test, d_score in zip(data_test, data_to_score):
+            if len(d_test["query"]) == 1:
+                query = "\t".join(d_test["query"][0])
+            else:
+                query = "\t".join(d_test["query"][0]) + "\t\t" + "\t".join(d_test["query"][1]) 
+            GOLD.append(query)
+            GENR.append(d_score["query"])
+    else:
+        # assert len(data_test) == len(data_to_score)
+        for d_test, d_to_score in zip(data_test,data_to_score):
+            for meta_test, meta_to_score in zip(d_test[key], d_to_score[key]):
+                GOLD.append("none" if len(meta_test)==0 else meta_test[0])
+                GENR.append(meta_to_score[0])
     return GOLD, GENR
 
 
@@ -191,11 +216,7 @@ def compute_recall_k(GENR,GOLD):
     for (path, entities), gold_path in zip(GENR,GOLD):
 
         for k in [1,3,5,10,25]:
-            if gold_path == "none" and path.lower() == "none":
-                pass
-                # recallk_path[k].append(1)
-                # recallk_ent[k].append(1)
-            elif gold_path == "none" and path.lower() != "none":
+            if gold_path == "none" and path.lower() != "none":
                 recallk_path[k].append(0)
                 recallk_ent[k].append(0)    
             elif gold_path != "none" and path.lower() == "none":
@@ -222,13 +243,17 @@ def compute_acc(pred,gold):
             acc.append(0)
     return np.mean(acc)
 
-def score(files_test, files_to_score, task):
-    if "dialKG" in task:
-        GOLD, GENR = load_data(files_test,files_to_score, key="KG")
+def score(files_test, files_to_score, meta_type):
+    if "dialKG" in meta_type:
+        GOLD, GENR = load_data(files_test,files_to_score, key="dialKG")
         recallk_path, recallk_ent = compute_recall_k(GENR,GOLD) 
         return {**recallk_path,**recallk_ent}
+    elif meta_type in ["top", "flowMWOZ", "semflow"]:
+        GOLD, GENR = load_data(files_test,files_to_score, key="sentence")
+    elif "wow-parse" in meta_type:
+        GOLD, GENR = load_data(files_test,files_to_score, key="last_turn")
     else:
-        GOLD, GENR = load_data(files_test,files_to_score,key="meta")
+        GOLD, GENR = load_data(files_test,files_to_score, key="meta")
 
     print("Evaluating ROUGE-L")
     RL = Rouge_L(GOLD, GENR)
@@ -237,12 +262,25 @@ def score(files_test, files_to_score, task):
     print("Evaluating F1")
     f1 = get_F1(GENR,GOLD)
 
-    if "wit" in task:
+    if "TOP" in files_test:
+        acc = evaluate_predictions(GOLD, GENR)
+        return {"B4":B4*100,"F1":f1*100, "RL":RL*100,**acc} 
+
+    if meta_type in ["flowMWOZ", "semflow"]:
+        acc = 0.0
+        for g, gt in zip(GENR,GOLD):
+            if g.replace(" ","") == gt.replace(" ",""):
+                acc += 1
+        acc = acc/len(GENR)
+        return {"B4":B4*100,"F1":f1*100, "RL":RL*100,"acc":acc} 
+
+
+    if "wit" in meta_type or "wow" in meta_type:
         acc = compute_acc(GENR,GOLD)
 
         return {"B4":B4*100,"F1":f1*100, "RL":RL*100,"acc":acc*100}
 
-    if "mwoz" in task:
+    if "mwoz" in meta_type:
         JGA, SLOT_ACC = compute_JGA(files_test,files_to_score)
         return {"B4":B4*100,"F1":f1*100, "RL":RL*100, "JGA":JGA*100,"SLOT_ACC":SLOT_ACC*100}
     return {"B4":B4*100,"F1":f1*100, "RL":RL*100}

@@ -29,7 +29,7 @@ def load_prefix(tokenizer, shots_value, shot_converter,
         else:
             prefix = ""
             for d in data:
-                prefix += shot_converter(sample=d,with_knowledge=with_knowledge) + shot_separator
+                prefix += shot_converter(sample=d) + shot_separator
                 shots += 1
                 if shots in prefix_shot:
                     prefix_shot[shots] = copy.copy(prefix)
@@ -52,7 +52,7 @@ def load_prefix_by_category(tokenizer, shots_value, shot_converter,
             data = json.load(open(file_shot_,"r"))
             random.Random(i).shuffle(data)
             for d in data:
-                prefix += shot_converter(sample=d,with_knowledge=with_knowledge) + shot_separator
+                prefix += shot_converter(sample=d) + shot_separator
                 shots += 1
                 if shots in prefix_shot:
                     prefix_shot[shots] = copy.copy(prefix)
@@ -113,7 +113,7 @@ def evalute_ppl(model, tokenizer, shot_converter, file_to_eval,
                 if meta_type == "all_turns_category" and id_t == 0:
                     pass
                 else:
-                    prefix_plus_dial_history = prefix + shot_converter(sample=temp,with_knowledge=with_knowledge)+" "
+                    prefix_plus_dial_history = prefix + shot_converter(sample=temp)+" "
                     ppl = compute_ppl(model=model, tokenizer=tokenizer, 
                                     device=device, prefix=prefix_plus_dial_history, 
                                     query=user_utt, max_seq=max_seq)
@@ -139,7 +139,7 @@ def evalute_ppl(model, tokenizer, shot_converter, file_to_eval,
                     pass
                 else:
 
-                    prefix_plus_dial_history = prefix + shot_converter(sample=temp,with_knowledge=with_knowledge)+" "
+                    prefix_plus_dial_history = prefix + shot_converter(sample=temp)+" "
                     ppl = compute_ppl(model=model, tokenizer=tokenizer, 
                                     device=device, prefix=prefix_plus_dial_history, 
                                     query=sys_utt, max_seq=max_seq)
@@ -168,7 +168,10 @@ def evalute_ppl(model, tokenizer, shot_converter, file_to_eval,
         loss_list = []
         for dialogue in tqdm(json.load(open(file_to_eval,"r"))):
             temp =  {"query": "", "dialogue": dialogue["dialogue"]}
-            prefix_plus_dial_history = prefix + shot_converter(sample=temp)+" "
+            prompt = ""
+            for shot in dialogue["shots"][:prefix]:
+                prompt += shot_converter(sample=shot) + "\n\n"
+            prefix_plus_dial_history = prompt + shot_converter(sample=temp)+" "
             if verbose:
                 print('----'*10)
                 print('----'*5+"PREFIX"+'----'*5)
@@ -204,7 +207,7 @@ def evalute_ppl(model, tokenizer, shot_converter, file_to_eval,
                         temp["meta"].append(dialogue['meta'][id_t])
                 ## prepare input prefix
                 ## NOTICE: the last space is needed beacuse of GPT tokenizer 
-                prefix_plus_dial_history = prefix + shot_converter(sample=temp,with_knowledge=with_knowledge)+" "
+                prefix_plus_dial_history = prefix + shot_converter(sample=temp)+" "
                 ppl = compute_ppl(model=model, tokenizer=tokenizer, 
                                 device=device, prefix=prefix_plus_dial_history, 
                                 query=sys_utt, max_seq=max_seq)
@@ -242,6 +245,15 @@ def evalute_ppl(model, tokenizer, shot_converter, file_to_eval,
 def get_response(model, tokenizer, device, do_sample, beam, prefix_query, gen_len, max_seq, eos_token_id, multigpu):
     input_ids = tokenizer(str(prefix_query), return_tensors='pt')
     input_len = len(input_ids['input_ids'][0])
+    if input_len + gen_len > max_seq-100:
+        # remove the first 100 characters from the prefix
+        print("WARNING: the prefix is too long, truncating it") 
+        print(f"Tokenized length: {input_len}")
+        print("Previous prefix length: ", len(prefix_query))
+        prefix_query = prefix_query[300:]
+        print("New prefix length: ", len(prefix_query))
+        input_ids = tokenizer(str(prefix_query), return_tensors='pt')
+        input_len = len(input_ids['input_ids'][0])
 
     if multigpu: 
         with torch.no_grad():
@@ -267,6 +279,13 @@ def get_response(model, tokenizer, device, do_sample, beam, prefix_query, gen_le
     response = response.split("\n")[0].strip()
     return response
     
+
+def get_prompt(dialogue,prefix,shot_converter):
+    prompt = ""
+    for shot in dialogue["shots"][:prefix]:
+        prompt += shot_converter(sample=shot) + "\n\n"
+    return prompt
+
 def generate_response(model, tokenizer, shot_converter, file_to_eval, 
                       prefix, device, max_number_turns, with_knowledge, 
                       meta_type="all", gen_len=50, beam=1,max_seq=1024, 
@@ -294,7 +313,7 @@ def generate_response(model, tokenizer, shot_converter, file_to_eval,
                     response_USR_A = ""
                     pass
                 else:
-                    prefix_query = prefix + shot_converter(sample=temp,with_knowledge=with_knowledge)
+                    prefix_query = prefix + shot_converter(sample=temp)
                     response_USR_A = get_response(model, tokenizer, device, do_sample, beam, prefix_query, gen_len, max_seq, eos_token_id, multigpu)
                     if verbose:
                         print('----'*10)
@@ -315,7 +334,7 @@ def generate_response(model, tokenizer, shot_converter, file_to_eval,
                     response_USR_B = ""
                     pass
                 else:
-                    prefix_query = prefix + shot_converter(sample=temp,with_knowledge=with_knowledge)
+                    prefix_query = prefix + shot_converter(sample=temp)
                     response_USR_B = get_response(model, tokenizer, device, do_sample, beam, prefix_query, gen_len, max_seq, eos_token_id, multigpu)
                     if verbose:
                         print('----'*10)
@@ -342,7 +361,24 @@ def generate_response(model, tokenizer, shot_converter, file_to_eval,
         results = []
         for dialogue in tqdm(json.load(open(file_to_eval,"r"))):
             temp =  {"query": "", "dialogue": dialogue["dialogue"]}
-            prefix_query = prefix + shot_converter(sample=temp)
+            prompt = get_prompt(dialogue,prefix,shot_converter)
+            prefix_query = prompt + shot_converter(sample=temp)
+
+            # check if the prefix is too long
+            input_ids = tokenizer(prefix_query, return_tensors='pt')
+            input_len = len(input_ids['input_ids'][0])
+            shot_number_temp = prefix
+            while input_len + gen_len > max_seq-200:
+                shot_number_temp = shot_number_temp - 1
+                print(f"Prefix too long, decrease shot number from {prefix} to {shot_number_temp}")
+                prompt = get_prompt(dialogue,shot_number_temp,shot_converter)
+                prefix_query = prompt + shot_converter(sample=temp)
+
+                # check if the prefix is too long
+                input_ids = tokenizer(prefix_query, return_tensors='pt')
+                input_len = len(input_ids['input_ids'][0])
+
+   
             if verbose:
                 print('----'*10)
                 print('----'*5+"PREFIX"+'----'*5)
@@ -376,7 +412,7 @@ def generate_response(model, tokenizer, shot_converter, file_to_eval,
                         temp["meta"] = dialogue["meta"]
                     else:
                         temp["meta"].append(dialogue['meta'][id_t])
-                prefix_query = prefix + shot_converter(sample=temp,with_knowledge=with_knowledge)
+                prefix_query = prefix + shot_converter(sample=temp)
                 if verbose:
                     print('----'*10)
                     print('----'*5+"PREFIX"+'----'*5)
@@ -423,7 +459,7 @@ def evalute_prompt_prob(model, tokenizer, shot_converter, file_to_eval,
 
             prompt_ppl = defaultdict()
             for name, prompt in prefix.items():
-                query = shot_converter(sample=temp,with_knowledge=with_knowledge)
+                query = shot_converter(sample=temp)
                 ppl = compute_ppl(model=model, tokenizer=tokenizer, 
                                 device=device, prefix=prompt[repetition][max_shot] + " ", 
                                 query=query, 

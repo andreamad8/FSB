@@ -1,17 +1,19 @@
-def convert_sample_to_shot_dialKG(sample, level):
+def convert_sample_to_shot_dialKG(sample, level=None):
     prefix = "Dialogue:\n"
-    assert len(sample["dialogue"]) == len(sample["KG"])
-    for turn, meta in zip(sample["dialogue"],sample["KG"]):
-        prefix += f"User: {turn[0]}" +"\n"
-        if turn[1] != "":
-            if len(meta)>0:
-                prefix += f"KG: {meta[0]}" +"\n"
-            else:
-                prefix += f"KG: None" +"\n"
-        if turn[1] == "":
-            prefix += f"KG:" 
-            return prefix
-        else:
+    for id_t, turn in enumerate(sample["dialogue"]):
+        if len(turn) == 2:
+            prefix += f"User: {turn[0]}" +"\n"
             prefix += f"Assistant: {turn[1]}" +"\n"
-            
+        else:
+            prefix += f"User: {turn[0]}" +"\n"
+    
+    if sample["query"] == "":
+        prefix += f"Search:"
+    else:
+        if len(sample["query"]) == 1:
+            query = "\t".join(sample["query"][0])
+        else:
+            query = "\t".join(sample["query"][0]) + "\t\t" + "\t".join(sample["query"][1]) 
+        prefix += f"Search: {query}" 
+
     return prefix

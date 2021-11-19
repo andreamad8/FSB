@@ -54,6 +54,7 @@ def evaluate_predictions(gold_list: list, pred_list: list) -> Dict:
     instance_count: int = 0
     exact_matches: int = 0
     invalid_preds: float = 0
+    exact_match_brutal: int = 0
     labeled_bracketing_scores = Calculator(strict=False)
     tree_labeled_bracketing_scores = Calculator(strict=True)
 
@@ -65,6 +66,9 @@ def evaluate_predictions(gold_list: list, pred_list: list) -> Dict:
         except AttributeError:
             print("WARNING: check format and length of files")
             quit()
+
+        if gold_line.replace(" ","") == pred_line.replace(" ",""):
+            exact_match_brutal += 1
 
         try:
             gold_tree = Tree(gold_line)
@@ -79,7 +83,7 @@ def evaluate_predictions(gold_list: list, pred_list: list) -> Dict:
             tree_labeled_bracketing_scores.add_instance(
                 gold_tree, pred_tree)
         except ValueError:
-            print("WARNING: found invalid line in pred file:", pred_line)
+            # print("WARNING: found invalid line in pred file:", pred_line)
             invalid_preds += 1
             labeled_bracketing_scores.add_instance(gold_tree)
             tree_labeled_bracketing_scores.add_instance(gold_tree)
@@ -92,6 +96,8 @@ def evaluate_predictions(gold_list: list, pred_list: list) -> Dict:
         exact_matches / instance_count) if instance_count else 0
     tree_validity_fraction: float = (
         1 - (invalid_preds / instance_count)) if instance_count else 0
+    exact_match_fraction_brutal: float = (
+        exact_match_brutal / instance_count) if instance_count else 0
 
     return {
         "instance_count":
@@ -103,5 +109,6 @@ def evaluate_predictions(gold_list: list, pred_list: list) -> Dict:
         "tree_labeled_bracketing_scores":
         tree_labeled_bracketing_scores.get_metrics(),
         "tree_validity":
-        tree_validity_fraction
+        tree_validity_fraction,
+        "exact_match_brutal": exact_match_fraction_brutal
     }
