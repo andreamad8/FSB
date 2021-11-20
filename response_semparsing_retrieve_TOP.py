@@ -8,7 +8,7 @@ GPU_available = [0]
 N_GPU = len(GPU_available)
 
 models = ["EleutherAI/gpt-j-6B"]
-datasets = ["TOP"]
+datasets = ["top"]
 files = [
         "data/TOP/test_dynamic_all-mpnet-base-v2_0.01_0.json",
         "data/TOP/test_dynamic_all-mpnet-base-v2_0.1_0.json",

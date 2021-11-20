@@ -368,7 +368,7 @@ def generate_response(model, tokenizer, shot_converter, file_to_eval,
             input_ids = tokenizer(prefix_query, return_tensors='pt')
             input_len = len(input_ids['input_ids'][0])
             shot_number_temp = prefix
-            while input_len + gen_len > max_seq-200:
+            while input_len + gen_len > max_seq-100:
                 shot_number_temp = shot_number_temp - 1
                 print(f"Prefix too long, decrease shot number from {prefix} to {shot_number_temp}")
                 prompt = get_prompt(dialogue,shot_number_temp,shot_converter)

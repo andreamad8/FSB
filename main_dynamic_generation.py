@@ -2,7 +2,7 @@ import json
 import os
 import argparse
 import numpy as np
-from prompts.generic_prompt import evalute_ppl, generate_response
+from prompts.generic_prompt_parser import evalute_ppl, generate_response
 from prompts.semantic_parser import convert_sample_to_shot_semantic_parser
 from prompts.wizard_of_wikipedia_parse import convert_sample_to_shot_wow
 from prompts.dialKG_parser import convert_sample_to_shot_dialKG

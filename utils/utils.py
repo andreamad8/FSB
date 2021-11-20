@@ -6,7 +6,7 @@ import os
 def load_model(args,model_checkpoint,device):
     print(f"LOADING {model_checkpoint}")
     if "gpt-j"in model_checkpoint or "neo"in model_checkpoint:
-        model = AutoModelForCausalLM.from_pretrained(model_checkpoint)
+        model = AutoModelForCausalLM.from_pretrained(model_checkpoint, low_cpu_mem_usage=True)
         tokenizer = AutoTokenizer.from_pretrained(model_checkpoint)
         if args.multigpu:
             from parallelformers import parallelize
