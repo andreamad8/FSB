@@ -1,14 +1,7 @@
-import os
 import json
-import math
-import torch
 import numpy as np
-from itertools import chain
 from collections import Counter
 import glob
-from collections import defaultdict
-from tabulate import tabulate
-import nltk
 from tqdm import tqdm
 import re
 from dictdiffer import diff
@@ -250,8 +243,6 @@ def score(files_test, files_to_score, meta_type):
         return {**recallk_path,**recallk_ent}
     elif meta_type in ["top", "flowMWOZ", "semflow"]:
         GOLD, GENR = load_data(files_test,files_to_score, key="sentence")
-    elif "wow-parse" in meta_type:
-        GOLD, GENR = load_data(files_test,files_to_score, key="last_turn")
     else:
         GOLD, GENR = load_data(files_test,files_to_score, key="meta")
 
@@ -262,7 +253,7 @@ def score(files_test, files_to_score, meta_type):
     print("Evaluating F1")
     f1 = get_F1(GENR,GOLD)
 
-    if "TOP" in files_test:
+    if meta_type == "top":
         acc = evaluate_predictions(GOLD, GENR)
         return {"B4":B4*100,"F1":f1*100, "RL":RL*100,**acc} 
 
@@ -298,15 +289,3 @@ if __name__ == "__main__":
         data_test["score"] = sco
         with open(file, 'w') as fp:
             json.dump(data_test, fp, indent=4)
-
-    #     sco["name"] = file.replace("generations/dialKG-parse","")
-    #     table.append(sco)
-    # print(tabulate(table, floatfmt=".2f"))
-
-    # table = []
-    # for file in tqdm(glob.glob("generations/wit-parse_*.json")):
-    #     print(file)
-    #     sco = score("data/wit/parse-test.json",file,"wit")
-    #     sco["name"] = file.replace("generations/wit-parse","")
-    #     table.append(sco)
-    # print(tabulate(table, floatfmt=".2f"))

@@ -1,18 +1,11 @@
-import json
 import os
 import argparse
-import numpy as np
 from prompts.generic_prompt_parser import evalute_ppl, generate_response
 from prompts.semantic_parser import convert_sample_to_shot_semantic_parser
 from prompts.wizard_of_wikipedia_parse import convert_sample_to_shot_wow
 from prompts.dialKG_parser import convert_sample_to_shot_dialKG
-from tabulate import tabulate
-from metric.scorer import score
-from collections import defaultdict
+from metric.scorer_parse import score
 from py2neo import Graph
-import os
-from tqdm import tqdm
-import glob
 from utils.utils import load_model, save_file, checker_file
 
 os.environ["TOKENIZERS_PARALLELISM"] = "false"
@@ -110,7 +103,7 @@ if __name__ == "__main__":
                                                                beam=beam, max_seq=max_seq, eos_token_id=198, 
                                                                do_sample=args.do_sample, multigpu=args.multigpu,verbose=args.verbose)
 
-                            res_score = score(files_test=args.filedata,files_to_score=generation_out, meta_type=mapper[d]["meta_type"])
+                            res_score = score(files_test=args.filedata,files_to_score=generation_out, meta_type=d)
                             print(res_score)
 
                             ppl_score = evalute_ppl(model, tokenizer, shot_converter=mapper[d]["shot_converter"], 
