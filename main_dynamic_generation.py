@@ -105,7 +105,7 @@ if __name__ == "__main__":
                             generation_out = generate_response(model, tokenizer, shot_converter=mapper[d]["shot_converter"], 
                                                                file_to_eval=args.filedata, prefix=shots, 
                                                                device=device, max_number_turns=mapper[d]["max_number_turns"], 
-                                                               with_knowledge=None, 
+                                                               level=None, 
                                                                meta_type=mapper[d]["meta_type"], gen_len=mapper[d]["gen_len"], 
                                                                beam=beam, max_seq=max_seq, eos_token_id=198, 
                                                                do_sample=args.do_sample, multigpu=args.multigpu,verbose=args.verbose)
@@ -116,7 +116,7 @@ if __name__ == "__main__":
                             ppl_score = evalute_ppl(model, tokenizer, shot_converter=mapper[d]["shot_converter"], 
                                                         file_to_eval=args.filedata, 
                                                         prefix=shots, device=device, max_number_turns=mapper[d]["max_number_turns"], 
-                                                        with_knowledge=None, max_seq=max_seq,
+                                                        level=None, max_seq=max_seq,
                                                         meta_type=mapper[d]["meta_type"], verbose=args.verbose)
                             res_score["ppl"] = ppl_score
                             print(res_score)
