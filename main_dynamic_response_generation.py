@@ -1,6 +1,6 @@
 import os
 import argparse
-from prompts.generic_prompt import evalute_ppl, generate_response
+from prompts.generic_prompt import evalute_ppl, generate_response_dynamic
 from prompts.bAbi_dialogue import convert_sample_to_shot_bAbi
 from metric.scorer_parse import score
 from utils.utils import load_model, save_file, checker_file
@@ -61,7 +61,7 @@ if __name__ == "__main__":
               if checker_file(f"{d}_{shots}_{model_checkpoint}_{name_experiment}.json") or args.verbose:
 
 
-                     generation_out = generate_response(model, tokenizer, shot_converter=mapper[d]["shot_converter"], 
+                     generation_out = generate_response_dynamic(model, tokenizer, shot_converter=mapper[d]["shot_converter"], 
                                                         file_to_eval=args.filedata, prefix=shots, 
                                                         device=device, max_number_turns=mapper[d]["max_number_turns"], 
                                                         level=None, 

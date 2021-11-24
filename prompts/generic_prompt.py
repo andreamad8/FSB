@@ -164,27 +164,6 @@ def evalute_ppl(model, tokenizer, shot_converter, file_to_eval,
                 temp["dialogue"] = temp["dialogue"][-max_number_turns:]
             if verbose: break
         return math.exp(np.mean(loss_list))
-    elif meta_type == "sentence":
-        loss_list = []
-        for dialogue in tqdm(json.load(open(file_to_eval,"r"))):
-            temp =  {"query": "", "dialogue": dialogue["dialogue"]}
-            prompt = ""
-            for shot in dialogue["shots"][:prefix]:
-                prompt += shot_converter(sample=shot) + "\n\n"
-            prefix_plus_dial_history = prompt + shot_converter(sample=temp)+" "
-            if verbose:
-                print('----'*10)
-                print('----'*5+"PREFIX"+'----'*5)
-                print('----'*10)
-                print(prefix_plus_dial_history)
-                print('----'*10)
-            ppl = compute_ppl(model=model, tokenizer=tokenizer, 
-                                device=device, prefix=prefix_plus_dial_history, 
-                                query=dialogue["query"], max_seq=max_seq)
-            loss_list.append(ppl)
-            if verbose:
-                break
-        return math.exp(np.mean(loss_list))
     else:
         loss_list = []
         for dialogue in tqdm(json.load(open(file_to_eval,"r"))):
@@ -357,40 +336,128 @@ def generate_response(model, tokenizer, shot_converter, file_to_eval,
             if verbose: 
                 break
         return results
-    elif meta_type == "sentence":
+    else:
         results = []
         for dialogue in tqdm(json.load(open(file_to_eval,"r"))):
-            temp =  {"query": "", "dialogue": dialogue["dialogue"]}
-            prompt = get_prompt(dialogue,prefix,shot_converter)
-            prefix_query = prompt + shot_converter(sample=temp)
+            if meta_type == "all":
+                temp =  {"meta": dialogue["meta"], "dialogue": []}
+            elif meta_type == "incremental" or meta_type == "none":
+                temp =  {"meta": [], "dialogue": [], "KB": []}
+            else:
+                print("Choose a meta-type")
 
-            # check if the prefix is too long
-            input_ids = tokenizer(prefix_query, return_tensors='pt')
-            input_len = len(input_ids['input_ids'][0])
-            shot_number_temp = prefix
-            while input_len + gen_len > max_seq-100:
-                shot_number_temp = shot_number_temp - 1
-                print(f"Prefix too long, decrease shot number from {prefix} to {shot_number_temp}")
-                prompt = get_prompt(dialogue,shot_number_temp,shot_converter)
-                prefix_query = prompt + shot_converter(sample=temp)
+            res_temp =  {"meta": [], "dialogue": []}
+            if "id" in dialogue:
+                res_temp["id"] = dialogue["id"]
+            for id_t, [user_utt, sys_utt] in enumerate(dialogue["dialogue"]):
+                temp["dialogue"].append([user_utt,""])
+                if meta_type == "incremental":
+                    if "KB" in dialogue:
+                        temp["KB"].append(dialogue['KB'][id_t])
+                        temp["meta"] = dialogue["meta"]
+                    else:
+                        temp["meta"].append(dialogue['meta'][id_t])
+                prefix_query = prefix + shot_converter(sample=temp)
+                if verbose:
+                    print('----'*10)
+                    print('----'*5+"PREFIX"+'----'*5)
+                    print('----'*10)
+                    print(prefix_query)
+                    print('----'*10)
 
-                # check if the prefix is too long
-                input_ids = tokenizer(prefix_query, return_tensors='pt')
-                input_len = len(input_ids['input_ids'][0])
+                response = get_response(model, tokenizer, device, do_sample, beam, prefix_query, gen_len, max_seq, eos_token_id, multigpu)
+                res_temp["dialogue"].append([response])
+                if verbose:
+                    print('----'*10)
+                    print('----'*5+"RESPONSE"+'----'*5)
+                    print('----'*10)
+                    print(response)
+                    print('----'*10)
+                    input()
+                temp["dialogue"][-1][1] = sys_utt
+                temp["dialogue"] = temp["dialogue"][-max_number_turns:]
+                if meta_type == "incremental":
+                    if "KB" in dialogue:
+                        temp["KB"] = temp["KB"][-max_number_turns:]
+                        assert len(temp["dialogue"]) == len(temp["KB"])
+                    else:
+                        temp["meta"] = temp["meta"][-max_number_turns:]
+                        assert len(temp["dialogue"]) == len(temp["meta"])
+            results.append(res_temp)
+            if verbose:
+                break
+        return results
 
-   
-            if verbose:
-                print('----'*10)
-                print('----'*5+"PREFIX"+'----'*5)
-                print('----'*10)
-                print(prefix_query)
-                print('----'*10)
-            response = get_response(model, tokenizer, device, do_sample, beam, prefix_query, gen_len, max_seq, eos_token_id, multigpu)
-            temp["query"] = response
-            if verbose:
-                print(response)
-            results.append(temp)
-            if verbose:
+
+def generate_response_dynamic(model, tokenizer, shot_converter, file_to_eval, 
+                      prefix, device, max_number_turns, with_knowledge, 
+                      meta_type="all", gen_len=50, beam=1,max_seq=1024, 
+                      eos_token_id=198, do_sample=False, multigpu=False, verbose=False):
+
+    if "all_turns" in meta_type:
+        results = []
+        for dialogue in tqdm(json.load(open(file_to_eval,"r"))):
+            if meta_type == "all_turns_category":
+                temp =  {"personalities": [], "dialogue": []}
+            else:
+                temp =  {"meta": [], "dialogue": []}
+            if "img" in dialogue:   
+                temp["img"] = dialogue["img"]
+                temp["personalities"] = []
+            
+            res_temp =  {"meta":dialogue["meta"] , "dialogue": []}
+
+            for id_t, [user_utt, sys_utt] in enumerate(dialogue["dialogue"]):
+                temp["dialogue"].append(["",""])
+                if meta_type == "all_turns_category" or "img" in temp:
+                    temp["personalities"].append(dialogue["personalities"][id_t])
+
+                if meta_type == "all_turns_category" and id_t == 0:
+                    response_USR_A = ""
+                    pass
+                else:
+                    prefix_query = prefix + shot_converter(sample=temp)
+                    response_USR_A = get_response(model, tokenizer, device, do_sample, beam, prefix_query, gen_len, max_seq, eos_token_id, multigpu)
+                    if verbose:
+                        print('----'*10)
+                        print('----'*5+"PREFIX"+'----'*5)
+                        print('----'*10)
+                        print(prefix_query)
+                        print('----'*10)
+                        print('----'*10)
+                        print('----'*5+"RESPONSE"+'----'*5)
+                        print('----'*10)
+                        print(response_USR_A)
+                        print('----'*10)
+                        input()
+
+                temp["dialogue"][-1][0] = user_utt
+
+                if sys_utt == "" or meta_type == "all_turns_category":
+                    response_USR_B = ""
+                    pass
+                else:
+                    prefix_query = prefix + shot_converter(sample=temp)
+                    response_USR_B = get_response(model, tokenizer, device, do_sample, beam, prefix_query, gen_len, max_seq, eos_token_id, multigpu)
+                    if verbose:
+                        print('----'*10)
+                        print('----'*5+"PREFIX"+'----'*5)
+                        print('----'*10)
+                        print(prefix_query)
+                        print('----'*10)
+                        print('----'*10)
+                        print('----'*5+"RESPONSE"+'----'*5)
+                        print('----'*10)
+                        print(response_USR_B)
+                        print('----'*10)
+                        input()
+                temp["dialogue"][-1][1] = sys_utt
+
+                res_temp["dialogue"].append([response_USR_A,response_USR_B])
+                temp["dialogue"] = temp["dialogue"][-max_number_turns:]
+
+            results.append(res_temp)
+            if verbose: 
                 break
         return results
     else:
@@ -444,6 +511,7 @@ def generate_response(model, tokenizer, shot_converter, file_to_eval,
             if verbose:
                 break
         return results
+
 
 
 def evalute_prompt_prob(model, tokenizer, shot_converter, file_to_eval, 
