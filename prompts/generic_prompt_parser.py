@@ -1,16 +1,11 @@
 import torch
 import math
 import numpy as np
-import re
 import json
 from tqdm import tqdm
 import logging
 import copy
 import random
-import requests
-from cleantext import clean
-from nltk.tokenize import sent_tokenize
-from py2neo import Graph, Node, Relationship
 logging.getLogger('transformers.generation_utils').setLevel(logging.CRITICAL)
 
 

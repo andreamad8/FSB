@@ -15,6 +15,7 @@ git clone https://github.com/ruotianluo/ImageCaptioning.pytorch.git
 cd ImageCaptioning.pytorch
 python -m pip install -e .
 pip install lmdbdict
+pip install h5py
 pip install scikit-image
 pip install git+https://github.com/ruotianluo/meshed-memory-transformer.git
 gdown https://drive.google.com/uc\?id\=1VmUzgu0qlmCMqM1ajoOZxOXP3hiC_qlL

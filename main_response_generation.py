@@ -4,6 +4,7 @@ import argparse
 import numpy as np
 from prompts.generic_prompt import load_prefix, load_prefix_by_category, evalute_ppl, generate_response
 from prompts.persona_chat import convert_sample_to_shot_persona
+from prompts.bAbi_dialogue import convert_sample_to_shot_bAbi
 from prompts.coQA import convert_sample_to_shot_coQA
 from prompts.persona_chat_memory import convert_sample_to_shot_msc
 from prompts.wizard_of_wikipedia import convert_sample_to_shot_wow
@@ -91,8 +92,26 @@ mapper = {
                      "file_data":"data/coQA/","with_knowledge":None,
                      "shots":{1024:[0],2048:[0,1]},"shot_separator":"\n\n",
                      "meta_type":"all","gen_len":50,"max_number_turns":5},
-          "babi5": {},
-          "babi6": {},
+          "babi5-first": {"shot_converter":convert_sample_to_shot_bAbi, 
+                    "shot_converter_inference": convert_sample_to_shot_bAbi,
+                     "file_data":"data/dialog-bAbI-tasks/bAbI-dial-5-first-","with_knowledge":None,
+                     "shots":{2048:[8,1,5]},"shot_separator":"\n\n",
+                     "meta_type":"all","gen_len":50,"max_number_turns":3},
+          "babi5-first-OOV": {"shot_converter":convert_sample_to_shot_bAbi, 
+                    "shot_converter_inference": convert_sample_to_shot_bAbi,
+                     "file_data":"data/dialog-bAbI-tasks/bAbI-dial-5-OOV-first-","with_knowledge":None,
+                     "shots":{2048:[8,1,5]},"shot_separator":"\n\n",
+                     "meta_type":"all","gen_len":50,"max_number_turns":3},
+          "babi5-second": {"shot_converter":convert_sample_to_shot_bAbi, 
+                    "shot_converter_inference": convert_sample_to_shot_bAbi,
+                     "file_data":"data/dialog-bAbI-tasks/bAbI-dial-5-second-","with_knowledge":None,
+                     "shots":{2048:[1]},"shot_separator":"\n\n",
+                     "meta_type":"all","gen_len":50,"max_number_turns":3},
+          "babi5-second-OOV": {"shot_converter":convert_sample_to_shot_bAbi, 
+                    "shot_converter_inference": convert_sample_to_shot_bAbi,
+                     "file_data":"data/dialog-bAbI-tasks/bAbI-dial-5-OOV-second-","with_knowledge":None,
+                     "shots":{2048:[1]},"shot_separator":"\n\n",
+                     "meta_type":"all","gen_len":50,"max_number_turns":3},
          }
 
 if __name__ == "__main__":
@@ -101,7 +120,7 @@ if __name__ == "__main__":
     parser.add_argument("--dataset", default="persona",type=str,required=True)
     parser.add_argument("--gpu", type=int, default=0)
     parser.add_argument("--beam", type=int, default=1)
-    parser.add_argument("--sample_times", type=int, default=3)
+    parser.add_argument("--sample_times", type=int, default=2)
     parser.add_argument("--do_sample", action='store_true', help="sample n times and rescore based on ppl")
     parser.add_argument("--multigpu", action='store_true', help="run on multiple gpus")
     parser.add_argument("--verbose", action='store_true', help="run on multiple gpus")

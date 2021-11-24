@@ -96,7 +96,12 @@ results = defaultdict(lambda: defaultdict(lambda: defaultdict(list)))
 table = []
 for file_name in tqdm(glob.glob("../generations/flowMWOZ*.json")):
     # read the file and check if JGA is in score dict
-    _, shot, _, _, ranker, percentaege, trial = file_name.split("/")[-1].replace(".json","").split("_")
+    if len(file_name.split("/")[-1].replace(".json","").split("_")) == 5:
+        percentaege = 1.0
+        _, shot, ranker, _, trial = file_name.split("/")[-1].replace(".json","").split("_")
+    else:
+        print(file_name)
+        _, shot, _, ranker, percentaege, trial = file_name.split("/")[-1].replace(".json","").split("_")
     with open(file_name, encoding="utf-8") as f:
         data_score = json.load(f)
     with open(file_name, 'w') as f:

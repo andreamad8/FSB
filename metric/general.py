@@ -1,15 +1,7 @@
 from collections import Counter
-import glob
-from collections import defaultdict
-from tabulate import tabulate
-import nltk
 import json
-import benepar
-from tqdm import tqdm
 import re
-from nltk import word_tokenize
 import numpy as np
-from sklearn.metrics import confusion_matrix
 from sklearn.metrics import accuracy_score, precision_score, recall_score, f1_score
 
 ### this function are taken from ParlAI

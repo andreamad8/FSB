@@ -404,6 +404,8 @@ def generate_response(model, tokenizer, shot_converter, file_to_eval,
                 print("Choose a meta-type")
 
             res_temp =  {"meta": [], "dialogue": []}
+            if "id" in dialogue:
+                res_temp["id"] = dialogue["id"]
             for id_t, [user_utt, sys_utt] in enumerate(dialogue["dialogue"]):
                 temp["dialogue"].append([user_utt,""])
                 if meta_type == "incremental":
