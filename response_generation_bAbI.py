@@ -4,12 +4,13 @@ import os
 import time
 
 # Define number of GPUs available
-GPU_available = [0,1]
+GPU_available = [0]
 N_GPU = len(GPU_available)
 
-models = ["EleutherAI/gpt-neo-1.3B","EleutherAI/gpt-neo-2.7B",
-          "EleutherAI/gpt-j-6B"]
-datasets = ["babi5-first","babi5-second","babi5-first-OOV","babi5-second-OOV"]
+models = ["EleutherAI/gpt-j-6B"]
+# models = ["EleutherAI/gpt-neo-1.3B","EleutherAI/gpt-neo-2.7B", "EleutherAI/gpt-j-6B"]
+datasets = ["babi5-second-OOV"]
+# datasets = ["babi5-first","babi5-second","babi5-first-OOV","babi5-second-OOV"]
 
 template = "python main_response_generation.py --model_checkpoint {} --dataset {} --gpu "
 experiments = []

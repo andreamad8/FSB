@@ -224,15 +224,14 @@ def evalute_ppl(model, tokenizer, shot_converter, file_to_eval,
 def get_response(model, tokenizer, device, do_sample, beam, prefix_query, gen_len, max_seq, eos_token_id, multigpu):
     input_ids = tokenizer(str(prefix_query), return_tensors='pt')
     input_len = len(input_ids['input_ids'][0])
-    if input_len + gen_len > max_seq-100:
-        # remove the first 100 characters from the prefix
+    if input_len + gen_len > max_seq-200:
         print("WARNING: the prefix is too long, truncating it") 
         print(f"Tokenized length: {input_len}")
-        print("Previous prefix length: ", len(prefix_query))
-        prefix_query = prefix_query[300:]
-        print("New prefix length: ", len(prefix_query))
-        input_ids = tokenizer(str(prefix_query), return_tensors='pt')
+        token_to_remove = input_len + gen_len - (max_seq - 200)
+        input_ids['input_ids'] = input_ids['input_ids'][:,token_to_remove:]
         input_len = len(input_ids['input_ids'][0])
+
+        print(f"New Tokenized length: {input_len}")
 
     if multigpu: 
         with torch.no_grad():
