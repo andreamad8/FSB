@@ -126,10 +126,10 @@ mapper_safety = {
                      "shot_separator":"\n\n",
                      "meta_type":"all","gen_len":50,"max_number_turns":2},
         ## THIS MAKE IT VERY VERY SAFE
-          "unsa_adv": {"file_data":"data/safety_layers/safety_adv.json","with_knowledge":None,
-                     "shots":{1024:[0,1,2],2048:[0,1,2,3,4,5]},"max_shot":{1024:2,2048:3},
-                     "shot_separator":"\n\n",
-                     "meta_type":"all","gen_len":50,"max_number_turns":2},
+        #   "unsa_adv": {"file_data":"data/safety_layers/safety_adv.json","with_knowledge":None,
+        #              "shots":{1024:[0,1,2],2048:[0,1,2,3,4,5]},"max_shot":{1024:2,2048:3},
+        #              "shot_separator":"\n\n",
+        #              "meta_type":"all","gen_len":50,"max_number_turns":2},
          }
 
 
