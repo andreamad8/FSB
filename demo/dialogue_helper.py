@@ -9,21 +9,22 @@ from prompts.wizard_of_wikipedia import convert_sample_to_shot_wow, convert_samp
 from prompts.wizard_of_wikipedia_parse import convert_sample_to_shot_wow as convert_sample_to_shot_wow_parse
 import wikipedia
 import html
+import random
 
 ## This is the config dictionary used to select the template converter
 mapper = {
           "persona": {"shot_converter":convert_sample_to_shot_persona, 
                     "shot_converter_inference": convert_sample_to_shot_persona,
                      "file_data":"../data/persona/","with_knowledge":None,
-                     "shots":{1024:[0,1,2],2048:[0,1,2,3,4,5]},"max_shot":{1024:2,2048:6},
+                     "shots":{1024:[0,1,2],2048:[0,1,2,3,4,5,6]},"max_shot":{1024:2,2048:6},
                      "shot_separator":"\n\n",
                      "meta_type":"all","gen_len":50,"max_number_turns":5},
-          "msc": {"shot_converter":convert_sample_to_shot_msc, 
-                    "shot_converter_inference": convert_sample_to_shot_msc_interact,
-                     "file_data":"../data/msc/session-2-","with_knowledge":None,
-                     "shots":{1024:[0,1],2048:[0,1,3]},"max_shot":{1024:1,2048:3},
-                     "shot_separator":"\n\n",
-                     "meta_type":"all","gen_len":50,"max_number_turns":3},
+        #   "msc": {"shot_converter":convert_sample_to_shot_msc, 
+        #             "shot_converter_inference": convert_sample_to_shot_msc_interact,
+        #              "file_data":"../data/msc/session-2-","with_knowledge":None,
+        #              "shots":{1024:[0,1],2048:[0,1,3]},"max_shot":{1024:1,2048:3},
+        #              "shot_separator":"\n\n",
+        #              "meta_type":"all","gen_len":50,"max_number_turns":3},
           "ed": {"shot_converter":convert_sample_to_shot_ed, 
                  "shot_converter_inference": convert_sample_to_shot_ed,
                  "file_data":"../data/ed/","with_knowledge":None,
@@ -36,11 +37,11 @@ mapper = {
                   "shots":{1024:[0,1,2],2048:[0,1,6]},"max_shot":{1024:2,2048:6},
                   "shot_separator":"\n\n",
                   "meta_type":"all_turns","gen_len":50,"max_number_turns":5},
-          "msc-parse": {"shot_converter":convert_sample_to_shot_msc_parse, "max_shot":{1024:1,2048:2},
-                 "file_data":"../data/msc/parse-session-1-","level":"dialogue", "retriever":"none",
-                  "shots":{1024:[0,1],2048:[0, 1, 2]},"shot_separator":"\n\n",
-                  "meta_type":"incremental","gen_len":50,"max_number_turns":3}, 
-            "safe": {"shot_converter":convert_sample_to_shot_persona, 
+        #   "msc-parse": {"shot_converter":convert_sample_to_shot_msc_parse, "max_shot":{1024:1,2048:2},
+        #          "file_data":"../data/msc/parse-session-1-","level":"dialogue", "retriever":"none",
+        #           "shots":{1024:[0,1],2048:[0, 1, 2]},"shot_separator":"\n\n",
+        #           "meta_type":"incremental","gen_len":50,"max_number_turns":3}, 
+           "safe": {"shot_converter":convert_sample_to_shot_persona, 
                  "shot_converter_inference": convert_sample_to_shot_persona,
                  "file_data":"../data/safety_layers/safety_safe_adv_","with_knowledge":None,
                   "shots":{1024:[0,1,5],2048:[0,1,10]},"max_shot":{1024:5,2048:10},
@@ -49,7 +50,7 @@ mapper = {
           "wow": {"shot_converter":convert_sample_to_shot_wow, 
                  "shot_converter_inference": convert_sample_to_shot_wow_interact,
                  "file_data":"../data/wow/","with_knowledge":True,
-                  "shots":{1024:[0,1,2],2048:[4,3,2,1,0]},"max_shot":{1024:1,2048:3},
+                  "shots":{1024:[0,1,2],2048:[4,3,2,1,0]},"max_shot":{1024:1,2048:1},
                   "shot_separator":"\n\n",
                   "meta_type":"incremental","gen_len":60,"max_number_turns":5},
           "wow-parse": {"shot_converter":convert_sample_to_shot_wow_parse, 
@@ -69,19 +70,19 @@ mapper_safety = {
                      "shot_separator":"\n\n",
                      "meta_type":"all","gen_len":50,"max_number_turns":2},
         ## THIS MAKE IT VERY VERY SAFE
-          "unsa_adv": {"file_data":"../data/safety_layers/safety_adv.json","with_knowledge":None,
-                     "shots":{1024:[0,1,2],2048:[0,1,2,3,4,5]},"max_shot":{1024:2,2048:3},
-                     "shot_separator":"\n\n",
-                     "meta_type":"all","gen_len":50,"max_number_turns":2},
+        #   "unsa_adv": {"file_data":"../data/safety_layers/safety_adv.json","with_knowledge":None,
+        #              "shots":{1024:[0,1,2],2048:[0,1,2,3,4,5]},"max_shot":{1024:2,2048:3},
+        #              "shot_separator":"\n\n",
+        #              "meta_type":"all","gen_len":50,"max_number_turns":2},
          }
 
 def run_parsers(args, model, tokenizer, device, max_seq, dialogue, skill, prefix_dict, api, api_key):
 
-    if skill not in ["msc", "wow"]: return dialogue
+    if skill not in ["wow"]: return dialogue
 
     ### parse 
     d_p = f"{skill}-parse"
-    # print(f"Parse with {d_p}")
+    print(f"Parse with {d_p}")
 
     prefix = prefix_dict[d_p].get(mapper[d_p]["max_shot"][max_seq])
     query = generate_response_interactive(model, tokenizer, shot_converter=mapper[d_p]["shot_converter"], 
@@ -92,18 +93,28 @@ def run_parsers(args, model, tokenizer, device, max_seq, dialogue, skill, prefix
                                                     do_sample=False, multigpu=False, api=api, api_key=api_key)
 
     
-    # print(f"Query: {query}")
+    print(f"Query: {query}")
     if query.lower() == "none": return dialogue
     dialogue["query"] = query
 
     if skill == "wow" and query not in dialogue["query_mem"]:
         dialogue["query_mem"].append(query)
         ## Try first with Wiki
+        retrieve_K = "None"
         try:
-            retrieve_K = wikipedia.summary(query, sentences=1)
+            retrieve_K = wikipedia.summary(query, sentences=1, auto_suggest=False)
+            print(f"Retrieved: {retrieve_K}")
+        except wikipedia.DisambiguationError as e:
+            s = random.choice(e.options)
+            print("New query: ", s)
+            try:
+                retrieve_K = wikipedia.summary(s, sentences=1, auto_suggest=False)
+            except:
+                print("Error retrieving wikipedia")
+                retrieve_K = "None"
         except:
+            print("Error retrieving wikipedia")
             retrieve_K = "None"
-        # print(f"Retrieve K: {retrieve_K}")
         dialogue["KB_wiki"][-1] = [retrieve_K]
     elif skill == "msc":
         dialogue["user"].append(query)
@@ -182,27 +193,43 @@ footer = """
 
 def render(list_turn, query_info):
     # print(query_info)
+    # means no query has been run
+    q = None
+    if query_info: 
+        if query_info and query_info["query"] == "": 
+            q = None
+        elif len(query_info["wiki"]):
+            kb = query_info["wiki"][0]
+            q = query_info["query"]
+        else:
+            q = query_info["query"]
+            kb = None
+             
     string = header 
     for id_t, turn in enumerate(list_turn):
         u, s =  html.escape(turn[0]), html.escape(turn[1])
         if id_t == 0 and s == '':
             # print("""botui.message.add({human: true,content: '""" +list_turn[i]+"'})")
             string += """botui.message.add({human: true, content: '""" +u+"'})"
+            if q:
+                query = f"Query: {q}" 
+                string += """.then(function () {return botui.message.add({type: 'html', content: '""" + html.escape(query)+"""'});})"""
         elif id_t == 0 and s != '':
             string += """botui.message.add({human: true, content: '""" +u+"'})"
-            if id_t == len(list_turn)-1 and query_info[0]!= "":
-                query = f"Query: {query_info[0]}" 
-                kb = f"KB: {query_info[1][0]}"
+            if id_t == len(list_turn)-1 and q:
+
+                query = f"Query: {q}" 
                 string += """.then(function () {return botui.message.add({type: 'html', content: '""" + html.escape(query)+"""'});})"""
-                string += """.then(function () {return botui.message.add({type: 'html', content: '""" + html.escape(kb)+"""'});})"""
+                if kb: 
+                    string += """.then(function () {return botui.message.add({type: 'html', content: '""" + html.escape(f"KB: {kb}")+"""'});})"""
             string += """.then(function () {return botui.message.add({content: '""" +s+"""'});})"""
         else:
             string += """.then(function () {return botui.message.add({human: true, content: '""" +u+"""'});})"""
-            if id_t == len(list_turn)-1 and s != '' and query_info[0]!= "":
-                query = f"Query: {query_info[0]}" 
-                kb = f"KB: {query_info[1][0]}"
+            if id_t == len(list_turn)-1 and q:
+                query = f"Query: {q}" 
                 string += """.then(function () {return botui.message.add({type: 'html', content: '""" + html.escape(query)+"""'});})"""
-                string += """.then(function () {return botui.message.add({type: 'html', content: '""" + html.escape(kb)+"""'});})"""
+                if kb: 
+                    string += """.then(function () {return botui.message.add({type: 'html', content: '""" + html.escape(f"KB: {kb}")+"""'});})"""
             if s != '':
                 string += """.then(function () {return botui.message.add({content: '""" +s+"""'});})"""
 
@@ -231,8 +258,8 @@ def display_app_header(main_txt,sub_txt,is_sidebar = False):
 
     html_temp = f"""
     <div style = "background.color:#3c403f  ; padding:15px">
-    <h2 style = "color:white; text_align:center;"> {main_txt} </h2>
-    <p style = "color:white; text_align:center;"> {sub_txt} </p>
+    <h2 style = "color:black; text_align:center;"> {main_txt} </h2>
+    <p style = "color:black; text_align:center;"> {sub_txt} </p>
     </div>
     """
     if is_sidebar:

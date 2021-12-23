@@ -359,10 +359,10 @@ def get_response(model, tokenizer, device, do_sample, beam, prefix_query, gen_le
     input_ids = tokenizer(str(prefix_query), return_tensors='pt')
     input_len = len(input_ids['input_ids'][0])
     # remove the first 100 characters from the prefix
-    if input_len + gen_len > max_seq-200:
+    if input_len + gen_len > max_seq-300:
         print("WARNING: the prefix is too long, truncating it") 
         print(f"Tokenized length: {input_len}")
-        token_to_remove = input_len + gen_len - (max_seq - 200)
+        token_to_remove = input_len + gen_len - (max_seq - 300)
         input_ids['input_ids'] = input_ids['input_ids'][:,token_to_remove:]
         input_len = len(input_ids['input_ids'][0])
         print(f"New Tokenized length: {input_len}")
@@ -405,7 +405,7 @@ def generate_response(model, tokenizer, shot_converter, file_to_eval,
             input_ids = tokenizer(prefix_query, return_tensors='pt')
             input_len = len(input_ids['input_ids'][0])
             shot_number_temp = prefix
-            while input_len + gen_len > max_seq-100:
+            while input_len + gen_len > max_seq-300:
                 shot_number_temp = shot_number_temp - 1
                 print(f"Prefix too long, decrease shot number from {prefix} to {shot_number_temp}")
                 prompt = get_prompt(dialogue,shot_number_temp,shot_converter)

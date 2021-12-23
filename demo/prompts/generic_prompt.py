@@ -564,14 +564,14 @@ def select_prompt_interactive(model, tokenizer, shot_converter, dialogue,
             prob_dict[k] = sum_val-v
         return random.choices(list(prob_dict.keys()), weights=prob_dict.values(), k=1)[0]
     else:
-        return min(prompt_ppl, key=prompt_ppl.get)
+        return min(prompt_ppl, key=prompt_ppl.get), prompt_ppl
 
 
 def generate_response_interactive(model, tokenizer, shot_converter, dialogue, 
                       prefix, device, with_knowledge, 
                       meta_type="all", gen_len=50, beam=1,max_seq=1024, 
                       eos_token_id=198, do_sample=False, multigpu=False, 
-                      api=False, api_key=""):
+                      api=False, api_key="", temperature=0.7, topp=0.9):
 
 
     prefix_query = prefix + shot_converter(dialogue, with_knowledge)
@@ -587,7 +587,8 @@ def generate_response_interactive(model, tokenizer, shot_converter, dialogue,
                 "numResults": 1, 
                 "maxTokens": input_len+gen_len if input_len+gen_len<max_seq else max_seq, 
                 "stopSequences": ["\n"],
-                "topP": 0.9
+                "topP": topp,
+                "temperature": temperature,
             }
         )
         json_data = json.loads(response.text)
@@ -602,7 +603,10 @@ def generate_response_interactive(model, tokenizer, shot_converter, dialogue,
                 eos_token_id=eos_token_id, # "\n"
                 num_beams=beam,
                 early_stopping=True,
-                top_p=0.9
+                top_p=topp,
+                temperature=temperature,
+                min_length=4,
+                sample=True,
             )
     response = tokenizer.decode(output[0][input_len:])
     response = response.split("\n")[0].strip()
